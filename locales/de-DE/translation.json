@@ -172,6 +172,9 @@
           "keepSteam": "Mein Steam Nickname ({{steamNickname}})"
         },
         "prompt": "Dein öffentlicher Name"
+      },
+      "language": {
+        "prompt": "Sprache (Experimentell)"
       }
     }
   },
