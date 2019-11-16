@@ -221,6 +221,9 @@
     },
     "timeWithProton": "{{time}} with Proton"
   },
+  "search": {
+    "resultsHeader": "Search results for {{q}}"
+  },
   "stats": {
     "analysisInByTheNumbers1": "Analysis in By The Numbers #1",
     "byCommonDisplayDrivers": "By Common Display Drivers",
