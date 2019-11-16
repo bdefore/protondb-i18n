@@ -56,6 +56,11 @@
     "nativelySupports": "Native Unterstützung"
   },
   "home": {
+    "getStartedLinks": [
+      "[Steam's Ozzizielle Steam Play Seite](https://store.steampowered.com/steamplay)",
+      "[A guide to migrating to Linux](https://www.reddit.com/r/linux_gaming/comments/9oqq3w/guide_migrating_to_linux_in_2019/)",
+      "[What is Vulkan?](https://www.reddit.com/r/linux_gaming/comments/9ritk1/not_sure_i_quite_understand_can_someone_explain/)"
+    ],
     "headline": "Mit Proton und Steam Play funktionieren viele Windows-Spiele jetzt auch unter Linux!",
     "howDoIHelp": {
       "answer": "Probiere Linux aus! Falls du noch neu dabei bist, mach dir keine Sorgen. Hier ist eine Liste von Anleitungen für den Einstieg. Und wenn du Valve und Proton bei der Verbesserung helfen möchtest, trage deine Bewertungen hier auf ProtonDB ein!",
@@ -84,8 +89,10 @@
     "whyBigDeal": {
       "answer": "Das Linux-Desktop-Erlebnis hat sich in den letzten ein oder zwei Jahren sprunghaft verbessert. Das meiste, was du unter Windows oder MacOS gewohnt bist, ist unter Linux möglich, ohne zu viel basteln zu müssen, und das Basteln kann sogar Spaß machen. Inzwischen finden immer mehr unserer täglichen Interaktionen mit einem Computer online statt, und Browser verhalten sich unter Linux ähnlich wie unter anderen Betriebssystemen. Proton und Steam Play adressieren ein wesentliches Hindernis für die Akzeptanz: das Spielen, bei dem es bis vor kurzem nur begrenzte Kompatibilität gab.",
       "question": "Warum ist das eine große Sache?"
-    }
+    },
+    "youtubeId": "Co6FePZoNgE"
   },
+  "i18nStamp": 1573767610406,
   "libraryLoader": {
     "errorLoadingGames": "Fehler beim Laden von Spielen. Bitte stelle sicher, dass sowohl Profil- als auch Spieledetails auf diesem Konto öffentlich sind!",
     "gameTotal": "{{count}} Spiele in der Bibliothek geladen!",
@@ -248,6 +255,5 @@
     "pasteInstructions": "Steam Systeminformationen hier eingeben",
     "unsupportedHeadline": "Nicht unterstützte Treiber erkannt",
     "unsupportedWarning": "Der Anzeigetreiber deines Systems entspricht nicht den [aktuellen Mindestanforderungen von Proton]({{link}})! Es kann zu Abstürzen, langsamer Leistung oder grafischen Beeinträchtigungen kommen. Du kannst immer noch Berichte einreichen und es gibt immer noch einen Wert in deinen Beiträgen, aber deine Berichte zeigen deine Grafiktreiber in rot an und werden nicht für die Gesamtbewertung von Spielen gezählt. Bitte aktualisiere deine Treiber!"
-  },
-  "i18nStamp": 1573767610406
+  }
 }
