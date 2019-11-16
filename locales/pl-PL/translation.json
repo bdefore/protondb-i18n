@@ -221,6 +221,9 @@
     },
     "timeWithProton": "{{time}} z Protonem"
   },
+  "search": {
+    "resultsHeader": "Wyniki wyszukiwania dla {{q}}"
+  },
   "stats": {
     "analysisInByTheNumbers1": "Analiza w By The Numbers #1",
     "byCommonDisplayDrivers": "Według najpopularniejszych sterowników graficznych",
