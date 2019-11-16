@@ -48,7 +48,7 @@ Keep an eye out for page rendering issues if your text is smaller or larger than
 ### Known Active Translators
 
 - Portuguese (pt-BR): [@pedrofleck](https://github.com/pedrofleck)
-- Spanish (es-ES): [@xathech](https://github.com/pedrofleck) (ongoing at #4)
+- Spanish (es-ES): [@xathech](https://github.com/pedrofleck) (ongoing at [PR #4](https://github.com/bdefore/protondb-i18n/pull/4))
 
 ### Hall of Fame
 
