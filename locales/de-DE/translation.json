@@ -121,7 +121,7 @@
     "include": "Einbeziehen",
     "install": "Installieren",
     "joinUsPrompt": "Komm zu uns auf Discord!",
-    "lastContentRefreshTime": "Letztes Inhaltupdate war {{time}}",
+    "lastContentRefreshTime": "Letztes Inhaltupdate vor {{time}}",
     "meetsRequirements": "Erfüllt die Anforderungen",
     "moreInfo": "Mehr Informationen",
     "multiplayer": "Mehrspieler",

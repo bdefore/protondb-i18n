@@ -122,7 +122,7 @@
     "include": "Include",
     "install": "Install",
     "joinUsPrompt": "Join us on Discord!",
-    "lastContentRefreshTime": "Last content refresh was {{time}}",
+    "lastContentRefreshTime": "Last content refresh was {{time}} ago",
     "meetsRequirements": "Meets Requirements",
     "moreInfo": "More Info",
     "multiplayer": "Multiplayer",
@@ -221,6 +221,9 @@
     },
     "timeWithProton": "{{time}} with Proton"
   },
+  "search": {
+    "resultsHeader": "Search results for {{q}}"
+  },
   "stats": {
     "analysisInByTheNumbers1": "Analysis in By The Numbers #1",
     "byCommonDisplayDrivers": "By Common Display Drivers",
@@ -233,6 +236,10 @@
     "gamesWithNOrMoreReports": "Games With N Or More Reports",
     "reportRatingDistributionOverTime": "Report Rating Distribution Over Time",
     "whenMeetingMinimumRequirements": "When Meeting Minimum Requirements"
+  },
+  "suggestions": {
+    "headline": "Ready for more?",
+    "intro": "The following games have been selected based on hours you've played, popularity, and SteamDB rating. They all lack reports and some may only need one more to get a {{siteName}} rating! You can reload for other suggestions or go to [Lack Reports]({{link}}) filter of Explore page for even more."
   },
   "systemInfo": {
     "headline": "System Information",

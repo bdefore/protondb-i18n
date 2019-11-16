@@ -39,7 +39,7 @@
   },
   "borked": {
     "headline": "That's a bummer!",
-    "intro": "You will now proceed with submitting a borked report, but before you do you may want to visit our [Game Troubleshooting FAQ]({{link}} page."
+    "intro": "You will now proceed with submitting a borked report, but before you do you may want to visit our [Game Troubleshooting FAQ]({{link}}) page."
   },
   "customizationsUsed": {
     "additionalNotes": {
@@ -310,6 +310,12 @@
     "maxChars": "Max {{count}} chars",
     "next": "Next",
     "submit": "Submit",
+    "submission": {
+      "success": "Successfully Submitted",
+      "note": "Please note that new reports will be in a pending state until the next content refresh. You can view your contributions on your [Profile]({{link}})",
+      "error": "There was an error during submission. Please let us know how this happened!",
+      "thanks": "Thanks for your contribution to {{siteName}}"
+    },
     "tooLong": "Too long"
   },
   "multiplayerAppraisal": {
@@ -362,6 +368,10 @@
       }
     },
     "prompt": "Did you experience unexpected slowness given your hardware?"
+  },
+  "prerequisitesBlock": {
+    "action": "Go to profile",
+    "context": "You'll need to log into Steam and provide system information before submitting!"
   },
   "preview": {
     "intro": "Things to check for:",

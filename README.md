@@ -32,7 +32,7 @@ All native speakers are welcome to contribute! Please do not make pull requests 
 - Run `yarn lint:json` to validate everything is alphabetized and formatted properly
 - Commit, push, and open a pull request!
 
-Any questions? Ask us on [Discord](https://discord.gg/uuwK9EV)
+Any questions? Ask us on [Discord](https://discord.gg/uuwK9EV) You might want to let us know on there anyway that you're starting work so that we can add you to Known Active Translators below.
 
 ### Verify Your Changes
 
@@ -47,7 +47,7 @@ Keep an eye out for page rendering issues if your text is smaller or larger than
 
 ### Known Active Translators
 
-Maybe you?
+- Portuguese (pt-BR): [@pedrofleck](https://github.com/pedrofleck)
 
 ### Hall of Fame
 
