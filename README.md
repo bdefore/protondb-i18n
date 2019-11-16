@@ -47,7 +47,7 @@ Keep an eye out for page rendering issues if your text is smaller or larger than
 
 ### Known Active Translators
 
-Maybe you?
+- Portuguese (pt-BR): [@pedrofleck](https://github.com/pedrofleck)
 
 ### Hall of Fame
 
