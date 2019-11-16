@@ -201,7 +201,7 @@
       "gold": "Läuft perfekt nach einigen optimierungen",
       "native": "Läuft nativ auf Linux",
       "pending": "Warten auf weitere Berichte, bevor eine Bewertung möglich ist",
-      "platinum": "Läuft perfekt ohne jegliche Ändeurngen",
+      "platinum": "Läuft perfekt ohne jegliche Änderungen",
       "silver": "Läuft mit kleineren Problemen, ist aber im Allgemeinen spielbar"
     },
     "headline": "Bewertungsdefinitionen"
@@ -211,7 +211,7 @@
     "specs": {
       "cpu": "CPU",
       "gpu": "GPU",
-      "gpuDriver": "GPU Driver",
+      "gpuDriver": "GPU Treiber",
       "kernel": "Kernel",
       "os": "Distro",
       "otherSpecs": "Andere Spezifikationen",
