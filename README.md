@@ -29,7 +29,7 @@ All native speakers are welcome to contribute! Please do not make pull requests 
 - If starting a new locale, create the directory named after your language tag within `locales` and copy over files from the `locales/en-US` directory
 - Make your changes/additions
 - Review them visually (see Verify Your Changes below)
-- Run `yarn lint:json` to validate everything is alphabetized and formatted properly
+- Run `yarn run lint:json` to validate everything is alphabetized and formatted properly
 - Commit, push, and open a pull request!
 
 Any questions? Ask us on [Discord](https://discord.gg/uuwK9EV) You might want to let us know on there anyway that you're starting work so that we can add you to Known Active Translators below.
