@@ -1,9 +1,9 @@
 {
   "appSelection": {
-    "placeholder": "Gib den Namen eines Spiels aus deiner Steam-Bibliothek ein....",
-    "helperText": "Du kannst auch Links oder eine App-ID einfügen und wir werden versuchen, sie zu finden",
     "caution": "Vorsicht!",
+    "helperText": "Du kannst auch Links oder eine App-ID einfügen und wir werden versuchen, sie zu finden",
     "notFound": "Das Spiel mit der App-ID {{Query}}} konnte nicht gefunden werden. Dies kann passieren falls die ID nicht stimmt,: oder das Spiel aus dem  Steam-Shop entfernt wurde, nicht als 'Spiel' aufgeführt ist oder in Ihrem Land nicht verfügbar ist.",
+    "placeholder": "Gib den Namen eines Spiels aus deiner Steam-Bibliothek ein....",
     "previousReportsExist": "Es gibt ältere Bewertungen von dir zu diesem Spiel",
     "runsNativeWarning": "Das ausgewählte Spiel hat eine native Linux-Version veröffentlicht! Bitte stelle sicher, dass du das Spiel nicht versehentlich nativ ausgeführt hast. Steam verwendet Steam Play nicht, um dieses Spiel standardmäßig auszuführen, aber [du kannst dies erzwingen]({{link}})."
   },
@@ -36,6 +36,10 @@
       }
     },
     "prompt": "Hattest du Probleme mit dem Audio?"
+  },
+  "borked": {
+    "headline": "Das ist ein Jammer!",
+    "intro": "Du wurst nun mit der Einreichung einer 'Kaputt-Wertung' fortfahren, aber bevor du dies tust, sollten du unsere [FAQ zur Fehlerbehebung bei Spielen]({{link}}) besuchen."
   },
   "customizationsUsed": {
     "additionalNotes": {
@@ -97,17 +101,13 @@
       "moreThanTenHours": {
         "long": "> 10 Stunden",
         "short": "> 10 Stunden"
-       },
+      },
       "severalHours": {
         "long": "2+ Stunden",
         "short": "2+ Stunden"
       }
     },
     "prompt": "Wie lange hast du gespielt?"
-  },
-  "borked": {
-    "headline": "Das ist ein Jammer!",
-    "intro": "Du wurst nun mit der Einreichung einer 'Kaputt-Wertung' fortfahren, aber bevor du dies tust, sollten du unsere [FAQ zur Fehlerbehebung bei Spielen]({{link}}) besuchen."
   },
   "extra": {
     "additionalNotes": {
