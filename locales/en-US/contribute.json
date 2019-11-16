@@ -363,6 +363,10 @@
     },
     "prompt": "Did you experience unexpected slowness given your hardware?"
   },
+  "prerequisitesBlock": {
+    "action": "Go to profile",
+    "context": "You'll need to log into Steam and provide system information before submitting!"
+  },
   "preview": {
     "intro": "Things to check for:",
     "notes": [
