@@ -39,7 +39,7 @@
   },
   "borked": {
     "headline": "A to pech!",
-    "intro": "You will now proceed with submitting a borked report, but before you do you may want to visit our [Game Troubleshooting FAQ]({{link}}) page."
+    "intro": "Będziesz teraz wysyłać raport oznaczający grę jako zepsutą. Zanim to zrobisz, możesz chcieć przejrzeć podstronę [najczęściej zadawanych pytań dot. rozwiązywania problemów z grami]({{link}})."
   },
   "customizationsUsed": {
     "additionalNotes": {
