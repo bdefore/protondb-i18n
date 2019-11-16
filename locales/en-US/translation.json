@@ -122,7 +122,7 @@
     "include": "Include",
     "install": "Install",
     "joinUsPrompt": "Join us on Discord!",
-    "lastContentRefreshTime": "Last content refresh was {{time}}",
+    "lastContentRefreshTime": "Last content refresh was {{time}} ago",
     "meetsRequirements": "Meets Requirements",
     "moreInfo": "More Info",
     "multiplayer": "Multiplayer",
