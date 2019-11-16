@@ -48,10 +48,12 @@ Keep an eye out for page rendering issues if your text is smaller or larger than
 ### Known Active Translators
 
 - Portuguese (pt-BR): [@pedrofleck](https://github.com/pedrofleck)
+- Spanish (es-ES): [@xathech](https://github.com/pedrofleck) (ongoing at #4)
 
 ### Hall of Fame
 
 - German (de-DE): [@NoXPhasma](https://github.com/NoXPhasma)
+- Polish (pl-PL): [@kacperski1](https://github.com/kacperski1)
 
 ### Coming soon
 
