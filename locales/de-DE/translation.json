@@ -219,6 +219,9 @@
     },
     "timeWithProton": "{{time}} mit Proton"
   },
+  "search": {
+    "resultsHeader": "Suchergebnisse für {{q}}"
+  },
   "stats": {
     "analysisInByTheNumbers1": "Analysis in By The Numbers #1",
     "byCommonDisplayDrivers": "Nach gängigen Display-Treiber",
@@ -231,6 +234,10 @@
     "gamesWithNOrMoreReports": "Spiele mit N oder mehr Bewertungen",
     "reportRatingDistributionOverTime": "Verteilung der Bewertung im Zeitablauf",
     "whenMeetingMinimumRequirements": "Bei der Erfüllung von Mindestanforderungen"
+  },
+  "suggestions": {
+    "headline": "Bist du bereit für mehr?",
+    "intro": "Die folgenden Spiele wurden nach Spielzeit, Beliebtheit und SteamDB-Bewertung ausgewählt. Allen fehlt es an Bewertungen und einige brauchen vielleicht nur noch eine weitere, um eine {{siteName}}} Wertung zu erhalten! Du kannst für andere Vorschläge neu laden oder nach [Bewertungen benötigt]({{link}}}) auf der Seite Erkunden suchen, um noch mehr zu finden."
   },
   "systemInfo": {
     "headline": "Systeminformationen",

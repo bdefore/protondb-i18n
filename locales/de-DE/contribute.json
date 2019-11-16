@@ -310,6 +310,12 @@
     "maxChars": "Maximal {{count}} Zeichen",
     "next": "Nächste",
     "submit": "Absenden",
+    "submission": {
+      "success": "Erfolgreich übermittelt",
+      "note": "Bitte beachte, dass sich neue Einreichungen bis zur nächsten Aktualisierung des Inhalts in einem Wartestatus befinden. Du kannst deine Beiträge in deinem [Profil]({{link}}) einsehen",
+      "error": "Es gab einen Fehler bei der Übermittlung. Bitte lass uns wissen, wie das passiert ist!",
+      "thanks": "Vielen Dank für deinen Beitrag zu {{siteName}}"
+    },
     "tooLong": "Zu lang"
   },
   "multiplayerAppraisal": {
@@ -362,6 +368,10 @@
       }
     },
     "prompt": "Hast du angesichts deiner Hardware eine unerwartet schlechte Leistung erlebt?"
+  },
+  "prerequisitesBlock": {
+    "action": "Zum Profil gehen",
+    "context": "Du musst dich bei Steam anmelden und Systeminformationen angeben, bevor du es abschicken kannst!"
   },
   "preview": {
     "intro": "Dinge die du noch einmal überprüfen solltest:",
