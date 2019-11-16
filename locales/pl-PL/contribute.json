@@ -310,6 +310,12 @@
     "maxChars": "Do {{count}} znaków",
     "next": "Dalej",
     "submit": "Wyślij",
+    "submission": {
+      "success": "Pomyślnie wysłano",
+      "note": "Pamiętaj, że nowe raporty pozostaną w stanie oczekiwania do czasu następnego odświeżenia zawartości. Możesz przeglądać swój wkład w [profilu]({{link}})",
+      "error": "Podczas wysyłania raportu wystąpił błąd. Prosimy, poinformuj nas, w jakich okolicznościach się to stało!",
+      "thanks": "Dziękujemy za twój wkład w {{siteName}}"
+    },
     "tooLong": "Za długie"
   },
   "multiplayerAppraisal": {
@@ -362,6 +368,10 @@
       }
     },
     "prompt": "Czy napotkałeś niespodziewane spadki płynności, biorąc pod uwagę twoją konfigurację sprzętową?"
+  },
+  "prerequisitesBlock": {
+    "action": "Przejdź do profilu",
+    "context": "Musisz zalogować się przez Steam oraz podać swoje informacje systemowe przed przesłaniem!"
   },
   "preview": {
     "intro": "Rzeczy do sprawdzenia:",
