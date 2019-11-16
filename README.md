@@ -29,7 +29,7 @@ All native speakers are welcome to contribute! Please do not make pull requests 
 - If starting a new locale, create the directory named after your language tag within `locales` and copy over files from the `locales/en-US` directory
 - Make your changes/additions
 - Review them visually (see Verify Your Changes below)
-- Run `yarn lint:json` to validate everything is alphabetized and formatted properly
+- Run `yarn run lint:json` to validate everything is alphabetized and formatted properly
 - Commit, push, and open a pull request!
 
 Any questions? Ask us on [Discord](https://discord.gg/uuwK9EV) You might want to let us know on there anyway that you're starting work so that we can add you to Known Active Translators below.
@@ -48,10 +48,12 @@ Keep an eye out for page rendering issues if your text is smaller or larger than
 ### Known Active Translators
 
 - Portuguese (pt-BR): [@pedrofleck](https://github.com/pedrofleck)
+- Spanish (es-ES): [@xathech](https://github.com/pedrofleck) (ongoing at [PR #4](https://github.com/bdefore/protondb-i18n/pull/4))
 
 ### Hall of Fame
 
 - German (de-DE): [@NoXPhasma](https://github.com/NoXPhasma)
+- Polish (pl-PL): [@kacperski1](https://github.com/kacperski1)
 
 ### Coming soon
 
