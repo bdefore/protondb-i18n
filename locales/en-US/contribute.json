@@ -39,7 +39,7 @@
   },
   "borked": {
     "headline": "That's a bummer!",
-    "intro": "You will now proceed with submitting a borked report, but before you do you may want to visit our [Game Troubleshooting FAQ]({{link}} page."
+    "intro": "You will now proceed with submitting a borked report, but before you do you may want to visit our [Game Troubleshooting FAQ]({{link}}) page."
   },
   "customizationsUsed": {
     "additionalNotes": {
