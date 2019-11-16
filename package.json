@@ -1,0 +1,11 @@
+{
+  "name": "protondb-i18n",
+  "version": "0.1.0",
+  "license": "MIT",
+  "dependencies": {
+    "jsonlint": "^1.6.3"
+  },
+  "scripts": {
+    "lint:json": "npx jsonlint -qsi locales/**/*.json"
+  }
+}
