@@ -56,6 +56,11 @@
     "nativelySupports": "Natively Supports"
   },
   "home": {
+    "getStartedLinks": [
+      "[Steam's Official Steam Play Page](https://store.steampowered.com/steamplay)",
+      "[A guide to migrating to Linux](https://www.reddit.com/r/linux_gaming/comments/9oqq3w/guide_migrating_to_linux_in_2019/)",
+      "[What is Vulkan?](https://www.reddit.com/r/linux_gaming/comments/9ritk1/not_sure_i_quite_understand_can_someone_explain/)"
+    ],
     "headline": "With Proton and Steam Play, many Windows games now work on Linux!",
     "howDoIHelp": {
       "answer": "Give Linux a try! If you are new, not to worry. Here is a list of guides to get started. And if you want to help Valve and Proton to improve, contribute your reports here on ProtonDB!",
@@ -84,7 +89,8 @@
     "whyBigDeal": {
       "answer": "The Linux desktop experience has improved by leaps and bounds in the last year or two. Most of what you may be used to on Windows or MacOS is possible on Linux without having to tinker too much, and the tinkering can even be fun. Meanwhile, more and more of our daily interactions with a computer happen online, and browsers behave much the same on Linux as they do on other operating systems. Proton and Steam Play address a significant obstacle to adoption: gaming, where until recently there was limited compatibility.",
       "question": "Why is this a big deal?"
-    }
+    },
+    "youtubeId": "Co6FePZoNgE"
   },
   "i18nStamp": 1573767610406,
   "libraryLoader": {
