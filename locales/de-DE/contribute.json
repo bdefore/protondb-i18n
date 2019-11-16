@@ -1,9 +1,9 @@
 {
   "appSelection": {
-    "caution": "Vorsicht!",
-    "helperText": "Du kannst auch Links oder eine App-ID einfügen und wir werden versuchen, sie zu finden",
-    "notFound": "Das Spiel mit der App-ID {{Query}}} konnte nicht gefunden werden. Dies kann passieren falls die ID nicht stimmt,: oder das Spiel aus dem  Steam-Shop entfernt wurde, nicht als 'Spiel' aufgeführt ist oder in Ihrem Land nicht verfügbar ist.",
     "placeholder": "Gib den Namen eines Spiels aus deiner Steam-Bibliothek ein....",
+    "helperText": "Du kannst auch Links oder eine App-ID einfügen und wir werden versuchen, sie zu finden",
+    "caution": "Vorsicht!",
+    "notFound": "Das Spiel mit der App-ID {{Query}}} konnte nicht gefunden werden. Dies kann passieren falls die ID nicht stimmt,: oder das Spiel aus dem  Steam-Shop entfernt wurde, nicht als 'Spiel' aufgeführt ist oder in Ihrem Land nicht verfügbar ist.",
     "previousReportsExist": "Es gibt ältere Bewertungen von dir zu diesem Spiel",
     "runsNativeWarning": "Das ausgewählte Spiel hat eine native Linux-Version veröffentlicht! Bitte stelle sicher, dass du das Spiel nicht versehentlich nativ ausgeführt hast. Steam verwendet Steam Play nicht, um dieses Spiel standardmäßig auszuführen, aber [du kannst dies erzwingen]({{link}})."
   },
@@ -19,7 +19,7 @@
         "short": "Knistern"
       },
       "lowQuality": {
-        "long": "Spürbare Qualitätsverschlechterung",
+        "long": "Niedrige Audioqualität",
         "short": "Nidrige Qualität"
       },
       "missing": {
@@ -31,15 +31,11 @@
         "short": "Sonstiges"
       },
       "outOfSync": {
-        "long": "Nicht mehr synchron",
+        "long": "Audio ist nicht synchron",
         "short": "Nicht synchron"
       }
     },
     "prompt": "Hattest du Probleme mit dem Audio?"
-  },
-  "borked": {
-    "headline": "Das ist ein Jammer!",
-    "intro": "Du wurst nun mit der Einreichung einer 'Kaputt-Wertung' fortfahren, aber bevor du dies tust, sollten du unsere [FAQ zur Fehlerbehebung bei Spielen]({{link}} besuchen."
   },
   "customizationsUsed": {
     "additionalNotes": {
@@ -101,13 +97,17 @@
       "moreThanTenHours": {
         "long": "> 10 Stunden",
         "short": "> 10 Stunden"
-      },
+       },
       "severalHours": {
         "long": "2+ Stunden",
         "short": "2+ Stunden"
       }
     },
     "prompt": "Wie lange hast du gespielt?"
+  },
+  "borked": {
+    "headline": "Das ist ein Jammer!",
+    "intro": "Du wurst nun mit der Einreichung einer 'Kaputt-Wertung' fortfahren, aber bevor du dies tust, sollten du unsere [FAQ zur Fehlerbehebung bei Spielen]({{link}} besuchen."
   },
   "extra": {
     "additionalNotes": {
@@ -166,8 +166,8 @@
     "legend": "Eingabe",
     "options": {
       "bounding": {
-        "long": "Bounds were incorrect",
-        "short": "Bounding"
+        "long": "Deadzone ist nicht korrekt",
+        "short": "Deadzone"
       },
       "controllerMapping": {
         "long": "Controllertasten wurden nicht richtig zugeordnet.",
@@ -182,7 +182,7 @@
         "short": "Reaktionsfähigkeit"
       },
       "drifting": {
-        "long": "Axes would drift",
+        "long": "Die Axen fahren nicht in die 0 Position zurück",
         "short": "Drifting"
       },
       "inaccuracy": {
@@ -190,7 +190,7 @@
         "short": "Ungenauigkeit"
       },
       "lag": {
-        "long": "Der Input war verzögert.",
+        "long": "Die Eingabe war verzögert.",
         "short": "Verzögerung"
       },
       "other": {
@@ -353,7 +353,7 @@
     "legend": "Leistung",
     "options": {
       "significantSlowdown": {
-        "long": "Signifikante langsam",
+        "long": "Signifikant langsam",
         "short": "Signifikant"
       },
       "slightSlowdown": {
@@ -364,9 +364,9 @@
     "prompt": "Hast du angesichts deiner Hardware eine unerwartet schlechte Leistung erlebt?"
   },
   "preview": {
-    "intro": "Dinge, auf die man achten sollte:",
+    "intro": "Dinge die du noch einmal überprüfen solltest:",
     "notes": [
-      "Sind deine Systeminformationen auf dem neuesten Stand? Du musst zu deinem Profil gehen und deine Steam-Informationen nach einem Grafiktreiber-Update erneuern.",
+      "Sind deine Systeminformationen auf dem neuesten Stand? Du musst zu deinem Profil gehen und deine Steam-Informationen nach einem Grafiktreiber-Update erneuern",
       "Hast du das richtige Spiel ausgewählt? Einige Spiele haben den gleichen Namen wie ältere Versionen, z.B. GRID",
       "Hast du Beschreibungen an der richtigen Stelle hinzugefügt? Schreibe beispielsweise Notizen zu Grafikproblemen in dem Abschnitt, anstatt in den Abschlussnotizen."
     ]
@@ -439,13 +439,13 @@
     "setup": "Einrichtung",
     "stability": "Stabilität",
     "startup": "Installation und starten",
-    "tinkerCheck": "Art der Bewertung",
+    "tinkerCheck": "Bewertungsart",
     "unownedWarning": "Nicht in der Bibliothek"
   },
   "type": {
     "intro": [
       "ProtonDB unterteilt Bewertungen nun in zwei Arten: Steam Play und Bastler.",
-      "Verwende die Steam Play Bewertung, um das Out-of-the-Box-Erlebnis abzudecken. Installieren, auf Spiel klicken und Ihr Spiel starten.",
+      "Verwende die Steam Play Bewertung, um das Out-of-the-Box-Erlebnis abzudecken. Installieren, auf Play klicken und das Spiel starten.",
       "Verwende Bastler Bewertung, wenn du Optimierungen oder Anpassungen vorgenommen hast, um das Spiel zum Laufen zu bringen.",
       "Für weitere Informationen zu den Unterschieden, schau dir [diese News an]({{link}})."
     ],
@@ -469,12 +469,12 @@
     "prompt": "Würde ein typischer Spieler eine angenehme Erfahrung beim spielen dieses Spiels unter Linux mit Proton haben?"
   },
   "welcome": {
-    "intro": "Vielen Dank für dein Interesse an der Erweiterung des ProtonDB-Katalogs der Kompatibilitätsberichte über Steam Play und Proton! Bitte beachten die folgenden Punkte, bevor du einen Beitrag leistest",
+    "intro": "Vielen Dank für dein Interesse an der Erweiterung des ProtonDB-Katalogs von Kompatibilitätsberichten über Steam Play und Proton! Bitte beachten die folgenden Punkte, bevor du einen Beitrag leistest:",
     "notes": [
-      "Diese Bewertungen werden auf ProtonDB zur Überprüfung veröffentlicht und von anderen Spielern, Valve und Entwicklern verwendet, um Spiele zu identifizieren und zu reparieren. Bitte halte deine Bewertungen genau, frei von beleidigender Sprache und verzichte darauf, Berichte zu übermitteln, nur um für Ihr Lieblingsspiel, Ihre Lieblings Distribution oder Ihre Grafikkarte zu werben.",
-      "Es wird empfohlen, mehrere Berichte für das gleiche Spiel einzureichen! Wenn du mehr spielst oder Proton aktualisierst, wirst du mehr Informationen zum Teilen haben. Auf diese Weise unterscheidet sich ProtonDB von einem Wiki, da jeder Bericht als 'Schnappschuss' dient, wie das Spiel zu diesem Zeitpunkt mit deiner Konfiguration gespielt wurde.",
-      "Wenn du mehrere Berichte einreichst, wird nur dein neuester Bericht für die ProtonDB-Wertung herangezogen und nur dann, wenn Ihre Systeminformationen die Mindestanforderungen von Proton erfüllen.",
-      "Deine Einreichungen werden auf ProtonDB öffentlich sichtbar sein und sind in Datenexporten unter der Open Database License verfügbar. Folge diesem [Link]({{link}}) für mehr Informationen."
+      "Diese Bewertungen werden auf ProtonDB zur Überprüfung veröffentlicht und von anderen Spielern, Valve und Entwicklern verwendet, um Spiele zu identifizieren und lauffähig zu machen. Bitte halte deine Bewertungen genau, frei von beleidigender Sprache und verzichte darauf Berichte zu übermitteln, nur um für dein Lieblingsspiel, deine Lieblings-Distribution oder deine Grafikkarte zu werben",
+      "Es wird empfohlen, mehrere Berichte für das gleiche Spiel einzureichen! Wenn du mehr spielst oder Proton aktualisierst, wirst du mehr Informationen zum Teilen haben. Auf diese Weise unterscheidet sich ProtonDB von einem Wiki, da jeder Bericht als 'Schnappschuss' dient, wie das Spiel zu diesem Zeitpunkt mit deiner Konfiguration funktioniert",
+      "Wenn du mehrere Berichte einreichst, wird nur dein neuester Bericht für die ProtonDB-Wertung herangezogen und nur dann, wenn deine Systeminformationen die Mindestanforderungen von Proton erfüllen",
+      "Deine Einreichungen werden auf ProtonDB öffentlich sichtbar sein und sind in Datenexporten unter der Open Database License verfügbar. Folge diesem [Link]({{link}}) für mehr Informationen"
     ],
     "outro": "Damit lass uns anfangen!"
   },
@@ -486,7 +486,7 @@
         "short": "Vollbild aktivieren"
       },
       "fullNotFull": {
-        "long": "Der Vollbildmodus war nicht vollständig voll.",
+        "long": "Der Vollbildmodus streckte sich nicht über den ganzen Bildschirm.",
         "short": "Größe"
       },
       "other": {

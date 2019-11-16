@@ -27,7 +27,7 @@
       "recentlyImproved": "Kürzlich verbessert",
       "wellRatedHere": "Hier gut bewertet"
     },
-    "layout": "Layout",
+    "layout": "Darstellung",
     "loadError": "Fehler beim laden der Spiele!",
     "notLoggedIn": "Die Bibliotheok kann ohne eine Steam ID nicht geladen werden. Gehe in dein [Profil]({{link}}) um sie hinzuzufügen",
     "poweredBy": "Unterstützt von",
@@ -86,7 +86,6 @@
       "question": "Warum ist das eine große Sache?"
     }
   },
-  "i18nStamp": 1573767610406,
   "libraryLoader": {
     "errorLoadingGames": "Fehler beim Laden von Spielen. Bitte stelle sicher, dass sowohl Profil- als auch Spieledetails auf diesem Konto öffentlich sind!",
     "gameTotal": "{{count}} Spiele in der Bibliothek geladen!",
@@ -173,9 +172,6 @@
           "keepSteam": "Mein Steam Nickname ({{steamNickname}})"
         },
         "prompt": "Dein öffentlicher Name"
-      },
-      "language": {
-        "prompt": "Sprache (Experimentell"
       }
     }
   },
@@ -193,7 +189,7 @@
       "lackReportsBySteamDbScore": "Bewertungen benötigt nach SteamDB Benutzerwertung"
     },
     "notInYourLibrary": "Nicht in deiner Bibliothek",
-    "yourContributions": "Ihre Einreichungen"
+    "yourContributions": "Deine Einreichungen"
   },
   "ratingDefinitions": {
     "explanations": {
@@ -242,5 +238,6 @@
     "pasteInstructions": "Steam Systeminformationen hier eingeben",
     "unsupportedHeadline": "Nicht unterstützte Treiber erkannt",
     "unsupportedWarning": "Der Anzeigetreiber deines Systems entspricht nicht den [aktuellen Mindestanforderungen von Proton]({{link}})! Es kann zu Abstürzen, langsamer Leistung oder grafischen Beeinträchtigungen kommen. Du kannst immer noch Berichte einreichen und es gibt immer noch einen Wert in deinen Beiträgen, aber deine Berichte zeigen deine Grafiktreiber in rot an und werden nicht für die Gesamtbewertung von Spielen gezählt. Bitte aktualisiere deine Treiber!"
-  }
+  },
+  "i18nStamp": 1573767610406
 }
