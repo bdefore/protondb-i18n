@@ -1,3 +1,5 @@
+## Translation of protondb to Brazillian Portuguese
+
 # protondb-i18n
 
 A crowdsourced journey to translate [ProtonDB](https://www.protondb.com) ([News post](https://www.protondb.com/news/protondb-spricht-nun-auch-deutsch))
