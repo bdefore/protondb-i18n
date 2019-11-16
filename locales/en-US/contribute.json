@@ -315,7 +315,8 @@
       "note": "Please note that new reports will be in a pending state until the next content refresh. You can view your contributions on your [Profile]({{link}})",
       "error": "There was an error during submission. Please let us know how this happened!",
       "thanks": "Thanks for your contribution to {{siteName}}"
-    }
+    },
+    "tooLong": "Too long"
   },
   "multiplayerAppraisal": {
     "options": {
