@@ -1,67 +1,67 @@
 {
   "breakdown": {
-    "headline": "Popular Games",
-    "popularHeadline": "Ratings for {{count}} most popular",
-    "topHundred": "Top Hundred",
-    "topTen": "Top Ten",
-    "topThousand": "Top Thousand",
+    "headline": "Populära spel",
+    "popularHeadline": "Betyg för {{count}} mest populära",
+    "topHundred": "Top hundra",
+    "topTen": "Top tio",
+    "topThousand": "Top tusen",
     "topics": {
-      "allGames": "All Games",
+      "allGames": "Alla spel",
       "indie": "Indie",
-      "localMultiplayer": "Local Multiplayer",
-      "singlePlayer": "Single Player",
+      "localMultiplayer": "Lokal multiplayer",
+      "singlePlayer": "Singleplayer",
       "vr": "VR"
     },
-    "unavailable": "Unavailable",
-    "unrated": "Unrated",
-    "unreported": "Unreported"
+    "unavailable": "Otillgängliga",
+    "unrated": "Obetygsatt",
+    "unreported": "Saknar rapporter"
   },
   "explore": {
     "headlines": {
-      "fixWanted": "Fix Wanted",
-      "highestRated": "Highest Rated on SteamDB",
-      "hoursPlayed": "Hours Played",
-      "inLibrary": "In Library",
-      "mostBorked": "Most Borked Reports",
-      "mostPopular": "Most Popular",
-      "recentlyImproved": "Recently Improved",
-      "wellRatedHere": "Well Rated Here"
+      "fixWanted": "Fix efterlyst",
+      "highestRated": "Högst betygsatta på SteamDB",
+      "hoursPlayed": "Timmar spelade",
+      "inLibrary": "I ditt biliotek",
+      "mostBorked": "Mest kaputta rapporter",
+      "mostPopular": "Mest populära",
+      "recentlyImproved": "Nyligen förbättrade",
+      "wellRatedHere": "Har bra betyg här"
     },
     "layout": "Layout",
-    "loadError": "Error loading games!",
-    "notLoggedIn": "Cannot load a library without a Steam ID. Visit your [Profile]({{link}}) to add one.",
-    "poweredBy": "Powered by",
+    "loadError": "Fel vid laddning av spel!",
+    "notLoggedIn": "Kan inte ladda ett bibliotek utan Steam ID. Besök din [Profile]({{link}}) för att lägga till ett.",
+    "poweredBy": "Drivs av",
     "sorts": {
-      "fixWanted": "Fix Wanted",
-      "hoursPlayed": "Hours played",
-      "mostBorked": "Most Borked",
-      "playerCount": "Player count",
-      "recentlyImproved": "Recently Improved",
-      "userScore": "User Score",
-      "wilsonRating": "ProtonDB Rating"
+      "fixWanted": "Fix efterlyst",
+      "hoursPlayed": "Timmar spelade",
+      "mostBorked": "Mest kaputta",
+      "playerCount": "Spelarantal",
+      "recentlyImproved": "Nyligen förbättrade",
+      "userScore": "Användarbetyg",
+      "wilsonRating": "ProtonDB-betyg"
     },
     "toggles": {
-      "includeNative": "Include Native",
-      "lackReports": "Lack Reports",
-      "restrictToLibrary": "Library",
-      "untested": "Lack Reports",
-      "userTags": "User Tags",
-      "whitelisted": "Whitelisted"
+      "includeNative": "Inkluderar native",
+      "lackReports": "Saknar rapporter",
+      "restrictToLibrary": "Bibliotek",
+      "untested": "Saknar rapporter",
+      "userTags": "Användartaggar",
+      "whitelisted": "Vitlistat"
     }
   },
   "gameDetails": {
-    "githubIssueSearch": "Github Issue Search",
-    "infoNotFound": "Could not acquire information for App ID: {{entry}}. This can happen if a game was removed from the store.",
-    "minimumRequirements": "Minimum Requirements",
-    "nativelySupports": "Natively Supports"
+    "githubIssueSearch": "GitHub Issue sökning",
+    "infoNotFound": "Kunde inte erhålla information för App ID: {{entry}}. Detta kan hända om spelet var borttaget från butiken.",
+    "minimumRequirements": "Minimumkrav",
+    "nativelySupports": "Stödjer native"
   },
   "home": {
     "getStartedLinks": [
-      "[Steam's Official Steam Play Page](https://store.steampowered.com/steamplay)",
-      "[A guide to migrating to Linux](https://www.reddit.com/r/linux_gaming/comments/9oqq3w/guide_migrating_to_linux_in_2019/)",
-      "[What is Vulkan?](https://www.reddit.com/r/linux_gaming/comments/9ritk1/not_sure_i_quite_understand_can_someone_explain/)"
+      "[Steams officiella Steam Play-sida](https://store.steampowered.com/steamplay)",
+      "[En guide för att migrera till Linux](https://www.reddit.com/r/linux_gaming/comments/9oqq3w/guide_migrating_to_linux_in_2019/)",
+      "[Vad är Vulkan?](https://www.reddit.com/r/linux_gaming/comments/9ritk1/not_sure_i_quite_understand_can_someone_explain/)"
     ],
-    "headline": "With Proton and Steam Play, many Windows games now work on Linux!",
+    "headline": "Med Proton och Steam Play fungerar många Windowsspel nu på Linux!",
     "howDoIHelp": {
       "answer": "Give Linux a try! If you are new, not to worry. Here is a list of guides to get started. And if you want to help Valve and Proton to improve, contribute your reports here on ProtonDB!",
       "question": "Cool! How do I help?"
