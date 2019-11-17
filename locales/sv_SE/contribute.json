@@ -481,7 +481,7 @@
   "welcome": {
     "intro": "Tack för ditt intresse i att expandera ProtonDB's katalog av kompatibilitetsrapporter för Steam Play och Proton! Tänk på följande innan du bidrar",
     "notes": [
-      "Rapporterna pulicerade på ProtonDB används av andra gamers, Valve, samt utvecklare för att identifiera problem och fixa spel. Håll dina rapporter noggranna, fria från förolämpande språk, och avtså från att publicera rapporter endast för att promota ditt favoritspel, din favoritdistribution, eller ditt favoritgrafikkort.",
+      "Rapporter publiceras på ProtonDB för att hjälpa dig, Valve, och utvecklare att fixa spel. Håll dina rapporter noggranna, fria från förolämpande språk, och avtså från att publicera rapporter endast för att promota ditt favoritspel, din favoritdistribution, eller ditt favoritgrafikkort.",
       "Vi uppmuntrar dig att skicka in flera rapporter för samma spel! Under tiden som du spelar mer och/eller uppdaterar Proton kommer du ha mer att säga. På detta sätt skiljer sig ProtonDB från en wiki då varje raport fungerar som en 'snapshot' av hur spelet fungerade den dagen med din konfiguration.",
       "Om du bidrar mer flera rapporter kommer bara din senaste att ränkas i ProtonDB klassificeringen samt också endast om din systeminformation möter minimumkraven för Proton.",
       "Dina bidrag kommer vara offentligt synliga i ProtonDB samt tillgängliga i dataexporter under Open Database licensen. Besök [denna sida]({{link}}) för mer information."
