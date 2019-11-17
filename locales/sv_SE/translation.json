@@ -63,16 +63,16 @@
     ],
     "headline": "Med Proton och Steam Play fungerar många Windowsspel nu på Linux!",
     "howDoIHelp": {
-      "answer": "Give Linux a try! If you are new, not to worry. Here is a list of guides to get started. And if you want to help Valve and Proton to improve, contribute your reports here on ProtonDB!",
-      "question": "Cool! How do I help?"
+      "answer": "Ge Linux ett försök! Om du är ny, oroa dig inte. Here is a list of guides to get started. And if you want to help Valve and Proton to improve, contribute your reports here on ProtonDB!",
+      "question": "Coolt! Hur kan jag hjälpa till?"
     },
     "letsGetStarted": "Let's get started.",
     "sampleGames": "Here is a sample of some popular games that are officially not whitelisted yet, but have received many Platinum reports on ProtonDB",
-    "search": "Search for a game...",
+    "search": "Sök efter ett spel...",
     "stats": {
-      "gamesReported": "games reported",
-      "gamesWork": "games work",
-      "reportsWritten": "reports written"
+      "gamesReported": "spel rapporterade",
+      "gamesWork": "spel fungerar",
+      "reportsWritten": "rapporter skrivna"
     },
     "theImpact": {
       "answer": "Steam Play now officially supports a limited but growing set of 'whitelisted' games that are deemed Proton-compatible and play on Linux. Based on ProtonDB reports, a significant number of non-whitelisted games, including many popular titles, play just as well as on Windows.",
@@ -80,11 +80,11 @@
     },
     "whatIsProton": {
       "answer": "Proton is a new tool released by Valve Software that has been integrated with Steam Play to make playing Windows games on Linux as simple as hitting the Play button within Steam. Underneath the hood, Proton comprises other popular tools like Wine and DXVK among others that a gamer would otherwise have to install and maintain themselves. This greatly eases the burden for users to switch to Linux without having to learn the underlying systems or losing access to a large part of their library of games. Proton is still in its infancy so support is inconsistent, but regularly improving.",
-      "question": "What is Proton?"
+      "question": "Vad är Proton?"
     },
     "whatIsProtonDb": {
       "answer": "The goal of ProtonDB is to gather reports from other gamers as they test games with Proton on Linux and provide aggregate scores of how well games perform. A growing pool of suggestions provides tweaks that you can try to get games working while Proton continues development. In addition to this, you may explore the Steam game catalog on this site to browse and discover a wide range of titles that were previously unavailable for use on Linux.",
-      "question": "What is ProtonDB?"
+      "question": "Vad är ProtonDB?"
     },
     "whyBigDeal": {
       "answer": "The Linux desktop experience has improved by leaps and bounds in the last year or two. Most of what you may be used to on Windows or MacOS is possible on Linux without having to tinker too much, and the tinkering can even be fun. Meanwhile, more and more of our daily interactions with a computer happen online, and browsers behave much the same on Linux as they do on other operating systems. Proton and Steam Play address a significant obstacle to adoption: gaming, where until recently there was limited compatibility.",
@@ -95,77 +95,77 @@
   "i18nStamp": 1573767610406,
   "libraryLoader": {
     "errorLoadingGames": "Error loading games. Please ensure both Profile and Game Details are public on this account!",
-    "gameTotal": "{{count}} games in library loaded!",
+    "gameTotal": "{{count}} spel i ditt bibliotek laddade!",
     "headline": "Steam Authentication",
     "intro": "Logging in with Steam lets you submit reports and use the [Explore page with a Library filter]({{link}}) to limit results to games that you own.",
-    "loggedInAs": "Logged in as {{username}}",
+    "loggedInAs": "Inloggad som {{username}}",
     "note": "Ensure that within your [Steam Privacy Settings]({{link}}) both your 'My Profile' and your 'Game Details' are set to public. Recent changes to Steam have made those private by default. This will use the Steam Web API to retrieve public information about your account including your id, profile name and avatar. Steam will present an IP address of {{host}} for you to trust - this is expected.",
     "refresh": "Refresh",
-    "steamSignIn": "Sign In With Steam",
+    "steamSignIn": "Logga in med Steam",
     "unlink": "Unlink Account"
   },
   "medals": {
-    "borked": "Borked",
-    "bronze": "Bronze",
-    "gold": "Gold",
-    "platinum": "Platinum",
+    "borked": "Kaputt",
+    "bronze": "Brons",
+    "gold": "Guld",
+    "platinum": "Platina",
     "silver": "Silver"
   },
   "misc": {
-    "addYourReport": "Add Your Report",
-    "affirmative": "Yes",
-    "areYouSure": "Are you sure?",
+    "addYourReport": "Lägg till din rapport",
+    "affirmative": "Ja",
+    "areYouSure": "Är du säker?",
     "chipset": "Chipset",
-    "conjunction": "and",
+    "conjunction": "och",
     "dismiss": "Dismiss",
-    "distro": "Distro",
-    "driver": "Driver",
-    "execute": "Run",
+    "distro": "Distribution",
+    "driver": "Drivrutin",
+    "execute": "Kör",
     "feedbackPrompt": "Feedback? Let us know on [Discord]({{link}})",
     "filter": "Filter",
-    "games": "Games",
-    "hide": "Hide {{what}}",
-    "include": "Include",
-    "install": "Install",
+    "games": "Spel",
+    "hide": "Göm {{what}}",
+    "include": "Inkludera",
+    "install": "Installera",
     "joinUsPrompt": "Join us on Discord!",
-    "lastContentRefreshTime": "Last content refresh was {{time}} ago",
-    "meetsRequirements": "Meets Requirements",
-    "moreInfo": "More Info",
+    "lastContentRefreshTime": "Senaste innehållsrefresh var {{time}} sedan",
+    "meetsRequirements": "Möter kraven",
+    "moreInfo": "Mer information",
     "multiplayer": "Multiplayer",
     "native": "Native",
-    "negative": "No",
-    "notFound": "Not Found",
-    "note": "Note",
-    "overall": "Overall",
+    "negative": "Nej",
+    "notFound": "Hittades inte",
+    "note": "Notera",
+    "overall": "Överlag",
     "pending": "Pending",
     "provisional": "Provisional",
-    "published": "Published",
+    "published": "Publicerad",
     "rated": "Rated",
-    "report": "Report",
-    "reports": "Reports",
-    "save": "Save",
-    "saved": "{{what}} Saved",
-    "show": "Show {{what}}",
-    "showAll": "Show All",
-    "showMore": "Show More",
-    "tier": "Tier",
-    "total": "Total",
-    "unknown": "Unknown",
+    "report": "Rapport",
+    "reports": "Rapporter",
+    "save": "Spara",
+    "saved": "{{what}} sparad",
+    "show": "Visa {{what}}",
+    "showAll": "Visa alla",
+    "showMore": "Visa mer",
+    "tier": "Grad",
+    "total": "Totalt",
+    "unknown": "Okänd",
     "version": "Version"
   },
   "nav": {
-    "contribute": "Contribute",
-    "explore": "Explore",
-    "help": "Help",
-    "news": "News",
-    "profile": "Profile",
-    "search": "Search games...",
-    "stats": "Stats"
+    "contribute": "Bidra",
+    "explore": "Utforska",
+    "help": "Hjälp",
+    "news": "Nyheter",
+    "profile": "Profil",
+    "search": "Sök spel...",
+    "stats": "Statistik"
   },
   "pagination": {
-    "next": "Next page",
-    "previous": "Previous page",
-    "summary": "Results {{from}} to {{to}} out of {{total}}"
+    "next": "Nästa sida",
+    "previous": "Föregående sida",
+    "summary": "Resultat {{from}} till {{to}} ut av {{total}}"
   },
   "preferences": {
     "headline": "Preferences",
@@ -177,18 +177,18 @@
         },
         "options": {
           "custom": "A custom nickname",
-          "keepSteam": "My Steam nickname ({{steamNickname}})"
+          "keepSteam": "Mitt Steam namn ({{steamNickname}})"
         },
         "prompt": "Your public name"
       },
       "language": {
-        "prompt": "Language (Experimental)"
+        "prompt": "Språk (Experimentellt)"
       }
     }
   },
   "profile": {
     "exploreLibrary": "You can explore your library sorted with the following views:",
-    "inYourLibrary": "In Your Library",
+    "inYourLibrary": "I ditt bibliotek",
     "libraryTags": {
       "byHoursPlayed": "By your hours played",
       "byPlayerCount": "By player count",
@@ -199,8 +199,8 @@
       "lackReportsByPlayerCount": "Lack Reports by player count",
       "lackReportsBySteamDbScore": "Lack Reports by SteamDB user score"
     },
-    "notInYourLibrary": "Not In Your Library",
-    "yourContributions": "Your Contributions"
+    "notInYourLibrary": "Inte i ditt bibliotek",
+    "yourContributions": "Dina bidrag"
   },
   "ratingDefinitions": {
     "explanations": {
@@ -215,46 +215,46 @@
     "headline": "Rating Definitions"
   },
   "reports": {
-    "hoursInSteam": "{{count}} hours in Steam",
+    "hoursInSteam": "{{count}} timar på Steam",
     "specs": {
       "cpu": "CPU",
       "gpu": "GPU",
-      "gpuDriver": "GPU Driver",
+      "gpuDriver": "GPU drivrutin",
       "kernel": "Kernel",
-      "os": "Distro",
-      "otherSpecs": "Other Specs",
+      "os": "Distribution",
+      "otherSpecs": "Andra specifikationer",
       "ram": "RAM"
     },
-    "timeWithProton": "{{time}} with Proton"
+    "timeWithProton": "{{time}} med Proton"
   },
   "search": {
-    "resultsHeader": "Search results for {{q}}"
+    "resultsHeader": "Sökresultat för {{q}}"
   },
   "stats": {
     "analysisInByTheNumbers1": "Analysis in By The Numbers #1",
-    "byCommonDisplayDrivers": "By Common Display Drivers",
-    "byDistro": "By Distro",
-    "byGpu": "By GPU",
-    "byProtonVersion": "By Proton Version",
-    "dailyReportsHeadline": "Daily Reports (Last {{days}} Days)",
-    "downloadData": "Download Data",
-    "gameRatingDistribution": "Game Rating Distribution",
-    "gamesWithNOrMoreReports": "Games With N Or More Reports",
-    "reportRatingDistributionOverTime": "Report Rating Distribution Over Time",
+    "byCommonDisplayDrivers": "Efter vanliga videodrivrutiner",
+    "byDistro": "Efter distribution",
+    "byGpu": "Efter GPU",
+    "byProtonVersion": "Efter Protonversion",
+    "dailyReportsHeadline": "Dagliga rapporter (Senaste {{days}} dagarna)",
+    "downloadData": "Ladda ner data",
+    "gameRatingDistribution": "Fördelning av betyg i rapporter",
+    "gamesWithNOrMoreReports": "Spel med N eller fler rapporter",
+    "reportRatingDistributionOverTime": "Fördelning av betyg i rapporter över tid",
     "whenMeetingMinimumRequirements": "When Meeting Minimum Requirements"
   },
   "suggestions": {
-    "headline": "Ready for more?",
-    "intro": "The following games have been selected based on hours you've played, popularity, and SteamDB rating. They all lack reports and some may only need one more to get a {{siteName}} rating! You can reload for other suggestions or go to [Lack Reports]({{link}}) filter of Explore page for even more."
+    "headline": "Redo för mer?",
+    "intro": "De följande spelen har valts baserat på timmarna du spelat, populäritet, och SteamDB betyg. De saknar alla rapporter och några kanske endast behöver en till för att få ett {{siteName}} betyg! Du kan ladda om för andra förslag eller gå till [saknar rapporter]({{link}}) filtret på Utforska-sidan för ännu fler."
   },
   "systemInfo": {
-    "headline": "System Information",
+    "headline": "Systeminformation",
     "howTo": "Gathering this information is quick if you have access to Steam settings on the machine where you play your games. [Go here to learn how]({{link}}). (Some users have reported that they need to press Ctrl-A to select everything before right clicking.)",
     "intro": "Reports have more utility and lend more creditibility by displaying the hardware and software the game was tested on. To keep this as accurate and consistent as possible, we leverage the system information reported by Steam itself.",
-    "parseFailure": "Parsing failed. If you are certain you copied correctly please let us know on Discord",
-    "parseSuccess": "System Information Parsed Successfully!",
-    "pasteInstructions": "Paste Steam System Info Here",
-    "unsupportedHeadline": "Unsupported Drivers Detected",
-    "unsupportedWarning": "Your system's display driver does not meet [Proton's current minimum requirements]({{link}})! You may experience crashes, slow performance, or graphical degradations. You may still submit reports and there is still value in your contributions, but your reports will show your graphics drivers in red and will not be counted toward aggregate ratings for games. Please update your drivers!"
+    "parseFailure": "Tolkning misslyckades. Om du är säker på att du kopierade korrekt berätta för oss på Discord",
+    "parseSuccess": "Tolking av systeminformation lyckades!",
+    "pasteInstructions": "Klista in systeminformation här",
+    "unsupportedHeadline": "Icke-stödda drivrutiner upptäcktes",
+    "unsupportedWarning": "Ditt systems videodrivrutin möter inte [Protons nuvarande minimumkrav]({{link}})! Du kan uppleva krascher, dålig prestanda, och/eller grafiska nedgraderingar. Du kan fortfarande skicka in rapporter och det finns oavsett värde i dina bidrag, men dina rapporter kommer visa dina grafikdrivrutiner i rött och kommer inte räknas mot det genomsnittliga betyget. Uppdatera dina drivrutiner!"
   }
 }
