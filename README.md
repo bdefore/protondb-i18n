@@ -52,6 +52,7 @@ Keep an eye out for page rendering issues if your text is smaller or larger than
 - Swedish (sv-SE): [@kattus](https://github.com/kattus) (ongoing at [PR #12](https://github.com/bdefore/protondb-i18n/pull/12))
 - Swedish (sv-SE): [@newbytee](https://github.com/newbytee) (ongoing at [PR #13](https://github.com/bdefore/protondb-i18n/pull/13))
 - Italian (it-IT): [@protoroto](https://github.com/protoroto) (ongoing at [PR #14](https://github.com/bdefore/protondb-i18n/pull/14))
+- Italian (it-IT): [@apontini](https://github.com/apontini) (ongoing at [PR #16](https://github.com/bdefore/protondb-i18n/pull/16))
 
 ### Hall of Fame
 
