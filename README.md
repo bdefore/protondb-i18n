@@ -59,6 +59,7 @@ Keep an eye out for page rendering issues if your text is smaller or larger than
 - German (de-DE): [@NoXPhasma](https://github.com/NoXPhasma)
 - Polish (pl-PL): [@kacperski1](https://github.com/kacperski1)
 - Ukrainian (uk-UA): [@iodream](https://github.com/iodream)
+- Bulgarian (bg-BG): [@mialy](https://github.com/mialy)
 
 ### Coming soon
 
