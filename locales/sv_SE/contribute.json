@@ -11,15 +11,15 @@
     "legend": "Ljud",
     "options": {
       "borked": {
-        "long": "Helt trasigt",
-        "short": "Trasigt"
+        "long": "Helt kaputt",
+        "short": "Kaputt"
       },
       "crackling": {
         "long": "Sprakande",
         "short": "Sprakande"
       },
       "lowQuality": {
-        "long": "Noticeable quality degradation",
+        "long": "Märkbar kvalitetsreducering",
         "short": "Låg kvalitet"
       },
       "missing": {
@@ -31,30 +31,30 @@
         "short": "Annat"
       },
       "outOfSync": {
-        "long": "Fell out of sync",
-        "short": "Out of sync"
+        "long": "Tappade synkroniseringen",
+        "short": "Osynkroniserat"
       }
     },
     "prompt": "Upplevde du några problem med ljudet?"
   },
   "borked": {
-    "headline": "That's a bummer!",
-    "intro": "You will now proceed with submitting a borked report, but before you do you may want to visit our [Game Troubleshooting FAQ]({{link}}) page."
+    "headline": "Tråkigt att höra!",
+    "intro": "Din rapport kommer skickas in som en kaputt rapport, men innan du gör det kanske du vill besöka vår [spelfelsöknings FAQ]({{link}}) sida."
   },
   "customizationsUsed": {
     "additionalNotes": {
-      "label": "Further Details",
-      "placeholder": "Explanation or link to blog post or Github repository"
+      "label": "Ytterligare detaljer",
+      "placeholder": "Förklaring eller länk to blogginlägg eller Github repository"
     },
-    "legend": "Customizations",
+    "legend": "Anpassningar",
     "options": {
       "customPrefix": {
-        "long": "A custom Wine prefix",
-        "short": "Custom Prefix"
+        "long": "Ett skräddarsytt Wine-prefix",
+        "short": "Skräddarsytt prefix"
       },
       "customProton": {
-        "long": "A custom fork of Proton",
-        "short": "Custom Proton"
+        "long": "En skräddarsydd fork av Proton",
+        "short": "Skräddarsydd Proton"
       },
       "lutris": {
         "long": "Lutris installationsskript",
@@ -81,7 +81,7 @@
         "short": "winetricks"
       }
     },
-    "prompt": "What customizations have you made?"
+    "prompt": "Vilka anpassningar har du gjort?"
   },
   "duration": {
     "legend": "Hur länge?",
@@ -111,18 +111,18 @@
   },
   "extra": {
     "additionalNotes": {
-      "label": "Extra Notes",
-      "placeholder": "Please add it here."
+      "label": "Ytterligare bemärkningar",
+      "placeholder": "Vänligen lägg till dem här."
     },
-    "prompt": "Is there anything you'd like to add that was not covered in previous questions?"
+    "prompt": "Finns det något du skulle vilja tillägga som inte täcktes av de tidigare frågorna?"
   },
-  "genericFollowUpPrompt": "What sort of problems?",
+  "genericFollowUpPrompt": "Vilken typ av problem?",
   "graphicalFaults": {
     "legend": "Grafik",
     "options": {
       "heavyArtifacts": {
-        "long": "Heavy or common artifacts",
-        "short": "Heavy artifacts"
+        "long": "Grova eller frekventa artefacter",
+        "short": "Grova artefakter"
       },
       "minorArtifacts": {
         "long": "Mindre eller infrekventa artefakter",
@@ -140,7 +140,7 @@
     "prompt": "Märkte du några grafiska degraderingar?"
   },
   "graphicsApiSelection": {
-    "legend": "Grafik API",
+    "legend": "Grafik-API",
     "options": {
       "d3d": {
         "long": "Direct3D",
@@ -163,35 +163,35 @@
   },
   "i18nStamp": 1573767610406,
   "inputFaults": {
-    "legend": "Input",
+    "legend": "Inmatning",
     "options": {
       "bounding": {
-        "long": "Bounds were incorrect",
-        "short": "Bounding"
+        "long": "Deadzonen stämde inte",
+        "short": "Deadzone"
       },
       "controllerMapping": {
-        "long": "Controller(s) were not mapped properly",
-        "short": "Controller mapping"
+        "long": "Kontrollernas knappar mappades inte korrekt",
+        "short": "Kontrollermappning"
       },
       "controllerNotDetected": {
-        "long": "Controller(s) not detected",
-        "short": "Controller detection"
+        "long": "Kontroller upptäcktes inte",
+        "short": "Upptäckt av kontroller"
       },
       "controllerNotResponsive": {
-        "long": "Controller(s) detected but were not responsive",
-        "short": "Responsiveness"
+        "long": "Kontroller upptäcktes men gav ingen respons",
+        "short": "Respons"
       },
       "drifting": {
         "long": "Axes would drift",
         "short": "Drifting"
       },
       "inaccuracy": {
-        "long": "Inaccuracy",
-        "short": "Inaccuracy"
+        "long": "Inexakt inmatning",
+        "short": "Inexakt inmatning"
       },
       "lag": {
-        "long": "Input was laggy",
-        "short": "Lag"
+        "long": "Inmatning var laggig",
+        "short": "Lagg"
       },
       "other": {
         "long": "Annat",
@@ -201,11 +201,11 @@
     "prompt": "Upplevde du några problem med din mus, kontroller, eller annan inmatningsapparat?"
   },
   "installs": {
-    "legend": "Installs",
+    "legend": "Installation",
     "prompt": "Kunde du installera spelet?"
   },
   "isImpactedByAntiCheat": {
-    "legend": "Anti-Cheat",
+    "legend": "Antifusk-system",
     "options": {
       "battleEye": {
         "long": "BattlEye",
@@ -220,17 +220,17 @@
         "short": "Annat"
       }
     },
-    "prompt": "Påverkas spelet av anti-cheat mjukvara?"
+    "prompt": "Påverkas spelet av antifuskmjukvara?"
   },
   "isMultiplayerImportant": {
-    "prompt": "Is multiplayer a crucial part of the value of this game?"
+    "prompt": "Är multiplayer en central del av detta spels värde?"
   },
   "launchFlagsUsed": {
     "additionalNotes": {
-      "label": "Further Details",
+      "label": "Ytterligare detaljer",
       "placeholder": "What did this help with?"
     },
-    "legend": "Launch Flags",
+    "legend": "Startflaggor",
     "options": {
       "disableD3d10": {
         "long": "Inaktivera D3D10",
@@ -265,7 +265,7 @@
         "short": "Använd Wine D9VK"
       }
     },
-    "prompt": "Do you use any of these Proton launch flags?"
+    "prompt": "Använde du någon av dessa Proton startflaggor?"
   },
   "launcher": {
     "additionalNotes": {
@@ -293,17 +293,17 @@
     "prompt": "Varifrån startade du spelet?"
   },
   "localMultiplayerAppraisal": {
-    "prompt": "How would you rate the local multiplayer functionality? Please evaulate for lag, connectivity or input issues, etc."
+    "prompt": "Hur skulle du betygsätta den lokala multiplayerfunktionaliteten? Utvärdera lagg, anslutning, inmatningsproblem, osv."
   },
   "localMultiplayerAttempted": {
-    "prompt": "Did you try to play multiplayer locally (offline i.e. couch play)?"
+    "prompt": "Testade du att spela multiplayer lokalt (offline d.v.s. \"couch play\")?"
   },
   "localMultiplayerPlayed": {
-    "prompt": "Were you able to get local multiplayer to work?"
+    "prompt": "Kunde du få lokal multiplayer att fungera?"
   },
   "misc": {
     "answerRequired": "Svar krävs",
-    "answerRequiredWhenNotListed": "Answered Required When Not Listed Is Chosen",
+    "answerRequiredWhenNotListed": "Svar krävs när \"Inte listat\" är valt",
     "back": "Tillbaka",
     "error": "Error!",
     "markdownSupportNotice": "Markdown stöds nu",
@@ -314,82 +314,82 @@
       "success": "Successfully Submitted",
       "note": "Please note that new reports will be in a pending state until the next content refresh. You can view your contributions on your [Profile]({{link}})",
       "error": "There was an error during submission. Please let us know how this happened!",
-      "thanks": "Thanks for your contribution to {{siteName}}"
+      "thanks": "Tack för ditt bidrag till {{siteName}}"
     },
-    "tooLong": "Too long"
+    "tooLong": "För långt"
   },
   "multiplayerAppraisal": {
     "options": {
       "acceptable": {
-        "long": "Acceptable. Moderate issues but can be struggled through.",
-        "short": "Acceptable"
+        "long": "Accepterbar. Mättliga problem men ändå spelbart.",
+        "short": "Accepterbar"
       },
       "awful": {
-        "long": "Awful. Practically not playable",
-        "short": "Awful"
+        "long": "Förfärlig. Praktiskt taget ospelbart.",
+        "short": "Förfärlig"
       },
       "excellent": {
-        "long": "Excellent. Did not experience any problems.",
-        "short": "Excellent"
+        "long": "Utmärkt. Upplevde inte några problem.",
+        "short": "Utmärkt"
       },
       "good": {
-        "long": "Good. Had infrequent issues but is overall playable.",
-        "short": "Good"
+        "long": "Bra. Hade infrekventa problem men överlag spelbart.",
+        "short": "Bra"
       },
       "weak": {
-        "long": "Weak. Its problems significantly impact the experience",
-        "short": "Weak"
+        "long": "Bristfällig. Problemen inverkar markant på upplevelsen.",
+        "short": "Bristfällig"
       }
     }
   },
   "onlineMultiplayerAppraisal": {
-    "prompt": "How would you rate the online multiplayer functionality? Please evaulate for lag, connectivity or input issues, matchingmaking failures etc."
+    "prompt": "Hur skulle du betygsätta online multiplayer funktionaliteten? Utvärdera lagg, Please evaulate for lag, anslutning, inmatningsproblem, matchmaking, osv."
   },
   "onlineMultiplayerAttempted": {
-    "prompt": "Did you try to play multiplayer online?"
+    "prompt": "Testade du att spela multiplayer online?"
   },
   "onlineMultiplayerPlayed": {
-    "prompt": "Were you able to connect and play online multiplayer?"
+    "prompt": "Kunde du ansluta och spela online multiplayer?"
   },
   "opens": {
-    "legend": "Opens",
-    "prompt": "Were you able to start up the game and view its initial menu?"
+    "legend": "Startar",
+    "prompt": "Kunde du starta spelet och visa dess huvudmeny?"
   },
   "performanceFaults": {
     "legend": "Prestanda",
     "options": {
       "significantSlowdown": {
-        "long": "Significant slowness",
-        "short": "Significant"
+        "long": "Märkbar prestandaförlust",
+        "short": "Märkbar"
       },
       "slightSlowdown": {
-        "long": "Slightly slow",
-        "short": "Slight"
+        "long": "Lindrig prestandaförlust",
+        "short": "Lindrig"
       }
     },
-    "prompt": "Did you experience unexpected slowness given your hardware?"
+    "prompt": "Upplevde du någon oväntad prestandaförlust med tanke på din hårdvara?"
   },
   "prerequisitesBlock": {
-    "action": "Go to profile",
-    "context": "You'll need to log into Steam and provide system information before submitting!"
+    "action": "Gå till din profil",
+    "context": "Du behöver logga in med din Steam och lämna din systeminformation innan du kan börja lämna in rapporter!"
   },
   "preview": {
-    "intro": "Things to check for:",
+    "intro": "Saker att verifiera:",
     "notes": [
-      "Is your system information up to date? You will need to go to your profile and provide your Steam information after a graphics driver update.",
-      "Have you selected the correct game? Some games have the same name as older versions i.e. GRID",
-      "Have you added descriptions in the right place? For example, write notes about graphics issues in that section rather than end notes."
+      "Är din systeminformation aktuell? Du gå till din profil och förse din Steam information efter den grafikdrivrutinsuppdatering.",
+      "Har du valt rätt spel? Vissa spel har samma namn som äldre versioner av dem, t.ex. GRID",
+      "Har du lagt till beskrivningar på rätt platser? Till exempel, skrivit bemärkningar om grafikproblem i den sektionen och inte i slutnoteringarna."
     ]
   },
   "prompts": {
-    "continuingDraft": "You are continuing from an automatically saved draft.",
-    "discardDraftWarning": "All of your responses will be permanently discarded.",
+    "continuingDraft": "Du forsätter från ett automatiskt sparat utkast.",
+    "discardDraftWarning": "Dina svar kommer permanent kasseras.",
     "startOver": "Börja om"
   },
   "protonVersion": {
     "additionalNotes": {
       "label": "Manuell Protonversion",
-      "placeholder": "Must be valid Proton version string. Examples: {{examples}}"
+      "placeholder": "Måste vara en giltig Protonversions-string. Till exempel: {{examples}}"
     },
     "prompt": "Vilken version av Proton använder du?"
   },
