@@ -1,63 +1,63 @@
 {
   "appSelection": {
-    "caution": "Caution!",
-    "helperText": "You may also paste links or an App ID and we will try to find it",
-    "notFound": "Could not find game with App ID {{query}}. This can happen if it is either inaccurate or if it has: been removed from the Steam store, not listed as a 'game', or not available in your country.",
-    "placeholder": "Enter name of a game in your Steam library...",
-    "previousReportsExist": "You have previous reports for this game",
-    "runsNativeWarning": "The selected game has published a native Linux version! Please be sure you have not inadvertently run the game natively. Steam does not use Steam Play to run this game by default, but [you can force it to do so]({{link}})."
+    "caution": "Внимание!",
+    "helperText": "Можете също така да поставите линкове или App ID, които ще се опитаме да потърсим",
+    "notFound": "Не може да бъде намерена игра с App ID {{query}}. Възможна причина може да е неточност или ако: е премахната от магазина Steam, не е в списъка „game“, или не е налична в твоята държава.",
+    "placeholder": "Въведете име на игра от твоята библиотека в Steam...",
+    "previousReportsExist": "Имате предишни доклади за играта",
+    "runsNativeWarning": "Избраната игра има публикувана налична версия за Linux! Моля, провери дали не пускаш играта в този вариант. Steam по подразбиране не стартира чрез Steam Play тази игра, но [можеш изрично да направиш това]({{link}})."
   },
   "audioFaults": {
-    "legend": "Audio",
+    "legend": "Звук",
     "options": {
       "borked": {
-        "long": "Totally borked",
-        "short": "Borked"
+        "long": "Абсолютно счупено",
+        "short": "Счупено"
       },
       "crackling": {
-        "long": "Crackling",
-        "short": "Crackling"
+        "long": "Пръщене или с пукания",
+        "short": "Пръщене"
       },
       "lowQuality": {
-        "long": "Noticeable quality degradation",
-        "short": "Low quality"
+        "long": "Долавя се деградация в качеството",
+        "short": "Ниско качество"
       },
       "missing": {
-        "long": "Some audio is missing",
-        "short": "Missing"
+        "long": "Липсва известно аудио",
+        "short": "Липсва"
       },
       "other": {
-        "long": "Other",
-        "short": "Other"
+        "long": "Друго",
+        "short": "Друго"
       },
       "outOfSync": {
-        "long": "Fell out of sync",
-        "short": "Out of sync"
+        "long": "Чувства се несинхронизирано с картината",
+        "short": "Несинхронизирано"
       }
     },
-    "prompt": "Did you experience any problems with audio?"
+    "prompt": "Изпитваш ли някакъв проблем със звука?"
   },
   "borked": {
-    "headline": "That's a bummer!",
-    "intro": "You will now proceed with submitting a borked report, but before you do you may want to visit our [Game Troubleshooting FAQ]({{link}}) page."
+    "headline": "Това е неприятно!",
+    "intro": "Предстои да изпратиш доклад за неработеща игра, но преди това е добре да посетиш нашата страница с [често задави въпроси за отстраняве на проблеми]({{link}})."
   },
   "customizationsUsed": {
     "additionalNotes": {
-      "label": "Further Details",
-      "placeholder": "Explanation or link to blog post or Github repository"
+      "label": "Допълнителни подробности",
+      "placeholder": "Обяснение или линк към блог, или хранилище в GitHub"
     },
-    "legend": "Customizations",
+    "legend": "Персонализации",
     "options": {
       "customPrefix": {
-        "long": "A custom Wine prefix",
-        "short": "Custom Prefix"
+        "long": "Сменен префикс на Wine",
+        "short": "Сменен префикс"
       },
       "customProton": {
-        "long": "A custom fork of Proton",
-        "short": "Custom Proton"
+        "long": "Форк на Proton",
+        "short": "Сменен Proton"
       },
       "lutris": {
-        "long": "Lutris install script",
+        "long": "Инсталиращ скрипт за Lutris",
         "short": "Lutris"
       },
       "native2Proton": {
@@ -65,8 +65,8 @@
         "short": "Native2Proton"
       },
       "notListed": {
-        "long": "Not Listed",
-        "short": "Not Listed"
+        "long": "Не е в списъка",
+        "short": "Не е в списъка"
       },
       "protonfixes": {
         "long": "protonfixes",
@@ -81,66 +81,66 @@
         "short": "winetricks"
       }
     },
-    "prompt": "What customizations have you made?"
+    "prompt": "Какви промени си направил?"
   },
   "duration": {
-    "legend": "Duration",
+    "legend": "Продължителност",
     "options": {
       "aboutAnHour": {
-        "long": "an hour",
-        "short": "an hour"
+        "long": "час",
+        "short": "час"
       },
       "lessThanAnHour": {
-        "long": "< 1 hour",
-        "short": "< 1 hour"
+        "long": "< 1 час",
+        "short": "< 1 час"
       },
       "lessThanFifteenMinutes": {
-        "long": "< 15 minutes",
-        "short": "< 15 minutes"
+        "long": "< 15 минути",
+        "short": "< 15 минути"
       },
       "moreThanTenHours": {
-        "long": "> 10 hours",
-        "short": "> 10 hours"
+        "long": "> 10 часа",
+        "short": "> 10 часа"
       },
       "severalHours": {
-        "long": "2+ hours",
-        "short": "2+ hours"
+        "long": "2+ часа",
+        "short": "2+ часа"
       }
     },
-    "prompt": "For how long have you played?"
+    "prompt": "Колко дълго си играл?"
   },
   "extra": {
     "additionalNotes": {
-      "label": "Extra Notes",
-      "placeholder": "Please add it here."
+      "label": "Допълнителни бележки",
+      "placeholder": "Моля, добави ги тук."
     },
-    "prompt": "Is there anything you'd like to add that was not covered in previous questions?"
+    "prompt": "Има ли нещо, което искаш да добавиш и не е покрито от предишните въпроси?"
   },
-  "genericFollowUpPrompt": "What sort of problems?",
+  "genericFollowUpPrompt": "Какъв тип проблеми?",
   "graphicalFaults": {
-    "legend": "Graphics",
+    "legend": "Графични",
     "options": {
       "heavyArtifacts": {
-        "long": "Heavy or common artifacts",
-        "short": "Heavy artifacts"
+        "long": "Значителни или общи артефакти",
+        "short": "Значителни артефакти"
       },
       "minorArtifacts": {
-        "long": "Minor or infrequent artifacts",
-        "short": "Minor artifacts"
+        "long": "Незначителни или редки артефакти",
+        "short": "Незначителни артефакти"
       },
       "missingTextures": {
-        "long": "Missing textures",
-        "short": "Missing textures"
+        "long": "Липсват текстури",
+        "short": "Липсващи текстури"
       },
       "other": {
-        "long": "Other",
-        "short": "Other"
+        "long": "Друго",
+        "short": "Друго"
       }
     },
-    "prompt": "Did you notice any graphical degradations?"
+    "prompt": "Забелязал ли си някакви графични проблеми?"
   },
   "graphicsApiSelection": {
-    "legend": "Graphics API",
+    "legend": "Графично API",
     "options": {
       "d3d": {
         "long": "Direct3D",
@@ -151,61 +151,61 @@
         "short": "OpenGL"
       },
       "unsure": {
-        "long": "Whatever the game uses by default",
-        "short": "Default"
+        "long": "Каквото играта използва по подразбиране",
+        "short": "По подразбиране"
       },
       "vk": {
         "long": "Vulkan",
         "short": "Vulkan"
       }
     },
-    "prompt": "What graphics API did you use within the game?"
+    "prompt": "Какво графично API използваш в играта?"
   },
   "i18nStamp": 1573767610406,
   "inputFaults": {
-    "legend": "Input",
+    "legend": "Управление",
     "options": {
       "bounding": {
         "long": "Bounds were incorrect",
         "short": "Bounding"
       },
       "controllerMapping": {
-        "long": "Controller(s) were not mapped properly",
-        "short": "Controller mapping"
+        "long": "Контролера не е мапнат правилно",
+        "short": "Мапване на контролер"
       },
       "controllerNotDetected": {
-        "long": "Controller(s) not detected",
-        "short": "Controller detection"
+        "long": "Не е открит контролер",
+        "short": "Откриване на контролер"
       },
       "controllerNotResponsive": {
-        "long": "Controller(s) detected but were not responsive",
-        "short": "Responsiveness"
+        "long": "Контролера е открит, но не се прави нищо (не отговаря)",
+        "short": "Неотговарящ контролер"
       },
       "drifting": {
-        "long": "Axes would drift",
-        "short": "Drifting"
+        "long": "Осите може да не се връщат в позиция 0",
+        "short": "Дрифтинг"
       },
       "inaccuracy": {
-        "long": "Inaccuracy",
-        "short": "Inaccuracy"
+        "long": "Неточност",
+        "short": "Неточност"
       },
       "lag": {
-        "long": "Input was laggy",
-        "short": "Lag"
+        "long": "Има забавяне",
+        "short": "Лаг"
       },
       "other": {
-        "long": "Other",
-        "short": "Other"
+        "long": "Друго",
+        "short": "Друго"
       }
     },
-    "prompt": "Did you experience any problems with your mouse, gamepad or other input devices?"
+    "prompt": "Изпитал ли си някакъв проблем с мишка, клавиатура, геймконтролер или друго входно устройство?"
   },
   "installs": {
-    "legend": "Installs",
-    "prompt": "Were you able to install the game?"
+    "legend": "Инсталация",
+    "prompt": "Успя ли да инсталираш играта?"
   },
   "isImpactedByAntiCheat": {
-    "legend": "Anti-Cheat",
+    "legend": "Античийтове",
     "options": {
       "battleEye": {
         "long": "BattlEye",
@@ -216,62 +216,62 @@
         "short": "EAC"
       },
       "other": {
-        "long": "Other",
-        "short": "Other"
+        "long": "Друго",
+        "short": "Друго"
       }
     },
-    "prompt": "Is the game impacted by anti-cheat software?"
+    "prompt": "Влияе ли се играта от античийт софтуер?"
   },
   "isMultiplayerImportant": {
-    "prompt": "Is multiplayer a crucial part of the value of this game?"
+    "prompt": "Мултиплейърът важна част ли е от стойността на тази игра?"
   },
   "launchFlagsUsed": {
     "additionalNotes": {
-      "label": "Further Details",
-      "placeholder": "What did this help with?"
+      "label": "Допълнителни подробности",
+      "placeholder": "С какво помогна това?"
     },
-    "legend": "Launch Flags",
+    "legend": "Флагове за пускане",
     "options": {
       "disableD3d10": {
-        "long": "Disable D3D10",
-        "short": "Disable D3D10"
+        "long": "Забранен D3D10",
+        "short": "Забранен D3D10"
       },
       "disableD3d11": {
-        "long": "Disable D3D11",
-        "short": "Disable D3D11"
+        "long": "Забранен D3D11",
+        "short": "Забранен D3D11"
       },
       "disableEsync": {
-        "long": "Disable Esync",
-        "short": "Disable Esync"
+        "long": "Забранен Esync",
+        "short": "Забранен Esync"
       },
       "disableFsync": {
-        "long": "Disable Fsync",
-        "short": "Disable Fsync"
+        "long": "Забранен Fsync",
+        "short": "Забранен Fsync"
       },
       "largeAddressAware": {
         "long": "Large Address Aware",
         "short": "Large Address Aware"
       },
       "oldGlString": {
-        "long": "Old GL String",
-        "short": "Old GL String"
+        "long": "Стар (т.е. по-кратък) низ за GL",
+        "short": "Стар низ за GL"
       },
       "useWineD3d11": {
-        "long": "Use Wine D3D",
-        "short": "Use Wine D3D"
+        "long": "Използване на Wine D3D",
+        "short": "Използване на Wine D3D"
       },
       "useWineD9vk": {
-        "long": "Use Wine D9VK",
-        "short": "Use Wine D9VK"
+        "long": "Използване на Wine D9VK",
+        "short": "Използване на Wine D9VK"
       }
     },
-    "prompt": "Do you use any of these Proton launch flags?"
+    "prompt": "Използваш ли някое от тези флагове за пускане на Proton?"
   },
   "launcher": {
     "additionalNotes": {
-      "label": "Launcher"
+      "label": "Стартираща програма"
     },
-    "legend": "Launcher",
+    "legend": "Стартираща програма",
     "options": {
       "gamehub": {
         "long": "Gamehub",
@@ -282,233 +282,233 @@
         "short": "Lutris"
       },
       "notListed": {
-        "long": "Not Listed",
-        "short": "Not Listed"
+        "long": "Не е в списъка",
+        "short": "Не е в списъка"
       },
       "steam": {
         "long": "Steam",
         "short": "Steam"
       }
     },
-    "prompt": "How do you launch the game?"
+    "prompt": "Как стартираш тази игра?"
   },
   "localMultiplayerAppraisal": {
-    "prompt": "How would you rate the local multiplayer functionality? Please evaulate for lag, connectivity or input issues, etc."
+    "prompt": "Желаеш ли да оцениш функцията за локален мултиплейър? Оцени за лаг, връзка, проблеми с управлението и др."
   },
   "localMultiplayerAttempted": {
-    "prompt": "Did you try to play multiplayer locally (offline i.e. couch play)?"
+    "prompt": "Пробва ли да играеш локален мултиплейър (без мрежа, т.е. игра на дивана)?"
   },
   "localMultiplayerPlayed": {
-    "prompt": "Were you able to get local multiplayer to work?"
+    "prompt": "Успя ли да подкараш локален мултиплейър?"
   },
   "misc": {
-    "answerRequired": "Answer Required",
-    "answerRequiredWhenNotListed": "Answered Required When Not Listed Is Chosen",
-    "back": "Back",
-    "error": "Error!",
-    "markdownSupportNotice": "Markdown is now supported",
-    "maxChars": "Max {{count}} chars",
-    "next": "Next",
-    "submit": "Submit",
+    "answerRequired": "Необходим отговор",
+    "answerRequiredWhenNotListed": "Отговорът е необходим, когато „Не е в списъка“ е избрано",
+    "back": "Назад",
+    "error": "Грешка!",
+    "markdownSupportNotice": "Поддържа се форматиране Markdown",
+    "maxChars": "Макс. {{count}} символа",
+    "next": "Следващ",
+    "submit": "Изпрати",
     "submission": {
-      "success": "Successfully Submitted",
-      "note": "Please note that new reports will be in a pending state until the next content refresh. You can view your contributions on your [Profile]({{link}})",
-      "error": "There was an error during submission. Please let us know how this happened!",
-      "thanks": "Thanks for your contribution to {{siteName}}"
+      "success": "Успешно изпращане",
+      "note": "Имайте предвид, че новите доклади ще бъдат на изчакване, до следващото обновяване на съдържанието. Можеш да видиш своите приноси в [Профила си]({{link}})",
+      "error": "Възникна грешка при изпращане. Моля, известете ни какво се е случило!",
+      "thanks": "Благодарим за твоят принос към {{siteName}}"
     },
-    "tooLong": "Too long"
+    "tooLong": "Прекалено е дълго"
   },
   "multiplayerAppraisal": {
     "options": {
       "acceptable": {
-        "long": "Acceptable. Moderate issues but can be struggled through.",
-        "short": "Acceptable"
+        "long": "Приемливо. Умерени проблеми, които могат да бъдат преодолени.",
+        "short": "Приемливо"
       },
       "awful": {
-        "long": "Awful. Practically not playable",
-        "short": "Awful"
+        "long": "Ужасно. Практически не може да се играе",
+        "short": "Ужасно"
       },
       "excellent": {
-        "long": "Excellent. Did not experience any problems.",
-        "short": "Excellent"
+        "long": "Отлично. Не съм усетил никакви проблеми.",
+        "short": "Отлично"
       },
       "good": {
-        "long": "Good. Had infrequent issues but is overall playable.",
-        "short": "Good"
+        "long": "Добро. Имах редки проблеми, но като цяло е играемо.",
+        "short": "Добро"
       },
       "weak": {
-        "long": "Weak. Its problems significantly impact the experience",
-        "short": "Weak"
+        "long": "Слабо. Наличните проблеми значително влияят на играта",
+        "short": "Слабо"
       }
     }
   },
   "onlineMultiplayerAppraisal": {
-    "prompt": "How would you rate the online multiplayer functionality? Please evaulate for lag, connectivity or input issues, matchingmaking failures etc."
+    "prompt": "Как ще оцениш онлайн мултиплейъра? Моля, оцени за лаг, връзка, проблеми с управлението, грешки при осъществяване на мачовете, и др."
   },
   "onlineMultiplayerAttempted": {
-    "prompt": "Did you try to play multiplayer online?"
+    "prompt": "Пробва ли да играеш онлайн мултиплейър?"
   },
   "onlineMultiplayerPlayed": {
-    "prompt": "Were you able to connect and play online multiplayer?"
+    "prompt": "Можеш ли да се свържеш и играеш онлайн мултиплейър?"
   },
   "opens": {
-    "legend": "Opens",
-    "prompt": "Were you able to start up the game and view its initial menu?"
+    "legend": "Отваря се",
+    "prompt": "Успя ли да стартираш играта и да видиш началното ѝ меню?"
   },
   "performanceFaults": {
-    "legend": "Performance",
+    "legend": "Производителност",
     "options": {
       "significantSlowdown": {
-        "long": "Significant slowness",
-        "short": "Significant"
+        "long": "Значителни забавяния",
+        "short": "Значителни"
       },
       "slightSlowdown": {
-        "long": "Slightly slow",
-        "short": "Slight"
+        "long": "Леки забавяния",
+        "short": "Леки"
       }
     },
-    "prompt": "Did you experience unexpected slowness given your hardware?"
+    "prompt": "Изпитвал ли си неочаквани забавяния с твоя хардуер?"
   },
   "prerequisitesBlock": {
-    "action": "Go to profile",
-    "context": "You'll need to log into Steam and provide system information before submitting!"
+    "action": "Отиди в профил",
+    "context": "Нужно е да се логнеш чрез Steam и да предоставиш информация за хардуера и системата си, преди да изпратиш доклад!"
   },
   "preview": {
-    "intro": "Things to check for:",
+    "intro": "Неща за проверка:",
     "notes": [
-      "Is your system information up to date? You will need to go to your profile and provide your Steam information after a graphics driver update.",
-      "Have you selected the correct game? Some games have the same name as older versions i.e. GRID",
-      "Have you added descriptions in the right place? For example, write notes about graphics issues in that section rather than end notes."
+      "Информацията за системата и хардуера актуална ли е? Трябва да отидеш в своя профил и да предоставиш Steam информация след смяна на видео драйвера.",
+      "Избра ли коректно игра? Някои игри имат същото име като старите си версии, напр. GRID",
+      "Добави ли описания на правилните места? Например, добавянето на бележки за графични проблеми в тази секция, вместо на друго място."
     ]
   },
   "prompts": {
-    "continuingDraft": "You are continuing from an automatically saved draft.",
-    "discardDraftWarning": "All of your responses will be permanently discarded.",
-    "startOver": "Start Over"
+    "continuingDraft": "Продължаваш от предишно съхранена чернова.",
+    "discardDraftWarning": "Всички твои отговори ще бъдат окончателно отхвърлени.",
+    "startOver": "Започни отначало."
   },
   "protonVersion": {
     "additionalNotes": {
-      "label": "Manual Proton Version",
-      "placeholder": "Must be valid Proton version string. Examples: {{examples}}"
+      "label": "Версия на Proton",
+      "placeholder": "Трябва да бъде валиден низ за версия на Proton. Примери: {{examples}}"
     },
-    "prompt": "What version of Proton are you using?"
+    "prompt": "Коя версия на Proton използваш?"
   },
   "saveGameFaults": {
-    "legend": "Save Games",
+    "legend": "Запазване (Save)",
     "options": {
       "errorLoading": {
-        "long": "Could not load a save game",
-        "short": "Loading"
+        "long": "Не мога да заредя от предишно запазване",
+        "short": "Зареждане"
       },
       "errorSaving": {
-        "long": "Could not save",
-        "short": "Saving"
+        "long": "Не мога да запазвам прогреса",
+        "short": "Запазване"
       },
       "other": {
-        "long": "Other",
-        "short": "Other"
+        "long": "Друго",
+        "short": "Друго"
       }
     },
-    "prompt": "Did you experience any problems with save games?"
+    "prompt": "Имал ли си някакви проблеми със запазването на прогреса в играта?"
   },
   "significantBugs": {
-    "legend": "Significant Bugs",
-    "prompt": "Did you experience any other significant bugs?"
+    "legend": "Значителни бъгове",
+    "prompt": "Имал ли си някакви други значителни бъгове?"
   },
   "stabilityFaults": {
-    "legend": "Stability",
+    "legend": "Стабилност",
     "options": {
       "frequentCrashes": {
-        "long": "Frequent crashes",
-        "short": "Frequently"
+        "long": "Чести крашове",
+        "short": "Чести"
       },
       "notListed": {
-        "long": "Not listed",
-        "short": "Not listed"
+        "long": "Не е в списъка",
+        "short": "Не е в списъка"
       },
       "occasionally": {
-        "long": "Occasional crashes",
-        "short": "Occasionally"
+        "long": "Случайни крашове",
+        "short": "Случайни"
       }
     },
-    "prompt": "Did you experience any stability issues?"
+    "prompt": "Имал ли си проблеми със стабилността?"
   },
   "startsPlay": {
-    "legend": "Starts Play",
-    "prompt": "Were you able to begin playing?"
+    "legend": "Стартира играенето",
+    "prompt": "Успя ли да играеш?"
   },
   "stepHeadlines": {
-    "appSelection": "Game Selection",
-    "borked": "Borked!",
-    "customizations": "Customizations",
-    "finalNotes": "Verdict",
-    "gameplay": "Other Potential Issues",
-    "graphics": "Graphics and Performance",
-    "multiplayer": "Multiplayer",
-    "preview": "Preview",
-    "setup": "Setup",
-    "stability": "Stability",
-    "startup": "Install and Startup",
-    "tinkerCheck": "Report Type",
-    "unownedWarning": "Not In Library"
+    "appSelection": "Гейм селекция",
+    "borked": "Счупено!",
+    "customizations": "Персонализации",
+    "finalNotes": "Заключение",
+    "gameplay": "Други потенциални проблеми",
+    "graphics": "Графика и производителност",
+    "multiplayer": "Мултиплейър",
+    "preview": "Предварителен преглед",
+    "setup": "Настройка",
+    "stability": "Стабилност",
+    "startup": "Инсталация и стартиране",
+    "tinkerCheck": "Тип доклад",
+    "unownedWarning": "Не е в библиотеката"
   },
   "type": {
     "intro": [
-      "ProtonDB now buckets reports into two types: Steam Play and Tinker.",
-      "Use Steam Play Report to cover the out-of-the-box experience. Install, hit play, and get your game on.",
-      "Use Tinker Report if you have made tweaks or customizations to get the game working.",
-      "For more on the differences, see [this news post]({{link}})."
+      "ProtonDB сега разделя докладите на два типа: Steam Play и Tinker.",
+      "Използвай Steam Play тип, за да докладваш стандартното протичане пускането на игра. Инсталираш, натискаш Играй, и след това започваш играене.",
+      "Използвай Tinker тип, ако си правил някакви доработки, промени, персонализации, за да подкараш играта.",
+      "За повече информация по разликите, виж [тази публикация]({{link}})."
     ],
     "options": {
       "steamPlay": {
-        "long": "SteamPlay Report",
-        "short": "SteamPlay Report"
+        "long": "SteamPlay Доклад",
+        "short": "SteamPlay Доклад"
       },
       "tinker": {
-        "long": "Tinker Report",
-        "short": "Tinker Report"
+        "long": "Tinker Доклад",
+        "short": "Tinker Доклад"
       }
     },
-    "prompt": "What type of report will you write?"
+    "prompt": "Какъв тип доклад искаш да напишеш?"
   },
   "verdict": {
     "additionalNotes": {
-      "label": "Summary (max {{count}} chars)",
-      "placeholder": "Add a short summary. This will be the headline of your report."
+      "label": "Резюме (макс. {{count}} символа)",
+      "placeholder": "Добави кратко резюме. Това ще е заглавието на твоя доклад."
     },
-    "prompt": "Would a typical gamer have an enjoyable experience running this game on Linux with Proton?"
+    "prompt": "Дали един типичен геймър би имал приятно изживяване, стартирайки тази игра под Linux с Proton?"
   },
   "welcome": {
-    "headline": "Welcome",
-    "intro": "Thanks for your interest in expanding ProtonDB's catalog of compatibility reports on Steam Play and Proton! Please keep in mind the following before you contribute",
+    "headline": "Добре дошли",
+    "intro": "Благодарим за твоят интерес в разширяването каталога на ProtonDB с доклади за съвместимост чрез Steam Play и Proton! Моля, имай предвид следното преди да продължиш със своя принос",
     "notes": [
-      "These reports are published on ProtonDB pending review and used by other gamers, Valve, and developers to identify and fix games. Please keep your reports accurate, free of offensive language, and refrain from submitting reports just to promote your favorite game, distro or graphics card.",
-      "Submitting multiple reports for the same game is encouraged! As you play more or update Proton you'll have more to say. In this way ProtonDB differs from a wiki, since each report serves as a 'snapshot' of how the game played on that date with your configuration.",
-      "If you submit multiple reports, only your most recent will count towards the ProtonDB rating and only if your system information meets Proton's minimum requirements.",
-      "Your contributions will be publicly visible on ProtonDB and available in data exports under the Open Database License. Go [here]({{link}}) for more information."
+      "Тези доклади се публикуват в PritonDB чрез проверка и преглед, и се използват от други геймъри, Valve и разработчици, за идентифициране и поправки на игри. Моля, дръжте своите доклади винаги точни, без обиди, и се въздържайте от доклади, целящи промотиране на вашите любими игри, дистрибуции или графични карти.",
+      "Изпращането на няколко доклада за една и съща игра се насърчава! Когато играеш повече или обновяваш Proton, може да има да кажеш и повече. ProtonDB се различава от уики, понеже всеки доклад служи като „моментна снимка“ (snapshot) за това какво е било състоянието на играта към даден период или при конкретна компютърна конфигурация.",
+      "Ако изпратиш няколко доклада, само най-последният ще се включи в рейтингът на ProtonDB, и само ако твоята системна информация отговаря на минималните изисквания на Proton.",
+      "Твоите приноси ще бъдат публични в ProtonDB, и достъпни при екпорт на данни под лиценза Open Database License. Виж [тук]({{link}}) за певече информация."
     ],
-    "outro": "With that, let's get started!"
+    "outro": "След всичко това, да започваме!"
   },
   "windowingFaults": {
-    "legend": "Windowing",
+    "legend": "Прозорци",
     "options": {
       "activatingFullscreen": {
-        "long": "Fullscreen could not be initiated",
-        "short": "Activating Fullscreen"
+        "long": "Режим на цял екран не може да бъде установен",
+        "short": "Активиране на цял екран"
       },
       "fullNotFull": {
-        "long": "Fullscreen was not fully full",
-        "short": "Size"
+        "long": "Режимът за цял екран всъщност не обхващаше изцяло видимата част от екрана",
+        "short": "Размер"
       },
       "other": {
-        "long": "Other",
-        "short": "Other"
+        "long": "Друго",
+        "short": "Друго"
       },
       "switching": {
-        "long": "Could not conventionally escape from fullscreen (such as with Alt-Tab)",
-        "short": "Switching"
+        "long": "Не мога конвенционално да изляза от цял екран (напр. чрез Alt-Tab)",
+        "short": "Превключване"
       }
     },
-    "prompt": "Did you experience any problems with windowing or fullscreen?"
+    "prompt": "Имал ли си проблеми с режим в цял екран или в прозорец?"
   }
 }
