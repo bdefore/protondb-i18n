@@ -55,6 +55,12 @@
     "minimumRequirements": "Мінімальні вимоги",
     "nativelySupports": "Нативно Підтримує"
   },
+  "contextualInfo": {
+    "hoursPlayed": "{{context}} годин зіграно",
+    "peakPlayers": "{{context}} гравців в час пік",
+    "positiveRating": "{{context}}% позитивний рейтинг",
+    "recentReportCount": "{{context}} звітів з двома останніми версіями Proton"
+  },
   "home": {
  "getStartedLinks": [
       "[Офіційна сторінка Steam Play](https://store.steampowered.com/steamplay)",
@@ -142,7 +148,7 @@
     "published": "Опубліковано",
     "rated": "Оцінено",
     "report": "Звіт",
-    "reports": "Звітів",
+    "reports": "Звіти",
     "save": "Зберегти",
     "saved": "{{what}} Збережено",
     "show": "Показати {{what}}",
