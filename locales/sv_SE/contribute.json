@@ -1,11 +1,11 @@
 {
   "appSelection": {
-    "caution": "Caution!",
-    "helperText": "You may also paste links or an App ID and we will try to find it",
-    "notFound": "Could not find game with App ID {{query}}. This can happen if it is either inaccurate or if it has: been removed from the Steam store, not listed as a 'game', or not available in your country.",
-    "placeholder": "Enter name of a game in your Steam library...",
+    "caution": "Varning!",
+    "helperText": "Du kan också klistra in länkar eller ett App ID och vi kommer försöka hitta det",
+    "notFound": "Kunde inte hitta spel med App ID {{query}}. Detta kan hända antingen om det är inkorrekt eller om det har: blivit borttaget från Steambutiken, inte listas som ett 'spel', eller om det inte är tillgängligt i ditt land.",
+    "placeholder": "Skriv in namnet på ett spel i ditt Steambibliotek...",
     "previousReportsExist": "Du har tidigare rapporter för detta spel",
-    "runsNativeWarning": "The selected game has published a native Linux version! Please be sure you have not inadvertently run the game natively. Steam does not use Steam Play to run this game by default, but [you can force it to do so]({{link}})."
+    "runsNativeWarning": "Det valda spelet har en native Linux version publicerad! Se till att du inte oavsiktligt kört native versionen av spelet. Steam använder inte Steam Play för att köra det här spelet som standard, men [du kan tvinga Steam att göra det]({{link}})."
   },
   "audioFaults": {
     "legend": "Ljud",
@@ -159,7 +159,7 @@
         "short": "Vulkan"
       }
     },
-    "prompt": "Vilken grafik API använde du i spelet?"
+    "prompt": "Vilken grafik-API använde du i spelet?"
   },
   "i18nStamp": 1573767610406,
   "inputFaults": {
@@ -182,8 +182,8 @@
         "short": "Respons"
       },
       "drifting": {
-        "long": "Axes would drift",
-        "short": "Drifting"
+        "long": "Axlarna gled",
+        "short": "Glid"
       },
       "inaccuracy": {
         "long": "Inexakt inmatning",
@@ -228,7 +228,7 @@
   "launchFlagsUsed": {
     "additionalNotes": {
       "label": "Ytterligare detaljer",
-      "placeholder": "What did this help with?"
+      "placeholder": "Vad förbättrades genom att göra detta?"
     },
     "legend": "Startflaggor",
     "options": {
@@ -305,15 +305,15 @@
     "answerRequired": "Svar krävs",
     "answerRequiredWhenNotListed": "Svar krävs när \"Inte listat\" är valt",
     "back": "Tillbaka",
-    "error": "Error!",
+    "error": "Något fick fel (error)!",
     "markdownSupportNotice": "Markdown stöds nu",
     "maxChars": "Max {{count}} tecken",
     "next": "Nästa",
-    "submit": "Submit",
+    "submit": "Lämna in",
     "submission": {
       "success": "Successfully Submitted",
-      "note": "Please note that new reports will be in a pending state until the next content refresh. You can view your contributions on your [Profile]({{link}})",
-      "error": "There was an error during submission. Please let us know how this happened!",
+      "note": "Notera att nya rapporter inte kommer visas direkt i avvaktan på nästa innehållsrefresh. Du kan visa dina bidrag på din [profil]({{link}})",
+      "error": "Något gick snett under inlämningen. Vi uppskattar om du berättar för oss hur detta hände!",
       "thanks": "Tack för ditt bidrag till {{siteName}}"
     },
     "tooLong": "För långt"
@@ -409,11 +409,11 @@
         "short": "Annat"
       }
     },
-    "prompt": "Did you experience any problems with save games?"
+    "prompt": "Upplevde du några problem med sparfiler?"
   },
   "significantBugs": {
-    "legend": "Significant Bugs",
-    "prompt": "Did you experience any other significant bugs?"
+    "legend": "Markanta buggar",
+    "prompt": "Upplevde du några markanta buggar?"
   },
   "stabilityFaults": {
     "legend": "Stabilitet",
@@ -434,80 +434,80 @@
     "prompt": "Upplevde du några stabilitetsproblem?"
   },
   "startsPlay": {
-    "legend": "Starts Play",
+    "legend": "Börja spela",
     "prompt": "Kunde du börja spela?"
   },
   "stepHeadlines": {
-    "appSelection": "Game Selection",
-    "borked": "Borked!",
-    "customizations": "Customizations",
-    "finalNotes": "Verdict",
-    "gameplay": "Other Potential Issues",
-    "graphics": "Graphics and Performance",
+    "appSelection": "Val av spel",
+    "borked": "Kaputt!",
+    "customizations": "Anpassningar",
+    "finalNotes": "Omdöme",
+    "gameplay": "Andra potentiella problem",
+    "graphics": "Grafik och prestanda",
     "multiplayer": "Multiplayer",
-    "preview": "Preview",
+    "preview": "Förhandsgranska",
     "setup": "Setup",
-    "stability": "Stability",
-    "startup": "Install and Startup",
-    "tinkerCheck": "Report Type",
-    "unownedWarning": "Not In Library"
+    "stability": "Stabilitet",
+    "startup": "Installation och upstart",
+    "tinkerCheck": "Reporttyp",
+    "unownedWarning": "Inte i ditt bibiliotek"
   },
   "type": {
     "intro": [
-      "ProtonDB now buckets reports into two types: Steam Play and Tinker.",
-      "Use Steam Play Report to cover the out-of-the-box experience. Install, hit play, and get your game on.",
-      "Use Tinker Report if you have made tweaks or customizations to get the game working.",
-      "For more on the differences, see [this news post]({{link}})."
+      "ProtonDB delar nu upp rapporter i två typer: Steam Play och Tinker.",
+      "Använd Steam Play rapporter för \"out-of-the-box\" upplevelsen. Installera och börja spela!.",
+      "Använd Tinker-rapport om du har gjort några justeringar eller anpassningar för att få spelet att fungera.",
+      "För mer information om skillnaderna, se [detta nyhetsinlägg]({{link}})."
     ],
     "options": {
       "steamPlay": {
-        "long": "SteamPlay Report",
-        "short": "SteamPlay Report"
+        "long": "SteamPlay-rapport",
+        "short": "SteamPlay-rapport"
       },
       "tinker": {
-        "long": "Tinker Report",
-        "short": "Tinker Report"
+        "long": "Tinker-rapport",
+        "short": "Tinker-rapport"
       }
     },
-    "prompt": "What type of report will you write?"
+    "prompt": "Vilken typ av rapport vill du skriva?"
   },
   "verdict": {
     "additionalNotes": {
-      "label": "Summary (max {{count}} chars)",
-      "placeholder": "Add a short summary. This will be the headline of your report."
+      "label": "Sammanfattning (max {{count}} tecken)",
+      "placeholder": "Lägg till en kort sammanfattning. Detta kommer vara din rapports rubrik."
     },
-    "prompt": "Would a typical gamer have an enjoyable experience running this game on Linux with Proton?"
+    "prompt": "Skulle en genomsnittlig gamer ha en bra upplevelse med detta spel på Linux i Proton?"
   },
   "welcome": {
-    "intro": "Thanks for your interest in expanding ProtonDB's catalog of compatibility reports on Steam Play and Proton! Please keep in mind the following before you contribute",
+    "intro": "Tack för ditt intresse i att expandera ProtonDB's katalog av kompatibilitetsrapporter för Steam Play och Proton! Tänk på följande innan du bidrar",
     "notes": [
-      "These reports are published on ProtonDB pending review and used by other gamers, Valve, and developers to identify and fix games. Please keep your reports accurate, free of offensive language, and refrain from submitting reports just to promote your favorite game, distro or graphics card.",
-      "Submitting multiple reports for the same game is encouraged! As you play more or update Proton you'll have more to say. In this way ProtonDB differs from a wiki, since each report serves as a 'snapshot' of how the game played on that date with your configuration.",
-      "If you submit multiple reports, only your most recent will count towards the ProtonDB rating and only if your system information meets Proton's minimum requirements.",
-      "Your contributions will be publicly visible on ProtonDB and available in data exports under the Open Database License. Go [here]({{link}}) for more information."
+      "Rapporterna pulicerade på ProtonDB används av andra gamers, Valve, samt utvecklare för att identifiera problem och fixa spel. Håll dina rapporter noggranna, fria från förolämpande språk, och avtså från att publicera rapporter endast för att promota ditt favoritspel, din favoritdistribution, eller ditt favoritgrafikkort.",
+      "Vi uppmuntrar dig att skicka in flera rapporter för samma spel! Under tiden som du spelar mer och/eller uppdaterar Proton kommer du ha mer att säga. På detta sätt skiljer sig ProtonDB från en wiki då varje raport fungerar som en 'snapshot' av hur spelet fungerade den dagen med din konfiguration.",
+      "Om du bidrar mer flera rapporter kommer bara din senaste att ränkas i ProtonDB klassificeringen samt också endast om din systeminformation möter minimumkraven för Proton.",
+      "Dina bidrag kommer vara offentligt synliga i ProtonDB samt tillgängliga i dataexporter under Open Database licensen. Besök [denna sida]({{link}}) för mer information."
     ],
-    "outro": "With that, let's get started!"
+    "outro": "Med det, låt oss börja!"
   },
   "windowingFaults": {
-    "legend": "Windowing",
+    "legend": "Fönsterhantering",
     "options": {
       "activatingFullscreen": {
-        "long": "Fullscreen could not be initiated",
-        "short": "Activating Fullscreen"
+        "long": "Fullskärm kunde inte aktiveras",
+        "short": "Aktivera fullskärm"
       },
       "fullNotFull": {
-        "long": "Fullscreen was not fully full",
-        "short": "Size"
+        "long": "Fullskärm täckte inte hela skärmen",
+        "short": "Storlek"
       },
       "other": {
-        "long": "Other",
-        "short": "Other"
+        "long": "Annat",
+        "short": "Annat"
       },
       "switching": {
-        "long": "Could not conventionally escape from fullscreen (such as with Alt-Tab)",
-        "short": "Switching"
+        "long": "Kunde inte på det normala sätter gå ur fullskärm (t.ex. med Alt-Tab)",
+        "short": "Växlande"
       }
     },
-    "prompt": "Did you experience any problems with windowing or fullscreen?"
+    "prompt": "Upplevde du några problem med fönsterhantering och/eller fullskärm??"
   }
 }
