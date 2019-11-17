@@ -18,7 +18,7 @@
   },
   "explore": {
     "headlines": {
-      "fixWanted": "Fix efterlyst",
+      "fixWanted": "Fix efterfrågad",
       "highestRated": "Högst betygsatta på SteamDB",
       "hoursPlayed": "Timmar spelade",
       "inLibrary": "I ditt biliotek",
@@ -32,7 +32,7 @@
     "notLoggedIn": "Kan inte ladda ett bibliotek utan Steam ID. Besök din [profil]({{link}}) för att lägga till ett.",
     "poweredBy": "Drivs av",
     "sorts": {
-      "fixWanted": "Fix efterlyst",
+      "fixWanted": "Fix efterfrågad",
       "hoursPlayed": "Timmar spelade",
       "mostBorked": "Mest kaputta",
       "playerCount": "Spelarantal",
