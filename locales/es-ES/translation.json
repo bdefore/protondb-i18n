@@ -1,7 +1,7 @@
 {
   "breakdown": {
     "headline": "Juegos Populares",
-    "popularHeadline": "Ratings for {{count}} most popular",
+    "popularHeadline": "Puntuación para los {{count}} más populares",
     "topHundred": "Top Cien",
     "topTen": "Top Diez",
     "topThousand": "Top Mil",
@@ -13,40 +13,40 @@
       "vr": "VR"
     },
     "unavailable": "No disponible",
-    "unrated": "Unrated",
-    "unreported": "Unreported"
+    "unrated": "Sin puntuación",
+    "unreported": "No reportado"
   },
   "explore": {
     "headlines": {
-      "fixWanted": "Fix Wanted",
-      "highestRated": "Highest Rated on SteamDB",
-      "hoursPlayed": "Hours Played",
+      "fixWanted": "Se necesita arreglar",
+      "highestRated": "Mejor puntuado en SteamDB",
+      "hoursPlayed": "Horas jugadas",
       "inLibrary": "En biblioteca",
-      "mostBorked": "Most Borked Reports",
-      "mostPopular": "Most Popular",
-      "recentlyImproved": "Recently Improved",
-      "wellRatedHere": "Well Rated Here"
+      "mostBorked": "Reportes más rotos",
+      "mostPopular": "Más popular",
+      "recentlyImproved": "Recientemente Mejorado",
+      "wellRatedHere": "Bien puntuado aquí"
     },
     "layout": "Layout",
-    "loadError": "Error loading games!",
-    "notLoggedIn": "Cannot load a library without a Steam ID. Visit your [Profile]({{link}}) to add one.",
-    "poweredBy": "Powered by",
+    "loadError": "Error cargando juegos!",
+    "notLoggedIn": "No se puede cargar una librería sin un id de Steam. Visita tu [Perfil]({{link}}) para añadir uno.",
+    "poweredBy": "Potenciado por",
     "sorts": {
       "fixWanted": "Fix Wanted",
-      "hoursPlayed": "Hours played",
-      "mostBorked": "Most Borked",
+      "hoursPlayed": "HOras juagadas",
+      "mostBorked": "Más roto",
       "playerCount": "Player count",
-      "recentlyImproved": "Recently Improved",
-      "userScore": "User Score",
-      "wilsonRating": "ProtonDB Rating"
+      "recentlyImproved": "Recientemente Mejorado",
+      "userScore": "Puntuación de usuario",
+      "wilsonRating": "PUntuación de ProtonDB"
     },
     "toggles": {
       "includeNative": "Incluir Nativo",
-      "lackReports": "Lack Reports",
+      "lackReports": "Faltan Reportes",
       "restrictToLibrary": "Librería",
-      "untested": "Lack Reports",
-      "userTags": "User Tags",
-      "whitelisted": "Whitelisted"
+      "untested": "Faltan Reportes",
+      "userTags": "Etiquetas de usuarios",
+      "whitelisted": "LIsta de deseos"
     }
   },
   "gameDetails": {
@@ -67,7 +67,7 @@
     "stats": {
       "gamesReported": "games reported",
       "gamesWork": "juegos que funcionan",
-      "reportsWritten": "reports written"
+      "reportsWritten": "reportes escritos"
     },
     "theImpact": {
       "answer": "Steam Play now officially supports a limited but growing set of 'whitelisted' games that are deemed Proton-compatible and play on Linux. Based on ProtonDB reports, a significant number of non-whitelisted games, including many popular titles, play just as well as on Windows.",
@@ -83,20 +83,20 @@
     },
     "whyBigDeal": {
       "answer": "The Linux desktop experience has improved by leaps and bounds in the last year or two. Most of what you may be used to on Windows or MacOS is possible on Linux without having to tinker too much, and the tinkering can even be fun. Meanwhile, more and more of our daily interactions with a computer happen online, and browsers behave much the same on Linux as they do on other operating systems. Proton and Steam Play address a significant obstacle to adoption: gaming, where until recently there was limited compatibility.",
-      "question": "Why is this a big deal?"
+      "question": "¿Por qué es algo tan importante?"
     }
   },
   "i18nStamp": 1573767610406,
   "libraryLoader": {
-    "errorLoadingGames": "Error loading games. Please ensure both Profile and Game Details are public on this account!",
-    "gameTotal": "{{count}} games in library loaded!",
-    "headline": "Steam Authentication",
+    "errorLoadingGames": "Error cargando juegos. Por favor, asegurate de que tu perfil y los detalles de los juegos son públicos en esta cuenta!",
+    "gameTotal": "{{count}} juegos de tu librería cargados!",
+    "headline": "Autenticación de Steam",
     "intro": "Logging in with Steam lets you submit reports and use the [Explore page with a Library filter]({{link}}) to limit results to games that you own.",
     "loggedInAs": "Logged in as {{username}}",
     "note": "Ensure that within your [Steam Privacy Settings]({{link}}) both your 'My Profile' and your 'Game Details' are set to public. Recent changes to Steam have made those private by default. This will use the Steam Web API to retrieve public information about your account including your id, profile name and avatar. Steam will present an IP address of {{host}} for you to trust - this is expected.",
-    "refresh": "Refresh",
-    "steamSignIn": "Sign In With Steam",
-    "unlink": "Unlink Account"
+    "refresh": "Recargar",
+    "steamSignIn": "Iniciar sesión con Steam",
+    "unlink": "Desconectar Cuenta"
   },
   "medals": {
     "borked": "Roto",
@@ -106,83 +106,83 @@
     "silver": "Plata"
   },
   "misc": {
-    "addYourReport": "Add Your Report",
+    "addYourReport": "Añadir tu Reporte",
     "affirmative": "Si",
     "areYouSure": "¿Estás Seguro?",
     "chipset": "Chipset",
-    "conjunction": "and",
-    "dismiss": "Dismiss",
-    "distro": "Distro",
-    "driver": "Driver",
-    "execute": "Run",
+    "conjunction": "y",
+    "dismiss": "Descartar",
+    "distro": "Distribución",
+    "driver": "Controlador",
+    "execute": "Ejecutar",
     "feedbackPrompt": "Feedback? Let us know on [Discord]({{link}})",
-    "filter": "Filter",
-    "games": "Games",
-    "hide": "Hide {{what}}",
-    "include": "Include",
-    "install": "Install",
-    "joinUsPrompt": "Join us on Discord!",
+    "filter": "Filtro",
+    "games": "JUegos",
+    "hide": "Esconder {{what}}",
+    "include": "Incluir",
+    "install": "Instalar",
+    "joinUsPrompt": "Únete en Discord!",
     "lastContentRefreshTime": "Last content refresh was {{time}} ago",
     "meetsRequirements": "Meets Requirements",
-    "moreInfo": "More Info",
-    "multiplayer": "Multiplayer",
+    "moreInfo": "Más Info",
+    "multiplayer": "Multijugador",
     "native": "Nativo",
     "negative": "No",
-    "notFound": "Not Found",
-    "note": "Note",
+    "notFound": "No Encontrado",
+    "note": "Nota",
     "overall": "Overall",
-    "pending": "Pending",
+    "pending": "Pendiente",
     "provisional": "Provisional",
-    "published": "Published",
+    "published": "Publicado",
     "rated": "Rated",
-    "report": "Report",
-    "reports": "Reports",
+    "report": "Reporte",
+    "reports": "Reportes",
     "save": "Save",
-    "saved": "{{what}} Saved",
-    "show": "Show {{what}}",
-    "showAll": "Show All",
-    "showMore": "Show More",
+    "saved": "{{what}} Guardado",
+    "show": "Mostrar {{what}}",
+    "showAll": "Mostrar Todo",
+    "showMore": "Mostrar Más",
     "tier": "Tier",
     "total": "Total",
-    "unknown": "Unknown",
-    "version": "Version"
+    "unknown": "Desconocido",
+    "version": "Versión"
   },
   "nav": {
-    "contribute": "Contribute",
-    "explore": "Explore",
-    "help": "Help",
-    "news": "News",
-    "profile": "Profile",
-    "search": "Search games...",
-    "stats": "Stats"
+    "contribute": "Contribuir",
+    "explore": "Explorar",
+    "help": "Ayuda",
+    "news": "Noticias",
+    "profile": "Perfil",
+    "search": "Buscar Juegos...",
+    "stats": "Estadísticas"
   },
   "pagination": {
-    "next": "Next page",
-    "previous": "Previous page",
-    "summary": "Results {{from}} to {{to}} out of {{total}}"
+    "next": "Página siguiente",
+    "previous": "Página anterior",
+    "summary": "{{from}} resultados de {{to}} para un total de {{total}}"
   },
   "preferences": {
-    "headline": "Preferences",
+    "headline": "Ajustes",
     "intro": "ProtonDB displays the submitter's Steam nickname beside reports. Your unique Steam ID is not transmitted in the data of published report data. If you are concerned your nickname may be used to infer your Steam profile, you can choose a different nickname here and this will be used after the next content refresh.",
     "questions": {
       "customName": {
         "additionalNotes": {
-          "label": "Custom Name"
+          "label": "Nombre personalizado"
         },
         "options": {
           "custom": "A custom nickname",
           "keepSteam": "My Steam nickname ({{steamNickname}})"
         },
-        "prompt": "Your public name"
+        "prompt": "Tu nombre público"
       },
       "language": {
-        "prompt": "Language (Experimental)"
+        "prompt": "Idioma (Experimental)"
       }
     }
   },
   "profile": {
     "exploreLibrary": "You can explore your library sorted with the following views:",
-    "inYourLibrary": "In Your Library",
+    "inYourLibrary": "En tu librería",
     "libraryTags": {
       "byHoursPlayed": "By your hours played",
       "byPlayerCount": "By player count",
@@ -194,7 +194,7 @@
       "lackReportsBySteamDbScore": "Lack Reports by SteamDB user score"
     },
     "notInYourLibrary": "Not In Your Library",
-    "yourContributions": "Your Contributions"
+    "yourContributions": "Tus contribuciones"
   },
   "ratingDefinitions": {
     "explanations": {
