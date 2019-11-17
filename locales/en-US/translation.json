@@ -55,6 +55,12 @@
     "minimumRequirements": "Minimum Requirements",
     "nativelySupports": "Natively Supports"
   },
+  "contextualInfo": {
+    "hoursPlayed": "{{context}} hours played",
+    "peakPlayers": "{{context}} peak players",
+    "positiveRating": "{{context}}% positive rating",
+    "recentReportCount": "{{context}} reports with latest two Proton versions"
+  },
   "home": {
     "getStartedLinks": [
       "[Steam's Official Steam Play Page](https://store.steampowered.com/steamplay)",
