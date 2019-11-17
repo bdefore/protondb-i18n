@@ -479,6 +479,7 @@
     "prompt": "Would a typical gamer have an enjoyable experience running this game on Linux with Proton?"
   },
   "welcome": {
+    "headline": "Welcome",
     "intro": "Thanks for your interest in expanding ProtonDB's catalog of compatibility reports on Steam Play and Proton! Please keep in mind the following before you contribute",
     "notes": [
       "These reports are published on ProtonDB pending review and used by other gamers, Valve, and developers to identify and fix games. Please keep your reports accurate, free of offensive language, and refrain from submitting reports just to promote your favorite game, distro or graphics card.",
