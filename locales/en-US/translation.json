@@ -256,7 +256,7 @@
   "systemInfo": {
     "headline": "System Information",
     "howTo": "Gathering this information is quick if you have access to Steam settings on the machine where you play your games. [Go here to learn how]({{link}}). (Some users have reported that they need to press Ctrl-A to select everything before right clicking.)",
-    "intro": "Reports have more utility and lend more creditibility by displaying the hardware and software the game was tested on. To keep this as accurate and consistent as possible, we leverage the system information reported by Steam itself.",
+    "intro": "Reports have more utility and lend more credibility by displaying the hardware and software the game was tested on. To keep this as accurate and consistent as possible, we leverage the system information reported by Steam itself.",
     "parseFailure": "Parsing failed. If you are certain you copied correctly please let us know on Discord",
     "parseSuccess": "System Information Parsed Successfully!",
     "pasteInstructions": "Paste Steam System Info Here",
