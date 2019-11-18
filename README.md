@@ -32,7 +32,7 @@ All native speakers are welcome to contribute! Please do not make pull requests 
 - Run `yarn run lint:json` to validate everything is alphabetized and formatted properly
 - Commit, push, and open a pull request!
 
-Any questions? Ask us on [Discord](https://discord.gg/uuwK9EV) You might want to let us know on there anyway that you're starting work so that we can add you to Known Active Translators below.
+Any questions? Ask us on [Discord](https://discord.gg/uuwK9EV) You might want to let us know on there anyway that you're starting work so that we can add you to Known Active Translations below.
 
 ### Verify Your Changes
 
@@ -45,14 +45,14 @@ Keep an eye out for page rendering issues if your text is smaller or larger than
 - Copy the contents of your `translation.json` file into a local storage entry as `i18next:en-US-translation`
 - Reload and review
 
-### Known Active Translators
+### Known Active Translations
 
 - Portuguese (pt-BR): [@pedrofleck](https://github.com/pedrofleck) (ongoing at [PR #10](https://github.com/bdefore/protondb-i18n/pull/10))
 - Spanish (es-ES): [@xathech](https://github.com/xathech) (ongoing at [PR #4](https://github.com/bdefore/protondb-i18n/pull/4))
 - Swedish (sv-SE): [@kattus](https://github.com/kattus) (ongoing at [PR #12](https://github.com/bdefore/protondb-i18n/pull/12))
 - Swedish (sv-SE): [@newbytee](https://github.com/newbytee) (ongoing at [PR #13](https://github.com/bdefore/protondb-i18n/pull/13))
-- Italian (it-IT): [@protoroto](https://github.com/protoroto) (ongoing at [PR #14](https://github.com/bdefore/protondb-i18n/pull/14))
 - Italian (it-IT): [@apontini](https://github.com/apontini) (ongoing at [PR #16](https://github.com/bdefore/protondb-i18n/pull/16))
+- French (fr-FR): [@julroy67](https://github.com/julroy67) (ongoing at [PR #19](https://github.com/bdefore/protondb-i18n/pull/19))
 
 ### Hall of Fame
 
