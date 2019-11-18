@@ -482,7 +482,7 @@
     "headline": "Welcome",
     "intro": "Thanks for your interest in expanding ProtonDB's catalog of compatibility reports on Steam Play and Proton! Please keep in mind the following before you contribute",
     "notes": [
-      "These reports are published on ProtonDB pending review and used by other gamers, Valve, and developers to identify and fix games. Please keep your reports accurate, free of offensive language, and refrain from submitting reports just to promote your favorite game, distro or graphics card.",
+      "Reports are published on ProtonDB to help you, Valve, and developers to help fix games. Please keep your reports accurate, free of offensive language, and refrain from submitting reports just to promote your favorite game, distro or graphics card.",
       "Submitting multiple reports for the same game is encouraged! As you play more or update Proton you'll have more to say. In this way ProtonDB differs from a wiki, since each report serves as a 'snapshot' of how the game played on that date with your configuration.",
       "If you submit multiple reports, only your most recent will count towards the ProtonDB rating and only if your system information meets Proton's minimum requirements.",
       "Your contributions will be publicly visible on ProtonDB and available in data exports under the Open Database License. Go [here]({{link}}) for more information."
