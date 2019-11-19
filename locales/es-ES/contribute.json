@@ -163,7 +163,7 @@
   },
   "i18nStamp": 1573767610406,
   "inputFaults": {
-    "legend": "Input",
+    "legend": "Entrada",
     "options": {
       "bounding": {
         "long": "Bounds were incorrect",
@@ -220,7 +220,7 @@
         "short": "Otro"
       }
     },
-    "prompt": "¿El juego ha sido afectado por algún programa anti-trampas"
+    "prompt": "¿El juego ha sido afectado por algún programa anti-trampas?"
   },
   "isMultiplayerImportant": {
     "prompt": "¿Es el multijugador una parte crucial del valor de este juego?"
@@ -438,16 +438,16 @@
     "preview": "Preview",
     "setup": "Setup",
     "stability": "Estabilidad",
-    "startup": "Install and Startup",
-    "tinkerCheck": "Report Type",
-    "unownedWarning": "Not In Library"
+    "startup": "Instalación e Inicio",
+    "tinkerCheck": "Tipo de reporte",
+    "unownedWarning": "No está en mi biblioteca"
   },
   "type": {
     "intro": [
       "Ahora ProtonDB divide los reportes entre dos tipos: Steam Play y Tinker.",
       "Usar el reporte de Steam Play para cubrir la experiencia abierta. Instalar, pulsar jugar y empezar.",
       "Usar el reporte de Tinker si has tenido que hacer ajustes o personalizaciones para conseguir que el juego funcione.",
-      "Para más información sobre las diferencias, mirar [este post]({{link}})."
+      "Para más información sobre las diferencias, mira [este post]({{link}})."
     ],
     "options": {
       "steamPlay": {
@@ -472,8 +472,8 @@
     "intro": "Gracias por tu interés en expandir el catalogo de ProtonDB sobre los reportes de compatibilidad con SteamPLay y Proton! Por favor, tenlo en cuenta antes de contribuir",
     "notes": [
       "Estos reportes son publicados en ProtonDB como pendientes de revisión y utilizados por otros jugadores, Valve y otros desarrolladores para identificar y arreglar juegos. Por favor, mantén tus reportes detallados, libres de lenguaje ofensivo, y abstente de subir reportes promocionando tu juego favorito, distribución o tarjeta gráfica.",
-      "Subir multiples reportes para el mismo juego es algo recomendado! Conforme juegues o se actualice Proton tendrás más que decir. DE esta forma ProtonDB se diferencia de una wiki, ya que cada reporte sirve como una 'captura' sobre como funcionaba el juego en esa fecha con tu configuración.",
-      "Si subes multiples reportes, solo el más reciente contará sobre la puntuación de ProtonDB y solo si tu información de sistema cumple los requisitos mínimos de Proton.",
+      "Subir multiples reportes para el mismo juego es algo recomendado! Conforme juegues o se actualice Proton tendrás más que decir. De esta forma ProtonDB se diferencia de una wiki, ya que cada reporte sirve como una 'captura' sobre como funcionaba el juego en esa fecha con tu configuración.",
+      "Si subes multiples reportes, solo el más reciente contará sobre la puntuación de ProtonDB y solo si tu información del sistema cumple los requisitos mínimos de Proton.",
       "Tu configuración será públicamente visible en ProtonDB y disponible en exportaciones de datos bajo la Licencia Open Database. Puedes ir [aquí]({{link}}) para obtener más información."
     ],
     "outro": "Y con eso, empecemos!"
