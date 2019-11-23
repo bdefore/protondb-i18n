@@ -1,63 +1,63 @@
 {
   "appSelection": {
-    "caution": "Caution!",
-    "helperText": "You may also paste links or an App ID and we will try to find it",
-    "notFound": "Could not find game with App ID {{query}}. This can happen if it is either inaccurate or if it has: been removed from the Steam store, not listed as a 'game', or not available in your country.",
-    "placeholder": "Enter name of a game in your Steam library...",
-    "previousReportsExist": "You have previous reports for this game",
-    "runsNativeWarning": "The selected game has published a native Linux version! Please be sure you have not inadvertently run the game natively. Steam does not use Steam Play to run this game by default, but [you can force it to do so]({{link}})."
+    "caution": "Προσοχή!",
+    "helperText": "Μπορείτε επίσης να επικολλήσετε συνδέσμους ή το ID της εφαρμογής και θα προσπαθήσουμε να την βρούμε",
+    "notFound": "Δεν βρέθηκε παιχνίδι με ID εφαρμογής {{query}}. Αυτό μπορεί να συμβεί αν είναι είτε ανακριβές είτε έχει: αφαιρεθεί από το κατάστημα Steam, δεν εμφανίζεται ως «παιχνίδι» ή δεν είναι διαθέσιμο στη χώρα σας.",
+    "placeholder": "Εισάγετε το όνομα ενός παιχνιδιού από την βιβλιοθήκη του Steam σας...",
+    "previousReportsExist": "Έχετε προηγούμενες αναφορές για αυτό το παιχνίδι",
+    "runsNativeWarning": "Το επιλεγμένο παιχνίδι δημοσίευσε μια εγγενή έκδοση για Linux! Βεβαιωθείτε ότι δεν έχετε εκτελέσει κατά λάθος την Linux έκδοση του παιχνιδιού. Το Steam δεν χρησιμοποιεί το Steam Play για να τρέξει αυτό το παιχνίδι από προεπιλογή, αλλά [μπορείτε να το αναγκάσετε να το πράξει]({{link}})."
   },
   "audioFaults": {
-    "legend": "Audio",
+    "legend": "Ήχος",
     "options": {
       "borked": {
-        "long": "Totally borked",
-        "short": "Borked"
+        "long": "Τέρμα Τζούφιος",
+        "short": "Τζούφιος"
       },
       "crackling": {
-        "long": "Crackling",
-        "short": "Crackling"
+        "long": "Σπασίματα",
+        "short": "Σπασίματα"
       },
       "lowQuality": {
-        "long": "Noticeable quality degradation",
-        "short": "Low quality"
+        "long": "Σημαντική υποβάθμιση της ποιότητας",
+        "short": "Χαμηλή ποιότητα"
       },
       "missing": {
-        "long": "Some audio is missing",
-        "short": "Missing"
+        "long": "Μερικοί ήχοι λείπουν",
+        "short": "Λείπουν"
       },
       "other": {
-        "long": "Other",
-        "short": "Other"
+        "long": "Άλλο",
+        "short": "Άλλο"
       },
       "outOfSync": {
-        "long": "Fell out of sync",
-        "short": "Out of sync"
+        "long": "Αποσυγχρονίζει",
+        "short": "Αποσυγχρονίζει"
       }
     },
-    "prompt": "Did you experience any problems with audio?"
+    "prompt": "Παρατηρήσατε προβλήματα με τον ήχο;"
   },
   "borked": {
-    "headline": "That's a bummer!",
-    "intro": "You will now proceed with submitting a borked report, but before you do you may want to visit our [Game Troubleshooting FAQ]({{link}}) page."
+    "headline": "Ξενέρα!",
+    "intro": "Τώρα θα προχωρήσετε στην υποβολή μιας αναφοράς, αλλά προτού την κάνετε, μπορείτε να επισκεφτείτε τη σελίδα [FAQ για την αντιμετώπιση προβλημάτων παιχνιδιών]({{link}})."
   },
   "customizationsUsed": {
     "additionalNotes": {
-      "label": "Further Details",
-      "placeholder": "Explanation or link to blog post or Github repository"
+      "label": "Περαιτέρω λεπτομέρειες",
+      "placeholder": "Επεξήγηση ή σύνδεσμος με το post blog ή το Github repository"
     },
-    "legend": "Customizations",
+    "legend": "Προσαρμογές",
     "options": {
       "customPrefix": {
-        "long": "A custom Wine prefix",
-        "short": "Custom Prefix"
+        "long": "Ένα προσαρμοσμένο πρόθεμα Wine",
+        "short": "Προσαρμοσμένο Πρόθεμα"
       },
       "customProton": {
-        "long": "A custom fork of Proton",
-        "short": "Custom Proton"
+        "long": "Μία προσαρμοσμένη έκδοση του Proton",
+        "short": "Προσαρμοσμένο Proton"
       },
       "lutris": {
-        "long": "Lutris install script",
+        "long": "Lutris εγκατάσταση script",
         "short": "Lutris"
       },
       "native2Proton": {
@@ -65,8 +65,8 @@
         "short": "Native2Proton"
       },
       "notListed": {
-        "long": "Not Listed",
-        "short": "Not Listed"
+        "long": "Μη καταχωρημένο",
+        "short": "Μη καταχωρημένο"
       },
       "protonfixes": {
         "long": "protonfixes",
@@ -81,66 +81,66 @@
         "short": "winetricks"
       }
     },
-    "prompt": "What customizations have you made?"
+    "prompt": "Τι προσαρμογές έχετε κάνει;"
   },
   "duration": {
-    "legend": "Duration",
+    "legend": "Διάρκεια",
     "options": {
       "aboutAnHour": {
-        "long": "an hour",
-        "short": "an hour"
+        "long": "μία ώρα",
+        "short": "μία ώρα"
       },
       "lessThanAnHour": {
-        "long": "< 1 hour",
-        "short": "< 1 hour"
+        "long": "< 1 ώρα",
+        "short": "< 1 ώρα"
       },
       "lessThanFifteenMinutes": {
-        "long": "< 15 minutes",
-        "short": "< 15 minutes"
+        "long": "< 15 λεπτά",
+        "short": "< 15 λεπτά"
       },
       "moreThanTenHours": {
-        "long": "> 10 hours",
-        "short": "> 10 hours"
+        "long": "> 10 ώρες",
+        "short": "> 10 ώρες"
       },
       "severalHours": {
-        "long": "2+ hours",
-        "short": "2+ hours"
+        "long": "2+ ώρες",
+        "short": "2+ ώρες"
       }
     },
-    "prompt": "For how long have you played?"
+    "prompt": "Πόση ώρα έχετε παίξει;"
   },
   "extra": {
     "additionalNotes": {
-      "label": "Extra Notes",
-      "placeholder": "Please add it here."
+      "label": "Κιάλλες Σημειώσεις",
+      "placeholder": "Παρακαλώ προσθέστε το εδώ."
     },
-    "prompt": "Is there anything you'd like to add that was not covered in previous questions?"
+    "prompt": "Υπάρχει κάτι που θέλετε να προσθέσετε που δεν καλύφθηκε σε προηγούμενες ερωτήσεις;"
   },
-  "genericFollowUpPrompt": "What sort of problems?",
+  "genericFollowUpPrompt": "Τι είδους προβλήματα;",
   "graphicalFaults": {
-    "legend": "Graphics",
+    "legend": "Γραφικά",
     "options": {
       "heavyArtifacts": {
-        "long": "Heavy or common artifacts",
-        "short": "Heavy artifacts"
+        "long": "Βαριές ή συνήθεις υποβαθμίσεις",
+        "short": "Βαριές υποβαθμίσεις"
       },
       "minorArtifacts": {
-        "long": "Minor or infrequent artifacts",
-        "short": "Minor artifacts"
+        "long": "Μικρές ή σπάνιες υποβαθμίσεις",
+        "short": "Μικρές υποβαθμίσεις"
       },
       "missingTextures": {
-        "long": "Missing textures",
-        "short": "Missing textures"
+        "long": "Ελλειπή textures",
+        "short": "Ελλειπή textures"
       },
       "other": {
-        "long": "Other",
-        "short": "Other"
+        "long": "Άλλο",
+        "short": "Άλλο"
       }
     },
-    "prompt": "Did you notice any graphical degradations?"
+    "prompt": "Παρατηρήσατε γραφικές υποβαθμίσεις;"
   },
   "graphicsApiSelection": {
-    "legend": "Graphics API",
+    "legend": "API Γραφικών",
     "options": {
       "d3d": {
         "long": "Direct3D",
@@ -151,58 +151,58 @@
         "short": "OpenGL"
       },
       "unsure": {
-        "long": "Whatever the game uses by default",
-        "short": "Default"
+        "long": "Οποιοσδήποτε χρησιμοποιεί το παιχνίδι από προεπιλογή",
+        "short": "Προεπιλογή"
       },
       "vk": {
         "long": "Vulkan",
         "short": "Vulkan"
       }
     },
-    "prompt": "What graphics API did you use within the game?"
+    "prompt": "Ποιο API γραφικών χρησιμοποιήσατε στο παιχνίδι;"
   },
   "i18nStamp": 1573767610406,
   "inputFaults": {
-    "legend": "Input",
+    "legend": "Είσοδος",
     "options": {
       "bounding": {
-        "long": "Bounds were incorrect",
-        "short": "Bounding"
+        "long": "Τα όρια ήταν λάθος",
+        "short": "Οριοθέτηση"
       },
       "controllerMapping": {
-        "long": "Controller(s) were not mapped properly",
-        "short": "Controller mapping"
+        "long": "Τα χειριστήρια δεν αντιστοιχήθηκαν σωστά",
+        "short": "Αντιστοίχηση χειριστηρίων"
       },
       "controllerNotDetected": {
-        "long": "Controller(s) not detected",
-        "short": "Controller detection"
+        "long": "Δεν ανιχνεύθηκαν χειριστήρια",
+        "short": "Ανίχνευση χειριστηρίων"
       },
       "controllerNotResponsive": {
-        "long": "Controller(s) detected but were not responsive",
-        "short": "Responsiveness"
+        "long": "Τα χειριστήρια ανιχνεύθηκαν αλλά δεν ανταποκρίνονταν",
+        "short": "Ανταπόκριση"
       },
       "drifting": {
-        "long": "Axes would drift",
+        "long": "Οι άξονες χάνανε την θέση τους",
         "short": "Drifting"
       },
       "inaccuracy": {
-        "long": "Inaccuracy",
-        "short": "Inaccuracy"
+        "long": "Ανακρίβεια",
+        "short": "Ανακρίβεια"
       },
       "lag": {
-        "long": "Input was laggy",
+        "long": "Η είσοδο είχε καθυστερήσεις",
         "short": "Lag"
       },
       "other": {
-        "long": "Other",
-        "short": "Other"
+        "long": "Άλλο",
+        "short": "Άλλο"
       }
     },
-    "prompt": "Did you experience any problems with your mouse, gamepad or other input devices?"
+    "prompt": "Αντιμετωπίσατε προβλήματα με το ποντίκι, το χειριστήριο ή άλλες συσκευές εισόδου;"
   },
   "installs": {
-    "legend": "Installs",
-    "prompt": "Were you able to install the game?"
+    "legend": "Εγκαθίσταται",
+    "prompt": "Ήταν δυνατή η εγκατάσταση του παιχνιδιού;"
   },
   "isImpactedByAntiCheat": {
     "legend": "Anti-Cheat",
@@ -216,62 +216,62 @@
         "short": "EAC"
       },
       "other": {
-        "long": "Other",
-        "short": "Other"
+        "long": "Άλλο",
+        "short": "Άλλο"
       }
     },
-    "prompt": "Is the game impacted by anti-cheat software?"
+    "prompt": "Το παιχνίδι επηρεάζεται από λογισμικό κατά του κλεψίματος;"
   },
   "isMultiplayerImportant": {
-    "prompt": "Is multiplayer a crucial part of the value of this game?"
+    "prompt": "Είναι το multiplayer κρίσιμο μέρος της αξίας αυτού του παιχνιδιού;"
   },
   "launchFlagsUsed": {
     "additionalNotes": {
-      "label": "Further Details",
-      "placeholder": "What did this help with?"
+      "label": "Περαιτέρω λεπτομέρειες",
+      "placeholder": "Με τι βοήθησε αυτό;"
     },
-    "legend": "Launch Flags",
+    "legend": "Σημαίες Εκκίνησης",
     "options": {
       "disableD3d10": {
-        "long": "Disable D3D10",
-        "short": "Disable D3D10"
+        "long": "Απενεργοποίηση D3D10",
+        "short": "Απενεργοποίηση D3D10"
       },
       "disableD3d11": {
-        "long": "Disable D3D11",
-        "short": "Disable D3D11"
+        "long": "Απενεργοποίηση D3D11",
+        "short": "Απενεργοποίηση D3D11"
       },
       "disableEsync": {
-        "long": "Disable Esync",
-        "short": "Disable Esync"
+        "long": "Απενεργοποίηση Esync",
+        "short": "Απενεργοποίηση Esync"
       },
       "disableFsync": {
-        "long": "Disable Fsync",
-        "short": "Disable Fsync"
+        "long": "Απενεργοποίηση Fsync",
+        "short": "Απενεργοποίηση Fsync"
       },
       "largeAddressAware": {
         "long": "Large Address Aware",
         "short": "Large Address Aware"
       },
       "oldGlString": {
-        "long": "Old GL String",
-        "short": "Old GL String"
+        "long": "Παλιό GL String",
+        "short": "Παλιό GL String"
       },
       "useWineD3d11": {
-        "long": "Use Wine D3D",
-        "short": "Use Wine D3D"
+        "long": "Χρήση Wine D3D",
+        "short": "Χρήση Wine D3D"
       },
       "useWineD9vk": {
-        "long": "Use Wine D9VK",
-        "short": "Use Wine D9VK"
+        "long": "Χρήση Wine D9VK",
+        "short": "Χρήση Wine D9VK"
       }
     },
-    "prompt": "Do you use any of these Proton launch flags?"
+    "prompt": "Χρησιμοποιείτε κάποια από αυτές τις σημαίες εκκίνησης του Proton;"
   },
   "launcher": {
     "additionalNotes": {
-      "label": "Launcher"
+      "label": "Εκκινητής"
     },
-    "legend": "Launcher",
+    "legend": "Εκκινητής",
     "options": {
       "gamehub": {
         "long": "Gamehub",
@@ -290,225 +290,225 @@
         "short": "Steam"
       }
     },
-    "prompt": "How do you launch the game?"
+    "prompt": "Πώς ξεκινάτε το παιχνίδι;"
   },
   "localMultiplayerAppraisal": {
-    "prompt": "How would you rate the local multiplayer functionality? Please evaulate for lag, connectivity or input issues, etc."
+    "prompt": "Πώς θα αξιολογήσατε την τοπική λειτουργία πολλών παικτών; Παρακαλούμε αξιολογήστε για προβλήματα καθυστέρησης, συνδεσιμότητας ή εισόδου κλπ."
   },
   "localMultiplayerAttempted": {
-    "prompt": "Did you try to play multiplayer locally (offline i.e. couch play)?"
+    "prompt": "Προσπαθήσατε να παίξετε σε τοπικό επίπεδο για πολλούς παίκτες (εκτός σύνδεσης, π.χ. παιχνίδι καναπέ);"
   },
   "localMultiplayerPlayed": {
-    "prompt": "Were you able to get local multiplayer to work?"
+    "prompt": "Μπορέσατε να κάνετε το τοπικό multiplayer να δουλέψει;"
   },
   "misc": {
-    "answerRequired": "Answer Required",
-    "answerRequiredWhenNotListed": "Answered Required When Not Listed Is Chosen",
-    "back": "Back",
-    "error": "Error!",
-    "markdownSupportNotice": "Markdown is now supported",
-    "maxChars": "Max {{count}} chars",
-    "next": "Next",
-    "submit": "Submit",
+    "answerRequired": "Απαιτείται απάντηση",
+    "answerRequiredWhenNotListed": "Απαιτείται απάντηση όταν είναι επιλεγμένο το Μη καταχωρημένο",
+    "back": "Πίσω",
+    "error": "Σφάλμα!",
+    "markdownSupportNotice": "Υποστηρίζεται πλέον η Markdown",
+    "maxChars": "Μέχρι {{count}} χαρακτήρες",
+    "next": "Επόμενο",
+    "submit": "Υποβολή",
     "submission": {
-      "success": "Successfully Submitted",
-      "note": "Please note that new reports will be in a pending state until the next content refresh. You can view your contributions on your [Profile]({{link}})",
-      "error": "There was an error during submission. Please let us know how this happened!",
-      "thanks": "Thanks for your contribution to {{siteName}}"
+      "success": "Υποβλήθηκε με επιτυχία",
+      "note": "Λάβετε υπόψη ότι οι νέες αναφορές θα βρίσκονται σε εκκρεμή κατάσταση μέχρι την επόμενη ανανέωση περιεχομένου. Μπορείτε να δείτε τις συνεισφορές σας στο [Προφίλ]({{link}})",
+      "error": "Παρουσιάστηκε σφάλμα κατά την υποβολή. Ενημερώστε μας πώς έγινε αυτό!",
+      "thanks": "Ευχαριστούμε για τη συμβολή σας στο {{siteName}}"
     },
-    "tooLong": "Too long"
+    "tooLong": "Πολύ μακρύ"
   },
   "multiplayerAppraisal": {
     "options": {
       "acceptable": {
-        "long": "Acceptable. Moderate issues but can be struggled through.",
-        "short": "Acceptable"
+        "long": "Αποδεκτό. Μέτρια προβλήματα, αλλά μπορούν να καταπολεμηθούν.",
+        "short": "Αποδεκτό"
       },
       "awful": {
-        "long": "Awful. Practically not playable",
-        "short": "Awful"
+        "long": "Απαίσιο. Πρακτικά δεν παίζεται.",
+        "short": "Απαίσιο"
       },
       "excellent": {
-        "long": "Excellent. Did not experience any problems.",
-        "short": "Excellent"
+        "long": "Εξαιρετικό. Δεν αντιμετώπισα κανένα πρόβλημα.",
+        "short": "Εξαιρετικό"
       },
       "good": {
-        "long": "Good. Had infrequent issues but is overall playable.",
-        "short": "Good"
+        "long": "Καλό. Είχε σπάνια προβλήματα, αλλά γενικά παίζεται.",
+        "short": "Καλό"
       },
       "weak": {
-        "long": "Weak. Its problems significantly impact the experience",
-        "short": "Weak"
+        "long": "Αδύναμο. Τα προβλήματά του επηρεάζουν σημαντικά την εμπειρία",
+        "short": "Αδύναμο"
       }
     }
   },
   "onlineMultiplayerAppraisal": {
-    "prompt": "How would you rate the online multiplayer functionality? Please evaulate for lag, connectivity or input issues, matchingmaking failures etc."
+    "prompt": "Πώς θα βαθμολογούσατε τη λειτουργία online multiplayer; Παρακαλούμε αξιολογήστε για προβλήματα καθυστέρησης, συνδεσιμότητας ή εισόδου, αποτυχίες matchmaking κλπ."
   },
   "onlineMultiplayerAttempted": {
-    "prompt": "Did you try to play multiplayer online?"
+    "prompt": "Προσπαθήσατε να παίξετε multiplayer μέσω Ίντερνετ?"
   },
   "onlineMultiplayerPlayed": {
-    "prompt": "Were you able to connect and play online multiplayer?"
+    "prompt": "Μπορέσατε να συνδεθείτε και να παίξετε multiplayer μέσω Ίντερνετ?"
   },
   "opens": {
-    "legend": "Opens",
-    "prompt": "Were you able to start up the game and view its initial menu?"
+    "legend": "Ανοίγει",
+    "prompt": "Μπορέσατε να ξεκινήσετε το παιχνίδι και να δείτε το αρχικό του μενού;"
   },
   "performanceFaults": {
-    "legend": "Performance",
+    "legend": "Επιδόσεις",
     "options": {
       "significantSlowdown": {
-        "long": "Significant slowness",
-        "short": "Significant"
+        "long": "Σημαντική βραδύτητα",
+        "short": "Σημαντική"
       },
       "slightSlowdown": {
-        "long": "Slightly slow",
-        "short": "Slight"
+        "long": "Λίγο αργό",
+        "short": "Λίγο"
       }
     },
-    "prompt": "Did you experience unexpected slowness given your hardware?"
+    "prompt": "Παρατηρήσατε απροσδόκητη βραδύτητα δεδομένου του υλικού σας;"
   },
   "prerequisitesBlock": {
-    "action": "Go to profile",
-    "context": "You'll need to log into Steam and provide system information before submitting!"
+    "action": "Πήγαινε στο προφίλ",
+    "context": "Θα χρειαστεί να συνδεθείτε στο Steam και να δώσετε πληροφορίες για το σύστημα σας πριν από την υποβολή!"
   },
   "preview": {
-    "intro": "Things to check for:",
+    "intro": "Τι να ελέγξετε:",
     "notes": [
-      "Is your system information up to date? You will need to go to your profile and provide your Steam information after a graphics driver update.",
-      "Have you selected the correct game? Some games have the same name as older versions i.e. GRID",
-      "Have you added descriptions in the right place? For example, write notes about graphics issues in that section rather than end notes."
+      "Είναι ενημερωμένες οι πληροφορίες του συστήματός σας; Θα χρειαστεί να μεταβείτε στο προφίλ σας και να δώσετε τις πληροφορίες Steam μετά την ενημέρωση του προγράμματος οδήγησης γραφικών.",
+      "Έχετε επιλέξει το σωστό παιχνίδι; Ορισμένα παιχνίδια έχουν το ίδιο όνομα με παλαιότερες εκδόσεις, π.χ. GRID",
+      "Έχετε προσθέσει περιγραφές στο σωστό μέρος; Για παράδειγμα, γράψτε σημειώσεις σχετικά με θέματα γραφικών σε αυτήν την ενότητα και όχι τελικές σημειώσεις."
     ]
   },
   "prompts": {
-    "continuingDraft": "You are continuing from an automatically saved draft.",
-    "discardDraftWarning": "All of your responses will be permanently discarded.",
-    "startOver": "Start Over"
+    "continuingDraft": "Συνεχίζετε από ένα αυτόματα αποθηκευμένο προσχέδιο.",
+    "discardDraftWarning": "Όλες οι απαντήσεις σας θα απορριφθούν οριστικά.",
+    "startOver": "Ξεκίνα από την αρχή"
   },
   "protonVersion": {
     "additionalNotes": {
-      "label": "Manual Proton Version",
-      "placeholder": "Must be valid Proton version string. Examples: {{examples}}"
+      "label": "Χειροκίνητα επιλεγμένη έκδοση Proton",
+      "placeholder": "Πρέπει να είναι έγκυρο κείμενο έκδοσης Proton. Παραδείγματα: {{examples}}"
     },
-    "prompt": "What version of Proton are you using?"
+    "prompt": "Τι έκδοση Proton χρησιμοποιείτε?"
   },
   "saveGameFaults": {
-    "legend": "Save Games",
+    "legend": "Σωσμένα Παιχνίδια",
     "options": {
       "errorLoading": {
-        "long": "Could not load a save game",
-        "short": "Loading"
+        "long": "Δεν μπορούσε να φορτώσει σωσμένο παιχνίδι",
+        "short": "Φόρτωση"
       },
       "errorSaving": {
-        "long": "Could not save",
-        "short": "Saving"
+        "long": "Δεν μπορούσε να σώσει",
+        "short": "Αποθήκευση"
       },
       "other": {
-        "long": "Other",
-        "short": "Other"
+        "long": "Άλλο",
+        "short": "Άλλο"
       }
     },
-    "prompt": "Did you experience any problems with save games?"
+    "prompt": "Παρατηρήσατε προβλήματα με το σώσιμο παιχνιδιών;"
   },
   "significantBugs": {
-    "legend": "Significant Bugs",
-    "prompt": "Did you experience any other significant bugs?"
+    "legend": "Σημαντικά σφάλματα",
+    "prompt": "Παρατηρήσατε άλλα σημαντικά σφάλματα?"
   },
   "stabilityFaults": {
-    "legend": "Stability",
+    "legend": "Σταθερότητα",
     "options": {
       "frequentCrashes": {
-        "long": "Frequent crashes",
-        "short": "Frequently"
+        "long": "Συχνές συντριβές",
+        "short": "Συχνά"
       },
       "notListed": {
-        "long": "Not listed",
-        "short": "Not listed"
+        "long": "Μη καταχωρημένο",
+        "short": "Μη καταχωρημένο"
       },
       "occasionally": {
-        "long": "Occasional crashes",
-        "short": "Occasionally"
+        "long": "Περιστασιακά συντρίβεται",
+        "short": "Περιστασιακά"
       }
     },
-    "prompt": "Did you experience any stability issues?"
+    "prompt": "Παρουσιάσατε προβλήματα σταθερότητας;"
   },
   "startsPlay": {
-    "legend": "Starts Play",
-    "prompt": "Were you able to begin playing?"
+    "legend": "Εκκίνηση Παιχνιδιού",
+    "prompt": "Μπορούσατε να ξεκινήσετε να παίζετε;"
   },
   "stepHeadlines": {
-    "appSelection": "Game Selection",
-    "borked": "Borked!",
-    "customizations": "Customizations",
-    "finalNotes": "Verdict",
-    "gameplay": "Other Potential Issues",
-    "graphics": "Graphics and Performance",
+    "appSelection": "Επιλογή Παιχνιδιού",
+    "borked": "Τζούφιο!",
+    "customizations": "Προσαρμογές",
+    "finalNotes": "Ετυμηγορία",
+    "gameplay": "Άλλα πιθανά προβλήματα",
+    "graphics": "Γραφικά και αποδώσεις",
     "multiplayer": "Multiplayer",
-    "preview": "Preview",
-    "setup": "Setup",
-    "stability": "Stability",
-    "startup": "Install and Startup",
-    "tinkerCheck": "Report Type",
-    "unownedWarning": "Not In Library"
+    "preview": "προεπισκόπηση",
+    "setup": "Εγκατάσταση",
+    "stability": "Σταθερότητα",
+    "startup": "Εγκατάσταση και Εκκίνηση",
+    "tinkerCheck": "Τύπος Αναφοράς",
+    "unownedWarning": "Όχι στην Βιβλιοθήκη"
   },
   "type": {
     "intro": [
-      "ProtonDB now buckets reports into two types: Steam Play and Tinker.",
-      "Use Steam Play Report to cover the out-of-the-box experience. Install, hit play, and get your game on.",
-      "Use Tinker Report if you have made tweaks or customizations to get the game working.",
-      "For more on the differences, see [this news post]({{link}})."
+      "Το ProtonDB τώρα χωρίζει τις αναφορές σε δύο τύπους: Steam Play και Tinker.",
+      "Χρησιμοποιήστε την αναφορά 'Steam Play' για να γράψετε για την εμπειρία σας χωρίς αλλαγές. Εγκαταστήστε, πατήστε εκκίνηση και παίξτε το παιχνίδι σας.",
+      "Χρησιμοποιήστε την αναφορά Tinker εάν έχετε κάνει μικροαλλαγές ή προσαρμογές για να λειτουργήσει το παιχνίδι.",
+      "Για περισσότερες πληροφορίες σχετικά με τις διαφορές, ανατρέξτε σε αυτό το [news post]({{link}})."
     ],
     "options": {
       "steamPlay": {
-        "long": "SteamPlay Report",
-        "short": "SteamPlay Report"
+        "long": "Αναφορά SteamPlay",
+        "short": "Αναφορά SteamPlay"
       },
       "tinker": {
-        "long": "Tinker Report",
-        "short": "Tinker Report"
+        "long": "Αναφορά Tinker",
+        "short": "Αναφορά Tinker"
       }
     },
-    "prompt": "What type of report will you write?"
+    "prompt": "Τι είδους αναφορά θα γράψετε;"
   },
   "verdict": {
     "additionalNotes": {
-      "label": "Summary (max {{count}} chars)",
-      "placeholder": "Add a short summary. This will be the headline of your report."
+      "label": "Περίληψη (μέχρι {{count}} χαρακτήρες)",
+      "placeholder": "Προσθέστε μια σύντομη περίληψη. Αυτή θα είναι η επικεφαλίδα της αναφοράς σας."
     },
-    "prompt": "Would a typical gamer have an enjoyable experience running this game on Linux with Proton?"
+    "prompt": "Θα μπορούσε ένας τυπικός παίκτης να έχει μια ευχάριστη εμπειρία τρέχοντας αυτό το παιχνίδι στο Linux με το Proton;"
   },
   "welcome": {
-    "headline": "Welcome",
-    "intro": "Thanks for your interest in expanding ProtonDB's catalog of compatibility reports on Steam Play and Proton! Please keep in mind the following before you contribute",
+    "headline": "Καλώς Ήρθατε",
+    "intro": "Ευχαριστούμε για το ενδιαφέρον σας για την επέκταση του καταλόγου αναφορών συμβατότητας του ProtonDB για το Steam Play και το Proton! Λάβετε υπόψη σας τα ακόλουθα πριν συμβάλλετε",
     "notes": [
-      "Reports are published on ProtonDB to help you, Valve, and developers to help fix games. Please keep your reports accurate, free of offensive language, and refrain from submitting reports just to promote your favorite game, distro or graphics card.",
-      "Submitting multiple reports for the same game is encouraged! As you play more or update Proton you'll have more to say. In this way ProtonDB differs from a wiki, since each report serves as a 'snapshot' of how the game played on that date with your configuration.",
-      "If you submit multiple reports, only your most recent will count towards the ProtonDB rating and only if your system information meets Proton's minimum requirements.",
-      "Your contributions will be publicly visible on ProtonDB and available in data exports under the Open Database License. Go [here]({{link}}) for more information."
+      "Οι αναφορές δημοσιεύονται στο ProtonDB για να βοηθήσουν εσάς, την Valve και τους προγραμματιστές να διορθώσουν παιχνίδια. Διατηρήστε τις αναφορές σας ακριβείς, χωρίς προσβλητική γλώσσα και αποφύγετε την υποβολή αναφορών μόνο για την προώθηση του αγαπημένου σας παιχνιδιού, διανομής ή κάρτας γραφικών.",
+      "Η υποβολή πολλαπλών αναφορών για το ίδιο παιχνίδι ενθαρρύνεται! Καθώς παίζετε περισσότερο ή ενημερώνετε το Proton, θα έχετε περισσότερα να πείτε. Με αυτόν τον τρόπο το ProtonDB διαφέρει από ένα wiki, αφού κάθε αναφορά χρησιμεύει ως «στιγμιότυπο» του τρόπου με τον οποίο το παιχνίδι έπαιξε εκείνη την ημερομηνία με τη διαμόρφωσή σας.",
+      "Εάν υποβάλλετε πολλές αναφορές, μόνο η πιο πρόσφατη σας θα μετρήσει στην αξιολόγηση στο ProtonDB και πάλι μόνο αν οι πληροφορίες του συστήματός σας πληρούν τις ελάχιστες απαιτήσεις του Proton.",
+      "Οι συνεισφορές σας θα είναι δημόσια ορατές στο ProtonDB και θα είναι διαθέσιμες στις εξαγωγές δεδομένων με την άδεια ανοικτής βάσης δεδομένων. Πηγαίνετε [εδώ]({{link}}) για περισσότερες πληροφορίες."
     ],
-    "outro": "With that, let's get started!"
+    "outro": "Άντε, ας αρχίσουμε!"
   },
   "windowingFaults": {
-    "legend": "Windowing",
+    "legend": "Παράθυρο",
     "options": {
       "activatingFullscreen": {
-        "long": "Fullscreen could not be initiated",
-        "short": "Activating Fullscreen"
+        "long": "Το Fullscreen δεν μπορούσε να ξεκινήσει.",
+        "short": "Ενεργοποίηση Fullscreen"
       },
       "fullNotFull": {
-        "long": "Fullscreen was not fully full",
-        "short": "Size"
+        "long": "Το Fullscreen δεν κάλυπτε όλη την οθόνη.",
+        "short": "Μέγεθος"
       },
       "other": {
-        "long": "Other",
-        "short": "Other"
+        "long": "Άλλο",
+        "short": "Άλλο"
       },
       "switching": {
-        "long": "Could not conventionally escape from fullscreen (such as with Alt-Tab)",
-        "short": "Switching"
+        "long": "Δεν μπορούσα να βγω εύκολα από fullscreen (π.χ. με Alt-Tab).",
+        "short": "Εναλλαγή"
       }
     },
-    "prompt": "Did you experience any problems with windowing or fullscreen?"
+    "prompt": "Είχατε προβλήματα με τα παράθυρα ή το fullscreen?"
   }
 }
