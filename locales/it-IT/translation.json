@@ -55,15 +55,24 @@
     "minimumRequirements": "Requirement minimi",
     "nativelySupports": "Supportato Nativamente"
   },
+  "contextualInfo": {
+   "hoursPlayed": "{{context}} ore di gioco",
+   "peakPlayers": "{{context}} giocatori",
+   "positiveRating": "{{context}}% rating positivi",
+   "recentReportCount": "{{context}} report con le ultime due versioni di Proton"
+ },
   "home": {
+    "getStartedLinks": [
+     "[Pagina Ufficiale di Steam Play](https://store.steampowered.com/steamplay)",
+     "[Guida per passare a Linux](https://www.reddit.com/r/linux_gaming/comments/9oqq3w/guide_migrating_to_linux_in_2019/)",
+     "[Cos'è Vulkan?](https://www.reddit.com/r/linux_gaming/comments/9ritk1/not_sure_i_quite_understand_can_someone_explain/)"
+   ],
     "headline": "Grazie a Proton e Steam Play, molti giochi di Windows ora funzionano con Linux!",
     "howDoIHelp": {
-      "answer": "Give Linux a try! If you are new, not to worry. Here is a list of guides to get started. And if you want to help Valve and Proton to improve, contribute your reports here on ProtonDB!",
       "answer": "Prova Linux! Non preoccuparti se non hai esperienza. Ecco una lista di guide per iniziare. E se vuoi aiutare Valve e Proton a migliorare, inviaci report qui su ProtonDB!",
       "question": "Fantastico! Come posso aiutare?"
     },
     "letsGetStarted": "Iniziamo.",
-    "sampleGames": "Here is a sample of some popular games that are officially not whitelisted yet, but have received many Platinum reports on ProtonDB",
     "sampleGames": "Ecco un esempio di alcuni giochi popolari che non sono ancora nella whitelist ma che hanno ricevuto molti report Platino su ProtonDB",
     "search": "Cerca un titolo...",
     "stats": {
@@ -72,36 +81,30 @@
       "reportsWritten": "Report scritti"
     },
     "theImpact": {
-      "answer": "Steam Play now officially supports a limited but growing set of 'whitelisted' games that are deemed Proton-compatible and play on Linux. Based on ProtonDB reports, a significant number of non-whitelisted games, including many popular titles, play just as well as on Windows.",
       "answer": "Steam Play supporta un insieme limitato ma crescente di giochi 'whitelisted' considerati Proton-compatible e funzionano su Linux. In base ai report su ProtonDB, un numero significativo di giochi non in whitelist, compresi molti titoli popolari, funzionano come su Windows.",
       "question": "L'impatto"
     },
     "whatIsProton": {
-      "answer": "Proton is a new tool released by Valve Software that has been integrated with Steam Play to make playing Windows games on Linux as simple as hitting the Play button within Steam. Underneath the hood, Proton comprises other popular tools like Wine and DXVK among others that a gamer would otherwise have to install and maintain themselves. This greatly eases the burden for users to switch to Linux without having to learn the underlying systems or losing access to a large part of their library of games. Proton is still in its infancy so support is inconsistent, but regularly improving.",
       "answer": "Proton è un nuovo tool rilasciato da Valve Software e che viene integrato con Steam Play per permettere di eseguire giochi di Windows su Linux semplicemente premendo il pulsante Play su Steam. Dietro le quinte, Proton comprende tool popolari come Wine e DXVK insieme ad altri che dovrebbero altrimenti essere installati e mantenuti dall'utente. Questo riduce il peso dello switch a Linux per molti utenti evitandogli di imparare dettagli sul funzionamento o di perdere l'accesso ad una grande fetta della loro libreria. Proton sta ancora muovendo i suoi primi passi quindi il supporto è inconsistente ma in continuo miglioramento.",
       "question": "Cos'è Proton?"
     },
     "whatIsProtonDb": {
-      "answer": "The goal of ProtonDB is to gather reports from other gamers as they test games with Proton on Linux and provide aggregate scores of how well games perform. A growing pool of suggestions provides tweaks that you can try to get games working while Proton continues development. In addition to this, you may explore the Steam game catalog on this site to browse and discover a wide range of titles that were previously unavailable for use on Linux.",
       "answer": "L'obiettivo di ProtonDB è quello di accumulare report da altri giocatori che testano vari titoli con Proton su Linux e forniscono un giudizio su come un gioco si comporta. Un pool crescente di suggerimenti fornisce modifiche per permettere ai giochi di venir eseguiti mentre proton continua il suo sviluppo. In aggiunta, puoi esplorare il catalogo di Steam per scoprire molti titoli non disponibili precedentemente per Linux.",
       "question": "Cos'è ProtonDB?"
     },
     "whyBigDeal": {
-      "answer": "The Linux desktop experience has improved by leaps and bounds in the last year or two. Most of what you may be used to on Windows or MacOS is possible on Linux without having to tinker too much, and the tinkering can even be fun. Meanwhile, more and more of our daily interactions with a computer happen online, and browsers behave much the same on Linux as they do on other operating systems. Proton and Steam Play address a significant obstacle to adoption: gaming, where until recently there was limited compatibility.",
       "answer": "L'esperienza desktop di Linux è migliorata notevolmente negli ultimi due anni. Molte cose a cui sei abituato su Windows o MacOS sono possibili su Linux senza troppa fatica e anche divertendosi! Allo stesso tempo, sempre più delle nostre interazioni quotidiane con il computer avvengono online e i browser si comportano allo stesso modo sia su Linux che negli altri sistemi operativi. Proton e Steam Play si dedicano ad un ostacolo significativo: il gaming, dove la compatibilità è sempre stata limitata",
       "question": "Perché è importante?"
     }
   },
+   "youtubeId": "Co6FePZoNgE",
   "i18nStamp": 1573767610406,
   "libraryLoader": {
-    "errorLoadingGames": "Errore nel caricamento della libreria. Please ensure both Profile and Game Details are public on this account!",
     "errorLoadingGames": "Errore nel caricamento della libreria. Assicurati che il Profilo e i Dettagli del gioco siano pubblici su questo account!",
     "gameTotal": "{{count}} giochi caricati dalla libreria!",
     "headline": "Autenticazione di Steam",
-    "intro": "Logging in with Steam lets you submit reports and use the [Explore page with a Library filter]({{link}}) to limit results to games that you own.",
     "intro": "Autenticandoti con Steam ti permette di inviare report e [Esplorare con il filtro sulla libreria]({{link}}) per limitare i risultati ai giochi che possiedi.",
     "loggedInAs": "Autenticato come {{username}}",
-    "note": "Ensure that within your [Steam Privacy Settings]({{link}}) both your 'My Profile' and your 'Game Details' are set to public. Recent changes to Steam have made those private by default. This will use the Steam Web API to retrieve public information about your account including your id, profile name and avatar. Steam will present an IP address of {{host}} for you to trust - this is expected.",
     "note": "Assicurati che nelle [impostazioni della privacy di Steam]({{link}}) sia 'Visibilità del mio profilo' e 'Visibilità delle mie informazioni di gioco' siano pubbliche. Recenti cambiamenti le hanno impostate a private di default. Verranno usate le Steam Web API per recuperare informazioni come il tuo id, nome e avatar. Steam presenterà un indirizzo IP di {{host}} di cui fidarti - questo è previsto.",
     "refresh": "Aggiorna",
     "steamSignIn": "Autenticati con Steam",
@@ -172,7 +175,6 @@
   },
   "preferences": {
     "headline": "Preferenze",
-    "intro": "ProtonDB displays the submitter's Steam nickname beside reports. Your unique Steam ID is not transmitted in the data of published report data. If you are concerned your nickname may be used to infer your Steam profile, you can choose a different nickname here and this will be used after the next content refresh.",
     "intro": "ProtonDB mostra il nickname dell'autore dei report. Il tuo ID univoco di Steam non viene trasmesso nei dati del report. Se sei preoccupato che il tuo nickname possa essere usato per arrivare al tuo profilo Steam, puoi scegliere un nickname diverso qui e questo sarà usato dopo il prossimo aggiornamento dei contenuti.",
     "questions": {
       "customName": {
@@ -209,7 +211,6 @@
   "ratingDefinitions": {
     "explanations": {
       "borked": "Non si avvia o non è per niente giocabile",
-      "bronze": "Runs, but often crashes or has issues preventing from playing comfortably",
       "bronze": "Si avvia ma crasha spesso o ha problemi che lo rendono ingiocabile",
       "gold": "Funziona perfettamente con qualche modifica",
       "native": "Nativo su Linux",
@@ -232,6 +233,9 @@
     },
     "timeWithProton": "{{time}} con Proton"
   },
+  "search": {
+   "resultsHeader": "Risultati per {{q}}"
+  },
   "stats": {
     "analysisInByTheNumbers1": "Analisi in base ai numeri #1",
     "byCommonDisplayDrivers": "In base ai Display Drivers",
@@ -244,6 +248,10 @@
     "gamesWithNOrMoreReports": "Giochi con N o più report",
     "reportRatingDistributionOverTime": "Distribuzioni dei Report di Rating nel tempo",
     "whenMeetingMinimumRequirements": "Con requirement minimi soddisfatti"
+  },
+  "suggestions": {
+   "headline": "Pronto per il resto?",
+   "intro": "I seguenti giochi sono stati selezionati in base alle tue ore di gioco, popolarità e rating su SteamDB. Non ci sono report per loro e ad alcuni potrebbe mancarne uno per ottenere un rating {{siteName}}! Puoi ricaricare la pagina per altri suggerimenti o andare sul filtro [Report Mancanti]({{link}}) della pagina d'esplorazione per altri."
   },
   "systemInfo": {
     "headline": "Informazioni di sistema",

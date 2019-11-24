@@ -303,7 +303,6 @@
   },
   "misc": {
     "answerRequired": "Richiede una risposta",
-    "answerRequiredWhenNotListed": "Answered Required When Not Listed Is Chosen",
     "answerRequiredWhenNotListed": "Richiede una risposta quando è scelto 'Non Elencato'",
     "back": "Indietro",
     "error": "Errore!",
@@ -311,6 +310,12 @@
     "maxChars": "Massimo {{count}} caratteri",
     "next": "Prossimo",
     "submit": "Invia",
+    "submission": {
+     "success": "Inviato!",
+     "note": "I nuovi report saranno in attesa fino al prossimo aggiornamento dei contenuti. Puoi vedere il tuo contributo sul tuo [Profilo]({{link}})",
+     "error": "C'è stato un errore durante l'invio. Facci sapere com'è successo!",
+     "thanks": "Grazie per il tuo contributo a {{siteName}}"
+   },
     "tooLong": "Troppo lungo"
   },
   "multiplayerAppraisal": {
