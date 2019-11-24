@@ -95,9 +95,9 @@
     "whyBigDeal": {
       "answer": "L'esperienza desktop di Linux è migliorata notevolmente negli ultimi due anni. Molte cose a cui sei abituato su Windows o MacOS sono possibili su Linux senza troppa fatica e anche divertendosi! Allo stesso tempo, sempre più delle nostre interazioni quotidiane con il computer avvengono online e i browser si comportano allo stesso modo sia su Linux che negli altri sistemi operativi. Proton e Steam Play si dedicano ad un ostacolo significativo: il gaming, dove la compatibilità è sempre stata limitata",
       "question": "Perché è importante?"
-    }
+    },
+    "youtubeId": "Co6FePZoNgE"
   },
-   "youtubeId": "Co6FePZoNgE",
   "i18nStamp": 1573767610406,
   "libraryLoader": {
     "errorLoadingGames": "Errore nel caricamento della libreria. Assicurati che il Profilo e i Dettagli del gioco siano pubblici su questo account!",
