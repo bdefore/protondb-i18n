@@ -160,8 +160,7 @@
       }
     },
     "prompt": "¿Que API de gráficos has utilizado en el juego?"
-  },
-  "i18nStamp": 1573767610406,
+  },  
   "inputFaults": {
     "legend": "Entrada",
     "options": {

@@ -86,7 +86,6 @@
       "question": "¿Por qué es algo tan importante?"
     }
   },
-  "i18nStamp": 1573767610406,
   "libraryLoader": {
     "errorLoadingGames": "Error cargando juegos. Por favor, asegurate de que tu perfil y los detalles de los juegos son públicos en esta cuenta!",
     "gameTotal": "{{count}} juegos de tu librería cargados!",
