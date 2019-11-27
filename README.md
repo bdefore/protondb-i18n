@@ -41,9 +41,11 @@ Keep an eye out for page rendering issues if your text is smaller or larger than
 - Learn how to modify your browser's local storage (here are instructions for [Chrome](https://developers.google.com/web/tools/chrome-devtools/storage/localstorage) and [Firefox](https://developer.mozilla.org/en-US/docs/Tools/Storage_Inspector))
 - Visit [ProtonDB](https://www.protondb.com)
 - If you're not already, switch to English
+- (NEW): For both files, copy the values for `i18nStamp` and `i18nVersion` that occur in the ones that are stored in your local storage.
 - Copy the contents of your `contribute.json` file into a local storage entry as `i18next:en-US-contribute`
 - Copy the contents of your `translation.json` file into a local storage entry as `i18next:en-US-translation`
 - Reload and review
+- (NEW): When finished, remove the values you added for `i18nStamp` and `i18nVersion` before submitting your PR
 
 ### Known Active Translations
 
