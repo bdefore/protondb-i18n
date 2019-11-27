@@ -16,6 +16,12 @@
     "unrated": "Неоценени",
     "unreported": "Недокладвани"
   },
+  "contextualInfo": {
+    "hoursPlayed": "{{context}} изиграни часа",
+    "peakPlayers": "{{context}} играчи в пика",
+    "positiveRating": "{{context}}% положителен рейтинг",
+    "recentReportCount": "{{context}} доклада с последните две версии на Proton"
+  },
   "explore": {
     "headlines": {
       "fixWanted": "Нужда от поправки",
@@ -55,12 +61,6 @@
     "minimumRequirements": "Минимални изисквания",
     "nativelySupports": "Платформена поддръжка"
   },
-  "contextualInfo": {
-    "hoursPlayed": "{{context}} изиграни часа",
-    "peakPlayers": "{{context}} играчи в пика",
-    "positiveRating": "{{context}}% положителен рейтинг",
-    "recentReportCount": "{{context}} доклада с последните две версии на Proton"
-  },
   "home": {
     "getStartedLinks": [
       "[Официална страница на Steam Play в Steam](https://store.steampowered.com/steamplay)",
@@ -98,7 +98,6 @@
     },
     "youtubeId": "Co6FePZoNgE"
   },
-  "i18nStamp": 1573767610406,
   "libraryLoader": {
     "errorLoadingGames": "Грешка при зареждането на игри. Моля, увери се че както „Профилът ми“, така и „Игрални подробности“ са публични за този акаунт!",
     "gameTotal": "{{count}} игри са в библиотеката!",

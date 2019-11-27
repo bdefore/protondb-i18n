@@ -86,7 +86,6 @@
       "question": "Dlaczego to takie ważne?"
     }
   },
-  "i18nStamp": 1573767610406,
   "libraryLoader": {
     "errorLoadingGames": "Błąd ładowania gier. Upewnij się że zarówno profil, jak i szczegóły gier są na tym koncie widoczne publicznie!",
     "gameTotal": "Wczytano {{count}} gier w bibliotece!",

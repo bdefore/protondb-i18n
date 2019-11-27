@@ -161,7 +161,6 @@
     },
     "prompt": "Z jakiego API graficznego korzystałeś podczas gry?"
   },
-  "i18nStamp": 1573767610406,
   "inputFaults": {
     "legend": "Sterowanie",
     "options": {
@@ -309,13 +308,13 @@
     "markdownSupportNotice": "Markdown jest teraz wspierany",
     "maxChars": "Do {{count}} znaków",
     "next": "Dalej",
-    "submit": "Wyślij",
     "submission": {
-      "success": "Pomyślnie wysłano",
-      "note": "Pamiętaj, że nowe raporty pozostaną w stanie oczekiwania do czasu następnego odświeżenia zawartości. Możesz przeglądać swój wkład w [profilu]({{link}})",
       "error": "Podczas wysyłania raportu wystąpił błąd. Prosimy, poinformuj nas, w jakich okolicznościach się to stało!",
+      "note": "Pamiętaj, że nowe raporty pozostaną w stanie oczekiwania do czasu następnego odświeżenia zawartości. Możesz przeglądać swój wkład w [profilu]({{link}})",
+      "success": "Pomyślnie wysłano",
       "thanks": "Dziękujemy za twój wkład w {{siteName}}"
     },
+    "submit": "Wyślij",
     "tooLong": "Za długie"
   },
   "multiplayerAppraisal": {

@@ -16,6 +16,12 @@
     "unrated": "Неоцінено",
     "unreported": "Не звітовано"
   },
+  "contextualInfo": {
+    "hoursPlayed": "{{context}} годин зіграно",
+    "peakPlayers": "{{context}} гравців в час пік",
+    "positiveRating": "{{context}}% позитивний рейтинг",
+    "recentReportCount": "{{context}} звітів з двома останніми версіями Proton"
+  },
   "explore": {
     "headlines": {
       "fixWanted": "Потрібне Виправлення",
@@ -55,14 +61,8 @@
     "minimumRequirements": "Мінімальні вимоги",
     "nativelySupports": "Нативно Підтримує"
   },
-  "contextualInfo": {
-    "hoursPlayed": "{{context}} годин зіграно",
-    "peakPlayers": "{{context}} гравців в час пік",
-    "positiveRating": "{{context}}% позитивний рейтинг",
-    "recentReportCount": "{{context}} звітів з двома останніми версіями Proton"
-  },
   "home": {
- "getStartedLinks": [
+    "getStartedLinks": [
       "[Офіційна сторінка Steam Play](https://store.steampowered.com/steamplay)",
       "[Посібник з переходу на Linux](https://www.reddit.com/r/linux_gaming/comments/9oqq3w/guide_migrating_to_linux_in_2019/)",
       "[Що таке Vulkan?](https://www.reddit.com/r/linux_gaming/comments/9ritk1/not_sure_i_quite_understand_can_someone_explain/)"
@@ -98,7 +98,6 @@
     },
     "youtubeId": "Co6FePZoNgE"
   },
-  "i18nStamp": 1573767610406,
   "libraryLoader": {
     "errorLoadingGames": "Помилка завантаження ігор. Будь ласка, переконайтеся, що дані профілю та гри є загальнодоступними для цього акаунта!",
     "gameTotal": "Завантажено {{count}} ігор в бібліотеці!",

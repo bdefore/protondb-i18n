@@ -161,7 +161,6 @@
     },
     "prompt": "What graphics API did you use within the game?"
   },
-  "i18nStamp": 1573767610406,
   "inputFaults": {
     "legend": "Input",
     "options": {
@@ -309,13 +308,13 @@
     "markdownSupportNotice": "Markdown is now supported",
     "maxChars": "Max {{count}} chars",
     "next": "Next",
-    "submit": "Submit",
     "submission": {
-      "success": "Successfully Submitted",
-      "note": "Please note that new reports will be in a pending state until the next content refresh. You can view your contributions on your [Profile]({{link}})",
       "error": "There was an error during submission. Please let us know how this happened!",
+      "note": "Please note that new reports will be in a pending state until the next content refresh. You can view your contributions on your [Profile]({{link}})",
+      "success": "Successfully Submitted",
       "thanks": "Thanks for your contribution to {{siteName}}"
     },
+    "submit": "Submit",
     "tooLong": "Too long"
   },
   "multiplayerAppraisal": {

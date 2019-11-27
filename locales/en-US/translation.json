@@ -16,6 +16,12 @@
     "unrated": "Unrated",
     "unreported": "Unreported"
   },
+  "contextualInfo": {
+    "hoursPlayed": "{{context}} hours played",
+    "peakPlayers": "{{context}} peak players",
+    "positiveRating": "{{context}}% positive rating",
+    "recentReportCount": "{{context}} reports with latest two Proton versions"
+  },
   "explore": {
     "headlines": {
       "fixWanted": "Fix Wanted",
@@ -49,17 +55,16 @@
       "whitelisted": "Whitelisted"
     }
   },
+  "footer": {
+    "description": "{{name}} is a passion project from [@bdefore]({{link}}) and a dedicated community of reporters.",
+    "feedbackPrompt": "Have some feedback? Come join us on Discord!",
+    "legal": "This site has no affiliation with Valve Software. All game images and logos are property of their respective owners."
+  },
   "gameDetails": {
     "githubIssueSearch": "Github Issue Search",
     "infoNotFound": "Could not acquire information for App ID: {{entry}}. This can happen if a game was removed from the store.",
     "minimumRequirements": "Minimum Requirements",
     "nativelySupports": "Natively Supports"
-  },
-  "contextualInfo": {
-    "hoursPlayed": "{{context}} hours played",
-    "peakPlayers": "{{context}} peak players",
-    "positiveRating": "{{context}}% positive rating",
-    "recentReportCount": "{{context}} reports with latest two Proton versions"
   },
   "home": {
     "getStartedLinks": [
@@ -98,7 +103,6 @@
     },
     "youtubeId": "Co6FePZoNgE"
   },
-  "i18nStamp": 1573767610406,
   "libraryLoader": {
     "errorLoadingGames": "Error loading games. Please ensure both Profile and Game Details are public on this account!",
     "gameTotal": "{{count}} games in library loaded!",
@@ -121,6 +125,7 @@
     "addYourReport": "Add Your Report",
     "affirmative": "Yes",
     "areYouSure": "Are you sure?",
+    "cancel": "Cancel",
     "chipset": "Chipset",
     "conjunction": "and",
     "dismiss": "Dismiss",
@@ -129,6 +134,7 @@
     "execute": "Run",
     "feedbackPrompt": "Feedback? Let us know on [Discord]({{link}})",
     "filter": "Filter",
+    "filteringSettings": "Filtering Settings",
     "games": "Games",
     "hide": "Hide {{what}}",
     "include": "Include",
@@ -144,11 +150,13 @@
     "note": "Note",
     "overall": "Overall",
     "pending": "Pending",
+    "preferences": "Preferences",
     "provisional": "Provisional",
     "published": "Published",
     "rated": "Rated",
     "report": "Report",
     "reports": "Reports",
+    "reset": "Reset",
     "save": "Save",
     "saved": "{{what}} Saved",
     "show": "Show {{what}}",
@@ -188,7 +196,7 @@
         "prompt": "Your public name"
       },
       "language": {
-        "prompt": "Language (Experimental)"
+        "prompt": "Language"
       }
     }
   },

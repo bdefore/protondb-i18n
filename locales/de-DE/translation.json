@@ -16,6 +16,12 @@
     "unrated": "Nicht bewertet",
     "unreported": "Nicht gemeldet"
   },
+  "contextualInfo": {
+    "hoursPlayed": "{{context}} Stunden gespielt",
+    "peakPlayers": "{{context}} peak players",
+    "positiveRating": "{{context}}% postive Bewertungen",
+    "recentReportCount": "{{context}} Berichte mit den letzten 2 Proton Versionen"
+  },
   "explore": {
     "headlines": {
       "fixWanted": "Fehlerbehebung benötigt",
@@ -55,12 +61,6 @@
     "minimumRequirements": "Mindestanforderungen",
     "nativelySupports": "Native Unterstützung"
   },
-  "contextualInfo": {
-    "hoursPlayed": "{{context}} Stunden gespielt",
-    "peakPlayers": "{{context}} peak players",
-    "positiveRating": "{{context}}% postive Bewertungen",
-    "recentReportCount": "{{context}} Berichte mit den letzten 2 Proton Versionen"
-  },
   "home": {
     "getStartedLinks": [
       "[Steam's Ozzizielle Steam Play Seite](https://store.steampowered.com/steamplay)",
@@ -98,7 +98,6 @@
     },
     "youtubeId": "Co6FePZoNgE"
   },
-  "i18nStamp": 1573767610406,
   "libraryLoader": {
     "errorLoadingGames": "Fehler beim Laden von Spielen. Bitte stelle sicher, dass sowohl Profil- als auch Spieledetails auf diesem Konto öffentlich sind!",
     "gameTotal": "{{count}} Spiele in der Bibliothek geladen!",
