@@ -175,7 +175,7 @@
   },
   "preferences": {
     "headline": "Préférences",
-    "intro": "ProtonDB affiche les pseudonymes Steam des contributeurs à côté de leurs rapports. Votre identifiant unique Steam n'est pas transmis dans les données du rapport de publié. Si vous êtes préoccupé par le fait que votre pseudonyme puisse être utilisé pour déduire votre profil Steam, vous pouvez choisir un pseudonyme différent ici. Ce pseudonyme sera utilisé après le prochain rafraîchissement du contenu.",
+    "intro": "ProtonDB affiche les pseudonymes Steam des contributeurs à côté de leurs rapports. Votre identifiant unique Steam n’est pas transmis dans les données du rapport de publié. Si vous êtes préoccupé par le fait que votre pseudonyme puisse être utilisé pour déduire votre profil Steam, vous pouvez choisir un pseudonyme différent ici. Ce pseudonyme sera utilisé après le prochain rafraîchissement du contenu.",
     "questions": {
       "customName": {
         "additionalNotes": {

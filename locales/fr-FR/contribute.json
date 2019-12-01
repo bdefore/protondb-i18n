@@ -11,8 +11,8 @@
     "legend": "Son",
     "options": {
       "borked": {
-        "long": "Totally borked",
-        "short": "Borked"
+        "long": "Totalement cassé",
+        "short": "Cassé"
       },
       "crackling": {
         "long": "Grésillements",
@@ -35,26 +35,26 @@
         "short": "Désynchronisé"
       }
     },
-    "prompt": "Did you experience any problems with audio?"
+    "prompt": "Avez-vous expérimenté des problèmes avec le son ?"
   },
   "borked": {
-    "headline": "C’est vraiment dommage !",
-    "intro": "You will now proceed with submitting a borked report, but before you do you may want to visit our [Game Troubleshooting FAQ]({{link}}) page."
+    "headline": "C’est vraiment dommage !",
+    "intro": "Vous allez maintenant procéder à la soumission d’un rapport de jeu injouable, mais avant de le faire, vous pourriez aller lire notre [FAQ de dépannage de jeu]({{link}})."
   },
   "customizationsUsed": {
     "additionalNotes": {
       "label": "Détails complémentaires",
-      "placeholder": "Explanation or link to blog post or Github repository"
+      "placeholder": "Explication, lien vers un billet de blog ou vers un dépôt Github"
     },
     "legend": "Modifications",
     "options": {
       "customPrefix": {
-        "long": "A custom Wine prefix",
-        "short": "Custom Prefix"
+        "long": "Un prefix Wine personnalisé",
+        "short": "Prefix personnalisé"
       },
       "customProton": {
-        "long": "A custom fork of Proton",
-        "short": "Custom Proton"
+        "long": "Un fork de Proton personnalisé",
+        "short": "Proton personnalisé"
       },
       "lutris": {
         "long": "Script d’installtion Lutris",
@@ -121,12 +121,12 @@
     "legend": "Graphiques",
     "options": {
       "heavyArtifacts": {
-        "long": "Heavy or common artifacts",
-        "short": "Heavy artifacts"
+        "long": "Gros artefacts ou courants",
+        "short": "Gros artefacts"
       },
       "minorArtifacts": {
-        "long": "Minor or infrequent artifacts",
-        "short": "Minor artifacts"
+        "long": "Artefacts mineurs ou peu fréquents",
+        "short": "Artefacts mineurs"
       },
       "missingTextures": {
         "long": "Textures manquantes",
@@ -137,10 +137,10 @@
         "short": "Autre"
       }
     },
-    "prompt": "Did you notice any graphical degradations?"
+    "prompt": "Avez-vous remarqué des dégradations graphiques ?"
   },
   "graphicsApiSelection": {
-    "legend": "Graphics API",
+    "legend": "API graphique",
     "options": {
       "d3d": {
         "long": "Direct3D",
@@ -151,8 +151,8 @@
         "short": "OpenGL"
       },
       "unsure": {
-        "long": "Whatever the game uses by default",
-        "short": "Default"
+        "long": "Ce que le jeu utilise par défaut",
+        "short": "Par défaut"
       },
       "vk": {
         "long": "Vulkan",
@@ -163,34 +163,34 @@
   },
   "i18nStamp": 1573767610406,
   "inputFaults": {
-    "legend": "Input",
+    "legend": "Entrée",
     "options": {
       "bounding": {
         "long": "Limites incorrectes",
         "short": "Limites"
       },
       "controllerMapping": {
-        "long": "Controller(s) were not mapped properly",
-        "short": "Controller mapping"
+        "long": "Les touches des manettes n’ont pas été configurées correctement",
+        "short": "Configuration touches"
       },
       "controllerNotDetected": {
-        "long": "Controller(s) not detected",
-        "short": "Controller detection"
+        "long": "Manette non detectée",
+        "short": "Détection manette"
       },
       "controllerNotResponsive": {
-        "long": "Controller(s) detected but were not responsive",
-        "short": "Responsiveness"
+        "long": "Manette detectée, mais ne répond pas",
+        "short": "Réactivité"
       },
       "drifting": {
-        "long": "Axes would drift",
-        "short": "Drifting"
+        "long": "Déviation des axes",
+        "short": "Déviation"
       },
       "inaccuracy": {
         "long": "Imprécision",
         "short": "Imprécision"
       },
       "lag": {
-        "long": "Input was laggy",
+        "long": "Entrées lentes",
         "short": "Lag"
       },
       "other": {
@@ -198,7 +198,7 @@
         "short": "Autre"
       }
     },
-    "prompt": "Did you experience any problems with your mouse, gamepad or other input devices?"
+    "prompt": "Avez-vous eu des problèmes avec votre souris, votre manette ou d’autres périphériques d’entrée ?"
   },
   "installs": {
     "legend": "Installation",
@@ -220,7 +220,7 @@
         "short": "Autre"
       }
     },
-    "prompt": "Is the game impacted by anti-cheat software?"
+    "prompt": "Le jeu est-il impacté par un logiciel anti-triche ?"
   },
   "isMultiplayerImportant": {
     "prompt": "Le mode multijoueur constitue-t-il un élément essentiel de ce jeu ?"
@@ -228,7 +228,7 @@
   "launchFlagsUsed": {
     "additionalNotes": {
       "label": "Détails supplémentaires",
-      "placeholder": "What did this help with?"
+      "placeholder": "En quoi cela a-t-il aidé ?"
     },
     "legend": "Options de lancement",
     "options": {
@@ -249,8 +249,8 @@
         "short": "Désactiver Fsync"
       },
       "largeAddressAware": {
-        "long": "Large Address Aware",
-        "short": "Large Address Aware"
+        "long": "Prise en compte des grandes adresses",
+        "short": "Prise en compte des grandes adresses"
       },
       "oldGlString": {
         "long": "Ancienne chaîne GL",
@@ -293,17 +293,17 @@
     "prompt": "Comment lancez-vous le jeu ?"
   },
   "localMultiplayerAppraisal": {
-    "prompt": "How would you rate the local multiplayer functionality? Please evaulate for lag, connectivity or input issues, etc."
+    "prompt": "Comment évaluez-vous le multijoueur local ? Veuillez évaluer les lags, les problèmes de connexion ou d’entrée, etc."
   },
   "localMultiplayerAttempted": {
-    "prompt": "Did you try to play multiplayer locally (offline i.e. couch play)?"
+    "prompt": "Avez-vous essayé de jouer en mode multijoueur local (hors ligne) ?"
   },
   "localMultiplayerPlayed": {
-    "prompt": "Were you able to get local multiplayer to work?"
+    "prompt": "Avez-vous réussi à faire fonctionner le multijoueur local ?"
   },
   "misc": {
     "answerRequired": "Réponse nécessaire",
-    "answerRequiredWhenNotListed": "Answered Required When Not Listed Is Chosen",
+    "answerRequiredWhenNotListed": "Réponses requises lorsque Non listé est choisi",
     "back": "Retour",
     "error": "Erreur !",
     "markdownSupportNotice": "La notation Markdown ne peut pas être utilisée",
@@ -316,58 +316,58 @@
       "error": "Une erreur est survenue lors de la soumission. Veuillez nous en informer !",
       "thanks": "Merci pour votre contribution à {{siteName}}"
     },
-    "tooLong": "Too long"
+    "tooLong": "Trop long"
   },
   "multiplayerAppraisal": {
     "options": {
       "acceptable": {
-        "long": "Acceptable. Moderate issues but can be struggled through.",
+        "long": "Acceptable. Problèmes modérés mais qui peuvent être résolus.",
         "short": "Acceptable"
       },
       "awful": {
-        "long": "Awful. Practically not playable",
-        "short": "Awful"
+        "long": "Affreux. Pratiquement injouable.",
+        "short": "Affreux"
       },
       "excellent": {
-        "long": "Excellent. Did not experience any problems.",
+        "long": "Excellent. Aucun problème rencontré.",
         "short": "Excellent"
       },
       "good": {
-        "long": "Good. Had infrequent issues but is overall playable.",
-        "short": "Good"
+        "long": "Bon. Problèmes peu fréquents, mais globalement jouable.",
+        "short": "Bon"
       },
       "weak": {
-        "long": "Weak. Its problems significantly impact the experience",
-        "short": "Weak"
+        "long": "Faible. Les problèmes ont un impact significatif sur l’expérience de jeu.",
+        "short": "Faible"
       }
     }
   },
   "onlineMultiplayerAppraisal": {
-    "prompt": "How would you rate the online multiplayer functionality? Please evaulate for lag, connectivity or input issues, matchingmaking failures etc."
+    "prompt": "Comment évaluez-vous le multijoueur en ligne ? Veuillez évaluer les lags, les problèmes de connexion ou d’entrée, les échecs de matchmaling, etc."
   },
   "onlineMultiplayerAttempted": {
-    "prompt": "Did you try to play multiplayer online?"
+    "prompt": "Avez-vous essayé de jouer en multijoueur en ligne ?"
   },
   "onlineMultiplayerPlayed": {
-    "prompt": "Were you able to connect and play online multiplayer?"
+    "prompt": "Avez-vous pu vous connecter et jouer en multijoueur en ligne ?"
   },
   "opens": {
-    "legend": "Opens",
-    "prompt": "Were you able to start up the game and view its initial menu?"
+    "legend": "Se lance",
+    "prompt": "Avez-vous pu démarrer le jeu et voir le menu principal ?"
   },
   "performanceFaults": {
     "legend": "Performance",
     "options": {
       "significantSlowdown": {
-        "long": "Significant slowness",
-        "short": "Significant"
+        "long": "Lenteur significative",
+        "short": "Lenteur"
       },
       "slightSlowdown": {
-        "long": "Slightly slow",
-        "short": "Slight"
+        "long": "Lenteur faible",
+        "short": "Faible"
       }
     },
-    "prompt": "Did you experience unexpected slowness given your hardware?"
+    "prompt": "Avez-vous expérimenté des lenteurs compte tenu de votre matériel ?"
   },
   "prerequisitesBlock": {
     "action": "Aller au profil",
@@ -376,44 +376,44 @@
   "preview": {
     "intro": "Choses à vérifier :",
     "notes": [
-      "Is your system information up to date? You will need to go to your profile and provide your Steam information after a graphics driver update.",
-      "Have you selected the correct game? Some games have the same name as older versions i.e. GRID",
-      "Have you added descriptions in the right place? For example, write notes about graphics issues in that section rather than end notes."
+      "Vos informations systèmes sont-elles à jour ? Vous devez vous rendre sur votre profil pour mettre à jour vos informations Steam après une mise à jour des pilotes graphiques.",
+      "Avez-vous sélectionné le bon jeu ? Certains jeux ont le même nom que les anciennes versions, par exemple GRID.",
+      "Avez-vous ajouté les descriptions au bon endroit ? Par exemple, écrivez les notes sur les problèmes graphiques dans la section dédiée plutôt que dans les notes de fin."
     ]
   },
   "prompts": {
-    "continuingDraft": "You are continuing from an automatically saved draft.",
-    "discardDraftWarning": "All of your responses will be permanently discarded.",
-    "startOver": "Start Over"
+    "continuingDraft": "Vous continuez à partir d’un brouillon sauvegardé automatiquement.",
+    "discardDraftWarning": "Toutes vos réponses seront définitivement supprimées.",
+    "startOver": "Recommencer"
   },
   "protonVersion": {
     "additionalNotes": {
       "label": "Version de Proton manuelle",
-      "placeholder": "Must be valid Proton version string. Examples: {{examples}}"
+      "placeholder": "Doit être une chaîne de version de Proton valide. Exemples : {{examples}}"
     },
     "prompt": "Quelle version de Proton utilisez-vous ?"
   },
   "saveGameFaults": {
-    "legend": "Save Games",
+    "legend": "Sauvegardes",
     "options": {
       "errorLoading": {
-        "long": "Could not load a save game",
+        "long": "Impossible de charger une sauvegarde",
         "short": "Chargement"
       },
       "errorSaving": {
-        "long": "Could not save",
-        "short": "Sauvegarde"
+        "long": "Impossible d’enregistrer une sauvegarde",
+        "short": "Enregistrement"
       },
       "other": {
         "long": "Autre",
         "short": "Autre"
       }
     },
-    "prompt": "Did you experience any problems with save games?"
+    "prompt": "Avez-vous rencontré des problèmes avec les sauvegardes ?"
   },
   "significantBugs": {
-    "legend": "Significant Bugs",
-    "prompt": "Did you experience any other significant bugs?"
+    "legend": "Bogues importants",
+    "prompt": "Avez-vous rencontré d’autres bogues importants ?"
   },
   "stabilityFaults": {
     "legend": "Stabilité",
@@ -431,38 +431,38 @@
         "short": "Occasionnellement"
       }
     },
-    "prompt": "Did you experience any stability issues?"
+    "prompt": "Avez-vous rencontré des problèmes de stabilité ?"
   },
   "startsPlay": {
-    "legend": "Starts Play",
-    "prompt": "Were you able to begin playing?"
+    "legend": "Démarrer partie",
+    "prompt": "Avez-vous pu commencer à jouer ?"
   },
   "stepHeadlines": {
-    "appSelection": "Game Selection",
-    "borked": "Borked!",
-    "customizations": "Customizations",
+    "appSelection": "Sélection du jeu",
+    "borked": "Injouable !",
+    "customizations": "Personnalisations",
     "finalNotes": "Verdict",
-    "gameplay": "Other Potential Issues",
-    "graphics": "Graphics and Performance",
+    "gameplay": "Autres prblèmes potentiels",
+    "graphics": "Graphismes et performances",
     "multiplayer": "Multijoueur",
-    "preview": "Preview",
-    "setup": "Setup",
-    "stability": "Stability",
-    "startup": "Install and Startup",
-    "tinkerCheck": "Report Type",
-    "unownedWarning": "Not In Library"
+    "preview": "Prévisualisation",
+    "setup": "Configuration",
+    "stability": "Stabilité",
+    "startup": "Installation et démarrage",
+    "tinkerCheck": "Type de rapport",
+    "unownedWarning": "Pas dans la bibliothèque"
   },
   "type": {
     "intro": [
-      "ProtonDB now buckets reports into two types: Steam Play and Tinker.",
-      "Use Steam Play Report to cover the out-of-the-box experience. Install, hit play, and get your game on.",
-      "Use Tinker Report if you have made tweaks or customizations to get the game working.",
-      "For more on the differences, see [this news post]({{link}})."
+      "ProtonDB divise maintenant les rapports en deux types : Steam Play et Tinker.",
+      "Utilisez les rapports Steam Play pour couvrir l’expérience originale. Installez, lancez le jeu et commencez à jouer.",
+      "Utilisez les rapports Tinker si vous avez fait des ajustements ou des modifications pour que le jeu fonctionne.",
+      "Pour plus d’informations sur les différences, veuillez lire cette [news]({{link}})."
     ],
     "options": {
       "steamPlay": {
-        "long": "Rapport SteamPlay",
-        "short": "Rapport SteamPlay"
+        "long": "Rapport Steam Play",
+        "short": "Rapport Steam Play"
       },
       "tinker": {
         "long": "Rapport Tinker",
@@ -473,10 +473,10 @@
   },
   "verdict": {
     "additionalNotes": {
-      "label": "Summary (max {{count}} chars)",
-      "placeholder": "Add a short summary. This will be the headline of your report."
+      "label": "Résumé ({{count}} caractères max)",
+      "placeholder": "Ajoutez un bref résumé. Ceci sera le titre de votre rapport."
     },
-    "prompt": "Would a typical gamer have an enjoyable experience running this game on Linux with Proton?"
+    "prompt": "Un joueur typique aurait-il une expérience agréable en exécutant ce jeu sous Linux avec Proton ?"
   },
   "welcome": {
     "headline": "Bienvenue",
@@ -487,7 +487,7 @@
       "Si vous soumettez plusieurs rapports, seul votre rapport le plus récent comptera pour l’évaluation de ProtonDB et seulement si les informations de votre système répondent aux exigences minimales de Proton.",
       "Vos contributions seront visibles publiquement sur ProtonDB et disponibles dans les données exportées sous licence Open Database License. Rendez-vous [ici]({{{link}}}) pour plus d’informations."
     ],
-    "outro": "Sur ce, commençons !"
+    "outro": "Sur ce, c’est parti !"
   },
   "windowingFaults": {
     "legend": "Fenêtrage",
@@ -505,10 +505,10 @@
         "short": "Autre"
       },
       "switching": {
-        "long": "Could not conventionally escape from fullscreen (such as with Alt-Tab)",
-        "short": "Switching"
+        "long": "Impossible d’échapper conventionnellement au plein écran (comme avec Alt-Tab)",
+        "short": "Alt-Tab"
       }
     },
-    "prompt": "Did you experience any problems with windowing or fullscreen?"
+    "prompt": "Avez-vous eu des problèmes avec le fenêtrage ou le plein écran ?"
   }
 }
