@@ -5,7 +5,7 @@
     "notFound": "Impossible de trouver le jeu avec l’ID d’application {{query}}}. Cela peut se produire s’il est inexact, s’il a été retiré du magasin Steam, s’il n’est pas répertorié comme un jeu ou s’il n’est pas disponible dans votre pays.",
     "placeholder": "Entre le nom d’un jeu disponible dans votre bibliothèque Steam…",
     "previousReportsExist": "Vous avez des rapports précédents pour ce jeu",
-    "runsNativeWarning": "Le jeu selectionné dispose d’une version Linux native ! Veuillez vous assurer que vous n’avez pas par inadvertance lancé la version native du jeu. Steam n’utilise pas Steam Play pour lancer ce jeu par défaut, mais [pouvez le forcer à faire ainsi]({{link}})."
+    "runsNativeWarning": "Le jeu sélectionné dispose d’une version Linux native ! Veuillez vous assurer que vous n’avez pas par inadvertance lancé la version native du jeu. Steam n’utilise pas Steam Play pour lancer ce jeu par défaut, mais [pouvez le forcer à faire ainsi]({{link}})."
   },
   "audioFaults": {
     "legend": "Son",
@@ -44,7 +44,7 @@
   "customizationsUsed": {
     "additionalNotes": {
       "label": "Détails complémentaires",
-      "placeholder": "Explication, lien vers un billet de blog ou vers un dépôt Github"
+      "placeholder": "Explication, lien vers un billet de blogue ou vers un dépôt Github"
     },
     "legend": "Modifications",
     "options": {
@@ -57,7 +57,7 @@
         "short": "Proton personnalisé"
       },
       "lutris": {
-        "long": "Script d’installtion Lutris",
+        "long": "Script d’installation Lutris",
         "short": "Lutris"
       },
       "native2Proton": {
@@ -81,7 +81,7 @@
         "short": "winetricks"
       }
     },
-    "prompt": "Quelles modifications avez-vous apporté ?"
+    "prompt": "Quelles modifications avez-vous apportées ?"
   },
   "duration": {
     "legend": "Durée",
@@ -91,20 +91,20 @@
         "short": "une heure"
       },
       "lessThanAnHour": {
-        "long": "< 1 heure",
-        "short": "< 1 heure"
+        "long": "< 1 heure",
+        "short": "< 1 heure"
       },
       "lessThanFifteenMinutes": {
-        "long": "< 15 minutes",
-        "short": "< 15 minutes"
+        "long": "< 15 minutes",
+        "short": "< 15 minutes"
       },
       "moreThanTenHours": {
-        "long": "> 10 heures",
-        "short": "> 10 heures"
+        "long": "> 10 heures",
+        "short": "> 10 heures"
       },
       "severalHours": {
-        "long": "2+ heures",
-        "short": "2+ heures"
+        "long": "2+ heures",
+        "short": "2+ heures"
       }
     },
     "prompt": "Combien de temps avez-vous joué ?"
@@ -116,17 +116,17 @@
     },
     "prompt": "Souhaitez-vous ajouter quelque chose qui n’aurait pas été abordé dans les questions précédentes ?"
   },
-  "genericFollowUpPrompt": "Quels sortes de problèmes ?",
+  "genericFollowUpPrompt": "Quelles sortes de problèmes ?",
   "graphicalFaults": {
     "legend": "Graphiques",
     "options": {
       "heavyArtifacts": {
-        "long": "Gros artefacts ou courants",
-        "short": "Gros artefacts"
+        "long": "Gros artéfacts ou courants",
+        "short": "Gros artéfacts"
       },
       "minorArtifacts": {
-        "long": "Artefacts mineurs ou peu fréquents",
-        "short": "Artefacts mineurs"
+        "long": "Artéfacts mineurs ou peu fréquents",
+        "short": "Artéfacts mineurs"
       },
       "missingTextures": {
         "long": "Textures manquantes",
@@ -159,7 +159,7 @@
         "short": "Vulkan"
       }
     },
-    "prompt": "Quelle API graphique avez-vous utilisé dans le jeu ?"
+    "prompt": "Quelle API graphique avez-vous utilisée dans le jeu ?"
   },
   "i18nStamp": 1573767610406,
   "inputFaults": {
@@ -174,7 +174,7 @@
         "short": "Configuration touches"
       },
       "controllerNotDetected": {
-        "long": "Manette non detectée",
+        "long": "Manette non détectée",
         "short": "Détection manette"
       },
       "controllerNotResponsive": {
@@ -220,7 +220,7 @@
         "short": "Autre"
       }
     },
-    "prompt": "Le jeu est-il impacté par un logiciel anti-triche ?"
+    "prompt": "Le jeu est-il impacté par un logiciel antitriche ?"
   },
   "isMultiplayerImportant": {
     "prompt": "Le mode multijoueur constitue-t-il un élément essentiel de ce jeu ?"
@@ -253,8 +253,8 @@
         "short": "Prise en compte des grandes adresses"
       },
       "oldGlString": {
-        "long": "Ancienne chaîne GL",
-        "short": "Ancienne chaîne GL"
+        "long": "Ancienne chaine GL",
+        "short": "Ancienne chaine GL"
       },
       "useWineD3d11": {
         "long": "Utiliser Wine D3D",
@@ -312,7 +312,7 @@
     "submit": "Soumettre",
     "submission": {
       "success": "Soumis",
-      "note": "Veuillez noter que les nouveaux rapports seront mis en attente jusqu’au prochain rafraîchissement. Vous pouvez voir votre contribution dans votre [Profil]({{link}})",
+      "note": "Veuillez noter que les nouveaux rapports seront mis en attente jusqu’au prochain rafraichissement. Vous pouvez voir votre contribution dans votre [Profil]({{link}})",
       "error": "Une erreur est survenue lors de la soumission. Veuillez nous en informer !",
       "thanks": "Merci pour votre contribution à {{siteName}}"
     },
@@ -376,7 +376,7 @@
   "preview": {
     "intro": "Choses à vérifier :",
     "notes": [
-      "Vos informations systèmes sont-elles à jour ? Vous devez vous rendre sur votre profil pour mettre à jour vos informations Steam après une mise à jour des pilotes graphiques.",
+      "Vos informations système sont-elles à jour ? Vous devez vous rendre sur votre profil pour mettre à jour vos informations Steam après une mise à jour des pilotes graphiques.",
       "Avez-vous sélectionné le bon jeu ? Certains jeux ont le même nom que les anciennes versions, par exemple GRID.",
       "Avez-vous ajouté les descriptions au bon endroit ? Par exemple, écrivez les notes sur les problèmes graphiques dans la section dédiée plutôt que dans les notes de fin."
     ]
@@ -389,7 +389,7 @@
   "protonVersion": {
     "additionalNotes": {
       "label": "Version de Proton manuelle",
-      "placeholder": "Doit être une chaîne de version de Proton valide. Exemples : {{examples}}"
+      "placeholder": "Doit être une chaîne de version de Proton valide. Exemples : {{examples}}"
     },
     "prompt": "Quelle version de Proton utilisez-vous ?"
   },
@@ -442,7 +442,7 @@
     "borked": "Injouable !",
     "customizations": "Personnalisations",
     "finalNotes": "Verdict",
-    "gameplay": "Autres prblèmes potentiels",
+    "gameplay": "Autres problèmes potentiels",
     "graphics": "Graphismes et performances",
     "multiplayer": "Multijoueur",
     "preview": "Prévisualisation",
@@ -454,7 +454,7 @@
   },
   "type": {
     "intro": [
-      "ProtonDB divise maintenant les rapports en deux types : Steam Play et Tinker.",
+      "ProtonDB divise maintenant les rapports en deux types : Steam Play et Tinker.",
       "Utilisez les rapports Steam Play pour couvrir l’expérience originale. Installez, lancez le jeu et commencez à jouer.",
       "Utilisez les rapports Tinker si vous avez fait des ajustements ou des modifications pour que le jeu fonctionne.",
       "Pour plus d’informations sur les différences, veuillez lire cette [news]({{link}})."

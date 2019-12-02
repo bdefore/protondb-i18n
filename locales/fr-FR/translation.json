@@ -2,14 +2,14 @@
   "breakdown": {
     "headline": "Jeux populaires",
     "popularHeadline": "Évaluation pour les {{count}} plus populaires",
-    "topHundred": "Top 100",
-    "topTen": "Top 10",
-    "topThousand": "Top 1000",
+    "topHundred": "Top 100",
+    "topTen": "Top 10",
+    "topThousand": "Top 1000",
     "topics": {
       "allGames": "Tous les jeux",
       "indie": "Indépendant",
       "localMultiplayer": "Multijoueur local",
-      "singlePlayer": "Jeux solo",
+      "singlePlayer": "Jeux solos",
       "vr": "VR"
     },
     "unavailable": "Indisponible",
@@ -51,14 +51,14 @@
   },
   "gameDetails": {
     "githubIssueSearch": "Github Issue Search",
-    "infoNotFound": "Impossible d’acquérir les information pour l’App ID : {{entry}}. Cela se produit lorsque le jeu a été retiré du magasin.",
+    "infoNotFound": "Impossible d’acquérir les informations pour l’App ID : {{entry}}. Cela se produit lorsque le jeu a été retiré du magasin.",
     "minimumRequirements": "Recommandation minimale",
     "nativelySupports": "Compatibilité native"
   },
   "contextualInfo": {
     "hoursPlayed": "{{context}} heures jouées",
     "peakPlayers": "{{context}} peak players",
-    "positiveRating": "{{context}} % évaluations positives",
+    "positiveRating": "{{context}} % d’évaluations positives",
     "recentReportCount": "{{context}} rapports avec les deux dernières versions de Proton"
   },
   "home": {
@@ -73,7 +73,7 @@
       "question": "Cool ! Comment puis-je aider ?"
     },
     "letsGetStarted": "C’est parti !",
-    "sampleGames": "Voici un échantillon de quelques jeux populaires qui ne sont pas encore officiellement inscrits sur dans liste blanche, mais qui ont été évalués Platine sur ProtonDB.",
+    "sampleGames": "Voici un échantillon de quelques jeux populaires qui ne sont pas encore officiellement inscrits dans la liste blanche, mais qui ont été évalués Platine sur ProtonDB.",
     "search": "Rechercher un jeu…",
     "stats": {
       "gamesReported": "jeux rapportés",
@@ -81,11 +81,11 @@
       "reportsWritten": "rapports écrits"
     },
     "theImpact": {
-      "answer": "Steam Play prend désormais officiellement en charge un nombre limité mais croissant de jeux sur « liste blanche » qui sont considérés comme compatibles avec Proton et qui fonctionnent sous Linux. Selon les rapports de ProtonDB, un nombre important de jeux non inscrits sur la liste blanche, y compris de nombreux titres populaires, fonctionnent aussi bien que sous Windows.",
+      "answer": "Steam Play prend désormais officiellement en charge un nombre limité, mais croissant de jeux sur « liste blanche » qui sont considérés comme compatibles avec Proton et qui fonctionnent sous Linux. Selon les rapports de ProtonDB, un nombre important de jeux non inscrits sur la liste blanche, y compris de nombreux titres populaires, fonctionnent aussi bien que sous Windows.",
       "question": "L’impact"
     },
     "whatIsProton": {
-      "answer": "Proton est un nouvel outil publié par Valve Software qui a été intégré avec Steam Play afin de permettre de jouer aux jeux Windows sous Linux aussi simple que d’appuyer sur le bouton Jouer dans Steam. Sous le capot, Proton comprend d’autres outils populaires comme Wine et DXVK, entre autres, qu’un gamer devrait installer et maintenir par lui-même. Proton allège fortement le fardeau pour les utilisateurs passant à Linux sans avoir à apprendre les systèmes sous-jacents ou perdre l’accès à une large partie de leur bibliothèque de jeux. Proton en est encore à ses balbutiements et la compatibilité est encore inconsistente, mais celle-ci s’améliore régulièrement.",
+      "answer": "Proton est un nouvel outil publié par Valve Software qui a été intégré avec Steam Play afin de permettre de jouer aux jeux Windows sous Linux aussi simple que d’appuyer sur le bouton Jouer dans Steam. Sous le capot, Proton comprend d’autres outils populaires comme Wine et DXVK, entre autres, qu’un gamer devrait installer et maintenir par lui-même. Proton allège fortement le fardeau pour les utilisateurs passant à Linux sans avoir à apprendre les systèmes sous-jacents ou perdre l’accès à une large partie de leur bibliothèque de jeux. Proton en est encore à ses balbutiements et la compatibilité est encore inconsistante, mais celle-ci s’améliore régulièrement.",
       "question": "Qu’est-ce que Proton ?"
     },
     "whatIsProtonDb": {
@@ -93,7 +93,7 @@
       "question": "Qu’est-ce que ProtonDB ?"
     },
     "whyBigDeal": {
-      "answer": "L’expérience de bureau Linux s’est améliorée à pas de géant au cours des deux dernières années. La plupart de ce à quoi vous êtes peut-être habitué sous Windows ou MacOS est possible sous Linux sans avoir à trop bricoler, et bricoler peut même s’avérer être amusant. Pendant ce temps, de plus en plus de nos interactions quotidiennes avec un ordinateur se font en ligne, et les navigateurs se comportent sensiblement de la même manière sous Linux que sous d’autres systèmes d’exploitation. Proton et Steam Play éliminent un obstacle important à l’adoption : les jeux, où la compatibilité était jusqu’à récemment très limitée.",
+      "answer": "L’expérience de bureau Linux s’est améliorée à pas de géant au cours des deux dernières années. La plupart des choses auxquelles vous êtes peut-être habitué sous Windows ou macOS sont possibles sous Linux sans avoir à trop bricoler, et bricoler peut même s’avérer être amusant. Pendant ce temps, de plus en plus de nos interactions quotidiennes avec un ordinateur se font en ligne, et les navigateurs se comportent sensiblement de la même manière sous Linux que sous d’autres systèmes d’exploitation. Proton et Steam Play éliminent un obstacle important à l’adoption : les jeux, où la compatibilité était jusqu’à récemment très limitée.",
       "question": "Pourquoi est-ce très important ?"
     },
     "youtubeId": "Co6FePZoNgE"
@@ -105,8 +105,8 @@
     "headline": "Authentication Steam",
     "intro": "En vous connectant avec Steam vous pourrez soumettre des rapports et utiliser la [page Explorer avec un filtre Bibliothèque]({{link}}) pour limiter les résultats aux jeux que vous possédez",
     "loggedInAs": "Connecté en tant que {{username}}",
-    "note": "Veuillez vous assurer que dans vos [paramètres de confidentialité Steam]({{link}}) la visibilité de votre « profil »  et de vos « jeux » soit visible pour « tout le monde ». Des changements récents dans Steam ont rendu ces paramètres privés par défaut. Ceci utilisera l’API Web de Steam pour récupérer les informations publiques à propos de votre compte, dont l’ID, le nom de profil et l’avatar. Steam vous présentera une adresse IP de {{host}} à laquelle vous devez faire confiance : ceci est tout à fait normal.",
-    "refresh": "Rafraîchir",
+    "note": "Veuillez vous assurer que dans vos [paramètres de confidentialité Steam]({{link}}) la visibilité de votre « profil » et de vos « jeux » soit visible pour « tout le monde ». Des changements récents dans Steam ont rendu ces paramètres privés par défaut. Ceci utilisera l’API Web de Steam pour récupérer les informations publiques à propos de votre compte, dont l’ID, le nom de profil et l’avatar. Steam vous présentera une adresse IP de {{host}} à laquelle vous devez faire confiance : ceci est tout à fait normal.",
+    "refresh": "Rafraichir",
     "steamSignIn": "Se connecter avec Steam",
     "unlink": "Supprimer le lien avec le compte"
   },
@@ -127,14 +127,14 @@
     "distro": "Distribution",
     "driver": "Pilote",
     "execute": "Exécuter",
-    "feedbackPrompt": "Un feedback ? Donnez-nous votre avis sur [Discord]({{link}})",
+    "feedbackPrompt": "Un feedback ? Donnez-nous votre avis sur [Discord]({{link}}).",
     "filter": "Filtrer",
     "games": "Jeux",
     "hide": "Masquer {{what}}",
     "include": "Inclure",
     "install": "Installer",
     "joinUsPrompt": "Rejoignez-nous sur Discord !",
-    "lastContentRefreshTime": "Dernier rafraîchissement du contenu il y à {{time}}",
+    "lastContentRefreshTime": "Dernier rafraichissement du contenu il y a {{time}}",
     "meetsRequirements": "Recommandations atteintes",
     "moreInfo": "Plus d’infos",
     "multiplayer": "Multijoueur",
@@ -211,12 +211,12 @@
   "ratingDefinitions": {
     "explanations": {
       "borked": "Ne démarre pas ou est quasiment injouable",
-      "bronze": "Démarre, mais crash souvent ou a des problèmes empêchant de jouer correctement",
+      "bronze": "Démarre, mais plante souvent ou a des problèmes empêchant de jouer correctement",
       "gold": "Fonctionne parfaitement après quelques modifications",
       "native": "Fonctionne de manière native sur Linux",
       "pending": "En attente de rapports supplémentaires afin de donner une évaluation",
       "platinum": "Fonctionne parfaitement sans modifications préalables",
-      "silver": "Fonctionne sans gros problèmes, seuls quelques bugs mineurs"
+      "silver": "Fonctionne sans gros problèmes, seuls quelques bogues mineurs"
     },
     "headline": "Définitions des évaluations"
   },
