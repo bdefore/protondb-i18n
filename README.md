@@ -51,8 +51,6 @@ Keep an eye out for page rendering issues if your text is smaller or larger than
 
 - Portuguese (pt-BR): [@pedrofleck](https://github.com/pedrofleck) (ongoing at [PR #10](https://github.com/bdefore/protondb-i18n/pull/10))
 - Spanish (es-ES): [@xathech](https://github.com/xathech) (ongoing at [PR #4](https://github.com/bdefore/protondb-i18n/pull/4))
-- Swedish (sv-SE): [@kattus](https://github.com/kattus) (ongoing at [PR #12](https://github.com/bdefore/protondb-i18n/pull/12))
-- Swedish (sv-SE): [@newbytee](https://github.com/newbytee) (ongoing at [PR #13](https://github.com/bdefore/protondb-i18n/pull/13))
 - Italian (it-IT): [@apontini](https://github.com/apontini) (ongoing at [PR #16](https://github.com/bdefore/protondb-i18n/pull/16))
 - French (fr-FR): [@julroy67](https://github.com/julroy67) (ongoing at [PR #19](https://github.com/bdefore/protondb-i18n/pull/19))
 
@@ -63,6 +61,7 @@ Keep an eye out for page rendering issues if your text is smaller or larger than
 - Ukrainian (uk-UA): [@iodream](https://github.com/iodream)
 - Bulgarian (bg-BG): [@mialy](https://github.com/mialy)
 - Greek (el-GR): [@xnick](https://github.com/xnick)
+- Swedish (sv-SE): [@newbytee](https://github.com/newbytee)
 
 ### Coming soon
 
