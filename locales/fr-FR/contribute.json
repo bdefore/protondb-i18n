@@ -161,7 +161,6 @@
     },
     "prompt": "Quelle API graphique avez-vous utilisée dans le jeu ?"
   },
-  "i18nStamp": 1573767610406,
   "inputFaults": {
     "legend": "Entrée",
     "options": {
@@ -309,13 +308,13 @@
     "markdownSupportNotice": "La notation Markdown ne peut pas être utilisée",
     "maxChars": "{{count}} caractères max",
     "next": "Suivant",
-    "submit": "Soumettre",
     "submission": {
-      "success": "Soumis",
-      "note": "Veuillez noter que les nouveaux rapports seront mis en attente jusqu’au prochain rafraichissement. Vous pouvez voir votre contribution dans votre [Profil]({{link}})",
       "error": "Une erreur est survenue lors de la soumission. Veuillez nous en informer !",
+      "note": "Veuillez noter que les nouveaux rapports seront mis en attente jusqu’au prochain rafraichissement. Vous pouvez voir votre contribution dans votre [Profil]({{link}})",
+      "success": "Soumis",
       "thanks": "Merci pour votre contribution à {{siteName}}"
     },
+    "submit": "Soumettre",
     "tooLong": "Trop long"
   },
   "multiplayerAppraisal": {

@@ -16,6 +16,12 @@
     "unrated": "Sans évaluation",
     "unreported": "Sans rapport"
   },
+  "contextualInfo": {
+    "hoursPlayed": "{{context}} heures jouées",
+    "peakPlayers": "{{context}} peak players",
+    "positiveRating": "{{context}} % d’évaluations positives",
+    "recentReportCount": "{{context}} rapports avec les deux dernières versions de Proton"
+  },
   "explore": {
     "headlines": {
       "fixWanted": "Correction souhaitée",
@@ -49,17 +55,16 @@
       "whitelisted": "Liste blanche"
     }
   },
+  "footer": {
+    "description": "{{name}} est un projet passionnant de [@bdefore]({{link}}) et d’une communauté dédiée de rapporteurs.",
+    "feedbackPrompt": "Un feedback ? Rejoignez-nous sur Discord !",
+    "legal": "Ce site n’est pas affilié avec Valve Software. Toutes les images et logos des jeux sont la propriété de leurs propriétaires respectifs."
+  },
   "gameDetails": {
     "githubIssueSearch": "Github Issue Search",
     "infoNotFound": "Impossible d’acquérir les informations pour l’App ID : {{entry}}. Cela se produit lorsque le jeu a été retiré du magasin.",
     "minimumRequirements": "Recommandation minimale",
     "nativelySupports": "Compatibilité native"
-  },
-  "contextualInfo": {
-    "hoursPlayed": "{{context}} heures jouées",
-    "peakPlayers": "{{context}} peak players",
-    "positiveRating": "{{context}} % d’évaluations positives",
-    "recentReportCount": "{{context}} rapports avec les deux dernières versions de Proton"
   },
   "home": {
     "getStartedLinks": [
@@ -98,7 +103,6 @@
     },
     "youtubeId": "Co6FePZoNgE"
   },
-  "i18nStamp": 1573767610406,
   "libraryLoader": {
     "errorLoadingGames": "Erreur lors du chargement des jeux. Assurez-vous que les détails du profil et du jeu soient publics sur ce compte !",
     "gameTotal": "{{count}} jeux dans la bibliothèque chargés !",
@@ -121,6 +125,7 @@
     "addYourReport": "Ajouter votre rapport",
     "affirmative": "Oui",
     "areYouSure": "Êtes-vous sûr ?",
+    "cancel": "Annuler",
     "chipset": "Chipset",
     "conjunction": "et",
     "dismiss": "Ignorer",
@@ -129,6 +134,7 @@
     "execute": "Exécuter",
     "feedbackPrompt": "Un feedback ? Donnez-nous votre avis sur [Discord]({{link}}).",
     "filter": "Filtrer",
+    "filteringSettings": "Paramètres de filtrage",
     "games": "Jeux",
     "hide": "Masquer {{what}}",
     "include": "Inclure",
@@ -144,11 +150,13 @@
     "note": "Note",
     "overall": "Global",
     "pending": "En attente",
+    "preferences": "Préférences",
     "provisional": "Provisoire",
     "published": "Publié",
     "rated": "Évalué",
     "report": "Rapport",
     "reports": "Rapports",
+    "reset": "Réinitialiser",
     "save": "Enregistrer",
     "saved": "{{what}} enregistrés",
     "show": "Afficher {{what}}",
@@ -188,7 +196,7 @@
         "prompt": "Votre nom public"
       },
       "language": {
-        "prompt": "Langue (Expérimental)"
+        "prompt": "Langue"
       }
     }
   },
