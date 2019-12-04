@@ -231,13 +231,13 @@
     "resultsHeader": "Sökresultat för {{q}}"
   },
   "stats": {
-    "analysisInByTheNumbers1": "Analys i By The Numbers #1",
+    "analysisInByTheNumbers1": "Från analysen i By The Numbers #1",
     "byCommonDisplayDrivers": "Efter vanliga videodrivrutiner",
     "byDistro": "Efter distribution",
     "byGpu": "Efter GPU",
     "byProtonVersion": "Efter Protonversion",
     "dailyReportsHeadline": "Dagliga rapporter (Senaste {{days}} dagarna)",
-    "downloadData": "Ladda ner data",
+    "downloadData": "Ladda ner datan",
     "gameRatingDistribution": "Fördelning av betyg i rapporter",
     "gamesWithNOrMoreReports": "Spel med N eller fler rapporter",
     "reportRatingDistributionOverTime": "Fördelning av betyg i rapporter över tid",
