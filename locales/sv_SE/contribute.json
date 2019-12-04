@@ -161,7 +161,8 @@
     },
     "prompt": "Vilken grafik-API använde du i spelet?"
   },
-  "i18nStamp": 1573767610406,
+  "i18nStamp": 1575481436213,
+  "i18nVersion": "v1.7",
   "inputFaults": {
     "legend": "Inmatning",
     "options": {

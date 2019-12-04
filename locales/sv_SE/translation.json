@@ -16,6 +16,16 @@
     "unrated": "Obetygsatt",
     "unreported": "Saknar rapporter"
   },
+  "content": {
+    "previousPost": "Föregående inlägg",
+    "followingPost": "Nästa inlägg"
+  },
+  "contextualInfo": {
+    "hoursPlayed": "{{context}} timmar spelade",
+    "peakPlayers": "{{context}} högst antal spelare",
+    "positiveRating": "{{context}}% positiva betyg",
+    "recentReportCount": "{{context}} antal rapporter med de senaste två Protonversionerna"
+  },
   "explore": {
     "headlines": {
       "fixWanted": "Fix efterfrågad",
@@ -48,6 +58,11 @@
       "userTags": "Användartaggar",
       "whitelisted": "Vitlistat"
     }
+  },
+  "footer": {
+    "description": "{{name}} är ett projekt från [@bdefore]({{link}}) och en dedikerad gemenskap av rapporterare",
+    "feedbackPrompt": "Feedback? Gå med i vår Discord!",
+    "legal": "Denna sida har ingen anknytning till Valve Software. Alla spelbilder och loggor är egendom ägd av sina respektive ägare."
   },
   "gameDetails": {
     "githubIssueSearch": "GitHub Issue sökning",
@@ -92,7 +107,8 @@
     },
     "youtubeId": "Co6FePZoNgE"
   },
-  "i18nStamp": 1573767610406,
+  "i18nStamp": 1575481436213,
+  "i18nVersion": "v1.7",
   "libraryLoader": {
     "errorLoadingGames": "Något gick fel när spel laddades. Försäkra att både profilen och spelinformationen för detta konto är offtenliga!",
     "gameTotal": "{{count}} spel i ditt bibliotek laddade!",
