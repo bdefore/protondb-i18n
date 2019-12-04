@@ -107,7 +107,6 @@
     },
     "youtubeId": "Co6FePZoNgE"
   },
-  "i18nVersion": "v1.7",
   "libraryLoader": {
     "errorLoadingGames": "Något gick fel när spel laddades. Försäkra att både profilen och spelinformationen för detta konto är offtenliga!",
     "gameTotal": "{{count}} spel i ditt bibliotek laddade!",
