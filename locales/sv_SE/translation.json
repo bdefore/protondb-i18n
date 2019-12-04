@@ -44,7 +44,7 @@
     "sorts": {
       "fixWanted": "Fix efterfrågad",
       "hoursPlayed": "Timmar spelade",
-      "mostBorked": "Mest kaputta",
+      "mostBorked": "Mest kaputt",
       "playerCount": "Spelarantal",
       "recentlyImproved": "Nyligen förbättrade",
       "userScore": "Användarbetyg",
@@ -56,7 +56,7 @@
       "restrictToLibrary": "Bibliotek",
       "untested": "Saknar rapporter",
       "userTags": "Användartaggar",
-      "whitelisted": "Vitlistat"
+      "whitelisted": "Vitlistade"
     }
   },
   "footer": {
@@ -248,7 +248,7 @@
   },
   "stats": {
     "analysisInByTheNumbers1": "Från analysen i By The Numbers #1",
-    "byCommonDisplayDrivers": "Efter vanliga videodrivrutiner",
+    "byCommonDisplayDrivers": "Efter vanligaste grafikdrivrutiner",
     "byDistro": "Efter distribution",
     "byGpu": "Efter GPU",
     "byProtonVersion": "Efter Protonversion",
@@ -271,6 +271,6 @@
     "parseSuccess": "Tolking av systeminformation lyckades!",
     "pasteInstructions": "Klista in systeminformation här",
     "unsupportedHeadline": "Icke-stödda drivrutiner upptäcktes",
-    "unsupportedWarning": "Ditt systems videodrivrutin möter inte [Protons nuvarande minimumkrav]({{link}})! Du kan uppleva krascher, dålig prestanda, och/eller grafiska nedgraderingar. Du kan fortfarande skicka in rapporter och det finns oavsett värde i dina bidrag, men dina rapporter kommer visa dina grafikdrivrutiner i rött och kommer inte räknas mot det genomsnittliga betyget. Uppdatera dina drivrutiner!"
+    "unsupportedWarning": "Ditt systems grafikdrivrutin möter inte [Protons nuvarande minimumkrav]({{link}})! Du kan uppleva krascher, dålig prestanda, och/eller grafiska nedgraderingar. Du kan fortfarande skicka in rapporter och det finns oavsett värde i dina bidrag, men dina rapporter kommer visa dina grafikdrivrutiner i rött och kommer inte räknas mot det genomsnittliga betyget. Uppdatera dina drivrutiner!"
   }
 }
