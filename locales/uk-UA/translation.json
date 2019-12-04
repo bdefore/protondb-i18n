@@ -55,6 +55,11 @@
       "whitelisted": "В Білому Списку"
     }
   },
+  "footer": {
+    "description": "{{name}} є проектом любові від [@bdefore] ({{link}}) і є відданою спільнотою звітувальників.",
+    "feedbackPrompt": "Маєте відгук? Приєднуйтесь до нас на Discord!",
+    "legal": "Цей сайт не пов’язаний з Valve Software. Усі ігрові зображення та логотипи є власністю відповідних правовласників."
+  },
   "gameDetails": {
     "githubIssueSearch": "Пошук Issue на Github",
     "infoNotFound": "Не вдалося отримати інформацію для ідентифікатора додатка: {{entry}}. Це може статися, якщо гру вилучили з магазину.",
@@ -120,6 +125,7 @@
     "addYourReport": "Додати Ваш Звіт",
     "affirmative": "Так",
     "areYouSure": "Ви впевнені?",
+    "cancel": "Відмінити",
     "chipset": "Чіпсет",
     "conjunction": "та",
     "dismiss": "Закрити",
@@ -128,6 +134,7 @@
     "execute": "Запустити",
     "feedbackPrompt": "Маєте відгук? Повідомте нам на [Discord]({{link}})",
     "filter": "Фільтр",
+    "filteringSettings": "Параметри Фільтру",
     "games": "Ігри",
     "hide": "Приховати {{what}}",
     "include": "Долучити",
@@ -143,11 +150,13 @@
     "note": "Примітка",
     "overall": "Загалом",
     "pending": "Очікується",
+    "preferences": "Налаштування",
     "provisional": "Провізійно",
     "published": "Опубліковано",
     "rated": "Оцінено",
     "report": "Звіт",
     "reports": "Звіти",
+    "reset": "Скинути",
     "save": "Зберегти",
     "saved": "{{what}} Збережено",
     "show": "Показати {{what}}",
@@ -187,7 +196,7 @@
         "prompt": "Ваше публічне ім'я"
       },
       "language": {
-        "prompt": "Мова (експериментально)"
+        "prompt": "Мова"
       }
     }
   },
