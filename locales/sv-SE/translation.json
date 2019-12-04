@@ -17,8 +17,8 @@
     "unreported": "Saknar rapporter"
   },
   "content": {
-    "previousPost": "Föregående inlägg",
-    "followingPost": "Nästa inlägg"
+    "followingPost": "Nästa inlägg",
+    "previousPost": "Föregående inlägg"
   },
   "contextualInfo": {
     "hoursPlayed": "{{context}} timmar spelade",
@@ -107,7 +107,6 @@
     },
     "youtubeId": "Co6FePZoNgE"
   },
-  "i18nStamp": 1575481436213,
   "i18nVersion": "v1.7",
   "libraryLoader": {
     "errorLoadingGames": "Något gick fel när spel laddades. Försäkra att både profilen och spelinformationen för detta konto är offtenliga!",
