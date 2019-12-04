@@ -17,8 +17,8 @@
     "unreported": "Unreported"
   },
   "content": {
-    "previousPost": "Previous Post",
-    "followingPost": "Following Post"
+    "followingPost": "Following Post",
+    "previousPost": "Previous Post"
   },
   "contextualInfo": {
     "hoursPlayed": "{{context}} hours played",
