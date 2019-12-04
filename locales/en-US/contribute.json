@@ -232,36 +232,36 @@
     "legend": "Launch Flags",
     "options": {
       "disableD3d10": {
-        "long": "Disable D3D10",
+        "long": "Disable D3D10 (PROTON_NO_D3D10)",
         "short": "Disable D3D10"
       },
       "disableD3d11": {
-        "long": "Disable D3D11",
+        "long": "Disable D3D11 (PROTON_NO_D3D11)",
         "short": "Disable D3D11"
       },
       "disableEsync": {
-        "long": "Disable Esync",
+        "long": "Disable Esync (PROTON_NO_ESYNC)",
         "short": "Disable Esync"
       },
       "disableFsync": {
-        "long": "Disable Fsync",
+        "long": "Disable Fsync (PROTON_NO_FSYNC)",
         "short": "Disable Fsync"
       },
       "largeAddressAware": {
-        "long": "Large Address Aware",
+        "long": "Large Address Aware (PROTON_FORCE_LARGE_ADDRESS_AWARE)",
         "short": "Large Address Aware"
       },
       "oldGlString": {
-        "long": "Old GL String",
+        "long": "Old GL String (PROTON_OLD_GL_STRING)",
         "short": "Old GL String"
       },
       "useWineD3d11": {
-        "long": "Use Wine D3D",
+        "long": "Use Wine D3D (PROTON_USE_WINED3D)",
         "short": "Use Wine D3D"
       },
       "useWineD9vk": {
-        "long": "Use Wine D9VK",
-        "short": "Use Wine D9VK"
+        "long": "Use D9VK (PROTON_USE_D9VK)",
+        "short": "Use D9VK"
       }
     },
     "prompt": "Do you use any of these Proton launch flags?"
@@ -358,12 +358,12 @@
     "legend": "Performance",
     "options": {
       "significantSlowdown": {
-        "long": "Significant slowness",
-        "short": "Significant"
+        "long": "Significant Performance Problems",
+        "short": "Significant Performance Problems"
       },
       "slightSlowdown": {
-        "long": "Slightly slow",
-        "short": "Slight"
+        "long": "Slight Performance Problems",
+        "short": "Slight Performance Problems"
       }
     },
     "prompt": "Did you experience unexpected slowness given your hardware?"

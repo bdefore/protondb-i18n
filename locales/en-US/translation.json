@@ -16,6 +16,10 @@
     "unrated": "Unrated",
     "unreported": "Unreported"
   },
+  "content": {
+    "previousPost": "Previous Post",
+    "followingPost": "Following Post"
+  },
   "contextualInfo": {
     "hoursPlayed": "{{context}} hours played",
     "peakPlayers": "{{context}} peak players",
@@ -109,7 +113,7 @@
     "headline": "Steam Authentication",
     "intro": "Logging in with Steam lets you submit reports and use the [Explore page with a Library filter]({{link}}) to limit results to games that you own.",
     "loggedInAs": "Logged in as {{username}}",
-    "note": "Ensure that within your [Steam Privacy Settings]({{link}}) both your 'My Profile' and your 'Game Details' are set to public. Recent changes to Steam have made those private by default. This will use the Steam Web API to retrieve public information about your account including your id, profile name and avatar. Steam will present an IP address of {{host}} for you to trust - this is expected.",
+    "note": "Ensure that within your [Steam Privacy Settings]({{link}}) both your 'My Profile' and your 'Game Details' are set to public. Recent changes to Steam have made those private by default. This will use the Steam Web API to retrieve public information about your account including your id, profile name and avatar.",
     "refresh": "Refresh",
     "steamSignIn": "Sign In With Steam",
     "unlink": "Unlink Account"
@@ -197,6 +201,9 @@
       },
       "language": {
         "prompt": "Language"
+      },
+      "performanceMode": {
+        "prompt": "Would you prefer to run a performance-friendly version of the site?"
       }
     }
   },
