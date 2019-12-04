@@ -1,7 +1,7 @@
 {
   "breakdown": {
     "headline": "Populära spel",
-    "popularHeadline": "Betyg för {{count}} mest populära",
+    "popularHeadline": "Betyg för de {{count}} mest populära spelen",
     "topHundred": "Top hundra",
     "topTen": "Top tio",
     "topThousand": "Top tusen",
@@ -81,9 +81,9 @@
       "answer": "Ge Linux ett försök! Om du är ny, oroa dig inte. Här är en lista med guider som hjälper dig att komma igång, och om du vill hjälpa Valve samt Proton att förbättras, bidra med dina rapporter här på ProtonDB!",
       "question": "Coolt! Hur kan jag hjälpa till?"
     },
-    "letsGetStarted": "Låt oss komma igång.",
+    "letsGetStarted": "Kom igång!",
     "sampleGames": "Här är ett urval av populära spel som officiellt inte är vitlistade än men som har fått många Platinarapporter på ProtonDB",
-    "search": "Sök efter ett spel...",
+    "search": "Sök efter spel...",
     "stats": {
       "gamesReported": "spel rapporterade",
       "gamesWork": "spel fungerar",
