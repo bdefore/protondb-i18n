@@ -456,7 +456,7 @@
   "type": {
     "intro": [
       "ProtonDB delar nu upp rapporter i två typer: Steam Play och Tinker.",
-      "Använd Steam Play rapporter för \"out-of-the-box\" upplevelsen. Installera och börja spela!.",
+      "Använd Steam Play rapporter för \"out-of-the-box\" upplevelsen. Installera och börja spela!",
       "Använd Tinker-rapport om du har gjort några justeringar eller anpassningar för att få spelet att fungera.",
       "För mer information om skillnaderna, se [detta nyhetsinlägg]({{link}})."
     ],
