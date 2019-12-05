@@ -16,6 +16,16 @@
     "unrated": "Unrated",
     "unreported": "Unreported"
   },
+  "content": {
+    "followingPost": "Following Post",
+    "previousPost": "Previous Post"
+  },
+  "contextualInfo": {
+    "hoursPlayed": "{{context}} hours played",
+    "peakPlayers": "{{context}} peak players",
+    "positiveRating": "{{context}}% positive rating",
+    "recentReportCount": "{{context}} reports with latest two Proton versions"
+  },
   "explore": {
     "headlines": {
       "fixWanted": "Fix Wanted",
@@ -49,6 +59,11 @@
       "whitelisted": "Whitelisted"
     }
   },
+  "footer": {
+    "description": "{{name}} is a passion project from [@bdefore]({{link}}) and a dedicated community of reporters.",
+    "feedbackPrompt": "Have some feedback? Come join us on Discord!",
+    "legal": "This site has no affiliation with Valve Software. All game images and logos are property of their respective owners."
+  },
   "gameDetails": {
     "githubIssueSearch": "Github Issue Search",
     "infoNotFound": "Could not acquire information for App ID: {{entry}}. This can happen if a game was removed from the store.",
@@ -56,6 +71,11 @@
     "nativelySupports": "Natively Supports"
   },
   "home": {
+    "getStartedLinks": [
+      "[Steam's Official Steam Play Page](https://store.steampowered.com/steamplay)",
+      "[A guide to migrating to Linux](https://www.reddit.com/r/linux_gaming/comments/9oqq3w/guide_migrating_to_linux_in_2019/)",
+      "[What is Vulkan?](https://www.reddit.com/r/linux_gaming/comments/9ritk1/not_sure_i_quite_understand_can_someone_explain/)"
+    ],
     "headline": "With Proton and Steam Play, many Windows games now work on Linux!",
     "howDoIHelp": {
       "answer": "Give Linux a try! If you are new, not to worry. Here is a list of guides to get started. And if you want to help Valve and Proton to improve, contribute your reports here on ProtonDB!",
@@ -84,16 +104,16 @@
     "whyBigDeal": {
       "answer": "The Linux desktop experience has improved by leaps and bounds in the last year or two. Most of what you may be used to on Windows or MacOS is possible on Linux without having to tinker too much, and the tinkering can even be fun. Meanwhile, more and more of our daily interactions with a computer happen online, and browsers behave much the same on Linux as they do on other operating systems. Proton and Steam Play address a significant obstacle to adoption: gaming, where until recently there was limited compatibility.",
       "question": "Why is this a big deal?"
-    }
+    },
+    "youtubeId": "Co6FePZoNgE"
   },
-  "i18nStamp": 1573767610406,
   "libraryLoader": {
     "errorLoadingGames": "Error loading games. Please ensure both Profile and Game Details are public on this account!",
     "gameTotal": "{{count}} games in library loaded!",
     "headline": "Steam Authentication",
     "intro": "Logging in with Steam lets you submit reports and use the [Explore page with a Library filter]({{link}}) to limit results to games that you own.",
     "loggedInAs": "Logged in as {{username}}",
-    "note": "Ensure that within your [Steam Privacy Settings]({{link}}) both your 'My Profile' and your 'Game Details' are set to public. Recent changes to Steam have made those private by default. This will use the Steam Web API to retrieve public information about your account including your id, profile name and avatar. Steam will present an IP address of {{host}} for you to trust - this is expected.",
+    "note": "Ensure that within your [Steam Privacy Settings]({{link}}) both your 'My Profile' and your 'Game Details' are set to public. Recent changes to Steam have made those private by default. This will use the Steam Web API to retrieve public information about your account including your id, profile name and avatar.",
     "refresh": "Refresh",
     "steamSignIn": "Sign In With Steam",
     "unlink": "Unlink Account"
@@ -109,6 +129,7 @@
     "addYourReport": "Add Your Report",
     "affirmative": "Yes",
     "areYouSure": "Are you sure?",
+    "cancel": "Cancel",
     "chipset": "Chipset",
     "conjunction": "and",
     "dismiss": "Dismiss",
@@ -117,6 +138,7 @@
     "execute": "Run",
     "feedbackPrompt": "Feedback? Let us know on [Discord]({{link}})",
     "filter": "Filter",
+    "filteringSettings": "Filtering Settings",
     "games": "Games",
     "hide": "Hide {{what}}",
     "include": "Include",
@@ -132,11 +154,13 @@
     "note": "Note",
     "overall": "Overall",
     "pending": "Pending",
+    "preferences": "Preferences",
     "provisional": "Provisional",
     "published": "Published",
     "rated": "Rated",
     "report": "Report",
     "reports": "Reports",
+    "reset": "Reset",
     "save": "Save",
     "saved": "{{what}} Saved",
     "show": "Show {{what}}",
@@ -176,7 +200,10 @@
         "prompt": "Your public name"
       },
       "language": {
-        "prompt": "Language (Experimental)"
+        "prompt": "Language"
+      },
+      "performanceMode": {
+        "prompt": "Would you prefer to run a performance-friendly version of the site?"
       }
     }
   },
@@ -219,6 +246,7 @@
       "otherSpecs": "Other Specs",
       "ram": "RAM"
     },
+    "superceded": "There is a newer report of this type from this author",
     "timeWithProton": "{{time}} with Proton"
   },
   "search": {
@@ -237,10 +265,14 @@
     "reportRatingDistributionOverTime": "Report Rating Distribution Over Time",
     "whenMeetingMinimumRequirements": "When Meeting Minimum Requirements"
   },
+  "suggestions": {
+    "headline": "Ready for more?",
+    "intro": "The following games have been selected based on hours you've played, popularity, and SteamDB rating. They all lack reports and some may only need one more to get a {{siteName}} rating! You can reload for other suggestions or go to [Lack Reports]({{link}}) filter of Explore page for even more."
+  },
   "systemInfo": {
     "headline": "System Information",
     "howTo": "Gathering this information is quick if you have access to Steam settings on the machine where you play your games. [Go here to learn how]({{link}}). (Some users have reported that they need to press Ctrl-A to select everything before right clicking.)",
-    "intro": "Reports have more utility and lend more creditibility by displaying the hardware and software the game was tested on. To keep this as accurate and consistent as possible, we leverage the system information reported by Steam itself.",
+    "intro": "Reports have more utility and lend more credibility by displaying the hardware and software the game was tested on. To keep this as accurate and consistent as possible, we leverage the system information reported by Steam itself.",
     "parseFailure": "Parsing failed. If you are certain you copied correctly please let us know on Discord",
     "parseSuccess": "System Information Parsed Successfully!",
     "pasteInstructions": "Paste Steam System Info Here",

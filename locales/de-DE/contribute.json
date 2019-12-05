@@ -161,7 +161,6 @@
     },
     "prompt": "Welche Grafik API hast du innerhalb des Spiels verwendet?"
   },
-  "i18nStamp": 1573767610406,
   "inputFaults": {
     "legend": "Eingabe",
     "options": {
@@ -309,6 +308,12 @@
     "markdownSupportNotice": "Markdown wird nicht unterstützt",
     "maxChars": "Maximal {{count}} Zeichen",
     "next": "Nächste",
+    "submission": {
+      "error": "Es gab einen Fehler bei der Übermittlung. Bitte lass uns wissen, wie das passiert ist!",
+      "note": "Bitte beachte, dass sich neue Einreichungen bis zur nächsten Aktualisierung des Inhalts in einem Wartestatus befinden. Du kannst deine Beiträge in deinem [Profil]({{link}}) einsehen",
+      "success": "Erfolgreich übermittelt",
+      "thanks": "Vielen Dank für deinen Beitrag zu {{siteName}}"
+    },
     "submit": "Absenden",
     "tooLong": "Zu lang"
   },
@@ -362,6 +367,10 @@
       }
     },
     "prompt": "Hast du angesichts deiner Hardware eine unerwartet schlechte Leistung erlebt?"
+  },
+  "prerequisitesBlock": {
+    "action": "Zum Profil gehen",
+    "context": "Du musst dich bei Steam anmelden und Systeminformationen angeben, bevor du es abschicken kannst!"
   },
   "preview": {
     "intro": "Dinge die du noch einmal überprüfen solltest:",
@@ -471,10 +480,10 @@
   "welcome": {
     "intro": "Vielen Dank für dein Interesse an der Erweiterung des ProtonDB-Katalogs von Kompatibilitätsberichten über Steam Play und Proton! Bitte beachten die folgenden Punkte, bevor du einen Beitrag leistest:",
     "notes": [
-      "Diese Bewertungen werden auf ProtonDB zur Überprüfung veröffentlicht und von anderen Spielern, Valve und Entwicklern verwendet, um Spiele zu identifizieren und lauffähig zu machen. Bitte halte deine Bewertungen genau, frei von beleidigender Sprache und verzichte darauf Berichte zu übermitteln, nur um für dein Lieblingsspiel, deine Lieblings-Distribution oder deine Grafikkarte zu werben",
-      "Es wird empfohlen, mehrere Berichte für das gleiche Spiel einzureichen! Wenn du mehr spielst oder Proton aktualisierst, wirst du mehr Informationen zum Teilen haben. Auf diese Weise unterscheidet sich ProtonDB von einem Wiki, da jeder Bericht als 'Schnappschuss' dient, wie das Spiel zu diesem Zeitpunkt mit deiner Konfiguration funktioniert",
-      "Wenn du mehrere Berichte einreichst, wird nur dein neuester Bericht für die ProtonDB-Wertung herangezogen und nur dann, wenn deine Systeminformationen die Mindestanforderungen von Proton erfüllen",
-      "Deine Einreichungen werden auf ProtonDB öffentlich sichtbar sein und sind in Datenexporten unter der Open Database License verfügbar. Folge diesem [Link]({{link}}) für mehr Informationen"
+      "Diese Berichte werden auf ProtonDB veröffentlicht, um euch, Valve und Entwicklern zu helfen, Spiele mit Proton lauffähig zu machen. Bitte halte deine Berichte genau, frei von beleidigender Sprache und verzichte darauf, Berichte zu übermitteln, nur um für dein Lieblingsspiel, deine Lieblings-Distribution oder deine Grafikkarte zu werben.",
+      "Es wird empfohlen, mehrere Berichte für das gleiche Spiel einzureichen! Wenn du mehr spielst oder Proton aktualisierst, wirst du mehr Informationen zum Teilen haben. Auf diese Weise unterscheidet sich ProtonDB von einem Wiki, da jeder Bericht als 'Schnappschuss' dient, wie das Spiel zu diesem Zeitpunkt mit deiner Konfiguration funktioniert.",
+      "Wenn du mehrere Berichte einreichst, wird nur dein neuester Bericht für die ProtonDB-Wertung herangezogen und nur dann, wenn deine Systeminformationen die Mindestanforderungen von Proton erfüllen.",
+      "Deine Einreichungen werden auf ProtonDB öffentlich sichtbar sein und sind in Datenexporten unter der Open Database License verfügbar. Folge diesem [Link]({{link}}) für mehr Informationen."
     ],
     "outro": "Damit lass uns anfangen!"
   },

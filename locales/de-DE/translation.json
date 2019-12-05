@@ -16,6 +16,16 @@
     "unrated": "Nicht bewertet",
     "unreported": "Nicht gemeldet"
   },
+  "content": {
+    "followingPost": "Nachfolgender Beitrag",
+    "previousPost": "Vorheriger Beitrag"
+  },
+  "contextualInfo": {
+    "hoursPlayed": "{{context}} Stunden gespielt",
+    "peakPlayers": "{{context}} peak players",
+    "positiveRating": "{{context}}% postive Bewertungen",
+    "recentReportCount": "{{context}} Berichte mit den letzten 2 Proton Versionen"
+  },
   "explore": {
     "headlines": {
       "fixWanted": "Fehlerbehebung benötigt",
@@ -29,7 +39,7 @@
     },
     "layout": "Darstellung",
     "loadError": "Fehler beim laden der Spiele!",
-    "notLoggedIn": "Die Bibliotheok kann ohne eine Steam ID nicht geladen werden. Gehe in dein [Profil]({{link}}) um sie hinzuzufügen",
+    "notLoggedIn": "Die Bibliothek kann ohne eine Steam ID nicht geladen werden. Gehe in dein [Profil]({{link}}) um sie hinzuzufügen",
     "poweredBy": "Unterstützt von",
     "sorts": {
       "fixWanted": "Fehlerbehebung benötigt",
@@ -42,9 +52,9 @@
     },
     "toggles": {
       "includeNative": "Native einbeziehen",
-      "lackReports": "Bewertungen benötigt",
+      "lackReports": "Berichte benötigt",
       "restrictToLibrary": "Bibliothek",
-      "untested": "Bewertungen benötigt",
+      "untested": "Berichte benötigt",
       "userTags": "Benutzer Tags",
       "whitelisted": "Whitelisted"
     }
@@ -56,9 +66,14 @@
     "nativelySupports": "Native Unterstützung"
   },
   "home": {
+    "getStartedLinks": [
+      "[Steam's Ozzizielle Steam Play Seite](https://store.steampowered.com/steamplay)",
+      "[A guide to migrating to Linux](https://www.reddit.com/r/linux_gaming/comments/9oqq3w/guide_migrating_to_linux_in_2019/)",
+      "[What is Vulkan?](https://www.reddit.com/r/linux_gaming/comments/9ritk1/not_sure_i_quite_understand_can_someone_explain/)"
+    ],
     "headline": "Mit Proton und Steam Play funktionieren viele Windows-Spiele jetzt auch unter Linux!",
     "howDoIHelp": {
-      "answer": "Probiere Linux aus! Falls du noch neu dabei bist, mach dir keine Sorgen. Hier ist eine Liste von Anleitungen für den Einstieg. Und wenn du Valve und Proton bei der Verbesserung helfen möchtest, trage deine Bewertungen hier auf ProtonDB ein!",
+      "answer": "Probiere Linux aus! Falls du noch neu dabei bist, mach dir keine Sorgen. Hier ist eine Liste von Anleitungen für den Einstieg. Und wenn du Valve und Proton bei der Verbesserung helfen möchtest, trage deine Berichte hier auf ProtonDB ein!",
       "question": "Cool! Wie kann ich helfen?"
     },
     "letsGetStarted": "Lasst uns anfangen.",
@@ -67,7 +82,7 @@
     "stats": {
       "gamesReported": "Spiele bewertet",
       "gamesWork": "funktionierende Spiele",
-      "reportsWritten": "Bewertungen geschrieben"
+      "reportsWritten": "Berichte geschrieben"
     },
     "theImpact": {
       "answer": "Steam Play unterstützt nun offiziell eine begrenzte, aber wachsende Anzahl von Spielen auf der Whitelist, die als Proton-kompatibel gelten und unter Linux laufen. Basierend auf ProtonDB-Berichten läuft eine beträchtliche Anzahl von Spielen, die nicht auf der weißen Liste stehen, darunter viele beliebte Titel, genauso gut wie unter Windows.",
@@ -84,13 +99,14 @@
     "whyBigDeal": {
       "answer": "Das Linux-Desktop-Erlebnis hat sich in den letzten ein oder zwei Jahren sprunghaft verbessert. Das meiste, was du unter Windows oder MacOS gewohnt bist, ist unter Linux möglich, ohne zu viel basteln zu müssen, und das Basteln kann sogar Spaß machen. Inzwischen finden immer mehr unserer täglichen Interaktionen mit einem Computer online statt, und Browser verhalten sich unter Linux ähnlich wie unter anderen Betriebssystemen. Proton und Steam Play adressieren ein wesentliches Hindernis für die Akzeptanz: das Spielen, bei dem es bis vor kurzem nur begrenzte Kompatibilität gab.",
       "question": "Warum ist das eine große Sache?"
-    }
+    },
+    "youtubeId": "Co6FePZoNgE"
   },
   "libraryLoader": {
     "errorLoadingGames": "Fehler beim Laden von Spielen. Bitte stelle sicher, dass sowohl Profil- als auch Spieledetails auf diesem Konto öffentlich sind!",
     "gameTotal": "{{count}} Spiele in der Bibliothek geladen!",
     "headline": "Steam Authentifizierung",
-    "intro": "Wenn du dich mit Steam anmeldest, kannst du Bewertungen einreichen und die Seite [mit einem Bibliotheksfilter]({{link}}) erkunden, um die Ergebnisse auf Spiele zu beschränken, die du besitzt.",
+    "intro": "Wenn du dich mit Steam anmeldest, kannst du Berichte einreichen und die Seite [mit einem Bibliotheksfilter]({{link}}) erkunden, um die Ergebnisse auf Spiele zu beschränken, die du besitzt.",
     "loggedInAs": "Angemeldet als {{username}}",
     "note": "Stelle sicher, dass in deinen [Steam Privatsphäreeinstellungen ]({{link}}) sowohl 'Mein Profil' als auch deine 'Spieledetails' öffentlich eingestellt sind. Die letzten Änderungen an Steam haben diese standardmäßig privat gemacht. Diese Seite verwendet die Steam Web API, um öffentliche Informationen über dein Konto abzurufen, einschließlich deiner ID, deines Profilnamens und deines Avatars. Steam wird dir die IP-Adresse {{host}} anzeigen, der du vertrauen kannst - dies ist normal.",
     "refresh": "Aktualisieren",
@@ -105,9 +121,10 @@
     "silver": "Silber"
   },
   "misc": {
-    "addYourReport": "Bewertung verfassen",
+    "addYourReport": "Bericht verfassen",
     "affirmative": "Ja",
     "areYouSure": "Bist du sicher?",
+    "cancel": "Abbrechen",
     "chipset": "Chipsatz",
     "conjunction": "und",
     "dismiss": "Verwerfen",
@@ -116,6 +133,7 @@
     "execute": "Ausführen",
     "feedbackPrompt": "Feedback? Lass es uns auf [Discord]({{link}}) wissen",
     "filter": "Filter",
+    "filteringSettings": "Filtereinstellungen",
     "games": "Spiele",
     "hide": "Verstecke {{what}}",
     "include": "Einbeziehen",
@@ -134,8 +152,9 @@
     "provisional": "Provisorisch",
     "published": "Veröffentlicht",
     "rated": "Bewertet",
-    "report": "Bewertung",
-    "reports": "Bewertungen",
+    "report": "Bericht",
+    "reports": "Berichte",
+    "reset": "Zurücksetzen",
     "save": "Speichern",
     "saved": "{{what}} gespeichert",
     "show": "Zeige {{what}}",
@@ -161,7 +180,7 @@
   },
   "preferences": {
     "headline": "Einstellungen",
-    "intro": "ProtonDB zeigt den Steam-Nicknamen des Einreichers neben Berichten an. Deine eindeutige Steam-ID wird in den Daten der veröffentlichten Bewertungen nicht angezeigt. Wenn du besorgt bist, dass dein Spitzname verwendet werden kann, um dein Steam-Profil abzuleiten, kannst du hier einen anderen Spitznamen wählen, der nach der nächsten Aktualisierung des Inhalts verwendet wird.",
+    "intro": "ProtonDB zeigt den Steam-Nicknamen des Einreichers neben Berichten an. Deine eindeutige Steam-ID wird in den Daten der veröffentlichten Berichte nicht angezeigt. Wenn du besorgt bist, dass dein Spitzname verwendet werden kann, um dein Steam-Profil abzuleiten, kannst du hier einen anderen Spitznamen wählen, der nach der nächsten Aktualisierung des Inhalts verwendet wird.",
     "questions": {
       "customName": {
         "additionalNotes": {
@@ -187,9 +206,9 @@
       "byProtonDbRating": "Nach SteamDB Wertung",
       "bySteamDbScore": "Nach SteamDB Benutzerwertunge",
       "headline": "Die folgenden Tags sind in Ihrer Bibliothek üblich. Mit diesen kannst du einsteigen:",
-      "lackReportsByHoursPlayed": "Bewertungen benötigt nach deiner Spielzeit",
-      "lackReportsByPlayerCount": "Bewertungen benötigt nach Spieleranzahl",
-      "lackReportsBySteamDbScore": "Bewertungen benötigt nach SteamDB Benutzerwertung"
+      "lackReportsByHoursPlayed": "Berichte benötigt nach deiner Spielzeit",
+      "lackReportsByPlayerCount": "Berichte benötigt nach Spieleranzahl",
+      "lackReportsBySteamDbScore": "Berichte benötigt nach SteamDB Benutzerwertung"
     },
     "notInYourLibrary": "Nicht in deiner Bibliothek",
     "yourContributions": "Deine Einreichungen"
@@ -219,28 +238,34 @@
     },
     "timeWithProton": "{{time}} mit Proton"
   },
+  "search": {
+    "resultsHeader": "Suchergebnisse für {{q}}"
+  },
   "stats": {
     "analysisInByTheNumbers1": "Analysis in By The Numbers #1",
     "byCommonDisplayDrivers": "Nach gängigen Display-Treiber",
     "byDistro": "Nach Distro",
     "byGpu": "Nach GPU",
     "byProtonVersion": "Nach Proton Version",
-    "dailyReportsHeadline": "Tägliche Bewertungen (Letzten {{days}} Tage)",
+    "dailyReportsHeadline": "Tägliche Berichte (Letzten {{days}} Tage)",
     "downloadData": "Daten herunterladen",
-    "gameRatingDistribution": "Verteilung der Spielebewertung",
-    "gamesWithNOrMoreReports": "Spiele mit N oder mehr Bewertungen",
-    "reportRatingDistributionOverTime": "Verteilung der Bewertung im Zeitablauf",
+    "gameRatingDistribution": "Verteilung der Spieleberichte",
+    "gamesWithNOrMoreReports": "Spiele mit N oder mehr Berichten",
+    "reportRatingDistributionOverTime": "Verteilung der Berichte im Zeitablauf",
     "whenMeetingMinimumRequirements": "Bei der Erfüllung von Mindestanforderungen"
+  },
+  "suggestions": {
+    "headline": "Bist du bereit für mehr?",
+    "intro": "Die folgenden Spiele wurden nach Spielzeit, Beliebtheit und SteamDB-Bewertung ausgewählt. Allen fehlt es an Berichten und einige brauchen vielleicht nur noch einen weiteren, um eine {{siteName}}} Wertung zu erhalten! Du kannst für andere Vorschläge neu laden oder nach [Berichte benötigt]({{link}}}) auf der Seite Erkunden suchen, um noch mehr zu finden."
   },
   "systemInfo": {
     "headline": "Systeminformationen",
     "howTo": "Das Sammeln dieser Informationen geht schnell, falls du Zugang zu Steam auf dem Computer hast, auf dem du Spiele testest. [Hier]({{link}}) erfährst du wie du diese Daten abfragen kannst. (Einige Benutzer haben berichtet, dass sie Strg-A drücken müssen, um alles auszuwählen, bevor sie mit der rechten Maustaste klicken.)",
-    "intro": "Bewertungen haben einen größeren Nutzen und sind nachvollziehbarer wenn die Hard- & Software angegeben ist, auf denen diese Zustande gekommen sind. Um die Daten so konsistent wie möglich zu halten, nutzen wir die von Steam selbst gemeldeten Systeminformationen.",
+    "intro": "Berichte haben einen größeren Nutzen und sind nachvollziehbarer wenn die Hard- & Software angegeben ist, auf denen diese Zustande gekommen sind. Um die Daten so konsistent wie möglich zu halten, nutzen wir die von Steam selbst gemeldeten Systeminformationen.",
     "parseFailure": "Das Analysieren ist fehlgeschlagen. Wenn du sicher bist, dass du die Daten richtig kopiert hast, lass es uns bitte im Discord wissen.",
     "parseSuccess": "Systeminformation wurden erfolgreich analysiert!",
     "pasteInstructions": "Steam Systeminformationen hier eingeben",
     "unsupportedHeadline": "Nicht unterstützte Treiber erkannt",
     "unsupportedWarning": "Der Anzeigetreiber deines Systems entspricht nicht den [aktuellen Mindestanforderungen von Proton]({{link}})! Es kann zu Abstürzen, langsamer Leistung oder grafischen Beeinträchtigungen kommen. Du kannst immer noch Berichte einreichen und es gibt immer noch einen Wert in deinen Beiträgen, aber deine Berichte zeigen deine Grafiktreiber in rot an und werden nicht für die Gesamtbewertung von Spielen gezählt. Bitte aktualisiere deine Treiber!"
-  },
-  "i18nStamp": 1573767610406
+  }
 }

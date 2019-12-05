@@ -29,10 +29,10 @@ All native speakers are welcome to contribute! Please do not make pull requests 
 - If starting a new locale, create the directory named after your language tag within `locales` and copy over files from the `locales/en-US` directory
 - Make your changes/additions
 - Review them visually (see Verify Your Changes below)
-- Run `yarn lint:json` to validate everything is alphabetized and formatted properly
+- Run `yarn run lint:json` to validate everything is alphabetized and formatted properly
 - Commit, push, and open a pull request!
 
-Any questions? Ask us on [Discord](https://discord.gg/uuwK9EV)
+Any questions? Ask us on [Discord](https://discord.gg/uuwK9EV) You might want to let us know on there anyway that you're starting work so that we can add you to Known Active Translations below.
 
 ### Verify Your Changes
 
@@ -41,17 +41,31 @@ Keep an eye out for page rendering issues if your text is smaller or larger than
 - Learn how to modify your browser's local storage (here are instructions for [Chrome](https://developers.google.com/web/tools/chrome-devtools/storage/localstorage) and [Firefox](https://developer.mozilla.org/en-US/docs/Tools/Storage_Inspector))
 - Visit [ProtonDB](https://www.protondb.com)
 - If you're not already, switch to English
+- (NEW): For both files, copy the values for `i18nStamp` and `i18nVersion` that occur in the ones that are stored in your local storage.
 - Copy the contents of your `contribute.json` file into a local storage entry as `i18next:en-US-contribute`
 - Copy the contents of your `translation.json` file into a local storage entry as `i18next:en-US-translation`
 - Reload and review
+- (NEW): When finished, remove the values you added for `i18nStamp` and `i18nVersion` before submitting your PR
 
-### Known Active Translators
+### Maintenance
 
-Maybe you?
+As ProtonDB continues development, new text will be added that may need translation. For a quick way to verify if a language is missing translations (or has identical ones to English), you can run: `yarn run compare --locale <locale-code>`
+
+### Known Active Translations
+
+- Portuguese (pt-BR): [@pedrofleck](https://github.com/pedrofleck) (ongoing at [PR #10](https://github.com/bdefore/protondb-i18n/pull/10))
+- Spanish (es-ES): [@xathech](https://github.com/xathech) (ongoing at [PR #4](https://github.com/bdefore/protondb-i18n/pull/4))
+- Italian (it-IT): [@apontini](https://github.com/apontini) (ongoing at [PR #16](https://github.com/bdefore/protondb-i18n/pull/16))
+- French (fr-FR): [@julroy67](https://github.com/julroy67) (ongoing at [PR #19](https://github.com/bdefore/protondb-i18n/pull/19))
 
 ### Hall of Fame
 
 - German (de-DE): [@NoXPhasma](https://github.com/NoXPhasma)
+- Polish (pl-PL): [@kacperski1](https://github.com/kacperski1)
+- Ukrainian (uk-UA): [@iodream](https://github.com/iodream)
+- Bulgarian (bg-BG): [@mialy](https://github.com/mialy)
+- Greek (el-GR): [@xnick](https://github.com/xnick)
+- Swedish (sv-SE): [@newbytee](https://github.com/newbytee)
 
 ### Coming soon
 

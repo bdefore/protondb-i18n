@@ -161,7 +161,6 @@
     },
     "prompt": "What graphics API did you use within the game?"
   },
-  "i18nStamp": 1573767610406,
   "inputFaults": {
     "legend": "Input",
     "options": {
@@ -233,36 +232,36 @@
     "legend": "Launch Flags",
     "options": {
       "disableD3d10": {
-        "long": "Disable D3D10",
+        "long": "Disable D3D10 (PROTON_NO_D3D10)",
         "short": "Disable D3D10"
       },
       "disableD3d11": {
-        "long": "Disable D3D11",
+        "long": "Disable D3D11 (PROTON_NO_D3D11)",
         "short": "Disable D3D11"
       },
       "disableEsync": {
-        "long": "Disable Esync",
+        "long": "Disable Esync (PROTON_NO_ESYNC)",
         "short": "Disable Esync"
       },
       "disableFsync": {
-        "long": "Disable Fsync",
+        "long": "Disable Fsync (PROTON_NO_FSYNC)",
         "short": "Disable Fsync"
       },
       "largeAddressAware": {
-        "long": "Large Address Aware",
+        "long": "Large Address Aware (PROTON_FORCE_LARGE_ADDRESS_AWARE)",
         "short": "Large Address Aware"
       },
       "oldGlString": {
-        "long": "Old GL String",
+        "long": "Old GL String (PROTON_OLD_GL_STRING)",
         "short": "Old GL String"
       },
       "useWineD3d11": {
-        "long": "Use Wine D3D",
+        "long": "Use Wine D3D (PROTON_USE_WINED3D)",
         "short": "Use Wine D3D"
       },
       "useWineD9vk": {
-        "long": "Use Wine D9VK",
-        "short": "Use Wine D9VK"
+        "long": "Use D9VK (PROTON_USE_D9VK)",
+        "short": "Use D9VK"
       }
     },
     "prompt": "Do you use any of these Proton launch flags?"
@@ -309,6 +308,12 @@
     "markdownSupportNotice": "Markdown is now supported",
     "maxChars": "Max {{count}} chars",
     "next": "Next",
+    "submission": {
+      "error": "There was an error during submission. Please let us know how this happened!",
+      "note": "Please note that new reports will be in a pending state until the next content refresh. You can view your contributions on your [Profile]({{link}})",
+      "success": "Successfully Submitted",
+      "thanks": "Thanks for your contribution to {{siteName}}"
+    },
     "submit": "Submit",
     "tooLong": "Too long"
   },
@@ -353,15 +358,19 @@
     "legend": "Performance",
     "options": {
       "significantSlowdown": {
-        "long": "Significant slowness",
-        "short": "Significant"
+        "long": "Significant Performance Problems",
+        "short": "Significant Performance Problems"
       },
       "slightSlowdown": {
-        "long": "Slightly slow",
-        "short": "Slight"
+        "long": "Slight Performance Problems",
+        "short": "Slight Performance Problems"
       }
     },
     "prompt": "Did you experience unexpected slowness given your hardware?"
+  },
+  "prerequisitesBlock": {
+    "action": "Go to profile",
+    "context": "You'll need to log into Steam and provide system information before submitting!"
   },
   "preview": {
     "intro": "Things to check for:",
@@ -469,9 +478,10 @@
     "prompt": "Would a typical gamer have an enjoyable experience running this game on Linux with Proton?"
   },
   "welcome": {
+    "headline": "Welcome",
     "intro": "Thanks for your interest in expanding ProtonDB's catalog of compatibility reports on Steam Play and Proton! Please keep in mind the following before you contribute",
     "notes": [
-      "These reports are published on ProtonDB pending review and used by other gamers, Valve, and developers to identify and fix games. Please keep your reports accurate, free of offensive language, and refrain from submitting reports just to promote your favorite game, distro or graphics card.",
+      "Reports are published on ProtonDB to help you, Valve, and developers to help fix games. Please keep your reports accurate, free of offensive language, and refrain from submitting reports just to promote your favorite game, distro or graphics card.",
       "Submitting multiple reports for the same game is encouraged! As you play more or update Proton you'll have more to say. In this way ProtonDB differs from a wiki, since each report serves as a 'snapshot' of how the game played on that date with your configuration.",
       "If you submit multiple reports, only your most recent will count towards the ProtonDB rating and only if your system information meets Proton's minimum requirements.",
       "Your contributions will be publicly visible on ProtonDB and available in data exports under the Open Database License. Go [here]({{link}}) for more information."
