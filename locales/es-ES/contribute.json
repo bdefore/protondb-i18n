@@ -1,8 +1,8 @@
 {
   "appSelection": {
     "caution": "Cuidado!",
-    "helperText": "También puedes pegar enlaces o el id de una aplicación y intentaremos encontrarla",
-    "notFound": "No se ha podido encontrar un juego con el id {{query}}. Esto puedo ocurrir cuando el id es incorrecto o si: se ha eliminado de la tienda de Steam, no está listado como un juego, o no está disponible en tu país.",
+    "helperText": "También puedes añadir enlaces o el identificador de una aplicación y intentaremos encontrarla",
+    "notFound": "No se ha podido encontrar un juego con el identificador {{query}}. Esto puedo ocurrir cuando el id es incorrecto o si: se ha eliminado de la tienda de Steam, no está listado como un juego, o no está disponible en tu país.",
     "placeholder": "Introduce el nombre de un juego en tu biblioteca de Steam...",
     "previousReportsExist": "Tienes reportes previos para este juego",
     "runsNativeWarning": "The selected game has published a native Linux version! Please be sure you have not inadvertently run the game natively. Steam does not use Steam Play to run this game by default, but [you can force it to do so]({{link}})."
@@ -31,7 +31,7 @@
         "short": "Otro"
       },
       "outOfSync": {
-        "long": "Fell out of sync",
+        "long": "Se ha desincronizado",
         "short": "Desincronizado"
       }
     },
@@ -81,7 +81,7 @@
         "short": "winetricks"
       }
     },
-    "prompt": "¿Que cambios has hecho?"
+    "prompt": "¿Que modificaciones has hecho?"
   },
   "duration": {
     "legend": "Duración",
@@ -169,8 +169,8 @@
         "short": "Bounding"
       },
       "controllerMapping": {
-        "long": "Controller(s) were not mapped properly",
-        "short": "Controller mapping"
+        "long": "Mando/os no está/n correctamente mapeado/os",
+        "short": "Mapeado del mando"
       },
       "controllerNotDetected": {
         "long": "Mando no detectado",
@@ -181,15 +181,15 @@
         "short": "Respuesta"
       },
       "drifting": {
-        "long": "Axes would drift",
+        "long": "Los ejes se mueven solos",
         "short": "Drifting"
       },
       "inaccuracy": {
-        "long": "Inaccuracy",
-        "short": "Inaccuracy"
+        "long": "Impreciso",
+        "short": "Impreciso"
       },
       "lag": {
-        "long": "Input was laggy",
+        "long": "Entrada con retraso",
         "short": "Retraso"
       },
       "other": {
@@ -200,7 +200,7 @@
     "prompt": "¿Has experimentado algún problema con el ratón, mando u otro dispositivo de entrada?"
   },
   "installs": {
-    "legend": "Instala",
+    "legend": "Instalación",
     "prompt": "¿Has podido instalar el juego?"
   },
   "isImpactedByAntiCheat": {
@@ -232,35 +232,35 @@
     "legend": "Parámetros de lanzamiento",
     "options": {
       "disableD3d10": {
-        "long": "Desactivar D3D10",
+        "long": "Desactivar D3D10 (PROTON_NO_D3D10)",
         "short": "Desactivar D3D10"
       },
       "disableD3d11": {
-        "long": "Desactivar D3D11",
+        "long": "Desactivar D3D11 (PROTON_NO_D3D11)",
         "short": "Desactivar D3D11"
       },
       "disableEsync": {
-        "long": "Desactivar Esync",
+        "long": "Desactivar Esync (PROTON_NO_ESYNC)",
         "short": "Desactivar Esync"
       },
       "disableFsync": {
-        "long": "Desactivar Fsync",
+        "long": "Desactivar Fsync (PROTON_NO_FSYNC)",
         "short": "Desactivar Fsync"
       },
       "largeAddressAware": {
-        "long": "Large Address Aware",
+        "long": "Large Address Aware (PROTON_FORCE_LARGE_ADDRESS_AWARE)",
         "short": "Large Address Aware"
       },
       "oldGlString": {
-        "long": "Viejo GL String",
-        "short": "Viejo GL String"
+        "long": "GL String Viejo (PROTON_OLD_GL_STRING)",
+        "short": "GL String Viejo"
       },
       "useWineD3d11": {
-        "long": "Usar Wine D3D",
+        "long": "Usar Wine D3D (PROTON_USE_WINED3D)",
         "short": "Usar Wine D3D"
       },
       "useWineD9vk": {
-        "long": "Usar Wine D9VK",
+        "long": "Usar Wine D9VK (PROTON_USE_D9VK)",
         "short": "Usar Wine D9VK"
       }
     },
@@ -302,19 +302,25 @@
   },
   "misc": {
     "answerRequired": "Se necesita respuesta",
-    "answerRequiredWhenNotListed": "Answered Required When Not Listed Is Chosen",
+    "answerRequiredWhenNotListed": "SE necesita respuesta cuando se elije 'No está en la lista' ",
     "back": "Volver",
     "error": "Error!",
     "markdownSupportNotice": "Ahora Markdown es compatible",
     "maxChars": "{{count}} carácteres como máximo",
     "next": "Siguiente",
+    "submission": {
+      "error": "Ha habido un error durante el envío. Por favor, háznos saber como ha ocurrido!",
+      "note": "Por favor, ten en cuenta que los nuevos reportes estarán en un estado pendiente hasta la seguiente recarga de contenido. Puedes ver tus contribuciones en tu [Perfil]({{link}})",
+      "success": "Satisfactoriamente enviado",
+      "thanks": "Gracias por tu contribución a {{siteName}}"
+    },
     "submit": "Enviar",
     "tooLong": "Demasiado largo"
   },
   "multiplayerAppraisal": {
     "options": {
       "acceptable": {
-        "long": "Aceptable. Problemas moderados pero se pueden ignorar.",
+        "long": "Aceptable. Problemas moderados pero tolerables.",
         "short": "Aceptable"
       },
       "awful": {
@@ -352,15 +358,19 @@
     "legend": "Rendimiento",
     "options": {
       "significantSlowdown": {
-        "long": "Significativamente lento",
-        "short": "Significante"
+        "long": "Rendimiento significativamente lento",
+        "short": "Rendimiento significativamente lento"
       },
       "slightSlowdown": {
-        "long": "Un poco lento",
-        "short": "Leve"
+        "long": "Problemas de rendimiento leves",
+        "short": "Problemas de rendimiento leves"
       }
     },
     "prompt": "¿Has experimentado ralentización inesperada teniendo en cuenta tu hardware?"
+  },
+  "prerequisitesBlock": {
+    "action": "Ir a tu Perfil",
+    "context": "¡Tendrás que iniciar sesión en Steam y proporcionar tu información del sistema antes de enviar!"
   },
   "preview": {
     "intro": "Hay que tener en cuenta:",
@@ -398,7 +408,7 @@
         "short": "Otro"
       }
     },
-    "prompt": "Has experimentado algún problema con la partida guardada?"
+    "prompt": "Has experimentado algún problema con las partidas guardadas?"
   },
   "significantBugs": {
     "legend": "Errores significantes",
@@ -408,34 +418,34 @@
     "legend": "Estabilidad",
     "options": {
       "frequentCrashes": {
-        "long": "Crashes frecuentes",
-        "short": "Frecuente"
+        "long": "Cuelgues frecuentes",
+        "short": "Frecuentemente"
       },
       "notListed": {
         "long": "No está en la lista",
         "short": "No está en la lista"
       },
       "occasionally": {
-        "long": "Crashes ocasionales",
+        "long": "Cuelgues ocasionales",
         "short": "Ocasionalmente"
       }
     },
     "prompt": "¿Has experimentado problemas de estabilidad?"
   },
   "startsPlay": {
-    "legend": "Starts Play",
+    "legend": "Empezar a jugar",
     "prompt": "¿Has podido empezar a jugar?"
   },
   "stepHeadlines": {
-    "appSelection": "Game Selection",
+    "appSelection": "Selección de juego",
     "borked": "Roto!",
     "customizations": "Personalizaciones",
     "finalNotes": "Veredicto",
     "gameplay": "Otros problemas potenciales",
     "graphics": "Gráficos y rendimiento",
-    "multiplayer": "Multiplayer",
-    "preview": "Preview",
-    "setup": "Setup",
+    "multiplayer": "Multijugador",
+    "preview": "Vista previa",
+    "setup": "Preparación",
     "stability": "Estabilidad",
     "startup": "Instalación e Inicio",
     "tinkerCheck": "Tipo de reporte",
@@ -444,9 +454,9 @@
   "type": {
     "intro": [
       "Ahora ProtonDB divide los reportes entre dos tipos: Steam Play y Tinker.",
-      "Usar el reporte de Steam Play para cubrir la experiencia abierta. Instalar, pulsar jugar y empezar.",
+      "Usar el reporte de Steam Play para cubrir la experiencia más simple. Instalar, pulsar en jugar y empezar.",
       "Usar el reporte de Tinker si has tenido que hacer ajustes o personalizaciones para conseguir que el juego funcione.",
-      "Para más información sobre las diferencias, mira [este post]({{link}})."
+      "Para más información sobre las diferencias, mira [esta publicación]({{link}})."
     ],
     "options": {
       "steamPlay": {
@@ -463,11 +473,12 @@
   "verdict": {
     "additionalNotes": {
       "label": "Sumario ({{count}} carácteres como máximo)",
-      "placeholder": "Añade un corto sumario. Esto será el títular de tu reporte"
+      "placeholder": "Añade un sumario corto. Esto será el títular de tu reporte"
     },
-    "prompt": "¿Podría un jugador típico tener una experiencia disfrutable utilizando este juego en Linux con Proton?"
+    "prompt": "¿Podría un jugador típico tener una experiencia agradable utilizando este juego en Linux con Proton?"
   },
   "welcome": {
+    "headline": "Bienvenido",
     "intro": "Gracias por tu interés en expandir el catalogo de ProtonDB sobre los reportes de compatibilidad con SteamPLay y Proton! Por favor, tenlo en cuenta antes de contribuir",
     "notes": [
       "Estos reportes son publicados en ProtonDB como pendientes de revisión y utilizados por otros jugadores, Valve y otros desarrolladores para identificar y arreglar juegos. Por favor, mantén tus reportes detallados, libres de lenguaje ofensivo, y abstente de subir reportes promocionando tu juego favorito, distribución o tarjeta gráfica.",
