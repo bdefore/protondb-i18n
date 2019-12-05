@@ -16,6 +16,10 @@
     "unrated": "Non valutato",
     "unreported": "Non reportato"
   },
+  "content": {
+    "followingPost": "Post Successivo",
+    "previousPost": "Post Precedente"
+  },
   "explore": {
     "headlines": {
       "fixWanted": "Fix necessario",
@@ -48,6 +52,11 @@
       "userTags": "Tag degli utenti",
       "whitelisted": "Whitelisted"
     }
+  },
+  "footer": {
+    "description": "{{name}} è un progetto di [@bdefore]({{link}}) e di una community dedicata di reporters.",
+    "feedbackPrompt": "Hai qualche feedback? Unisciti a noi su Discord!",
+    "legal": "Questo sito non ha alcun legame con Valve Software. Tutte le immagini di giochi e loghi sono proprietà dei rispettivi proprietari."
   },
   "gameDetails": {
     "githubIssueSearch": "Ricerca Github Issue",
@@ -121,6 +130,7 @@
     "addYourReport": "Aggiungi un report",
     "affirmative": "Sì",
     "areYouSure": "Sei sicuro?",
+    "cancel": "Cancella",
     "chipset": "Chipset",
     "conjunction": "e",
     "dismiss": "Nascondi",
@@ -129,6 +139,7 @@
     "execute": "Esegui",
     "feedbackPrompt": "Feedback? Facci sapere su [Discord]({{link}})",
     "filter": "Filtro",
+    "filteringSettings": "Settings Filtro",
     "games": "Giochi",
     "hide": "Nascondi {{what}}",
     "include": "Includi",
@@ -144,11 +155,13 @@
     "note": "Nota",
     "overall": "Complessivamente",
     "pending": "In attesa",
+    "preferences": "Preferenze",
     "provisional": "Provvisorio",
     "published": "Pubblicato",
     "rated": "Valutato",
     "report": "Report",
-    "reports": "Report",
+    "reports": "Reports",
+    "reset": "Reset",
     "save": "Salva",
     "saved": "{{what}} Salvato",
     "show": "Mostra {{what}}",
