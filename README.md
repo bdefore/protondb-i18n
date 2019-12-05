@@ -47,6 +47,10 @@ Keep an eye out for page rendering issues if your text is smaller or larger than
 - Reload and review
 - (NEW): When finished, remove the values you added for `i18nStamp` and `i18nVersion` before submitting your PR
 
+### Maintenance
+
+As ProtonDB continues development, new text will be added that may need translation. For a quick way to verify if a language is missing translations (or has identical ones to English), you can run: `yarn run compare --locale <locale-code>`
+
 ### Known Active Translations
 
 - Portuguese (pt-BR): [@pedrofleck](https://github.com/pedrofleck) (ongoing at [PR #10](https://github.com/bdefore/protondb-i18n/pull/10))
