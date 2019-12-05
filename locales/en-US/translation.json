@@ -246,6 +246,7 @@
       "otherSpecs": "Other Specs",
       "ram": "RAM"
     },
+    "superceded": "There is a newer report of this type from this author",
     "timeWithProton": "{{time}} with Proton"
   },
   "search": {
