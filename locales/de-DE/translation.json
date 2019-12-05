@@ -16,6 +16,10 @@
     "unrated": "Nicht bewertet",
     "unreported": "Nicht gemeldet"
   },
+  "content": {
+    "followingPost": "Nachfolgender Beitrag",
+    "previousPost": "Vorheriger Beitrag"
+  },
   "contextualInfo": {
     "hoursPlayed": "{{context}} Stunden gespielt",
     "peakPlayers": "{{context}} peak players",
@@ -120,6 +124,7 @@
     "addYourReport": "Bericht verfassen",
     "affirmative": "Ja",
     "areYouSure": "Bist du sicher?",
+    "cancel": "Abbrechen",
     "chipset": "Chipsatz",
     "conjunction": "und",
     "dismiss": "Verwerfen",
@@ -128,6 +133,7 @@
     "execute": "Ausführen",
     "feedbackPrompt": "Feedback? Lass es uns auf [Discord]({{link}}) wissen",
     "filter": "Filter",
+    "filteringSettings": "Filtereinstellungen",
     "games": "Spiele",
     "hide": "Verstecke {{what}}",
     "include": "Einbeziehen",
@@ -148,6 +154,7 @@
     "rated": "Bewertet",
     "report": "Bericht",
     "reports": "Berichte",
+    "reset": "Zurücksetzen",
     "save": "Speichern",
     "saved": "{{what}} gespeichert",
     "show": "Zeige {{what}}",
