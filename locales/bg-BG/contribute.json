@@ -232,35 +232,35 @@
     "legend": "Флагове за пускане",
     "options": {
       "disableD3d10": {
-        "long": "Забранен D3D10",
+        "long": "Забранен D3D10 (PROTON_NO_D3D10)",
         "short": "Забранен D3D10"
       },
       "disableD3d11": {
-        "long": "Забранен D3D11",
+        "long": "Забранен D3D11 (PROTON_NO_D3D11)",
         "short": "Забранен D3D11"
       },
       "disableEsync": {
-        "long": "Забранен Esync",
+        "long": "Забранен Esync (PROTON_NO_ESYNC)",
         "short": "Забранен Esync"
       },
       "disableFsync": {
-        "long": "Забранен Fsync",
+        "long": "Забранен Fsync (PROTON_NO_FSYNC)",
         "short": "Забранен Fsync"
       },
       "largeAddressAware": {
-        "long": "Large Address Aware",
+        "long": "Large Address Aware (PROTON_FORCE_LARGE_ADDRESS_AWARE)",
         "short": "Large Address Aware"
       },
       "oldGlString": {
-        "long": "Стар (т.е. по-кратък) низ за GL",
+        "long": "Стар (т.е. по-кратък) низ за GL (PROTON_OLD_GL_STRING)",
         "short": "Стар низ за GL"
       },
       "useWineD3d11": {
-        "long": "Използване на Wine D3D",
+        "long": "Използване на Wine D3D (PROTON_USE_WINED3D)",
         "short": "Използване на Wine D3D"
       },
       "useWineD9vk": {
-        "long": "Използване на Wine D9VK",
+        "long": "Използване на Wine D9VK (PROTON_USE_D9VK)",
         "short": "Използване на Wine D9VK"
       }
     },
@@ -358,12 +358,12 @@
     "legend": "Производителност",
     "options": {
       "significantSlowdown": {
-        "long": "Значителни забавяния",
-        "short": "Значителни"
+        "long": "Значителни проблеми с производителността",
+        "short": "Значителни проблеми с производителността"
       },
       "slightSlowdown": {
-        "long": "Леки забавяния",
-        "short": "Леки"
+        "long": "Леки проблеми с производителността",
+        "short": "Леки проблеми с производителността"
       }
     },
     "prompt": "Изпитвал ли си неочаквани забавяния с твоя хардуер?"
