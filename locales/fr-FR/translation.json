@@ -16,6 +16,10 @@
     "unrated": "Sans évaluation",
     "unreported": "Sans rapport"
   },
+  "content": {
+    "followingPost": "Publication suivante",
+    "previousPost": "Publication précédente"
+  },
   "contextualInfo": {
     "hoursPlayed": "{{context}} heures jouées",
     "peakPlayers": "{{context}} peak players",
@@ -109,7 +113,7 @@
     "headline": "Authentication Steam",
     "intro": "En vous connectant avec Steam vous pourrez soumettre des rapports et utiliser la [page Explorer avec un filtre Bibliothèque]({{link}}) pour limiter les résultats aux jeux que vous possédez",
     "loggedInAs": "Connecté en tant que {{username}}",
-    "note": "Veuillez vous assurer que dans vos [paramètres de confidentialité Steam]({{link}}) la visibilité de votre « profil » et de vos « jeux » soit visible pour « tout le monde ». Des changements récents dans Steam ont rendu ces paramètres privés par défaut. Ceci utilisera l’API Web de Steam pour récupérer les informations publiques à propos de votre compte, dont l’ID, le nom de profil et l’avatar. Steam vous présentera une adresse IP de {{host}} à laquelle vous devez faire confiance : ceci est tout à fait normal.",
+    "note": "Veuillez vous assurer que dans vos [paramètres de confidentialité Steam]({{link}}) la visibilité de votre « profil » et de vos « jeux » soit visible pour « tout le monde ». Des changements récents dans Steam ont rendu ces paramètres privés par défaut. Ceci utilisera l’API Web de Steam pour récupérer les informations publiques à propos de votre compte, dont l’ID, le nom de profil et l’avatar.",
     "refresh": "Rafraichir",
     "steamSignIn": "Se connecter avec Steam",
     "unlink": "Supprimer le lien avec le compte"
@@ -122,7 +126,7 @@
     "silver": "Argent"
   },
   "misc": {
-    "addYourReport": "Ajouter votre rapport",
+    "addYourReport": "Ajoutez votre rapport",
     "affirmative": "Oui",
     "areYouSure": "Êtes-vous sûr ?",
     "cancel": "Annuler",
@@ -197,6 +201,9 @@
       },
       "language": {
         "prompt": "Langue"
+      },
+      "performanceMode": {
+        "prompt": "Souhaitez-vous utiliser une version performante du site ?"
       }
     }
   },

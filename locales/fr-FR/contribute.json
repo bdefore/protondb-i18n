@@ -87,8 +87,8 @@
     "legend": "Durée",
     "options": {
       "aboutAnHour": {
-        "long": "une heure",
-        "short": "une heure"
+        "long": "1 heure",
+        "short": "1 heure"
       },
       "lessThanAnHour": {
         "long": "< 1 heure",
@@ -204,7 +204,7 @@
     "prompt": "Avez-vous pu installer le jeu ?"
   },
   "isImpactedByAntiCheat": {
-    "legend": "Anti-Cheat",
+    "legend": "Antitriche",
     "options": {
       "battleEye": {
         "long": "BattlEye",
@@ -232,36 +232,36 @@
     "legend": "Options de lancement",
     "options": {
       "disableD3d10": {
-        "long": "Désactiver D3D10",
+        "long": "Désactiver D3D10 (PROTON_NO_D3D10)",
         "short": "Désactiver D3D10"
       },
       "disableD3d11": {
-        "long": "Désactiver D3D11",
+        "long": "Désactiver D3D11 (PROTON_NO_D3D11)",
         "short": "Désactiver D3D11"
       },
       "disableEsync": {
-        "long": "Désactiver Esync",
+        "long": "Désactiver Esync (PROTON_NO_ESYNC)",
         "short": "Désactiver Esync"
       },
       "disableFsync": {
-        "long": "Désactiver Fsync",
+        "long": "Désactiver Fsync (PROTON_NO_FSYNC)",
         "short": "Désactiver Fsync"
       },
       "largeAddressAware": {
-        "long": "Prise en compte des grandes adresses",
-        "short": "Prise en compte des grandes adresses"
+        "long": "Prise en compte des grandes adresses (PROTON_FORCE_LARGE_ADDRESS_AWARE)",
+        "short": "Grandes adresses"
       },
       "oldGlString": {
-        "long": "Ancienne chaine GL",
+        "long": "Ancienne chaine GL (PROTON_OLD_GL_STRING)",
         "short": "Ancienne chaine GL"
       },
       "useWineD3d11": {
-        "long": "Utiliser Wine D3D",
+        "long": "Utiliser Wine D3D (PROTON_USE_WINED3D)",
         "short": "Utiliser Wine D3D"
       },
       "useWineD9vk": {
-        "long": "Utiliser Wine D9VK",
-        "short": "Utiliser Wine D9VK"
+        "long": "Utiliser D9VK (PROTON_USE_D9VK)",
+        "short": "Utiliser D9VK"
       }
     },
     "prompt": "Utilisez-vous l’une de ces options de lancement de Proton ?"
@@ -358,12 +358,12 @@
     "legend": "Performance",
     "options": {
       "significantSlowdown": {
-        "long": "Lenteur significative",
-        "short": "Lenteur"
+        "long": "Gors problèmes de performance",
+        "short": "Gros problèmes de performance"
       },
       "slightSlowdown": {
-        "long": "Lenteur faible",
-        "short": "Faible"
+        "long": "Légers problèmes de performance",
+        "short": "Légers problèmes de performance"
       }
     },
     "prompt": "Avez-vous expérimenté des lenteurs compte tenu de votre matériel ?"
