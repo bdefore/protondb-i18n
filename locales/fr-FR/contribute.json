@@ -505,7 +505,6 @@
       },
       "switching": {
         "long": "Impossible de quitter conventionnellement le plein écran (comme avec Alt-Tab)",
-
         "short": "Alt-Tab"
       }
     },
