@@ -54,7 +54,6 @@ As ProtonDB continues development, new text will be added that may need translat
 ### Known Active Translations
 
 - Portuguese (pt-BR): [@pedrofleck](https://github.com/pedrofleck) (ongoing at [PR #10](https://github.com/bdefore/protondb-i18n/pull/10))
-- Spanish (es-ES): [@xathech](https://github.com/xathech) (ongoing at [PR #4](https://github.com/bdefore/protondb-i18n/pull/4))
 
 ### Hall of Fame
 
@@ -66,6 +65,7 @@ As ProtonDB continues development, new text will be added that may need translat
 - Swedish (sv-SE): [@newbytee](https://github.com/newbytee)
 - French (fr-FR): [@julroy67](https://github.com/julroy67)
 - Italian (it-IT): [@apontini](https://github.com/apontini) and [@protoroto](https://github.com/protoroto)
+- Spanish (es-ES): [@xathech](https://github.com/xathech)
 
 ### Coming soon
 
