@@ -128,10 +128,12 @@
   "misc": {
     "addYourReport": "Add Your Report",
     "affirmative": "Yes",
+    "any": "Any",
     "areYouSure": "Are you sure?",
     "cancel": "Cancel",
     "chipset": "Chipset",
     "conjunction": "and",
+    "discard": "Discard",
     "dismiss": "Dismiss",
     "distro": "Distro",
     "driver": "Driver",
@@ -166,6 +168,7 @@
     "show": "Show {{what}}",
     "showAll": "Show All",
     "showMore": "Show More",
+    "skip": "Skip",
     "tier": "Tier",
     "total": "Total",
     "unknown": "Unknown",
@@ -236,6 +239,9 @@
     "headline": "Rating Definitions"
   },
   "reports": {
+    "clear": "Clear",
+    "filteredOutCount": "{{count}} filtered out",
+    "filteredOutHeadline": "The following {{count}} reports do not match your filtering criteria for {{filters}}",
     "hoursInSteam": "{{count}} hours in Steam",
     "specs": {
       "cpu": "CPU",
@@ -246,7 +252,10 @@
       "otherSpecs": "Other Specs",
       "ram": "RAM"
     },
-    "timeWithProton": "{{time}} with Proton"
+    "superceded": "There is a newer report of this type from this author",
+    "timeWithProton": "{{time}} with Proton",
+    "zeroStateMessage": "No reports",
+    "zeroStateMessageWithFilters": "No reports match your applied filters"
   },
   "search": {
     "resultsHeader": "Search results for {{q}}"
