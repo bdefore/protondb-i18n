@@ -482,8 +482,8 @@
     "headline": "Benvenuto!",
     "intro": "Grazie per il tuo interesse nell'espansione del catalogo di compatibilità di Steam Play e ProtonDB! Tieni a mente queste cose prima di contribuire",
     "notes": [
-      "Questi report sono pubblicati in review su ProtonDB e usati da altri giocatori, Valce e sviluppatori per sistemare i vari titoli. Mantieni i tuoi report accurati, con un linguaggio non offensivo e non sottomettere report solo per promuovere il tuo gioco, la tua distro o la tua scheda grafica preferita.",
-      "Incoraggiamo l'invio di più report per lo stesso gioco! Giocando di più o aggiornando Proton, avrai di più da dire. ProtonDB differisce dalla wiki proprio per questo, dato che ogni report serve come 'snapshot' delle condizioni di un gioco in una certa data con la tua configurazione",
+      "Questi report sono pubblicati in review su ProtonDB e usati da altri giocatori, Valve e sviluppatori per sistemare i vari titoli. Mantieni i tuoi report accurati, con un linguaggio non offensivo e non sottomettere report solo per promuovere il tuo gioco, la tua distro o la tua scheda grafica preferita.",
+      "Ti incoraggiamo ad inviare più report per lo stesso gioco! Giocando di più o aggiornando Proton, avrai di più da dire. ProtonDB differisce dalla wiki proprio per questo, dato che ogni report serve come 'snapshot' delle condizioni di un gioco in una certa data con la tua configurazione",
       "Se invii più report, solo il più recente contribuirà al rating di ProtonDB e solamente se le tue informazioni di sistema soddisfano i requirement minimi di Proton.",
       "Le tue contribuzioni saranno visibili pubblicamente su ProtonDB e disponibili per l'export sotto l'Open Database License. Maggiori informazioni [qui]({{link}})."
     ],

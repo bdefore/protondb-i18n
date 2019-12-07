@@ -90,11 +90,11 @@
       "reportsWritten": "Report scritti"
     },
     "theImpact": {
-      "answer": "Steam Play supporta un insieme limitato ma crescente di giochi 'whitelisted' considerati Proton-compatible e funzionano su Linux. In base ai report su ProtonDB, un numero significativo di giochi non in whitelist, compresi molti titoli popolari, funzionano come su Windows.",
+      "answer": "Steam Play supporta un insieme limitato ma crescente di giochi 'whitelisted' considerati compatibili con Proton e funzionanti su Linux. In base ai report su ProtonDB, un numero significativo di giochi non in whitelist, compresi molti titoli popolari, funzionano come su Windows.",
       "question": "L'impatto"
     },
     "whatIsProton": {
-      "answer": "Proton è un nuovo tool rilasciato da Valve Software e che viene integrato con Steam Play per permettere di eseguire giochi di Windows su Linux semplicemente premendo il pulsante Play su Steam. Dietro le quinte, Proton comprende tool popolari come Wine e DXVK insieme ad altri che dovrebbero altrimenti essere installati e mantenuti dall'utente. Questo riduce il peso dello switch a Linux per molti utenti evitandogli di imparare dettagli sul funzionamento o di perdere l'accesso ad una grande fetta della loro libreria. Proton sta ancora muovendo i suoi primi passi quindi il supporto è inconsistente ma in continuo miglioramento.",
+      "answer": "Proton è un nuovo tool rilasciato da Valve Software e che viene integrato con Steam Play per permettere di eseguire giochi di Windows su Linux premendo semplicemente il pulsante Play su Steam. Dietro le quinte, Proton comprende tool popolari come Wine e DXVK insieme ad altri che dovrebbero altrimenti essere installati e mantenuti dall'utente. Questo riduce il peso dello switch a Linux per molti utenti evitandogli di imparare dettagli sul funzionamento o di perdere l'accesso ad una grande fetta della loro libreria. Proton sta ancora muovendo i suoi primi passi quindi il supporto è inconsistente ma in continuo miglioramento.",
       "question": "Cos'è Proton?"
     },
     "whatIsProtonDb": {
@@ -112,9 +112,9 @@
     "errorLoadingGames": "Errore nel caricamento della libreria. Assicurati che il Profilo e i Dettagli del gioco siano pubblici su questo account!",
     "gameTotal": "{{count}} giochi caricati dalla libreria!",
     "headline": "Autenticazione di Steam",
-    "intro": "Autenticandoti con Steam ti permette di inviare report e [Esplorare con il filtro sulla libreria]({{link}}) per limitare i risultati ai giochi che possiedi.",
+    "intro": "L'autenticazione tramite Steam ti permette di inviare report e [Esplorare con il filtro sulla libreria]({{link}}) per limitare i risultati ai giochi che possiedi.",
     "loggedInAs": "Autenticato come {{username}}",
-    "note": "Assicurati che nelle [impostazioni della privacy di Steam]({{link}}) sia 'Visibilità del mio profilo' e 'Visibilità delle mie informazioni di gioco' siano pubbliche. Recenti cambiamenti le hanno impostate a private di default. Verranno usate le Steam Web API per recuperare informazioni come il tuo id, nome e avatar. Steam presenterà un indirizzo IP di {{host}} di cui fidarti - questo è previsto.",
+    "note": "Assicurati che 'Visibilità del mio profilo' e 'Visibilità delle mie informazioni di gioco' siano entrambe pubbliche nelle [impostazioni della privacy di Steam]({{link}}). Cambiamenti recenti le hanno impostate a private di default. Verranno usate le Steam Web API per recuperare informazioni come il tuo id, nome e avatar. Steam presenterà un indirizzo IP di {{host}} di cui fidarti.",
     "refresh": "Aggiorna",
     "steamSignIn": "Autenticati con Steam",
     "unlink": "Scollega Account"
@@ -251,7 +251,7 @@
   },
   "stats": {
     "analysisInByTheNumbers1": "Analisi in base ai numeri #1",
-    "byCommonDisplayDrivers": "In base ai Display Drivers",
+    "byCommonDisplayDrivers": "In base ai Driver",
     "byDistro": "In base alla Distro",
     "byGpu": "In base alla GPU",
     "byProtonVersion": "An base alla versione di Proton",
@@ -259,7 +259,7 @@
     "downloadData": "Scarica informazioni",
     "gameRatingDistribution": "Distribuzione dei Rating del gioco",
     "gamesWithNOrMoreReports": "Giochi con N o più report",
-    "reportRatingDistributionOverTime": "Distribuzioni dei Report di Rating nel tempo",
+    "reportRatingDistributionOverTime": "Distribuzioni dei Rating nel tempo",
     "whenMeetingMinimumRequirements": "Con requirement minimi soddisfatti"
   },
   "suggestions": {
