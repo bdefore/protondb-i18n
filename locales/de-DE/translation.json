@@ -59,7 +59,7 @@
       "whitelisted": "Whitelisted"
     }
   },
-  "footer":
+  "footer": {
     "description": "{{name}} ist ein passioniertes Projekt von [@bdefore]({{link}}) und einer engagierten Gemeinschaft von Reportern.",
     "feedbackPrompt": "Hast du Feedback? Lass es uns auf Discord!",
     "legal": "Diese Website hat keine Verbindung zu Valve Software. Alle Spielecover und Logos sind Eigentum der jeweiligen Besitzer."
@@ -126,16 +126,14 @@
     "silver": "Silber"
   },
   "misc": {
-    "any": "Beliebig",
-    "discard": "Verwerfen",
-    "preferences": "Einstellungen",
-    "skip": "Überspringen",
     "addYourReport": "Bericht verfassen",
     "affirmative": "Ja",
+    "any": "Beliebig",
     "areYouSure": "Bist du sicher?",
     "cancel": "Abbrechen",
     "chipset": "Chipsatz",
     "conjunction": "und",
+    "discard": "Verwerfen",
     "dismiss": "Verwerfen",
     "distro": "Distro",
     "driver": "Treiber",
@@ -158,6 +156,7 @@
     "note": "Notiz",
     "overall": "Insgesamt",
     "pending": "Ausstehend",
+    "preferences": "Einstellungen",
     "provisional": "Provisorisch",
     "published": "Veröffentlicht",
     "rated": "Bewertet",
@@ -169,6 +168,7 @@
     "show": "Zeige {{what}}",
     "showAll": "Zeige alle",
     "showMore": "Zeige mehr",
+    "skip": "Überspringen",
     "tier": "Stufe",
     "total": "Insgesamt",
     "unknown": "Unbekannt",

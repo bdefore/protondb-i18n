@@ -20,6 +20,12 @@
     "followingPost": "Post Successivo",
     "previousPost": "Post Precedente"
   },
+  "contextualInfo": {
+    "hoursPlayed": "{{context}} ore di gioco",
+    "peakPlayers": "{{context}} giocatori",
+    "positiveRating": "{{context}}% rating positivi",
+    "recentReportCount": "{{context}} report con le ultime due versioni di Proton"
+  },
   "explore": {
     "headlines": {
       "fixWanted": "Fix necessario",
@@ -64,18 +70,12 @@
     "minimumRequirements": "Requirement minimi",
     "nativelySupports": "Supportato Nativamente"
   },
-  "contextualInfo": {
-   "hoursPlayed": "{{context}} ore di gioco",
-   "peakPlayers": "{{context}} giocatori",
-   "positiveRating": "{{context}}% rating positivi",
-   "recentReportCount": "{{context}} report con le ultime due versioni di Proton"
- },
   "home": {
     "getStartedLinks": [
-     "[Pagina Ufficiale di Steam Play](https://store.steampowered.com/steamplay)",
-     "[Guida per passare a Linux](https://www.reddit.com/r/linux_gaming/comments/9oqq3w/guide_migrating_to_linux_in_2019/)",
-     "[Cos'è Vulkan?](https://www.reddit.com/r/linux_gaming/comments/9ritk1/not_sure_i_quite_understand_can_someone_explain/)"
-   ],
+      "[Pagina Ufficiale di Steam Play](https://store.steampowered.com/steamplay)",
+      "[Guida per passare a Linux](https://www.reddit.com/r/linux_gaming/comments/9oqq3w/guide_migrating_to_linux_in_2019/)",
+      "[Cos'è Vulkan?](https://www.reddit.com/r/linux_gaming/comments/9ritk1/not_sure_i_quite_understand_can_someone_explain/)"
+    ],
     "headline": "Grazie a Proton e Steam Play, molti giochi di Windows ora funzionano con Linux!",
     "howDoIHelp": {
       "answer": "Prova Linux! Non preoccuparti se non hai esperienza. Ecco una lista di guide per iniziare. E se vuoi aiutare Valve e Proton a migliorare, inviaci report qui su ProtonDB!",
@@ -255,7 +255,7 @@
     "zeroStateMessageWithFilters": "Nessun report corrisponde ai tuoi filtri scelti"
   },
   "search": {
-   "resultsHeader": "Risultati per {{q}}"
+    "resultsHeader": "Risultati per {{q}}"
   },
   "stats": {
     "analysisInByTheNumbers1": "Analisi in base ai numeri #1",
@@ -271,8 +271,8 @@
     "whenMeetingMinimumRequirements": "Con requirement minimi soddisfatti"
   },
   "suggestions": {
-   "headline": "Pronto per il resto?",
-   "intro": "I seguenti giochi sono stati selezionati in base alle tue ore di gioco, popolarità e rating su SteamDB. Non ci sono report per loro e ad alcuni potrebbe mancarne uno per ottenere un rating {{siteName}}! Puoi ricaricare la pagina per altri suggerimenti o andare sul filtro [Report Mancanti]({{link}}) della pagina d'esplorazione per altri."
+    "headline": "Pronto per il resto?",
+    "intro": "I seguenti giochi sono stati selezionati in base alle tue ore di gioco, popolarità e rating su SteamDB. Non ci sono report per loro e ad alcuni potrebbe mancarne uno per ottenere un rating {{siteName}}! Puoi ricaricare la pagina per altri suggerimenti o andare sul filtro [Report Mancanti]({{link}}) della pagina d'esplorazione per altri."
   },
   "systemInfo": {
     "headline": "Informazioni di sistema",

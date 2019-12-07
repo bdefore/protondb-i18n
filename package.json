@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "license": "MIT",
   "dependencies": {
+    "@prantlf/jsonlint": "^8.0.3",
     "chalk": "^3.0.0",
-    "jsonlint": "^1.6.3",
     "minimist": "^1.2.0"
   },
   "scripts": {
