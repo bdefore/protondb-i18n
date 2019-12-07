@@ -39,7 +39,7 @@
     },
     "layout": "Layout",
     "loadError": "Error cargando juegos!",
-    "notLoggedIn": "No se puede cargar una librería sin un id de Steam. Visita tu [Perfil]({{link}}) para añadir uno.",
+    "notLoggedIn": "No se puede cargar una librería sin un identificador de Steam. Visita tu [Perfil]({{link}}) para añadir uno.",
     "poweredBy": "Potenciado por",
     "sorts": {
       "fixWanted": "Se necesita arreglar",
@@ -74,12 +74,12 @@
     "getStartedLinks": [
       "[Página oficial de Steam Play en Steam](https://store.steampowered.com/steamplay)",
       "[Una guía para migrar a Linux](https://www.reddit.com/r/linux_gaming/comments/9oqq3w/guide_migrating_to_linux_in_2019/)",
-      "[Que és Vulkan?](https://www.reddit.com/r/linux_gaming/comments/9ritk1/not_sure_i_quite_understand_can_someone_explain/)"
+      "[¿Que és Vulkan?](https://www.reddit.com/r/linux_gaming/comments/9ritk1/not_sure_i_quite_understand_can_someone_explain/)"
     ],
     "headline": "Con Proton y Steam Play, ¡ahora muchos juegos funcionan en Linux!",
     "howDoIHelp": {
-      "answer": "Prueba Linux! Si eres nuevo, no te preocupes. Aquí hay una lista de guías para empezar. Y si quieres ayudar a Valve y Proton para que mejoren, ¡contribuye con tus reportes aquí en ProtonDB!",
-      "question": "Guay! Cómo puedo ayudar?"
+      "answer": "¡Prueba Linux! Si eres nuevo, no te preocupes. Aquí hay una lista de guías para empezar. Y si quieres ayudar a Valve y Proton para que mejoren, ¡contribuye con tus reportes aquí en ProtonDB!",
+      "question": "¡Guay! ¿Cómo puedo ayudar?"
     },
     "letsGetStarted": "Empecemos.",
     "sampleGames": "Aquí hay una muestra de algunos juegos populares que aún no han sido oficialmente soportados, pero que han recibido muchos reportes de Platino en ProtonDB",
@@ -90,7 +90,7 @@
       "reportsWritten": "reportes escritos"
     },
     "theImpact": {
-      "answer": "Ahora Steam Play soporta oficialmente un limitado pero creciente set de juegos 'soportados' que son considerados Proton-compatibles y jugables en Linux. Basados en reportes de ProtonDB, un número significante de juegos-no-soportados, incluyendo muchos títulos populares, funcionan tan bien como en Windows.",
+      "answer": "Ahora Steam Play soporta oficialmente un limitado pero creciente set de juegos soportados que son considerados compatibles con Proton y jugables en Linux. Basados en reportes de ProtonDB, un número significante de juegos no soportados, incluyendo muchos títulos populares, funcionan tan bien como en Windows.",
       "question": "El impacto"
     },
     "whatIsProton": {
@@ -102,18 +102,18 @@
       "question": "¿Qué es ProtonDB?"
     },
     "whyBigDeal": {
-      "answer": "La experiencia de escritorio de Linux ha mejorado muchísimo en el último año o dos. Mucho de lo que hayas utilizado en Windows o MacOs, es posible en Linux sin tener que hacer demasiados ajustes, y estos pueden ser incluso divertidos. Mientras tanto, más y más de nuestras interacciones diarias con un ordenador ocurren en linea, y los navegadores se comportan prácticamente igual en Linux que en otros sistemas operativos. Proton y Steam Play abordan un obstáculo importante: gaming, donde hasta hace poco había compatibilidad limitada.",
+      "answer": "La experiencia de escritorio de Linux ha mejorado muchísimo en el último año o dos. Mucho de lo que hayas utilizado en Windows o MacOs, es posible en Linux sin tener que hacer demasiados ajustes, y estos pueden ser incluso divertidos. Mientras tanto, cada vez más de nuestras interacciones diarias con un ordenador ocurren en linea, y los navegadores se comportan prácticamente igual en Linux que en otros sistemas operativos. Proton y Steam Play abordan un obstáculo importante: gaming, donde hasta hace poco había compatibilidad limitada.",
       "question": "¿Por qué es algo tan importante?"
     },
     "youtubeId": "Co6FePZoNgE"
   },
   "libraryLoader": {
     "errorLoadingGames": "Error cargando juegos. Por favor, asegurate de que tu perfil y los detalles de los juegos son públicos en esta cuenta!",
-    "gameTotal": "{{count}} juegos de tu librería cargados!",
+    "gameTotal": "¡{{count}} juegos de tu librería cargados!",
     "headline": "Autenticación de Steam",
     "intro": "Iniciar sesión con Steam te permite envíar reportes y utilizar la [página de Explorar con un filtro de biblioteca]({{link}}) para limitar los resultados a juegos que ya tienes.",
     "loggedInAs": "Registrado como {{username}}",
-    "note": "Asegurate de que en tus [Ajustes de Privacidad del perfil de Steam]({{link}}) 'Mi perfil' y '' están establecidos como públicos. Cambios recientes a Steam han hecho esos ajustes privados de forma predeterminada. Esto utilizará la API web de Steam para recopilar información pública sobre tu cuenta, incluyendo tu id, nombre de perfil y avatar. Steam te mostrara una dirección IP como esta {{host}} para que confíes en ella - esto es normal.",
+    "note": "Asegurate de que en tus [Ajustes de Privacidad del perfil de Steam]({{link}}) 'Mi perfil' y tus 'Detalles de los juegos' están establecidos como públicos. Cambios recientes a Steam han hecho esos ajustes privados de forma predeterminada. Esto utilizará la API web de Steam para recopilar información pública sobre tu cuenta, incluyendo tu identificador, nombre de perfil y avatar.",
     "refresh": "Recargar",
     "steamSignIn": "Iniciar sesión con Steam",
     "unlink": "Desconectar Cuenta"
@@ -128,15 +128,17 @@
   "misc": {
     "addYourReport": "Añadir tu Reporte",
     "affirmative": "Si",
+    "any": "Cualquiera",
     "areYouSure": "¿Estás Seguro?",
     "cancel": "Cancelar",
     "chipset": "Chipset",
     "conjunction": "y",
+    "discard": "Descartar",
     "dismiss": "Descartar",
     "distro": "Distribución",
     "driver": "Controlador",
     "execute": "Ejecutar",
-    "feedbackPrompt": "¿Sugerencias? Háznoslo saber en [Discord]({{link}})!",
+    "feedbackPrompt": "¿Sugerencias? ¡Háznoslo saber en [Discord]({{link}})!",
     "filter": "Filtro",
     "filteringSettings": "Ajustes de filtrado",
     "games": "Juegos",
@@ -166,6 +168,7 @@
     "show": "Mostrar {{what}}",
     "showAll": "Mostrar Todo",
     "showMore": "Mostrar Más",
+    "skip": "Saltar",
     "tier": "Rango",
     "total": "Total",
     "unknown": "Desconocido",
@@ -225,8 +228,8 @@
   },
   "ratingDefinitions": {
     "explanations": {
-      "borked": "O no se inicia o es completamente injugable",
-      "bronze": "Funciona, pero a veces crashea o tiene problemas, impidiendo jugar cómodamente",
+      "borked": "No se inicia o es completamente injugable",
+      "bronze": "Funciona, pero a veces se cuelga o tiene problemas, impidiendo jugar cómodamente",
       "gold": "Funciona perfectamente después de hacer ajustes",
       "native": "Funciona en Linux de forma nativa",
       "pending": "Esperando más reportes antes de puntuar",
@@ -236,6 +239,9 @@
     "headline": "Definiciones de puntuación"
   },
   "reports": {
+    "clear": "Limpiar",
+    "filteredOutCount": "{{count}} filtrados",
+    "filteredOutHeadline": "Los {{count}} reportes siguientes no coinciden con tus criterios de filtrado para {{filters}}",
     "hoursInSteam": "{{count}} horas en Steam",
     "specs": {
       "cpu": "CPU",
@@ -247,7 +253,9 @@
       "ram": "RAM"
     },
     "superceded": "Hay un reporte más reciente de este tipo para este autor",
-    "timeWithProton": "{{time}} con Proton"
+    "timeWithProton": "{{time}} con Proton",
+    "zeroStateMessage": "No hay reportes",
+    "zeroStateMessageWithFilters": "No hay reportes que coincidan con tus filtros aplicados"
   },
   "search": {
     "resultsHeader": "Buscar resultados por {{q}}"
@@ -261,7 +269,7 @@
     "dailyReportsHeadline": "Reportes diarios (Últimos {{days}} días)",
     "downloadData": "Descargar datos",
     "gameRatingDistribution": "Distribución de la puntuación del juego",
-    "gamesWithNOrMoreReports": "JUegos con N o más reportes",
+    "gamesWithNOrMoreReports": "Juegos con N o más reportes",
     "reportRatingDistributionOverTime": "Distribución de la puntuación sobre el tiempo",
     "whenMeetingMinimumRequirements": "Cuando cumple los requisitos mínimos"
   },
@@ -272,11 +280,13 @@
   "systemInfo": {
     "headline": "Información del sistema",
     "howTo": "La recopilación de esta información es rápida si tienes acceso a tus ajustes de Steam en la maquina donde juegas. [Puedes ir aquí para saber como]({{link}}). (Algunos usuarios han informado que necesitan pulsar Ctrl-A para seleccionarlo todo antes de hacer click derecho)",
-    "intro": "Los reportes són más útiles y creíbles cuando muestran el hardware y software en el que el juego fue probado. Para mantener esto lo más preciso y consistente posibles, aprovechamos la información del sistema proporcionada por Steam.",
+    "intro": "Los reportes són más útiles y creíbles cuando muestran el hardware y software en el que el juego fue probado. Para mantener esto lo más preciso y consistente posible, aprovechamos la información del sistema proporcionada por Steam.",
     "parseFailure": "Análisis fallido. Si estás seguro de haberlo copiado correctamente, por favor, háznoslo saber en Discord.",
     "parseSuccess": "Se ha analizado correctamente la información del sistema!",
     "pasteInstructions": "Pegar información del sistema de Steam aquí",
     "unsupportedHeadline": "Se han detectado controladores no soportados",
     "unsupportedWarning": "!Tu controlador de pantalla del sistema no cumple con los [Requisitos mínimos de Proton]({{link}})! Es posible que experimentes cuelgues, bajo rendimiento o degradación gráfica. Puedes enviar reportes y tendrán valor en tus contribuciones, pero estos mostrarán tus controladores gráficos en rojo y no contarán en las puntuaciones de los juegos. ¡Por favor, actualiza tus controladores!"
-  }
+  },
+  "i18nStamp":1575736252121,
+  "i18nVersion":"v1.12"
 }

@@ -479,14 +479,14 @@
   },
   "welcome": {
     "headline": "Bienvenido",
-    "intro": "Gracias por tu interés en expandir el catalogo de ProtonDB sobre los reportes de compatibilidad con SteamPLay y Proton! Por favor, tenlo en cuenta antes de contribuir",
+    "intro": "¡Gracias por tu interés en expandir el catalogo de ProtonDB sobre los reportes de compatibilidad con SteamPLay y Proton! Por favor, tenlo en cuenta antes de contribuir",
     "notes": [
       "Estos reportes son publicados en ProtonDB como pendientes de revisión y utilizados por otros jugadores, Valve y otros desarrolladores para identificar y arreglar juegos. Por favor, mantén tus reportes detallados, libres de lenguaje ofensivo, y abstente de subir reportes promocionando tu juego favorito, distribución o tarjeta gráfica.",
-      "Subir multiples reportes para el mismo juego es algo recomendado! Conforme juegues o se actualice Proton tendrás más que decir. De esta forma ProtonDB se diferencia de una wiki, ya que cada reporte sirve como una 'captura' sobre como funcionaba el juego en esa fecha con tu configuración.",
+      "¡Subir multiples reportes para el mismo juego es algo recomendado! Conforme juegues o se actualice Proton tendrás más que decir. De esta forma ProtonDB se diferencia de una wiki, ya que cada reporte sirve como una 'captura' sobre como funcionaba el juego en esa fecha con tu configuración.",
       "Si subes multiples reportes, solo el más reciente contará sobre la puntuación de ProtonDB y solo si tu información del sistema cumple los requisitos mínimos de Proton.",
       "Tu configuración será públicamente visible en ProtonDB y disponible en exportaciones de datos bajo la Licencia Open Database. Puedes ir [aquí]({{link}}) para obtener más información."
     ],
-    "outro": "Y con eso, empecemos!"
+    "outro": "Y con eso, ¡empecemos!"
   },
   "windowingFaults": {
     "legend": "Ventanas",
@@ -509,5 +509,7 @@
       }
     },
     "prompt": "¿Has experimentado algún problema con la ventana o pantalla completa?"
-  }
+  },
+  "i18nStamp":1575736251984,
+  "i18nVersion":"v1.12"
 }
