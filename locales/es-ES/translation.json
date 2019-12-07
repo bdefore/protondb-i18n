@@ -286,7 +286,5 @@
     "pasteInstructions": "Pegar información del sistema de Steam aquí",
     "unsupportedHeadline": "Se han detectado controladores no soportados",
     "unsupportedWarning": "!Tu controlador de pantalla del sistema no cumple con los [Requisitos mínimos de Proton]({{link}})! Es posible que experimentes cuelgues, bajo rendimiento o degradación gráfica. Puedes enviar reportes y tendrán valor en tus contribuciones, pero estos mostrarán tus controladores gráficos en rojo y no contarán en las puntuaciones de los juegos. ¡Por favor, actualiza tus controladores!"
-  },
-  "i18nStamp":1575736252121,
-  "i18nVersion":"v1.12"
+  }
 }
