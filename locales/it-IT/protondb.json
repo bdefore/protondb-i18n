@@ -1,0 +1,18 @@
+{
+  "filters": {
+    "questions": {
+      "cpu": {
+        "label": "CPU"
+      },
+      "distro": {
+        "label": "Distro"
+      },
+      "gpu": {
+        "label": "GPU"
+      },
+      "type": {
+        "label": "Tipo"
+      }
+    }
+  }
+}
