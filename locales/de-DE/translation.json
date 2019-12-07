@@ -59,6 +59,11 @@
       "whitelisted": "Whitelisted"
     }
   },
+  "footer":
+    "description": "{{name}} ist ein passioniertes Projekt von [@bdefore]({{link}}) und einer engagierten Gemeinschaft von Reportern.",
+    "feedbackPrompt": "Hast du Feedback? Lass es uns auf Discord!",
+    "legal": "Diese Website hat keine Verbindung zu Valve Software. Alle Spielecover und Logos sind Eigentum der jeweiligen Besitzer."
+  },
   "gameDetails": {
     "githubIssueSearch": "Github Issue Suche",
     "infoNotFound": "Es konnten keine Informationen für die App-ID erfasst werden: {{entry}}. Dies kann passieren, wenn ein Spiel aus dem Shop entfernt wurde.",
@@ -121,6 +126,10 @@
     "silver": "Silber"
   },
   "misc": {
+    "any": "Beliebig",
+    "discard": "Verwerfen",
+    "preferences": "Einstellungen",
+    "skip": "Überspringen",
     "addYourReport": "Bericht verfassen",
     "affirmative": "Ja",
     "areYouSure": "Bist du sicher?",
@@ -226,6 +235,9 @@
     "headline": "Bewertungsdefinitionen"
   },
   "reports": {
+    "clear": "Löschen",
+    "filteredOutCount": "{{count}} herausgefiltert",
+    "filteredOutHeadline": "Die folgenden {{count}}} Berichte stimmen nicht mit Ihren Filterkriterien für {{filters}}} überein.",
     "hoursInSteam": "{{count}} Stunden auf Steam",
     "specs": {
       "cpu": "CPU",
@@ -236,7 +248,10 @@
       "otherSpecs": "Andere Spezifikationen",
       "ram": "RAM"
     },
-    "timeWithProton": "{{time}} mit Proton"
+    "superceded": "Es gibt einen neueren Bericht dieses Typs von diesem Autor",
+    "timeWithProton": "{{time}} mit Proton",
+    "zeroStateMessage": "Keine Berichte",
+    "zeroStateMessageWithFilters": "Keine Berichte entsprechen deinen angewandten Filtern"
   },
   "search": {
     "resultsHeader": "Suchergebnisse für {{q}}"
