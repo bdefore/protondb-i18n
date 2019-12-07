@@ -1,0 +1,288 @@
+{
+  "breakdown": {
+    "headline": "Giochi popolari",
+    "popularHeadline": "Rating dei {{count}} giochi più popolari",
+    "topHundred": "Top 100",
+    "topTen": "Top 10",
+    "topThousand": "Top 1000",
+    "topics": {
+      "allGames": "Tutti i giochi",
+      "indie": "Indie",
+      "localMultiplayer": "Multiplayer locale",
+      "singlePlayer": "Single Player",
+      "vr": "VR"
+    },
+    "unavailable": "Non disponibile",
+    "unrated": "Non valutato",
+    "unreported": "Non reportato"
+  },
+  "content": {
+    "followingPost": "Post Successivo",
+    "previousPost": "Post Precedente"
+  },
+  "explore": {
+    "headlines": {
+      "fixWanted": "Fix necessario",
+      "highestRated": "Più valutato su SteamDB",
+      "hoursPlayed": "Ore di gioco",
+      "inLibrary": "Nella libreria",
+      "mostBorked": "I Report Più Rotti!",
+      "mostPopular": "Più popolari",
+      "recentlyImproved": "Migliorati di recente",
+      "wellRatedHere": "Ben valutati qui"
+    },
+    "layout": "Layout",
+    "loadError": "Errore nel caricamento!",
+    "notLoggedIn": "Impossibile caricare la libreria senza uno SteamID. Visita il tuo [Profilo]({{link}}) per aggiungerlo.",
+    "poweredBy": "Powered by",
+    "sorts": {
+      "fixWanted": "Fix necessario",
+      "hoursPlayed": "Ore giocate",
+      "mostBorked": "Più rotti",
+      "playerCount": "Numero di giocatori",
+      "recentlyImproved": "Migliorato di recente",
+      "userScore": "Punteggio degli utenti",
+      "wilsonRating": "Valutazione di ProtonDB"
+    },
+    "toggles": {
+      "includeNative": "Includi Nativo",
+      "lackReports": "Report Mancanti",
+      "restrictToLibrary": "Libreria",
+      "untested": "Report Mancanti",
+      "userTags": "Tag degli utenti",
+      "whitelisted": "Whitelisted"
+    }
+  },
+  "footer": {
+    "description": "{{name}} è un progetto di [@bdefore]({{link}}) e di una community dedicata di reporters.",
+    "feedbackPrompt": "Hai qualche feedback? Unisciti a noi su Discord!",
+    "legal": "Questo sito non ha alcun legame con Valve Software. Tutte le immagini di giochi e loghi sono proprietà dei rispettivi proprietari."
+  },
+  "gameDetails": {
+    "githubIssueSearch": "Ricerca Github Issue",
+    "infoNotFound": "Impossibile ottenere informazioni per l'App ID: {{entry}}. Questo può succedere se il gioco è stato rimosso dallo store.",
+    "minimumRequirements": "Requirement minimi",
+    "nativelySupports": "Supportato Nativamente"
+  },
+  "contextualInfo": {
+   "hoursPlayed": "{{context}} ore di gioco",
+   "peakPlayers": "{{context}} giocatori",
+   "positiveRating": "{{context}}% rating positivi",
+   "recentReportCount": "{{context}} report con le ultime due versioni di Proton"
+ },
+  "home": {
+    "getStartedLinks": [
+     "[Pagina Ufficiale di Steam Play](https://store.steampowered.com/steamplay)",
+     "[Guida per passare a Linux](https://www.reddit.com/r/linux_gaming/comments/9oqq3w/guide_migrating_to_linux_in_2019/)",
+     "[Cos'è Vulkan?](https://www.reddit.com/r/linux_gaming/comments/9ritk1/not_sure_i_quite_understand_can_someone_explain/)"
+   ],
+    "headline": "Grazie a Proton e Steam Play, molti giochi di Windows ora funzionano con Linux!",
+    "howDoIHelp": {
+      "answer": "Prova Linux! Non preoccuparti se non hai esperienza. Ecco una lista di guide per iniziare. E se vuoi aiutare Valve e Proton a migliorare, inviaci report qui su ProtonDB!",
+      "question": "Fantastico! Come posso aiutare?"
+    },
+    "letsGetStarted": "Iniziamo.",
+    "sampleGames": "Ecco un esempio di alcuni giochi popolari che non sono ancora nella whitelist ma che hanno ricevuto molti report Platino su ProtonDB",
+    "search": "Cerca un titolo...",
+    "stats": {
+      "gamesReported": "Giochi con report",
+      "gamesWork": "Giochi funzionanti",
+      "reportsWritten": "Report scritti"
+    },
+    "theImpact": {
+      "answer": "Steam Play supporta un insieme limitato ma crescente di giochi 'whitelisted' considerati compatibili con Proton e funzionanti su Linux. In base ai report su ProtonDB, un numero significativo di giochi non in whitelist, compresi molti titoli popolari, funzionano come su Windows.",
+      "question": "L'impatto"
+    },
+    "whatIsProton": {
+      "answer": "Proton è un nuovo tool rilasciato da Valve Software e che viene integrato con Steam Play per permettere di eseguire giochi di Windows su Linux premendo semplicemente il pulsante Play su Steam. Dietro le quinte, Proton comprende tool popolari come Wine e DXVK insieme ad altri che dovrebbero altrimenti essere installati e mantenuti dall'utente. Questo riduce il peso dello switch a Linux per molti utenti evitandogli di imparare dettagli sul funzionamento o di perdere l'accesso ad una grande fetta della loro libreria. Proton sta ancora muovendo i suoi primi passi quindi il supporto è inconsistente ma in continuo miglioramento.",
+      "question": "Cos'è Proton?"
+    },
+    "whatIsProtonDb": {
+      "answer": "L'obiettivo di ProtonDB è quello di accumulare report da altri giocatori che testano vari titoli con Proton su Linux e forniscono un giudizio su come un gioco si comporta. Un pool crescente di suggerimenti fornisce modifiche per permettere ai giochi di venir eseguiti mentre proton continua il suo sviluppo. In aggiunta, puoi esplorare il catalogo di Steam per scoprire molti titoli non disponibili precedentemente per Linux.",
+      "question": "Cos'è ProtonDB?"
+    },
+    "whyBigDeal": {
+      "answer": "L'esperienza desktop di Linux è migliorata notevolmente negli ultimi due anni. Molte cose a cui sei abituato su Windows o MacOS sono possibili su Linux senza troppa fatica e anche divertendosi! Allo stesso tempo, sempre più delle nostre interazioni quotidiane con il computer avvengono online e i browser si comportano allo stesso modo sia su Linux che negli altri sistemi operativi. Proton e Steam Play si dedicano ad un ostacolo significativo: il gaming, dove la compatibilità è sempre stata limitata",
+      "question": "Perché è importante?"
+    },
+    "youtubeId": "Co6FePZoNgE"
+  },
+  "i18nStamp": 1573767610406,
+  "libraryLoader": {
+    "errorLoadingGames": "Errore nel caricamento della libreria. Assicurati che il Profilo e i Dettagli del gioco siano pubblici su questo account!",
+    "gameTotal": "{{count}} giochi caricati dalla libreria!",
+    "headline": "Autenticazione di Steam",
+    "intro": "L'autenticazione tramite Steam ti permette di inviare report e [Esplorare con il filtro sulla libreria]({{link}}) per limitare i risultati ai giochi che possiedi.",
+    "loggedInAs": "Autenticato come {{username}}",
+    "note": "Assicurati che 'Visibilità del mio profilo' e 'Visibilità delle mie informazioni di gioco' siano entrambe pubbliche nelle [impostazioni della privacy di Steam]({{link}}). Cambiamenti recenti le hanno impostate a private di default. Verranno usate le Steam Web API per recuperare informazioni come il tuo id, nome e avatar. Steam presenterà un indirizzo IP di {{host}} di cui fidarti.",
+    "refresh": "Aggiorna",
+    "steamSignIn": "Autenticati con Steam",
+    "unlink": "Scollega Account"
+  },
+  "medals": {
+    "borked": "Rotto",
+    "bronze": "Bronzo",
+    "gold": "Oro",
+    "platinum": "Platino",
+    "silver": "Argento"
+  },
+  "misc": {
+    "addYourReport": "Aggiungi un report",
+    "affirmative": "Sì",
+    "any": "Qualunque",
+    "areYouSure": "Sei sicuro?",
+    "cancel": "Cancella",
+    "chipset": "Chipset",
+    "conjunction": "e",
+    "discard": "Scarta",
+    "dismiss": "Nascondi",
+    "distro": "Distro",
+    "driver": "Driver",
+    "execute": "Esegui",
+    "feedbackPrompt": "Feedback? Facci sapere su [Discord]({{link}})",
+    "filter": "Filtro",
+    "filteringSettings": "Settings Filtro",
+    "games": "Giochi",
+    "hide": "Nascondi {{what}}",
+    "include": "Includi",
+    "install": "Installa",
+    "joinUsPrompt": "Unisciti a noi su Discord!",
+    "lastContentRefreshTime": "Ultimo aggiornamento dei contenuti: {{time}} fa",
+    "meetsRequirements": "Soddisfa i requirements",
+    "moreInfo": "Più Informazioni",
+    "multiplayer": "Multiplayer",
+    "native": "Nativo",
+    "negative": "No",
+    "notFound": "Non trovato",
+    "note": "Nota",
+    "overall": "Complessivamente",
+    "pending": "In attesa",
+    "preferences": "Preferenze",
+    "provisional": "Provvisorio",
+    "published": "Pubblicato",
+    "rated": "Valutato",
+    "report": "Report",
+    "reports": "Reports",
+    "reset": "Reset",
+    "save": "Salva",
+    "saved": "{{what}} Salvato",
+    "show": "Mostra {{what}}",
+    "showAll": "Mostra tutto",
+    "showMore": "Mostra di più",
+    "skip": "Salta",
+    "tier": "Categoria",
+    "total": "Totale",
+    "unknown": "Sconosciuto",
+    "version": "Versione"
+  },
+  "nav": {
+    "contribute": "Contribuisci",
+    "explore": "Esplora",
+    "help": "Aiuto",
+    "news": "Novità",
+    "profile": "Profilo",
+    "search": "Cerca titoli...",
+    "stats": "Statistiche"
+  },
+  "pagination": {
+    "next": "Prossima pagina",
+    "previous": "Pagina precedente",
+    "summary": "Risultati da {{from}} a {{to}} su {{total}}"
+  },
+  "preferences": {
+    "headline": "Preferenze",
+    "intro": "ProtonDB mostra il nickname dell'autore dei report. Il tuo ID univoco di Steam non viene trasmesso nei dati del report. Se sei preoccupato che il tuo nickname possa essere usato per arrivare al tuo profilo Steam, puoi scegliere un nickname diverso qui e questo sarà usato dopo il prossimo aggiornamento dei contenuti.",
+    "questions": {
+      "customName": {
+        "additionalNotes": {
+          "label": "Nome Personalizzato"
+        },
+        "options": {
+          "custom": "Nickname personalizzato",
+          "keepSteam": "Il mio nickname di steam ({{steamNickname}})"
+        },
+        "prompt": "Il tuo nome pubblico"
+      },
+      "language": {
+        "prompt": "Lingua (Sperimentale)"
+      }
+    }
+  },
+  "profile": {
+    "exploreLibrary": "Puoi esplorare la tua libreria nei seguenti modi:",
+    "inYourLibrary": "Nella tua libreria",
+    "libraryTags": {
+      "byHoursPlayed": "Per ore giocate",
+      "byPlayerCount": "per numero di giocatori",
+      "byProtonDbRating": "Per rating di ProtonDB",
+      "bySteamDbScore": "Per score degli utenti di SteamDB",
+      "headline": "I seguenti tag sono comuni nella tua libreria. Puoi provare con questi:",
+      "lackReportsByHoursPlayed": "Report Mancanti per le tue ore di gioco",
+      "lackReportsByPlayerCount": "Report Mancanti per numero di giocatori",
+      "lackReportsBySteamDbScore": "Report Mancanti per score degli utenti di SteamDB"
+    },
+    "notInYourLibrary": "Non è nella tua libreria",
+    "yourContributions": "Le tue contribuzioni"
+  },
+  "ratingDefinitions": {
+    "explanations": {
+      "borked": "Non si avvia o non è per niente giocabile",
+      "bronze": "Si avvia ma crasha spesso o ha problemi che lo rendono ingiocabile",
+      "gold": "Funziona perfettamente con qualche modifica",
+      "native": "Nativo su Linux",
+      "pending": "In attesa di altri report per avere un rating",
+      "platinum": "Funziona perfettamente senza alcuna modifica",
+      "silver": "Funziona con qualche problema ma nulla di grave"
+    },
+    "headline": "Definizioni dei rating"
+  },
+  "reports": {
+    "clear": "Cancella",
+    "filteredOutCount": "{{count}} filtrati",
+    "filteredOutHeadline": "I seguenti {{count}} reports non corrispondono ai tuoi criteri di filtraggio per {{filters}}",
+    "hoursInSteam": "{{count}} ore in Steam",
+    "specs": {
+      "cpu": "CPU",
+      "gpu": "GPU",
+      "gpuDriver": "Driver GPU",
+      "kernel": "Kernel",
+      "os": "Distro",
+      "otherSpecs": "Altre specifiche",
+      "ram": "RAM"
+    },
+    "superceded": "C'è un nuovo report di questo tipo fatto da questo autore",
+    "timeWithProton": "{{time}} con Proton",
+    "zeroStateMessage": "Nessun report",
+    "zeroStateMessageWithFilters": "Nessun report corrisponde ai tuoi filtri scelti"
+  },
+  "search": {
+   "resultsHeader": "Risultati per {{q}}"
+  },
+  "stats": {
+    "analysisInByTheNumbers1": "Analisi in base ai numeri #1",
+    "byCommonDisplayDrivers": "In base ai Driver",
+    "byDistro": "In base alla Distro",
+    "byGpu": "In base alla GPU",
+    "byProtonVersion": "An base alla versione di Proton",
+    "dailyReportsHeadline": "Report giornalieri (Ultimi {{days}} Giorni)",
+    "downloadData": "Scarica informazioni",
+    "gameRatingDistribution": "Distribuzione dei Rating del gioco",
+    "gamesWithNOrMoreReports": "Giochi con N o più report",
+    "reportRatingDistributionOverTime": "Distribuzioni dei Rating nel tempo",
+    "whenMeetingMinimumRequirements": "Con requirement minimi soddisfatti"
+  },
+  "suggestions": {
+   "headline": "Pronto per il resto?",
+   "intro": "I seguenti giochi sono stati selezionati in base alle tue ore di gioco, popolarità e rating su SteamDB. Non ci sono report per loro e ad alcuni potrebbe mancarne uno per ottenere un rating {{siteName}}! Puoi ricaricare la pagina per altri suggerimenti o andare sul filtro [Report Mancanti]({{link}}) della pagina d'esplorazione per altri."
+  },
+  "systemInfo": {
+    "headline": "Informazioni di sistema",
+    "howTo": "La raccolta di queste informazioni è rapida se hai accesso alle impostazioni di Steam nel computer in cui giochi. [Scopri come]({{link}}). (Alcuni utenti hanno notato che è necessario premere Ctrl-A per selezionare tutto prima di premere il tasto destro)",
+    "intro": "I report sono più utili e credibili se includono l'hardware e il software su cui il gioco è testato. Per rendere queste informazioni accurate e consistenti, utilizziamo le informazioni di sistema riportate da Steam.",
+    "parseFailure": "Parsing fallito. Se sei sicuro di aver copiato le informazioni correttamente, faccelo sapere su Discord",
+    "parseSuccess": "Informazioni di sistema parsate con successo!",
+    "pasteInstructions": "Incolla qui le tue informazioni di sistema di Steam",
+    "unsupportedHeadline": "Rilevati driver non supportati",
+    "unsupportedWarning": "I tuoi driver grafici non soddisfano [i requirement minimi di Proton]({{link}})! Potresti riscontrare crash, rallentamenti o grafica ridotta. Puoi ancora inviare report ma questi mostreranno i tuoi driver in rosso e il report non verrà valutato nell'aggregazione di report per i giochi. Aggiorna i tuoi driver!"
+  }
+}
