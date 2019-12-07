@@ -107,7 +107,6 @@
     },
     "youtubeId": "Co6FePZoNgE"
   },
-  "i18nStamp": 1573767610406,
   "libraryLoader": {
     "errorLoadingGames": "Errore nel caricamento della libreria. Assicurati che il Profilo e i Dettagli del gioco siano pubblici su questo account!",
     "gameTotal": "{{count}} giochi caricati dalla libreria!",
