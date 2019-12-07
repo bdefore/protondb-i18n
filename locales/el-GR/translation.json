@@ -16,6 +16,12 @@
     "unrated": "Μη Βαθμολογημένο",
     "unreported": "Χωρίς Αναφορές"
   },
+  "contextualInfo": {
+    "hoursPlayed": "{{context}} ώρες παίχτηκαν",
+    "peakPlayers": "{{context}} μέγιστοι παίκτες",
+    "positiveRating": "{{context}}% θετική βαθμολογία",
+    "recentReportCount": "{{context}} Αναφορές τις δύο τελευταίες εκδόσεις Proton"
+  },
   "explore": {
     "headlines": {
       "fixWanted": "Χρειάζεται Διόρθωση",
@@ -54,12 +60,6 @@
     "infoNotFound": "Δεν βρέθηκαν πληροφόριες για το App ID: {{entry}}. Αυτό μπορεί να συμβεί αν ένα παιχνίδι αφαιρεθεί από το κατάστημα.",
     "minimumRequirements": "Ελάχιστες Απαιτήσεις",
     "nativelySupports": "Εγγενής Υποστήριξη"
-  },
-  "contextualInfo": {
-    "hoursPlayed": "{{context}} ώρες παίχτηκαν",
-    "peakPlayers": "{{context}} μέγιστοι παίκτες",
-    "positiveRating": "{{context}}% θετική βαθμολογία",
-    "recentReportCount": "{{context}} Αναφορές τις δύο τελευταίες εκδόσεις Proton"
   },
   "home": {
     "getStartedLinks": [

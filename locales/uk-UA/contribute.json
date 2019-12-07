@@ -232,36 +232,36 @@
     "legend": "Параметри Запуску",
     "options": {
       "disableD3d10": {
-        "long": "Вимкнули D3D10",
+        "long": "Вимкнули D3D10 (PROTON_NO_D3D10) ",
         "short": "Вимкнули D3D10"
       },
       "disableD3d11": {
-        "long": "Вимкнули D3D11",
+        "long": "Вимкнули D3D11 (PROTON_NO_D3D11)",
         "short": "Вимкнули D3D11"
       },
       "disableEsync": {
-        "long": "Вимкнули Esync",
+        "long": "Вимкнули Esync (PROTON_NO_ESYNC)",
         "short": "Вимкнули Esync"
       },
       "disableFsync": {
-        "long": "Вимкнули Fsync",
+        "long": "Вимкнули Fsync (PROTON_NO_FSYNC)",
         "short": "Вимкнули Fsync"
       },
       "largeAddressAware": {
-        "long": "Large Address Aware",
+        "long": "Large Address Aware (PROTON_FORCE_LARGE_ADDRESS_AWARE)",
         "short": "Large Address Aware"
       },
       "oldGlString": {
-        "long": "Старий GL String",
+        "long": "Старий GL String (PROTON_OLD_GL_STRING)",
         "short": "Старий GL String"
       },
       "useWineD3d11": {
-        "long": "Використали Wine D3D",
+        "long": "Використали Wine D3D (PROTON_USE_WINED3D)",
         "short": "Використали Wine D3D"
       },
       "useWineD9vk": {
-        "long": "Використали Wine D9VK",
-        "short": "Використали Wine D9VK"
+        "long": "Використали D9VK (PROTON_USE_D9VK)",
+        "short": "Використали D9VK"
       }
     },
     "prompt": "Чи використовували ви будь-який із параметрів запуску Proton?"
@@ -310,7 +310,7 @@
     "next": "Наступне",
     "submission": {
       "error": "Під час надсилання сталася помилка. Будь ласка, повідомте нам, як це сталося!",
-      "note": "Будь ласка зауважте, що нові звіти будуть у стані очікування до наступного оновлення вмісту. Ви можете переглянути свої внески у своєму [Профілі] ({{link}})",
+      "note": "Будь ласка зауважте, що нові звіти будуть у стані очікування до наступного оновлення вмісту. Ви можете переглянути свої внески у своєму [Профілі]({{link}})",
       "success": "Успішно надіслано",
       "thanks": "Дякуємо за ваш внесок у {{siteName}}"
     },
@@ -358,12 +358,12 @@
     "legend": "Швидкодія",
     "options": {
       "significantSlowdown": {
-        "long": "Значне сповільнення",
-        "short": "Значно"
+        "long": "Значні Проблеми Швидкодії",
+        "short": "Значні Проблеми Швидкодії"
       },
       "slightSlowdown": {
-        "long": "Невелике сповільнення",
-        "short": "Незначно"
+        "long": "Незначні Проблеми Швидкодії",
+        "short": "Незначні Проблеми Швидкодії"
       }
     },
     "prompt": "Чи відчували Ви несподіване сповільнення враховуючи Ваше обладнання?"
