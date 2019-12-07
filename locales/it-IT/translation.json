@@ -129,10 +129,12 @@
   "misc": {
     "addYourReport": "Aggiungi un report",
     "affirmative": "Sì",
+    "any": "Qualunque",
     "areYouSure": "Sei sicuro?",
     "cancel": "Cancella",
     "chipset": "Chipset",
     "conjunction": "e",
+    "discard": "Scarta",
     "dismiss": "Nascondi",
     "distro": "Distro",
     "driver": "Driver",
@@ -167,6 +169,7 @@
     "show": "Mostra {{what}}",
     "showAll": "Mostra tutto",
     "showMore": "Mostra di più",
+    "skip": "Salta",
     "tier": "Categoria",
     "total": "Totale",
     "unknown": "Sconosciuto",
@@ -234,6 +237,9 @@
     "headline": "Definizioni dei rating"
   },
   "reports": {
+    "clear": "Cancella",
+    "filteredOutCount": "{{count}} filtrati",
+    "filteredOutHeadline": "I seguenti {{count}} reports non corrispondono ai tuoi criteri di filtraggio per {{filters}}",
     "hoursInSteam": "{{count}} ore in Steam",
     "specs": {
       "cpu": "CPU",
@@ -244,7 +250,10 @@
       "otherSpecs": "Altre specifiche",
       "ram": "RAM"
     },
-    "timeWithProton": "{{time}} con Proton"
+    "superceded": "C'è un nuovo report di questo tipo fatto da questo autore",
+    "timeWithProton": "{{time}} con Proton",
+    "zeroStateMessage": "Nessun report",
+    "zeroStateMessageWithFilters": "Nessun report corrisponde ai tuoi filtri scelti"
   },
   "search": {
    "resultsHeader": "Risultati per {{q}}"
