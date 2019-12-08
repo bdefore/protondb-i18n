@@ -24,7 +24,7 @@
     "hoursPlayed": "{{context}} Stunden gespielt",
     "peakPlayers": "{{context}} peak players",
     "positiveRating": "{{context}}% postive Bewertungen",
-    "recentReportCount": "{{context}} Berichte mit den letzten 2 Proton Versionen"
+    "recentReportCount": "{{context}} Berichte mit den letzten zwei Proton-Versionen"
   },
   "explore": {
     "headlines": {
@@ -38,41 +38,41 @@
       "wellRatedHere": "Hier gut bewertet"
     },
     "layout": "Darstellung",
-    "loadError": "Fehler beim laden der Spiele!",
-    "notLoggedIn": "Die Bibliothek kann ohne eine Steam ID nicht geladen werden. Gehe in dein [Profil]({{link}}) um sie hinzuzufügen",
+    "loadError": "Fehler beim Laden der Spiele!",
+    "notLoggedIn": "Die Bibliothek kann ohne eine Steam-ID nicht geladen werden. Gehe in dein [Profil]({{link}}), um sie hinzuzufügen.",
     "poweredBy": "Unterstützt von",
     "sorts": {
       "fixWanted": "Fehlerbehebung benötigt",
-      "hoursPlayed": "gespielte Stunden",
+      "hoursPlayed": "Gespielte Stunden",
       "mostBorked": "Überwiegend unbrauchbar",
       "playerCount": "Spieleranzahl",
       "recentlyImproved": "Kürzlich verbessert",
       "userScore": "Benutzerwertung",
-      "wilsonRating": "ProtonDB Wertung"
+      "wilsonRating": "ProtonDB-Wertung"
     },
     "toggles": {
       "includeNative": "Native einbeziehen",
       "lackReports": "Berichte benötigt",
       "restrictToLibrary": "Bibliothek",
       "untested": "Berichte benötigt",
-      "userTags": "Benutzer Tags",
+      "userTags": "Benutzer-Tags",
       "whitelisted": "Whitelisted"
     }
   },
   "footer": {
     "description": "{{name}} ist ein passioniertes Projekt von [@bdefore]({{link}}) und einer engagierten Gemeinschaft von Reportern.",
-    "feedbackPrompt": "Hast du Feedback? Lass es uns auf Discord!",
+    "feedbackPrompt": "Hast du Feedback? Lass es uns auf Discord wissen!",
     "legal": "Diese Website hat keine Verbindung zu Valve Software. Alle Spielecover und Logos sind Eigentum der jeweiligen Besitzer."
   },
   "gameDetails": {
-    "githubIssueSearch": "Github Issue Suche",
+    "githubIssueSearch": "Github Issue-Suche",
     "infoNotFound": "Es konnten keine Informationen für die App-ID erfasst werden: {{entry}}. Dies kann passieren, wenn ein Spiel aus dem Shop entfernt wurde.",
     "minimumRequirements": "Mindestanforderungen",
     "nativelySupports": "Native Unterstützung"
   },
   "home": {
     "getStartedLinks": [
-      "[Steam's Ozzizielle Steam Play Seite](https://store.steampowered.com/steamplay)",
+      "[Steams offizielle Steam Play-Seite](https://store.steampowered.com/steamplay)",
       "[A guide to migrating to Linux](https://www.reddit.com/r/linux_gaming/comments/9oqq3w/guide_migrating_to_linux_in_2019/)",
       "[What is Vulkan?](https://www.reddit.com/r/linux_gaming/comments/9ritk1/not_sure_i_quite_understand_can_someone_explain/)"
     ],
@@ -90,7 +90,7 @@
       "reportsWritten": "Berichte geschrieben"
     },
     "theImpact": {
-      "answer": "Steam Play unterstützt nun offiziell eine begrenzte, aber wachsende Anzahl von Spielen auf der Whitelist, die als Proton-kompatibel gelten und unter Linux laufen. Basierend auf ProtonDB-Berichten läuft eine beträchtliche Anzahl von Spielen, die nicht auf der weißen Liste stehen, darunter viele beliebte Titel, genauso gut wie unter Windows.",
+      "answer": "Steam Play unterstützt nun offiziell eine begrenzte, aber wachsende Anzahl von Spielen auf der Whitelist, die als Proton-kompatibel gelten und unter Linux laufen. Den ProtonDB-Berichten zufolge läuft eine beträchtliche Anzahl von Spielen, die nicht auf der Whitelist stehen, darunter viele beliebte Titel, genauso gut wie unter Windows.",
       "question": "Die Auswirkungen"
     },
     "whatIsProton": {
@@ -98,7 +98,7 @@
       "question": "Was ist Proton?"
     },
     "whatIsProtonDb": {
-      "answer": "Das Ziel von ProtonDB ist es, Berichte von anderen Spielern zu sammeln, während sie Spiele mit Proton auf Linux testen und Ergebnisse darüber liefern, wie gut Spiele funktionieren. Eine wachsende Anzahl von Vorschlägen bietet Optimierungen, die du ausprobieren kannst, um Spiele zum Laufen zu bringen, während Proton die Entwicklung fortsetzt. Darüber hinaus kannst du den Steam-Spielekatalog auf dieser Website durchsuchen und eine breite Palette von Titeln entdecken, die bisher für die Verwendung unter Linux nicht verfügbar waren.",
+      "answer": "Das Ziel von ProtonDB ist es, Berichte von anderen Spielern zu sammeln, die Spiele mit Proton auf Linux testen und Ergebnisse darüber liefern, wie gut sie funktionieren. Eine wachsende Anzahl von Vorschlägen bietet Anpassungen, die du ausprobieren kannst, um Spiele zum Laufen zu bringen, während Proton die Entwicklung fortsetzt. Darüber hinaus kannst du den Steam-Spielekatalog auf dieser Website durchsuchen und eine breite Palette von Titeln entdecken, die bisher für die Verwendung unter Linux nicht verfügbar waren.",
       "question": "Was ist ProtonDB?"
     },
     "whyBigDeal": {
@@ -110,10 +110,10 @@
   "libraryLoader": {
     "errorLoadingGames": "Fehler beim Laden von Spielen. Bitte stelle sicher, dass sowohl Profil- als auch Spieledetails auf diesem Konto öffentlich sind!",
     "gameTotal": "{{count}} Spiele in der Bibliothek geladen!",
-    "headline": "Steam Authentifizierung",
+    "headline": "Steam-Authentifizierung",
     "intro": "Wenn du dich mit Steam anmeldest, kannst du Berichte einreichen und die Seite [mit einem Bibliotheksfilter]({{link}}) erkunden, um die Ergebnisse auf Spiele zu beschränken, die du besitzt.",
     "loggedInAs": "Angemeldet als {{username}}",
-    "note": "Stelle sicher, dass in deinen [Steam Privatsphäreeinstellungen ]({{link}}) sowohl 'Mein Profil' als auch deine 'Spieledetails' öffentlich eingestellt sind. Die letzten Änderungen an Steam haben diese standardmäßig privat gemacht. Diese Seite verwendet die Steam Web API, um öffentliche Informationen über dein Konto abzurufen, einschließlich deiner ID, deines Profilnamens und deines Avatars. Steam wird dir die IP-Adresse {{host}} anzeigen, der du vertrauen kannst - dies ist normal.",
+    "note": "Stelle sicher, dass in deinen [Steam-Privatsphäreeinstellungen ]({{link}}) sowohl 'Mein Profil' als auch deine 'Spieledetails' öffentlich eingestellt sind. Die letzten Änderungen an Steam haben diese standardmäßig privat gemacht. Diese Seite verwendet das Steam-Web-API, um öffentliche Informationen über dein Konto abzurufen, einschließlich deiner ID, deines Profilnamens und deines Avatars.",
     "refresh": "Aktualisieren",
     "steamSignIn": "Mit Steam anmelden",
     "unlink": "Konto trennen"
@@ -197,36 +197,39 @@
         },
         "options": {
           "custom": "Ein benutzerdefinierter Nickname",
-          "keepSteam": "Mein Steam Nickname ({{steamNickname}})"
+          "keepSteam": "Mein Steam-Nickname ({{steamNickname}})"
         },
         "prompt": "Dein öffentlicher Name"
       },
       "language": {
-        "prompt": "Sprache (Experimentell)"
+        "prompt": "Sprache"
+      },
+      "performanceMode": {
+        "prompt": "Möchtest Du eine performance-optimierte Version der Seite verwenden?"
       }
     }
   },
   "profile": {
-    "exploreLibrary": "Sie können Ihre Bibliothek sortiert nach folgenden Ansichten durchsuchen:",
+    "exploreLibrary": "Du kannst deine Bibliothek sortiert nach folgenden Ansichten durchsuchen:",
     "inYourLibrary": "In deiner Bibliothek",
     "libraryTags": {
       "byHoursPlayed": "Nach deiner Spielzeit",
       "byPlayerCount": "Nach Spieleranzahl",
-      "byProtonDbRating": "Nach SteamDB Wertung",
-      "bySteamDbScore": "Nach SteamDB Benutzerwertunge",
-      "headline": "Die folgenden Tags sind in Ihrer Bibliothek üblich. Mit diesen kannst du einsteigen:",
+      "byProtonDbRating": "Nach ProtonDB-Wertung",
+      "bySteamDbScore": "Nach SteamDB-Benutzerwertung",
+      "headline": "Die folgenden Tags kommen in deiner Bibliothek häufig vor. Mit diesen kannst du einsteigen:",
       "lackReportsByHoursPlayed": "Berichte benötigt nach deiner Spielzeit",
       "lackReportsByPlayerCount": "Berichte benötigt nach Spieleranzahl",
-      "lackReportsBySteamDbScore": "Berichte benötigt nach SteamDB Benutzerwertung"
+      "lackReportsBySteamDbScore": "Berichte benötigt nach SteamDB-Benutzerwertung"
     },
     "notInYourLibrary": "Nicht in deiner Bibliothek",
-    "yourContributions": "Deine Einreichungen"
+    "yourContributions": "Deine Beiträge"
   },
   "ratingDefinitions": {
     "explanations": {
       "borked": "Entweder startet es nicht oder es ist nicht spielbar",
-      "bronze": "Läuft, stürzt aber oft ab oder hat Probleme, die ein komfortables Spielen verhindern.",
-      "gold": "Läuft perfekt nach einigen optimierungen",
+      "bronze": "Läuft, stürzt aber oft ab oder hat Probleme, die ein komfortables Spielen verhindern",
+      "gold": "Läuft perfekt nach einigen Anpassungen",
       "native": "Läuft nativ auf Linux",
       "pending": "Warten auf weitere Berichte, bevor eine Bewertung möglich ist",
       "platinum": "Läuft perfekt ohne jegliche Änderungen",
@@ -237,12 +240,12 @@
   "reports": {
     "clear": "Löschen",
     "filteredOutCount": "{{count}} herausgefiltert",
-    "filteredOutHeadline": "Die folgenden {{count}}} Berichte stimmen nicht mit Ihren Filterkriterien für {{filters}}} überein.",
+    "filteredOutHeadline": "Die folgenden {{count}} Berichte stimmen nicht mit deinen Filterkriterien für {{filters}}} überein.",
     "hoursInSteam": "{{count}} Stunden auf Steam",
     "specs": {
       "cpu": "CPU",
       "gpu": "GPU",
-      "gpuDriver": "GPU Treiber",
+      "gpuDriver": "GPU-Treiber",
       "kernel": "Kernel",
       "os": "Distro",
       "otherSpecs": "Andere Spezifikationen",
@@ -261,8 +264,8 @@
     "byCommonDisplayDrivers": "Nach gängigen Display-Treiber",
     "byDistro": "Nach Distro",
     "byGpu": "Nach GPU",
-    "byProtonVersion": "Nach Proton Version",
-    "dailyReportsHeadline": "Tägliche Berichte (Letzten {{days}} Tage)",
+    "byProtonVersion": "Nach Proton-Version",
+    "dailyReportsHeadline": "Tägliche Berichte (letzte {{days}} Tage)",
     "downloadData": "Daten herunterladen",
     "gameRatingDistribution": "Verteilung der Spieleberichte",
     "gamesWithNOrMoreReports": "Spiele mit N oder mehr Berichten",
@@ -271,16 +274,16 @@
   },
   "suggestions": {
     "headline": "Bist du bereit für mehr?",
-    "intro": "Die folgenden Spiele wurden nach Spielzeit, Beliebtheit und SteamDB-Bewertung ausgewählt. Allen fehlt es an Berichten und einige brauchen vielleicht nur noch einen weiteren, um eine {{siteName}}} Wertung zu erhalten! Du kannst für andere Vorschläge neu laden oder nach [Berichte benötigt]({{link}}}) auf der Seite Erkunden suchen, um noch mehr zu finden."
+    "intro": "Die folgenden Spiele wurden nach Spielzeit, Beliebtheit und SteamDB-Bewertung ausgewählt. Allen fehlt es an Berichten und einige brauchen vielleicht nur noch einen weiteren, um eine {{siteName}}-Wertung zu erhalten! Du kannst für andere Vorschläge neu laden oder nach [Berichte benötigt]({{link}}) auf der Erkunden-Seite suchen, um noch mehr zu finden."
   },
   "systemInfo": {
     "headline": "Systeminformationen",
-    "howTo": "Das Sammeln dieser Informationen geht schnell, falls du Zugang zu Steam auf dem Computer hast, auf dem du Spiele testest. [Hier]({{link}}) erfährst du wie du diese Daten abfragen kannst. (Einige Benutzer haben berichtet, dass sie Strg-A drücken müssen, um alles auszuwählen, bevor sie mit der rechten Maustaste klicken.)",
-    "intro": "Berichte haben einen größeren Nutzen und sind nachvollziehbarer wenn die Hard- & Software angegeben ist, auf denen diese Zustande gekommen sind. Um die Daten so konsistent wie möglich zu halten, nutzen wir die von Steam selbst gemeldeten Systeminformationen.",
+    "howTo": "Das Sammeln dieser Informationen geht schnell, falls du Zugang zu Steam auf dem Computer hast, auf dem du Spiele testest. [Hier]({{link}}) erfährst du, wie du diese Daten abfragen kannst. (Einige Benutzer haben berichtet, dass sie Strg-A drücken müssen, um alles auszuwählen, bevor sie mit der rechten Maustaste klicken.)",
+    "intro": "Berichte haben einen größeren Nutzen und sind nachvollziehbarer, wenn die Hard- und Software angegeben ist, auf denen sie zustande gekommen sind. Um die Daten so konsistent wie möglich zu halten, nutzen wir die von Steam selbst gemeldeten Systeminformationen.",
     "parseFailure": "Das Analysieren ist fehlgeschlagen. Wenn du sicher bist, dass du die Daten richtig kopiert hast, lass es uns bitte im Discord wissen.",
     "parseSuccess": "Systeminformation wurden erfolgreich analysiert!",
-    "pasteInstructions": "Steam Systeminformationen hier eingeben",
+    "pasteInstructions": "Steam-Systeminformationen hier einfügen",
     "unsupportedHeadline": "Nicht unterstützte Treiber erkannt",
-    "unsupportedWarning": "Der Anzeigetreiber deines Systems entspricht nicht den [aktuellen Mindestanforderungen von Proton]({{link}})! Es kann zu Abstürzen, langsamer Leistung oder grafischen Beeinträchtigungen kommen. Du kannst immer noch Berichte einreichen und es gibt immer noch einen Wert in deinen Beiträgen, aber deine Berichte zeigen deine Grafiktreiber in rot an und werden nicht für die Gesamtbewertung von Spielen gezählt. Bitte aktualisiere deine Treiber!"
+    "unsupportedWarning": "Der Grafiktreiber deines Systems entspricht nicht den [aktuellen Mindestanforderungen von Proton]({{link}})! Es kann zu Abstürzen, Leistungseinbußen oder grafischen Beeinträchtigungen kommen. Du kannst dennoch Berichte einreichen und deine Beiträge können immer noch von Nutzen sein, aber deine Berichte zeigen deine Grafiktreiber in rot an und werden nicht für die Gesamtbewertung von Spielen gezählt. Bitte aktualisiere deine Treiber!"
   }
 }
