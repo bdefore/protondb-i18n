@@ -17,8 +17,8 @@
     "unreported": "Saknar rapporter"
   },
   "content": {
-    "previousPost": "Föregående inlägg",
-    "followingPost": "Nästa inlägg"
+    "followingPost": "Nästa inlägg",
+    "previousPost": "Föregående inlägg"
   },
   "contextualInfo": {
     "hoursPlayed": "{{context}} timmar spelade",

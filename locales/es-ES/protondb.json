@@ -5,13 +5,13 @@
         "label": "CPU"
       },
       "distro": {
-        "label": "Distro"
+        "label": "Distribución"
       },
       "gpu": {
-        "label": "GPU"
+        "label": "Tarjeta gráfica"
       },
       "type": {
-        "label": "Art"
+        "label": "Tipo"
       }
     }
   }
