@@ -2,10 +2,10 @@
   "appSelection": {
     "caution": "Vorsicht!",
     "helperText": "Du kannst auch Links oder eine App-ID einfügen und wir werden versuchen, sie zu finden",
-    "notFound": "Das Spiel mit der App-ID {{Query}}} konnte nicht gefunden werden. Dies kann passieren falls die ID nicht stimmt,: oder das Spiel aus dem  Steam-Shop entfernt wurde, nicht als 'Spiel' aufgeführt ist oder in Ihrem Land nicht verfügbar ist.",
-    "placeholder": "Gib den Namen eines Spiels aus deiner Steam-Bibliothek ein....",
+    "notFound": "Das Spiel mit der App-ID {{Query}} konnte nicht gefunden werden. Dies kann passieren, falls die ID nicht stimmt oder das Spiel aus dem  Steam-Shop entfernt wurde, nicht als 'Spiel' aufgeführt ist oder in Ihrem Land nicht verfügbar ist.",
+    "placeholder": "Gib den Namen eines Spiels aus deiner Steam-Bibliothek ein...",
     "previousReportsExist": "Es gibt ältere Bewertungen von dir zu diesem Spiel",
-    "runsNativeWarning": "Das ausgewählte Spiel hat eine native Linux-Version veröffentlicht! Bitte stelle sicher, dass du das Spiel nicht versehentlich nativ ausgeführt hast. Steam verwendet Steam Play nicht, um dieses Spiel standardmäßig auszuführen, aber [du kannst dies erzwingen]({{link}})."
+    "runsNativeWarning": "Das ausgewählte Spiel hat eine native Linux-Version veröffentlicht! Bitte stelle sicher, dass du das Spiel nicht versehentlich nativ ausgeführt hast. Steam verwendet standardmäßig nicht Steam Play, um dieses Spiel auszuführen, aber [du kannst dies erzwingen]({{link}})."
   },
   "audioFaults": {
     "legend": "Audio",
@@ -39,7 +39,7 @@
   },
   "borked": {
     "headline": "Das ist ein Jammer!",
-    "intro": "Du wurst nun mit der Einreichung einer 'Kaputt-Wertung' fortfahren, aber bevor du dies tust, sollten du unsere [FAQ zur Fehlerbehebung bei Spielen]({{link}}) besuchen."
+    "intro": "Du wirst nun mit der Einreichung einer 'Kaputt-Wertung' fortfahren, aber bevor du dies tust, solltest du unsere [FAQ zur Fehlerbehebung bei Spielen]({{link}}) besuchen."
   },
   "customizationsUsed": {
     "additionalNotes": {
@@ -49,15 +49,15 @@
     "legend": "Anpassungen",
     "options": {
       "customPrefix": {
-        "long": "Ein Benutzerdefiniertes Wine Prefix",
+        "long": "Ein benutzerdefiniertes Wine-Prefix",
         "short": "Benutzerdefiniertes Prefix"
       },
       "customProton": {
-        "long": "Ein angepasster fork von Proton",
+        "long": "Ein angepasster Fork von Proton",
         "short": "Angepasstes Proton"
       },
       "lutris": {
-        "long": "Lutris installations Script",
+        "long": "Lutris Installations-Script",
         "short": "Lutris"
       },
       "native2Proton": {
@@ -114,14 +114,14 @@
       "label": "Zusätzliche Hinweise",
       "placeholder": "Bitte füge sie hier hinzu."
     },
-    "prompt": "Gibt es etwas, das Sie hinzufügen möchten, das in vorherigen Fragen nicht behandelt wurde?"
+    "prompt": "Gibt es etwas, das du hinzufügen möchtest, das in vorherigen Fragen nicht behandelt wurde?"
   },
   "genericFollowUpPrompt": "Welche Art von Problemen?",
   "graphicalFaults": {
     "legend": "Grafiken",
     "options": {
       "heavyArtifacts": {
-        "long": "Starke oder gewöhnliche Artefakte",
+        "long": "Starke oder häufige Artefakte",
         "short": "Starke Artefakte"
       },
       "minorArtifacts": {
@@ -140,7 +140,7 @@
     "prompt": "Hast du irgendwelche grafischen Beeinträchtigungen bemerkt?"
   },
   "graphicsApiSelection": {
-    "legend": "Graphik API",
+    "legend": "Grafik-API",
     "options": {
       "d3d": {
         "long": "Direct3D",
@@ -151,7 +151,7 @@
         "short": "OpenGL"
       },
       "unsure": {
-        "long": "Was auch immer das Spiel standardmäßig verwendet.",
+        "long": "Was auch immer das Spiel standardmäßig verwendet",
         "short": "Standard"
       },
       "vk": {
@@ -159,7 +159,7 @@
         "short": "Vulkan"
       }
     },
-    "prompt": "Welche Grafik API hast du innerhalb des Spiels verwendet?"
+    "prompt": "Welches Grafik-API hast du innerhalb des Spiels verwendet?"
   },
   "inputFaults": {
     "legend": "Eingabe",
@@ -169,19 +169,19 @@
         "short": "Deadzone"
       },
       "controllerMapping": {
-        "long": "Controllertasten wurden nicht richtig zugeordnet.",
-        "short": "Controllertasten Zuordnung"
+        "long": "Controllertasten wurden nicht richtig zugeordnet",
+        "short": "Controllertasten-Zuordnung"
       },
       "controllerNotDetected": {
         "long": "Controller wurden nicht erkannt",
         "short": "Controllererkennung"
       },
       "controllerNotResponsive": {
-        "long": "Controller wurden erkannt, reagierten aber nicht.",
+        "long": "Controller wurden erkannt, reagierten aber nicht",
         "short": "Reaktionsfähigkeit"
       },
       "drifting": {
-        "long": "Die Axen fahren nicht in die 0 Position zurück",
+        "long": "Die Achsen fahren nicht in die Nullposition zurück",
         "short": "Drifting"
       },
       "inaccuracy": {
@@ -189,7 +189,7 @@
         "short": "Ungenauigkeit"
       },
       "lag": {
-        "long": "Die Eingabe war verzögert.",
+        "long": "Die Eingabe war verzögert",
         "short": "Verzögerung"
       },
       "other": {
@@ -219,7 +219,7 @@
         "short": "Sonstiges"
       }
     },
-    "prompt": "Wird das Spiel durch Anti-Cheat-Software beeinflusst?"
+    "prompt": "Wird das Spiel durch Anti-Cheat-Software beeinträchtigt?"
   },
   "isMultiplayerImportant": {
     "prompt": "Ist der Multiplayer ein entscheidender Teil dieses Spiels?"
@@ -252,8 +252,8 @@
         "short": "Large Address Aware"
       },
       "oldGlString": {
-        "long": "Alten GL String",
-        "short": "Alten GL String"
+        "long": "Alter GL-String",
+        "short": "Alter GL-String"
       },
       "useWineD3d11": {
         "long": "Benutze Wine D3D",
@@ -292,7 +292,7 @@
     "prompt": "Wie startest du das Spiel?"
   },
   "localMultiplayerAppraisal": {
-    "prompt": "Wie beurteilst du die lokale Multiplayer-Funktionalität? Bitte prüfe ob es Verzögerungen, Verbindungs- oder Eingabeprobleme usw. gibt."
+    "prompt": "Wie beurteilst du die lokale Multiplayer-Funktionalität? Bitte prüfe, ob es Verzögerungen, Verbindungs- oder Eingabeprobleme usw. gibt."
   },
   "localMultiplayerAttempted": {
     "prompt": "Hast du versucht, Multiplayer lokal zu spielen (offline, d.h. Couchplay)?"
@@ -302,10 +302,10 @@
   },
   "misc": {
     "answerRequired": "Antwort erforderlich",
-    "answerRequiredWhenNotListed": "Antwort erforderlich, wenn nicht aufgelistet gewählt wird.",
+    "answerRequiredWhenNotListed": "Antwort erforderlich, wenn 'nicht aufgelistet' gewählt wird",
     "back": "Zurück",
     "error": "Fehler!",
-    "markdownSupportNotice": "Markdown wird nicht unterstützt",
+    "markdownSupportNotice": "Markdown wird jetzt unterstützt",
     "maxChars": "Maximal {{count}} Zeichen",
     "next": "Nächste",
     "submission": {
@@ -336,13 +336,13 @@
         "short": "Gut"
       },
       "weak": {
-        "long": "Schwach. Die Probleme haben erhebliche Auswirkungen auf die Erfahrung,",
+        "long": "Schwach. Die Probleme haben erhebliche Auswirkungen auf das Erlebnis.",
         "short": "Schwach"
       }
     }
   },
   "onlineMultiplayerAppraisal": {
-    "prompt": "Wie beurteilst du die Online-Multiplayer-Funktionalität? Bitte prüfe ob es Verzögerungen, Verbindungs- oder Eingabeprobleme, Matchingmaking-Fehler usw. gibt."
+    "prompt": "Wie beurteilst du die Online-Multiplayer-Funktionalität? Bitte prüfe, ob es Verzögerungen, Verbindungs- oder Eingabeprobleme, Matchingmaking-Fehler usw. gibt."
   },
   "onlineMultiplayerAttempted": {
     "prompt": "Hast du versucht, Online-Multiplayer zu spielen?"
@@ -373,9 +373,9 @@
     "context": "Du musst dich bei Steam anmelden und Systeminformationen angeben, bevor du es abschicken kannst!"
   },
   "preview": {
-    "intro": "Dinge die du noch einmal überprüfen solltest:",
+    "intro": "Dinge, die du noch einmal überprüfen solltest:",
     "notes": [
-      "Sind deine Systeminformationen auf dem neuesten Stand? Du musst zu deinem Profil gehen und deine Steam-Informationen nach einem Grafiktreiber-Update erneuern",
+      "Sind deine Systeminformationen auf dem neuesten Stand? Du musst zu deinem Profil gehen und deine Steam-Informationen nach einem Grafiktreiber-Update erneuern.",
       "Hast du das richtige Spiel ausgewählt? Einige Spiele haben den gleichen Namen wie ältere Versionen, z.B. GRID",
       "Hast du Beschreibungen an der richtigen Stelle hinzugefügt? Schreibe beispielsweise Notizen zu Grafikproblemen in dem Abschnitt, anstatt in den Abschlussnotizen."
     ]
@@ -387,8 +387,8 @@
   },
   "protonVersion": {
     "additionalNotes": {
-      "label": "Manuelle Protonenversion",
-      "placeholder": "Muss eine valide Proton Version sein. Beispiel: {{examples}}"
+      "label": "Manuelle Proton-Version",
+      "placeholder": "Muss eine valide Proton-Version sein. Beispiele: {{examples}}"
     },
     "prompt": "Welche Version von Proton verwendest du?"
   },
@@ -447,25 +447,25 @@
     "preview": "Vorschau",
     "setup": "Einrichtung",
     "stability": "Stabilität",
-    "startup": "Installation und starten",
+    "startup": "Installation und Start",
     "tinkerCheck": "Bewertungsart",
     "unownedWarning": "Nicht in der Bibliothek"
   },
   "type": {
     "intro": [
-      "ProtonDB unterteilt Bewertungen nun in zwei Arten: Steam Play und Bastler.",
-      "Verwende die Steam Play Bewertung, um das Out-of-the-Box-Erlebnis abzudecken. Installieren, auf Play klicken und das Spiel starten.",
-      "Verwende Bastler Bewertung, wenn du Optimierungen oder Anpassungen vorgenommen hast, um das Spiel zum Laufen zu bringen.",
+      "ProtonDB unterteilt Bewertungen nun in zwei Arten: SteamPlay und Bastler.",
+      "Verwende eine SteamPlay-Bewertung, um das Out-of-the-Box-Erlebnis abzudecken: Installieren, auf Play klicken und das Spiel starten.",
+      "Verwende eine Bastler-Bewertung, wenn du Optimierungen oder Anpassungen vorgenommen hast, um das Spiel zum Laufen zu bringen.",
       "Für weitere Informationen zu den Unterschieden, schau dir [diese News an]({{link}})."
     ],
     "options": {
       "steamPlay": {
-        "long": "SteamPlay Bewertung",
-        "short": "SteamPlay Bewertung"
+        "long": "SteamPlay-Bewertung",
+        "short": "SteamPlay-Bewertung"
       },
       "tinker": {
-        "long": "Bastler Bewertung",
-        "short": "Bastler Bewertung"
+        "long": "Bastler-Bewertung",
+        "short": "Bastler-Bewertung"
       }
     },
     "prompt": "Welche Art von Bewertung willst du verfassen?"
@@ -473,12 +473,12 @@
   "verdict": {
     "additionalNotes": {
       "label": "Zusammenfassung (maximal {{count}} Zeichen)",
-      "placeholder": "Füge eine kurze Zusammenfassung hinzu. Dies wird die Überschrift Ihres Berichts sein."
+      "placeholder": "Füge eine kurze Zusammenfassung hinzu. Dies wird die Überschrift deines Berichts sein."
     },
     "prompt": "Würde ein typischer Spieler eine angenehme Erfahrung beim spielen dieses Spiels unter Linux mit Proton haben?"
   },
   "welcome": {
-    "intro": "Vielen Dank für dein Interesse an der Erweiterung des ProtonDB-Katalogs von Kompatibilitätsberichten über Steam Play und Proton! Bitte beachten die folgenden Punkte, bevor du einen Beitrag leistest:",
+    "intro": "Vielen Dank für dein Interesse an der Erweiterung des ProtonDB-Katalogs von Kompatibilitätsberichten über Steam Play und Proton! Bitte beachte die folgenden Punkte, bevor du einen Beitrag leistest:",
     "notes": [
       "Diese Berichte werden auf ProtonDB veröffentlicht, um euch, Valve und Entwicklern zu helfen, Spiele mit Proton lauffähig zu machen. Bitte halte deine Berichte genau, frei von beleidigender Sprache und verzichte darauf, Berichte zu übermitteln, nur um für dein Lieblingsspiel, deine Lieblings-Distribution oder deine Grafikkarte zu werben.",
       "Es wird empfohlen, mehrere Berichte für das gleiche Spiel einzureichen! Wenn du mehr spielst oder Proton aktualisierst, wirst du mehr Informationen zum Teilen haben. Auf diese Weise unterscheidet sich ProtonDB von einem Wiki, da jeder Bericht als 'Schnappschuss' dient, wie das Spiel zu diesem Zeitpunkt mit deiner Konfiguration funktioniert.",
@@ -491,11 +491,11 @@
     "legend": "Fenstermodus",
     "options": {
       "activatingFullscreen": {
-        "long": "Vollbild konnte nicht gestartet werden.",
+        "long": "Vollbild konnte nicht gestartet werden",
         "short": "Vollbild aktivieren"
       },
       "fullNotFull": {
-        "long": "Der Vollbildmodus streckte sich nicht über den ganzen Bildschirm.",
+        "long": "Der Vollbildmodus streckte sich nicht über den ganzen Bildschirm",
         "short": "Größe"
       },
       "other": {
@@ -503,7 +503,7 @@
         "short": "Sonstiges"
       },
       "switching": {
-        "long": "Konnte nicht aus dem Vollbildmodus entkommen (z.B. mit Alt-Tab).",
+        "long": "Konnte nicht aus dem Vollbildmodus entkommen (z.B. mit Alt-Tab)",
         "short": "Wechseln"
       }
     },
