@@ -240,7 +240,7 @@
   "reports": {
     "clear": "Löschen",
     "filteredOutCount": "{{count}} herausgefiltert",
-    "filteredOutHeadline": "Die folgenden {{count}} Berichte stimmen nicht mit deinen Filterkriterien für {{filters}}} überein.",
+    "filteredOutHeadline": "Die folgenden {{count}} Berichte stimmen nicht mit deinen Filterkriterien für {{filters}} überein.",
     "hoursInSteam": "{{count}} Stunden auf Steam",
     "specs": {
       "cpu": "CPU",
