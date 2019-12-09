@@ -6,10 +6,12 @@ A crowdsourced journey to translate [ProtonDB](https://www.protondb.com) ([News 
 
 ProtonDB loads its text using [react-i18next](https://github.com/i18next/react-i18next) (version 10) resource bundles in JSON.
 
-Each language, as represented by their 'xx-XX' [BCP-47 language tag](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl), lives within `locales`. Within each locale's directory are two files:
+Each language, as represented by their 'xx-XX' [BCP-47 language tag](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl), lives within `locales`. Within each locale's directory are the following files:
 
-- `contribute.json` *(translations for the reporting flow)*
-- `translation.json` *(everything else)*
+- `protondb-content.json` *(translations for content around the site)
+- `proton-report.json` *(translations for the reporting flow specific to Proton)*
+- `questionnaire.json` *(translations for generic items in the reporting flow)
+- `general.json` *(everything else)*
 
 #### Prerequisites
 
@@ -42,8 +44,7 @@ Keep an eye out for page rendering issues if your text is smaller or larger than
 - Visit [ProtonDB](https://www.protondb.com)
 - If you're not already, switch to English
 - (NEW): For both files, copy the values for `i18nStamp` and `i18nVersion` that occur in the ones that are stored in your local storage.
-- Copy the contents of your `contribute.json` file into a local storage entry as `i18next:en-US-contribute`
-- Copy the contents of your `translation.json` file into a local storage entry as `i18next:en-US-translation`
+- For each file in the locales directory, copy its contents into a local storage entry of `i18next:en-US-filename`, i.e. `i18next:en-US-proton-report`
 - Reload and review
 - (NEW): When finished, remove the values you added for `i18nStamp` and `i18nVersion` before submitting your PR
 
