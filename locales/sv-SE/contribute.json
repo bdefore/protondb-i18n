@@ -454,7 +454,7 @@
   "type": {
     "intro": [
       "ProtonDB delar nu upp rapporter i två typer: Steam Play och Tinker.",
-      "Använd Steam Play rapporter för \"out-of-the-box\" upplevelsen. Installera och börja spela!.",
+      "Använd Steam Play rapporter för \"out-of-the-box\" upplevelsen. Installera och börja spela!",
       "Använd Tinker-rapport om du har gjort några justeringar eller anpassningar för att få spelet att fungera.",
       "För mer information om skillnaderna, se [detta nyhetsinlägg]({{link}})."
     ],
@@ -478,6 +478,7 @@
     "prompt": "Skulle en genomsnittlig gamer ha en bra upplevelse med detta spel på Linux i Proton?"
   },
   "welcome": {
+    "headline": "Välkommen",
     "intro": "Tack för ditt intresse i att expandera ProtonDB's katalog av kompatibilitetsrapporter för Steam Play och Proton! Tänk på följande innan du bidrar",
     "notes": [
       "Rapporter publiceras på ProtonDB för att hjälpa dig, Valve, och utvecklare att fixa spel. Håll dina rapporter noggranna, fria från förolämpande språk, och avtså från att publicera rapporter endast för att promota ditt favoritspel, din favoritdistribution, eller ditt favoritgrafikkort.",

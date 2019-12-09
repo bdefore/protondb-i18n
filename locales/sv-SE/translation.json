@@ -1,7 +1,7 @@
 {
   "breakdown": {
     "headline": "Populära spel",
-    "popularHeadline": "Betyg för {{count}} mest populära",
+    "popularHeadline": "Betyg för de {{count}} mest populära spelen",
     "topHundred": "Top hundra",
     "topTen": "Top tio",
     "topThousand": "Top tusen",
@@ -13,7 +13,7 @@
       "vr": "VR"
     },
     "unavailable": "Otillgängliga",
-    "unrated": "Obetygsatt",
+    "unrated": "Saknar betyg",
     "unreported": "Saknar rapporter"
   },
   "content": {
@@ -44,7 +44,7 @@
     "sorts": {
       "fixWanted": "Fix efterfrågad",
       "hoursPlayed": "Timmar spelade",
-      "mostBorked": "Mest kaputta",
+      "mostBorked": "Mest kaputt",
       "playerCount": "Spelarantal",
       "recentlyImproved": "Nyligen förbättrade",
       "userScore": "Användarbetyg",
@@ -56,7 +56,7 @@
       "restrictToLibrary": "Bibliotek",
       "untested": "Saknar rapporter",
       "userTags": "Användartaggar",
-      "whitelisted": "Vitlistat"
+      "whitelisted": "Vitlistade"
     }
   },
   "footer": {
@@ -81,9 +81,9 @@
       "answer": "Ge Linux ett försök! Om du är ny, oroa dig inte. Här är en lista med guider som hjälper dig att komma igång, och om du vill hjälpa Valve samt Proton att förbättras, bidra med dina rapporter här på ProtonDB!",
       "question": "Coolt! Hur kan jag hjälpa till?"
     },
-    "letsGetStarted": "Låt oss komma igång.",
+    "letsGetStarted": "Kom igång!",
     "sampleGames": "Här är ett urval av populära spel som officiellt inte är vitlistade än men som har fått många Platinarapporter på ProtonDB",
-    "search": "Sök efter ett spel...",
+    "search": "Sök efter spel...",
     "stats": {
       "gamesReported": "spel rapporterade",
       "gamesWork": "spel fungerar",
@@ -152,9 +152,9 @@
     "note": "Notera",
     "overall": "Överlag",
     "pending": "Inväntar publicering",
-    "provisional": "Preliminär",
+    "provisional": "Preliminära betyg",
     "published": "Publicerad",
-    "rated": "Betygsatt",
+    "rated": "Betyg",
     "report": "Rapport",
     "reports": "Rapporter",
     "save": "Spara",
@@ -246,7 +246,7 @@
   },
   "stats": {
     "analysisInByTheNumbers1": "Från analysen i By The Numbers #1",
-    "byCommonDisplayDrivers": "Efter vanliga videodrivrutiner",
+    "byCommonDisplayDrivers": "Efter vanligaste grafikdrivrutiner",
     "byDistro": "Efter distribution",
     "byGpu": "Efter GPU",
     "byProtonVersion": "Efter Protonversion",
@@ -269,6 +269,6 @@
     "parseSuccess": "Tolking av systeminformation lyckades!",
     "pasteInstructions": "Klista in systeminformation här",
     "unsupportedHeadline": "Icke-stödda drivrutiner upptäcktes",
-    "unsupportedWarning": "Ditt systems videodrivrutin möter inte [Protons nuvarande minimumkrav]({{link}})! Du kan uppleva krascher, dålig prestanda, och/eller grafiska nedgraderingar. Du kan fortfarande skicka in rapporter och det finns oavsett värde i dina bidrag, men dina rapporter kommer visa dina grafikdrivrutiner i rött och kommer inte räknas mot det genomsnittliga betyget. Uppdatera dina drivrutiner!"
+    "unsupportedWarning": "Ditt systems grafikdrivrutin möter inte [Protons nuvarande minimumkrav]({{link}})! Du kan uppleva krascher, dålig prestanda, och/eller grafiska nedgraderingar. Du kan fortfarande skicka in rapporter och det finns oavsett värde i dina bidrag, men dina rapporter kommer visa dina grafikdrivrutiner i rött och kommer inte räknas mot det genomsnittliga betyget. Uppdatera dina drivrutiner!"
   }
 }
