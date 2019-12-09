@@ -308,13 +308,13 @@
     "markdownSupportNotice": "Markdown stöds nu",
     "maxChars": "Max {{count}} tecken",
     "next": "Nästa",
-    "submit": "Lämna in",
     "submission": {
-      "success": "Successfully Submitted",
-      "note": "Notera att nya rapporter inte kommer visas direkt i avvaktan på nästa innehållsuppdatering. Du kan visa dina bidrag på din [profil]({{link}})",
       "error": "Något gick snett under inlämningen. Vi uppskattar om du berättar för oss hur detta hände!",
+      "note": "Notera att nya rapporter inte kommer visas direkt i avvaktan på nästa innehållsuppdatering. Du kan visa dina bidrag på din [profil]({{link}})",
+      "success": "Successfully Submitted",
       "thanks": "Tack för ditt bidrag till {{siteName}}"
     },
+    "submit": "Lämna in",
     "tooLong": "För långt"
   },
   "multiplayerAppraisal": {

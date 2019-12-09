@@ -16,6 +16,12 @@
     "unrated": "Μη Βαθμολογημένο",
     "unreported": "Χωρίς Αναφορές"
   },
+  "contextualInfo": {
+    "hoursPlayed": "{{context}} ώρες παίχτηκαν",
+    "peakPlayers": "{{context}} μέγιστοι παίκτες",
+    "positiveRating": "{{context}}% θετική βαθμολογία",
+    "recentReportCount": "{{context}} Αναφορές τις δύο τελευταίες εκδόσεις Proton"
+  },
   "explore": {
     "headlines": {
       "fixWanted": "Χρειάζεται Διόρθωση",
@@ -55,12 +61,6 @@
     "minimumRequirements": "Ελάχιστες Απαιτήσεις",
     "nativelySupports": "Εγγενής Υποστήριξη"
   },
-  "contextualInfo": {
-    "hoursPlayed": "{{context}} ώρες παίχτηκαν",
-    "peakPlayers": "{{context}} μέγιστοι παίκτες",
-    "positiveRating": "{{context}}% θετική βαθμολογία",
-    "recentReportCount": "{{context}} Αναφορές τις δύο τελευταίες εκδόσεις Proton"
-  },
   "home": {
     "getStartedLinks": [
       "[Η επίσημη σελίδα για το Steam Play της Steam](https://store.steampowered.com/steamplay)",
@@ -98,7 +98,6 @@
     },
     "youtubeId": "Co6FePZoNgE"
   },
-  "i18nStamp": 1573767610406,
   "libraryLoader": {
     "errorLoadingGames": "Σφάλμα κατά το φόρτωμα παιχνιδιών. Παρακαλώ σιγουρευτείτε ότι και το Προφίλ και οι Λεπτομερειες Παιχνιδιών είναι δημόσια σε αυτόν τον λογαριασμό!",
     "gameTotal": "{{count}} παιχνίδια φορτωμένα στη βιβλιοθήκη!",

@@ -1,0 +1,513 @@
+{
+  "appSelection": {
+    "caution": "Attention !",
+    "helperText": "Vous pouvez aussi coller des liens ou un ID d’application et nous essaierons de le trouver.",
+    "notFound": "Impossible de trouver le jeu avec l’ID d’application {{query}}}. Cela peut se produire s’il est inexact, s’il a été retiré du magasin Steam, s’il n’est pas répertorié comme un jeu ou s’il n’est pas disponible dans votre pays.",
+    "placeholder": "Entre le nom d’un jeu disponible dans votre bibliothèque Steam…",
+    "previousReportsExist": "Vous avez des rapports précédents pour ce jeu",
+    "runsNativeWarning": "Le jeu sélectionné dispose d’une version Linux native ! Veuillez vous assurer que vous n’avez pas par inadvertance lancé la version native du jeu. Steam n’utilise pas Steam Play pour lancer ce jeu par défaut, mais [vous pouvez le forcer à le faire]({{link}})."
+  },
+  "audioFaults": {
+    "legend": "Son",
+    "options": {
+      "borked": {
+        "long": "Totalement cassé",
+        "short": "Cassé"
+      },
+      "crackling": {
+        "long": "Grésillements",
+        "short": "Grésillements"
+      },
+      "lowQuality": {
+        "long": "Dégradation notable de la qualité",
+        "short": "Mauvaise qualité"
+      },
+      "missing": {
+        "long": "Certains sons manquants",
+        "short": "Manquant"
+      },
+      "other": {
+        "long": "Autre",
+        "short": "Autre"
+      },
+      "outOfSync": {
+        "long": "Désynchronisation du son",
+        "short": "Désynchronisé"
+      }
+    },
+    "prompt": "Avez-vous rencontré des problèmes avec le son ?"
+  },
+  "borked": {
+    "headline": "C’est vraiment dommage !",
+    "intro": "Vous allez maintenant procéder à la soumission d’un rapport de jeu injouable, mais avant de le faire, vous pourriez aller lire notre [FAQ de dépannage de jeu]({{link}})."
+  },
+  "customizationsUsed": {
+    "additionalNotes": {
+      "label": "Détails supplémentaires",
+      "placeholder": "Explication, lien vers un billet de blog ou vers un dépôt Github"
+    },
+    "legend": "Modifications",
+    "options": {
+      "customPrefix": {
+        "long": "Un prefix Wine personnalisé",
+        "short": "Prefix personnalisé"
+      },
+      "customProton": {
+        "long": "Un fork de Proton personnalisé",
+        "short": "Proton personnalisé"
+      },
+      "lutris": {
+        "long": "Script d’installation Lutris",
+        "short": "Lutris"
+      },
+      "native2Proton": {
+        "long": "Native2Proton",
+        "short": "Native2Proton"
+      },
+      "notListed": {
+        "long": "Non listé",
+        "short": "Non listé"
+      },
+      "protonfixes": {
+        "long": "protonfixes",
+        "short": "protonfixes"
+      },
+      "protontricks": {
+        "long": "protontricks",
+        "short": "protontricks"
+      },
+      "winetricks": {
+        "long": "winetricks",
+        "short": "winetricks"
+      }
+    },
+    "prompt": "Quelles modifications avez-vous apportées ?"
+  },
+  "duration": {
+    "legend": "Durée",
+    "options": {
+      "aboutAnHour": {
+        "long": "1 heure",
+        "short": "1 heure"
+      },
+      "lessThanAnHour": {
+        "long": "< 1 heure",
+        "short": "< 1 heure"
+      },
+      "lessThanFifteenMinutes": {
+        "long": "< 15 minutes",
+        "short": "< 15 minutes"
+      },
+      "moreThanTenHours": {
+        "long": "> 10 heures",
+        "short": "> 10 heures"
+      },
+      "severalHours": {
+        "long": "2+ heures",
+        "short": "2+ heures"
+      }
+    },
+    "prompt": "Combien de temps avez-vous joué ?"
+  },
+  "extra": {
+    "additionalNotes": {
+      "label": "Note supplémentaire",
+      "placeholder": "Veuillez l’ajouter ici."
+    },
+    "prompt": "Souhaitez-vous ajouter quelque chose qui n’aurait pas été abordé dans les questions précédentes ?"
+  },
+  "genericFollowUpPrompt": "Quelle sorte de problèmes ?",
+  "graphicalFaults": {
+    "legend": "Graphiques",
+    "options": {
+      "heavyArtifacts": {
+        "long": "Artefacts majeurs ou fréquents",
+        "short": "Gros artefacts"
+      },
+      "minorArtifacts": {
+        "long": "Artefacts mineurs ou peu fréquents",
+        "short": "Artefacts mineurs"
+      },
+      "missingTextures": {
+        "long": "Textures manquantes",
+        "short": "Textures manquantes"
+      },
+      "other": {
+        "long": "Autre",
+        "short": "Autre"
+      }
+    },
+    "prompt": "Avez-vous remarqué des dégradations graphiques ?"
+  },
+  "graphicsApiSelection": {
+    "legend": "API graphique",
+    "options": {
+      "d3d": {
+        "long": "Direct3D",
+        "short": "Direct3D"
+      },
+      "ogl": {
+        "long": "OpenGL",
+        "short": "OpenGL"
+      },
+      "unsure": {
+        "long": "Celle que le jeu utilise par défaut",
+        "short": "Par défaut"
+      },
+      "vk": {
+        "long": "Vulkan",
+        "short": "Vulkan"
+      }
+    },
+    "prompt": "Quelle API graphique avez-vous utilisé dans le jeu ?"
+  },
+  "inputFaults": {
+    "legend": "Entrée",
+    "options": {
+      "bounding": {
+        "long": "Limites incorrectes",
+        "short": "Limites"
+      },
+      "controllerMapping": {
+        "long": "Les touches des manettes n’ont pas été configurées correctement",
+        "short": "Configuration touches"
+      },
+      "controllerNotDetected": {
+        "long": "Manette non détectée",
+        "short": "Détection manette"
+      },
+      "controllerNotResponsive": {
+        "long": "Manette detectée, mais ne répond pas",
+        "short": "Réactivité"
+      },
+      "drifting": {
+        "long": "Déviation des axes",
+        "short": "Déviation"
+      },
+      "inaccuracy": {
+        "long": "Imprécision",
+        "short": "Imprécision"
+      },
+      "lag": {
+        "long": "Entrées lentes",
+        "short": "Lag"
+      },
+      "other": {
+        "long": "Autre",
+        "short": "Autre"
+      }
+    },
+    "prompt": "Avez-vous rencontré des problèmes avec votre souris, votre manette ou d’autres périphériques d’entrée ?"
+  },
+  "installs": {
+    "legend": "Installation",
+    "prompt": "Avez-vous pu installer le jeu ?"
+  },
+  "isImpactedByAntiCheat": {
+    "legend": "Anti-Cheat",
+    "options": {
+      "battleEye": {
+        "long": "BattlEye",
+        "short": "BattlEye"
+      },
+      "easyAntiCheat": {
+        "long": "Easy Anti Cheat",
+        "short": "EAC"
+      },
+      "other": {
+        "long": "Autre",
+        "short": "Autre"
+      }
+    },
+    "prompt": "Le jeu est-il impacté par un logiciel Anti-Cheat ?"
+  },
+  "isMultiplayerImportant": {
+    "prompt": "Le mode multijoueur constitue-t-il un élément essentiel de ce jeu ?"
+  },
+  "launchFlagsUsed": {
+    "additionalNotes": {
+      "label": "Détails supplémentaires",
+      "placeholder": "En quoi cela a-t-il aidé ?"
+    },
+    "legend": "Options de lancement",
+    "options": {
+      "disableD3d10": {
+        "long": "Désactiver D3D10 (PROTON_NO_D3D10)",
+        "short": "Désactiver D3D10"
+      },
+      "disableD3d11": {
+        "long": "Désactiver D3D11 (PROTON_NO_D3D11)",
+        "short": "Désactiver D3D11"
+      },
+      "disableEsync": {
+        "long": "Désactiver Esync (PROTON_NO_ESYNC)",
+        "short": "Désactiver Esync"
+      },
+      "disableFsync": {
+        "long": "Désactiver Fsync (PROTON_NO_FSYNC)",
+        "short": "Désactiver Fsync"
+      },
+      "largeAddressAware": {
+        "long": "Prise en compte des grandes adresses (PROTON_FORCE_LARGE_ADDRESS_AWARE)",
+        "short": "Grandes adresses"
+      },
+      "oldGlString": {
+        "long": "Ancienne chaine GL (PROTON_OLD_GL_STRING)",
+        "short": "Ancienne chaine GL"
+      },
+      "useWineD3d11": {
+        "long": "Utiliser Wine D3D (PROTON_USE_WINED3D)",
+        "short": "Utiliser Wine D3D"
+      },
+      "useWineD9vk": {
+        "long": "Utiliser D9VK (PROTON_USE_D9VK)",
+        "short": "Utiliser D9VK"
+      }
+    },
+    "prompt": "Utilisez-vous l’une de ces options de lancement de Proton ?"
+  },
+  "launcher": {
+    "additionalNotes": {
+      "label": "Lanceur"
+    },
+    "legend": "Lanceur",
+    "options": {
+      "gamehub": {
+        "long": "Gamehub",
+        "short": "Gamehub"
+      },
+      "lutris": {
+        "long": "Lutris",
+        "short": "Lutris"
+      },
+      "notListed": {
+        "long": "Non listé",
+        "short": "Non listé"
+      },
+      "steam": {
+        "long": "Steam",
+        "short": "Steam"
+      }
+    },
+    "prompt": "Comment lancez-vous le jeu ?"
+  },
+  "localMultiplayerAppraisal": {
+    "prompt": "Comment évalueriez-vous le multijoueur local ? Veuillez évaluer les lags, les problèmes de connexion ou d’entrée, etc."
+  },
+  "localMultiplayerAttempted": {
+    "prompt": "Avez-vous essayé de jouer en mode multijoueur local (hors ligne) ?"
+  },
+  "localMultiplayerPlayed": {
+    "prompt": "Avez-vous réussi à faire fonctionner le multijoueur local ?"
+  },
+  "misc": {
+    "answerRequired": "Réponse requise",
+    "answerRequiredWhenNotListed": "Réponse requise lorsque Non listé est choisi",
+    "back": "Retour",
+    "error": "Erreur !",
+    "markdownSupportNotice": "La notation Markdown peut maintenant être utilisée",
+    "maxChars": "{{count}} caractères max",
+    "next": "Suivant",
+    "submission": {
+      "error": "Une erreur est survenue lors de la soumission. Veuillez nous en informer !",
+      "note": "Veuillez noter que les nouveaux rapports seront mis en attente jusqu’au prochain rafraichissement. Vous pouvez voir votre contribution dans votre [Profil]({{link}})",
+      "success": "Soumis",
+      "thanks": "Merci pour votre contribution à {{siteName}}"
+    },
+    "submit": "Soumettre",
+    "tooLong": "Trop long"
+  },
+  "multiplayerAppraisal": {
+    "options": {
+      "acceptable": {
+        "long": "Acceptable. Problèmes modérés mais qui peuvent être surmontés.",
+        "short": "Acceptable"
+      },
+      "awful": {
+        "long": "Affreux. Pratiquement injouable.",
+        "short": "Affreux"
+      },
+      "excellent": {
+        "long": "Excellent. Aucun problème rencontré.",
+        "short": "Excellent"
+      },
+      "good": {
+        "long": "Bon. Problèmes peu fréquents, mais globalement jouable.",
+        "short": "Bon"
+      },
+      "weak": {
+        "long": "Faible. Les problèmes ont un impact significatif sur l’expérience de jeu.",
+        "short": "Faible"
+      }
+    }
+  },
+  "onlineMultiplayerAppraisal": {
+    "prompt": "Comment évaluez-vous le multijoueur en ligne ? Veuillez évaluer les lags, les problèmes de connexion ou d’entrée, les échecs de matchmaling, etc."
+  },
+  "onlineMultiplayerAttempted": {
+    "prompt": "Avez-vous essayé de jouer en multijoueur en ligne ?"
+  },
+  "onlineMultiplayerPlayed": {
+    "prompt": "Avez-vous pu vous connecter et jouer en multijoueur en ligne ?"
+  },
+  "opens": {
+    "legend": "Se lance",
+    "prompt": "Avez-vous pu démarrer le jeu et voir le menu principal ?"
+  },
+  "performanceFaults": {
+    "legend": "Performance",
+    "options": {
+      "significantSlowdown": {
+        "long": "Gors problèmes de performance",
+        "short": "Gros problèmes de performance"
+      },
+      "slightSlowdown": {
+        "long": "Légers problèmes de performance",
+        "short": "Légers problèmes de performance"
+      }
+    },
+    "prompt": "Avez-vous expérimenté des lenteurs compte tenu de votre matériel ?"
+  },
+  "prerequisitesBlock": {
+    "action": "Aller au profil",
+    "context": "Vous devez vous connecter à votre compte Steam et fournir vos informations système avant de pouvoir soumettre un rapport !"
+  },
+  "preview": {
+    "intro": "Choses à vérifier :",
+    "notes": [
+      "Vos informations système sont-elles à jour ? Vous devez vous rendre sur votre profil pour mettre à jour vos informations Steam après une mise à jour des pilotes graphiques.",
+      "Avez-vous sélectionné le bon jeu ? Certains jeux ont le même nom que les anciennes versions, par exemple GRID.",
+      "Avez-vous ajouté les descriptions au bon endroit ? Par exemple, écrivez les notes sur les problèmes graphiques dans la section dédiée plutôt que dans les notes de fin."
+    ]
+  },
+  "prompts": {
+    "continuingDraft": "Vous continuez à partir d’un brouillon sauvegardé automatiquement.",
+    "discardDraftWarning": "Toutes vos réponses seront définitivement supprimées.",
+    "startOver": "Recommencer"
+  },
+  "protonVersion": {
+    "additionalNotes": {
+      "label": "Version de Proton manuelle",
+      "placeholder": "Doit être une chaîne de version de Proton valide. Exemples : {{examples}}"
+    },
+    "prompt": "Quelle version de Proton utilisez-vous ?"
+  },
+  "saveGameFaults": {
+    "legend": "Sauvegardes",
+    "options": {
+      "errorLoading": {
+        "long": "Impossible de charger une sauvegarde",
+        "short": "Chargement"
+      },
+      "errorSaving": {
+        "long": "Impossible de sauvegarder",
+        "short": "Sauvegarde"
+      },
+      "other": {
+        "long": "Autre",
+        "short": "Autre"
+      }
+    },
+    "prompt": "Avez-vous rencontré des problèmes avec les sauvegardes ?"
+  },
+  "significantBugs": {
+    "legend": "Bugs importants",
+    "prompt": "Avez-vous rencontré d’autres bogues importants ?"
+  },
+  "stabilityFaults": {
+    "legend": "Stabilité",
+    "options": {
+      "frequentCrashes": {
+        "long": "Crashs fréquents",
+        "short": "Fréquemment"
+      },
+      "notListed": {
+        "long": "Non listé",
+        "short": "Non listé"
+      },
+      "occasionally": {
+        "long": "Crashs occasionnels",
+        "short": "Occasionnellement"
+      }
+    },
+    "prompt": "Avez-vous rencontré des problèmes de stabilité ?"
+  },
+  "startsPlay": {
+    "legend": "Démarrer une partie",
+    "prompt": "Avez-vous pu commencer à jouer ?"
+  },
+  "stepHeadlines": {
+    "appSelection": "Sélection du jeu",
+    "borked": "Injouable !",
+    "customizations": "Personnalisations",
+    "finalNotes": "Verdict",
+    "gameplay": "Autres problèmes potentiels",
+    "graphics": "Graphismes et performances",
+    "multiplayer": "Multijoueur",
+    "preview": "Prévisualisation",
+    "setup": "Configuration",
+    "stability": "Stabilité",
+    "startup": "Installation et démarrage",
+    "tinkerCheck": "Type de rapport",
+    "unownedWarning": "Pas dans la bibliothèque"
+  },
+  "type": {
+    "intro": [
+      "ProtonDB divise maintenant les rapports en deux types : Steam Play et Tinker.",
+      "Utilisez les rapports Steam Play pour couvrir l’expérience originale. Installez, lancez le jeu et commencez à jouer.",
+      "Utilisez les rapports Tinker si vous avez fait des ajustements ou des modifications pour que le jeu fonctionne.",
+      "Pour plus d’informations sur les différences, veuillez lire [cette news]({{link}})."
+    ],
+    "options": {
+      "steamPlay": {
+        "long": "Rapport Steam Play",
+        "short": "Rapport Steam Play"
+      },
+      "tinker": {
+        "long": "Rapport Tinker",
+        "short": "Rapport Tinker"
+      }
+    },
+    "prompt": "Quel type de rapport souhaitez-vous écrire ?"
+  },
+  "verdict": {
+    "additionalNotes": {
+      "label": "Résumé ({{count}} caractères max)",
+      "placeholder": "Ajoutez un bref résumé. Ceci sera le titre de votre rapport."
+    },
+    "prompt": "Un joueur typique aurait-il une expérience agréable en exécutant ce jeu sous Linux avec Proton ?"
+  },
+  "welcome": {
+    "headline": "Bienvenue",
+    "intro": "Merci de l’intérêt que vous portez à étendre le catalogue de rapports de compatibilité ProtonDB pour Steam Play et Proton ! Veuillez garder ceci à l’esprit avant de contribuer :",
+    "notes": [
+      "Les rapports sont publiés sur ProtonDB pour vous aider vous, Valve et les développeurs à aider à réparer les jeux. Veillez à ce que vos rapports soient précis, sans langage offensant et évitez de les envoyer dans le seul but de promouvoir votre jeu favori, votre distribution ou votre carte graphique préférés.",
+      "Nous vous encourageons à soumettre plusieurs rapports pour le même jeu ! Au fur et à mesure que vous jouez ou que vous mettez à jour Proton, vous aurez plus de choses à dire. De cette façon, ProtonDB diffère d’un wiki, puisque chaque rapport sert d’instantané de la façon dont le jeu fonctionnait à cette date avec votre configuration.",
+      "Si vous soumettez plusieurs rapports, seul votre rapport le plus récent comptera pour l’évaluation de ProtonDB et seulement si les informations de votre système répondent aux exigences minimales de Proton.",
+      "Vos contributions seront visibles publiquement sur ProtonDB et disponibles dans les données exportées sous licence Open Database License. Rendez-vous [ici]({{{link}}}) pour plus d’informations."
+    ],
+    "outro": "Sur ce, c’est parti !"
+  },
+  "windowingFaults": {
+    "legend": "Fenêtrage",
+    "options": {
+      "activatingFullscreen": {
+        "long": "Le mode plein écran n’a pas pu être activé",
+        "short": "Activation plein écran"
+      },
+      "fullNotFull": {
+        "long": "Le mode plein écran ne remplissait pas totalement l’écran",
+        "short": "Taille"
+      },
+      "other": {
+        "long": "Autre",
+        "short": "Autre"
+      },
+      "switching": {
+        "long": "Impossible de quitter conventionnellement le plein écran (comme avec Alt-Tab)",
+        "short": "Alt-Tab"
+      }
+    },
+    "prompt": "Avez-vous eu des problèmes avec le fenêtrage ou le plein écran ?"
+  }
+}
