@@ -116,7 +116,7 @@
     "note": "Veuillez vous assurer que dans vos [paramètres de confidentialité Steam]({{link}}) la visibilité de votre « profil » et de vos « jeux » soit visible pour « tout le monde ». Des changements récents dans Steam ont rendu ces paramètres privés par défaut. Ceci utilisera l’API Web de Steam pour récupérer les informations publiques à propos de votre compte, dont l’ID, le nom de profil et l’avatar.",
     "refresh": "Rafraichir",
     "steamSignIn": "Se connecter avec Steam",
-    "unlink": "Dé-lier le compte"
+    "unlink": "Dissocier le compte"
   },
   "medals": {
     "borked": "Injouable",
@@ -261,7 +261,7 @@
     "resultsHeader": "Résultats de recherche pour {{q}}"
   },
   "stats": {
-    "analysisInByTheNumbers1": "Analyse par les nombres n° 1",
+    "analysisInByTheNumbers1": "Analyse par les nombres nº 1",
     "byCommonDisplayDrivers": "Par pilote graphique",
     "byDistro": "Par distribution",
     "byGpu": "Par carte graphique",
