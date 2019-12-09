@@ -8,9 +8,9 @@ ProtonDB loads its text using [react-i18next](https://github.com/i18next/react-i
 
 Each language, as represented by their 'xx-XX' [BCP-47 language tag](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl), lives within `locales`. Within each locale's directory are the following files:
 
-- `protondb-content.json` *(translations for content around the site)
+- `protondb-content.json` *(translations for content around the site)*
 - `proton-report.json` *(translations for the reporting flow specific to Proton)*
-- `questionnaire.json` *(translations for generic items in the reporting flow)
+- `questionnaire.json` *(translations for generic items in the reporting flow)*
 - `general.json` *(everything else)*
 
 #### Prerequisites
