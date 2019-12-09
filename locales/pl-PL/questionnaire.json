@@ -1,0 +1,20 @@
+{
+  "genericFollowUpPrompt": "Jakiego rodzaju problemy?",
+  "misc": {
+    "answerRequired": "Odpowiedź wymagana",
+    "answerRequiredWhenNotListed": "Odpowiedź wymagana gdy wybrano „niewymieniony”",
+    "back": "Wstecz",
+    "error": "Błąd!",
+    "markdownSupportNotice": "Markdown jest teraz wspierany",
+    "maxChars": "Do {{count}} znaków",
+    "next": "Dalej",
+    "submission": {
+      "error": "Podczas wysyłania raportu wystąpił błąd. Prosimy, poinformuj nas, w jakich okolicznościach się to stało!",
+      "note": "Pamiętaj, że nowe raporty pozostaną w stanie oczekiwania do czasu następnego odświeżenia zawartości. Możesz przeglądać swój wkład w [profilu]({{link}})",
+      "success": "Pomyślnie wysłano",
+      "thanks": "Dziękujemy za twój wkład w {{siteName}}"
+    },
+    "submit": "Wyślij",
+    "tooLong": "Za długie"
+  }
+}

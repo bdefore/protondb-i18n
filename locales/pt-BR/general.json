@@ -1,0 +1,109 @@
+{
+  "i18nStamp": 1573767610406,
+  "libraryLoader": {
+    "errorLoadingGames": "Erro carregando jogos. Por favor verifique se a privacidade do seu perfil e dos seus jogos estão marcados como públicos na sua conta!",
+    "gameTotal": "{{count}} jogos na biblioteca carregados!",
+    "headline": "Autenticação Steam",
+    "intro": "Logar com sua conta Steam permite que você envie relatos e use o [Explorar página com filtro da Biblioteca]({{link}}) para limitar os resultados aos jogos que você possui.",
+    "loggedInAs": "Logado como {{username}}",
+    "note": "Certifique-se que em suas [Configurações de Privacidade da Steam]({{link}}) tanto 'Privacidade do perfil' como 'Privacidade de jogos' estejam marcados como 'Pública'. Mudanças recentes na Steam tornaram essas configurações privadas por padrão. Isso utilizará a Steam Web API para recuperar informações públicas da sua conta incluindo sua id, nome do perfil e avatar. A Steam mostrará o endereço de IP do {{host}} para você aprovar - isso é normal e esperado.",
+    "refresh": "Atualizar",
+    "steamSignIn": "Logar com a conta Steam",
+    "unlink": "Desvincular conta"
+  },
+  "misc": {
+    "addYourReport": "Adicionar seu Relato",
+    "affirmative": "Sim",
+    "areYouSure": "Tem certeza?",
+    "chipset": "Chipset",
+    "conjunction": "e",
+    "dismiss": "Dispensar",
+    "distro": "Distro",
+    "driver": "Driver",
+    "execute": "Rodar",
+    "feedbackPrompt": "Comentários? Fale com a gente no [Discord]({{link}})",
+    "filter": "Filtro",
+    "games": "Jogos",
+    "hide": "Ocultar {{what}}",
+    "include": "Incluir",
+    "install": "Instalar",
+    "joinUsPrompt": "Junte-se a nós no Discord!",
+    "lastContentRefreshTime": "Última atualização de conteúdo foi há {{time}}",
+    "meetsRequirements": "Cumpre os requisitos",
+    "moreInfo": "Mais informações",
+    "multiplayer": "Multijogador",
+    "native": "Nativo",
+    "negative": "Não",
+    "notFound": "Não encontrado",
+    "note": "Nota",
+    "overall": "Geral",
+    "pending": "Pendente",
+    "provisional": "Provisório",
+    "published": "Publicado",
+    "rated": "Avaliado",
+    "report": "Relato",
+    "reports": "Relatos",
+    "save": "Salvar",
+    "saved": "{{what}} Salvo",
+    "show": "Mostrar {{what}}",
+    "showAll": "Mostrar Todos",
+    "showMore": "Mostrar Mais",
+    "tier": "Categoria",
+    "total": "Total",
+    "unknown": "Desconhecido",
+    "version": "Versão"
+  },
+  "nav": {
+    "contribute": "Contribuir",
+    "explore": "Explorar",
+    "help": "Ajuda",
+    "news": "Notícias",
+    "profile": "Perfil",
+    "search": "Buscar jogos...",
+    "stats": "Estatísticas"
+  },
+  "pagination": {
+    "next": "Página seguinte",
+    "previous": "Página anterior",
+    "summary": "Resultados {{from}} a {{to}} de {{total}}"
+  },
+  "preferences": {
+    "headline": "Preferências",
+    "intro": "O ProtonDB mostra o nome de usuário do remetente ao lado dos relatos. Sua ID Steam única não é transmitida nos dados dos relatos publicados. Se você está preocupado que seu nome de usuário possa ser utilizado para inferir seu perfil na Steam, você pode utilizar um nome de usuário diferente aqui e isso será utilizado após a próxima atualização de conteúdo.",
+    "questions": {
+      "customName": {
+        "additionalNotes": {
+          "label": "Nome Personalizado"
+        },
+        "options": {
+          "custom": "Um nome de usuário personalizado",
+          "keepSteam": "Meu nome de usuário Steam ({{steamNickname}})"
+        },
+        "prompt": "Seu nome público"
+      },
+      "language": {
+        "prompt": "Idioma (Experimental)"
+      }
+    }
+  },
+  "profile": {
+    "exploreLibrary": "Você pode explorar sua biblioteca ordenada pelas seguintes visualizações:",
+    "inYourLibrary": "Na sua biblioteca",
+    "libraryTags": {
+      "byHoursPlayed": "Pelo seu tempo de jogo",
+      "byPlayerCount": "Pelo numero de jogadores",
+      "byProtonDbRating": "Pela avaliação no ProtonDB",
+      "bySteamDbScore": "Pela nota dos usuários no SteamDB",
+      "headline": "Os marcadores a seguir são comuns na sua biblioteca. Você pode explorar com eles:",
+      "lackReportsByHoursPlayed": "Faltam Relatos por seu tempo de jogo",
+      "lackReportsByPlayerCount": "Faltam Relatos pelo número de jogadores",
+      "lackReportsBySteamDbScore": "Faltam Relatos pela nota dos usuários no SteamDB"
+    },
+    "notInYourLibrary": "Não Existe na Sua Biblioteca",
+    "yourContributions": "Suas Contribuições"
+  },
+  "reports": {},
+  "search": {
+    "resultsHeader": "Resultados da busca por {{q}}"
+  }
+}

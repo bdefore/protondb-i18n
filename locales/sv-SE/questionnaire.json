@@ -1,0 +1,20 @@
+{
+  "genericFollowUpPrompt": "Vilken typ av problem?",
+  "misc": {
+    "answerRequired": "Svar krävs",
+    "answerRequiredWhenNotListed": "Svar krävs när \"Inte listat\" är valt",
+    "back": "Tillbaka",
+    "error": "Något fick fel (error)!",
+    "markdownSupportNotice": "Markdown stöds nu",
+    "maxChars": "Max {{count}} tecken",
+    "next": "Nästa",
+    "submission": {
+      "error": "Något gick snett under inlämningen. Vi uppskattar om du berättar för oss hur detta hände!",
+      "note": "Notera att nya rapporter inte kommer visas direkt i avvaktan på nästa innehållsuppdatering. Du kan visa dina bidrag på din [profil]({{link}})",
+      "success": "Successfully Submitted",
+      "thanks": "Tack för ditt bidrag till {{siteName}}"
+    },
+    "submit": "Lämna in",
+    "tooLong": "För långt"
+  }
+}

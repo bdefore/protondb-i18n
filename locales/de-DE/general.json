@@ -1,0 +1,139 @@
+{
+  "content": {
+    "followingPost": "Nachfolgender Beitrag",
+    "previousPost": "Vorheriger Beitrag"
+  },
+  "contextualInfo": {
+    "hoursPlayed": "{{context}} Stunden gespielt",
+    "peakPlayers": "{{context}} peak players",
+    "positiveRating": "{{context}}% postive Bewertungen",
+    "recentReportCount": "{{context}} Berichte mit den letzten zwei Proton-Versionen"
+  },
+  "footer": {
+    "description": "{{name}} ist ein passioniertes Projekt von [@bdefore]({{link}}) und einer engagierten Gemeinschaft von Reportern.",
+    "feedbackPrompt": "Hast du Feedback? Lass es uns auf Discord wissen!",
+    "legal": "Diese Website hat keine Verbindung zu Valve Software. Alle Spielecover und Logos sind Eigentum der jeweiligen Besitzer."
+  },
+  "libraryLoader": {
+    "errorLoadingGames": "Fehler beim Laden von Spielen. Bitte stelle sicher, dass sowohl Profil- als auch Spieledetails auf diesem Konto öffentlich sind!",
+    "gameTotal": "{{count}} Spiele in der Bibliothek geladen!",
+    "headline": "Steam-Authentifizierung",
+    "intro": "Wenn du dich mit Steam anmeldest, kannst du Berichte einreichen und die Seite [mit einem Bibliotheksfilter]({{link}}) erkunden, um die Ergebnisse auf Spiele zu beschränken, die du besitzt.",
+    "loggedInAs": "Angemeldet als {{username}}",
+    "note": "Stelle sicher, dass in deinen [Steam-Privatsphäreeinstellungen ]({{link}}) sowohl 'Mein Profil' als auch deine 'Spieledetails' öffentlich eingestellt sind. Die letzten Änderungen an Steam haben diese standardmäßig privat gemacht. Diese Seite verwendet das Steam-Web-API, um öffentliche Informationen über dein Konto abzurufen, einschließlich deiner ID, deines Profilnamens und deines Avatars.",
+    "refresh": "Aktualisieren",
+    "steamSignIn": "Mit Steam anmelden",
+    "unlink": "Konto trennen"
+  },
+  "misc": {
+    "addYourReport": "Bericht verfassen",
+    "affirmative": "Ja",
+    "any": "Beliebig",
+    "areYouSure": "Bist du sicher?",
+    "cancel": "Abbrechen",
+    "chipset": "Chipsatz",
+    "conjunction": "und",
+    "discard": "Verwerfen",
+    "dismiss": "Verwerfen",
+    "distro": "Distro",
+    "driver": "Treiber",
+    "execute": "Ausführen",
+    "feedbackPrompt": "Feedback? Lass es uns auf [Discord]({{link}}) wissen",
+    "filter": "Filter",
+    "filteringSettings": "Filtereinstellungen",
+    "games": "Spiele",
+    "hide": "Verstecke {{what}}",
+    "include": "Einbeziehen",
+    "install": "Installieren",
+    "joinUsPrompt": "Komm zu uns auf Discord!",
+    "lastContentRefreshTime": "Letztes Inhaltupdate vor {{time}}",
+    "meetsRequirements": "Erfüllt die Anforderungen",
+    "moreInfo": "Mehr Informationen",
+    "multiplayer": "Mehrspieler",
+    "native": "Nativ",
+    "negative": "Nein",
+    "notFound": "Nicht gefunden",
+    "note": "Notiz",
+    "overall": "Insgesamt",
+    "pending": "Ausstehend",
+    "preferences": "Einstellungen",
+    "provisional": "Provisorisch",
+    "published": "Veröffentlicht",
+    "rated": "Bewertet",
+    "report": "Bericht",
+    "reports": "Berichte",
+    "reset": "Zurücksetzen",
+    "save": "Speichern",
+    "saved": "{{what}} gespeichert",
+    "show": "Zeige {{what}}",
+    "showAll": "Zeige alle",
+    "showMore": "Zeige mehr",
+    "skip": "Überspringen",
+    "tier": "Stufe",
+    "total": "Insgesamt",
+    "unknown": "Unbekannt",
+    "version": "Version"
+  },
+  "nav": {
+    "contribute": "Beitragen",
+    "explore": "Erkunden",
+    "help": "Hilfe",
+    "news": "Neuigkeiten",
+    "search": "Suche Spiele...",
+    "stats": "Statistiken"
+  },
+  "pagination": {
+    "next": "Nächste Seite",
+    "previous": "Vorherige Seite",
+    "summary": "Ergebnisse {{from}} bis {{to}} von {{total}}"
+  },
+  "preferences": {
+    "headline": "Einstellungen",
+    "intro": "ProtonDB zeigt den Steam-Nicknamen des Einreichers neben Berichten an. Deine eindeutige Steam-ID wird in den Daten der veröffentlichten Berichte nicht angezeigt. Wenn du besorgt bist, dass dein Spitzname verwendet werden kann, um dein Steam-Profil abzuleiten, kannst du hier einen anderen Spitznamen wählen, der nach der nächsten Aktualisierung des Inhalts verwendet wird.",
+    "questions": {
+      "customName": {
+        "additionalNotes": {
+          "label": "Benutzerdefinierter Name"
+        },
+        "options": {
+          "custom": "Ein benutzerdefinierter Nickname",
+          "keepSteam": "Mein Steam-Nickname ({{steamNickname}})"
+        },
+        "prompt": "Dein öffentlicher Name"
+      },
+      "language": {
+        "prompt": "Sprache"
+      },
+      "performanceMode": {
+        "prompt": "Möchtest Du eine performance-optimierte Version der Seite verwenden?"
+      }
+    }
+  },
+  "profile": {
+    "exploreLibrary": "Du kannst deine Bibliothek sortiert nach folgenden Ansichten durchsuchen:",
+    "inYourLibrary": "In deiner Bibliothek",
+    "libraryTags": {
+      "byHoursPlayed": "Nach deiner Spielzeit",
+      "byPlayerCount": "Nach Spieleranzahl",
+      "byProtonDbRating": "Nach ProtonDB-Wertung",
+      "bySteamDbScore": "Nach SteamDB-Benutzerwertung",
+      "headline": "Die folgenden Tags kommen in deiner Bibliothek häufig vor. Mit diesen kannst du einsteigen:",
+      "lackReportsByHoursPlayed": "Berichte benötigt nach deiner Spielzeit",
+      "lackReportsByPlayerCount": "Berichte benötigt nach Spieleranzahl",
+      "lackReportsBySteamDbScore": "Berichte benötigt nach SteamDB-Benutzerwertung"
+    },
+    "notInYourLibrary": "Nicht in deiner Bibliothek",
+    "yourContributions": "Deine Beiträge"
+  },
+  "reports": {
+    "clear": "Löschen",
+    "filteredOutCount": "{{count}} herausgefiltert",
+    "filteredOutHeadline": "Die folgenden {{count}} Berichte stimmen nicht mit deinen Filterkriterien für {{filters}} überein.",
+    "superceded": "Es gibt einen neueren Bericht dieses Typs von diesem Autor",
+    "zeroStateMessage": "Keine Berichte",
+    "zeroStateMessageWithFilters": "Keine Berichte entsprechen deinen angewandten Filtern"
+  },
+  "search": {
+    "resultsHeader": "Suchergebnisse für {{q}}"
+  }
+}

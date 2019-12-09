@@ -1,0 +1,137 @@
+{
+  "content": {
+    "followingPost": "Post Successivo",
+    "previousPost": "Post Precedente"
+  },
+  "contextualInfo": {
+    "hoursPlayed": "{{context}} ore di gioco",
+    "peakPlayers": "{{context}} giocatori",
+    "positiveRating": "{{context}}% rating positivi",
+    "recentReportCount": "{{context}} report con le ultime due versioni di Proton"
+  },
+  "footer": {
+    "description": "{{name}} è un progetto di [@bdefore]({{link}}) e di una community dedicata di reporters.",
+    "feedbackPrompt": "Hai qualche feedback? Unisciti a noi su Discord!",
+    "legal": "Questo sito non ha alcun legame con Valve Software. Tutte le immagini di giochi e loghi sono proprietà dei rispettivi proprietari."
+  },
+  "libraryLoader": {
+    "errorLoadingGames": "Errore nel caricamento della libreria. Assicurati che il Profilo e i Dettagli del gioco siano pubblici su questo account!",
+    "gameTotal": "{{count}} giochi caricati dalla libreria!",
+    "headline": "Autenticazione di Steam",
+    "intro": "L'autenticazione tramite Steam ti permette di inviare report e [Esplorare con il filtro sulla libreria]({{link}}) per limitare i risultati ai giochi che possiedi.",
+    "loggedInAs": "Autenticato come {{username}}",
+    "note": "Assicurati che 'Visibilità del mio profilo' e 'Visibilità delle mie informazioni di gioco' siano entrambe pubbliche nelle [impostazioni della privacy di Steam]({{link}}). Cambiamenti recenti le hanno impostate a private di default. Verranno usate le Steam Web API per recuperare informazioni come il tuo id, nome e avatar. Steam presenterà un indirizzo IP di {{host}} di cui fidarti.",
+    "refresh": "Aggiorna",
+    "steamSignIn": "Autenticati con Steam",
+    "unlink": "Scollega Account"
+  },
+  "misc": {
+    "addYourReport": "Aggiungi un report",
+    "affirmative": "Sì",
+    "any": "Qualunque",
+    "areYouSure": "Sei sicuro?",
+    "cancel": "Cancella",
+    "chipset": "Chipset",
+    "conjunction": "e",
+    "discard": "Scarta",
+    "dismiss": "Nascondi",
+    "distro": "Distro",
+    "driver": "Driver",
+    "execute": "Esegui",
+    "feedbackPrompt": "Feedback? Facci sapere su [Discord]({{link}})",
+    "filter": "Filtro",
+    "filteringSettings": "Settings Filtro",
+    "games": "Giochi",
+    "hide": "Nascondi {{what}}",
+    "include": "Includi",
+    "install": "Installa",
+    "joinUsPrompt": "Unisciti a noi su Discord!",
+    "lastContentRefreshTime": "Ultimo aggiornamento dei contenuti: {{time}} fa",
+    "meetsRequirements": "Soddisfa i requirements",
+    "moreInfo": "Più Informazioni",
+    "multiplayer": "Multiplayer",
+    "native": "Nativo",
+    "negative": "No",
+    "notFound": "Non trovato",
+    "note": "Nota",
+    "overall": "Complessivamente",
+    "pending": "In attesa",
+    "preferences": "Preferenze",
+    "provisional": "Provvisorio",
+    "published": "Pubblicato",
+    "rated": "Valutato",
+    "report": "Report",
+    "reports": "Reports",
+    "reset": "Reset",
+    "save": "Salva",
+    "saved": "{{what}} Salvato",
+    "show": "Mostra {{what}}",
+    "showAll": "Mostra tutto",
+    "showMore": "Mostra di più",
+    "skip": "Salta",
+    "tier": "Categoria",
+    "total": "Totale",
+    "unknown": "Sconosciuto",
+    "version": "Versione"
+  },
+  "nav": {
+    "contribute": "Contribuisci",
+    "explore": "Esplora",
+    "help": "Aiuto",
+    "news": "Novità",
+    "profile": "Profilo",
+    "search": "Cerca titoli...",
+    "stats": "Statistiche"
+  },
+  "pagination": {
+    "next": "Prossima pagina",
+    "previous": "Pagina precedente",
+    "summary": "Risultati da {{from}} a {{to}} su {{total}}"
+  },
+  "preferences": {
+    "headline": "Preferenze",
+    "intro": "ProtonDB mostra il nickname dell'autore dei report. Il tuo ID univoco di Steam non viene trasmesso nei dati del report. Se sei preoccupato che il tuo nickname possa essere usato per arrivare al tuo profilo Steam, puoi scegliere un nickname diverso qui e questo sarà usato dopo il prossimo aggiornamento dei contenuti.",
+    "questions": {
+      "customName": {
+        "additionalNotes": {
+          "label": "Nome Personalizzato"
+        },
+        "options": {
+          "custom": "Nickname personalizzato",
+          "keepSteam": "Il mio nickname di steam ({{steamNickname}})"
+        },
+        "prompt": "Il tuo nome pubblico"
+      },
+      "language": {
+        "prompt": "Lingua (Sperimentale)"
+      }
+    }
+  },
+  "profile": {
+    "exploreLibrary": "Puoi esplorare la tua libreria nei seguenti modi:",
+    "inYourLibrary": "Nella tua libreria",
+    "libraryTags": {
+      "byHoursPlayed": "Per ore giocate",
+      "byPlayerCount": "per numero di giocatori",
+      "byProtonDbRating": "Per rating di ProtonDB",
+      "bySteamDbScore": "Per score degli utenti di SteamDB",
+      "headline": "I seguenti tag sono comuni nella tua libreria. Puoi provare con questi:",
+      "lackReportsByHoursPlayed": "Report Mancanti per le tue ore di gioco",
+      "lackReportsByPlayerCount": "Report Mancanti per numero di giocatori",
+      "lackReportsBySteamDbScore": "Report Mancanti per score degli utenti di SteamDB"
+    },
+    "notInYourLibrary": "Non è nella tua libreria",
+    "yourContributions": "Le tue contribuzioni"
+  },
+  "reports": {
+    "clear": "Cancella",
+    "filteredOutCount": "{{count}} filtrati",
+    "filteredOutHeadline": "I seguenti {{count}} reports non corrispondono ai tuoi criteri di filtraggio per {{filters}}",
+    "superceded": "C'è un nuovo report di questo tipo fatto da questo autore",
+    "zeroStateMessage": "Nessun report",
+    "zeroStateMessageWithFilters": "Nessun report corrisponde ai tuoi filtri scelti"
+  },
+  "search": {
+    "resultsHeader": "Risultati per {{q}}"
+  }
+}

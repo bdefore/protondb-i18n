@@ -1,0 +1,14 @@
+{
+  "genericFollowUpPrompt": "What sort of problems?",
+  "misc": {
+    "answerRequired": "Answer Required",
+    "answerRequiredWhenNotListed": "Answered Required When Not Listed Is Chosen",
+    "back": "Back",
+    "error": "Error!",
+    "markdownSupportNotice": "Markdown is now supported",
+    "maxChars": "Max {{count}} chars",
+    "next": "Next",
+    "submit": "Submit",
+    "tooLong": "Too long"
+  }
+}

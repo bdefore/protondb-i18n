@@ -1,0 +1,140 @@
+{
+  "content": {
+    "followingPost": "Publication suivante",
+    "previousPost": "Publication précédente"
+  },
+  "contextualInfo": {
+    "hoursPlayed": "{{context}} heures jouées",
+    "peakPlayers": "{{context}} peak players",
+    "positiveRating": "{{context}} % d’évaluations positives",
+    "recentReportCount": "{{context}} rapports avec les deux dernières versions de Proton"
+  },
+  "footer": {
+    "description": "{{name}} est un projet passionnant de [@bdefore]({{link}}) et d’une communauté dédiée de rapporteurs.",
+    "feedbackPrompt": "Des commentaires ? Rejoignez-nous sur Discord !",
+    "legal": "Ce site n’est pas affilié avec Valve Software. Toutes les images et logos des jeux sont la propriété de leurs propriétaires respectifs."
+  },
+  "libraryLoader": {
+    "errorLoadingGames": "Erreur lors du chargement des jeux. Assurez-vous que le Profil et les Détails de Jeu soient publics sur ce compte !",
+    "gameTotal": "{{count}} jeux dans la bibliothèque chargés !",
+    "headline": "Authentification Steam",
+    "intro": "En vous connectant avec Steam vous pourrez soumettre des rapports et utiliser la [page Explorer avec un filtre Bibliothèque]({{link}}) pour limiter les résultats aux jeux que vous possédez",
+    "loggedInAs": "Connecté en tant que {{username}}",
+    "note": "Veuillez vous assurer que dans vos [paramètres de confidentialité Steam]({{link}}) la visibilité de votre « profil » et de vos « jeux » soit visible pour « tout le monde ». Des changements récents dans Steam ont rendu ces paramètres privés par défaut. Ceci utilisera l’API Web de Steam pour récupérer les informations publiques à propos de votre compte, dont l’ID, le nom de profil et l’avatar.",
+    "refresh": "Rafraichir",
+    "steamSignIn": "Se connecter avec Steam",
+    "unlink": "Dissocier le compte"
+  },
+  "misc": {
+    "addYourReport": "Ajoutez votre rapport",
+    "affirmative": "Oui",
+    "any": "Tout",
+    "areYouSure": "Êtes-vous sûr ?",
+    "cancel": "Annuler",
+    "chipset": "Chipset",
+    "conjunction": "et",
+    "discard": "Abandonner",
+    "dismiss": "Ignorer",
+    "distro": "Distribution",
+    "driver": "Pilote",
+    "execute": "Exécuter",
+    "feedbackPrompt": "Des commentaires ? Donnez-nous votre avis sur [Discord]({{link}}).",
+    "filter": "Filtrer",
+    "filteringSettings": "Paramètres de filtrage",
+    "games": "Jeux",
+    "hide": "Masquer {{what}}",
+    "include": "Inclure",
+    "install": "Installer",
+    "joinUsPrompt": "Rejoignez-nous sur Discord !",
+    "lastContentRefreshTime": "Le dernier rafraichissement du contenu était il y a {{time}}",
+    "meetsRequirements": "Recommandations atteintes",
+    "moreInfo": "Plus d’infos",
+    "multiplayer": "Multijoueur",
+    "native": "Natif",
+    "negative": "Non",
+    "notFound": "Non trouvé",
+    "note": "Note",
+    "overall": "Global",
+    "pending": "En attente",
+    "preferences": "Préférences",
+    "provisional": "Provisoire",
+    "published": "Publié",
+    "rated": "Évalué",
+    "report": "Rapport",
+    "reports": "Rapports",
+    "reset": "Réinitialiser",
+    "save": "Enregistrer",
+    "saved": "{{what}} enregistrés",
+    "show": "Afficher {{what}}",
+    "showAll": "Tout afficher",
+    "showMore": "Afficher plus",
+    "skip": "Passer",
+    "tier": "Palier",
+    "total": "Total",
+    "unknown": "Inconnu",
+    "version": "Version"
+  },
+  "nav": {
+    "contribute": "Contribuer",
+    "explore": "Explorer",
+    "help": "Aide",
+    "news": "News",
+    "profile": "Profil",
+    "search": "Rechercher jeu…",
+    "stats": "Stats"
+  },
+  "pagination": {
+    "next": "Page suivante",
+    "previous": "Page précédente",
+    "summary": "Résultats de {{from}} à {{to}} sur {{total}}"
+  },
+  "preferences": {
+    "headline": "Préférences",
+    "intro": "ProtonDB affiche les pseudonymes Steam des contributeurs à côté de leurs rapports. Votre identifiant unique Steam n’est pas transmis dans les données du rapport de publié. Si vous êtes préoccupé par le fait que votre pseudonyme puisse être utilisé pour déduire votre profil Steam, vous pouvez choisir un pseudonyme différent ici. Ce pseudonyme sera utilisé après le prochain rafraîchissement du contenu.",
+    "questions": {
+      "customName": {
+        "additionalNotes": {
+          "label": "Pseudonyme personnalisé"
+        },
+        "options": {
+          "custom": "Pseudonyme personnalisé",
+          "keepSteam": "Pseudonyme Steam ({{steamNickname}})"
+        },
+        "prompt": "Votre nom public"
+      },
+      "language": {
+        "prompt": "Langue"
+      },
+      "performanceMode": {
+        "prompt": "Souhaitez-vous utiliser une version performante du site ?"
+      }
+    }
+  },
+  "profile": {
+    "exploreLibrary": "Vous pouvez explorer votre bibliothèque triée avec les vues suivantes :",
+    "inYourLibrary": "Dans votre Bibliothèque",
+    "libraryTags": {
+      "byHoursPlayed": "Par nombre d’heures jouées",
+      "byPlayerCount": "Par nombre de joueurs",
+      "byProtonDbRating": "Par évaluation ProtonDB",
+      "bySteamDbScore": "Par score utilisateur SteamDB",
+      "headline": "Les tags suivants sont courants dans votre bibliothèque. Vous pouvez vous lancer avec ceux-ci :",
+      "lackReportsByHoursPlayed": "Rapports insuffisants par nombre d’heures jouées",
+      "lackReportsByPlayerCount": "Rapports insuffisants par nombre de joueurs",
+      "lackReportsBySteamDbScore": "Rapports insuffisants par score utilisateur SteamDB"
+    },
+    "notInYourLibrary": "Pas dans votre bibliothèque",
+    "yourContributions": "Vos contributions"
+  },
+  "reports": {
+    "clear": "Effacer",
+    "filteredOutCount": "{{count}} filtrés",
+    "filteredOutHeadline": "Les {{count}} rapports suivants ne respectent pas vos critères de filtrage : {{filters}}",
+    "superceded": "Il y a un nouveau rapport de ce type du même auteur",
+    "zeroStateMessage": "Pas de rapports",
+    "zeroStateMessageWithFilters": "Aucun rapport ne respecte vos filtres"
+  },
+  "search": {
+    "resultsHeader": "Résultats de recherche pour {{q}}"
+  }
+}

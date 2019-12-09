@@ -1,0 +1,20 @@
+{
+  "genericFollowUpPrompt": "Welche Art von Problemen?",
+  "misc": {
+    "answerRequired": "Antwort erforderlich",
+    "answerRequiredWhenNotListed": "Antwort erforderlich, wenn 'nicht aufgelistet' gewählt wird",
+    "back": "Zurück",
+    "error": "Fehler!",
+    "markdownSupportNotice": "Markdown wird jetzt unterstützt",
+    "maxChars": "Maximal {{count}} Zeichen",
+    "next": "Nächste",
+    "submission": {
+      "error": "Es gab einen Fehler bei der Übermittlung. Bitte lass uns wissen, wie das passiert ist!",
+      "note": "Bitte beachte, dass sich neue Einreichungen bis zur nächsten Aktualisierung des Inhalts in einem Wartestatus befinden. Du kannst deine Beiträge in deinem [Profil]({{link}}) einsehen",
+      "success": "Erfolgreich übermittelt",
+      "thanks": "Vielen Dank für deinen Beitrag zu {{siteName}}"
+    },
+    "submit": "Absenden",
+    "tooLong": "Zu lang"
+  }
+}

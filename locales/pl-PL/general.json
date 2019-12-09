@@ -1,0 +1,108 @@
+{
+  "libraryLoader": {
+    "errorLoadingGames": "Błąd ładowania gier. Upewnij się że zarówno profil, jak i szczegóły gier są na tym koncie widoczne publicznie!",
+    "gameTotal": "Wczytano {{count}} gier w bibliotece!",
+    "headline": "Uwierzytelnianie Steam",
+    "intro": "Zalogowanie się przez Steam pozwoli ci wysyłać własne raporty oraz używać [podstrony Odkrywaj z filtrem biblioteki]({{link}}), aby ograniczyć wyniki do gier, które posiadasz.",
+    "loggedInAs": "Zalogowano jako {{username}}",
+    "note": "Upewnij się, że w [ustawieniach prywatności profilu Steam]({{link}}) opcje „Widoczność mojego profilu” oraz „Widoczność szczegółów gry” są ustawione na publiczne. Ostatnie zmiany w Steamie ustawiły te wartości na domyślnie prywatne. To wykorzysta Steam Web API by pobrać publiczne informacje o twoim koncie, wliczając w to twój identyfikator, nazwę profilu oraz avatar. Steam wyświeli podczas logowania następujący adres IP - {{host}} - jest to celowe.",
+    "refresh": "Odśwież",
+    "steamSignIn": "Zaloguj się przez Steam",
+    "unlink": "Usuń powiązanie"
+  },
+  "misc": {
+    "addYourReport": "Dodaj własny raport",
+    "affirmative": "Tak",
+    "areYouSure": "Jesteś pewien?",
+    "chipset": "Chipset",
+    "conjunction": "i",
+    "dismiss": "Anuluj",
+    "distro": "Dystrybucja",
+    "driver": "Sterowniki",
+    "execute": "Uruchom",
+    "feedbackPrompt": "Chcesz przekazać nam swoją opinię? Zapraszamy na [Discord]({{link}})",
+    "filter": "Filtruj",
+    "games": "Gry",
+    "hide": "Ukryj {{what}}",
+    "include": "Zawrzyj",
+    "install": "Zainstaluj",
+    "joinUsPrompt": "Dołącz do nas na Discordzie!",
+    "lastContentRefreshTime": "Zawartość została ostatnio odświeżona {{time}} temu",
+    "meetsRequirements": "Spełnia wymagania",
+    "moreInfo": "Więcej infomacji",
+    "multiplayer": "Wielu graczy",
+    "native": "Natywne",
+    "negative": "Nie",
+    "notFound": "Nie znaleziono",
+    "note": "Notka",
+    "overall": "Ogólnie",
+    "pending": "Oczekujące",
+    "provisional": "Wstępne",
+    "published": "Opublikowane",
+    "rated": "Ocenione",
+    "report": "Raport",
+    "reports": "Raporty",
+    "save": "Zapisz",
+    "saved": "{{what}} zapisano",
+    "show": "Pokaż {{what}}",
+    "showAll": "Pokaż wszystko",
+    "showMore": "Pokaż więcej",
+    "tier": "Poziom",
+    "total": "Razem",
+    "unknown": "Nieznane",
+    "version": "Wersja"
+  },
+  "nav": {
+    "contribute": "Współtwórz",
+    "explore": "Odkrywaj",
+    "help": "Pomoc",
+    "news": "Newsy",
+    "profile": "Profil",
+    "search": "Szukaj gier...",
+    "stats": "Statystyki"
+  },
+  "pagination": {
+    "next": "Następna strona",
+    "previous": "Poprzednia strona",
+    "summary": "Wyniki {{from}}-{{to}} spośród {{total}}"
+  },
+  "preferences": {
+    "headline": "Preferencje",
+    "intro": "ProtonDB wyświetla nazwy profilów z platformy Steam wysyłających obok ich raportów. Twój unikalny identyfikator Steam nie jest wysyłany razem z danymi w raporcie. Jeśli martwisz się, że twój nick może zostać użyty by wpłynąć na twój profil Steam, możesz wybrać inną nazwę poniżej, a wejdzie ona w użycie wraz z następną aktualizacją zawartości.",
+    "questions": {
+      "customName": {
+        "additionalNotes": {
+          "label": "Własna nazwa"
+        },
+        "options": {
+          "custom": "Własna nazwa użytkownika",
+          "keepSteam": "Moja nazwa profilu Steam ({{steamNickname}})"
+        },
+        "prompt": "Twoja nazwa publiczna"
+      },
+      "language": {
+        "prompt": "Język (eksperymentalne)"
+      }
+    }
+  },
+  "profile": {
+    "exploreLibrary": "Możesz przeglądać swoją bibliotekę z użyciem następujących opcji sortowania:",
+    "inYourLibrary": "W twojej bibliotece",
+    "libraryTags": {
+      "byHoursPlayed": "Według zagranych godzin",
+      "byPlayerCount": "Według liczby graczy",
+      "byProtonDbRating": "Według wskaźnika ProtonDB",
+      "bySteamDbScore": "Według ocen na SteamDB",
+      "headline": "Następujące tagi są popularne w twojej bibliotece. Możesz spróbować z nimi:",
+      "lackReportsByHoursPlayed": "Bez raportów według zagranych godzin",
+      "lackReportsByPlayerCount": "Bez raportów według liczby graczy",
+      "lackReportsBySteamDbScore": "Bez raportów według ocen na SteamDB"
+    },
+    "notInYourLibrary": "Brak w twojej bibliotece",
+    "yourContributions": "Twój wkład"
+  },
+  "reports": {},
+  "search": {
+    "resultsHeader": "Wyniki wyszukiwania dla {{q}}"
+  }
+}

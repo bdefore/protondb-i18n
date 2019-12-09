@@ -1,0 +1,20 @@
+{
+  "genericFollowUpPrompt": "Quelle sorte de problèmes ?",
+  "misc": {
+    "answerRequired": "Réponse requise",
+    "answerRequiredWhenNotListed": "Réponse requise lorsque Non listé est choisi",
+    "back": "Retour",
+    "error": "Erreur !",
+    "markdownSupportNotice": "La notation Markdown peut maintenant être utilisée",
+    "maxChars": "{{count}} caractères max",
+    "next": "Suivant",
+    "submission": {
+      "error": "Une erreur est survenue lors de la soumission. Veuillez nous en informer !",
+      "note": "Veuillez noter que les nouveaux rapports seront mis en attente jusqu’au prochain rafraichissement. Vous pouvez voir votre contribution dans votre [Profil]({{link}})",
+      "success": "Soumis",
+      "thanks": "Merci pour votre contribution à {{siteName}}"
+    },
+    "submit": "Soumettre",
+    "tooLong": "Trop long"
+  }
+}

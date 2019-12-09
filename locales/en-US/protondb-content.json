@@ -1,0 +1,170 @@
+{
+  "breakdown": {
+    "headline": "Popular Games",
+    "popularHeadline": "Ratings for {{count}} most popular",
+    "topHundred": "Top Hundred",
+    "topTen": "Top Ten",
+    "topThousand": "Top Thousand",
+    "topics": {
+      "allGames": "All Games",
+      "indie": "Indie",
+      "localMultiplayer": "Local Multiplayer",
+      "singlePlayer": "Single Player",
+      "vr": "VR"
+    },
+    "unavailable": "Unavailable",
+    "unrated": "Unrated",
+    "unreported": "Unreported"
+  },
+  "explore": {
+    "headlines": {
+      "fixWanted": "Fix Wanted",
+      "highestRated": "Highest Rated on SteamDB",
+      "hoursPlayed": "Hours Played",
+      "inLibrary": "In Library",
+      "mostBorked": "Most Borked Reports",
+      "mostPopular": "Most Popular",
+      "recentlyImproved": "Recently Improved",
+      "wellRatedHere": "Well Rated Here"
+    },
+    "layout": "Layout",
+    "loadError": "Error loading games!",
+    "notLoggedIn": "Cannot load a library without a Steam ID. Visit your [Profile]({{link}}) to add one.",
+    "poweredBy": "Powered by",
+    "sorts": {
+      "fixWanted": "Fix Wanted",
+      "hoursPlayed": "Hours played",
+      "mostBorked": "Most Borked",
+      "playerCount": "Player count",
+      "recentlyImproved": "Recently Improved",
+      "userScore": "User Score",
+      "wilsonRating": "ProtonDB Rating"
+    },
+    "toggles": {
+      "includeNative": "Include Native",
+      "lackReports": "Lack Reports",
+      "restrictToLibrary": "Library",
+      "untested": "Lack Reports",
+      "userTags": "User Tags",
+      "whitelisted": "Whitelisted"
+    }
+  },
+  "filters": {
+    "questions": {
+      "cpu": {
+        "label": "CPU"
+      },
+      "distro": {
+        "label": "Distro"
+      },
+      "gpu": {
+        "label": "GPU"
+      },
+      "type": {
+        "label": "Type"
+      }
+    }
+  },
+  "gameDetails": {
+    "githubIssueSearch": "Github Issue Search",
+    "infoNotFound": "Could not acquire information for App ID: {{entry}}. This can happen if a game was removed from the store.",
+    "minimumRequirements": "Minimum Requirements",
+    "nativelySupports": "Natively Supports"
+  },
+  "home": {
+    "getStartedLinks": [
+      "[Steam's Official Steam Play Page](https://store.steampowered.com/steamplay)",
+      "[A guide to migrating to Linux](https://www.reddit.com/r/linux_gaming/comments/9oqq3w/guide_migrating_to_linux_in_2019/)",
+      "[What is Vulkan?](https://www.reddit.com/r/linux_gaming/comments/9ritk1/not_sure_i_quite_understand_can_someone_explain/)"
+    ],
+    "headline": "With Proton and Steam Play, many Windows games now work on Linux!",
+    "howDoIHelp": {
+      "answer": "Give Linux a try! If you are new, not to worry. Here is a list of guides to get started. And if you want to help Valve and Proton to improve, contribute your reports here on ProtonDB!",
+      "question": "Cool! How do I help?"
+    },
+    "letsGetStarted": "Let's get started.",
+    "sampleGames": "Here is a sample of some popular games that are officially not whitelisted yet, but have received many Platinum reports on ProtonDB",
+    "search": "Search for a game...",
+    "stats": {
+      "gamesReported": "games reported",
+      "gamesWork": "games work",
+      "reportsWritten": "reports written"
+    },
+    "theImpact": {
+      "answer": "Steam Play now officially supports a limited but growing set of 'whitelisted' games that are deemed Proton-compatible and play on Linux. Based on ProtonDB reports, a significant number of non-whitelisted games, including many popular titles, play just as well as on Windows.",
+      "question": "The Impact"
+    },
+    "whatIsProton": {
+      "answer": "Proton is a new tool released by Valve Software that has been integrated with Steam Play to make playing Windows games on Linux as simple as hitting the Play button within Steam. Underneath the hood, Proton comprises other popular tools like Wine and DXVK among others that a gamer would otherwise have to install and maintain themselves. This greatly eases the burden for users to switch to Linux without having to learn the underlying systems or losing access to a large part of their library of games. Proton is still in its infancy so support is inconsistent, but regularly improving.",
+      "question": "What is Proton?"
+    },
+    "whatIsProtonDb": {
+      "answer": "The goal of ProtonDB is to gather reports from other gamers as they test games with Proton on Linux and provide aggregate scores of how well games perform. A growing pool of suggestions provides tweaks that you can try to get games working while Proton continues development. In addition to this, you may explore the Steam game catalog on this site to browse and discover a wide range of titles that were previously unavailable for use on Linux.",
+      "question": "What is ProtonDB?"
+    },
+    "whyBigDeal": {
+      "answer": "The Linux desktop experience has improved by leaps and bounds in the last year or two. Most of what you may be used to on Windows or MacOS is possible on Linux without having to tinker too much, and the tinkering can even be fun. Meanwhile, more and more of our daily interactions with a computer happen online, and browsers behave much the same on Linux as they do on other operating systems. Proton and Steam Play address a significant obstacle to adoption: gaming, where until recently there was limited compatibility.",
+      "question": "Why is this a big deal?"
+    },
+    "youtubeId": "Co6FePZoNgE"
+  },
+  "medals": {
+    "borked": "Borked",
+    "bronze": "Bronze",
+    "gold": "Gold",
+    "platinum": "Platinum",
+    "silver": "Silver"
+  },
+  "ratingDefinitions": {
+    "explanations": {
+      "borked": "Either won't start or is crucially unplayable",
+      "bronze": "Runs, but often crashes or has issues preventing from playing comfortably",
+      "gold": "Runs perfectly after tweaks",
+      "native": "Runs natively on Linux",
+      "pending": "Awaiting further reports before giving a rating",
+      "platinum": "Runs perfectly out of the box",
+      "silver": "Runs with minor issues, but generally is playable"
+    },
+    "headline": "Rating Definitions"
+  },
+  "specs": {
+    "cpu": "CPU",
+    "gpu": "GPU",
+    "gpuDriver": "GPU Driver",
+    "kernel": "Kernel",
+    "os": "Distro",
+    "otherSpecs": "Other Specs",
+    "ram": "RAM"
+  },
+  "stats": {
+    "analysisInByTheNumbers1": "Analysis in By The Numbers #1",
+    "byCommonDisplayDrivers": "By Common Display Drivers",
+    "byDistro": "By Distro",
+    "byGpu": "By GPU",
+    "byProtonVersion": "By Proton Version",
+    "dailyReportsHeadline": "Daily Reports (Last {{days}} Days)",
+    "downloadData": "Download Data",
+    "gameRatingDistribution": "Game Rating Distribution",
+    "gamesWithNOrMoreReports": "Games With N Or More Reports",
+    "reportRatingDistributionOverTime": "Report Rating Distribution Over Time",
+    "whenMeetingMinimumRequirements": "When Meeting Minimum Requirements"
+  },
+  "steamAuthor": {
+    "hoursInSteam": "{{count}} hours in Steam",
+    "timeWithProton": "{{time}} with Proton"
+  },
+  "suggestions": {
+    "headline": "Ready for more?",
+    "intro": "The following games have been selected based on hours you've played, popularity, and SteamDB rating. They all lack reports and some may only need one more to get a {{siteName}} rating! You can reload for other suggestions or go to [Lack Reports]({{link}}) filter of Explore page for even more."
+  },
+  "systemInfo": {
+    "headline": "System Information",
+    "howTo": "Gathering this information is quick if you have access to Steam settings on the machine where you play your games. [Go here to learn how]({{link}}). (Some users have reported that they need to press Ctrl-A to select everything before right clicking.)",
+    "intro": "Reports have more utility and lend more credibility by displaying the hardware and software the game was tested on. To keep this as accurate and consistent as possible, we leverage the system information reported by Steam itself.",
+    "parseFailure": "Parsing failed. If you are certain you copied correctly please let us know on Discord",
+    "parseSuccess": "System Information Parsed Successfully!",
+    "pasteInstructions": "Paste Steam System Info Here",
+    "unsupportedHeadline": "Unsupported Drivers Detected",
+    "unsupportedWarning": "Your system's display driver does not meet [Proton's current minimum requirements]({{link}})! You may experience crashes, slow performance, or graphical degradations. You may still submit reports and there is still value in your contributions, but your reports will show your graphics drivers in red and will not be counted toward aggregate ratings for games. Please update your drivers!"
+  }
+}
