@@ -20,7 +20,11 @@
     "headline": "Authentification Steam",
     "intro": "En vous connectant avec Steam vous pourrez soumettre des rapports et utiliser la [page Explorer avec un filtre Bibliothèque]({{link}}) pour limiter les résultats aux jeux que vous possédez",
     "loggedInAs": "Connecté en tant que {{username}}",
+<<<<<<< HEAD
     "note": "Ceci utilisera l’API Web de Steam pour récupérer les informations publiques à propos de votre compte, dont l’ID, le nom de profil et l’avatar. Veuillez vous assurer que dans vos [paramètres de confidentialité Steam]({{link}}) la visibilité de votre « profil » soit visible pour « tout le monde ». Il n'est pas nécessaire de rendre public les « détails des jeux », néanmoins si cela est le cas, la page Explorer utilisera les informations de votre bibliothèque et le temps de jeu sera envoyé lors de vos contributions.",
+=======
+    "note": "Ceci va utiliser La Steam Web API pour récupérer les informations publiques concernant votre compte incluant votre id, votre nom de profil et votre avatar. Veuillez vous assurer que dans vos Pparamètres de Confidentialité Steam]({{link}}) la visibilité de votre 'Profil' et de vos 'Jeux' soit publiques. Si c'est le cas, La page Explorer utilisera les informations de votre Bibliotèque et votre temps de jeu sera envoyé avec vos contributions.",
+>>>>>>> Fixes for French translation
     "refresh": "Rafraichir",
     "steamSignIn": "Se connecter avec Steam",
     "unlink": "Dissocier le compte"
