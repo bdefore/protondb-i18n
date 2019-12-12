@@ -9,7 +9,7 @@
     "maxChars": "{{count}} caractères max",
     "next": "Suivant",
     "submission": {
-      "error": "Une erreur est survenue lors de la soumission. Veuillez nous en informer !",
+      "error": "Une erreur est survenue lors de la soumission. Assurez-vous que votre navigateur autorise les appels à « apis.google.com ». Brave et Privacy Badger sont connus pour bloquer ces appels par défaut. Si vous n’arrivez toujours pas à soumettre votre rapport, n’hésitez pas à nous le faire savoir !",
       "note": "Veuillez noter que les nouveaux rapports seront mis en attente jusqu’au prochain rafraichissement. Vous pouvez voir votre contribution dans votre [Profil]({{link}})",
       "success": "Soumis",
       "thanks": "Merci pour votre contribution à {{siteName}}"
