@@ -246,6 +246,10 @@
         "long": "Disable Fsync (PROTON_NO_FSYNC)",
         "short": "Disable Fsync"
       },
+      "fullscreenIntegerScaling": {
+        "long": "Fullscreen Integer Scaling (WINE_FULLSCREEN_INTEGER_SCALING)",
+        "short": "Fullscreen Integer Scaling"
+      },
       "largeAddressAware": {
         "long": "Large Address Aware (PROTON_FORCE_LARGE_ADDRESS_AWARE)",
         "short": "Large Address Aware"
