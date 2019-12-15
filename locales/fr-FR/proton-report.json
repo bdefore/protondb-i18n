@@ -348,7 +348,7 @@
         "short": "Légers problèmes de performance"
       }
     },
-    "prompt": "Avez-vous expérimenté des lenteurs compte tenu de votre matériel ?"
+    "prompt": "Avez-vous rencontré des lenteurs compte tenu de votre matériel ?"
   },
   "prerequisitesBlock": {
     "action": "Aller au profil",
