@@ -246,6 +246,10 @@
         "long": "Fsync deaktiviert",
         "short": "Fsync deaktiviert"
       },
+      "fullscreenIntegerScaling": {
+        "long": "Fullscreen Integer Scaling (WINE_FULLSCREEN_INTEGER_SCALING)",
+        "short": "Fullscreen Integer Scaling"
+      },
       "largeAddressAware": {
         "long": "Large Address Aware",
         "short": "Large Address Aware"
