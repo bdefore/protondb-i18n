@@ -1,4 +1,7 @@
 {
+  "auth": {
+    "intro": "Logar com sua conta Steam permite que você envie relatos e use o [Explorar página com filtro da Biblioteca]({{link}}) para limitar os resultados aos jogos que você possui."
+  },
   "breakdown": {
     "headline": "Jogos Populares",
     "popularHeadline": "Avaliações para os {{count}} mais populares",

@@ -1,4 +1,7 @@
 {
+  "auth": {
+    "intro": "En vous connectant avec Steam vous pourrez soumettre des rapports et utiliser la [page Explorer avec un filtre Bibliothèque]({{link}}) pour limiter les résultats aux jeux que vous possédez"
+  },
   "breakdown": {
     "headline": "Jeux populaires",
     "popularHeadline": "Évaluation pour les {{count}} plus populaires",

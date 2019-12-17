@@ -1,4 +1,7 @@
 {
+  "auth": {
+    "intro": "L'autenticazione tramite Steam ti permette di inviare report e [Esplorare con il filtro sulla libreria]({{link}}) per limitare i risultati ai giochi che possiedi."
+  },
   "breakdown": {
     "headline": "Giochi popolari",
     "popularHeadline": "Rating dei {{count}} giochi più popolari",

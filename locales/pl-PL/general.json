@@ -1,14 +1,15 @@
 {
+  "auth": {
+    "headline": "Uwierzytelnianie Steam",
+    "loggedInAs": "Zalogowano jako {{username}}",
+    "steamSignIn": "Zaloguj się przez Steam",
+    "unlink": "Usuń powiązanie"
+  },
   "libraryLoader": {
     "errorLoadingGames": "Błąd ładowania gier. Upewnij się że zarówno profil, jak i szczegóły gier są na tym koncie widoczne publicznie!",
     "gameTotal": "Wczytano {{count}} gier w bibliotece!",
-    "headline": "Uwierzytelnianie Steam",
-    "intro": "Zalogowanie się przez Steam pozwoli ci wysyłać własne raporty oraz używać [podstrony Odkrywaj z filtrem biblioteki]({{link}}), aby ograniczyć wyniki do gier, które posiadasz.",
-    "loggedInAs": "Zalogowano jako {{username}}",
     "note": "Upewnij się, że w [ustawieniach prywatności profilu Steam]({{link}}) opcje „Widoczność mojego profilu” oraz „Widoczność szczegółów gry” są ustawione na publiczne. Ostatnie zmiany w Steamie ustawiły te wartości na domyślnie prywatne. To wykorzysta Steam Web API by pobrać publiczne informacje o twoim koncie, wliczając w to twój identyfikator, nazwę profilu oraz avatar. Steam wyświeli podczas logowania następujący adres IP - {{host}} - jest to celowe.",
-    "refresh": "Odśwież",
-    "steamSignIn": "Zaloguj się przez Steam",
-    "unlink": "Usuń powiązanie"
+    "refresh": "Odśwież"
   },
   "misc": {
     "addYourReport": "Dodaj własny raport",

@@ -1,4 +1,7 @@
 {
+  "auth": {
+    "intro": "Iniciar sesión con Steam te permite envíar reportes y utilizar la [página de Explorar con un filtro de biblioteca]({{link}}) para limitar los resultados a juegos que ya tienes."
+  },
   "breakdown": {
     "headline": "Juegos Populares",
     "popularHeadline": "Puntuación para los {{count}} más populares",

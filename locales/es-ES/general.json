@@ -1,4 +1,10 @@
 {
+  "auth": {
+    "headline": "Autenticación de Steam",
+    "loggedInAs": "Registrado como {{username}}",
+    "steamSignIn": "Iniciar sesión con Steam",
+    "unlink": "Desconectar Cuenta"
+  },
   "content": {
     "followingPost": "Post siguiente",
     "previousPost": "Post anterior"
@@ -17,13 +23,8 @@
   "libraryLoader": {
     "errorLoadingGames": "Error cargando juegos. Por favor, asegurate de que tu perfil y los detalles de los juegos son públicos en esta cuenta!",
     "gameTotal": "¡{{count}} juegos de tu librería cargados!",
-    "headline": "Autenticación de Steam",
-    "intro": "Iniciar sesión con Steam te permite envíar reportes y utilizar la [página de Explorar con un filtro de biblioteca]({{link}}) para limitar los resultados a juegos que ya tienes.",
-    "loggedInAs": "Registrado como {{username}}",
     "note": "Asegurate de que en tus [Ajustes de Privacidad del perfil de Steam]({{link}}) 'Mi perfil' y tus 'Detalles de los juegos' están establecidos como públicos. Cambios recientes a Steam han hecho esos ajustes privados de forma predeterminada. Esto utilizará la API web de Steam para recopilar información pública sobre tu cuenta, incluyendo tu identificador, nombre de perfil y avatar.",
-    "refresh": "Recargar",
-    "steamSignIn": "Iniciar sesión con Steam",
-    "unlink": "Desconectar Cuenta"
+    "refresh": "Recargar"
   },
   "misc": {
     "addYourReport": "Añadir tu Reporte",

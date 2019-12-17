@@ -1,4 +1,7 @@
 {
+  "auth": {
+    "intro": "Genom att logga in med Steam kan du skicka in rapporter och använda [utforska-sidan med ett biblioteksfilter]({{link}}) för att begränsa resultat till spel du äger."
+  },
   "breakdown": {
     "headline": "Populära spel",
     "popularHeadline": "Betyg för de {{count}} mest populära spelen",

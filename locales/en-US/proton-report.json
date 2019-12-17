@@ -354,9 +354,15 @@
     },
     "prompt": "Did you experience unexpected slowness given your hardware?"
   },
+  "prerequisites": {
+    "invalidOrMissingSystemInfo": "System information is missing or invalid",
+    "missingProfileInfo": "Profile information incomplete. Missing: {{context}}",
+    "notLoggedIn": "Not logged in with {{context}}"
+  },
   "prerequisitesBlock": {
     "action": "Go to profile",
-    "context": "You'll need to log into Steam and provide system information before submitting!"
+    "context": "You'll need to log into Steam and provide system information before submitting!",
+    "headline": "Not Ready Yet!"
   },
   "preview": {
     "intro": "Things to check for:",

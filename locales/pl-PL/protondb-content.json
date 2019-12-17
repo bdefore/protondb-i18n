@@ -1,4 +1,7 @@
 {
+  "auth": {
+    "intro": "Zalogowanie się przez Steam pozwoli ci wysyłać własne raporty oraz używać [podstrony Odkrywaj z filtrem biblioteki]({{link}}), aby ograniczyć wyniki do gier, które posiadasz."
+  },
   "breakdown": {
     "headline": "Popularne gry",
     "popularHeadline": "Oceny {{count}} najpopularniejszych gier",

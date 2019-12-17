@@ -1,4 +1,10 @@
 {
+  "auth": {
+    "headline": "Steam-Authentifizierung",
+    "loggedInAs": "Angemeldet als {{username}}",
+    "steamSignIn": "Mit Steam anmelden",
+    "unlink": "Konto trennen"
+  },
   "content": {
     "followingPost": "Nachfolgender Beitrag",
     "previousPost": "Vorheriger Beitrag"
@@ -17,13 +23,8 @@
   "libraryLoader": {
     "errorLoadingGames": "Fehler beim Laden von Spielen. Bitte stelle sicher, dass sowohl Profil- als auch Spieledetails auf diesem Konto öffentlich sind!",
     "gameTotal": "{{count}} Spiele in der Bibliothek geladen!",
-    "headline": "Steam-Authentifizierung",
-    "intro": "Wenn du dich mit Steam anmeldest, kannst du Berichte einreichen und die Seite [mit einem Bibliotheksfilter]({{link}}) erkunden, um die Ergebnisse auf Spiele zu beschränken, die du besitzt.",
-    "loggedInAs": "Angemeldet als {{username}}",
     "note": "Stelle sicher, dass in deinen [Steam-Privatsphäreeinstellungen ]({{link}}) sowohl 'Mein Profil' als auch deine 'Spieledetails' öffentlich eingestellt sind. Die letzten Änderungen an Steam haben diese standardmäßig privat gemacht. Diese Seite verwendet das Steam-Web-API, um öffentliche Informationen über dein Konto abzurufen, einschließlich deiner ID, deines Profilnamens und deines Avatars.",
-    "refresh": "Aktualisieren",
-    "steamSignIn": "Mit Steam anmelden",
-    "unlink": "Konto trennen"
+    "refresh": "Aktualisieren"
   },
   "misc": {
     "addYourReport": "Bericht verfassen",

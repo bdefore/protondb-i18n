@@ -1,4 +1,10 @@
 {
+  "auth": {
+    "headline": "Autenticazione di Steam",
+    "loggedInAs": "Autenticato come {{username}}",
+    "steamSignIn": "Autenticati con Steam",
+    "unlink": "Scollega Account"
+  },
   "content": {
     "followingPost": "Post Successivo",
     "previousPost": "Post Precedente"
@@ -17,13 +23,8 @@
   "libraryLoader": {
     "errorLoadingGames": "Errore nel caricamento della libreria. Assicurati che il Profilo e i Dettagli del gioco siano pubblici su questo account!",
     "gameTotal": "{{count}} giochi caricati dalla libreria!",
-    "headline": "Autenticazione di Steam",
-    "intro": "L'autenticazione tramite Steam ti permette di inviare report e [Esplorare con il filtro sulla libreria]({{link}}) per limitare i risultati ai giochi che possiedi.",
-    "loggedInAs": "Autenticato come {{username}}",
     "note": "Assicurati che 'Visibilità del mio profilo' e 'Visibilità delle mie informazioni di gioco' siano entrambe pubbliche nelle [impostazioni della privacy di Steam]({{link}}). Cambiamenti recenti le hanno impostate a private di default. Verranno usate le Steam Web API per recuperare informazioni come il tuo id, nome e avatar. Steam presenterà un indirizzo IP di {{host}} di cui fidarti.",
-    "refresh": "Aggiorna",
-    "steamSignIn": "Autenticati con Steam",
-    "unlink": "Scollega Account"
+    "refresh": "Aggiorna"
   },
   "misc": {
     "addYourReport": "Aggiungi un report",

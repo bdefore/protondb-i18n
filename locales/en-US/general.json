@@ -1,4 +1,12 @@
 {
+  "auth": {
+    "genericSignIn": "Sign In",
+    "headline": "Steam Authentication",
+    "loggedInAs": "Logged in as {{username}}",
+    "notLoggedIn": "Not Logged In",
+    "steamSignIn": "Sign In With Steam",
+    "unlink": "Unlink Account"
+  },
   "content": {
     "followingPost": "Following Post",
     "previousPost": "Previous Post"
@@ -17,13 +25,8 @@
   "libraryLoader": {
     "errorLoadingGames": "Error loading games. Please ensure both Profile and Game Details are public on this account!",
     "gameTotal": "{{count}} games in library loaded!",
-    "headline": "Steam Authentication",
-    "intro": "Logging in with Steam lets you submit reports and use the [Explore page with a Library filter]({{link}}) to limit results to games that you own.",
-    "loggedInAs": "Logged in as {{username}}",
     "note": "This will use the Steam Web API to retrieve public information about your account including your id, profile name and avatar. Ensure that within your [Steam Privacy Settings]({{link}}) your 'My profile' is set to public. 'Game details' is not required to be public. If it is, the Explore page will use your library information and playtime will be sent with your contributions.",
-    "refresh": "Refresh",
-    "steamSignIn": "Sign In With Steam",
-    "unlink": "Unlink Account"
+    "refresh": "Refresh"
   },
   "misc": {
     "addYourReport": "Add Your Report",

@@ -1,15 +1,15 @@
 {
-  "i18nStamp": 1573767610406,
+  "auth": {
+    "headline": "Autenticação Steam",
+    "loggedInAs": "Logado como {{username}}",
+    "steamSignIn": "Logar com a conta Steam",
+    "unlink": "Desvincular conta"
+  },
   "libraryLoader": {
     "errorLoadingGames": "Erro carregando jogos. Por favor verifique se a privacidade do seu perfil e dos seus jogos estão marcados como públicos na sua conta!",
     "gameTotal": "{{count}} jogos na biblioteca carregados!",
-    "headline": "Autenticação Steam",
-    "intro": "Logar com sua conta Steam permite que você envie relatos e use o [Explorar página com filtro da Biblioteca]({{link}}) para limitar os resultados aos jogos que você possui.",
-    "loggedInAs": "Logado como {{username}}",
     "note": "Certifique-se que em suas [Configurações de Privacidade da Steam]({{link}}) tanto 'Privacidade do perfil' como 'Privacidade de jogos' estejam marcados como 'Pública'. Mudanças recentes na Steam tornaram essas configurações privadas por padrão. Isso utilizará a Steam Web API para recuperar informações públicas da sua conta incluindo sua id, nome do perfil e avatar. A Steam mostrará o endereço de IP do {{host}} para você aprovar - isso é normal e esperado.",
-    "refresh": "Atualizar",
-    "steamSignIn": "Logar com a conta Steam",
-    "unlink": "Desvincular conta"
+    "refresh": "Atualizar"
   },
   "misc": {
     "addYourReport": "Adicionar seu Relato",

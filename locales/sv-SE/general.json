@@ -1,4 +1,10 @@
 {
+  "auth": {
+    "headline": "Steamautentisering",
+    "loggedInAs": "Inloggad som {{username}}",
+    "steamSignIn": "Logga in med Steam",
+    "unlink": "Avlänka konto"
+  },
   "content": {
     "followingPost": "Nästa inlägg",
     "previousPost": "Föregående inlägg"
@@ -17,13 +23,8 @@
   "libraryLoader": {
     "errorLoadingGames": "Något gick fel när spel laddades. Försäkra att både profilen och spelinformationen för detta konto är offtenliga!",
     "gameTotal": "{{count}} spel i ditt bibliotek laddade!",
-    "headline": "Steamautentisering",
-    "intro": "Genom att logga in med Steam kan du skicka in rapporter och använda [utforska-sidan med ett biblioteksfilter]({{link}}) för att begränsa resultat till spel du äger.",
-    "loggedInAs": "Inloggad som {{username}}",
     "note": "Försäkra att i dina [Steam sekretessinställningar]({{link}}) både 'Min profil' och 'Spelinformation' är offtenliga. Nyliga ändringar i Steam har gjort dessa privata som standard. Detta kommer använda Steam Web API:n för att hämta offenlig information om ditt konto inklusive ditt id, profilnamn, samt profilbild. Steam kommer visa IP adressen {{host}} som Steam kommer fråga om du litar på — detta är förväntat.",
-    "refresh": "Uppdatera",
-    "steamSignIn": "Logga in med Steam",
-    "unlink": "Avlänka konto"
+    "refresh": "Uppdatera"
   },
   "misc": {
     "addYourReport": "Lägg till din rapport",

@@ -1,4 +1,7 @@
 {
+  "auth": {
+    "intro": "Wenn du dich mit Steam anmeldest, kannst du Berichte einreichen und die Seite [mit einem Bibliotheksfilter]({{link}}) erkunden, um die Ergebnisse auf Spiele zu beschränken, die du besitzt."
+  },
   "breakdown": {
     "headline": "Beliebte Spiele",
     "popularHeadline": "Bewertungen für die {{count}} beliebtesten",
