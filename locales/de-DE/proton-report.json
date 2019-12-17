@@ -24,7 +24,7 @@
       },
       "missing": {
         "long": "Einiges an Audio fehlt",
-        "short": "Fehlend"
+        "short": "Fehlendes Audio"
       },
       "other": {
         "long": "Sonstiges",
@@ -169,15 +169,15 @@
       },
       "controllerMapping": {
         "long": "Controllertasten wurden nicht richtig zugeordnet",
-        "short": "Controllertasten-Zuordnung"
+        "short": "Controllertasten-Zuordnung funktioniert nicht"
       },
       "controllerNotDetected": {
         "long": "Controller wurden nicht erkannt",
-        "short": "Controllererkennung"
+        "short": "Controller wurden nicht erkannt"
       },
       "controllerNotResponsive": {
         "long": "Controller wurden erkannt, reagierten aber nicht",
-        "short": "Reaktionsfähigkeit"
+        "short": "Controller reagieren nicht"
       },
       "drifting": {
         "long": "Die Achsen fahren nicht in die Nullposition zurück",
@@ -189,7 +189,7 @@
       },
       "lag": {
         "long": "Die Eingabe war verzögert",
-        "short": "Verzögerung"
+        "short": "Verzögerte Eingabe"
       },
       "other": {
         "long": "Sonstiges",
@@ -345,11 +345,11 @@
     "options": {
       "significantSlowdown": {
         "long": "Signifikant langsam",
-        "short": "Signifikant"
+        "short": "Signifikant langsam"
       },
       "slightSlowdown": {
         "long": "Etwas langsam",
-        "short": "Etwas"
+        "short": "Etwas langsam"
       }
     },
     "prompt": "Hast du angesichts deiner Hardware eine unerwartet schlechte Leistung erlebt?"
@@ -383,11 +383,11 @@
     "options": {
       "errorLoading": {
         "long": "Ein Speicherstand konnte nicht geladen werden.",
-        "short": "Laden"
+        "short": "Laden geht nicht"
       },
       "errorSaving": {
         "long": "Konnte nicht speichern",
-        "short": "Speichern"
+        "short": "Speichern geht nicht"
       },
       "other": {
         "long": "Sonstiges",
@@ -405,7 +405,7 @@
     "options": {
       "frequentCrashes": {
         "long": "Häufige Abstürze",
-        "short": "Häufig"
+        "short": "Häufige Abstürze"
       },
       "notListed": {
         "long": "Nicht gelistet",
@@ -413,7 +413,7 @@
       },
       "occasionally": {
         "long": "Gelegentliche Abstürze",
-        "short": "Gelegentlich"
+        "short": "Gelegentliche Abstürze"
       }
     },
     "prompt": "Hast du Stabilitätsprobleme erlebt?"
@@ -478,11 +478,11 @@
     "options": {
       "activatingFullscreen": {
         "long": "Vollbild konnte nicht gestartet werden",
-        "short": "Vollbild aktivieren"
+        "short": "Vollbild geht nicht"
       },
       "fullNotFull": {
         "long": "Der Vollbildmodus streckte sich nicht über den ganzen Bildschirm",
-        "short": "Größe"
+        "short": "Vollbild falsche größe"
       },
       "other": {
         "long": "Sonstiges",
@@ -490,7 +490,7 @@
       },
       "switching": {
         "long": "Konnte nicht aus dem Vollbildmodus entkommen (z.B. mit Alt-Tab)",
-        "short": "Wechseln"
+        "short": "Alt+Tab geht nicht"
       }
     },
     "prompt": "Hattest du Probleme mit dem Fenstermodus oder Vollbild?"
