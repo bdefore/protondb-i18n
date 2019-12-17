@@ -246,6 +246,10 @@
         "long": "Désactiver Fsync (PROTON_NO_FSYNC)",
         "short": "Désactiver Fsync"
       },
+      "fullscreenIntegerScaling": {
+        "long": "Mise à l’échelle par nombre entier en plein écran (WINE_FULLSCREEN_INTEGER_SCALING)",
+        "short": "Mise à l’échelle par nombre entier en plein écran"
+      },
       "largeAddressAware": {
         "long": "Prise en compte des grandes adresses (PROTON_FORCE_LARGE_ADDRESS_AWARE)",
         "short": "Grandes adresses"
@@ -348,7 +352,7 @@
         "short": "Légers problèmes de performance"
       }
     },
-    "prompt": "Avez-vous expérimenté des lenteurs compte tenu de votre matériel ?"
+    "prompt": "Avez-vous rencontré des lenteurs compte tenu de votre matériel ?"
   },
   "prerequisitesBlock": {
     "action": "Aller au profil",

@@ -20,7 +20,7 @@
     "headline": "Authentification Steam",
     "intro": "En vous connectant avec Steam vous pourrez soumettre des rapports et utiliser la [page Explorer avec un filtre Bibliothèque]({{link}}) pour limiter les résultats aux jeux que vous possédez",
     "loggedInAs": "Connecté en tant que {{username}}",
-    "note": "Ceci utilisera l’API Web de Steam pour récupérer les informations publiques à propos de votre compte, dont l’ID, le nom de profil et l’avatar. Veuillez vous assurer que dans vos [paramètres de confidentialité Steam]({{link}}) la visibilité de votre « profil » soit visible pour « tout le monde ». Il n'est pas nécessaire de rendre public les « détails des jeux », néanmoins si cela est le cas, la page Explorer utilisera les informations de votre bibliothèque et le temps de jeu sera envoyé lors de vos contributions.",
+    "note": "Ceci utilisera l’API Web de Steam pour récupérer les informations publiques à propos de votre compte, dont l’ID, le nom de profil et l’avatar. Veuillez vous assurer que dans vos [Paramètres de Confidentialité Steam]({{link}}), votre 'Profil' soit visible pour 'tout le monde'. Il n'est pas nécessaire de rendre publique la 'Visibilité sur mes jeux'. Néanmoins, si cela est le cas, la page Explorer utilisera les informations de votre bibliothèque et le temps de jeu sera envoyé lors de vos contributions.",
     "refresh": "Rafraichir",
     "steamSignIn": "Se connecter avec Steam",
     "unlink": "Dissocier le compte"
