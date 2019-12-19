@@ -52,6 +52,22 @@
       "whitelisted": "В Білому Списку"
     }
   },
+  "filters": {
+    "questions": {
+      "cpu": {
+        "label": "CPU"
+      },
+      "distro": {
+        "label": "Дистрибутив"
+      },
+      "gpu": {
+        "label": "GPU"
+      },
+      "type": {
+        "label": "Тип"
+      }
+    }
+  },
   "gameDetails": {
     "githubIssueSearch": "Пошук Issue на Github",
     "infoNotFound": "Не вдалося отримати інформацію для ідентифікатора додатка: {{entry}}. Це може статися, якщо гру вилучили з магазину.",
