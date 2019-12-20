@@ -1,7 +1,9 @@
 {
   "auth": {
+    "genericSignIn": "Увійти",
     "headline": "Автентифікація Steam",
     "loggedInAs": "Ви увійшли як {{username}}",
+    "notLoggedIn": "Не Увійшли в Систему",
     "steamSignIn": "Увійти за допомогою Steam",
     "unlink": "Від'єднати обліковий запис"
   },
@@ -29,10 +31,12 @@
   "misc": {
     "addYourReport": "Додати Ваш Звіт",
     "affirmative": "Так",
+    "any": "Будь-який",
     "areYouSure": "Ви впевнені?",
     "cancel": "Відмінити",
     "chipset": "Чіпсет",
     "conjunction": "та",
+    "discard": "Скинути",
     "dismiss": "Закрити",
     "distro": "Дистрибутив",
     "driver": "Драйвер",
@@ -67,13 +71,14 @@
     "show": "Показати {{what}}",
     "showAll": "Показати Всі",
     "showMore": "Показати Більше",
+    "skip": "Пропустити",
     "tier": "Рівень",
     "total": "Всього",
     "unknown": "Невідомо",
     "version": "Версія"
   },
   "nav": {
-    "contribute": "Зробити Внесок",
+    "contribute": "Долучитися",
     "explore": "Оглянути",
     "help": "Допомога",
     "news": "Новини",
@@ -125,9 +130,14 @@
     "yourContributions": "Ваші Внески"
   },
   "reports": {
-    "superceded": "Існує новіший звіт цього типу від цього автора"
+    "clear": "Очистити",
+    "filteredOutCount": "{{count}} відфільтровано",
+    "filteredOutHeadline": "Наведені нижче {{count}} звіти не відповідають Вашим критеріям фільтрування {{filters}}",
+    "superceded": "Існує новіший звіт цього типу від цього автора",
+    "zeroStateMessage": "Немає звітів",
+    "zeroStateMessageWithFilters": "Жоден звіт не відповідає Вашим застосованим фільтрам"
   },
   "search": {
-    "resultsHeader": "Search results for {{q}}"
+    "resultsHeader": "Результати пошуку для {{q}}"
   }
 }
