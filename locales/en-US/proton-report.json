@@ -60,6 +60,10 @@
         "long": "Lutris install script",
         "short": "Lutris"
       },
+      "mediaFoundation": {
+        "long": "Media Foundation DLL (mf-install)",
+        "short": "Media Foundation DLL"
+      },
       "native2Proton": {
         "long": "Native2Proton",
         "short": "Native2Proton"
