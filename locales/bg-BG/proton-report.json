@@ -246,6 +246,10 @@
         "long": "Забранен Fsync (PROTON_NO_FSYNC)",
         "short": "Забранен Fsync"
       },
+      "fullscreenIntegerScaling": {
+        "long": "Мащабиране на цял екран, използвайки цяло число (WINE_FULLSCREEN_INTEGER_SCALING)",
+        "short": "Мащабиране на цял екран, използвайки цяло число"
+      },
       "largeAddressAware": {
         "long": "Large Address Aware (PROTON_FORCE_LARGE_ADDRESS_AWARE)",
         "short": "Large Address Aware"
@@ -350,9 +354,15 @@
     },
     "prompt": "Изпитвал ли си неочаквани забавяния с твоя хардуер?"
   },
+  "prerequisites": {
+    "invalidOrMissingSystemInfo": "Информацията за системата липсва или е невалидна",
+    "missingProfileInfo": "Информацията за профила е непълна. Липсва: {{context}}",
+    "notLoggedIn": "Не си вписан с {{context}}"
+  },
   "prerequisitesBlock": {
     "action": "Отиди в профил",
-    "context": "Преди да изпратиш доклад е нужно да се логнеш чрез Steam и да предоставиш информация за хардуера и системата ти!"
+    "context": "Преди да изпратиш доклад е нужно да се логнеш чрез Steam и да предоставиш информация за хардуера и системата ти!",
+    "headline": "Все още не е готово!"
   },
   "preview": {
     "intro": "Неща за проверка:",
