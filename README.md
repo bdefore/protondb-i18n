@@ -67,6 +67,7 @@ As ProtonDB continues development, new text will be added that may need translat
 - French (fr-FR): [@julroy67](https://github.com/julroy67)
 - Italian (it-IT): [@apontini](https://github.com/apontini) and [@protoroto](https://github.com/protoroto)
 - Spanish (es-ES): [@xathech](https://github.com/xathech)
+- Simplified Chinese (zh-Hans): [@zactry](https://github.com/zactry)
 
 ### Coming soon
 
