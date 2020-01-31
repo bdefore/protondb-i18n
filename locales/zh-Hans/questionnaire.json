@@ -1,0 +1,20 @@
+{
+  "genericFollowUpPrompt": "具体是什么问题？",
+  "misc": {
+    "answerRequired": "必填",
+    "answerRequiredWhenNotListed": "未选中已列出的任何一项时，该项目必填",
+    "back": "上一步",
+    "error": "错误！",
+    "markdownSupportNotice": "现已支持 Markdown",
+    "maxChars": "不超过 {{count}} 个字符",
+    "next": "下一步",
+    "submission": {
+      "error": "提交过程出现错误。请确保您的浏览器可以调用 apis.google.com。目前已知 Brave 和 Privacy Badger 默认会拦截该地址。如果检查后还是无法提交，请告知我们！",
+      "note": "请注意新提交的报告会被标记为待定状态直到下一次内容更新。您可以在 [个人页面]({{link}}) 查看您提交的报告",
+      "success": "已成功提交",
+      "thanks": "感谢您对 {{siteName}} 的贡献"
+    },
+    "submit": "提交",
+    "tooLong": "太长"
+  }
+}
