@@ -354,6 +354,11 @@
     },
     "prompt": "Avez-vous rencontré des lenteurs compte tenu de votre matériel ?"
   },
+  "prerequisites": {
+    "invalidOrMissingSystemInfo": "Informations système manquantes ou invalides",
+    "missingProfileInfo": "Informations du profil incomplètes. Manquant : {{context}}",
+    "notLoggedIn": "Non connecté avec {{context}}"
+  },
   "prerequisitesBlock": {
     "action": "Aller au profil",
     "context": "Vous devez vous connecter à votre compte Steam et fournir vos informations système avant de pouvoir soumettre un rapport !"
