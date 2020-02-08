@@ -4,7 +4,7 @@
   },
   "breakdown": {
     "headline": "Beliebte Spiele",
-    "popularHeadline": "Bewertungen für die {{count}} beliebtesten",
+    "popularHeadline": "Bewertungen für die {{count}} Beliebtesten",
     "topHundred": "Top Einhundert",
     "topTen": "Top Zehn",
     "topThousand": "Top Eintausend",
@@ -69,7 +69,7 @@
     }
   },
   "gameDetails": {
-    "githubIssueSearch": "Github Issue-Suche",
+    "githubIssueSearch": "Github Fehler-Suche",
     "infoNotFound": "Es konnten keine Informationen für die App-ID erfasst werden: {{entry}}. Dies kann passieren, wenn ein Spiel aus dem Shop entfernt wurde.",
     "minimumRequirements": "Mindestanforderungen",
     "nativelySupports": "Native Unterstützung"
@@ -77,8 +77,8 @@
   "home": {
     "getStartedLinks": [
       "[Steams offizielle Steam Play-Seite](https://store.steampowered.com/steamplay)",
-      "[A guide to migrating to Linux](https://www.reddit.com/r/linux_gaming/comments/9oqq3w/guide_migrating_to_linux_in_2019/)",
-      "[What is Vulkan?](https://www.reddit.com/r/linux_gaming/comments/9ritk1/not_sure_i_quite_understand_can_someone_explain/)"
+      "[Ein Leitfaden um zu Linux zu migrieren](https://www.reddit.com/r/linux_gaming/comments/9oqq3w/guide_migrating_to_linux_in_2019/)",
+      "[Was ist Vulkan?](https://www.reddit.com/r/linux_gaming/comments/9ritk1/not_sure_i_quite_understand_can_someone_explain/)"
     ],
     "headline": "Mit Proton und Steam Play funktionieren viele Windows-Spiele jetzt auch unter Linux!",
     "howDoIHelp": {
@@ -106,7 +106,7 @@
       "question": "Was ist ProtonDB?"
     },
     "whyBigDeal": {
-      "answer": "Das Linux-Desktop-Erlebnis hat sich in den letzten ein oder zwei Jahren sprunghaft verbessert. Das meiste, was du unter Windows oder MacOS gewohnt bist, ist unter Linux möglich, ohne zu viel basteln zu müssen, und das Basteln kann sogar Spaß machen. Inzwischen finden immer mehr unserer täglichen Interaktionen mit einem Computer online statt, und Browser verhalten sich unter Linux ähnlich wie unter anderen Betriebssystemen. Proton und Steam Play adressieren ein wesentliches Hindernis für die Akzeptanz: das Spielen, bei dem es bis vor kurzem nur begrenzte Kompatibilität gab.",
+      "answer": "Das Linux-Desktop-Erlebnis hat sich in den letzten ein oder zwei Jahren sprunghaft verbessert. Das Meiste, was du unter Windows oder MacOS gewohnt bist, ist unter Linux möglich, ohne zu viel basteln zu müssen, und das Basteln kann sogar Spaß machen. Inzwischen finden immer mehr unserer täglichen Interaktionen mit einem Computer online statt, und Browser verhalten sich unter Linux ähnlich wie unter anderen Betriebssystemen. Proton und Steam Play adressieren ein wesentliches Hindernis für die Akzeptanz: das Spielen, bei dem es bis vor kurzem nur begrenzte Kompatibilität gab.",
       "question": "Warum ist das eine große Sache?"
     },
     "youtubeId": "Co6FePZoNgE"

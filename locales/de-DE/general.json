@@ -11,7 +11,7 @@
   },
   "contextualInfo": {
     "hoursPlayed": "{{context}} Stunden gespielt",
-    "peakPlayers": "{{context}} peak players",
+    "peakPlayers": "{{context}} maximale Spieler",
     "positiveRating": "{{context}}% postive Bewertungen",
     "recentReportCount": "{{context}} Berichte mit den letzten zwei Proton-Versionen"
   },
