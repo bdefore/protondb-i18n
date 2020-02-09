@@ -20,7 +20,7 @@
       },
       "lowQuality": {
         "long": "Niedrige Audioqualität",
-        "short": "Nidrige Qualität"
+        "short": "Niedrige Qualität"
       },
       "missing": {
         "long": "Einiges an Audio fehlt",
@@ -328,7 +328,7 @@
     }
   },
   "onlineMultiplayerAppraisal": {
-    "prompt": "Wie beurteilst du die Online-Multiplayer-Funktionalität? Bitte prüfe, ob es Verzögerungen, Verbindungs- oder Eingabeprobleme, Matchingmaking-Fehler usw. gibt."
+    "prompt": "Wie beurteilst du die Online-Multiplayer-Funktionalität? Bitte prüfe, ob es Verzögerungen, Verbindungs- oder Eingabeprobleme, Matchmaking-Fehler usw. gibt."
   },
   "onlineMultiplayerAttempted": {
     "prompt": "Hast du versucht, Online-Multiplayer zu spielen?"
@@ -356,7 +356,7 @@
   },
   "prerequisitesBlock": {
     "action": "Zum Profil gehen",
-    "context": "Du musst dich bei Steam anmelden und Systeminformationen angeben, bevor du es abschicken kannst!"
+    "context": "Du musst dich bei Steam anmelden und deine Systeminformationen angeben, bevor du deinen Bericht abschicken kannst!"
   },
   "preview": {
     "intro": "Dinge, die du noch einmal überprüfen solltest:",
@@ -454,14 +454,14 @@
         "short": "Bastler-Bewertung"
       }
     },
-    "prompt": "Welche Art von Bewertung willst du verfassen?"
+    "prompt": "Welche Art von Bewertung möchtest du verfassen?"
   },
   "verdict": {
     "additionalNotes": {
       "label": "Zusammenfassung (maximal {{count}} Zeichen)",
       "placeholder": "Füge eine kurze Zusammenfassung hinzu. Dies wird die Überschrift deines Berichts sein."
     },
-    "prompt": "Würde ein typischer Spieler eine angenehme Erfahrung beim spielen dieses Spiels unter Linux mit Proton haben?"
+    "prompt": "Würde ein typischer Spieler eine angenehme Erfahrung beim Spielen dieses Spiels unter Linux mit Proton haben?"
   },
   "welcome": {
     "intro": "Vielen Dank für dein Interesse an der Erweiterung des ProtonDB-Katalogs von Kompatibilitätsberichten über Steam Play und Proton! Bitte beachte die folgenden Punkte, bevor du einen Beitrag leistest:",
@@ -471,7 +471,7 @@
       "Wenn du mehrere Berichte einreichst, wird nur dein neuester Bericht für die ProtonDB-Wertung herangezogen und nur dann, wenn deine Systeminformationen die Mindestanforderungen von Proton erfüllen.",
       "Deine Einreichungen werden auf ProtonDB öffentlich sichtbar sein und sind in Datenexporten unter der Open Database License verfügbar. Folge diesem [Link]({{link}}) für mehr Informationen."
     ],
-    "outro": "Damit lass uns anfangen!"
+    "outro": "Lass uns damit anfangen!"
   },
   "windowingFaults": {
     "legend": "Fenstermodus",
@@ -482,7 +482,7 @@
       },
       "fullNotFull": {
         "long": "Der Vollbildmodus streckte sich nicht über den ganzen Bildschirm",
-        "short": "Vollbild falsche größe"
+        "short": "Vollbild falsche Größe"
       },
       "other": {
         "long": "Sonstiges",
