@@ -6,7 +6,7 @@
     "@prantlf/jsonlint": "^8.0.3",
     "chalk": "^3.0.0",
     "fs-extra": "^8.1.0",
-    "minimist": "^1.2.0"
+    "minimist": "^1.2.2"
   },
   "scripts": {
     "compare": "node check_keys.js",
