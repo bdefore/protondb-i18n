@@ -163,11 +163,11 @@
   "systemInfo": {
     "headline": "Системная информация",
     "howTo": "Если у вас есть доступ к настройкам Steam на ПК на котором вы играете в игры то сбор данной информации будет быстрее. [Здесь можно узнать как именно]({{link}}). (Некоторые пользователи сообщали о необходимости нажимания Ctrl-A для выбора всего перед нажатием правой кнопки мыши.)",
-    "intro": "Reports have more utility and lend more credibility by displaying the hardware and software the game was tested on. To keep this as accurate and consistent as possible, we leverage the system information reported by Steam itself.",
-    "parseFailure": "Parsing failed. If you are certain you copied correctly please let us know on Discord",
-    "parseSuccess": "System Information Parsed Successfully!",
-    "pasteInstructions": "Paste Steam System Info Here",
-    "unsupportedHeadline": "Unsupported Drivers Detected",
-    "unsupportedWarning": "Your system's display driver does not meet [Proton's current minimum requirements]({{link}})! You may experience crashes, slow performance, or graphical degradations. You may still submit reports and there is still value in your contributions, but your reports will show your graphics drivers in red and will not be counted toward aggregate ratings for games. Please update your drivers!"
+    "intro": "Отчёты имеют больше пользы и предоставляют больше правдоподобности при предоставлении характеристик деталей ПК и ПО которые использовались при тестировании игры. Чтобы создать максимально точные отчёты мы используем информацию предоставленную Steam.",
+    "parseFailure": "Обработка не удалась. Если вы уверены что информация скопирована корректно, пожалуйсто дайте нам знать в Discord",
+    "parseSuccess": "Системная информация успешно обработана!",
+    "pasteInstructions": "Вставьте сюда системную информацию Steam",
+    "unsupportedHeadline": "Обнаружен не поддерживаемый драйвер",
+    "unsupportedWarning": "Видеодрайвер Вашей системы не соответствует [теперишним минимальным требованиям Proton]({{link}})! Вы можете наблюдать краши, затормаживания, или артефакты. Вы всё ещё сможете отправлять отчёты и Ваша помощ всё ещё имеет вес, но Ваши отчёты будут иметь версию видеодрайвера красным цветом и не будут учитыватся в определении общего рейтинга качества игр. Пожалуйсто обновите Ваши видеодрайвера!"
   }
 }
