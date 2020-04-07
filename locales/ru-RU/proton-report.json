@@ -1,72 +1,76 @@
 {
   "appSelection": {
-    "caution": "Увага!",
-    "helperText": "Ви також можете вставити посилання чи ID додатку і ми спробуємо знайти його.",
-    "notFound": "Гру з ID {{query}} не знайдено. Це може статися якщо ID неточний або якщо гру: знято з крамниці Steam, не подано як 'гру' в списку, або вона недоступна у Вашій країні.",
-    "placeholder": "Введіть назву гри у вашій бібліотеці Steam...",
-    "previousReportsExist": "Ви вже подавали попередні звіти про цю гру",
-    "runsNativeWarning": "Вибрана гра опублікувала нативну версію для Linux! Будь ласка, переконайтеся, що Ви ненароком не запустили цю гру нативно. Steam не використовує Steam Play зазвичай, проте [Ви можете примусити його так зробити]({{link}})."
+    "caution": "Внимание!",
+    "helperText": "Вы так же можете вставить ссылки или App ID и мы попытаемся найти его",
+    "notFound": "Could not  найти game with App ID {{query}}. This can happen если его is either inaccurate или если его has: been removed from the Steam store, not listed as a 'game', или not available in your country.",
+    "placeholder": "Enter name of a game in your Steam library...",
+    "previousReportsExist": "Вы have previous reports for this game",
+    "runsNativeWarning": "The selected game has published a native Linux version! Please be sure Вы have not inadvertently run the game natively. Steam does not use Steam Play run this game by default, but [Вы can force его do so]({{link}})."
   },
   "audioFaults": {
-    "legend": "Звук",
+    "legend": "Audio",
     "options": {
       "borked": {
-        "long": "Повністю зламано",
-        "short": "Зламано"
+        "long": "Totally borked",
+        "short": "Borked"
       },
       "crackling": {
-        "long": "Потріскування",
-        "short": "Потріскування"
+        "long": "Crackling",
+        "short": "Crackling"
       },
       "lowQuality": {
-        "long": "Замітне зниження якості звуку",
-        "short": "Низька якість"
+        "long": "Noticeable quality degradation",
+        "short": "Low quality"
       },
       "missing": {
-        "long": "Деякі частини звуку відсутні",
-        "short": "Відсутній"
+        "long": "Some audio is missing",
+        "short": "Missing"
       },
       "other": {
-        "long": "Інше",
-        "short": "Інше"
+        "long": "Other",
+        "short": "Other"
       },
       "outOfSync": {
-        "long": "Вийшов з синхронізації",
-        "short": "Не синхронізовано"
+        "long": "Fell out of sync",
+        "short": "Out of sync"
       }
     },
-    "prompt": "Ви спостерігали будь-які проблеми зі звуком?"
+    "prompt": "Did Вы experience any problems with audio?"
   },
   "borked": {
-    "headline": "Ех, а жаль!",
-    "intro": "Ви тепер продовжите заповнення звіту про Зламану гру, але перед тим як Ви це зробите, можливо Ви бажаєте переглянути нашу [FAQ щодо усунення несправностей]({{link}})"
+    "headline": "That's a bummer!",
+    "intro": "Вы will now proceed with submitting a borked report, but before Вы do Вы may want visit our [Game Troubleshooting FAQ]({{link}}) page."
   },
   "customizationsUsed": {
     "additionalNotes": {
-      "label": "Подальші деталі",
-      "placeholder": "Пояснення чи посилання на допис у блозі чи ропозиторій Github"
+      "label": "Further Details",
+      "placeholder": "Explanation или link blog post или Github repository"
     },
-    "legend": "Налаштування",
+    "legend": "Customizations",
     "options": {
       "customPrefix": {
-        "long": "Модифікований префікс Wine",
-        "short": "Модифікований префікс"
+        "long": "A custom Wine prefix",
+        "short": "Custom Prefix"
       },
       "customProton": {
-        "long": "Модифікований форк Proton",
-        "short": "Модифікований Proton"
+        "long": "A custom fork of Proton",
+        "short": "Custom Proton"
       },
       "lutris": {
-        "long": "Інсталяційний скрипт Lutris",
+        "long": "Lutris install script",
         "short": "Lutris"
+      },
+      "mediaFoundation": {
+        "long": "Media Foundation DLL (mf-install)",
+        "short": "Media Foundation DLL"
       },
       "native2Proton": {
         "long": "Native2Proton",
         "short": "Native2Proton"
       },
       "notListed": {
-        "long": "Не Вказано",
-        "short": "Не Вказано"
+        "long": "Not Listed",
+        "short": "Not Listed"
       },
       "protonfixes": {
         "long": "protonfixes",
@@ -81,65 +85,65 @@
         "short": "winetricks"
       }
     },
-    "prompt": "Котрі зміни Ви ввели?"
+    "prompt": "What customizations have Вы made?"
   },
   "duration": {
-    "legend": "Тривалість",
+    "legend": "Duration",
     "options": {
       "aboutAnHour": {
-        "long": "1 година",
-        "short": "1 година"
+        "long": "an hour",
+        "short": "an hour"
       },
       "lessThanAnHour": {
-        "long": "< 1 години",
-        "short": "< 1 години"
+        "long": "< 1 hour",
+        "short": "< 1 hour"
       },
       "lessThanFifteenMinutes": {
-        "long": "< 15 хвилин",
-        "short": "< 15 хвилин"
+        "long": "< 15 minutes",
+        "short": "< 15 minutes"
       },
       "moreThanTenHours": {
-        "long": "> 10 годин",
-        "short": "> 10 годин"
+        "long": "> 10 hours",
+        "short": "> 10 hours"
       },
       "severalHours": {
-        "long": "2+ годин",
-        "short": "2+ годин"
+        "long": "2+ hours",
+        "short": "2+ hours"
       }
     },
-    "prompt": "Скільки часу Ви грали в гру?"
+    "prompt": "For how long have Вы played?"
   },
   "extra": {
     "additionalNotes": {
-      "label": "Додаткові Нотатки",
-      "placeholder": "Будь ласка, додайте їх тут."
+      "label": "Extra Notes",
+      "placeholder": "Please add его here."
     },
-    "prompt": "Ви хочете щось додати, що не було висвітлено в попередніх питаннях?"
+    "prompt": "Is there anything you'd like add that was not covered in previous questions?"
   },
   "graphicalFaults": {
-    "legend": "Графіка",
+    "legend": "Graphics",
     "options": {
       "heavyArtifacts": {
-        "long": "Сильні чи часті артефакти",
-        "short": "Сильні артефакти"
+        "long": "Heavy или common artifacts",
+        "short": "Heavy artifacts"
       },
       "minorArtifacts": {
-        "long": "Незначні чи нечасті артефакти",
-        "short": "Дрібні артефакти"
+        "long": "Minor или infrequent artifacts",
+        "short": "Minor artifacts"
       },
       "missingTextures": {
-        "long": "Відсутні текстури",
-        "short": "Відсутні текстури"
+        "long": "Missing textures",
+        "short": "Missing textures"
       },
       "other": {
-        "long": "Інше",
-        "short": "Інше"
+        "long": "Other",
+        "short": "Other"
       }
     },
-    "prompt": "Чи замітили Ви будь-які графічні деградації?"
+    "prompt": "Did Вы notice any graphical degradations?"
   },
   "graphicsApiSelection": {
-    "legend": "Графічне API",
+    "legend": "Graphics API",
     "options": {
       "d3d": {
         "long": "Direct3D",
@@ -150,60 +154,60 @@
         "short": "OpenGL"
       },
       "unsure": {
-        "long": "Те, що гра використовує за замовчуванням",
-        "short": "За замовчуванням"
+        "long": "Whatever the game uses by default",
+        "short": "Default"
       },
       "vk": {
         "long": "Vulkan",
         "short": "Vulkan"
       }
     },
-    "prompt": "Котре графічне API Ви використовували під час гри?"
+    "prompt": "What graphics API did Вы use within the game?"
   },
   "inputFaults": {
-    "legend": "Ввід",
+    "legend": "Input",
     "options": {
       "bounding": {
-        "long": "Неправильні межі Deadzone",
-        "short": "Deadzone"
+        "long": "Bounds were incorrect",
+        "short": "Bounding"
       },
       "controllerMapping": {
-        "long": "Кнопки на джойстику(-ах) були присвоєні неправильно",
-        "short": "Присвоєння клавіш джойстика"
+        "long": "Controller(s) were not mapped properly",
+        "short": "Controller mapping"
       },
       "controllerNotDetected": {
-        "long": "Джойстик(и) не було розпізнано",
-        "short": "Розпізнавання джойстика"
+        "long": "Controller(s) not detected",
+        "short": "Controller detection"
       },
       "controllerNotResponsive": {
-        "long": "Джойстик(и) було розпізнано, проте не реагує",
-        "short": "Реакція"
+        "long": "Controller(s) detected but were not responsive",
+        "short": "Responsiveness"
       },
       "drifting": {
-        "long": "Осі джойстика не вертаються на початкову позицію",
-        "short": "З'їзд по осі"
+        "long": "Axes would drift",
+        "short": "Drifting"
       },
       "inaccuracy": {
-        "long": "Неточність",
-        "short": "Неточність"
+        "long": "Inaccuracy",
+        "short": "Inaccuracy"
       },
       "lag": {
-        "long": "Ввід був із затримкою",
-        "short": "Затримка"
+        "long": "Input was laggy",
+        "short": "Lag"
       },
       "other": {
-        "long": "Інше",
-        "short": "Інше"
+        "long": "Other",
+        "short": "Other"
       }
     },
-    "prompt": "У Вас були будь-які проблеми з мишею, джойстиком чи якимсь іншим ввідним пристроєм?"
+    "prompt": "Did Вы experience any problems with your mouse, gamepad или other input devices?"
   },
   "installs": {
-    "legend": "Встановлюється",
-    "prompt": "Вам вдалося встановити гру?"
+    "legend": "Installs",
+    "prompt": "Were Вы able install the game?"
   },
   "isImpactedByAntiCheat": {
-    "legend": "Анти-Чіт",
+    "legend": "Anti-Cheat",
     "options": {
       "battleEye": {
         "long": "BattlEye",
@@ -214,56 +218,60 @@
         "short": "EAC"
       },
       "other": {
-        "long": "Інше",
-        "short": "Інше"
+        "long": "Other",
+        "short": "Other"
       }
     },
-    "prompt": "Чи впливають на гру програми анти-чіт?"
+    "prompt": "Is the game impacted by anti-cheat software?"
   },
   "isMultiplayerImportant": {
-    "prompt": "Чи є мультиплеєр важливою частиною цієї гри?"
+    "prompt": "Is multiplayer a crucial part of the value of this game?"
   },
   "launchFlagsUsed": {
     "additionalNotes": {
-      "label": "Подальші Деталі",
-      "placeholder": "З чим це допомогло?"
+      "label": "Further Details",
+      "placeholder": "What did this help with?"
     },
-    "legend": "Параметри Запуску",
+    "legend": "Launch Flags",
     "options": {
       "disableD3d10": {
-        "long": "Вимкнули D3D10 (PROTON_NO_D3D10) ",
-        "short": "Вимкнули D3D10"
+        "long": "Disable D3D10 (PROTON_NO_D3D10)",
+        "short": "Disable D3D10"
       },
       "disableD3d11": {
-        "long": "Вимкнули D3D11 (PROTON_NO_D3D11)",
-        "short": "Вимкнули D3D11"
+        "long": "Disable D3D11 (PROTON_NO_D3D11)",
+        "short": "Disable D3D11"
       },
       "disableEsync": {
-        "long": "Вимкнули Esync (PROTON_NO_ESYNC)",
-        "short": "Вимкнули Esync"
+        "long": "Disable Esync (PROTON_NO_ESYNC)",
+        "short": "Disable Esync"
       },
       "disableFsync": {
-        "long": "Вимкнули Fsync (PROTON_NO_FSYNC)",
-        "short": "Вимкнули Fsync"
+        "long": "Disable Fsync (PROTON_NO_FSYNC)",
+        "short": "Disable Fsync"
+      },
+      "fullscreenIntegerScaling": {
+        "long": "Fullscreen Integer Scaling (WINE_FULLSCREEN_INTEGER_SCALING)",
+        "short": "Fullscreen Integer Scaling"
       },
       "largeAddressAware": {
         "long": "Large Address Aware (PROTON_FORCE_LARGE_ADDRESS_AWARE)",
         "short": "Large Address Aware"
       },
       "oldGlString": {
-        "long": "Старий GL String (PROTON_OLD_GL_STRING)",
-        "short": "Старий GL String"
+        "long": "Old GL String (PROTON_OLD_GL_STRING)",
+        "short": "Old GL String"
       },
       "useWineD3d11": {
-        "long": "Використали Wine D3D (PROTON_USE_WINED3D)",
-        "short": "Використали Wine D3D"
+        "long": "Use Wine D3D (PROTON_USE_WINED3D)",
+        "short": "Use Wine D3D"
       },
       "useWineD9vk": {
-        "long": "Використали D9VK (PROTON_USE_D9VK)",
-        "short": "Використали D9VK"
+        "long": "Use D9VK (PROTON_USE_D9VK)",
+        "short": "Use D9VK"
       }
     },
-    "prompt": "Чи використовували ви будь-який із параметрів запуску Proton?"
+    "prompt": "Do Вы use any of these Proton launch flags?"
   },
   "launcher": {
     "additionalNotes": {
@@ -280,222 +288,222 @@
         "short": "Lutris"
       },
       "notListed": {
-        "long": "Не Вказано",
-        "short": "Не Вказано"
+        "long": "Not Listed",
+        "short": "Not Listed"
       },
       "steam": {
         "long": "Steam",
         "short": "Steam"
       }
     },
-    "prompt": "Як Ви запускаєте гру?"
+    "prompt": "How do Вы launch the game?"
   },
   "localMultiplayerAppraisal": {
-    "prompt": "Як би Ви оцінили здатність гри до локальних мультиплеєрів? Оцініть, будь ласка, затримку, зв’язок або проблеми з введенням тощо."
+    "prompt": "How would Вы rate the local multiplayer functionality? Please evaulate for lag, connectivity или input issues, etc."
   },
   "localMultiplayerAttempted": {
-    "prompt": "Ви намагалися грати в мультиплеєр локально (офлайн, тобто гра на дивані)?"
+    "prompt": "Did Вы try play multiplayer locally (offline i.e. couch play)?"
   },
   "localMultiplayerPlayed": {
-    "prompt": "Вам вдалося зіграти в гру по локальному мультиплеєру?"
+    "prompt": "Were Вы able get local multiplayer work?"
   },
   "multiplayerAppraisal": {
     "options": {
       "acceptable": {
-        "long": "Прийнятно. Помірні проблеми, але їх можна пережити.",
-        "short": "Прийнятно"
+        "long": "Acceptable. Moderate issues but can be struggled through.",
+        "short": "Acceptable"
       },
       "awful": {
-        "long": "Жахливо. Практично неможливо грати",
-        "short": "Жахливо"
+        "long": "Awful. Practically not playable",
+        "short": "Awful"
       },
       "excellent": {
-        "long": "Відмінно. Не відчував жодних проблем.",
-        "short": "Відмінно"
+        "long": "Excellent. Did not experience any problems.",
+        "short": "Excellent"
       },
       "good": {
-        "long": "Добре. Мав нечасті проблеми, але загалом можна грати.",
-        "short": "Добре"
+        "long": "Good. Had infrequent issues but is overall playable.",
+        "short": "Good"
       },
       "weak": {
-        "long": "Слабкий. Його проблеми суттєво впливають на досвід",
-        "short": "Слабкий"
+        "long": "Weak. егоs problems significantly impact the experience",
+        "short": "Weak"
       }
     }
   },
   "onlineMultiplayerAppraisal": {
-    "prompt": "Як би ви оцінили функціонал мультиплеєру по Інтернету? Будь ласка, оцініть проблеми затримки, підключення або введення даних, проблеми створення матчів тощо."
+    "prompt": "How would Вы rate the online multiplayer functionality? Please evaulate for lag, connectivity или input issues, matchingmaking failures etc."
   },
   "onlineMultiplayerAttempted": {
-    "prompt": "Ви намагалися грати в мультиплеєр онлайн?"
+    "prompt": "Did Вы try play multiplayer online?"
   },
   "onlineMultiplayerPlayed": {
-    "prompt": "Чи змогли ви підключитися та грати в онлайн мультиплеєр?"
+    "prompt": "Were Вы able connect и play online multiplayer?"
   },
   "opens": {
-    "legend": "Відкривається",
-    "prompt": "Чи змогли Ви запустити гру та переглянути її початкове меню?"
+    "legend": "Opens",
+    "prompt": "Were Вы able start up the game и view егоs initial menu?"
   },
   "performanceFaults": {
-    "legend": "Швидкодія",
+    "legend": "Performance",
     "options": {
       "significantSlowdown": {
-        "long": "Значні Проблеми Швидкодії",
-        "short": "Значні Проблеми Швидкодії"
+        "long": "Significant Performance Problems",
+        "short": "Significant Performance Problems"
       },
       "slightSlowdown": {
-        "long": "Незначні Проблеми Швидкодії",
-        "short": "Незначні Проблеми Швидкодії"
+        "long": "Slight Performance Problems",
+        "short": "Slight Performance Problems"
       }
     },
-    "prompt": "Чи відчували Ви несподіване сповільнення враховуючи Ваше обладнання?"
+    "prompt": "Did Вы experience unexpected slowness given your hardware?"
   },
   "prerequisites": {
-    "invalidOrMissingSystemInfo": "Інформація про систему відсутня або недійсна",
-    "missingProfileInfo": "Інформація про профіль неповна. Відсутнє: {{context}}",
-    "notLoggedIn": "Не увійшли в систему через {{context}}"
+    "invalidOrMissingSystemInfo": "System information is missing или invalid",
+    "missingProfileInfo": "Profile information incomplete. Missing: {{context}}",
+    "notLoggedIn": "Not logged in with {{context}}"
   },
   "prerequisitesBlock": {
-    "action": "Перейти на профіль",
-    "context": "Перед надсиланням Вам потрібно буде увійти в Steam та надати системну інформацію!",
-    "headline": "Ще Не Готово!"
+    "action": "Go profile",
+    "context": "You'll need log into Steam и provide system information before submitting!",
+    "headline": "Not Ready Yet!"
   },
   "preview": {
-    "intro": "Що потрібно перевірити:",
+    "intro": "Things check for:",
     "notes": [
-      "Чи актуальна Ваша система? Вам потрібно буде перейти до свого профілю та надати інформацію про Steam після оновлення графічного драйвера.",
-      "Ви вибрали правильну гру? Деякі ігри мають таку ж назву, як і старіші версії, наприклад гра GRID",
-      "Ви додали описи в потрібних місцях? Наприклад, пишіть замітки про проблеми з графікою в відповідному розділі, а не в кінцевих примітках."
+      "Is your system information up date? Вы will need go your profile и provide your Steam information after a graphics driver update.",
+      "Have Вы selected the correct game? Some games have the same name as older versions i.e. GRID",
+      "Have Вы added descriptions in the right place? For example, write notes about graphics issues in that section rather than end notes."
     ]
   },
   "prompts": {
-    "continuingDraft": "Ви продовжуєте роботу з автоматично збереженої чернетки.",
-    "discardDraftWarning": "Усі ваші відповіді будуть назавжди відхилені.",
-    "startOver": "Почати Заново"
+    "continuingDraft": "Вы are continuing from automatically saved draft.",
+    "discardDraftWarning": "All of your responses will be permanently discarded.",
+    "startOver": "Start Over"
   },
   "protonVersion": {
     "additionalNotes": {
-      "label": "Власна версія Proton",
-      "placeholder": "Рядок версії Proton повинен бути вірним. Приклади: {{examples}}"
+      "label": "Manual Proton Version",
+      "placeholder": "Must be valid Proton version string. Examples: {{examples}}"
     },
-    "prompt": "Яку версію Proton Ви використовуєте"
+    "prompt": "What version of Proton are Вы using?"
   },
   "saveGameFaults": {
-    "legend": "Запис Гри",
+    "legend": "Save Games",
     "options": {
       "errorLoading": {
-        "long": "Не вдалося завантажити збережену гру",
-        "short": "Завантаження"
+        "long": "Could not load a save game",
+        "short": "Loading"
       },
       "errorSaving": {
-        "long": "Не вдалося зберегти гру",
-        "short": "Збереження"
+        "long": "Could not save",
+        "short": "Saving"
       },
       "other": {
-        "long": "Інше",
-        "short": "Інше"
+        "long": "Other",
+        "short": "Other"
       }
     },
-    "prompt": "У Вас виникли проблеми із збереженням ігор?"
+    "prompt": "Did Вы experience any problems with save games?"
   },
   "significantBugs": {
-    "legend": "Значні Помилки",
-    "prompt": "Чи замітили Ви будь-які інші значні помилки?"
+    "legend": "Significant Bugs",
+    "prompt": "Did Вы experience any other significant bugs?"
   },
   "stabilityFaults": {
-    "legend": "Стабільність",
+    "legend": "Stability",
     "options": {
       "frequentCrashes": {
-        "long": "Часті збої",
-        "short": "Часто"
+        "long": "Frequent crashes",
+        "short": "Frequently"
       },
       "notListed": {
-        "long": "Не вказано",
-        "short": "Не вказано"
+        "long": "Not listed",
+        "short": "Not listed"
       },
       "occasionally": {
-        "long": "Випадкові збої",
-        "short": "Випадкові збої"
+        "long": "Occasional crashes",
+        "short": "Occasionally"
       }
     },
-    "prompt": "Чи виникали у Вас проблеми зі стабільністю?"
+    "prompt": "Did Вы experience any stability issues?"
   },
   "startsPlay": {
-    "legend": "Починає Гру",
-    "prompt": "Чи змогли Ви почати грати?"
+    "legend": "Starts Play",
+    "prompt": "Were Вы able begin playing?"
   },
   "stepHeadlines": {
-    "appSelection": "Вибір Гри",
-    "borked": "Зламано!",
-    "customizations": "Зміни",
-    "finalNotes": "Вирок",
-    "gameplay": "Інші Можливі Проблеми",
-    "graphics": "Графіка та Швидкодія",
-    "multiplayer": "Мультиплеєр",
-    "preview": "Попередній перегляд",
-    "setup": "Встановлення",
-    "stability": "Стабільність",
-    "startup": "Встановлення та Запуск",
-    "tinkerCheck": "Тип Звіту",
-    "unownedWarning": "Не в Бібліотеці"
+    "appSelection": "Game Selection",
+    "borked": "Borked!",
+    "customizations": "Customizations",
+    "finalNotes": "Verdict",
+    "gameplay": "Other Potential Issues",
+    "graphics": "Graphics и Performance",
+    "multiplayer": "Multiplayer",
+    "preview": "Preview",
+    "setup": "Setup",
+    "stability": "Stability",
+    "startup": "Install и Startup",
+    "tinkerCheck": "Report Type",
+    "unownedWarning": "Not In Library"
   },
   "type": {
     "intro": [
-      "ProtonDB тепер розділяє звіти на два типи: Steam Play і Майстер.",
-      "Використовуйте звіт типу Steam Play, щоб висвітлити досвід гри без будь-яких змін. Встановіть, натисніть Старт, і розпочніть гру.",
-      "Використовуйте звіт типу Майстер, якщо Ви зробили зміни або налаштування щоб розпочати гру.",
-      "Детальніше про відмінності див. [цей блог-пост]{{link}}."
+      "ProtonDB now buckets reports into two types: Steam Play и Tinker.",
+      "Use Steam Play Report cover the out-of-the-box experience. Install, hit play, и get your game on.",
+      "Use Tinker Report если Вы have made tweaks или customizations get the game working.",
+      "For more on the differences, see [this news post]({{link}})."
     ],
     "options": {
       "steamPlay": {
-        "long": "Звіт SteamPlay",
-        "short": "Звіт SteamPlay"
+        "long": "SteamPlay Report",
+        "short": "SteamPlay Report"
       },
       "tinker": {
-        "long": "Звіт Майстер",
-        "short": "Звіт Майстер"
+        "long": "Tinker Report",
+        "short": "Tinker Report"
       }
     },
-    "prompt": "Звіт котрого типу Ви пишете?"
+    "prompt": "What type of report will Вы write?"
   },
   "verdict": {
     "additionalNotes": {
-      "label": "Підсумок (максимум {{count}} знаків)",
-      "placeholder": "Додайте короткий підсумок. Це буде заголовок вашого звіту."
+      "label": "Summary (max {{count}} chars)",
+      "placeholder": "Add a short summary. This will be the headline of your report."
     },
-    "prompt": "Чи мав би типовий гравець приємний досвід з цією грою на Linux використовуючи Proton?"
+    "prompt": "Would a typical gamer have enjoyable experience running this game on Linux with Proton?"
   },
   "welcome": {
-    "headline": "Ласкаво Просимо",
-    "intro": "Дякуємо за Ваш інтерес до розширення каталогу звітів про сумісність ProtonDB щодо Steam Play та Proton! Будь ласка, пам’ятайте про наступне, перш ніж робити свій внесок",
+    "headline": "Welcome",
+    "intro": "Thanks for your interest in expanding ProtonDB's catalog of compatibility reports on Steam Play и Proton! Please keep in mind the following before Вы contribute",
     "notes": [
-      "Звіти публікуються на ProtonDB, щоб допомогти Вам, Valve та розробникам виправити ігри. Будь ласка, зберігайте свої звіти точними, без образливих слів і утримуйтесь від подання звітів лише для просування Вашої улюбленої гри, дистрибутива чи графічної картки.",
-      "Подання декількох звітів для тієї ж гри заохочується! Коли Ви більше граєте в гру або оновлюєте Proton, Вам буде більше чого доповісти. Таким чином ProtonDB відрізняється від вікі, оскільки кожен звіт слугує 'знімком' того, як гра поводилася в дану дату з вашою конфігурацією.",
-      "Якщо Ви подаєте декілька звітів, до рейтингу ProtonDB зараховуватиметься лише ваш останній показник, і лише якщо ваша системна інформація відповідає мінімальним вимогам Proton.",
-      "Ваші внески будуть публічно видимими на ProtonDB та доступні для експорту даних згідно з Ліцензією на відкриту базу даних. Перейдіть [сюди]({{link}}) для отримання додаткової інформації."
+      "Reports are published on ProtonDB help you, Valve, и developers help fix games. Please keep your reports accurate, free of offensive language, и refrain from submitting reports just promote your favorite game, distro или graphics card.",
+      "Submitting multiple reports for the same game is encouraged! As Вы play more или update Proton you'll have more say. In this way ProtonDB differs from a wiki, since each report serves as a 'snapshot' of how the game played on that date with your configuration.",
+      "If Вы submit multiple reports, only your most recent will count towards the ProtonDB rating и only если your system information meets Proton's minimum requirements.",
+      "Your contributions will be publicly visible on ProtonDB и available in data exports under the Open Database License. Go [here]({{link}}) for more information."
     ],
-    "outro": "Сказавши це, давайте розпочнемо!"
+    "outro": "With that, let's get started!"
   },
   "windowingFaults": {
-    "legend": "Віконні режими",
+    "legend": "Windowing",
     "options": {
       "activatingFullscreen": {
-        "long": "Не вдалося запустити повноекранний режим",
-        "short": "Запуск повноекранного режиму"
+        "long": "Fullscreen could not be initiated",
+        "short": "Activating Fullscreen"
       },
       "fullNotFull": {
-        "long": "Повноекранний режим не був повністю на повний екран",
-        "short": "Розмір"
+        "long": "Fullscreen was not fully full",
+        "short": "Size"
       },
       "other": {
-        "long": "Інше",
-        "short": "Інше"
+        "long": "Other",
+        "short": "Other"
       },
       "switching": {
-        "long": "Не можна вийти з повноекранного екрана звичайним способом(наприклад, за допомогою Alt-Tab)",
-        "short": "Зміна"
+        "long": "Could not conventionally escape from fullscreen (such as with Alt-Tab)",
+        "short": "Switching"
       }
     },
-    "prompt": "У Вас виникли проблеми з віконним чи повноекранним режимом?"
+    "prompt": "Did Вы experience any problems with windowing или fullscreen?"
   }
 }
