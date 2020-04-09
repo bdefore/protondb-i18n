@@ -344,7 +344,7 @@
     "legend": "Performance",
     "options": {
       "significantSlowdown": {
-        "long": "Gors problèmes de performance",
+        "long": "Gros problèmes de performance",
         "short": "Gros problèmes de performance"
       },
       "slightSlowdown": {
