@@ -5,9 +5,9 @@
   "breakdown": {
     "headline": "Populaire Spellen",
     "popularHeadline": "Beoordelingen voor de {{count}} meest populaire",
-    "topHundred": "Top Honderd",
-    "topTen": "Top Tien",
-    "topThousand": "Top Duizend",
+    "topHundred": "Top 100",
+    "topTen": "Top 10",
+    "topThousand": "Top 1000",
     "topics": {
       "allGames": "Alle Spellen",
       "indie": "Indie",
@@ -72,7 +72,7 @@
     "githubIssueSearch": "Github Issue Search",
     "infoNotFound": "Fout bij het ophalen van informatie over App ID: {{entry}}. Dit kan gebeuren als het spel verwijderd is van de Steam store.",
     "minimumRequirements": "Minimumvereisten",
-    "nativelySupports": "Ondersteunt Natively"
+    "nativelySupports": "Ondersteunt natively"
   },
   "home": {
     "getStartedLinks": [
