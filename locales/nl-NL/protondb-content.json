@@ -1,0 +1,173 @@
+{
+  "auth": {
+    "intro": "Als je inlogt met Steam kun je recensies publiceren en de [Ontdek-pagina met bibliotheekfilter]({{link}}) gebruiken om de resultaten tot je eigen Steam-bibliotheek te beperken."
+  },
+  "breakdown": {
+    "headline": "Populaire Spellen",
+    "popularHeadline": "Beoordelingen voor de {{count}} meest populaire",
+    "topHundred": "Top Honderd",
+    "topTen": "Top Tien",
+    "topThousand": "Top Duizend",
+    "topics": {
+      "allGames": "Alle Spellen",
+      "indie": "Indie",
+      "localMultiplayer": "Lokale Multiplayer",
+      "singlePlayer": "Single Player",
+      "vr": "Virtual Reality"
+    },
+    "unavailable": "Niet beschikbaar",
+    "unrated": "Niet beoordeeld",
+    "unreported": "Niet gerecenseerd"
+  },
+  "explore": {
+    "headlines": {
+      "fixWanted": "Reparatie nodig",
+      "highestRated": "Hoogst beoordeeld op SteamDB",
+      "hoursPlayed": "Uren gespeeld",
+      "inLibrary": "In bibliotheek",
+      "mostBorked": "Meest onspeelbaar",
+      "mostPopular": "Meest populair",
+      "recentlyImproved": "Recent verbeterd",
+      "wellRatedHere": "Hier goed beoordeeld"
+    },
+    "layout": "Opmaak",
+    "loadError": "Fout bij het laden van jouw spellen!",
+    "notLoggedIn": "De bibliotheek kan niet zonder Steam ID geladen worden. Voeg een ID toe in je [Profiel]({{link}})",
+    "poweredBy": "Ondersteund door",
+    "sorts": {
+      "fixWanted": "Reparatie nodig",
+      "hoursPlayed": "Uren gespeeld",
+      "mostBorked": "Meest onspeelbaar",
+      "playerCount": "Speleraantal",
+      "recentlyImproved": "Recent verbeterd",
+      "userScore": "Gebruikersbeoordeling",
+      "wilsonRating": "ProtonDB-Beoordeling"
+    },
+    "toggles": {
+      "includeNative": "Native ondersteund laten zien",
+      "lackReports": "Gebrek aan recensies",
+      "restrictToLibrary": "Beperken tot bibliotheek",
+      "untested": "Gebrek aan recensies",
+      "userTags": "Gebruikersomschrijvingen",
+      "whitelisted": "Whitelisted"
+    }
+  },
+  "filters": {
+    "questions": {
+      "cpu": {
+        "label": "CPU"
+      },
+      "distro": {
+        "label": "Distributie"
+      },
+      "gpu": {
+        "label": "GPU"
+      },
+      "type": {
+        "label": "Type"
+      }
+    }
+  },
+  "gameDetails": {
+    "githubIssueSearch": "Github Issue Search",
+    "infoNotFound": "Fout bij het ophalen van informatie over App ID: {{entry}}. Dit kan gebeuren als het spel verwijderd is van de Steam store.",
+    "minimumRequirements": "Minimumvereisten",
+    "nativelySupports": "Ondersteunt Natively"
+  },
+  "home": {
+    "getStartedLinks": [
+      "[Steam's Officiële Steam Play pagina](https://store.steampowered.com/steamplay)",
+      "[Een handleiding voor het migreren naar Linux](https://www.reddit.com/r/linux_gaming/comments/9oqq3w/guide_migrating_to_linux_in_2019/)",
+      "[Wat is Vulkan?](https://www.reddit.com/r/linux_gaming/comments/9ritk1/not_sure_i_quite_understand_can_someone_explain/)"
+    ],
+    "headline": "Met Proton en Steam Play werken vele Windows spellen nu ook op Linux!",
+    "howDoIHelp": {
+      "answer": "Probeer Linux een keer! Maak je geen zorgen als je nieuw bent. Hier is een lijst met handleidingen om je van start te helpen. Als je wilt helpen om Valve en Proton beter te maken kun je hier op ProtonDB recensies over jouw speelervaringen publiceren.",
+      "question": "Cool! Hoe kan ik meehelpen?"
+    },
+    "letsGetStarted": "Laten we beginnen.",
+    "sampleGames": "Hier is een lijst met populaire spellen die nog niet officieël erkend zijn door Valve, maar die wel veel Platinum recensies hebben gekregen op ProtonDB",
+    "search": "Zoek voor een spel...",
+    "stats": {
+      "gamesReported": "spellen gerecenseerd",
+      "gamesWork": "spellen werken",
+      "reportsWritten": "recensies geschreven"
+    },
+    "theImpact": {
+      "answer": "Steam Play ondersteunt op dit moment een kleine maar groeiende groep 'erkende' spellen die goed speelbaar zijn op Linux met behulp van Proton. Uit de recensies op ProtonDB blijkt dat een groot aantal niet erkende spellen, waaronder veel populaire titels, net zo goed op Linux draaien als op Windows.",
+      "question": "De Impact"
+    },
+    "whatIsProton": {
+      "answer": "Proton is een nieuwe technologie uitgegeven door Valve Software waarmee je spellen die alleen voor Windows gemaakt zijn net zo makkelijk op Linux kan spelen. Omdat het geïntegreerd is met Steam Play hoef je alleen maar op de 'Play' knop te drukken om deze spellen te starten. Onder de motorkap bestaat Proton uit andere populaire tools zoals Wine en DXVK die automatisch geïnstalleerd en geupdatet worden. Hierdoor hoeft de gebruiker niet technisch onderlegd te zijn om over te schakelen naar Linux. Omdat Proton nog in de kinderschoenen staat kunnen er nog kinderziektes optreden, maar hier wordt hard aan gewerkt.",
+      "question": "Wat is Proton?"
+    },
+    "whatIsProtonDb": {
+      "answer": "Het doel van ProtonDB is om recensies te verzamelen van gamers over de hele wereld die spellen testen met Proton op Linux. Op basis van deze recensies worden beoordelingen vastgesteld met betrekking tot hoe goed de spellen ondersteund zijn. Ook kunnen gebruikers aanpassingen delen die ze gemaakt hebben om een spel met success te kunnen spelen. Je kunt ook de Steam spelcatalogus verkennen en een hoop spellen ontdekken die eerder nooit op Linux uitgebracht waren.",
+      "question": "Wat is ProtonDB?"
+    },
+    "whyBigDeal": {
+      "answer": "De Linux desktop experience is de laatste jaren erg verbeterd. Het grotendeel van wat je op Windows of MacOS kunt doen is hedendaags ook mogelijk op Linux zonder veel kennis te hebben van Linux. ",
+      "question": "Waarom is dit zo belangrijk?"
+    },
+    "youtubeId": "Co6FePZoNgE"
+  },
+  "medals": {
+    "borked": "Onspeelbaar",
+    "bronze": "Brons",
+    "gold": "Goud",
+    "platinum": "Platina",
+    "silver": "Zilver"
+  },
+  "ratingDefinitions": {
+    "explanations": {
+      "borked": "Het spel start niet op of heeft ernstige gebreken",
+      "bronze": "Werkt redelijk, maar heeft enkele problemen of loopt soms vast",
+      "gold": "Werkt perfect met enkele aanpassingen",
+      "native": "Wordt natively ondersteund op Linux",
+      "pending": "Nog niet genoeg recensies om een beoordeling te geven",
+      "platinum": "Werkt perfect zonder extra aanpassingen",
+      "silver": "Is speelbaar, maar heeft enkele gebreken"
+    },
+    "headline": "Uitleg over de ondersteuningsniveaus"
+  },
+  "specs": {
+    "cpu": "CPU",
+    "gpu": "GPU",
+    "gpuDriver": "GPU-Stuurprogramma",
+    "kernel": "Kernel",
+    "os": "Distributie",
+    "otherSpecs": "Andere specificaties",
+    "ram": "RAM-Geheugen"
+  },
+  "stats": {
+    "analysisInByTheNumbers1": "Analysis in By The Numbers #1",
+    "byCommonDisplayDrivers": "Op overeenkomende GPU stuurprogrammas",
+    "byDistro": "Op Distributie",
+    "byGpu": "Op GPU",
+    "byProtonVersion": "Op Proton-versie",
+    "dailyReportsHeadline": "Dagelijkse recensies (laatste {{days}} dagen)",
+    "downloadData": "Gegevens downloaden",
+    "gameRatingDistribution": "Verdeling van de spelrecensies",
+    "gamesWithNOrMoreReports": "Spellen met N of meer recensies",
+    "reportRatingDistributionOverTime": "Verspreiding van recensies in verloop van tijd",
+    "whenMeetingMinimumRequirements": "Wanneer het voldoet aan de minimumvereisten"
+  },
+  "steamAuthor": {
+    "hoursInSteam": "{{count}} uren op Steam",
+    "timeWithProton": "{{time}} met Proton"
+  },
+  "suggestions": {
+    "headline": "Ben je klaar voor meer?",
+    "intro": "De volgende spellen zijn geselecteerd op basis hun populariteit, SteamDB score, en op jouw speelduur. Ze hebben allemaal nog recensies nodig en sommigen hebben er misschien nog maar één nodig om een {{siteName}} beoordeling te krijgen! Om meer suggesties te krijgen kun je deze pagina herladen of het [Gebrek aan recensies]({{link}}) filter op de Ondek-pagina gebruiken."
+  },
+  "systemInfo": {
+    "headline": "Systeeminformatie",
+    "howTo": "Ga naar de Steam-instellingen en kopieer jouw systeeminformatie. Plak deze tekst in het invoerveld hieronder. [Klik hier voor meer uitleg (in het Engels)]({{link}}). (Sommige gebruikers hebben opgemerkt dat ze eerst Ctrl-A moeten indrukken om alles te selecteren voordat ze de tekst kunnen kopieren.)",
+    "intro": "Recensies zijn betrouwbaarder als de auteur aangeeft op welke hardware en software het spel getest was. Om deze informatie zo consequent mogelijk te houden gebruiken wij de systeeminformatie die Steam zelf aangeeft.",
+    "parseFailure": "Fout bij het lezen van jouw systeeminformatie. Als je zeker weet dat je het correct gekopieerd hebt, laat het ons dan weten op Discord",
+    "parseSuccess": "Systeeminformatie met success ingelezen!",
+    "pasteInstructions": "Plak hier jouw Steam systeeminformatie",
+    "unsupportedHeadline": "Jouw stuurprogrammas worden niet ondersteund",
+    "unsupportedWarning": "Het grafische stuurprogramma dat op jouw systeem geïnstalleerd is voldoet niet aan [Proton's minimumvereisten]({{link}})! Het is mogelijk dat je spellen vastlopen, langzamer dan gewenst lopen, of dat er beeldverstoringen optreden. Je kan nog wel recensies schrijven, maar naast je recensie wordt je systeeminformatie in rode tekstkleur weergegeven en je beoordeling wordt niet meegeteld voor de totale score van het spel. Werk a.u.b. je stuurprogramma bij!"
+  }
+}

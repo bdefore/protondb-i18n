@@ -1,0 +1,20 @@
+{
+  "genericFollowUpPrompt": "Welk soort problemen?",
+  "misc": {
+    "answerRequired": "Je moet hierop antwoord geven",
+    "answerRequiredWhenNotListed": "Je moet een antwoord geven als je 'Niet in deze lijst' hebt gekozen",
+    "back": "Terug",
+    "error": "Fout!",
+    "markdownSupportNotice": "Markdown wordt nu ondersteund",
+    "maxChars": "Maximaal {{count}} karakters",
+    "next": "Volgende",
+    "submission": {
+      "error": "Er trad een fout op tijdens het indienen van jouw inzending. Zorg dat je browser oproepen naar apis.google.com niet blokkeert. Brave browser en Privacy Badger blokkeren deze standaard al. Laat ons weten als je ondanks deze maatregelen nog steeds niet kan indienen!",
+      "note": "Houd er rekening mee dat nieuwe recensies tot de volgende verversing in de wacht worden gezet. Je kan jouw inzendingen bekijken op je [Profiel]({{link}})",
+      "success": "Met success ingediend",
+      "thanks": "Bedankt voor jouw inzending naar {{siteName}}"
+    },
+    "submit": "Indienen",
+    "tooLong": "Te lang"
+  }
+}

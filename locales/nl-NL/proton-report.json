@@ -1,0 +1,510 @@
+{
+  "appSelection": {
+    "caution": "Waarschuwing!",
+    "helperText": "Je kunt ook een hyperlink of een App ID hierin plakken en wij zullen het proberen te vinden.",
+    "notFound": "Er kan geen spel gevonden worden met App ID {{query}}. Dit kan gebeuren als het ID ongeldig is of om één van de volgende redenen; het spel is verwijderd van de Steam winkel, het is niet als een 'game' getypeerd, of het is niet beschikbaar in jouw land.",
+    "placeholder": "Voer een naam in van een spel uit jouw Steam-bibliotheek...",
+    "previousReportsExist": "Je hebt al eerder een recensie over dit spel geschreven",
+    "runsNativeWarning": "Het geselecteerde spel ondersteunt Linux! Zorg ervoor dat u het spel met Steam Play uitvoert en niet met de standaard Linux-ondersteunende versie. Steam gebruikt standaard niet Steam Play om het spel te starten, maar [je kan dit wel dwingen]({{link}})."
+  },
+  "audioFaults": {
+    "legend": "Audio",
+    "options": {
+      "borked": {
+        "long": "Werkt totaal niet",
+        "short": "Werkt niet"
+      },
+      "crackling": {
+        "long": "Krakend geluid",
+        "short": "Krakend geluid"
+      },
+      "lowQuality": {
+        "long": "Merkbare achteruitgang van de kwaliteit",
+        "short": "Lage kwaliteit"
+      },
+      "missing": {
+        "long": "Sommige audiofragmenten ontbreken",
+        "short": "Ontbreekt"
+      },
+      "other": {
+        "long": "Ander probleem",
+        "short": "Ander probleem"
+      },
+      "outOfSync": {
+        "long": "Audio liep niet synchroon met het spel",
+        "short": "Niet gesynchroniseerd"
+      }
+    },
+    "prompt": "Had je problemen met de audio?"
+  },
+  "borked": {
+    "headline": "Dat is jammer!",
+    "intro": "Je hebt in je recensie vermeld dat de game onspeelbaar is. Voordat je de recensie publiceert wil je misschien onze [Veelgestelde vragen en probleemoplossing]({{link}}) pagina bekijken."
+  },
+  "customizationsUsed": {
+    "additionalNotes": {
+      "label": "Meer details",
+      "placeholder": "Explanation or link to blog post or Github repository"
+    },
+    "legend": "Aanpassingen",
+    "options": {
+      "customPrefix": {
+        "long": "Een aangepaste Wine prefix",
+        "short": "Aangepaste Prefix"
+      },
+      "customProton": {
+        "long": "Een aangepaste versie van Proton",
+        "short": "Aangepaste Proton"
+      },
+      "lutris": {
+        "long": "Lutris installatiescript",
+        "short": "Lutris"
+      },
+      "mediaFoundation": {
+        "long": "Media Foundation DLL (mf-install)",
+        "short": "Media Foundation DLL"
+      },
+      "native2Proton": {
+        "long": "Native2Proton",
+        "short": "Native2Proton"
+      },
+      "notListed": {
+        "long": "Een andere aanpassing die niet in deze lijst staat",
+        "short": "Niet in deze lijst"
+      },
+      "protonfixes": {
+        "long": "protonfixes",
+        "short": "protonfixes"
+      },
+      "protontricks": {
+        "long": "protontricks",
+        "short": "protontricks"
+      },
+      "winetricks": {
+        "long": "winetricks",
+        "short": "winetricks"
+      }
+    },
+    "prompt": "Welke aanpassing(en) heb je gemaakt?"
+  },
+  "duration": {
+    "legend": "Speelduur",
+    "options": {
+      "aboutAnHour": {
+        "long": "een uur",
+        "short": "een uur"
+      },
+      "lessThanAnHour": {
+        "long": "< 1 uur",
+        "short": "< 1 uur"
+      },
+      "lessThanFifteenMinutes": {
+        "long": "< 15 minuten",
+        "short": "< 15 minuten"
+      },
+      "moreThanTenHours": {
+        "long": "> 10 uur",
+        "short": "> 10 uur"
+      },
+      "severalHours": {
+        "long": "2+ uur",
+        "short": "2+ uur"
+      }
+    },
+    "prompt": "Hoe lang heb je het spel gespeeld?"
+  },
+  "extra": {
+    "additionalNotes": {
+      "label": "Extra opmerkingen",
+      "placeholder": "Voer hier opmerkingen in."
+    },
+    "prompt": "Heeft u opmerkingen die u zou willen toevoegen die nog niet in eerdere vragen behandeld zijn?"
+  },
+  "graphicalFaults": {
+    "legend": "Beeld",
+    "options": {
+      "heavyArtifacts": {
+        "long": "Zware of veelvoorkomende beeldverstoringen",
+        "short": "Veel beeldverstoringen"
+      },
+      "minorArtifacts": {
+        "long": "Kleine of zeldzame beeldverstoringen",
+        "short": "Enkele beeldverstoringen"
+      },
+      "missingTextures": {
+        "long": "Er ontbreken textures",
+        "short": "Er ontbreken textures"
+      },
+      "other": {
+        "long": "Ander probleem",
+        "short": "Ander probleem"
+      }
+    },
+    "prompt": "Heeft u vermindering van grafische kwaliteit opgemerkt?"
+  },
+  "graphicsApiSelection": {
+    "legend": "Grafische API",
+    "options": {
+      "d3d": {
+        "long": "Direct3D",
+        "short": "Direct3D"
+      },
+      "ogl": {
+        "long": "OpenGL",
+        "short": "OpenGL"
+      },
+      "unsure": {
+        "long": "De API die het spel standaard ook gebruikt",
+        "short": "Standaard"
+      },
+      "vk": {
+        "long": "Vulkan",
+        "short": "Vulkan"
+      }
+    },
+    "prompt": "Welke grafische API gebruikte je om het spel uit te voeren?"
+  },
+  "inputFaults": {
+    "legend": "Invoer",
+    "options": {
+      "bounding": {
+        "long": "Invoergrenzen waren incorrect",
+        "short": "Invoergrenzen waren incorrect"
+      },
+      "controllerMapping": {
+        "long": "Controller(s) waren incorrect aangewezen",
+        "short": "Fout aangewezen"
+      },
+      "controllerNotDetected": {
+        "long": "Controller(s) niet gedetecteerd",
+        "short": "Controller was niet gedetecteerd"
+      },
+      "controllerNotResponsive": {
+        "long": "Controller(s) waren gedetecteerd maar reageerde(n) niet",
+        "short": "Responsiveness"
+      },
+      "drifting": {
+        "long": "De invoerassen dreven af",
+        "short": "Afdrijving"
+      },
+      "inaccuracy": {
+        "long": "Invoer was niet accuraat",
+        "short": "Niet accuraat"
+      },
+      "lag": {
+        "long": "Invoer was vertraagd",
+        "short": "Vertraging"
+      },
+      "other": {
+        "long": "Andere reden",
+        "short": "Andere reden"
+      }
+    },
+    "prompt": "Had je problemen met je muis, controller, of een ander invoerapparaat?"
+  },
+  "installs": {
+    "legend": "Installeren",
+    "prompt": "Lukte het om het spel installeren?"
+  },
+  "isImpactedByAntiCheat": {
+    "legend": "Anti-Cheat",
+    "options": {
+      "battleEye": {
+        "long": "BattlEye",
+        "short": "BattlEye"
+      },
+      "easyAntiCheat": {
+        "long": "Easy Anti Cheat",
+        "short": "EAC"
+      },
+      "other": {
+        "long": "Andere anti-cheat",
+        "short": "Andere anti-cheat"
+      }
+    },
+    "prompt": "Wordt het spel gehinderd door anti-cheat software?"
+  },
+  "isMultiplayerImportant": {
+    "prompt": "Is multiplayer een belangrijk aspect van het spel?"
+  },
+  "launchFlagsUsed": {
+    "additionalNotes": {
+      "label": "Meer details",
+      "placeholder": "Waarmee heeft dit geholpen?"
+    },
+    "legend": "Proton-opties",
+    "options": {
+      "disableD3d10": {
+        "long": "Deactiveer D3D10 (PROTON_NO_D3D10)",
+        "short": "Deactiveer D3D10"
+      },
+      "disableD3d11": {
+        "long": "Deactiveer D3D11 (PROTON_NO_D3D11)",
+        "short": "Deactiveer D3D11"
+      },
+      "disableEsync": {
+        "long": "Deactiveer Esync (PROTON_NO_ESYNC)",
+        "short": "Deactiveer Esync"
+      },
+      "disableFsync": {
+        "long": "Deactiveer Fsync (PROTON_NO_FSYNC)",
+        "short": "Deactiveer Fsync"
+      },
+      "fullscreenIntegerScaling": {
+        "long": "Fullscreen Integer Scaling (WINE_FULLSCREEN_INTEGER_SCALING)",
+        "short": "Fullscreen Integer Scaling"
+      },
+      "largeAddressAware": {
+        "long": "Large Address Aware (PROTON_FORCE_LARGE_ADDRESS_AWARE)",
+        "short": "Large Address Aware"
+      },
+      "oldGlString": {
+        "long": "Old GL String (PROTON_OLD_GL_STRING)",
+        "short": "Old GL String"
+      },
+      "useWineD3d11": {
+        "long": "Gebruik Wine D3D (PROTON_USE_WINED3D)",
+        "short": "Gebruik Wine D3D"
+      },
+      "useWineD9vk": {
+        "long": "Gebruik D9VK (PROTON_USE_D9VK)",
+        "short": "Gebruik D9VK"
+      }
+    },
+    "prompt": "Heb je deze Proton opties gebruikt?"
+  },
+  "launcher": {
+    "additionalNotes": {
+      "label": "Launcher"
+    },
+    "legend": "Launcher",
+    "options": {
+      "gamehub": {
+        "long": "Gamehub",
+        "short": "Gamehub"
+      },
+      "lutris": {
+        "long": "Lutris",
+        "short": "Lutris"
+      },
+      "notListed": {
+        "long": "Een andere launcher die niet in deze lijst staat",
+        "short": "Niet in deze lijst"
+      },
+      "steam": {
+        "long": "Steam",
+        "short": "Steam"
+      }
+    },
+    "prompt": "Hoe heb je dit spel opgestart?"
+  },
+  "localMultiplayerAppraisal": {
+    "prompt": "Hoe zou je de lokale multiplayer functionaliteit van het spel beoordelen? Beoordeel de volgende aspecten; vertragingsproblemen, invoer of connectieproblemen, etc."
+  },
+  "localMultiplayerAttempted": {
+    "prompt": "Heb je geprobeerd om lokale multiplayer te spelen (offline)?"
+  },
+  "localMultiplayerPlayed": {
+    "prompt": "Heb je lokale multiplayer werkend gekregen?"
+  },
+  "multiplayerAppraisal": {
+    "options": {
+      "acceptable": {
+        "long": "Acceptabel. Enkel problemen die de functionaliteit van het spel niet beïnvloeden.",
+        "short": "Acceptabel"
+      },
+      "awful": {
+        "long": "Zeer slecht. Praktisch onspeelbaar.",
+        "short": "Zeer slecht"
+      },
+      "excellent": {
+        "long": "Uitstekend. Geen problemen ondervonden.",
+        "short": "Uitstekend"
+      },
+      "good": {
+        "long": "Goed. Desondanks zeldzame problemen is het over het algemeen speelbaar.",
+        "short": "Goed"
+      },
+      "weak": {
+        "long": "Slecht. Er zijn problemen die de speelervaring aanzienlijk beïnvloeden.",
+        "short": "Slecht"
+      }
+    }
+  },
+  "onlineMultiplayerAppraisal": {
+    "prompt": "Hoe zou je de online multiplayer functionaliteit van het spel beoordelen? Beoordeel de volgende aspecten; vertragingsproblemen, invoer of connectieproblemen, matchmaking problemen, etc."
+  },
+  "onlineMultiplayerAttempted": {
+    "prompt": "Heb je geprobeerd om online multiplayer te spelen?"
+  },
+  "onlineMultiplayerPlayed": {
+    "prompt": "Kon je online multiplayer spelen?"
+  },
+  "opens": {
+    "legend": "Opstarten",
+    "prompt": "Kon je de game opstarten en het hoofdmenu bekijken?"
+  },
+  "performanceFaults": {
+    "legend": "Prestaties",
+    "options": {
+      "significantSlowdown": {
+        "long": "Zware prestatieproblemen",
+        "short": "Zware prestatieproblemen"
+      },
+      "slightSlowdown": {
+        "long": "Lichte prestatieproblemen",
+        "short": "Lichte prestatieproblemen"
+      }
+    },
+    "prompt": "Heb je onverwachte prestatieproblemen ervaren gezien je hardware?"
+  },
+  "prerequisites": {
+    "invalidOrMissingSystemInfo": "Systeeminformatie ontbreekt of is ongeldig",
+    "missingProfileInfo": "Profielinformatie is onvolledig. {{context}} ontbreekt",
+    "notLoggedIn": "Niet ingelogd met {{context}}"
+  },
+  "prerequisitesBlock": {
+    "action": "Ga naar mijn profiel",
+    "context": "Voordat je je recensie kan publiceren moet je inloggen met Steam en je systeeminformatie invullen.",
+    "headline": "Nog niet klaar om te publiceren!"
+  },
+  "preview": {
+    "intro": "Let op de volgende dingen:",
+    "notes": [
+      "Is je systeeminformatie recent? Je moet na elke update van je grafische stuurprogramma je Steam-informatie bijwerken.",
+      "Heb je het juiste spel geselecteerd? Sommige spellen hebben dezelfde naam maar meerdere versies (bijvoorbeeld GRID)",
+      "Heb je de beschrijvingen op de juiste plaats ingevuld? Schrijf bijvoorbeeld opmerkingen over beeldverstoringen in die specifieke sectie i.p.v. de 'extra opmerkingen' sectie."
+    ]
+  },
+  "prompts": {
+    "continuingDraft": "Je werkt verder vanaf een automatisch opgeslagen conceptversie.",
+    "discardDraftWarning": "Je antwoorden in deze conceptversie zullen voor eeuwig weggegooid worden.",
+    "startOver": "Begin opnieuw"
+  },
+  "protonVersion": {
+    "additionalNotes": {
+      "label": "Andere Proton-versie",
+      "placeholder": "Dit moet een geldige Proton-versie zijn. Voorbeelden: {{examples}}"
+    },
+    "prompt": "Welke versie van Proton gebruik je?"
+  },
+  "saveGameFaults": {
+    "legend": "Opgeslagen spellen",
+    "options": {
+      "errorLoading": {
+        "long": "Kon een opgeslagen spel niet laden",
+        "short": "Laden"
+      },
+      "errorSaving": {
+        "long": "Kon de spellen niet opslaan",
+        "short": "Opslaan"
+      },
+      "other": {
+        "long": "Ander probleem",
+        "short": "Ander probleem"
+      }
+    },
+    "prompt": "Ondervond je problemen met het opslaan van spellen?"
+  },
+  "significantBugs": {
+    "legend": "Problemen",
+    "prompt": "Ondervond je nog andere belangrijke problemen?"
+  },
+  "stabilityFaults": {
+    "legend": "Stabiliteit",
+    "options": {
+      "frequentCrashes": {
+        "long": "Het kwam vaak voor dat het spel vastliep",
+        "short": "Vaak"
+      },
+      "notListed": {
+        "long": "Een ander stabiliteitsprobleem wat niet in deze lijst staat",
+        "short": "Niet in deze lijst"
+      },
+      "occasionally": {
+        "long": "Van tijd tot tijd liep het spel vast",
+        "short": "Soms"
+      }
+    },
+    "prompt": "Heb je stabiliteitsproblemen ondervonden?"
+  },
+  "startsPlay": {
+    "legend": "Opstarten van het spel",
+    "prompt": "Kon je met het spel beginnen?"
+  },
+  "stepHeadlines": {
+    "appSelection": "Spelselectie",
+    "borked": "Onspeelbaar!",
+    "customizations": "Aanpassingen",
+    "finalNotes": "Oordeel",
+    "gameplay": "Andere mogelijke problemen",
+    "graphics": "Grafisch en Prestaties",
+    "multiplayer": "Multiplayer",
+    "preview": "Voorbeeld",
+    "setup": "Instellingen",
+    "stability": "Stabiliteit",
+    "startup": "Installatie en Opstarten",
+    "tinkerCheck": "Recensietype",
+    "unownedWarning": "Niet in jouw bibliotheek"
+  },
+  "type": {
+    "intro": [
+      "ProtonDB verdeelt recensies nu in twee soorten: Steam Play en Tinker.",
+      "Gebruik Steam Play Recensie om de out-of-de-box-ervaring te beschrijven. Installeer het spel, druk op 'Play', en start het spel.",
+      "Gebruik Tinker Recensie als je aanpassingen gedaan hebt om het spel werkend te krijgen.",
+      "Voor meer informatie over de verschillen, zie [dit nieuwsartikel]({{link}})."
+    ],
+    "options": {
+      "steamPlay": {
+        "long": "SteamPlay Recensie",
+        "short": "SteamPlay Recensie"
+      },
+      "tinker": {
+        "long": "Tinker Recensie",
+        "short": "Tinker Recensie"
+      }
+    },
+    "prompt": "Welk type recensie wil je schrijven?"
+  },
+  "verdict": {
+    "additionalNotes": {
+      "label": "Samenvatting (max {{count}} karakters)",
+      "placeholder": "Voeg een korte samenvatting van je ervaring toe. Dit zal de kop van je recensie worden."
+    },
+    "prompt": "Zou een typische gamer een goede ervaring hebben als hij dit spel op Linux met Proton speelt?"
+  },
+  "welcome": {
+    "headline": "Welkom",
+    "intro": "Bedankt voor je interesse om bij te dragen aan ProtonDB's catalogus van compatibiliteitsrecensies. Houd rekening met het volgende voordat u bijdraagt:",
+    "notes": [
+      "Recensies zijn ervoor om jou, Valve, en spelontwikkelaars te helpen om spellen te repareren. Wij vragen je om je recensies nauwkeurig te houden en geen beledigend taalgebruik in je recensies te gebruiken. Ook is het niet de bedoeling dat je je favoriete game, Linux-distributie of grafische kaart promoot.",
+      "Het is aanbevolen om over verloop van tijd meerdere recensies voor hetzelfde spel te publiceren. Zo krijgen we inzicht in de verbetering/verslechtering van de compatibiliteit van een spel.",
+      "Als je meerdere recensies publiceert zal alleen je laatste recensie meetellen tot de ProtonDB beoordeling. Als jouw systeem niet voldoet aan Proton's minimumvereisten wordt je recensie niet meegeteld tot deze beoordeling.",
+      "Your contributions will be publicly visible on ProtonDB and available in data exports under the Open Database License. Go [here]({{link}}) for more information.",
+      "Jouw recensies zullen openbaar te zien zijn op ProtonDB en ook geëxporteerd worden in data exports onder de Open Database Licentie. Klik [hier]({{link}}) voor meer informatie."
+    ],
+    "outro": "Laten we beginnen!"
+  },
+  "windowingFaults": {
+    "legend": "Venster",
+    "options": {
+      "activatingFullscreen": {
+        "long": "Volledig scherm kon niet geactiveerd worden",
+        "short": "Volledig scherm werkt niet"
+      },
+      "fullNotFull": {
+        "long": "Volledig scherm vulde niet het gehele beeldscherm",
+        "short": "Volledig scherm vulde niet het gehele beeldscherm"
+      },
+      "other": {
+        "long": "Ander probleem",
+        "short": "Ander probleem"
+      },
+      "switching": {
+        "long": "Could not conventionally escape from fullscreen (such as with Alt-Tab)",
+        "short": "Alt+Tab werkt niet"
+      }
+    },
+    "prompt": "Heb je problemen ondervonden met het gebruik van de volledig scherm modus of het gebruik van een venster?"
+  }
+}
