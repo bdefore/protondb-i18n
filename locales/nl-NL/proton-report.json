@@ -415,7 +415,7 @@
     "options": {
       "frequentCrashes": {
         "long": "Het kwam vaak voor dat het spel vastliep",
-        "short": "Vaak"
+        "short": "Loopt vaak vast"
       },
       "notListed": {
         "long": "Een ander stabiliteitsprobleem wat niet in deze lijst staat",
@@ -423,7 +423,7 @@
       },
       "occasionally": {
         "long": "Van tijd tot tijd liep het spel vast",
-        "short": "Soms"
+        "short": "Loopt soms vast"
       }
     },
     "prompt": "Had je stabiliteitsproblemen ondervonden?"
