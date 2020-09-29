@@ -5,7 +5,7 @@
     "notFound": "Er kan geen spel gevonden worden met App ID {{query}}. Dit kan gebeuren als het ID ongeldig is of om één van de volgende redenen; het spel is verwijderd van de Steam winkel, het is niet als een 'game' getypeerd, of het is niet beschikbaar in jouw land.",
     "placeholder": "Voer een naam in van een spel uit jouw Steam-bibliotheek...",
     "previousReportsExist": "Je hebt al eerder een recensie over dit spel geschreven",
-    "runsNativeWarning": "Het geselecteerde spel ondersteunt Linux! Zorg ervoor dat u het spel met Steam Play uitvoert en niet met de standaard Linux-ondersteunende versie. Steam gebruikt standaard niet Steam Play om het spel te starten, maar [je kan dit wel dwingen]({{link}})."
+    "runsNativeWarning": "Het geselecteerde spel ondersteunt Linux! Zorg ervoor dat je het spel met Steam Play uitvoert en niet met de standaard Linux-ondersteunende versie. Steam gebruikt standaard niet Steam Play om het spel te starten, maar [je kan dit wel dwingen]({{link}})."
   },
   "audioFaults": {
     "legend": "Audio",
@@ -85,7 +85,7 @@
         "short": "winetricks"
       }
     },
-    "prompt": "Welke aanpassing(en) heb je gemaakt?"
+    "prompt": "Welke aanpassing(en) had je gemaakt?"
   },
   "duration": {
     "legend": "Speelduur",
@@ -118,7 +118,7 @@
       "label": "Extra opmerkingen",
       "placeholder": "Voer hier opmerkingen in."
     },
-    "prompt": "Heeft u opmerkingen die u zou willen toevoegen die nog niet in eerdere vragen behandeld zijn?"
+    "prompt": "Heb je opmerkingen die je zou willen toevoegen die nog niet in eerdere vragen behandeld zijn?"
   },
   "graphicalFaults": {
     "legend": "Beeld",
@@ -140,7 +140,7 @@
         "short": "Ander probleem"
       }
     },
-    "prompt": "Heeft u vermindering van grafische kwaliteit opgemerkt?"
+    "prompt": "Had je vermindering van grafische kwaliteit opgemerkt?"
   },
   "graphicsApiSelection": {
     "legend": "Grafische API",
@@ -222,7 +222,7 @@
         "short": "Andere anti-cheat"
       }
     },
-    "prompt": "Wordt het spel gehinderd door anti-cheat software?"
+    "prompt": "Wordt het spel negatief beïnvloed of op een andere manier gehinderd door anti-cheat software?"
   },
   "isMultiplayerImportant": {
     "prompt": "Is multiplayer een belangrijk aspect van het spel?"
@@ -271,7 +271,7 @@
         "short": "Gebruik D9VK"
       }
     },
-    "prompt": "Heb je deze Proton opties gebruikt?"
+    "prompt": "Had je deze Proton opties gebruikt?"
   },
   "launcher": {
     "additionalNotes": {
@@ -296,7 +296,7 @@
         "short": "Steam"
       }
     },
-    "prompt": "Hoe heb je dit spel opgestart?"
+    "prompt": "Hoe had je dit spel opgestart?"
   },
   "localMultiplayerAppraisal": {
     "prompt": "Hoe zou je de lokale multiplayer functionaliteit van het spel beoordelen? Beoordeel de volgende aspecten; vertragingsproblemen, invoer of connectieproblemen, etc."
@@ -356,7 +356,7 @@
         "short": "Lichte prestatieproblemen"
       }
     },
-    "prompt": "Heb je onverwachte prestatieproblemen ervaren gezien je hardware?"
+    "prompt": "Had je onverwachte prestatieproblemen ervaren gezien je hardware?"
   },
   "prerequisites": {
     "invalidOrMissingSystemInfo": "Systeeminformatie ontbreekt of is ongeldig",
@@ -426,14 +426,14 @@
         "short": "Soms"
       }
     },
-    "prompt": "Heb je stabiliteitsproblemen ondervonden?"
+    "prompt": "Had je stabiliteitsproblemen ondervonden?"
   },
   "startsPlay": {
     "legend": "Opstarten van het spel",
     "prompt": "Kon je met het spel beginnen?"
   },
   "stepHeadlines": {
-    "appSelection": "Spelselectie",
+    "appSelection": "Selecteer een spel",
     "borked": "Onspeelbaar!",
     "customizations": "Aanpassingen",
     "finalNotes": "Oordeel",
@@ -449,8 +449,8 @@
   },
   "type": {
     "intro": [
-      "ProtonDB verdeelt recensies nu in twee soorten: Steam Play en Tinker.",
-      "Gebruik Steam Play Recensie om de out-of-de-box-ervaring te beschrijven. Installeer het spel, druk op 'Play', en start het spel.",
+      "ProtonDB verdeelt recensies onder in twee soorten: Steam Play en Tinker.",
+      "Gebruik Steam Play Recensie om de out-of-de-box-ervaring te beschrijven. Doe die alleen als je geen aanpassingen hebt gedaan.",
       "Gebruik Tinker Recensie als je aanpassingen gedaan hebt om het spel werkend te krijgen.",
       "Voor meer informatie over de verschillen, zie [dit nieuwsartikel]({{link}})."
     ],
@@ -475,9 +475,9 @@
   },
   "welcome": {
     "headline": "Welkom",
-    "intro": "Bedankt voor je interesse om bij te dragen aan ProtonDB's catalogus van compatibiliteitsrecensies. Houd rekening met het volgende voordat u bijdraagt:",
+    "intro": "Bedankt voor je interesse om bij te dragen aan ProtonDB's catalogus van compatibiliteitsrecensies. Houd rekening met het volgende voordat je een recensie gaat schrijven:",
     "notes": [
-      "Recensies zijn ervoor om jou, Valve, en spelontwikkelaars te helpen om spellen te repareren. Wij vragen je om je recensies nauwkeurig te houden en geen beledigend taalgebruik in je recensies te gebruiken. Ook is het niet de bedoeling dat je je favoriete game, Linux-distributie of grafische kaart promoot.",
+      "Recensies zijn ervoor om jou, Valve, en spelontwikkelaars te helpen om spellen te repareren. Wij vragen je om jouw recensies nauwkeurig te houden en geen beledigend taalgebruik in je recensies te gebruiken. Ook is het niet de bedoeling dat je je favoriete game, Linux-distributie of grafische kaart promoot.",
       "Het is aanbevolen om over verloop van tijd meerdere recensies voor hetzelfde spel te publiceren. Zo krijgen we inzicht in de verbetering/verslechtering van de compatibiliteit van een spel.",
       "Als je meerdere recensies publiceert zal alleen je laatste recensie meetellen tot de ProtonDB beoordeling. Als jouw systeem niet voldoet aan Proton's minimumvereisten wordt je recensie niet meegeteld tot deze beoordeling.",
       "Your contributions will be publicly visible on ProtonDB and available in data exports under the Open Database License. Go [here]({{link}}) for more information.",
@@ -501,10 +501,10 @@
         "short": "Ander probleem"
       },
       "switching": {
-        "long": "Could not conventionally escape from fullscreen (such as with Alt-Tab)",
+        "long": "Met Alt+Tab kon je niet overschakelen naar een ander venster",
         "short": "Alt+Tab werkt niet"
       }
     },
-    "prompt": "Heb je problemen ondervonden met het gebruik van de volledig scherm modus of het gebruik van een venster?"
+    "prompt": "Had je problemen ondervonden met het gebruik van de volledig scherm modus of het gebruik van een venster?"
   }
 }

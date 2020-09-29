@@ -82,12 +82,12 @@
     ],
     "headline": "Met Proton en Steam Play werken vele Windows spellen nu ook op Linux!",
     "howDoIHelp": {
-      "answer": "Probeer Linux een keer! Maak je geen zorgen als je nieuw bent. Hier is een lijst met handleidingen om je van start te helpen. Als je wilt helpen om Valve en Proton beter te maken kun je hier op ProtonDB recensies over jouw speelervaringen publiceren.",
+      "answer": "Probeer Linux een keer! Maak je geen zorgen als je nieuw bent. Je kunt hieronder een lijst met handleidingen vinden om je van start te helpen. Als je wilt helpen om Valve en Proton beter te maken kun je hier op ProtonDB recensies over jouw speelervaringen indienen.",
       "question": "Cool! Hoe kan ik meehelpen?"
     },
     "letsGetStarted": "Laten we beginnen.",
     "sampleGames": "Hier is een lijst met populaire spellen die nog niet officieël erkend zijn door Valve, maar die wel veel Platinum recensies hebben gekregen op ProtonDB",
-    "search": "Zoek voor een spel...",
+    "search": "Zoek naar een spel...",
     "stats": {
       "gamesReported": "spellen gerecenseerd",
       "gamesWork": "spellen werken",
@@ -98,15 +98,15 @@
       "question": "De Impact"
     },
     "whatIsProton": {
-      "answer": "Proton is een nieuwe technologie uitgegeven door Valve Software waarmee je spellen die alleen voor Windows gemaakt zijn net zo makkelijk op Linux kan spelen. Omdat het geïntegreerd is met Steam Play hoef je alleen maar op de 'Play' knop te drukken om deze spellen te starten. Onder de motorkap bestaat Proton uit andere populaire tools zoals Wine en DXVK die automatisch geïnstalleerd en geupdatet worden. Hierdoor hoeft de gebruiker niet technisch onderlegd te zijn om over te schakelen naar Linux. Omdat Proton nog in de kinderschoenen staat kunnen er nog kinderziektes optreden, maar hier wordt hard aan gewerkt.",
+      "answer": "Proton is een nieuwe technologie uitgegeven door Valve Software waarmee je spellen die alleen voor Windows gemaakt zijn net zo makkelijk op Linux kan spelen. Omdat het geïntegreerd is met Steam Play hoef je alleen maar op de 'Play' knop te drukken om deze spellen te starten. Onder de motorkap bestaat Proton uit andere populaire tools zoals Wine en DXVK die automatisch geïnstalleerd en geupdatet worden. Hierdoor hoeft de gebruiker niet technisch onderlegd te zijn om over te schakelen van Windows naar Linux. Omdat Proton nog in de kinderschoenen staat kunnen er nog problemen optreden, maar hier wordt hard aan gewerkt.",
       "question": "Wat is Proton?"
     },
     "whatIsProtonDb": {
-      "answer": "Het doel van ProtonDB is om recensies te verzamelen van gamers over de hele wereld die spellen testen met Proton op Linux. Op basis van deze recensies worden beoordelingen vastgesteld met betrekking tot hoe goed de spellen ondersteund zijn. Ook kunnen gebruikers aanpassingen delen die ze gemaakt hebben om een spel met success te kunnen spelen. Je kunt ook de Steam spelcatalogus verkennen en een hoop spellen ontdekken die eerder nooit op Linux uitgebracht waren.",
+      "answer": "Het doel van ProtonDB is om recensies te verzamelen van gamers die spellen testen met Proton op Linux. Op basis van deze recensies wordt de mate van ondersteuning van deze spellen beoordeeld. Ook kunnen gebruikers aanpassingen delen die ze gemaakt hebben om een spel met success te kunnen spelen. Je kunt ook de Steam spelcatalogus verkennen en een hoop spellen ontdekken die nooit op Linux uitgebracht zijn.",
       "question": "Wat is ProtonDB?"
     },
     "whyBigDeal": {
-      "answer": "De Linux desktop experience is de laatste jaren erg verbeterd. Het grotendeel van wat je op Windows of MacOS kunt doen is hedendaags ook mogelijk op Linux zonder veel kennis te hebben van Linux. ",
+      "answer": "De Linux desktop is de laatste jaren erg verbeterd. Het grotendeel van wat je op Windows of MacOS kunt doen is hedendaags ook mogelijk op Linux zonder veel kennis te hebben van Linux. Het enige obstakel wat Linux users nog in de weg staat is gaming. We hopen gamen makkelijker te maken met Proton en Steam Play.",
       "question": "Waarom is dit zo belangrijk?"
     },
     "youtubeId": "Co6FePZoNgE"
@@ -128,7 +128,7 @@
       "platinum": "Werkt perfect zonder extra aanpassingen",
       "silver": "Is speelbaar, maar heeft enkele gebreken"
     },
-    "headline": "Uitleg over de ondersteuningsniveaus"
+    "headline": "uitleg over de ondersteuningsniveaus"
   },
   "specs": {
     "cpu": "CPU",
@@ -140,7 +140,7 @@
     "ram": "RAM-Geheugen"
   },
   "stats": {
-    "analysisInByTheNumbers1": "Analysis in By The Numbers #1",
+    "analysisInByTheNumbers1": "Het volledige onderzoek is te lezen in het nieuwsbericht 'By The Numbers #1'",
     "byCommonDisplayDrivers": "Op overeenkomende GPU stuurprogrammas",
     "byDistro": "Op Distributie",
     "byGpu": "Op GPU",
@@ -149,7 +149,7 @@
     "downloadData": "Gegevens downloaden",
     "gameRatingDistribution": "Verdeling van de spelrecensies",
     "gamesWithNOrMoreReports": "Spellen met N of meer recensies",
-    "reportRatingDistributionOverTime": "Verspreiding van recensies in verloop van tijd",
+    "reportRatingDistributionOverTime": "Verdeling van recensies in verloop van tijd",
     "whenMeetingMinimumRequirements": "Wanneer het voldoet aan de minimumvereisten"
   },
   "steamAuthor": {

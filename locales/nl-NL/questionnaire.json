@@ -5,7 +5,7 @@
     "answerRequiredWhenNotListed": "Je moet een antwoord geven als je 'Niet in deze lijst' hebt gekozen",
     "back": "Terug",
     "error": "Fout!",
-    "markdownSupportNotice": "Markdown wordt nu ondersteund",
+    "markdownSupportNotice": "Markdown wordt ook ondersteund",
     "maxChars": "Maximaal {{count}} karakters",
     "next": "Volgende",
     "submission": {
