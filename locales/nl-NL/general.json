@@ -1,0 +1,143 @@
+{
+  "auth": {
+    "genericSignIn": "Inloggen",
+    "headline": "Steam-authenticatie",
+    "loggedInAs": "Ingelogd als {{username}}",
+    "notLoggedIn": "Niet ingelogd",
+    "steamSignIn": "Inloggen met Steam",
+    "unlink": "Ontkoppel account"
+  },
+  "content": {
+    "followingPost": "Volgend bericht",
+    "previousPost": "Vorig bericht"
+  },
+  "contextualInfo": {
+    "hoursPlayed": "{{context}} uren gespeeld",
+    "peakPlayers": "{{context}} spelers op zijn hoogtepunt",
+    "positiveRating": "{{context}}% positieve recensies",
+    "recentReportCount": "{{context}} recensies met de laatste twee Proton versies"
+  },
+  "footer": {
+    "description": "{{name}} is met passie gemaakt door [@bdefore]({{link}}) en een toegewijde gebruikersgroep.",
+    "feedbackPrompt": "Heb je opmerkingen? Join onze Discord!",
+    "legal": "Deze website heeft geen banden met Valve Software. Alle spelafbeeldingen en logo's zijn eigendom van hun respectievelijke eigenaren."
+  },
+  "libraryLoader": {
+    "errorLoadingGames": "Er is een fout opgetreden bij het laden van jouw spellen. Zorg ervoor dat je profiel en de speldetails openbaar zijn op dit account!",
+    "gameTotal": "{{count}} spellen geladen vanuit jouw bibliotheek.",
+    "note": "Deze functie gebruikt de Steam Web API om jouw accountinformatie op te halen, zoals je ID, profielnaam en afbeelding. Zorg ervoor dat 'Mijn profiel' in je [Steam Privacyinstellingen]({{link}}) op 'Openbaar' staat. 'Speldetails' hoeft niet per sé niet op openbaar te staan, maar dit is wel nodig als je een gepersonaliseerde Ontdek-pagina wilt hebben en als je je speelduur in je recensies wilt laten zien.",
+    "refresh": "Verversen"
+  },
+  "misc": {
+    "addYourReport": "Recensie toevoegen",
+    "affirmative": "Ja",
+    "any": "Elke",
+    "areYouSure": "Weet je het zeker?",
+    "cancel": "Annuleer",
+    "chipset": "Chipset",
+    "conjunction": "en",
+    "discard": "Weggooien",
+    "dismiss": "Afwijzen",
+    "distro": "Distributie",
+    "driver": "Stuurprogramma",
+    "execute": "Speel",
+    "feedbackPrompt": "Opmerkingen? Laat ons weten op [Discord]({{link}})",
+    "filter": "Filter",
+    "filteringSettings": "Filter-instellingen",
+    "games": "Spellen",
+    "hide": "Verberg {{what}}",
+    "include": "Voeg toe",
+    "install": "Installeer",
+    "joinUsPrompt": "Join onze Discord!",
+    "lastContentRefreshTime": "Laatst verversd {{time}} geleden",
+    "meetsRequirements": "Voldoet aan de eisen",
+    "moreInfo": "Meer informatie",
+    "multiplayer": "Multiplayer",
+    "native": "Native",
+    "negative": "Nee",
+    "notFound": "Niet gevonden",
+    "note": "Notitie",
+    "overall": "Gezamenlijk",
+    "pending": "Wachtend",
+    "preferences": "Instelligen",
+    "provisional": "Voorlopig",
+    "published": "Gepubliceerd",
+    "rated": "Beoordeeld",
+    "report": "Recensie",
+    "reports": "Recensies",
+    "reset": "Resetten",
+    "save": "Opslaan",
+    "saved": "{{what}} opgeslagen",
+    "show": "Laat {{what}} zien",
+    "showAll": "Laat alles zien",
+    "showMore": "Laat meer zien",
+    "skip": "Overslaan",
+    "tier": "Ondersteuningsniveau",
+    "total": "Totaal",
+    "unknown": "Onbekend",
+    "version": "Versie"
+  },
+  "nav": {
+    "contribute": "Indienen",
+    "explore": "Ontdek",
+    "help": "Help",
+    "news": "Nieuws",
+    "profile": "Profiel",
+    "search": "Zoek spellen...",
+    "stats": "Statistieken"
+  },
+  "pagination": {
+    "next": "Volgende pagina",
+    "previous": "Vorige pagina",
+    "summary": "Resultaten {{from}} tot {{to}} van {{total}}"
+  },
+  "preferences": {
+    "headline": "Instellingen",
+    "intro": "ProtonDB laat de Steam gebruikersnaam van de auteur naast de recensie zien. Jouw unieke Steam ID wordt niet vrijgegeven in deze recensiedata. Als je om privacyredenen je Steam gebruikersnaam niet wilt laten zien kun je hier een schuilnaam invullen. Deze schuilnaam zal toegepast worden na de volgende verversing.",
+    "questions": {
+      "customName": {
+        "additionalNotes": {
+          "label": "Schuilnaam"
+        },
+        "options": {
+          "custom": "Een schuilnaam",
+          "keepSteam": "Mijn Steam gebruikersnaam ({{steamNickname}})"
+        },
+        "prompt": "Jouw openbare naam"
+      },
+      "language": {
+        "prompt": "Taal"
+      },
+      "performanceMode": {
+        "prompt": "Gebruik je liever een prestatievriendelijke versie van de website?"
+      }
+    }
+  },
+  "profile": {
+    "exploreLibrary": "Je kan jouw bibliotheek sorteren met de volgende opties:",
+    "inYourLibrary": "In jouw bibliotheek",
+    "libraryTags": {
+      "byHoursPlayed": "Op basis van jouw gespeelde uren",
+      "byPlayerCount": "Op basis van populariteit",
+      "byProtonDbRating": "Op basis van ProtonDB waardering",
+      "bySteamDbScore": "Op basis van SteamDB score",
+      "headline": "Deze onderwerpen zijn veelvoorkomend in jouw bibliotheek:",
+      "lackReportsByHoursPlayed": "Gebrek aan recensies op basis van jouw gespeelde uren\n",
+      "lackReportsByPlayerCount": "Gebrek aan recensies op basis van populariteit",
+      "lackReportsBySteamDbScore": "Gebrek aan recensies op basis van SteamDB score"
+    },
+    "notInYourLibrary": "Niet in jouw bibliotheek",
+    "yourContributions": "Jouw recensies"
+  },
+  "reports": {
+    "clear": "Clear",
+    "filteredOutCount": "{{count}} verborgen door filter",
+    "filteredOutHeadline": "De volgende {{count}} recensies komen niet overeen met jouw filter(s) voor {{filters}}",
+    "superceded": "Er is een nieuwere recensie van deze auteur",
+    "zeroStateMessage": "Geen recensies",
+    "zeroStateMessageWithFilters": "Geen recensies komen overeen met deze filters"
+  },
+  "search": {
+    "resultsHeader": "Zoekresultaten voor {{q}}"
+  }
+}
