@@ -121,7 +121,7 @@
   "ratingDefinitions": {
     "explanations": {
       "borked": "Ne démarre pas ou est quasiment injouable",
-      "bronze": "Démarre, mais plante souvent ou a des problèmes empêchant de jouer comfortablement",
+      "bronze": "Démarre, mais plante souvent ou a des problèmes empêchant de jouer confortablement",
       "gold": "Fonctionne parfaitement après quelques modifications",
       "native": "Fonctionne nativement sur Linux",
       "pending": "En attente de rapports supplémentaires avant de donner une évaluation",
