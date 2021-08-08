@@ -1,7 +1,9 @@
 {
   "auth": {
+    "genericSignIn": "Anmelden",
     "headline": "Steam-Authentifizierung",
     "loggedInAs": "Angemeldet als {{username}}",
+    "notLoggedIn": "Nicht angemeldet",
     "steamSignIn": "Mit Steam anmelden",
     "unlink": "Konto trennen"
   },
@@ -12,7 +14,7 @@
   "contextualInfo": {
     "hoursPlayed": "{{context}} Stunden gespielt",
     "peakPlayers": "{{context}} maximale Spieler",
-    "positiveRating": "{{context}}% postive Bewertungen",
+    "positiveRating": "{{context}}% positive Bewertungen",
     "recentReportCount": "{{context}} Berichte mit den letzten zwei Proton-Versionen"
   },
   "footer": {
@@ -21,9 +23,9 @@
     "legal": "Diese Website hat keine Verbindung zu Valve Software. Alle Spielecover und Logos sind Eigentum der jeweiligen Besitzer."
   },
   "libraryLoader": {
-    "errorLoadingGames": "Fehler beim Laden von Spielen. Bitte stelle sicher, dass sowohl Profil- als auch Spieledetails auf diesem Konto öffentlich sind!",
+    "errorLoadingGames": "Fehler beim Laden von Spielen. Bitte stelle sicher, dass sowohl Profil- als auch Spieldetails auf diesem Konto öffentlich sind!",
     "gameTotal": "{{count}} Spiele in der Bibliothek geladen!",
-    "note": "Stelle sicher, dass in deinen [Steam-Privatsphäreeinstellungen ]({{link}}) sowohl 'Mein Profil' als auch deine 'Spieledetails' öffentlich eingestellt sind. Die letzten Änderungen an Steam haben diese standardmäßig privat gemacht. Diese Seite verwendet das Steam-Web-API, um öffentliche Informationen über dein Konto abzurufen, einschließlich deiner ID, deines Profilnamens und deines Avatars.",
+    "note": "Stelle sicher, dass in deinen [Steam-Privatsphäreeinstellungen ]({{link}}) sowohl 'Mein Profil' als auch deine 'Spieldetails' öffentlich eingestellt sind. Die letzten Änderungen an Steam haben diese standardmäßig privat gemacht. Diese Seite verwendet das Steam-Web-API, um öffentliche Informationen über dein Konto abzurufen, einschließlich deiner ID, deines Profilnamens und deines Avatars.",
     "refresh": "Aktualisieren"
   },
   "misc": {

@@ -60,6 +60,10 @@
         "long": "Lutris Installations-Script",
         "short": "Lutris"
       },
+      "mediaFoundation": {
+        "long": "Media Foundation DLL (mf-install)",
+        "short": "Media Foundation DLL"
+      },
       "native2Proton": {
         "long": "Native2Proton",
         "short": "Native2Proton"
@@ -87,8 +91,8 @@
     "legend": "Dauer",
     "options": {
       "aboutAnHour": {
-        "long": "Eine Stunde",
-        "short": "Eine Stunde"
+        "long": "eine Stunde",
+        "short": "eine Stunde"
       },
       "lessThanAnHour": {
         "long": "< eine Stunde",
@@ -169,11 +173,11 @@
       },
       "controllerMapping": {
         "long": "Controllertasten wurden nicht richtig zugeordnet",
-        "short": "Controllertasten-Zuordnung funktioniert nicht"
+        "short": "Controllertasten-Zuordnung"
       },
       "controllerNotDetected": {
         "long": "Controller wurden nicht erkannt",
-        "short": "Controller wurden nicht erkannt"
+        "short": "Controller Erkennung"
       },
       "controllerNotResponsive": {
         "long": "Controller wurden erkannt, reagierten aber nicht",
@@ -231,19 +235,19 @@
     "legend": "Startparameter",
     "options": {
       "disableD3d10": {
-        "long": "D3D10 deaktiviert",
+        "long": "D3D10 deaktiviert (PROTON_NO_D3D10)",
         "short": "D3D10 deaktiviert"
       },
       "disableD3d11": {
-        "long": "D3D11 deaktiviert",
+        "long": "D3D11 deaktiviert (PROTON_NO_D3D11)",
         "short": "D3D11 deaktiviert"
       },
       "disableEsync": {
-        "long": "Esync deaktiviert",
+        "long": "Esync deaktiviert (PROTON_NO_ESYNC)",
         "short": "Esync deaktiviert"
       },
       "disableFsync": {
-        "long": "Fsync deaktiviert",
+        "long": "Fsync deaktiviert (PROTON_NO_FSYNC)",
         "short": "Fsync deaktiviert"
       },
       "fullscreenIntegerScaling": {
@@ -251,19 +255,19 @@
         "short": "Fullscreen Integer Scaling"
       },
       "largeAddressAware": {
-        "long": "Large Address Aware",
+        "long": "Large Address Aware (PROTON_FORCE_LARGE_ADDRESS_AWARE)",
         "short": "Large Address Aware"
       },
       "oldGlString": {
-        "long": "Alter GL-String",
+        "long": "Alter GL-String (PROTON_OLD_GL_STRING)",
         "short": "Alter GL-String"
       },
       "useWineD3d11": {
-        "long": "Benutze Wine D3D",
+        "long": "Benutze Wine D3D (PROTON_USE_WINED3D)",
         "short": "Benutze Wine D3D"
       },
       "useWineD9vk": {
-        "long": "Benutze Wine D9VK",
+        "long": "Benutze Wine D9VK (PROTON_USE_D9VK)",
         "short": "Benutze Wine D9VK"
       }
     },
@@ -354,15 +358,21 @@
     },
     "prompt": "Hast du angesichts deiner Hardware eine unerwartet schlechte Leistung erlebt?"
   },
+  "prerequisites": {
+    "invalidOrMissingSystemInfo": "Systeminformationen fehlen oder sind ungültig",
+    "missingProfileInfo": "Profilinformationen unvollständig. Fehlt: {{context}}",
+    "notLoggedIn": "Nicht angemeldet mit {{context}}"
+  },
   "prerequisitesBlock": {
     "action": "Zum Profil gehen",
-    "context": "Du musst dich bei Steam anmelden und deine Systeminformationen angeben, bevor du deinen Bericht abschicken kannst!"
+    "context": "Du musst dich bei Steam anmelden und deine Systeminformationen angeben, bevor du deinen Bericht abschicken kannst!",
+    "headline": "Noch Nicht Bereit!"
   },
   "preview": {
     "intro": "Dinge, die du noch einmal überprüfen solltest:",
     "notes": [
       "Sind deine Systeminformationen auf dem neuesten Stand? Du musst zu deinem Profil gehen und deine Steam-Informationen nach einem Grafiktreiber-Update erneuern.",
-      "Hast du das richtige Spiel ausgewählt? Einige Spiele haben den gleichen Namen wie ältere Versionen, z.B. GRID",
+      "Hast du das richtige Spiel ausgewählt? Einige Spiele haben den gleichen Namen wie ältere Versionen, z.B. GRID.",
       "Hast du Beschreibungen an der richtigen Stelle hinzugefügt? Schreibe beispielsweise Notizen zu Grafikproblemen in dem Abschnitt, anstatt in den Abschlussnotizen."
     ]
   },
@@ -440,7 +450,7 @@
   "type": {
     "intro": [
       "ProtonDB unterteilt Bewertungen nun in zwei Arten: SteamPlay und Bastler.",
-      "Verwende eine SteamPlay-Bewertung, um das Out-of-the-Box-Erlebnis abzudecken: Installieren, auf Play klicken und das Spiel starten.",
+      "Verwende eine SteamPlay-Bewertung, um das Out-of-the-Box-Erlebnis abzudecken: Installieren, auf Spielen klicken und das Spiel starten.",
       "Verwende eine Bastler-Bewertung, wenn du Optimierungen oder Anpassungen vorgenommen hast, um das Spiel zum Laufen zu bringen.",
       "Für weitere Informationen zu den Unterschieden, schau dir [diese News an]({{link}})."
     ],
@@ -464,6 +474,7 @@
     "prompt": "Würde ein typischer Spieler eine angenehme Erfahrung beim Spielen dieses Spiels unter Linux mit Proton haben?"
   },
   "welcome": {
+    "headline": "Willkommen",
     "intro": "Vielen Dank für dein Interesse an der Erweiterung des ProtonDB-Katalogs von Kompatibilitätsberichten über Steam Play und Proton! Bitte beachte die folgenden Punkte, bevor du einen Beitrag leistest:",
     "notes": [
       "Diese Berichte werden auf ProtonDB veröffentlicht, um euch, Valve und Entwicklern zu helfen, Spiele mit Proton lauffähig zu machen. Bitte halte deine Berichte genau, frei von beleidigender Sprache und verzichte darauf, Berichte zu übermitteln, nur um für dein Lieblingsspiel, deine Lieblings-Distribution oder deine Grafikkarte zu werben.",
