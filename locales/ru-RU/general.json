@@ -1,143 +1,143 @@
 {
   "auth": {
-    "genericSignIn": "Sign In",
-    "headline": "Steam Authentication",
-    "loggedInAs": "Logged in as {{username}}",
-    "notLoggedIn": "Not Logged In",
-    "steamSignIn": "Sign In With Steam",
-    "unlink": "Unlink Account"
+    "genericSignIn": "Вход",
+    "headline": "Аутентификация Steam",
+    "loggedInAs": "Вы вошли как {{username}}",
+    "notLoggedIn": "Вы не вошли в систему",
+    "steamSignIn": "Войти через Steam",
+    "unlink": "Отвязать аккаунт"
   },
   "content": {
-    "followingPost": "Following Post",
-    "previousPost": "Previous Post"
+    "followingPost": "Следующий пост",
+    "previousPost": "Предыдущий пост"
   },
   "contextualInfo": {
-    "hoursPlayed": "{{context}} hours played",
-    "peakPlayers": "{{context}} peak players",
-    "positiveRating": "{{context}}% positive rating",
-    "recentReportCount": "{{context}} reports with latest two Proton versions"
+    "hoursPlayed": "{{context}} часов сыграно",
+    "peakPlayers": "{{context}} игроков максимум",
+    "positiveRating": "{{context}}% положительных отзывов",
+    "recentReportCount": "{{context}} отзывов с последними двумя версиями Proton"
   },
   "footer": {
-    "description": "{{name}} is a passion project from [@bdefore]({{link}}) and a dedicated community of reporters.",
-    "feedbackPrompt": "Have some feedback? Come join us on Discord!",
-    "legal": "This site has no affiliation with Valve Software. All game images and logos are property of their respective owners."
+    "description": "{{name}} является страстным проектом [@bdefore]({{link}}) и целеустремленного сообщества обозревателей.",
+    "feedbackPrompt": "Есть обратная связь? Присоединяйся к нам в Discord!",
+    "legal": "Этот сайт не связан с Valve Software. Все игровые изображения и логотипы являются собственностью их соответствующих владельцев."
   },
   "libraryLoader": {
-    "errorLoadingGames": "Error loading games. Please ensure both Profile and Game Details are public on this account!",
-    "gameTotal": "{{count}} games in library loaded!",
-    "note": "This will use the Steam Web API to retrieve public information about your account including your id, profile name and avatar. Ensure that within your [Steam Privacy Settings]({{link}}) your 'My profile' is set to public. 'Game details' is not required to be public. If it is, the Explore page will use your library information and playtime will be sent with your contributions.",
-    "refresh": "Refresh"
+    "errorLoadingGames": "Ошибка при загрузке игр. Пожалуйста, удостоверьтесь, что профиль и игровая информация являются открытыми на данном аккаунте!",
+    "gameTotal": "Загружено игр из библиотеки: {{count}}!",
+    "note": "Для получения публичной информации о Вашем аккаунте, включая Ваш id, имя профиля и аватар будет использоваться Steam Web API. Убедитесь, что в разделе [Приватность профиля Steam]({{link}}) 'Мой профиль' и 'Доступ к игровой информации' установлены как открытые. Если это так, то страница Обзор будет использовать информацию о Вашей библиотеке и игровое время будет отправляться с Вашим вкладом",
+    "refresh": "Обновить"
   },
   "misc": {
-    "addYourReport": "Add Your Report",
-    "affirmative": "Yes",
-    "any": "Any",
-    "areYouSure": "Are you sure?",
-    "cancel": "Cancel",
-    "chipset": "Chipset",
-    "conjunction": "and",
-    "discard": "Discard",
-    "dismiss": "Dismiss",
-    "distro": "Distro",
-    "driver": "Driver",
-    "execute": "Run",
-    "feedbackPrompt": "Feedback? Let us know on [Discord]({{link}})",
-    "filter": "Filter",
-    "filteringSettings": "Filtering Settings",
-    "games": "Games",
-    "hide": "Hide {{what}}",
-    "include": "Include",
-    "install": "Install",
-    "joinUsPrompt": "Join us on Discord!",
-    "lastContentRefreshTime": "Last content refresh was {{time}} ago",
-    "meetsRequirements": "Meets Requirements",
-    "moreInfo": "More Info",
-    "multiplayer": "Multiplayer",
-    "native": "Native",
-    "negative": "No",
-    "notFound": "Not Found",
-    "note": "Note",
-    "overall": "Overall",
-    "pending": "Pending",
-    "preferences": "Preferences",
-    "provisional": "Provisional",
-    "published": "Published",
-    "rated": "Rated",
-    "report": "Report",
-    "reports": "Reports",
-    "reset": "Reset",
-    "save": "Save",
-    "saved": "{{what}} Saved",
-    "show": "Show {{what}}",
-    "showAll": "Show All",
-    "showMore": "Show More",
-    "skip": "Skip",
-    "tier": "Tier",
-    "total": "Total",
-    "unknown": "Unknown",
-    "version": "Version"
+    "addYourReport": "Добавить свой отчёт",
+    "affirmative": "Да",
+    "any": "Любой",
+    "areYouSure": "Вы уверены?",
+    "cancel": "Отмена",
+    "chipset": "Чипсет",
+    "conjunction": "и",
+    "discard": "Сбросить",
+    "dismiss": "Закрыть",
+    "distro": "Дистрибутив",
+    "driver": "Драйвер",
+    "execute": "Запустить",
+    "feedbackPrompt": "Обратная связь? Сообщите нам в [Discord]({{link}})",
+    "filter": "Фильтр",
+    "filteringSettings": "Настройки фильтра",
+    "games": "Игры",
+    "hide": "Скрыть {{what}}",
+    "include": "Включить",
+    "install": "Установить",
+    "joinUsPrompt": "Присоединяйтесь к нам в Discord!",
+    "lastContentRefreshTime": "Последнее обновление контента было {{time}} назад",
+    "meetsRequirements": "Удовлетворяет требованиям",
+    "moreInfo": "Больше информации",
+    "multiplayer": "Мультиплеер",
+    "native": "Нативно",
+    "negative": "Нет",
+    "notFound": "Не найдено",
+    "note": "Заметка",
+    "overall": "Итого",
+    "pending": "Ожидает",
+    "preferences": "Настройки",
+    "provisional": "Предварительно",
+    "published": "Опубликовано",
+    "rated": "Оценено",
+    "report": "Отчёт",
+    "reports": "Отчёты",
+    "reset": "Сбросить",
+    "save": "Сохранить",
+    "saved": "{{what}} сохранено",
+    "show": "Показать {{what}}",
+    "showAll": "Показать всё",
+    "showMore": "Показать больше",
+    "skip": "Пропустить",
+    "tier": "Уровень",
+    "total": "Всего",
+    "unknown": "Неизвестно",
+    "version": "Версия"
   },
   "nav": {
-    "contribute": "Contribute",
-    "explore": "Explore",
-    "help": "Help",
-    "news": "News",
-    "profile": "Profile",
-    "search": "Search games...",
-    "stats": "Stats"
+    "contribute": "Сделать вклад",
+    "explore": "Обзор",
+    "help": "Помощь",
+    "news": "Новости",
+    "profile": "Профиль",
+    "search": "Искать игры...",
+    "stats": "Статистика"
   },
   "pagination": {
-    "next": "Next page",
-    "previous": "Previous page",
-    "summary": "Results {{from}} to {{to}} out of {{total}}"
+    "next": "Следующая страница",
+    "previous": "Предыдущая страница",
+    "summary": "Результаты {{from}} до {{to}} из {{total}}"
   },
   "preferences": {
-    "headline": "Preferences",
-    "intro": "ProtonDB displays the submitter's Steam nickname beside reports. Your unique Steam ID is not transmitted in the data of published report data. If you are concerned your nickname may be used to infer your Steam profile, you can choose a different nickname here and this will be used after the next content refresh.",
+    "headline": "Настройки",
+    "intro": "ProtonDB отображает имя профиля из Steam рядом с отчётом. Ваш уникальный Steam ID не передается в опубликованных данных отчёта. Если Вы обеспокоены, что Ваш никнейм может быть использован для определения Вашего профиля Steam, Вы можете выбрать другое имя, которое будет применено после следующего обновления контента.",
     "questions": {
       "customName": {
         "additionalNotes": {
-          "label": "Custom Name"
+          "label": "Пользовательское имя"
         },
         "options": {
-          "custom": "A custom nickname",
-          "keepSteam": "My Steam nickname ({{steamNickname}})"
+          "custom": "Пользовательское имя",
+          "keepSteam": "Мой имя профиля Steam ({{steamNickname}})"
         },
-        "prompt": "Your public name"
+        "prompt": "Ваше публичное имя"
       },
       "language": {
-        "prompt": "Language"
+        "prompt": "Язык"
       },
       "performanceMode": {
-        "prompt": "Would you prefer to run a performance-friendly version of the site?"
+        "prompt": "Хотите запустить более производительную версию сайта?"
       }
     }
   },
   "profile": {
-    "exploreLibrary": "You can explore your library sorted with the following views:",
-    "inYourLibrary": "In Your Library",
+    "exploreLibrary": "Вы можете обозреть свою библиотеку, отсортированную по следующим признакам:",
+    "inYourLibrary": "В Вашей библиотеке",
     "libraryTags": {
-      "byHoursPlayed": "By your hours played",
-      "byPlayerCount": "By player count",
-      "byProtonDbRating": "By ProtonDB rating",
-      "bySteamDbScore": "By SteamDB user score",
-      "headline": "The following tags are common in your library. You can dive in with these:",
-      "lackReportsByHoursPlayed": "Lack Reports by your hours played",
-      "lackReportsByPlayerCount": "Lack Reports by player count",
-      "lackReportsBySteamDbScore": "Lack Reports by SteamDB user score"
+      "byHoursPlayed": "По количеству сыгранных часов",
+      "byPlayerCount": "По количеству игроков",
+      "byProtonDbRating": "По рейтингу ProtonDB",
+      "bySteamDbScore": "По оценкам пользователей Steam",
+      "headline": "Данные теги часто встречаются в Вашей библиотеке. Вы можете отфильтровать используя их:",
+      "lackReportsByHoursPlayed": "Недостаток отчётов по вашим часам в игре",
+      "lackReportsByPlayerCount": "Недостаток отчётов по количеству игроков",
+      "lackReportsBySteamDbScore": "Недостаток отчётов по оценкам пользователей Steam"
     },
-    "notInYourLibrary": "Not In Your Library",
-    "yourContributions": "Your Contributions"
+    "notInYourLibrary": "Не в Вашей библиотеке",
+    "yourContributions": "Ваш вклад"
   },
   "reports": {
-    "clear": "Clear",
-    "filteredOutCount": "{{count}} filtered out",
-    "filteredOutHeadline": "The following {{count}} reports do not match your filtering criteria for {{filters}}",
-    "superceded": "There is a newer report of this type from this author",
-    "zeroStateMessage": "No reports",
-    "zeroStateMessageWithFilters": "No reports match your applied filters"
+    "clear": "Очистить",
+    "filteredOutCount": "{{count}} отфильтровано",
+    "filteredOutHeadline": "Следующие отчёты ({{count}}) не соответствуют Вашим критериям фильтрования: {{filters}}",
+    "superceded": "Существует новый отчёт этого типа от этого автора",
+    "zeroStateMessage": "Отчёты отсутствуют",
+    "zeroStateMessageWithFilters": "Ни один отчёт не попадает под применённые фильтры"
   },
   "search": {
-    "resultsHeader": "Search results for {{q}}"
+    "resultsHeader": "Результат поиска для {{q}}"
   }
 }
