@@ -1,0 +1,509 @@
+{
+  "appSelection": {
+    "caution": "Caution!",
+    "helperText": "You may also paste links or an App ID and we will try to find it",
+    "notFound": "Could not find game with App ID {{query}}. This can happen if it is either inaccurate or if it has: been removed from the Steam store, not listed as a 'game', or not available in your country.",
+    "placeholder": "Enter name of a game in your Steam library...",
+    "previousReportsExist": "You have previous reports for this game",
+    "runsNativeWarning": "The selected game has published a native Linux version! Please be sure you have not inadvertently run the game natively. Steam does not use Steam Play to run this game by default, but [you can force it to do so]({{link}})."
+  },
+  "audioFaults": {
+    "legend": "Audio",
+    "options": {
+      "borked": {
+        "long": "Totally borked",
+        "short": "Borked"
+      },
+      "crackling": {
+        "long": "Crackling",
+        "short": "Crackling"
+      },
+      "lowQuality": {
+        "long": "Noticeable quality degradation",
+        "short": "Low quality"
+      },
+      "missing": {
+        "long": "Some audio is missing",
+        "short": "Missing"
+      },
+      "other": {
+        "long": "Other",
+        "short": "Other"
+      },
+      "outOfSync": {
+        "long": "Fell out of sync",
+        "short": "Out of sync"
+      }
+    },
+    "prompt": "Did you experience any problems with audio?"
+  },
+  "borked": {
+    "headline": "That's a bummer!",
+    "intro": "You will now proceed with submitting a borked report, but before you do you may want to visit our [Game Troubleshooting FAQ]({{link}}) page."
+  },
+  "customizationsUsed": {
+    "additionalNotes": {
+      "label": "Further Details",
+      "placeholder": "Explanation or link to blog post or Github repository"
+    },
+    "legend": "Customizations",
+    "options": {
+      "customPrefix": {
+        "long": "A custom Wine prefix",
+        "short": "Custom Prefix"
+      },
+      "customProton": {
+        "long": "A custom fork of Proton",
+        "short": "Custom Proton"
+      },
+      "lutris": {
+        "long": "Lutris install script",
+        "short": "Lutris"
+      },
+      "mediaFoundation": {
+        "long": "Media Foundation DLL (mf-install)",
+        "short": "Media Foundation DLL"
+      },
+      "native2Proton": {
+        "long": "Native2Proton",
+        "short": "Native2Proton"
+      },
+      "notListed": {
+        "long": "Not Listed",
+        "short": "Not Listed"
+      },
+      "protonfixes": {
+        "long": "protonfixes",
+        "short": "protonfixes"
+      },
+      "protontricks": {
+        "long": "protontricks",
+        "short": "protontricks"
+      },
+      "winetricks": {
+        "long": "winetricks",
+        "short": "winetricks"
+      }
+    },
+    "prompt": "What customizations have you made?"
+  },
+  "duration": {
+    "legend": "Duration",
+    "options": {
+      "aboutAnHour": {
+        "long": "an hour",
+        "short": "an hour"
+      },
+      "lessThanAnHour": {
+        "long": "< 1 hour",
+        "short": "< 1 hour"
+      },
+      "lessThanFifteenMinutes": {
+        "long": "< 15 minutes",
+        "short": "< 15 minutes"
+      },
+      "moreThanTenHours": {
+        "long": "> 10 hours",
+        "short": "> 10 hours"
+      },
+      "severalHours": {
+        "long": "2+ hours",
+        "short": "2+ hours"
+      }
+    },
+    "prompt": "For how long have you played?"
+  },
+  "extra": {
+    "additionalNotes": {
+      "label": "Extra Notes",
+      "placeholder": "Please add it here."
+    },
+    "prompt": "Is there anything you'd like to add that was not covered in previous questions?"
+  },
+  "graphicalFaults": {
+    "legend": "Graphics",
+    "options": {
+      "heavyArtifacts": {
+        "long": "Heavy or common artifacts",
+        "short": "Heavy artifacts"
+      },
+      "minorArtifacts": {
+        "long": "Minor or infrequent artifacts",
+        "short": "Minor artifacts"
+      },
+      "missingTextures": {
+        "long": "Missing textures",
+        "short": "Missing textures"
+      },
+      "other": {
+        "long": "Other",
+        "short": "Other"
+      }
+    },
+    "prompt": "Did you notice any graphical degradations?"
+  },
+  "graphicsApiSelection": {
+    "legend": "Graphics API",
+    "options": {
+      "d3d": {
+        "long": "Direct3D",
+        "short": "Direct3D"
+      },
+      "ogl": {
+        "long": "OpenGL",
+        "short": "OpenGL"
+      },
+      "unsure": {
+        "long": "Whatever the game uses by default",
+        "short": "Default"
+      },
+      "vk": {
+        "long": "Vulkan",
+        "short": "Vulkan"
+      }
+    },
+    "prompt": "What graphics API did you use within the game?"
+  },
+  "inputFaults": {
+    "legend": "Input",
+    "options": {
+      "bounding": {
+        "long": "Bounds were incorrect",
+        "short": "Bounding"
+      },
+      "controllerMapping": {
+        "long": "Controller(s) were not mapped properly",
+        "short": "Controller mapping"
+      },
+      "controllerNotDetected": {
+        "long": "Controller(s) not detected",
+        "short": "Controller detection"
+      },
+      "controllerNotResponsive": {
+        "long": "Controller(s) detected but were not responsive",
+        "short": "Responsiveness"
+      },
+      "drifting": {
+        "long": "Axes would drift",
+        "short": "Drifting"
+      },
+      "inaccuracy": {
+        "long": "Inaccuracy",
+        "short": "Inaccuracy"
+      },
+      "lag": {
+        "long": "Input was laggy",
+        "short": "Lag"
+      },
+      "other": {
+        "long": "Other",
+        "short": "Other"
+      }
+    },
+    "prompt": "Did you experience any problems with your mouse, gamepad or other input devices?"
+  },
+  "installs": {
+    "legend": "Installs",
+    "prompt": "Were you able to install the game?"
+  },
+  "isImpactedByAntiCheat": {
+    "legend": "Anti-Cheat",
+    "options": {
+      "battleEye": {
+        "long": "BattlEye",
+        "short": "BattlEye"
+      },
+      "easyAntiCheat": {
+        "long": "Easy Anti Cheat",
+        "short": "EAC"
+      },
+      "other": {
+        "long": "Other",
+        "short": "Other"
+      }
+    },
+    "prompt": "Is the game impacted by anti-cheat software?"
+  },
+  "isMultiplayerImportant": {
+    "prompt": "Is multiplayer a crucial part of the value of this game?"
+  },
+  "launchFlagsUsed": {
+    "additionalNotes": {
+      "label": "Further Details",
+      "placeholder": "What did this help with?"
+    },
+    "legend": "Launch Flags",
+    "options": {
+      "disableD3d10": {
+        "long": "Disable D3D10 (PROTON_NO_D3D10)",
+        "short": "Disable D3D10"
+      },
+      "disableD3d11": {
+        "long": "Disable D3D11 (PROTON_NO_D3D11)",
+        "short": "Disable D3D11"
+      },
+      "disableEsync": {
+        "long": "Disable Esync (PROTON_NO_ESYNC)",
+        "short": "Disable Esync"
+      },
+      "disableFsync": {
+        "long": "Disable Fsync (PROTON_NO_FSYNC)",
+        "short": "Disable Fsync"
+      },
+      "fullscreenIntegerScaling": {
+        "long": "Fullscreen Integer Scaling (WINE_FULLSCREEN_INTEGER_SCALING)",
+        "short": "Fullscreen Integer Scaling"
+      },
+      "largeAddressAware": {
+        "long": "Large Address Aware (PROTON_FORCE_LARGE_ADDRESS_AWARE)",
+        "short": "Large Address Aware"
+      },
+      "oldGlString": {
+        "long": "Old GL String (PROTON_OLD_GL_STRING)",
+        "short": "Old GL String"
+      },
+      "useWineD3d11": {
+        "long": "Use Wine D3D (PROTON_USE_WINED3D)",
+        "short": "Use Wine D3D"
+      },
+      "useWineD9vk": {
+        "long": "Use D9VK (PROTON_USE_D9VK)",
+        "short": "Use D9VK"
+      }
+    },
+    "prompt": "Do you use any of these Proton launch flags?"
+  },
+  "launcher": {
+    "additionalNotes": {
+      "label": "Launcher"
+    },
+    "legend": "Launcher",
+    "options": {
+      "gamehub": {
+        "long": "Gamehub",
+        "short": "Gamehub"
+      },
+      "lutris": {
+        "long": "Lutris",
+        "short": "Lutris"
+      },
+      "notListed": {
+        "long": "Not Listed",
+        "short": "Not Listed"
+      },
+      "steam": {
+        "long": "Steam",
+        "short": "Steam"
+      }
+    },
+    "prompt": "How do you launch the game?"
+  },
+  "localMultiplayerAppraisal": {
+    "prompt": "How would you rate the local multiplayer functionality? Please evaulate for lag, connectivity or input issues, etc."
+  },
+  "localMultiplayerAttempted": {
+    "prompt": "Did you try to play multiplayer locally (offline i.e. couch play)?"
+  },
+  "localMultiplayerPlayed": {
+    "prompt": "Were you able to get local multiplayer to work?"
+  },
+  "multiplayerAppraisal": {
+    "options": {
+      "acceptable": {
+        "long": "Acceptable. Moderate issues but can be struggled through.",
+        "short": "Acceptable"
+      },
+      "awful": {
+        "long": "Awful. Practically not playable",
+        "short": "Awful"
+      },
+      "excellent": {
+        "long": "Excellent. Did not experience any problems.",
+        "short": "Excellent"
+      },
+      "good": {
+        "long": "Good. Had infrequent issues but is overall playable.",
+        "short": "Good"
+      },
+      "weak": {
+        "long": "Weak. Its problems significantly impact the experience",
+        "short": "Weak"
+      }
+    }
+  },
+  "onlineMultiplayerAppraisal": {
+    "prompt": "How would you rate the online multiplayer functionality? Please evaulate for lag, connectivity or input issues, matchingmaking failures etc."
+  },
+  "onlineMultiplayerAttempted": {
+    "prompt": "Did you try to play multiplayer online?"
+  },
+  "onlineMultiplayerPlayed": {
+    "prompt": "Were you able to connect and play online multiplayer?"
+  },
+  "opens": {
+    "legend": "Opens",
+    "prompt": "Were you able to start up the game and view its initial menu?"
+  },
+  "performanceFaults": {
+    "legend": "Performance",
+    "options": {
+      "significantSlowdown": {
+        "long": "Significant Performance Problems",
+        "short": "Significant Performance Problems"
+      },
+      "slightSlowdown": {
+        "long": "Slight Performance Problems",
+        "short": "Slight Performance Problems"
+      }
+    },
+    "prompt": "Did you experience unexpected slowness given your hardware?"
+  },
+  "prerequisites": {
+    "invalidOrMissingSystemInfo": "System information is missing or invalid",
+    "missingProfileInfo": "Profile information incomplete. Missing: {{context}}",
+    "notLoggedIn": "Not logged in with {{context}}"
+  },
+  "prerequisitesBlock": {
+    "action": "Go to profile",
+    "context": "You'll need to log into Steam and provide system information before submitting!",
+    "headline": "Not Ready Yet!"
+  },
+  "preview": {
+    "intro": "Things to check for:",
+    "notes": [
+      "Is your system information up to date? You will need to go to your profile and provide your Steam information after a graphics driver update.",
+      "Have you selected the correct game? Some games have the same name as older versions i.e. GRID",
+      "Have you added descriptions in the right place? For example, write notes about graphics issues in that section rather than end notes."
+    ]
+  },
+  "prompts": {
+    "continuingDraft": "You are continuing from an automatically saved draft.",
+    "discardDraftWarning": "All of your responses will be permanently discarded.",
+    "startOver": "Start Over"
+  },
+  "protonVersion": {
+    "additionalNotes": {
+      "label": "Manual Proton Version",
+      "placeholder": "Must be valid Proton version string. Examples: {{examples}}"
+    },
+    "prompt": "What version of Proton are you using?"
+  },
+  "saveGameFaults": {
+    "legend": "Save Games",
+    "options": {
+      "errorLoading": {
+        "long": "Could not load a save game",
+        "short": "Loading"
+      },
+      "errorSaving": {
+        "long": "Could not save",
+        "short": "Saving"
+      },
+      "other": {
+        "long": "Other",
+        "short": "Other"
+      }
+    },
+    "prompt": "Did you experience any problems with save games?"
+  },
+  "significantBugs": {
+    "legend": "Significant Bugs",
+    "prompt": "Did you experience any other significant bugs?"
+  },
+  "stabilityFaults": {
+    "legend": "Stability",
+    "options": {
+      "frequentCrashes": {
+        "long": "Frequent crashes",
+        "short": "Frequently"
+      },
+      "notListed": {
+        "long": "Not listed",
+        "short": "Not listed"
+      },
+      "occasionally": {
+        "long": "Occasional crashes",
+        "short": "Occasionally"
+      }
+    },
+    "prompt": "Did you experience any stability issues?"
+  },
+  "startsPlay": {
+    "legend": "Starts Play",
+    "prompt": "Were you able to begin playing?"
+  },
+  "stepHeadlines": {
+    "appSelection": "Game Selection",
+    "borked": "Borked!",
+    "customizations": "Customizations",
+    "finalNotes": "Verdict",
+    "gameplay": "Other Potential Issues",
+    "graphics": "Graphics and Performance",
+    "multiplayer": "Multiplayer",
+    "preview": "Preview",
+    "setup": "Setup",
+    "stability": "Stability",
+    "startup": "Install and Startup",
+    "tinkerCheck": "Report Type",
+    "unownedWarning": "Not In Library"
+  },
+  "type": {
+    "intro": [
+      "ProtonDB now buckets reports into two types: Steam Play and Tinker.",
+      "Use Steam Play Report to cover the out-of-the-box experience. Install, hit play, and get your game on.",
+      "Use Tinker Report if you have made tweaks or customizations to get the game working.",
+      "For more on the differences, see [this news post]({{link}})."
+    ],
+    "options": {
+      "steamPlay": {
+        "long": "SteamPlay Report",
+        "short": "SteamPlay Report"
+      },
+      "tinker": {
+        "long": "Tinker Report",
+        "short": "Tinker Report"
+      }
+    },
+    "prompt": "What type of report will you write?"
+  },
+  "verdict": {
+    "additionalNotes": {
+      "label": "Summary (max {{count}} chars)",
+      "placeholder": "Add a short summary. This will be the headline of your report."
+    },
+    "prompt": "Would a typical gamer have an enjoyable experience running this game on Linux with Proton?"
+  },
+  "welcome": {
+    "headline": "Welcome",
+    "intro": "Thanks for your interest in expanding ProtonDB's catalog of compatibility reports on Steam Play and Proton! Please keep in mind the following before you contribute",
+    "notes": [
+      "Reports are published on ProtonDB to help you, Valve, and developers to help fix games. Please keep your reports accurate, free of offensive language, and refrain from submitting reports just to promote your favorite game, distro or graphics card.",
+      "Submitting multiple reports for the same game is encouraged! As you play more or update Proton you'll have more to say. In this way ProtonDB differs from a wiki, since each report serves as a 'snapshot' of how the game played on that date with your configuration.",
+      "If you submit multiple reports, only your most recent will count towards the ProtonDB rating and only if your system information meets Proton's minimum requirements.",
+      "Your contributions will be publicly visible on ProtonDB and available in data exports under the Open Database License. Go [here]({{link}}) for more information."
+    ],
+    "outro": "With that, let's get started!"
+  },
+  "windowingFaults": {
+    "legend": "Windowing",
+    "options": {
+      "activatingFullscreen": {
+        "long": "Fullscreen could not be initiated",
+        "short": "Activating Fullscreen"
+      },
+      "fullNotFull": {
+        "long": "Fullscreen was not fully full",
+        "short": "Size"
+      },
+      "other": {
+        "long": "Other",
+        "short": "Other"
+      },
+      "switching": {
+        "long": "Could not conventionally escape from fullscreen (such as with Alt-Tab)",
+        "short": "Switching"
+      }
+    },
+    "prompt": "Did you experience any problems with windowing or fullscreen?"
+  }
+}

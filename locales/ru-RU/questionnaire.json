@@ -1,0 +1,20 @@
+{
+  "genericFollowUpPrompt": "What sort of problems?",
+  "misc": {
+    "answerRequired": "Answer Required",
+    "answerRequiredWhenNotListed": "Answered Required When Not Listed Is Chosen",
+    "back": "Back",
+    "error": "Error!",
+    "markdownSupportNotice": "Markdown is now supported",
+    "maxChars": "Max {{count}} chars",
+    "next": "Next",
+    "submission": {
+      "error": "There was an error during submission. Ensure your browser allows calls to apis.google.com. Brave and Privacy Badger have been known to block these by default. If you still cannot submit, please let us know!",
+      "note": "Please note that new reports will be in a pending state until the next content refresh. You can view your contributions on your [Profile]({{link}})",
+      "success": "Successfully Submitted",
+      "thanks": "Thanks for your contribution to {{siteName}}"
+    },
+    "submit": "Submit",
+    "tooLong": "Too long"
+  }
+}
