@@ -15,7 +15,7 @@
     "hoursPlayed": "{{context}} часов сыграно",
     "peakPlayers": "{{context}} игроков максимум",
     "positiveRating": "{{context}}% положительных отзывов",
-    "recentReportCount": "{{context}} отзывов с последними двумя версиями Proton"
+    "recentReportCount": "{{context}} отзывов с двумя последними версиями Proton"
   },
   "footer": {
     "description": "{{name}} является страстным проектом [@bdefore]({{link}}) и целеустремленного сообщества обозревателей.",
@@ -101,7 +101,7 @@
         },
         "options": {
           "custom": "Пользовательское имя",
-          "keepSteam": "Мой имя профиля Steam ({{steamNickname}})"
+          "keepSteam": "Моё имя профиля Steam ({{steamNickname}})"
         },
         "prompt": "Ваше публичное имя"
       },
