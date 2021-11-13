@@ -1,63 +1,63 @@
 {
   "appSelection": {
-    "caution": "Caution!",
-    "helperText": "You may also paste links or an App ID and we will try to find it",
-    "notFound": "Could not find game with App ID {{query}}. This can happen if it is either inaccurate or if it has: been removed from the Steam store, not listed as a 'game', or not available in your country.",
-    "placeholder": "Enter name of a game in your Steam library...",
-    "previousReportsExist": "You have previous reports for this game",
-    "runsNativeWarning": "The selected game has published a native Linux version! Please be sure you have not inadvertently run the game natively. Steam does not use Steam Play to run this game by default, but [you can force it to do so]({{link}})."
+    "caution": "Внимание!",
+    "helperText": "Вы можете также вставить ссылку или ID приложения и мы попытаемся найти его",
+    "notFound": "Не удалось найти игру с ID {{query}}. Это могло произойти либо из-за неточности ID, либо из-за того, что: игра удалена из магазина Steam, не указана как 'игра' или недоступна в Вашей стране.",
+    "placeholder": "Введите название игры из вашей библиотеки Steam...",
+    "previousReportsExist": "Вы уже делали отчёт на данную игру",
+    "runsNativeWarning": "Выбранная игра имеет опубликованную нативную версию для Linux! Пожалуйста, удостоверьтесь, что Вы не запустили игру нативно. Steam не использует Steam Play по-умолчанию чтобы запустить эту игру, но [Вы можете включить это самостоятельно]({{link}})."
   },
   "audioFaults": {
-    "legend": "Audio",
+    "legend": "Звук",
     "options": {
       "borked": {
-        "long": "Totally borked",
-        "short": "Borked"
+        "long": "Полностью сломано",
+        "short": "Сломано"
       },
       "crackling": {
-        "long": "Crackling",
-        "short": "Crackling"
+        "long": "Потрескивание",
+        "short": "Потрескивание"
       },
       "lowQuality": {
-        "long": "Noticeable quality degradation",
-        "short": "Low quality"
+        "long": "Заметное снижение качества",
+        "short": "Низкое качество"
       },
       "missing": {
-        "long": "Some audio is missing",
-        "short": "Missing"
+        "long": "Отсутствуют некоторые звуки",
+        "short": "Отсутствие"
       },
       "other": {
-        "long": "Other",
-        "short": "Other"
+        "long": "Другое",
+        "short": "Другое"
       },
       "outOfSync": {
-        "long": "Fell out of sync",
-        "short": "Out of sync"
+        "long": "Рассинхронизация",
+        "short": "Рассинхронизация"
       }
     },
-    "prompt": "Did you experience any problems with audio?"
+    "prompt": "Вы испытывали какие-нибудь проблемы со звуком?"
   },
   "borked": {
-    "headline": "That's a bummer!",
-    "intro": "You will now proceed with submitting a borked report, but before you do you may want to visit our [Game Troubleshooting FAQ]({{link}}) page."
+    "headline": "Очень жаль!",
+    "intro": "Вы можете приступить к отправке отчёта о сломанной игре, но перед этим вы можете посетить наш [FAQ по устранению неисправностей]({{link}})."
   },
   "customizationsUsed": {
     "additionalNotes": {
-      "label": "Further Details",
-      "placeholder": "Explanation or link to blog post or Github repository"
+      "label": "Подробная информация",
+      "placeholder": "Объяснения или ссылка на пост в блоге или ссылка на Github репозиторий"
     },
-    "legend": "Customizations",
+    "legend": "Модификации",
     "options": {
       "customPrefix": {
-        "long": "A custom Wine prefix",
-        "short": "Custom Prefix"
+        "long": "Модифицированный префикс Wine",
+        "short": "Модифицированный префикс"
       },
       "customProton": {
-        "long": "A custom fork of Proton",
-        "short": "Custom Proton"
+        "long": "Модифицированный форк Proton",
+        "short": "Модифицированный Proton"
       },
       "lutris": {
-        "long": "Lutris install script",
+        "long": "Установочный скрипт Lutris",
         "short": "Lutris"
       },
       "mediaFoundation": {
@@ -69,8 +69,8 @@
         "short": "Native2Proton"
       },
       "notListed": {
-        "long": "Not Listed",
-        "short": "Not Listed"
+        "long": "Не в списке",
+        "short": "Не в списке"
       },
       "protonfixes": {
         "long": "protonfixes",
@@ -85,65 +85,65 @@
         "short": "winetricks"
       }
     },
-    "prompt": "What customizations have you made?"
+    "prompt": "Какие модификации Вы произвели?"
   },
   "duration": {
-    "legend": "Duration",
+    "legend": "Продолжительность",
     "options": {
       "aboutAnHour": {
-        "long": "an hour",
-        "short": "an hour"
+        "long": "час",
+        "short": "час"
       },
       "lessThanAnHour": {
-        "long": "< 1 hour",
-        "short": "< 1 hour"
+        "long": "< 1 часа",
+        "short": "< 1 часа"
       },
       "lessThanFifteenMinutes": {
-        "long": "< 15 minutes",
-        "short": "< 15 minutes"
+        "long": "< 15 минут",
+        "short": "< 15 минут"
       },
       "moreThanTenHours": {
-        "long": "> 10 hours",
-        "short": "> 10 hours"
+        "long": "> 10 часов",
+        "short": "> 10 часов"
       },
       "severalHours": {
-        "long": "2+ hours",
-        "short": "2+ hours"
+        "long": "2+ часов",
+        "short": "2+ часов"
       }
     },
-    "prompt": "For how long have you played?"
+    "prompt": "Как долго вы играли?"
   },
   "extra": {
     "additionalNotes": {
-      "label": "Extra Notes",
-      "placeholder": "Please add it here."
+      "label": "Дополнительные заметки",
+      "placeholder": "Пожалуйста, добавьте их здесь."
     },
-    "prompt": "Is there anything you'd like to add that was not covered in previous questions?"
+    "prompt": "Хотите добавить что-нибудь, что не было покрыто в предыдущих вопросах?"
   },
   "graphicalFaults": {
-    "legend": "Graphics",
+    "legend": "Графика",
     "options": {
       "heavyArtifacts": {
-        "long": "Heavy or common artifacts",
-        "short": "Heavy artifacts"
+        "long": "Сильные или частые артефакты",
+        "short": "Сильные артефакты"
       },
       "minorArtifacts": {
-        "long": "Minor or infrequent artifacts",
-        "short": "Minor artifacts"
+        "long": "Незначительные или редкие артефакты",
+        "short": "Незначительные артефакты"
       },
       "missingTextures": {
-        "long": "Missing textures",
-        "short": "Missing textures"
+        "long": "Отсутствующие текстуры",
+        "short": "Отсутствующие текстуры"
       },
       "other": {
-        "long": "Other",
-        "short": "Other"
+        "long": "Другое",
+        "short": "Другое"
       }
     },
-    "prompt": "Did you notice any graphical degradations?"
+    "prompt": "Вы заметили какие-либо ухудшения графики?"
   },
   "graphicsApiSelection": {
-    "legend": "Graphics API",
+    "legend": "Графическое API",
     "options": {
       "d3d": {
         "long": "Direct3D",
@@ -154,7 +154,7 @@
         "short": "OpenGL"
       },
       "unsure": {
-        "long": "Whatever the game uses by default",
+        "long": "То, что игра использует по-умолчанию",
         "short": "Default"
       },
       "vk": {
@@ -162,52 +162,52 @@
         "short": "Vulkan"
       }
     },
-    "prompt": "What graphics API did you use within the game?"
+    "prompt": "Какое графическое API Вы использовали в игре?"
   },
   "inputFaults": {
-    "legend": "Input",
+    "legend": "Ввод",
     "options": {
       "bounding": {
-        "long": "Bounds were incorrect",
-        "short": "Bounding"
+        "long": "Неправильные границы",
+        "short": "Границы"
       },
       "controllerMapping": {
-        "long": "Controller(s) were not mapped properly",
-        "short": "Controller mapping"
+        "long": "Кнопки контроллера были неправильно присвоены",
+        "short": "Присвоение кнопок контроллера"
       },
       "controllerNotDetected": {
-        "long": "Controller(s) not detected",
-        "short": "Controller detection"
+        "long": "Контроллер не распознаётся",
+        "short": "Распознавание контроллера"
       },
       "controllerNotResponsive": {
-        "long": "Controller(s) detected but were not responsive",
-        "short": "Responsiveness"
+        "long": "Контроллер распознаётся, но не реагирует",
+        "short": "Реакция"
       },
       "drifting": {
-        "long": "Axes would drift",
-        "short": "Drifting"
+        "long": "Оси дрифтуют",
+        "short": "Дрифт"
       },
       "inaccuracy": {
-        "long": "Inaccuracy",
-        "short": "Inaccuracy"
+        "long": "Неточность",
+        "short": "Неточность"
       },
       "lag": {
-        "long": "Input was laggy",
-        "short": "Lag"
+        "long": "Задержка ввода",
+        "short": "Задержка"
       },
       "other": {
-        "long": "Other",
-        "short": "Other"
+        "long": "Другое",
+        "short": "Другое"
       }
     },
-    "prompt": "Did you experience any problems with your mouse, gamepad or other input devices?"
+    "prompt": "Вы испытывали какие-либо проблемы с мышью, геймпадом или другими устройствами ввода?"
   },
   "installs": {
-    "legend": "Installs",
-    "prompt": "Were you able to install the game?"
+    "legend": "Установка",
+    "prompt": "Вы смогли установить игру?"
   },
   "isImpactedByAntiCheat": {
-    "legend": "Anti-Cheat",
+    "legend": "Античит",
     "options": {
       "battleEye": {
         "long": "BattlEye",
@@ -218,37 +218,37 @@
         "short": "EAC"
       },
       "other": {
-        "long": "Other",
-        "short": "Other"
+        "long": "Другой",
+        "short": "Другой"
       }
     },
-    "prompt": "Is the game impacted by anti-cheat software?"
+    "prompt": "Влияет ли на игру античит?"
   },
   "isMultiplayerImportant": {
-    "prompt": "Is multiplayer a crucial part of the value of this game?"
+    "prompt": "Является ли мультиплеер ключевой частью игры?"
   },
   "launchFlagsUsed": {
     "additionalNotes": {
-      "label": "Further Details",
-      "placeholder": "What did this help with?"
+      "label": "Подробная информация",
+      "placeholder": "С чем это помогло?"
     },
-    "legend": "Launch Flags",
+    "legend": "Флаги запуска",
     "options": {
       "disableD3d10": {
-        "long": "Disable D3D10 (PROTON_NO_D3D10)",
-        "short": "Disable D3D10"
+        "long": "Отключить D3D10 (PROTON_NO_D3D10)",
+        "short": "Отключить D3D10"
       },
       "disableD3d11": {
-        "long": "Disable D3D11 (PROTON_NO_D3D11)",
-        "short": "Disable D3D11"
+        "long": "Отключить D3D11 (PROTON_NO_D3D11)",
+        "short": "Отключить D3D11"
       },
       "disableEsync": {
-        "long": "Disable Esync (PROTON_NO_ESYNC)",
-        "short": "Disable Esync"
+        "long": "Отключить Esync (PROTON_NO_ESYNC)",
+        "short": "Отключить Esync"
       },
       "disableFsync": {
-        "long": "Disable Fsync (PROTON_NO_FSYNC)",
-        "short": "Disable Fsync"
+        "long": "Отключить Fsync (PROTON_NO_FSYNC)",
+        "short": "Отключить Fsync"
       },
       "fullscreenIntegerScaling": {
         "long": "Fullscreen Integer Scaling (WINE_FULLSCREEN_INTEGER_SCALING)",
@@ -259,25 +259,25 @@
         "short": "Large Address Aware"
       },
       "oldGlString": {
-        "long": "Old GL String (PROTON_OLD_GL_STRING)",
-        "short": "Old GL String"
+        "long": "Старый GL String (PROTON_OLD_GL_STRING)",
+        "short": "Старый GL String"
       },
       "useWineD3d11": {
-        "long": "Use Wine D3D (PROTON_USE_WINED3D)",
-        "short": "Use Wine D3D"
+        "long": "Использовать Wine D3D (PROTON_USE_WINED3D)",
+        "short": "Использовать Wine D3D"
       },
       "useWineD9vk": {
-        "long": "Use D9VK (PROTON_USE_D9VK)",
-        "short": "Use D9VK"
+        "long": "Использовать D9VK (PROTON_USE_D9VK)",
+        "short": "Использовать D9VK"
       }
     },
-    "prompt": "Do you use any of these Proton launch flags?"
+    "prompt": "Вы использовали какие-либо из этих флагов запуска Proton?"
   },
   "launcher": {
     "additionalNotes": {
-      "label": "Launcher"
+      "label": "Лаунчер"
     },
-    "legend": "Launcher",
+    "legend": "Лаунчер",
     "options": {
       "gamehub": {
         "long": "Gamehub",
@@ -288,85 +288,85 @@
         "short": "Lutris"
       },
       "notListed": {
-        "long": "Not Listed",
-        "short": "Not Listed"
+        "long": "Нет в списке",
+        "short": "Нет в списке"
       },
       "steam": {
         "long": "Steam",
         "short": "Steam"
       }
     },
-    "prompt": "How do you launch the game?"
+    "prompt": "Как Вы запускаете игру?"
   },
   "localMultiplayerAppraisal": {
-    "prompt": "How would you rate the local multiplayer functionality? Please evaulate for lag, connectivity or input issues, etc."
+    "prompt": "Как Вы оцениваете функционирование локального мультиплеера? Пожалуйста, оцените лаги, проблемы с подключением или вводом и т.д."
   },
   "localMultiplayerAttempted": {
-    "prompt": "Did you try to play multiplayer locally (offline i.e. couch play)?"
+    "prompt": "Вы пытались играть в мультиплеер локально (оффлайн)?"
   },
   "localMultiplayerPlayed": {
-    "prompt": "Were you able to get local multiplayer to work?"
+    "prompt": "Вы смогли заставить локальный мультиплеер работать?"
   },
   "multiplayerAppraisal": {
     "options": {
       "acceptable": {
-        "long": "Acceptable. Moderate issues but can be struggled through.",
-        "short": "Acceptable"
+        "long": "Приемлемо. Существуют умеренные проблемы, но их можно преодолеть.",
+        "short": "Приемлемо"
       },
       "awful": {
-        "long": "Awful. Practically not playable",
+        "long": "Ужасно. Практически неиграбельно.",
         "short": "Awful"
       },
       "excellent": {
-        "long": "Excellent. Did not experience any problems.",
-        "short": "Excellent"
+        "long": "Отлично. Никаких проблем не обнаружено.",
+        "short": "Отлично"
       },
       "good": {
-        "long": "Good. Had infrequent issues but is overall playable.",
+        "long": "Хорошо. Есть незначительные проблемы, но в целом играбельно.",
         "short": "Good"
       },
       "weak": {
-        "long": "Weak. Its problems significantly impact the experience",
-        "short": "Weak"
+        "long": "Слабо. Проблемы существенно влияют на игровой опыт.",
+        "short": "Слабо"
       }
     }
   },
   "onlineMultiplayerAppraisal": {
-    "prompt": "How would you rate the online multiplayer functionality? Please evaulate for lag, connectivity or input issues, matchingmaking failures etc."
+    "prompt": "Как Вы оцениваете функционирование онлайн мультиплеера? Пожалуйста, оцените лаги, проблемы с подключением или вводом и т.д.Please evaulate for lag, connectivity or input issues, matchingmaking failures etc."
   },
   "onlineMultiplayerAttempted": {
-    "prompt": "Did you try to play multiplayer online?"
+    "prompt": "Вы пытались играть в мультиплеер онлайн?"
   },
   "onlineMultiplayerPlayed": {
-    "prompt": "Were you able to connect and play online multiplayer?"
+    "prompt": "Вы смогли подключиться и играть в онлайн мультиплеер?"
   },
   "opens": {
-    "legend": "Opens",
-    "prompt": "Were you able to start up the game and view its initial menu?"
+    "legend": "Запуск",
+    "prompt": "Вы смогли запустить игру и увидеть её главное меню?"
   },
   "performanceFaults": {
-    "legend": "Performance",
+    "legend": "Производительность",
     "options": {
       "significantSlowdown": {
-        "long": "Significant Performance Problems",
-        "short": "Significant Performance Problems"
+        "long": "Серьёзные проблемы с производительностью",
+        "short": "Серьёзные проблемы с производительностью"
       },
       "slightSlowdown": {
-        "long": "Slight Performance Problems",
-        "short": "Slight Performance Problems"
+        "long": "Незначительные проблемы с производительностью",
+        "short": "Незначительные проблемы с производительностью"
       }
     },
-    "prompt": "Did you experience unexpected slowness given your hardware?"
+    "prompt": "Вы испытывали неожиданные замедления на вашем железе?"
   },
   "prerequisites": {
-    "invalidOrMissingSystemInfo": "System information is missing or invalid",
-    "missingProfileInfo": "Profile information incomplete. Missing: {{context}}",
-    "notLoggedIn": "Not logged in with {{context}}"
+    "invalidOrMissingSystemInfo": "Информация о системе отсутствует или некорректная",
+    "missingProfileInfo": "Профиль неполный. Отсутствует: {{context}}",
+    "notLoggedIn": "Вы не вошли в систему через {{context}}"
   },
   "prerequisitesBlock": {
-    "action": "Go to profile",
-    "context": "You'll need to log into Steam and provide system information before submitting!",
-    "headline": "Not Ready Yet!"
+    "action": "Перейти к профилю",
+    "context": "Вам нужно войти через Steam предоставить информацию о системе перед отправкой!",
+    "headline": "Ещё не готово!"
   },
   "preview": {
     "intro": "Things to check for:",
