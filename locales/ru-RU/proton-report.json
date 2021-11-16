@@ -369,141 +369,141 @@
     "headline": "Ещё не готово!"
   },
   "preview": {
-    "intro": "Things to check for:",
+    "intro": "Вещи, которые нужно проверить:",
     "notes": [
-      "Is your system information up to date? You will need to go to your profile and provide your Steam information after a graphics driver update.",
-      "Have you selected the correct game? Some games have the same name as older versions i.e. GRID",
-      "Have you added descriptions in the right place? For example, write notes about graphics issues in that section rather than end notes."
+      "Ваша системная информация обновлена? Вам нужно будет перейти в ваш профиль и предоставить информацию из Steam после обновления графического драйвера.",
+      "Вы выбрали правильную игру? Некоторые игры имеют такое же название, как и более старые версии, к примеру, GRID",
+      "Вы добавили описания в правильных местах? Например, пишите заметки о проблемах с графикой в соответствующем разделе, а не в дополнительных заметках."
     ]
   },
   "prompts": {
-    "continuingDraft": "You are continuing from an automatically saved draft.",
-    "discardDraftWarning": "All of your responses will be permanently discarded.",
-    "startOver": "Start Over"
+    "continuingDraft": "Вы продолжаете с автоматически сохранённого черновика.",
+    "discardDraftWarning": "Все Ваши ответы будут навсегда удалены.",
+    "startOver": "Начать заново"
   },
   "protonVersion": {
     "additionalNotes": {
-      "label": "Manual Proton Version",
-      "placeholder": "Must be valid Proton version string. Examples: {{examples}}"
+      "label": "Вручную установленная версия Proton",
+      "placeholder": "Должна быть корректная строка с версией Proton. Например: {{examples}}"
     },
-    "prompt": "What version of Proton are you using?"
+    "prompt": "Какую версию Proton Вы используете?"
   },
   "saveGameFaults": {
-    "legend": "Save Games",
+    "legend": "Сохранение игры",
     "options": {
       "errorLoading": {
-        "long": "Could not load a save game",
-        "short": "Loading"
+        "long": "Невозможно загрузить сохранение",
+        "short": "Загрузка"
       },
       "errorSaving": {
-        "long": "Could not save",
-        "short": "Saving"
+        "long": "Невозможно сохранится",
+        "short": "Сохранение"
       },
       "other": {
-        "long": "Other",
-        "short": "Other"
+        "long": "Другое",
+        "short": "Другое"
       }
     },
-    "prompt": "Did you experience any problems with save games?"
+    "prompt": "Вы испытывали какие-либо проблемы с сохранением игры?"
   },
   "significantBugs": {
-    "legend": "Significant Bugs",
-    "prompt": "Did you experience any other significant bugs?"
+    "legend": "Серьёзные баги",
+    "prompt": "Вы сталкивались с какими-либо серьёзными багами?"
   },
   "stabilityFaults": {
-    "legend": "Stability",
+    "legend": "Стабильность",
     "options": {
       "frequentCrashes": {
-        "long": "Frequent crashes",
-        "short": "Frequently"
+        "long": "Частые краши",
+        "short": "Часто"
       },
       "notListed": {
-        "long": "Not listed",
-        "short": "Not listed"
+        "long": "Не в списке",
+        "short": "Не в списке"
       },
       "occasionally": {
-        "long": "Occasional crashes",
-        "short": "Occasionally"
+        "long": "Случайные краши",
+        "short": "Случайно"
       }
     },
-    "prompt": "Did you experience any stability issues?"
+    "prompt": "Вы испытывали какие-либо проблемы со стабильностью?"
   },
   "startsPlay": {
-    "legend": "Starts Play",
-    "prompt": "Were you able to begin playing?"
+    "legend": "Начало игры",
+    "prompt": "Вы смогли начать играть?"
   },
   "stepHeadlines": {
-    "appSelection": "Game Selection",
-    "borked": "Borked!",
-    "customizations": "Customizations",
-    "finalNotes": "Verdict",
-    "gameplay": "Other Potential Issues",
-    "graphics": "Graphics and Performance",
-    "multiplayer": "Multiplayer",
-    "preview": "Preview",
-    "setup": "Setup",
-    "stability": "Stability",
-    "startup": "Install and Startup",
-    "tinkerCheck": "Report Type",
-    "unownedWarning": "Not In Library"
+    "appSelection": "Выбор игры",
+    "borked": "Сломано!",
+    "customizations": "Модификации",
+    "finalNotes": "Вердикт",
+    "gameplay": "Другие потенциальные проблемы",
+    "graphics": "Графика и производительность",
+    "multiplayer": "Мультиплеер",
+    "preview": "Предпросмотр",
+    "setup": "Настройка",
+    "stability": "Стабильность",
+    "startup": "Установка и запуск",
+    "tinkerCheck": "Тип отчёта",
+    "unownedWarning": "Не в библиотеке"
   },
   "type": {
     "intro": [
-      "ProtonDB now buckets reports into two types: Steam Play and Tinker.",
-      "Use Steam Play Report to cover the out-of-the-box experience. Install, hit play, and get your game on.",
-      "Use Tinker Report if you have made tweaks or customizations to get the game working.",
-      "For more on the differences, see [this news post]({{link}})."
+      "ProtonDB теперь делит отчёты на два типа: Steam Play and Мастер.",
+      "Используйте отчёт Steam Play чтобы раскрыть опыт игры 'из коробки'. Установите, нажмите Играть и получите свою игру.",
+      "Используйте отчёт мастера, если вы делали какие-либо модификации, чтобы заставить игру работать.",
+      "Для большей разницы посмотрите [эту новость]({{link}})."
     ],
     "options": {
       "steamPlay": {
-        "long": "SteamPlay Report",
-        "short": "SteamPlay Report"
+        "long": "Отчёт SteamPlay",
+        "short": "Отчёт SteamPlay"
       },
       "tinker": {
-        "long": "Tinker Report",
-        "short": "Tinker Report"
+        "long": "Отчёт Мастера",
+        "short": "Отчёт Мастера"
       }
     },
-    "prompt": "What type of report will you write?"
+    "prompt": "Какой тип отчёта Вы хотите написать?"
   },
   "verdict": {
     "additionalNotes": {
-      "label": "Summary (max {{count}} chars)",
-      "placeholder": "Add a short summary. This will be the headline of your report."
+      "label": "Вывод (max {{count}} chars)",
+      "placeholder": "Короткий вывод. Это будет заголовком Вашего отчёта."
     },
-    "prompt": "Would a typical gamer have an enjoyable experience running this game on Linux with Proton?"
+    "prompt": "Будет ли среднестатистический игрок иметь позитивный опыт, запуская данную игру на Linux через Proton?"
   },
   "welcome": {
-    "headline": "Welcome",
-    "intro": "Thanks for your interest in expanding ProtonDB's catalog of compatibility reports on Steam Play and Proton! Please keep in mind the following before you contribute",
+    "headline": "Добро пожаловать",
+    "intro": "Спасибо за Ваш интерес к расширению каталога отчётов совместимости о Steam Play и Proton на ProtonDB! Пожалуйста, имейте в виду следующее, перед тем как сделать вклад",
     "notes": [
-      "Reports are published on ProtonDB to help you, Valve, and developers to help fix games. Please keep your reports accurate, free of offensive language, and refrain from submitting reports just to promote your favorite game, distro or graphics card.",
-      "Submitting multiple reports for the same game is encouraged! As you play more or update Proton you'll have more to say. In this way ProtonDB differs from a wiki, since each report serves as a 'snapshot' of how the game played on that date with your configuration.",
-      "If you submit multiple reports, only your most recent will count towards the ProtonDB rating and only if your system information meets Proton's minimum requirements.",
-      "Your contributions will be publicly visible on ProtonDB and available in data exports under the Open Database License. Go [here]({{link}}) for more information."
+      "Отчёты публикуются на ProtonDB чтобы помочь Вам, Valve, и разработчикам помочь исправить игры. Пожалуйста, сохраняйте свои отчёты аккуратными, свободными от агрессивных высказываний, и воздерживайтесь от отправки отчётов только для продвижения Вашей любимой игры, дистрибутива или видеокарты.",
+      "Приветствуется отправка нескольких отчётов об одной и той же игре! Пока Вы играете дальше или обновляете Proton у Вас будет больше чего сообщить. В этом плане ProtonDB отличается от wiki, поскольку каждый отчёт служит 'снимком состояния' того, как игра работала на данную дату с Вашей конфигурацией.",
+      "Если Вы отправите несколько отчётов, только самый последний будет учитываться в рейтинге ProtonDB и только если ваша системная информация удовлетворяет минимальным требованиям Proton.",
+      "Ваш вклад будет виден для всех на ProtonDB и доступен для экспорта данных согласно Лицензии 'Open Database License'. Перейдите [сюда]({{link}}) для подробной информации."
     ],
-    "outro": "With that, let's get started!"
+    "outro": "После этого можно и начать!"
   },
   "windowingFaults": {
-    "legend": "Windowing",
+    "legend": "Работа с окнами",
     "options": {
       "activatingFullscreen": {
-        "long": "Fullscreen could not be initiated",
-        "short": "Activating Fullscreen"
+        "long": "Невозможно перейти в полноэкранный режим",
+        "short": "Полноэкранный режим"
       },
       "fullNotFull": {
-        "long": "Fullscreen was not fully full",
-        "short": "Size"
+        "long": "Полноэкранный режим не полноэкранный",
+        "short": "Размер"
       },
       "other": {
-        "long": "Other",
-        "short": "Other"
+        "long": "Другое",
+        "short": "Другое"
       },
       "switching": {
-        "long": "Could not conventionally escape from fullscreen (such as with Alt-Tab)",
-        "short": "Switching"
+        "long": "Невозможно выйти из полноэкранного режима привычным способом (например, Alt-Tab)",
+        "short": "Переключение"
       }
     },
-    "prompt": "Did you experience any problems with windowing or fullscreen?"
+    "prompt": "Вы испытывали какие-либо проблемы с оконным или полноэкранным режимом?"
   }
 }
