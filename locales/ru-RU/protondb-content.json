@@ -1,55 +1,55 @@
 {
   "auth": {
-    "intro": "Logging in with Steam lets you submit reports and use the [Explore page with a Library filter]({{link}}) to limit results to games that you own."
+    "intro": "Вход через Steam позволит Вам отправлять отчёты и использовать [Страницу 'Обзор' с фильтром библиотеки]({{link}}) чтобы ограничить результат играми, которые у Вас есть."
   },
   "breakdown": {
-    "headline": "Popular Games",
-    "popularHeadline": "Ratings for {{count}} most popular",
-    "topHundred": "Top Hundred",
-    "topTen": "Top Ten",
-    "topThousand": "Top Thousand",
+    "headline": "Популярные игры",
+    "popularHeadline": "Рейтинг для {{count}} самых популярных",
+    "topHundred": "Топ сто",
+    "topTen": "Топ десять",
+    "topThousand": "Топ тысяча",
     "topics": {
-      "allGames": "All Games",
-      "indie": "Indie",
-      "localMultiplayer": "Local Multiplayer",
-      "singlePlayer": "Single Player",
+      "allGames": "Все игры",
+      "indie": "Инди",
+      "localMultiplayer": "Локальный мультиплеер",
+      "singlePlayer": "Одиночная игра",
       "vr": "VR"
     },
-    "unavailable": "Unavailable",
-    "unrated": "Unrated",
-    "unreported": "Unreported"
+    "unavailable": "Недоступно",
+    "unrated": "Неоцененно",
+    "unreported": "Без отчётов"
   },
   "explore": {
     "headlines": {
-      "fixWanted": "Fix Wanted",
-      "highestRated": "Highest Rated on SteamDB",
-      "hoursPlayed": "Hours Played",
-      "inLibrary": "In Library",
-      "mostBorked": "Most Borked Reports",
-      "mostPopular": "Most Popular",
-      "recentlyImproved": "Recently Improved",
-      "wellRatedHere": "Well Rated Here"
+      "fixWanted": "Нужны исправления",
+      "highestRated": "Наибольший рейтинг на SteamDB",
+      "hoursPlayed": "Часов сыграно",
+      "inLibrary": "В библиотеке",
+      "mostBorked": "Больше всего 'сломанных' отчётов",
+      "mostPopular": "Самые популярные",
+      "recentlyImproved": "Недавно улучшенные",
+      "wellRatedHere": "Хорошо оценённые здесь"
     },
-    "layout": "Layout",
-    "loadError": "Error loading games!",
-    "notLoggedIn": "Cannot load a library without a Steam ID. Visit your [Profile]({{link}}) to add one.",
-    "poweredBy": "Powered by",
+    "layout": "Расположение",
+    "loadError": "Ошибка при загрузке игр!",
+    "notLoggedIn": "Невозможно загрузить библиотеку без Steam ID. Перейдите в свой [Профиль]({{link}}) чтобы добавить его.",
+    "poweredBy": "При поддержке",
     "sorts": {
-      "fixWanted": "Fix Wanted",
-      "hoursPlayed": "Hours played",
-      "mostBorked": "Most Borked",
-      "playerCount": "Player count",
-      "recentlyImproved": "Recently Improved",
-      "userScore": "User Score",
-      "wilsonRating": "ProtonDB Rating"
+      "fixWanted": "Нужны исправления",
+      "hoursPlayed": "Часов сыграно",
+      "mostBorked": "Наиболее сломано",
+      "playerCount": "Количество игроков",
+      "recentlyImproved": "Недавно улучшенные",
+      "userScore": "Оценка пользователей",
+      "wilsonRating": "Рейтинг ProtonDB"
     },
     "toggles": {
-      "includeNative": "Include Native",
-      "lackReports": "Lack Reports",
-      "restrictToLibrary": "Library",
-      "untested": "Lack Reports",
-      "userTags": "User Tags",
-      "whitelisted": "Whitelisted"
+      "includeNative": "Включая нативные",
+      "lackReports": "Недостаток отчётов",
+      "restrictToLibrary": "Библиотека",
+      "untested": "Недостаток отчётов",
+      "userTags": "Пользовательские тэги",
+      "whitelisted": "В белом списке"
     }
   },
   "filters": {
@@ -58,116 +58,116 @@
         "label": "CPU"
       },
       "distro": {
-        "label": "Distro"
+        "label": "Дистрибутив"
       },
       "gpu": {
         "label": "GPU"
       },
       "type": {
-        "label": "Type"
+        "label": "Тип"
       }
     }
   },
   "gameDetails": {
-    "githubIssueSearch": "Github Issue Search",
-    "infoNotFound": "Could not acquire information for App ID: {{entry}}. This can happen if a game was removed from the store.",
-    "minimumRequirements": "Minimum Requirements",
-    "nativelySupports": "Natively Supports"
+    "githubIssueSearch": "Поиск Github Issue",
+    "infoNotFound": "Не удалось получить информацию для приложения с App ID: {{entry}}. Это могло произойти, если игра была удалена из магазина.",
+    "minimumRequirements": "Минимальные требования",
+    "nativelySupports": "Нативная поддержка"
   },
   "home": {
     "getStartedLinks": [
-      "[Steam's Official Steam Play Page](https://store.steampowered.com/steamplay)",
-      "[A guide to migrating to Linux](https://www.reddit.com/r/linux_gaming/comments/9oqq3w/guide_migrating_to_linux_in_2019/)",
-      "[What is Vulkan?](https://www.reddit.com/r/linux_gaming/comments/9ritk1/not_sure_i_quite_understand_can_someone_explain/)"
+      "[Официальная страница Steam по Steam Play](https://store.steampowered.com/steamplay)",
+      "[Инструкция по переходу на Linux (Англ.)](https://www.reddit.com/r/linux_gaming/comments/9oqq3w/guide_migrating_to_linux_in_2019/)",
+      "[Что такое Vulkan? (Англ.)](https://www.reddit.com/r/linux_gaming/comments/9ritk1/not_sure_i_quite_understand_can_someone_explain/)"
     ],
-    "headline": "With Proton and Steam Play, many Windows games now work on Linux!",
+    "headline": "С Proton и Steam Play, многие Windows-игры теперь работают на Linux!",
     "howDoIHelp": {
-      "answer": "Give Linux a try! If you are new, not to worry. Here is a list of guides to get started. And if you want to help Valve and Proton to improve, contribute your reports here on ProtonDB!",
-      "question": "Cool! How do I help?"
+      "answer": "Дайте шанс Linux! Если Вы новичок, не пугайтесь. Здесь собран список инструкций, которые помогут начать. И если Вы хотите помочь Valve и Proton стать лучше, публикуйте свои отчёты здесь на ProtonDB!",
+      "question": "Круто! Как я могу помочь?"
     },
-    "letsGetStarted": "Let's get started.",
-    "sampleGames": "Here is a sample of some popular games that are officially not whitelisted yet, but have received many Platinum reports on ProtonDB",
-    "search": "Search for a game...",
+    "letsGetStarted": "Давайте начнём.",
+    "sampleGames": "Вот пример нескольких популярных игр, которые официально не внесены в белый список, но получили много платиновых отчётов на ProtonDB",
+    "search": "Найти игры...",
     "stats": {
-      "gamesReported": "games reported",
-      "gamesWork": "games work",
-      "reportsWritten": "reports written"
+      "gamesReported": "игр обозрено",
+      "gamesWork": "игр работают",
+      "reportsWritten": "отчётов написано"
     },
     "theImpact": {
-      "answer": "Steam Play now officially supports a limited but growing set of 'whitelisted' games that are deemed Proton-compatible and play on Linux. Based on ProtonDB reports, a significant number of non-whitelisted games, including many popular titles, play just as well as on Windows.",
-      "question": "The Impact"
+      "answer": "Steam Play теперь официально поддерживает ограниченный, но растущий белый список игр, которые считаются совместимыми с Proton и играбельны на Linux. Основываясь на отчётах ProtonDB, значительное число игр, которые находятся не в белом списке, включая многие популярные тайтлы, играются также хорошо, как и на Windows.",
+      "question": "Эффект"
     },
     "whatIsProton": {
-      "answer": "Proton is a new tool released by Valve Software that has been integrated with Steam Play to make playing Windows games on Linux as simple as hitting the Play button within Steam. Underneath the hood, Proton comprises other popular tools like Wine and DXVK among others that a gamer would otherwise have to install and maintain themselves. This greatly eases the burden for users to switch to Linux without having to learn the underlying systems or losing access to a large part of their library of games. Proton is still in its infancy so support is inconsistent, but regularly improving.",
-      "question": "What is Proton?"
+      "answer": "Proton это новый инструмент, выпущенный Valve Software, который интегрирован со Steam Play, чтобы сделать игру в Windows-игры на Linux такой же простой, как нажатие кнопки 'Играть' в Steam. Внутри Proton содержит другие популярные инструменты, такие как Wine и DXVK, которые игроку в противном случае пришлось бы устанавливать и поддерживать самостоятельно. Это значительно облегчает пользователям переход на Linux без необходимости изучать внутренности системы и без потери большей части их игровых библиотек. Proton всё ещё находится в зачаточном состоянии, поэтому его поддержка изменчива, но постоянно улучшается.",
+      "question": "Что такое Proton?"
     },
     "whatIsProtonDb": {
-      "answer": "The goal of ProtonDB is to gather reports from other gamers as they test games with Proton on Linux and provide aggregate scores of how well games perform. A growing pool of suggestions provides tweaks that you can try to get games working while Proton continues development. In addition to this, you may explore the Steam game catalog on this site to browse and discover a wide range of titles that were previously unavailable for use on Linux.",
-      "question": "What is ProtonDB?"
+      "answer": "Целью ProtonDB является собирание отчётов от игроков, когда они тестируют игры с Proton на Linux и предоставлять совокупные оценки того, насколько хорошо работают игры. Растущий выбор предложений позволяет настраивать игры, пока Proton продолжает улучшаться. В дополнении к этому, вы можете изучить каталог игр Steam на данном сайте и обнаружить широкий выбор игр, которые ранее были недоступны на Linux.",
+      "question": "Что такое ProtonDB?"
     },
     "whyBigDeal": {
-      "answer": "The Linux desktop experience has improved by leaps and bounds in the last year or two. Most of what you may be used to on Windows or MacOS is possible on Linux without having to tinker too much, and the tinkering can even be fun. Meanwhile, more and more of our daily interactions with a computer happen online, and browsers behave much the same on Linux as they do on other operating systems. Proton and Steam Play address a significant obstacle to adoption: gaming, where until recently there was limited compatibility.",
-      "question": "Why is this a big deal?"
+      "answer": "В последнее время, возможности десктопного Linux улучшаются не по дням, а по часам. Большая часть того, что вы можете использовать на Windows или MacOS доступно на Linux без необходимости возиться слишком долго, но даже возня может быть весёлой. Между тем, всё больше и больше наших ежедневных взаимодействий с компьютером переносится в интернет, и браузеры ведут себя в Linux также как и в других операционных системах. Proton и Steam Play направлены устранить существенное препятствие для адаптации: игры, в которых до недавнего времени была очень ограниченная совместимость.",
+      "question": "Почему это так важно?"
     },
     "youtubeId": "Co6FePZoNgE"
   },
   "medals": {
-    "borked": "Borked",
-    "bronze": "Bronze",
-    "gold": "Gold",
-    "platinum": "Platinum",
-    "silver": "Silver"
+    "borked": "Сломано",
+    "bronze": "Бронза",
+    "gold": "Золото",
+    "platinum": "Платина",
+    "silver": "Серебро"
   },
   "ratingDefinitions": {
     "explanations": {
-      "borked": "Either won't start or is crucially unplayable",
-      "bronze": "Runs, but often crashes or has issues preventing from playing comfortably",
-      "gold": "Runs perfectly after tweaks",
-      "native": "Runs natively on Linux",
-      "pending": "Awaiting further reports before giving a rating",
-      "platinum": "Runs perfectly out of the box",
-      "silver": "Runs with minor issues, but generally is playable"
+      "borked": "Не запускается либо полностью неиграбельно",
+      "bronze": "Запускается, но часто крашится либо имеет проблемы, мешающие комфортной игре",
+      "gold": "Работает идеально после модификаций",
+      "native": "Запускается нативно на Linux",
+      "pending": "В ожидании других отчётов, чтобы дать оценку",
+      "platinum": "Работает идеально из коробки",
+      "silver": "Работает с небольшими проблемами, но в целом играбельно"
     },
-    "headline": "Rating Definitions"
+    "headline": "Определения рейтинга"
   },
   "specs": {
     "cpu": "CPU",
     "gpu": "GPU",
-    "gpuDriver": "GPU Driver",
-    "kernel": "Kernel",
-    "os": "Distro",
-    "otherSpecs": "Other Specs",
+    "gpuDriver": "Драйвер GPU",
+    "kernel": "Ядро",
+    "os": "Дистрибутив",
+    "otherSpecs": "Другие характеристики",
     "ram": "RAM"
   },
   "stats": {
     "analysisInByTheNumbers1": "Analysis in By The Numbers #1",
-    "byCommonDisplayDrivers": "By Common Display Drivers",
-    "byDistro": "By Distro",
-    "byGpu": "By GPU",
-    "byProtonVersion": "By Proton Version",
-    "dailyReportsHeadline": "Daily Reports (Last {{days}} Days)",
-    "downloadData": "Download Data",
-    "gameRatingDistribution": "Game Rating Distribution",
-    "gamesWithNOrMoreReports": "Games With N Or More Reports",
-    "reportRatingDistributionOverTime": "Report Rating Distribution Over Time",
-    "whenMeetingMinimumRequirements": "When Meeting Minimum Requirements"
+    "byCommonDisplayDrivers": "По распространённым графическим драйверам",
+    "byDistro": "По дистрибутиву",
+    "byGpu": "По GPU",
+    "byProtonVersion": "По версии Proton",
+    "dailyReportsHeadline": "Ежедневные отчёты (За последние {{days}} дней)",
+    "downloadData": "Загрузить данные",
+    "gameRatingDistribution": "Распределение рейтинга игр",
+    "gamesWithNOrMoreReports": "Игры с N или более отчётов",
+    "reportRatingDistributionOverTime": "Распределение рейтингов с течением времени",
+    "whenMeetingMinimumRequirements": "Когда соответствует минимальным требованиям"
   },
   "steamAuthor": {
-    "hoursInSteam": "{{count}} hours in Steam",
-    "timeWithProton": "{{time}} with Proton"
+    "hoursInSteam": "{{count}} часов в Steam",
+    "timeWithProton": "{{time}} с Proton"
   },
   "suggestions": {
-    "headline": "Ready for more?",
-    "intro": "The following games have been selected based on hours you've played, popularity, and SteamDB rating. They all lack reports and some may only need one more to get a {{siteName}} rating! You can reload for other suggestions or go to [Lack Reports]({{link}}) filter of Explore page for even more."
+    "headline": "Готовы к большему?",
+    "intro": "Следующие игры были выбраны на основе сыгранных Вами часов, популярности и рейтинга SteamDB. Они испытывают недостаток отчётов и некоторым может потребоваться всего один, чтобы получить рейтинг {{siteName}}! Вы можете обновить, для других предложений или перейти к фильтру [Недостаток отчётов]({{link}}) страницы 'Обзор' для получения большего."
   },
   "systemInfo": {
-    "headline": "System Information",
-    "howTo": "Gathering this information is quick if you have access to Steam settings on the machine where you play your games. [Go here to learn how]({{link}}). (Some users have reported that they need to press Ctrl-A to select everything before right clicking.)",
-    "intro": "Reports have more utility and lend more credibility by displaying the hardware and software the game was tested on. To keep this as accurate and consistent as possible, we leverage the system information reported by Steam itself.",
-    "parseFailure": "Parsing failed. If you are certain you copied correctly please let us know on Discord",
-    "parseSuccess": "System Information Parsed Successfully!",
-    "pasteInstructions": "Paste Steam System Info Here",
-    "unsupportedHeadline": "Unsupported Drivers Detected",
-    "unsupportedWarning": "Your system's display driver does not meet [Proton's current minimum requirements]({{link}})! You may experience crashes, slow performance, or graphical degradations. You may still submit reports and there is still value in your contributions, but your reports will show your graphics drivers in red and will not be counted toward aggregate ratings for games. Please update your drivers!"
+    "headline": "Системная информация",
+    "howTo": "Сбор данной информации происходит быстро, если вы имеете доступ к настройкам Steam на компьютере, на котором вы играете в игры. [Перейдите сюда, чтобы узнать как]({{link}}). (Некоторые пользователи отмечали, что необходимо нажать Ctrl+A, чтобы выбрать всё, перед нажатием ПКМ.)",
+    "intro": "Отчёты имеют большую полезность и повышают достоверность, показывая то железо и ПО, на которых была запущена игра. Чтобы делать это наиболее точно и достоверно, мы используем системную информацию, предоставляемую самим Steam.",
+    "parseFailure": "Не удаётся распознать информацию. Если Вы уверены, что скопировали правильно, пожалуйста, сообщите нам в Discord",
+    "parseSuccess": "Системная информация распознана успешно!",
+    "pasteInstructions": "Вставьте системную информацию из Steam сюда",
+    "unsupportedHeadline": "Обнаружены неподдерживаемые драйвера",
+    "unsupportedWarning": "Графический драйвер вашей системы не соответствует [настоящим минимальным требованиям Proton]({{link}})! Вы можете испытывать краши, уменьшение производительности или ухудшение графики. Вы всё ещё можете отправлять отчёты и Ваш вклад будет иметь ценность, но в Ваших отчётах графический драйвер будет отображаться красным цветов и он не будет учитываться в совокупном рейтинге игр. Пожалуйста, обновите Ваши драйвера!"
   }
 }
