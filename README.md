@@ -58,7 +58,7 @@ As ProtonDB continues development, new text will be added that may need translat
 
 ### Hall of Fame
 
-- German (de-DE): [@NoXPhasma](https://github.com/NoXPhasma)
+- German (de-DE): [@NoXPhasma](https://github.com/NoXPhasma) and [@VoxelCubes](https://github.com/VoxelCubes)
 - Polish (pl-PL): [@kacperski1](https://github.com/kacperski1)
 - Ukrainian (uk-UA): [@iodream](https://github.com/iodream)
 - Bulgarian (bg-BG): [@mialy](https://github.com/mialy)
