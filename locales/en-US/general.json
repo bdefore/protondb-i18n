@@ -12,6 +12,9 @@
     "previousPost": "Previous Post"
   },
   "contextualInfo": {
+    "fixWanted": "",
+    "mostBorked": "",
+    "protonDbRating": "",
     "hoursPlayed": "{{context}} hours played",
     "peakPlayers": "{{context}} peak players",
     "positiveRating": "{{context}}% positive rating",

@@ -91,6 +91,7 @@
     "stats": {
       "gamesReported": "games reported",
       "gamesWork": "games work",
+      "gamesWorkExplanation": "Have at least one Thumbs Up or Platinum (legacy) report",      
       "reportsWritten": "reports written"
     },
     "theImpact": {
