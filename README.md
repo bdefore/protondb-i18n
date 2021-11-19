@@ -4,7 +4,7 @@ A crowdsourced journey to translate [ProtonDB](https://www.protondb.com) ([News 
 
 ### Overview
 
-ProtonDB loads its text using [react-i18next](https://github.com/i18next/react-i18next) (version 10) resource bundles in JSON.
+ProtonDB loads its text using [react-i18next](https://github.com/i18next/react-i18next) resource bundles in JSON.
 
 Each language, as represented by their 'xx-XX' [BCP-47 language tag](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl), lives within `locales`. Within each locale's directory are the following files:
 
@@ -27,11 +27,11 @@ All native speakers are welcome to contribute! Please do not make pull requests 
 
 - Fork this repo
 - Download your fork
-- In your downloaded directory, run `yarn install`
+- In your downloaded directory, install dependencies by running `yarn`
 - If starting a new locale, create the directory named after your language tag within `locales` and copy over files from the `locales/en-US` directory
 - Make your changes/additions
 - Review them visually (see Verify Your Changes below)
-- Run `yarn run lint:json` to validate everything is alphabetized and formatted properly
+- Run `yarn lint:json` to validate everything is alphabetized and formatted properly
 - Commit, push, and open a pull request!
 
 Any questions? Ask us on [Discord](https://discord.gg/uuwK9EV) You might want to let us know on there anyway that you're starting work so that we can add you to Known Active Translations below.
@@ -50,7 +50,7 @@ Keep an eye out for page rendering issues if your text is smaller or larger than
 
 ### Maintenance
 
-As ProtonDB continues development, new text will be added that may need translation. For a quick way to verify if a language is missing translations (or has identical ones to English), you can run: `yarn run compare --locale <locale-code>`
+As ProtonDB continues development, new text will be added that may need translation. For a quick way to verify if a language is missing translations (or has identical ones to English), you can run: `yarn compare --locale <locale-code>`
 
 ### Known Active Translations
 
