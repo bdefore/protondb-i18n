@@ -1,0 +1,509 @@
+{
+  "appSelection": {
+    "caution": "Внимание!",
+    "helperText": "Вы можете также вставить ссылку или ID приложения и мы попытаемся найти его",
+    "notFound": "Не удалось найти игру с ID {{query}}. Это могло произойти либо из-за неточности ID, либо из-за того, что: игра удалена из магазина Steam, не указана как 'игра' или недоступна в Вашей стране.",
+    "placeholder": "Введите название игры из вашей библиотеки Steam...",
+    "previousReportsExist": "Вы уже делали отчёт на данную игру",
+    "runsNativeWarning": "Выбранная игра имеет опубликованную нативную версию для Linux! Пожалуйста, удостоверьтесь, что Вы не запустили игру нативно. Steam не использует Steam Play по-умолчанию чтобы запустить эту игру, но [Вы можете включить это самостоятельно]({{link}})."
+  },
+  "audioFaults": {
+    "legend": "Звук",
+    "options": {
+      "borked": {
+        "long": "Полностью сломано",
+        "short": "Сломано"
+      },
+      "crackling": {
+        "long": "Потрескивание",
+        "short": "Потрескивание"
+      },
+      "lowQuality": {
+        "long": "Заметное снижение качества",
+        "short": "Низкое качество"
+      },
+      "missing": {
+        "long": "Отсутствуют некоторые звуки",
+        "short": "Отсутствие"
+      },
+      "other": {
+        "long": "Другое",
+        "short": "Другое"
+      },
+      "outOfSync": {
+        "long": "Рассинхронизация",
+        "short": "Рассинхронизация"
+      }
+    },
+    "prompt": "Вы испытывали какие-нибудь проблемы со звуком?"
+  },
+  "borked": {
+    "headline": "Очень жаль!",
+    "intro": "Вы можете приступить к отправке отчёта о сломанной игре, но перед этим вы можете посетить наш [FAQ по устранению неисправностей]({{link}})."
+  },
+  "customizationsUsed": {
+    "additionalNotes": {
+      "label": "Подробная информация",
+      "placeholder": "Объяснения или ссылка на пост в блоге или ссылка на Github репозиторий"
+    },
+    "legend": "Модификации",
+    "options": {
+      "customPrefix": {
+        "long": "Модифицированный префикс Wine",
+        "short": "Модифицированный префикс"
+      },
+      "customProton": {
+        "long": "Модифицированный форк Proton",
+        "short": "Модифицированный Proton"
+      },
+      "lutris": {
+        "long": "Установочный скрипт Lutris",
+        "short": "Lutris"
+      },
+      "mediaFoundation": {
+        "long": "Media Foundation DLL (mf-install)",
+        "short": "Media Foundation DLL"
+      },
+      "native2Proton": {
+        "long": "Native2Proton",
+        "short": "Native2Proton"
+      },
+      "notListed": {
+        "long": "Не в списке",
+        "short": "Не в списке"
+      },
+      "protonfixes": {
+        "long": "protonfixes",
+        "short": "protonfixes"
+      },
+      "protontricks": {
+        "long": "protontricks",
+        "short": "protontricks"
+      },
+      "winetricks": {
+        "long": "winetricks",
+        "short": "winetricks"
+      }
+    },
+    "prompt": "Какие модификации Вы произвели?"
+  },
+  "duration": {
+    "legend": "Продолжительность",
+    "options": {
+      "aboutAnHour": {
+        "long": "час",
+        "short": "час"
+      },
+      "lessThanAnHour": {
+        "long": "< 1 часа",
+        "short": "< 1 часа"
+      },
+      "lessThanFifteenMinutes": {
+        "long": "< 15 минут",
+        "short": "< 15 минут"
+      },
+      "moreThanTenHours": {
+        "long": "> 10 часов",
+        "short": "> 10 часов"
+      },
+      "severalHours": {
+        "long": "2+ часов",
+        "short": "2+ часов"
+      }
+    },
+    "prompt": "Как долго вы играли?"
+  },
+  "extra": {
+    "additionalNotes": {
+      "label": "Дополнительные заметки",
+      "placeholder": "Пожалуйста, добавьте их здесь."
+    },
+    "prompt": "Хотите добавить что-нибудь, что не было покрыто в предыдущих вопросах?"
+  },
+  "graphicalFaults": {
+    "legend": "Графика",
+    "options": {
+      "heavyArtifacts": {
+        "long": "Сильные или частые артефакты",
+        "short": "Сильные артефакты"
+      },
+      "minorArtifacts": {
+        "long": "Незначительные или редкие артефакты",
+        "short": "Незначительные артефакты"
+      },
+      "missingTextures": {
+        "long": "Отсутствующие текстуры",
+        "short": "Отсутствующие текстуры"
+      },
+      "other": {
+        "long": "Другое",
+        "short": "Другое"
+      }
+    },
+    "prompt": "Вы заметили какие-либо ухудшения графики?"
+  },
+  "graphicsApiSelection": {
+    "legend": "Графическое API",
+    "options": {
+      "d3d": {
+        "long": "Direct3D",
+        "short": "Direct3D"
+      },
+      "ogl": {
+        "long": "OpenGL",
+        "short": "OpenGL"
+      },
+      "unsure": {
+        "long": "То, что игра использует по-умолчанию",
+        "short": "Default"
+      },
+      "vk": {
+        "long": "Vulkan",
+        "short": "Vulkan"
+      }
+    },
+    "prompt": "Какое графическое API Вы использовали в игре?"
+  },
+  "inputFaults": {
+    "legend": "Ввод",
+    "options": {
+      "bounding": {
+        "long": "Неправильные границы",
+        "short": "Границы"
+      },
+      "controllerMapping": {
+        "long": "Кнопки контроллера были неправильно присвоены",
+        "short": "Присвоение кнопок контроллера"
+      },
+      "controllerNotDetected": {
+        "long": "Контроллер не распознаётся",
+        "short": "Распознавание контроллера"
+      },
+      "controllerNotResponsive": {
+        "long": "Контроллер распознаётся, но не реагирует",
+        "short": "Реакция"
+      },
+      "drifting": {
+        "long": "Оси дрифтуют",
+        "short": "Дрифт"
+      },
+      "inaccuracy": {
+        "long": "Неточность",
+        "short": "Неточность"
+      },
+      "lag": {
+        "long": "Задержка ввода",
+        "short": "Задержка"
+      },
+      "other": {
+        "long": "Другое",
+        "short": "Другое"
+      }
+    },
+    "prompt": "Вы испытывали какие-либо проблемы с мышью, геймпадом или другими устройствами ввода?"
+  },
+  "installs": {
+    "legend": "Установка",
+    "prompt": "Вы смогли установить игру?"
+  },
+  "isImpactedByAntiCheat": {
+    "legend": "Античит",
+    "options": {
+      "battleEye": {
+        "long": "BattlEye",
+        "short": "BattlEye"
+      },
+      "easyAntiCheat": {
+        "long": "Easy Anti Cheat",
+        "short": "EAC"
+      },
+      "other": {
+        "long": "Другой",
+        "short": "Другой"
+      }
+    },
+    "prompt": "Влияет ли на игру античит?"
+  },
+  "isMultiplayerImportant": {
+    "prompt": "Является ли мультиплеер ключевой частью игры?"
+  },
+  "launchFlagsUsed": {
+    "additionalNotes": {
+      "label": "Подробная информация",
+      "placeholder": "С чем это помогло?"
+    },
+    "legend": "Флаги запуска",
+    "options": {
+      "disableD3d10": {
+        "long": "Отключить D3D10 (PROTON_NO_D3D10)",
+        "short": "Отключить D3D10"
+      },
+      "disableD3d11": {
+        "long": "Отключить D3D11 (PROTON_NO_D3D11)",
+        "short": "Отключить D3D11"
+      },
+      "disableEsync": {
+        "long": "Отключить Esync (PROTON_NO_ESYNC)",
+        "short": "Отключить Esync"
+      },
+      "disableFsync": {
+        "long": "Отключить Fsync (PROTON_NO_FSYNC)",
+        "short": "Отключить Fsync"
+      },
+      "fullscreenIntegerScaling": {
+        "long": "Fullscreen Integer Scaling (WINE_FULLSCREEN_INTEGER_SCALING)",
+        "short": "Fullscreen Integer Scaling"
+      },
+      "largeAddressAware": {
+        "long": "Large Address Aware (PROTON_FORCE_LARGE_ADDRESS_AWARE)",
+        "short": "Large Address Aware"
+      },
+      "oldGlString": {
+        "long": "Старый GL String (PROTON_OLD_GL_STRING)",
+        "short": "Старый GL String"
+      },
+      "useWineD3d11": {
+        "long": "Использовать Wine D3D (PROTON_USE_WINED3D)",
+        "short": "Использовать Wine D3D"
+      },
+      "useWineD9vk": {
+        "long": "Использовать D9VK (PROTON_USE_D9VK)",
+        "short": "Использовать D9VK"
+      }
+    },
+    "prompt": "Вы использовали какие-либо из этих флагов запуска Proton?"
+  },
+  "launcher": {
+    "additionalNotes": {
+      "label": "Лаунчер"
+    },
+    "legend": "Лаунчер",
+    "options": {
+      "gamehub": {
+        "long": "Gamehub",
+        "short": "Gamehub"
+      },
+      "lutris": {
+        "long": "Lutris",
+        "short": "Lutris"
+      },
+      "notListed": {
+        "long": "Нет в списке",
+        "short": "Нет в списке"
+      },
+      "steam": {
+        "long": "Steam",
+        "short": "Steam"
+      }
+    },
+    "prompt": "Как Вы запускаете игру?"
+  },
+  "localMultiplayerAppraisal": {
+    "prompt": "Как Вы оцениваете функционирование локального мультиплеера? Пожалуйста, оцените лаги, проблемы с подключением или вводом и т.д."
+  },
+  "localMultiplayerAttempted": {
+    "prompt": "Вы пытались играть в мультиплеер локально (оффлайн)?"
+  },
+  "localMultiplayerPlayed": {
+    "prompt": "Вы смогли заставить локальный мультиплеер работать?"
+  },
+  "multiplayerAppraisal": {
+    "options": {
+      "acceptable": {
+        "long": "Приемлемо. Существуют умеренные проблемы, но их можно преодолеть.",
+        "short": "Приемлемо"
+      },
+      "awful": {
+        "long": "Ужасно. Практически неиграбельно.",
+        "short": "Awful"
+      },
+      "excellent": {
+        "long": "Отлично. Никаких проблем не обнаружено.",
+        "short": "Отлично"
+      },
+      "good": {
+        "long": "Хорошо. Есть незначительные проблемы, но в целом играбельно.",
+        "short": "Good"
+      },
+      "weak": {
+        "long": "Слабо. Проблемы существенно влияют на игровой опыт.",
+        "short": "Слабо"
+      }
+    }
+  },
+  "onlineMultiplayerAppraisal": {
+    "prompt": "Как Вы оцениваете функционирование онлайн мультиплеера? Пожалуйста, оцените лаги, проблемы с подключением или вводом и т.д.Please evaulate for lag, connectivity or input issues, matchingmaking failures etc."
+  },
+  "onlineMultiplayerAttempted": {
+    "prompt": "Вы пытались играть в мультиплеер онлайн?"
+  },
+  "onlineMultiplayerPlayed": {
+    "prompt": "Вы смогли подключиться и играть в онлайн мультиплеер?"
+  },
+  "opens": {
+    "legend": "Запуск",
+    "prompt": "Вы смогли запустить игру и увидеть её главное меню?"
+  },
+  "performanceFaults": {
+    "legend": "Производительность",
+    "options": {
+      "significantSlowdown": {
+        "long": "Серьёзные проблемы с производительностью",
+        "short": "Серьёзные проблемы с производительностью"
+      },
+      "slightSlowdown": {
+        "long": "Незначительные проблемы с производительностью",
+        "short": "Незначительные проблемы с производительностью"
+      }
+    },
+    "prompt": "Вы испытывали неожиданные замедления на вашем железе?"
+  },
+  "prerequisites": {
+    "invalidOrMissingSystemInfo": "Информация о системе отсутствует или некорректная",
+    "missingProfileInfo": "Профиль неполный. Отсутствует: {{context}}",
+    "notLoggedIn": "Вы не вошли в систему через {{context}}"
+  },
+  "prerequisitesBlock": {
+    "action": "Перейти к профилю",
+    "context": "Вам нужно войти через Steam предоставить информацию о системе перед отправкой!",
+    "headline": "Ещё не готово!"
+  },
+  "preview": {
+    "intro": "Вещи, которые нужно проверить:",
+    "notes": [
+      "Ваша системная информация обновлена? Вам нужно будет перейти в ваш профиль и предоставить информацию из Steam после обновления графического драйвера.",
+      "Вы выбрали правильную игру? Некоторые игры имеют такое же название, как и более старые версии, к примеру, GRID",
+      "Вы добавили описания в правильных местах? Например, пишите заметки о проблемах с графикой в соответствующем разделе, а не в дополнительных заметках."
+    ]
+  },
+  "prompts": {
+    "continuingDraft": "Вы продолжаете с автоматически сохранённого черновика.",
+    "discardDraftWarning": "Все Ваши ответы будут навсегда удалены.",
+    "startOver": "Начать заново"
+  },
+  "protonVersion": {
+    "additionalNotes": {
+      "label": "Вручную установленная версия Proton",
+      "placeholder": "Должна быть корректная строка с версией Proton. Например: {{examples}}"
+    },
+    "prompt": "Какую версию Proton Вы используете?"
+  },
+  "saveGameFaults": {
+    "legend": "Сохранение игры",
+    "options": {
+      "errorLoading": {
+        "long": "Невозможно загрузить сохранение",
+        "short": "Загрузка"
+      },
+      "errorSaving": {
+        "long": "Невозможно сохранится",
+        "short": "Сохранение"
+      },
+      "other": {
+        "long": "Другое",
+        "short": "Другое"
+      }
+    },
+    "prompt": "Вы испытывали какие-либо проблемы с сохранением игры?"
+  },
+  "significantBugs": {
+    "legend": "Серьёзные баги",
+    "prompt": "Вы сталкивались с какими-либо серьёзными багами?"
+  },
+  "stabilityFaults": {
+    "legend": "Стабильность",
+    "options": {
+      "frequentCrashes": {
+        "long": "Частые краши",
+        "short": "Часто"
+      },
+      "notListed": {
+        "long": "Не в списке",
+        "short": "Не в списке"
+      },
+      "occasionally": {
+        "long": "Случайные краши",
+        "short": "Случайно"
+      }
+    },
+    "prompt": "Вы испытывали какие-либо проблемы со стабильностью?"
+  },
+  "startsPlay": {
+    "legend": "Начало игры",
+    "prompt": "Вы смогли начать играть?"
+  },
+  "stepHeadlines": {
+    "appSelection": "Выбор игры",
+    "borked": "Сломано!",
+    "customizations": "Модификации",
+    "finalNotes": "Вердикт",
+    "gameplay": "Другие потенциальные проблемы",
+    "graphics": "Графика и производительность",
+    "multiplayer": "Мультиплеер",
+    "preview": "Предпросмотр",
+    "setup": "Настройка",
+    "stability": "Стабильность",
+    "startup": "Установка и запуск",
+    "tinkerCheck": "Тип отчёта",
+    "unownedWarning": "Не в библиотеке"
+  },
+  "type": {
+    "intro": [
+      "ProtonDB теперь делит отчёты на два типа: Steam Play and Мастер.",
+      "Используйте отчёт Steam Play чтобы раскрыть опыт игры 'из коробки'. Установите, нажмите Играть и получите свою игру.",
+      "Используйте отчёт мастера, если вы делали какие-либо модификации, чтобы заставить игру работать.",
+      "Для большей разницы посмотрите [эту новость]({{link}})."
+    ],
+    "options": {
+      "steamPlay": {
+        "long": "Отчёт SteamPlay",
+        "short": "Отчёт SteamPlay"
+      },
+      "tinker": {
+        "long": "Отчёт Мастера",
+        "short": "Отчёт Мастера"
+      }
+    },
+    "prompt": "Какой тип отчёта Вы хотите написать?"
+  },
+  "verdict": {
+    "additionalNotes": {
+      "label": "Вывод (максимум символов: {{count}})",
+      "placeholder": "Короткий вывод. Это будет заголовком Вашего отчёта."
+    },
+    "prompt": "Будет ли среднестатистический игрок иметь позитивный опыт, запуская данную игру на Linux через Proton?"
+  },
+  "welcome": {
+    "headline": "Добро пожаловать",
+    "intro": "Спасибо за Ваш интерес к расширению каталога отчётов совместимости о Steam Play и Proton на ProtonDB! Пожалуйста, имейте в виду следующее, перед тем как сделать вклад",
+    "notes": [
+      "Отчёты публикуются на ProtonDB чтобы помочь Вам, Valve, и разработчикам помочь исправить игры. Пожалуйста, сохраняйте свои отчёты аккуратными, свободными от агрессивных высказываний, и воздерживайтесь от отправки отчётов только для продвижения Вашей любимой игры, дистрибутива или видеокарты.",
+      "Приветствуется отправка нескольких отчётов об одной и той же игре! Пока Вы играете дальше или обновляете Proton у Вас будет больше чего сообщить. В этом плане ProtonDB отличается от wiki, поскольку каждый отчёт служит 'снимком состояния' того, как игра работала на данную дату с Вашей конфигурацией.",
+      "Если Вы отправите несколько отчётов, только самый последний будет учитываться в рейтинге ProtonDB и только если ваша системная информация удовлетворяет минимальным требованиям Proton.",
+      "Ваш вклад будет виден для всех на ProtonDB и доступен для экспорта данных согласно Лицензии 'Open Database License'. Перейдите [сюда]({{link}}) для подробной информации."
+    ],
+    "outro": "После этого можно и начать!"
+  },
+  "windowingFaults": {
+    "legend": "Работа с окнами",
+    "options": {
+      "activatingFullscreen": {
+        "long": "Невозможно перейти в полноэкранный режим",
+        "short": "Полноэкранный режим"
+      },
+      "fullNotFull": {
+        "long": "Полноэкранный режим не полноэкранный",
+        "short": "Размер"
+      },
+      "other": {
+        "long": "Другое",
+        "short": "Другое"
+      },
+      "switching": {
+        "long": "Невозможно выйти из полноэкранного режима привычным способом (например, Alt-Tab)",
+        "short": "Переключение"
+      }
+    },
+    "prompt": "Вы испытывали какие-либо проблемы с оконным или полноэкранным режимом?"
+  }
+}
