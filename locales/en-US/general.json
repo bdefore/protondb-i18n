@@ -13,11 +13,11 @@
   },
   "contextualInfo": {
     "fixWanted": "",
-    "mostBorked": "",
-    "protonDbRating": "",
     "hoursPlayed": "{{context}} hours played",
+    "mostBorked": "",
     "peakPlayers": "{{context}} peak players",
     "positiveRating": "{{context}}% positive rating",
+    "protonDbRating": "",
     "recentReportCount": "{{context}} reports with latest two Proton versions"
   },
   "footer": {

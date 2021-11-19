@@ -12,9 +12,12 @@
     "previousPost": "Vorig bericht"
   },
   "contextualInfo": {
+    "fixWanted": "",
     "hoursPlayed": "{{context}} uren gespeeld",
+    "mostBorked": "",
     "peakPlayers": "{{context}} spelers op zijn hoogtepunt",
     "positiveRating": "{{context}}% positieve recensies",
+    "protonDbRating": "",
     "recentReportCount": "{{context}} recensies met de laatste twee Proton versies"
   },
   "footer": {

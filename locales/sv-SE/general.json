@@ -10,9 +10,12 @@
     "previousPost": "Föregående inlägg"
   },
   "contextualInfo": {
+    "fixWanted": "",
     "hoursPlayed": "{{context}} timmar spelade",
+    "mostBorked": "",
     "peakPlayers": "{{context}} högst antal spelare",
     "positiveRating": "{{context}}% positiva betyg",
+    "protonDbRating": "",
     "recentReportCount": "{{context}} antal rapporter med de senaste två Protonversionerna"
   },
   "footer": {

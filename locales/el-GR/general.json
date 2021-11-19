@@ -6,9 +6,12 @@
     "unlink": "Αποσύνδεση λογαριασμού"
   },
   "contextualInfo": {
+    "fixWanted": "",
     "hoursPlayed": "{{context}} ώρες παίχτηκαν",
+    "mostBorked": "",
     "peakPlayers": "{{context}} μέγιστοι παίκτες",
     "positiveRating": "{{context}}% θετική βαθμολογία",
+    "protonDbRating": "",
     "recentReportCount": "{{context}} Αναφορές τις δύο τελευταίες εκδόσεις Proton"
   },
   "libraryLoader": {

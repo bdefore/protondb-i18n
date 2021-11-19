@@ -12,9 +12,12 @@
     "previousPost": "Предишна публикация"
   },
   "contextualInfo": {
+    "fixWanted": "",
     "hoursPlayed": "{{context}} изиграни часа",
+    "mostBorked": "",
     "peakPlayers": "{{context}} играчи в пика",
     "positiveRating": "{{context}}% положителен рейтинг",
+    "protonDbRating": "",
     "recentReportCount": "{{context}} доклада с последните две версии на Proton"
   },
   "footer": {

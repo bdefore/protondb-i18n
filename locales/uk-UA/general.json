@@ -12,9 +12,12 @@
     "previousPost": "Попередній Допис"
   },
   "contextualInfo": {
+    "fixWanted": "",
     "hoursPlayed": "{{context}} годин зіграно",
+    "mostBorked": "",
     "peakPlayers": "{{context}} гравців в час пік",
     "positiveRating": "{{context}}% позитивний рейтинг",
+    "protonDbRating": "",
     "recentReportCount": "{{context}} звітів з двома останніми версіями Proton"
   },
   "footer": {

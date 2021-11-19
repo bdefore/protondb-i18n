@@ -12,9 +12,12 @@
     "previousPost": "上一则新闻"
   },
   "contextualInfo": {
+    "fixWanted": "",
     "hoursPlayed": "已玩 {{context}} 小时",
+    "mostBorked": "",
     "peakPlayers": "{{context}} 个玩家玩过",
     "positiveRating": "{{context}}% 好评",
+    "protonDbRating": "",
     "recentReportCount": "{{context}} 个基于最新两个版本的 Proton 的测试报告"
   },
   "footer": {
