@@ -12,9 +12,12 @@
     "previousPost": "Предыдущий пост"
   },
   "contextualInfo": {
+    "fixWanted": "",
     "hoursPlayed": "{{context}} часов сыграно",
+    "mostBorked": "",
     "peakPlayers": "{{context}} игроков максимум",
     "positiveRating": "{{context}}% положительных отзывов",
+    "protonDbRating": "",
     "recentReportCount": "{{context}} отзывов с двумя последними версиями Proton"
   },
   "footer": {
