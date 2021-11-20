@@ -16,13 +16,13 @@
       "vr": "VR"
     },
     "unavailable": "Недоступно",
-    "unrated": "Неоцененно",
+    "unrated": "Не оцененно",
     "unreported": "Без отчётов"
   },
   "explore": {
     "headlines": {
       "fixWanted": "Нужны исправления",
-      "highestRated": "Наибольший рейтинг на SteamDB",
+      "highestRated": "Наивысший рейтинг на SteamDB",
       "hoursPlayed": "Часов сыграно",
       "inLibrary": "В библиотеке",
       "mostBorked": "Больше всего 'сломанных' отчётов",
@@ -131,19 +131,19 @@
     "headline": "Определения рейтинга"
   },
   "specs": {
-    "cpu": "CPU",
-    "gpu": "GPU",
-    "gpuDriver": "Драйвер GPU",
+    "cpu": "Процессор",
+    "gpu": "Видеокарта",
+    "gpuDriver": "Драйвер видеокарты",
     "kernel": "Ядро",
     "os": "Дистрибутив",
     "otherSpecs": "Другие характеристики",
-    "ram": "RAM"
+    "ram": "Оперативная память"
   },
   "stats": {
     "analysisInByTheNumbers1": "Analysis in By The Numbers #1",
     "byCommonDisplayDrivers": "По распространённым графическим драйверам",
     "byDistro": "По дистрибутиву",
-    "byGpu": "По GPU",
+    "byGpu": "По видеокарте",
     "byProtonVersion": "По версии Proton",
     "dailyReportsHeadline": "Ежедневные отчёты (За последние {{days}} дней)",
     "downloadData": "Загрузить данные",
