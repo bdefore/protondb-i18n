@@ -2,16 +2,16 @@
   "genericFollowUpPrompt": "¿Qué tipo de problemas?",
   "misc": {
     "answerRequired": "Se necesita respuesta",
-    "answerRequiredWhenNotListed": "SE necesita respuesta cuando se elije 'No está en la lista' ",
+    "answerRequiredWhenNotListed": "Se necesita respuesta cuando se elije 'No está en la lista' ",
     "back": "Volver",
-    "error": "Error!",
+    "error": "¡Error!",
     "markdownSupportNotice": "Ahora Markdown es compatible",
     "maxChars": "{{count}} carácteres como máximo",
     "next": "Siguiente",
     "submission": {
-      "error": "Ha habido un error durante el envío. Por favor, háznos saber como ha ocurrido!",
+      "error": "Ha habido un error durante el envío. Comprueba que tu navegador permite llamadas a apis.google.com. Se sabe que Brave y Privacy Badger realizan este bloqueo por defecto. Si sigues sin poder enviar, ¡háznoslo saber!",
       "note": "Por favor, ten en cuenta que los nuevos reportes estarán en un estado pendiente hasta la seguiente recarga de contenido. Puedes ver tus contribuciones en tu [Perfil]({{link}})",
-      "success": "Satisfactoriamente enviado",
+      "success": "Enviado con éxito",
       "thanks": "Gracias por tu contribución a {{siteName}}"
     },
     "submit": "Enviar",
