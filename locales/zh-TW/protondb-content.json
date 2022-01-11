@@ -1,0 +1,173 @@
+{
+  "auth": {
+    "intro": "使用 Steam 登入來您的提交回報。您還可以在 [探索頁面使用遊戲庫過濾器]({{link}}) 讓結果只顯示您擁有的遊戲。"
+  },
+  "breakdown": {
+    "headline": "受歡迎的遊戲",
+    "popularHeadline": "Top {{count}} 受歡迎遊戲評分",
+    "topHundred": "前 100",
+    "topTen": "前 10",
+    "topThousand": "前 1000",
+    "topics": {
+      "allGames": "所有遊戲",
+      "indie": "獨立遊戲",
+      "localMultiplayer": "多人遊戲",
+      "singlePlayer": "單人遊戲",
+      "vr": "VR"
+    },
+    "unavailable": "不可用",
+    "unrated": "未評分",
+    "unreported": "未回報"
+  },
+  "explore": {
+    "headlines": {
+      "fixWanted": "期待修復",
+      "highestRated": "SteamDB 高分",
+      "hoursPlayed": "遊戲時間",
+      "inLibrary": "在我的遊戲庫中：",
+      "mostBorked": "最多不可玩回報",
+      "mostPopular": "最受歡迎",
+      "recentlyImproved": "最近改善",
+      "wellRatedHere": "高評分"
+    },
+    "layout": "布局",
+    "loadError": "無法載入遊戲！",
+    "notLoggedIn": "需要關聯 Steam ID 以載入遊戲庫。請訪問您的 [個人頁面]({{link}}) 進行關聯。",
+    "poweredBy": "Powered by",
+    "sorts": {
+      "fixWanted": "期待修復",
+      "hoursPlayed": "遊戲時間",
+      "mostBorked": "最多不可玩回報",
+      "playerCount": "玩家數量",
+      "recentlyImproved": "最近改善",
+      "userScore": "用戶評分",
+      "wilsonRating": "ProtonDB 評分"
+    },
+    "toggles": {
+      "includeNative": "包含原生",
+      "lackReports": "缺乏回報",
+      "restrictToLibrary": "庫",
+      "untested": "缺乏回報",
+      "userTags": "用戶標籤",
+      "whitelisted": "白名單"
+    }
+  },
+  "filters": {
+    "questions": {
+      "cpu": {
+        "label": "中央處理器"
+      },
+      "distro": {
+        "label": "發行版"
+      },
+      "gpu": {
+        "label": "顯示卡"
+      },
+      "type": {
+        "label": "類型"
+      }
+    }
+  },
+  "gameDetails": {
+    "githubIssueSearch": "搜索 Github Issue",
+    "infoNotFound": "無法獲取 App ID：{{entry}} 的相關訊息。遊戲被從商店下架時會發生這種情況。",
+    "minimumRequirements": "最低配置要求",
+    "nativelySupports": "原生支持"
+  },
+  "home": {
+    "getStartedLinks": [
+      "[Steam 官方 Steam Play 頁面](https://store.steampowered.com/steamplay)",
+      "[遷移到 Linux 指南（英文）](https://www.reddit.com/r/linux_gaming/comments/9oqq3w/guide_migrating_to_linux_in_2019/)",
+      "[Vulkan 是什麼？（英文）](https://www.reddit.com/r/linux_gaming/comments/9ritk1/not_sure_i_quite_understand_can_someone_explain/)"
+    ],
+    "headline": "得益於 Proton 和 Steam Play，許多 Windows 遊戲現在可以在 Linux 運行了！",
+    "howDoIHelp": {
+      "answer": "嘗試下 Linux！如果您還是新手，别擔心，這裡有一些教學幫您入門。如果您想幫 Valve 改進 Proton，您可以在這提交您的測試回報！",
+      "question": "太棒了！我可以做些什麼？"
+    },
+    "letsGetStarted": "讓我們開始。",
+    "sampleGames": "以下遊戲雖然尚未在官方的白名單中，但 ProtonDB 已經收到了許多這些遊戲的白金等級的回報",
+    "search": "搜索遊戲…",
+    "stats": {
+      "gamesReported": "已回報的遊戲",
+      "gamesWork": "可運行的遊戲",
+      "reportsWritten": "測試回報"
+    },
+    "theImpact": {
+      "answer": "Steam Play 官方的不斷增長的「白名單」只支持了有限數量的遊戲，這些遊戲被認為是 Proton 兼容的、可以運行在 Linux 的遊戲。根據 ProtonDB 的回報，相當數量的「非白名單」遊戲也運行得如在 Windows 下一般良好，其中包括很多熱門遊戲。",
+      "question": "影響"
+    },
+    "whatIsProton": {
+      "answer": "Proton 是 Valve Software 發布的內建於 Steam Play 中的一個新工具，使得在 Linux 玩 Windows 遊戲變得非常簡單。在其背後，Proton 整合了其他像 Wine 和 DXVK 這樣的流行工具，使得遊戲玩家不必自行進行安裝和維護。這極大地免除了用戶切換到 Linux 的負擔，不需要學習系統底層知識，也不會失去很多心愛的遊戲。Proton 仍在起步階段，因此對不同遊戲的支持參差不齊，但 Proton 正在不斷進步中。",
+      "question": "Proton 是什麼？"
+    },
+    "whatIsProtonDb": {
+      "answer": "ProtonDB 的目標是收集其他玩家使用 Proton 測試遊戲的回報，並提供遊戲運行表現的綜合評分。在 Proton 持續開發的同時，不斷增加的回報提供了一些調整建議，讓您可以嘗試自行進行調整使得遊戲可以正常運行。此外，您還可以瀏覽網站上的 Steam 遊戲目錄，以查看和發現在此之前不能在 Linux 運行的各種遊戲。",
+      "question": "ProtonDB 是什麼？"
+    },
+    "whyBigDeal": {
+      "answer": "Linux 桌面體驗在過去一兩年裡有了不小的進步。許多您在 Windows 或者 MacOS 使用工具同樣可以在 Linux 運行，而不必進行很多修改，盡管有時候修改的過程也極具樂趣。與此同時，我們日常與電腦的互動越來越多發生在線上，並且 Linux 上的瀏覽器和其他操作系統上的體驗大致相同。Proton 和 Steam Play 解決了切換操作系統的另一大障礙：遊戲。在此之前，遊戲對 Linux 的支持十分有限。",
+      "question": "為什麼這是非常不得了的事情？"
+    },
+    "youtubeId": "Co6FePZoNgE"
+  },
+  "medals": {
+    "borked": "不可玩",
+    "bronze": "銅",
+    "gold": "金",
+    "platinum": "白金",
+    "silver": "銀"
+  },
+  "ratingDefinitions": {
+    "explanations": {
+      "borked": "無法運行或關鍵部分不可玩",
+      "bronze": "可以運行，但經常死當或存在影響遊戲舒適的問題",
+      "gold": "經過調整後完美運行",
+      "native": "原生 Linux 遊戲",
+      "pending": "等待更多回報以得出評分",
+      "platinum": "開箱即玩，完美運行",
+      "silver": "雖然有小問題，但總體上可玩"
+    },
+    "headline": "評分標準"
+  },
+  "specs": {
+    "cpu": "中央處理器",
+    "gpu": "顯示卡",
+    "gpuDriver": "顯示卡驅動",
+    "kernel": "核心",
+    "os": "發行版",
+    "otherSpecs": "其他規格",
+    "ram": "記憶體"
+  },
+  "stats": {
+    "analysisInByTheNumbers1": "Analysis in By The Numbers #1",
+    "byCommonDisplayDrivers": "按顯示卡驅動",
+    "byDistro": "按發行版",
+    "byGpu": "按顯卡",
+    "byProtonVersion": "按 Proton 版本",
+    "dailyReportsHeadline": "每日回報提交數量（最近 {{days}} 天）",
+    "downloadData": "下載數據",
+    "gameRatingDistribution": "遊戲評分分布",
+    "gamesWithNOrMoreReports": "每個遊戲擁有的回報數量",
+    "reportRatingDistributionOverTime": "随時間變化的回報等級分布",
+    "whenMeetingMinimumRequirements": "符合最低配置要求的情況下"
+  },
+  "steamAuthor": {
+    "hoursInSteam": "在 Steam 度過了 {{count}} 小時",
+    "timeWithProton": "使用 Proton 遊玩 {{time}}"
+  },
+  "suggestions": {
+    "headline": "提交更多回報？",
+    "intro": "以下遊戲是從您玩過的遊戲、當下熱門遊戲或者 SteamDB 評分榜中挑選出來的。這些遊戲都缺少測試回報，有一些只需要多一份回報就可以獲得 {{siteName}} 評分。您可以通過刷新來獲取其他遊戲推薦，或者訪問 [缺乏回報]({{link}}) 頁面獲取更多結果。"
+  },
+  "systemInfo": {
+    "headline": "系統訊息",
+    "howTo": "您可以通過訪問您玩遊戲的機器上的 Steam 設置來快速獲取這些訊息。[請到這了解更多訊息]({{link}})。（一些用戶反應他們在點擊右鍵前，需要通過按 Ctrl-A 來全選内容。）",
+    "intro": "顯示測試遊戲的硬體和軟體訊息有助於保證回報的實用性和可信度。為了盡可能保證準確和一致性，我們使用 Steam 本身蒐集的系統訊息。",
+    "parseFailure": "解讀失敗。如果您確定您複製的内容是正確的，請在 Discord 告知我們",
+    "parseSuccess": "系統訊息解讀成功！",
+    "pasteInstructions": "在此處貼上 Steam 系統訊息",
+    "unsupportedHeadline": "檢測到不支援的設備",
+    "unsupportedWarning": "您系統上的顯示卡驅動不符合 [Proton 目前的最低要求]({{link}})！您可能會碰到死當、低性能或者低品質圖像等問題。如果您仍然繼續提交回報，您的回報還是會被紀錄並且也仍具備一定價值，但是您的回報中顯示卡驅動會被用紅色標記，並且測試結論不會被計入到那些遊戲的綜合評分中。請您更新驅動！"
+  }
+}
