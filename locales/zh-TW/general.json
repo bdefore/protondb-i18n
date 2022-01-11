@@ -1,0 +1,146 @@
+{
+  "auth": {
+    "genericSignIn": "登入",
+    "headline": "Steam 驗證",
+    "loggedInAs": "已使用 {{username}} 登入",
+    "notLoggedIn": "未登入",
+    "steamSignIn": "使用 Steam 登入",
+    "unlink": "取消連結"
+  },
+  "content": {
+    "followingPost": "上一則新聞",
+    "previousPost": "下一則新聞"
+  },
+  "contextualInfo": {
+    "fixWanted": "",
+    "hoursPlayed": "已玩 {{context}} 小時",
+    "mostBorked": "",
+    "peakPlayers": "{{context}} 個玩家玩過",
+    "positiveRating": "{{context}}% 好評",
+    "protonDbRating": "",
+    "recentReportCount": "{{context}} 個基於最新兩個版本的 Proton 測試報告"
+  },
+  "footer": {
+    "description": "{{name}} 是由充滿熱誠的 [@bdefore]({{link}}) 創造的專案，並由眾多社群測試者回報。",
+    "feedbackPrompt": "想提交回饋？來 Discord 加入我們的討論！",
+    "legal": "本站與 Valve Software 沒有關聯。所有遊戲圖片及 logo 均歸其各自所有者所有。"
+  },
+  "libraryLoader": {
+    "errorLoadingGames": "無法載入遊戲。請確認該帳戶的個人檔案和遊戲資料已設定為公開！",
+    "gameTotal": "已從遊戲庫中載入了 {{count}} 個遊戲！",
+    "note": "這將使用 Steam Web API 獲取您帳戶的公開訊息，包含您的 id、個人檔案姓名和圖示。請確認您的 [Steam 隱私設定]({{link}}) 中「我的個人檔案」設定為公開。“遊戲資料”可以不公開，但如果公開，探索頁面會使用來自您遊戲庫的訊息，並且當您提交回報時您的遊戲時間會被一並發送。",
+    "refresh": "刷新"
+  },
+  "misc": {
+    "addYourReport": "新增您的回報",
+    "affirmative": "是",
+    "any": "所有",
+    "areYouSure": "您確定？",
+    "cancel": "取消",
+    "chipset": "晶片組",
+    "conjunction": "和",
+    "discard": "放棄",
+    "dismiss": "已讀",
+    "distro": "發行版",
+    "driver": "驅動",
+    "execute": "執行",
+    "feedbackPrompt": "想提交回饋？經由 [Discord]({{link}}) 告訴我們",
+    "filter": "過濾器",
+    "filteringSettings": "過濾器設定",
+    "games": "遊戲",
+    "hide": "隱藏 {{what}}",
+    "include": "包含",
+    "install": "安裝",
+    "joinUsPrompt": "來 Discord 加入我們！",
+    "lastContentRefreshTime": "最近一次内容更新是在 {{time}} 之前",
+    "meetsRequirements": "是否符合最低硬體需求",
+    "moreInfo": "更多訊息",
+    "multiplayer": "多人遊戲",
+    "native": "原生",
+    "negative": "否",
+    "notFound": "未找到",
+    "note": "注意",
+    "overall": "結論",
+    "pending": "待定",
+    "preferences": "偏好設定",
+    "provisional": "待定",
+    "published": "已發布",
+    "rated": "已評分",
+    "report": "回報",
+    "reports": "回報",
+    "reset": "重設",
+    "save": "保存",
+    "saved": "{{what}} 已保存",
+    "show": "顯示 {{what}}",
+    "showAll": "顯示全部",
+    "showMore": "顯示更多",
+    "skip": "跳過",
+    "tier": "評分",
+    "total": "總計",
+    "unknown": "未知",
+    "version": "版本"
+  },
+  "nav": {
+    "contribute": "貢獻",
+    "explore": "探索",
+    "help": "求助",
+    "news": "新聞",
+    "profile": "個人檔案",
+    "search": "搜尋遊戲……",
+    "stats": "狀態"
+  },
+  "pagination": {
+    "next": "下一頁",
+    "previous": "上一頁",
+    "summary": "{{total}} 個結果中的 {{from}} 到 {{to}}"
+  },
+  "preferences": {
+    "headline": "偏好設定",
+    "intro": "ProtonDB 會在回報一側顯示提交者的暱稱。但您唯一的 Steam ID 不會被上傳到公開的數據中。如果您擔心您的暱稱可能会被用於推測您的 Steam 個人檔案，您可以在此處選用其他暱稱，該暱稱將會在下一次數據更新時被啟用。",
+    "questions": {
+      "customName": {
+        "additionalNotes": {
+          "label": "自訂暱稱"
+        },
+        "options": {
+          "custom": "設定自訂暱稱",
+          "keepSteam": "我的 Steam 暱稱 ({{steamNickname}})"
+        },
+        "prompt": "您的公開顯示名稱"
+      },
+      "language": {
+        "prompt": "語言"
+      },
+      "performanceMode": {
+        "prompt": "您是否需要將本站切換至節能版？"
+      }
+    }
+  },
+  "profile": {
+    "exploreLibrary": "您可以按以下分類瀏覽您的遊戲庫：",
+    "inYourLibrary": "在您的遊戲庫",
+    "libraryTags": {
+      "byHoursPlayed": "按您的遊戲時間",
+      "byPlayerCount": "按玩家數量",
+      "byProtonDbRating": "按 ProtonDB 評分",
+      "bySteamDbScore": "按 SteamDB 用戶評分",
+      "headline": "以下是您遊戲庫中的重點關鍵字。您可以看看這些：",
+      "lackReportsByHoursPlayed": "按您的遊戲時間排列缺乏回報的遊戲",
+      "lackReportsByPlayerCount": "按玩家數量排列缺乏回報的遊戲",
+      "lackReportsBySteamDbScore": "按 SteamDB 排列缺乏回報的遊戲"
+    },
+    "notInYourLibrary": "不在您的遊戲庫中",
+    "yourContributions": "您提交的回報"
+  },
+  "reports": {
+    "clear": "清除",
+    "filteredOutCount": "{{count}} 被過濾",
+    "filteredOutHeadline": "以下 {{count}} 個報告與您設定的過濾器 {{filters}} 不匹配",
+    "superceded": "這是該作者提交之該類型較新的回報",
+    "zeroStateMessage": "暫無回報",
+    "zeroStateMessageWithFilters": "沒有回報與您設定的過濾器匹配"
+  },
+  "search": {
+    "resultsHeader": "{{q}} 的搜尋結果"
+  }
+}
