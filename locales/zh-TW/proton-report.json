@@ -1,0 +1,505 @@
+{
+  "appSelection": {
+    "caution": "注意！",
+    "helperText": "您也可以通過貼上鏈結或 App ID 找到遊戲",
+    "notFound": "無法找到 App ID 為 {{query}} 的遊戲。有可能是輸入錯誤或者以下原因導致的：已從 Steam 商店下架、不在「遊戲」分類中或該遊戲在您的區域不可用。",
+    "placeholder": "輸入您 Steam 庫中的一個遊戲名稱……",
+    "previousReportsExist": "您已提交過該遊戲的回報",
+    "runsNativeWarning": "您選中的遊戲已發布了原生 Linux 版！請確認您運行的不是原生版。默認情况下，Steam 不會使用 Steam Play 運行該遊戲，但您可以 [強制這樣做]({{link}})。"
+  },
+  "audioFaults": {
+    "legend": "聲音問題",
+    "options": {
+      "borked": {
+        "long": "完全沒有聲音",
+        "short": "無聲"
+      },
+      "crackling": {
+        "long": "卡頓",
+        "short": "卡頓"
+      },
+      "lowQuality": {
+        "long": "可察覺的品質下降",
+        "short": "低品質"
+      },
+      "missing": {
+        "long": "一些音效失效",
+        "short": "失效"
+      },
+      "other": {
+        "long": "其他",
+        "short": "其他"
+      },
+      "outOfSync": {
+        "long": "不同步",
+        "short": "不同步"
+      }
+    },
+    "prompt": "是否有聲音問題？"
+  },
+  "borked": {
+    "headline": "真是可惜！",
+    "intro": "您將會提交無法遊玩的回報，但在那之前您也許想看看我們的 [遊戲疑難排解 FAQ]({{link}}) 頁面。"
+  },
+  "customizationsUsed": {
+    "additionalNotes": {
+      "label": "更多細節",
+      "placeholder": "詳細解釋或者部落格和 Github Repository"
+    },
+    "legend": "調整",
+    "options": {
+      "customPrefix": {
+        "long": "一個自訂的 Wine 目錄",
+        "short": "自訂的目錄"
+      },
+      "customProton": {
+        "long": "一個自訂的 Proton 分支",
+        "short": "自訂版 Proton"
+      },
+      "lutris": {
+        "long": "Lutris 安裝腳本",
+        "short": "Lutris"
+      },
+      "native2Proton": {
+        "long": "Native2Proton",
+        "short": "Native2Proton"
+      },
+      "notListed": {
+        "long": "未列出",
+        "short": "未列出"
+      },
+      "protonfixes": {
+        "long": "protonfixes",
+        "short": "protonfixes"
+      },
+      "protontricks": {
+        "long": "protontricks",
+        "short": "protontricks"
+      },
+      "winetricks": {
+        "long": "winetricks",
+        "short": "winetricks"
+      }
+    },
+    "prompt": "您做了哪些自訂？"
+  },
+  "duration": {
+    "legend": "時長",
+    "options": {
+      "aboutAnHour": {
+        "long": "一小時",
+        "short": "一小時"
+      },
+      "lessThanAnHour": {
+        "long": "< 1 小時",
+        "short": "< 1 小時"
+      },
+      "lessThanFifteenMinutes": {
+        "long": "< 15 分鐘",
+        "short": "< 15 分鐘"
+      },
+      "moreThanTenHours": {
+        "long": "> 10 小時",
+        "short": "> 10 小時"
+      },
+      "severalHours": {
+        "long": "2+ 小時",
+        "short": "2+ 小時"
+      }
+    },
+    "prompt": "您玩了該遊戲多久？"
+  },
+  "extra": {
+    "additionalNotes": {
+      "label": "額外說明",
+      "placeholder": "請在這輸入。"
+    },
+    "prompt": "您是否有其他前面沒有涉及到的内容想要說明？"
+  },
+  "graphicalFaults": {
+    "legend": "畫面問題",
+    "options": {
+      "heavyArtifacts": {
+        "long": "嚴重或者頻繁的掉幀",
+        "short": "嚴重掉幀"
+      },
+      "minorArtifacts": {
+        "long": "輕微或者不頻繁的掉幀",
+        "short": "輕微掉幀"
+      },
+      "missingTextures": {
+        "long": "缺少紋理",
+        "short": "缺少紋理"
+      },
+      "other": {
+        "long": "其他",
+        "short": "其他"
+      }
+    },
+    "prompt": "是否有任何畫質下降的問題？"
+  },
+  "graphicsApiSelection": {
+    "legend": "圖形 API",
+    "options": {
+      "d3d": {
+        "long": "Direct3D",
+        "short": "Direct3D"
+      },
+      "ogl": {
+        "long": "OpenGL",
+        "short": "OpenGL"
+      },
+      "unsure": {
+        "long": "遊戲默認設定",
+        "short": "默認"
+      },
+      "vk": {
+        "long": "Vulkan",
+        "short": "Vulkan"
+      }
+    },
+    "prompt": "遊玩時您使用了什麼圖形 API？"
+  },
+  "inputFaults": {
+    "legend": "輸入問題",
+    "options": {
+      "bounding": {
+        "long": "Bounds were incorrect",
+        "short": "Bounding"
+      },
+      "controllerMapping": {
+        "long": "控制器映射錯誤",
+        "short": "控制器映射"
+      },
+      "controllerNotDetected": {
+        "long": "無法識別控制器",
+        "short": "控制器識別"
+      },
+      "controllerNotResponsive": {
+        "long": "已識別控制器但沒有回應",
+        "short": "沒有回應"
+      },
+      "drifting": {
+        "long": "軸心漂移",
+        "short": "漂移"
+      },
+      "inaccuracy": {
+        "long": "不精準",
+        "short": "不精準"
+      },
+      "lag": {
+        "long": "輸入延遲",
+        "short": "延遲"
+      },
+      "other": {
+        "long": "其他",
+        "short": "其他"
+      }
+    },
+    "prompt": "是否有滑鼠、手把或其他輸入設備的問題？"
+  },
+  "installs": {
+    "legend": "安裝",
+    "prompt": "是否可以安裝遊戲？"
+  },
+  "isImpactedByAntiCheat": {
+    "legend": "反作弊",
+    "options": {
+      "battleEye": {
+        "long": "BattlEye",
+        "short": "BattlEye"
+      },
+      "easyAntiCheat": {
+        "long": "Easy Anti Cheat",
+        "short": "EAC"
+      },
+      "other": {
+        "long": "其他",
+        "short": "其他"
+      }
+    },
+    "prompt": "是否受到反作弊軟體的影響？"
+  },
+  "isMultiplayerImportant": {
+    "prompt": "多人遊戲是否是該遊戲的重點？"
+  },
+  "launchFlagsUsed": {
+    "additionalNotes": {
+      "label": "更多細節",
+      "placeholder": "這解決了什麼問題？"
+    },
+    "legend": "啟動參數",
+    "options": {
+      "disableD3d10": {
+        "long": "關閉 D3D10 (PROTON_NO_D3D10)",
+        "short": "關閉 D3D10"
+      },
+      "disableD3d11": {
+        "long": "關閉 D3D11 (PROTON_NO_D3D11)",
+        "short": "關閉 D3D11"
+      },
+      "disableEsync": {
+        "long": "關閉 Esync (PROTON_NO_ESYNC)",
+        "short": "關閉 Esync"
+      },
+      "disableFsync": {
+        "long": "關閉 Fsync (PROTON_NO_FSYNC)",
+        "short": "關閉 Fsync"
+      },
+      "fullscreenIntegerScaling": {
+        "long": "全螢幕整數縮放 (WINE_FULLSCREEN_INTEGER_SCALING)",
+        "short": "全螢幕整數縮放"
+      },
+      "largeAddressAware": {
+        "long": "Large Address Aware (PROTON_FORCE_LARGE_ADDRESS_AWARE)",
+        "short": "Large Address Aware"
+      },
+      "oldGlString": {
+        "long": "舊 GL 字串 (PROTON_OLD_GL_STRING)",
+        "short": "舊 GL 字串"
+      },
+      "useWineD3d11": {
+        "long": "使用 Wine D3D (PROTON_USE_WINED3D)",
+        "short": "使用 Wine D3D"
+      },
+      "useWineD9vk": {
+        "long": "使用 D9VK (PROTON_USE_D9VK)",
+        "short": "使用 D9VK"
+      }
+    },
+    "prompt": "您是否使用了以下 Proton 啟動選項？"
+  },
+  "launcher": {
+    "additionalNotes": {
+      "label": "啟動器"
+    },
+    "legend": "啟動器",
+    "options": {
+      "gamehub": {
+        "long": "Gamehub",
+        "short": "Gamehub"
+      },
+      "lutris": {
+        "long": "Lutris",
+        "short": "Lutris"
+      },
+      "notListed": {
+        "long": "未列出",
+        "short": "未列出"
+      },
+      "steam": {
+        "long": "Steam",
+        "short": "Steam"
+      }
+    },
+    "prompt": "您是如何啟動遊戲的？"
+  },
+  "localMultiplayerAppraisal": {
+    "prompt": "您是否想為區網多人遊戲功能評分？請評估延遲、網路或輸入問題等等。"
+  },
+  "localMultiplayerAttempted": {
+    "prompt": "您是否嘗試過區網多人遊戲（離線，譬如雙人模式）？"
+  },
+  "localMultiplayerPlayed": {
+    "prompt": "區網多人遊戲模式是否正常運作？"
+  },
+  "multiplayerAppraisal": {
+    "options": {
+      "acceptable": {
+        "long": "尚可接受。有些問題，但還能接受。",
+        "short": "尚可接受"
+      },
+      "awful": {
+        "long": "糟糕。完全不能玩。",
+        "short": "糟糕"
+      },
+      "excellent": {
+        "long": "優秀。沒碰到任何問題。",
+        "short": "優秀"
+      },
+      "good": {
+        "long": "好。很少出現問題，大致上可玩。",
+        "short": "好"
+      },
+      "weak": {
+        "long": "差。存在的問題明顯影響體驗。",
+        "short": "差"
+      }
+    }
+  },
+  "onlineMultiplayerAppraisal": {
+    "prompt": "您是否想為線上多人遊戲功能評分？請評估延遲、網路或輸入問題等等。"
+  },
+  "onlineMultiplayerAttempted": {
+    "prompt": "您是否嘗試過線上多人遊戲？"
+  },
+  "onlineMultiplayerPlayed": {
+    "prompt": "是否可以正常連接並線上進行多人遊戲？"
+  },
+  "opens": {
+    "legend": "運行",
+    "prompt": "是否可以啟動遊戲並看到它的主選單？"
+  },
+  "performanceFaults": {
+    "legend": "效能問題",
+    "options": {
+      "significantSlowdown": {
+        "long": "嚴重的效能問題",
+        "short": "嚴重的效能問題"
+      },
+      "slightSlowdown": {
+        "long": "輕微的效能問題",
+        "short": "輕微的效能問題"
+      }
+    },
+    "prompt": "是否有與您硬體不符的低效能？"
+  },
+  "prerequisites": {
+    "invalidOrMissingSystemInfo": "系統資訊缺乏或錯誤",
+    "missingProfileInfo": "個人檔案不完整。缺少：{{context}}",
+    "notLoggedIn": "未使用 {{context}} 登入"
+  },
+  "prerequisitesBlock": {
+    "action": "跳到個人頁面",
+    "context": "提交前您需要使用 Steam 登入並提供系統資訊！",
+    "headline": "尚未就緒！"
+  },
+  "preview": {
+    "intro": "需要檢查的内容：",
+    "notes": [
+      "您的系統資訊是否是最新的？顯卡驅動更新後，您需要到您的個人頁面提交新的系統資訊。",
+      "您是否選擇了正確的遊戲？有些遊戲會使用和舊版本一樣的名稱，例如 GRID",
+      "您是否在正確的位置填寫了正確的内容？例如，在圖形那裡備註圖形相關的問題，而不是在最後的備註。"
+    ]
+  },
+  "prompts": {
+    "continuingDraft": "您正在繼續編輯的是一個自動儲存的草稿。",
+    "discardDraftWarning": "您所有回覆都將遺失。",
+    "startOver": "重新開始"
+  },
+  "protonVersion": {
+    "additionalNotes": {
+      "label": "手動輸入 Proton 版本",
+      "placeholder": "請輸入一個有效的 Proton 版本。例如：{{examples}}"
+    },
+    "prompt": "您使用的是什麼版本的 Proton？"
+  },
+  "saveGameFaults": {
+    "legend": "存檔問題",
+    "options": {
+      "errorLoading": {
+        "long": "無法載入遊戲存檔",
+        "short": "載入"
+      },
+      "errorSaving": {
+        "long": "無法存檔",
+        "short": "存檔"
+      },
+      "other": {
+        "long": "其他",
+        "short": "其他"
+      }
+    },
+    "prompt": "是否有遊戲存檔相關的問題？"
+  },
+  "significantBugs": {
+    "legend": "其他明顯問題",
+    "prompt": "是否有其他明顯的問題？"
+  },
+  "stabilityFaults": {
+    "legend": "死當頻率",
+    "options": {
+      "frequentCrashes": {
+        "long": "經常死當",
+        "short": "經常"
+      },
+      "notListed": {
+        "long": "未列出",
+        "short": "未列出"
+      },
+      "occasionally": {
+        "long": "偶而死當",
+        "short": "偶而"
+      }
+    },
+    "prompt": "是否有穩定性問題？"
+  },
+  "startsPlay": {
+    "legend": "可玩",
+    "prompt": "是否可玩？"
+  },
+  "stepHeadlines": {
+    "appSelection": "遊戲選擇",
+    "borked": "不可玩！",
+    "customizations": "自訂",
+    "finalNotes": "意見",
+    "gameplay": "其他可能問題",
+    "graphics": "圖形和效能",
+    "multiplayer": "多人遊戲",
+    "preview": "預覽",
+    "setup": "配置",
+    "stability": "穩定性",
+    "startup": "安裝與運行",
+    "tinkerCheck": "回報類型",
+    "unownedWarning": "不在遊戲庫中"
+  },
+  "type": {
+    "intro": [
+      "ProtonDB 目前將回報分成兩類：Steam Play 和 Tinker。",
+      "使用 Steam Play 回報來描述「開箱」遊戲體驗。安裝，然後直接開始遊戲。",
+      "使用 Tinker 回報，如果您透過額外的調整或設定來使遊戲運行。",
+      "關於二者區别的更多内容，請查看 [這篇文章（英文）]({{link}})。"
+    ],
+    "options": {
+      "steamPlay": {
+        "long": "SteamPlay 回報",
+        "short": "SteamPlay 回報"
+      },
+      "tinker": {
+        "long": "Tinker 回報",
+        "short": "Tinker 回報"
+      }
+    },
+    "prompt": "您將提交的是什麼類型的回報？"
+  },
+  "verdict": {
+    "additionalNotes": {
+      "label": "總結（不超過 {{count}} 個字）",
+      "placeholder": "添加一個簡要的總結。這將成為該回報的標題。"
+    },
+    "prompt": "一個典型的遊戲玩家是否可以通過在 Linux 使用 Proton 來運行該遊戲並獲得愉快的遊戲體驗？"
+  },
+  "welcome": {
+    "headline": "歡迎",
+    "intro": "感謝您對壯大 ProtonDB 的 Steam Play 和 Proton 兼容性回報庫感興趣！在您開始提交之前，請您記住以下幾點",
+    "notes": [
+      "所有回報會被在 ProtonDB 上公開，以幫助用戶、Valve 和開發者修復遊戲。請保證您的回報正確、言語和善，並且避免出於推廣您喜歡的遊戲、發行版或顯卡的目的提交回報。",
+      "為同一個遊戲提交多個回報是被鼓勵的行為！當您深入遊戲後或者更新了 Proton 後，您可能會有更多訊息想要分享。ProtonDB 在這一點上和 wiki 有所不同，每個回報都被視為您當時遊戲狀態的「快照」。",
+      "如果您提交了多個回報，只有最新的、並且只有符合 Proton 最低要求的那個才會被 ProtonDB 評分系統採用。",
+      "您的回報將在 ProtonDB 上公開，並且可以以開放資料庫授權（Open Database License）導出資料。請到 [這裡]({{link}}) 了解更多訊息。"
+    ],
+    "outro": "以上，讓我們開始吧！"
+  },
+  "windowingFaults": {
+    "legend": "視窗問題",
+    "options": {
+      "activatingFullscreen": {
+        "long": "全螢幕模式不能正常運作",
+        "short": "啟用全螢幕模式"
+      },
+      "fullNotFull": {
+        "long": "全螢幕模式不完整",
+        "short": "大小"
+      },
+      "other": {
+        "long": "其他",
+        "short": "其他"
+      },
+      "switching": {
+        "long": "無法使用常用的方法退出全螢幕模式（例如使用 Alt-Tab）",
+        "short": "切換"
+      }
+    },
+    "prompt": "是否有視窗模式或全螢幕模式的問題？"
+  }
+}
