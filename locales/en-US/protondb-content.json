@@ -21,12 +21,17 @@
   },
   "explore": {
     "headlines": {
+      "dateAdded": "Recently Added",
       "fixWanted": "Fix Wanted",
       "highestRated": "Highest Rated on SteamDB",
       "hoursPlayed": "Hours Played",
       "inLibrary": "In Library",
+      "inWishlist": "In Wishlist",
       "mostBorked": "Most Borked Reports",
       "mostPopular": "Most Popular",
+      "percentPositive": "Percent Positive",
+      "releaseDate": "Release Date",
+      "rank": "Most Popular",
       "recentlyImproved": "Recently Improved",
       "wellRatedHere": "Well Rated Here"
     },
@@ -35,10 +40,14 @@
     "notLoggedIn": "Cannot load a library without a Steam ID. Visit your [Profile]({{link}}) to add one.",
     "poweredBy": "Powered by",
     "sorts": {
+      "dateAdded": "Recently Added",
       "fixWanted": "Fix Wanted",
       "hoursPlayed": "Hours played",
       "mostBorked": "Most Borked",
+      "percentPositive": "User Score",
+      "releaseDate": "Release Date",
       "playerCount": "Player count",
+      "rank": "Most Popular",
       "recentlyImproved": "Recently Improved",
       "userScore": "User Score",
       "wilsonRating": "ProtonDB Rating"
@@ -49,11 +58,15 @@
       "restrictToLibrary": "Library",
       "untested": "Lack Reports",
       "userTags": "User Tags",
-      "whitelisted": "Whitelisted"
+      "whitelisted": "Whitelisted",
+      "wishlisted": "Wishlisted"
     }
   },
   "filters": {
     "questions": {
+      "query": {
+        "label": "Query"
+      },
       "cpu": {
         "label": "CPU"
       },
@@ -65,6 +78,9 @@
       },
       "type": {
         "label": "Type"
+      },
+      "persist": {
+        "prompt": "Persist Across Site?"
       }
     }
   },

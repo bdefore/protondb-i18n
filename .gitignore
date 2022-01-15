@@ -11,3 +11,5 @@ yarn-error.log*
 tmp
 .Trash*
 *.out
+cgdb-content.json
+cloud-report.json
