@@ -1,7 +1,9 @@
 {
   "auth": {
+    "genericSignIn": "Iniciar Sesión",
     "headline": "Autenticación de Steam",
     "loggedInAs": "Registrado como {{username}}",
+    "notLoggedIn": "No has iniciado sesión",
     "steamSignIn": "Iniciar sesión con Steam",
     "unlink": "Desconectar Cuenta"
   },

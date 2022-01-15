@@ -60,6 +60,10 @@
         "long": "Script de instalación en Lutris",
         "short": "Lutris"
       },
+      "mediaFoundation": {
+        "long": "Media Foundation DLL (mf-install)",
+        "short": "Media Foundation DLL"
+      },
       "native2Proton": {
         "long": "Native2Proton",
         "short": "Native2Proton"
@@ -103,8 +107,8 @@
         "short": "> 10 horas"
       },
       "severalHours": {
-        "long": "2+ horas",
-        "short": "2+ horas"
+        "long": "+2 horas",
+        "short": "+2 horas"
       }
     },
     "prompt": "¿Durante cuanto tiempo has jugado?"
@@ -246,6 +250,10 @@
         "long": "Desactivar Fsync (PROTON_NO_FSYNC)",
         "short": "Desactivar Fsync"
       },
+      "fullscreenIntegerScaling": {
+        "long": "Fullscreen Integer Scaling (WINE_FULLSCREEN_INTEGER_SCALING)",
+        "short": "Fullscreen Integer Scaling"
+      },
       "largeAddressAware": {
         "long": "Large Address Aware (PROTON_FORCE_LARGE_ADDRESS_AWARE)",
         "short": "Large Address Aware"
@@ -350,9 +358,15 @@
     },
     "prompt": "¿Has experimentado ralentización inesperada teniendo en cuenta tu hardware?"
   },
+  "prerequisites": {
+    "invalidOrMissingSystemInfo": "Falta información del sistema o es inválida",
+    "missingProfileInfo": "Información del perfil incompleta. Falta: {{context}}",
+    "notLoggedIn": "No has iniciado sesión con {{context}}"
+  },
   "prerequisitesBlock": {
     "action": "Ir a tu Perfil",
-    "context": "¡Tendrás que iniciar sesión en Steam y proporcionar tu información del sistema antes de enviar!"
+    "context": "¡Tendrás que iniciar sesión en Steam y proporcionar tu información del sistema antes de enviar!",
+    "headline": "¡Aún no está listo!"
   },
   "preview": {
     "intro": "Hay que tener en cuenta:",
@@ -420,7 +434,7 @@
   },
   "stepHeadlines": {
     "appSelection": "Selección de juego",
-    "borked": "Roto!",
+    "borked": "¡Roto!",
     "customizations": "Personalizaciones",
     "finalNotes": "Veredicto",
     "gameplay": "Otros problemas potenciales",
@@ -436,8 +450,8 @@
   "type": {
     "intro": [
       "Ahora ProtonDB divide los reportes entre dos tipos: Steam Play y Tinker.",
-      "Usar el reporte de Steam Play para cubrir la experiencia más simple. Instalar, pulsar en jugar y empezar.",
-      "Usar el reporte de Tinker si has tenido que hacer ajustes o personalizaciones para conseguir que el juego funcione.",
+      "Usa el reporte de Steam Play para cubrir la experiencia más simple. Instalar, pulsar en jugar y empezar.",
+      "Usa el reporte de Tinker si has tenido que hacer ajustes o personalizaciones para conseguir que el juego funcione.",
       "Para más información sobre las diferencias, mira [esta publicación]({{link}})."
     ],
     "options": {
@@ -461,7 +475,7 @@
   },
   "welcome": {
     "headline": "Bienvenido",
-    "intro": "¡Gracias por tu interés en expandir el catalogo de ProtonDB sobre los reportes de compatibilidad con SteamPLay y Proton! Por favor, tenlo en cuenta antes de contribuir",
+    "intro": "¡Gracias por tu interés en expandir el catálogo de ProtonDB sobre los reportes de compatibilidad con SteamPLay y Proton! Por favor, tenlo en cuenta antes de contribuir",
     "notes": [
       "Estos reportes son publicados en ProtonDB como pendientes de revisión y utilizados por otros jugadores, Valve y otros desarrolladores para identificar y arreglar juegos. Por favor, mantén tus reportes detallados, libres de lenguaje ofensivo, y abstente de subir reportes promocionando tu juego favorito, distribución o tarjeta gráfica.",
       "¡Subir multiples reportes para el mismo juego es algo recomendado! Conforme juegues o se actualice Proton tendrás más que decir. De esta forma ProtonDB se diferencia de una wiki, ya que cada reporte sirve como una 'captura' sobre como funcionaba el juego en esa fecha con tu configuración.",
