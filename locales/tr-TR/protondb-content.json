@@ -30,9 +30,9 @@
       "mostBorked": "En Olmamış Raporlar",
       "mostPopular": "En Popüler",
       "percentPositive": "Son Zamanlarda Olumlu",
-      "releaseDate": "Çıkış Tarihi",
       "rank": "En Popüler",
       "recentlyImproved": "Son Zamanlarda İyileşen",
+      "releaseDate": "Çıkış Tarihi",
       "wellRatedHere": "Burada Olumlu Değerlendirilmiş"
     },
     "layout": "Sayfa Düzeni",
@@ -45,10 +45,10 @@
       "hoursPlayed": "Oynanan Saat",
       "mostBorked": "En Olmamış",
       "percentPositive": "Kullanıcı Puanı",
-      "releaseDate": "Çıkış Tarihi",
       "playerCount": "Oyuncu Sayısı",
       "rank": "En Popüler",
       "recentlyImproved": "Son Zamanlarda İyileşen",
+      "releaseDate": "Çıkış Tarihi",
       "userScore": "Kullanıcı Puanı",
       "wilsonRating": "ProtonDB Değerlendirmesi"
     },
@@ -64,9 +64,6 @@
   },
   "filters": {
     "questions": {
-      "query": {
-        "label": "Sorgu"
-      },
       "cpu": {
         "label": "CPU"
       },
@@ -76,11 +73,14 @@
       "gpu": {
         "label": "GPU"
       },
-      "type": {
-        "label": "Tür"
-      },
       "persist": {
         "prompt": "Site Çapında Kalıcı Olsun mu?"
+      },
+      "query": {
+        "label": "Sorgu"
+      },
+      "type": {
+        "label": "Tür"
       }
     }
   },
