@@ -1,0 +1,509 @@
+{
+  "appSelection": {
+    "caution": "Dikkat!",
+    "helperText": "Bağlantı ya da App ID de yapıştırabilirsin. Bulmaya çalışırız",
+    "notFound": "{{query}} App ID bilgisine sahip oyun bulunamadı. Yanlış girmiş olabilirsin ya da oyun; Steam Mağazası'ndan silinmiş, 'oyun' olarak listelenmiyor ya da ülkende erişime kapalı olabilir.",
+    "placeholder": "Steam kütüphanendeki bir oyunun adını gir...",
+    "previousReportsExist": "Bu oyun için daha önce rapor göndermiştin",
+    "runsNativeWarning": "Seçtiğin oyunun Linux'te yerel sürümü bulunuyor! Oyunu yanlışlıkla yerel olarak çalıştırmadığından emin ol. Steam bu oyunu çalıştırmak için varsayılan olarak Steam Play kullanmaz ama [bunu yapmasını sağlayabilirsin]({{link}})."
+  },
+  "audioFaults": {
+    "legend": "Ses",
+    "options": {
+      "borked": {
+        "long": "Hiç olmamış",
+        "short": "Olmamış"
+      },
+      "crackling": {
+        "long": "Cızırtılı",
+        "short": "Cızırtılı"
+      },
+      "lowQuality": {
+        "long": "Fark edilir ölçüde kalite kaybı",
+        "short": "Düşük kalite"
+      },
+      "missing": {
+        "long": "Bazı sesler eksik",
+        "short": "Eksik"
+      },
+      "other": {
+        "long": "Diğer",
+        "short": "Diğer"
+      },
+      "outOfSync": {
+        "long": "Senkronize değil",
+        "short": "Senkronize değil"
+      }
+    },
+    "prompt": "Sesle ilgili sorun yaşadın mı?"
+  },
+  "borked": {
+    "headline": "Tüh!",
+    "intro": "Olmamış raporu göndereceksin ama öncesinde [Oyun Hata Ayıklama SSS]({{link}}) sayfamıza göz atmak isteyebilirsin."
+  },
+  "customizationsUsed": {
+    "additionalNotes": {
+      "label": "Ek Bilgi",
+      "placeholder": "Açıklama ya da bir blog gönderisine veya GitHub reposuna bağlantı"
+    },
+    "legend": "Özelleştirmeler",
+    "options": {
+      "customPrefix": {
+        "long": "Özel Wine Prefix'i",
+        "short": "Özel Prefix"
+      },
+      "customProton": {
+        "long": "Özel Proton kopyası",
+        "short": "Özel Proton"
+      },
+      "lutris": {
+        "long": "Lutris kurulum betiği",
+        "short": "Lutris"
+      },
+      "mediaFoundation": {
+        "long": "Media Foundation DLL (mf-install)",
+        "short": "Media Foundation DLL"
+      },
+      "native2Proton": {
+        "long": "Native2Proton",
+        "short": "Native2Proton"
+      },
+      "notListed": {
+        "long": "Listede Yok",
+        "short": "Listede Yok"
+      },
+      "protonfixes": {
+        "long": "protonfixes",
+        "short": "protonfixes"
+      },
+      "protontricks": {
+        "long": "protontricks",
+        "short": "protontricks"
+      },
+      "winetricks": {
+        "long": "winetricks",
+        "short": "winetricks"
+      }
+    },
+    "prompt": "Ne gibi özelleştirmeler yaptın?"
+  },
+  "duration": {
+    "legend": "Süre",
+    "options": {
+      "aboutAnHour": {
+        "long": "1 saat",
+        "short": "1 saat"
+      },
+      "lessThanAnHour": {
+        "long": "< 1 saat",
+        "short": "< 1 saat"
+      },
+      "lessThanFifteenMinutes": {
+        "long": "< 15 dakika",
+        "short": "< 15 dakika"
+      },
+      "moreThanTenHours": {
+        "long": "> 10 saat",
+        "short": "> 10 saat"
+      },
+      "severalHours": {
+        "long": "2+ saat",
+        "short": "2+ saat"
+      }
+    },
+    "prompt": "Ne kadar oynadın?"
+  },
+  "extra": {
+    "additionalNotes": {
+      "label": "Ek Notlar",
+      "placeholder": "Buraya ekle."
+    },
+    "prompt": "Önceki sorularda ele alınmayan ve bildirmek istediğin başka bir şey var mıydı?"
+  },
+  "graphicalFaults": {
+    "legend": "Grafikler",
+    "options": {
+      "heavyArtifacts": {
+        "long": "Yoğun ya da sık bozulma",
+        "short": "Yoğun bozulma"
+      },
+      "minorArtifacts": {
+        "long": "Hafif ya da nadiren bozulma",
+        "short": "Hafif bozulma"
+      },
+      "missingTextures": {
+        "long": "Eksik kaplama",
+        "short": "Eksik kaplama"
+      },
+      "other": {
+        "long": "Diğer",
+        "short": "Diğer"
+      }
+    },
+    "prompt": "Grafiksel bozulmalar fark ettin mi?"
+  },
+  "graphicsApiSelection": {
+    "legend": "Grafik API",
+    "options": {
+      "d3d": {
+        "long": "Direct3D",
+        "short": "Direct3D"
+      },
+      "ogl": {
+        "long": "OpenGL",
+        "short": "OpenGL"
+      },
+      "unsure": {
+        "long": "Oyunun varsayılanı",
+        "short": "Varsayılan"
+      },
+      "vk": {
+        "long": "Vulkan",
+        "short": "Vulkan"
+      }
+    },
+    "prompt": "Oyunda hangi grafik API'ını kullandın?"
+  },
+  "inputFaults": {
+    "legend": "Kontroller",
+    "options": {
+      "bounding": {
+        "long": "Kontrol ilişkilendirmeleri hatalıydı",
+        "short": "İlişkilendirme"
+      },
+      "controllerMapping": {
+        "long": "Kontrolcü(ler) doğru bağlanmamıştı",
+        "short": "Kontrolcü bağı"
+      },
+      "controllerNotDetected": {
+        "long": "Kontrolcü(ler) algılanmadı",
+        "short": "Kontrolcü algılama"
+      },
+      "controllerNotResponsive": {
+        "long": "Kontrolcü(ler) algılandı ama seri çalışmadı",
+        "short": "Serilik"
+      },
+      "drifting": {
+        "long": "Akslar kayıyordu",
+        "short": "Kayma"
+      },
+      "inaccuracy": {
+        "long": "Hatalı",
+        "short": "Hatalı"
+      },
+      "lag": {
+        "long": "Laglıydı",
+        "short": "Lag"
+      },
+      "other": {
+        "long": "Diğer",
+        "short": "Diğer"
+      }
+    },
+    "prompt": "Fare, gamepad ya da diğer kontrol cihazlarında sorun yaşadın mı?"
+  },
+  "installs": {
+    "legend": "Kurulum",
+    "prompt": "Oyunu kurabildin mi?"
+  },
+  "isImpactedByAntiCheat": {
+    "legend": "Hile Önleme",
+    "options": {
+      "battleEye": {
+        "long": "BattlEye",
+        "short": "BattlEye"
+      },
+      "easyAntiCheat": {
+        "long": "Easy Anti Cheat",
+        "short": "EAC"
+      },
+      "other": {
+        "long": "Diğer",
+        "short": "Diğer"
+      }
+    },
+    "prompt": "Oyun, hile önleme yazılımlarından etkilendi mi?"
+  },
+  "isMultiplayerImportant": {
+    "prompt": "Çok oyunculu oynayabilme bu oyunun önemli bir parçası mı?"
+  },
+  "launchFlagsUsed": {
+    "additionalNotes": {
+      "label": "Ek Bilgi",
+      "placeholder": "Bu, hangi konuda faydalı oldu?"
+    },
+    "legend": "Çalıştırma Ek Komutları",
+    "options": {
+      "disableD3d10": {
+        "long": "D3D10'u Etkisizleştir (PROTON_NO_D3D10)",
+        "short": "D3D10'u Etkisizleştir"
+      },
+      "disableD3d11": {
+        "long": "D3D11'i Etkisizleştir (PROTON_NO_D3D11)",
+        "short": "D3D11'i Etkisizleştir"
+      },
+      "disableEsync": {
+        "long": "Esync'i Etkisizleştir (PROTON_NO_ESYNC)",
+        "short": "Esync'i Etkisizleştir"
+      },
+      "disableFsync": {
+        "long": "Fsync'i Etkisizleştir (PROTON_NO_FSYNC)",
+        "short": "Fsync'i Etkisizleştir"
+      },
+      "fullscreenIntegerScaling": {
+        "long": "Tam Ekran Tam Sayı Ölçeklendirme (WINE_FULLSCREEN_INTEGER_SCALING)",
+        "short": "Tam Ekran Tam Sayı Ölçeklendirme"
+      },
+      "largeAddressAware": {
+        "long": "Büyük Adresleri İşle (PROTON_FORCE_LARGE_ADDRESS_AWARE)",
+        "short": "Büyük Adresleri İşle"
+      },
+      "oldGlString": {
+        "long": "Eski GL Dizisi (PROTON_OLD_GL_STRING)",
+        "short": "Eski GL Dizisi"
+      },
+      "useWineD3d11": {
+        "long": "Wine D3D Kullan (PROTON_USE_WINED3D)",
+        "short": "Wine D3D Kullan"
+      },
+      "useWineD9vk": {
+        "long": "D9VK Kullan (PROTON_USE_D9VK)",
+        "short": "D9VK Kullan"
+      }
+    },
+    "prompt": "Bu Proton çalıştırma ek komutlarından herhangi birini kullanıyor musun?"
+  },
+  "launcher": {
+    "additionalNotes": {
+      "label": "Başlatıcı"
+    },
+    "legend": "Başlatıcı",
+    "options": {
+      "gamehub": {
+        "long": "Gamehub",
+        "short": "Gamehub"
+      },
+      "lutris": {
+        "long": "Lutris",
+        "short": "Lutris"
+      },
+      "notListed": {
+        "long": "Listeye Yok",
+        "short": "Listede Yok"
+      },
+      "steam": {
+        "long": "Steam",
+        "short": "Steam"
+      }
+    },
+    "prompt": "Oyunu nasıl açıyorsun?"
+  },
+  "localMultiplayerAppraisal": {
+    "prompt": "Yerel çok oyunculu performansı nasıldı sence? Lütfen lag, bağlantı veya komut girişi sorunları vs. açısından değerlendir."
+  },
+  "localMultiplayerAttempted": {
+    "prompt": "Yerel çok oyunculu (çevrim dışı, mesela aynı ekranda) oynamayı denedin mi?"
+  },
+  "localMultiplayerPlayed": {
+    "prompt": "Yerel çok oyunculu oynayabildin mi?"
+  },
+  "multiplayerAppraisal": {
+    "options": {
+      "acceptable": {
+        "long": "Kabul edilebilirdi. Orta karar sorunlar vardı ama çekilmeyecek kadar değildi.",
+        "short": "Kabul edilebilir"
+      },
+      "awful": {
+        "long": "Çok kötüydü. Oynanabilir değil diyebilirim.",
+        "short": "Çok kötü"
+      },
+      "excellent": {
+        "long": "Harikaydı. Hiçbir sorun yaşamadım.",
+        "short": "Harika"
+      },
+      "good": {
+        "long": "İyiydi. Nadiren de olsa sorun yaşadım ama genel itibarıyla oynanabilirdi.",
+        "short": "İyi"
+      },
+      "weak": {
+        "long": "Zayıftı. Karşılaştığım sorunlar deneyimimi büyük ölçüde etkiledi.",
+        "short": "Zayıf"
+      }
+    }
+  },
+  "onlineMultiplayerAppraisal": {
+    "prompt": "Çevrim içi çok oyunculu performansı nasıldı sence? Lütfen lag, bağlantı veya komut girişi sorunları, eşleştirme hataları vs. açısından değerlendir."
+  },
+  "onlineMultiplayerAttempted": {
+    "prompt": "Çevrim içi çok oyunculu oynamayı denedin mi?"
+  },
+  "onlineMultiplayerPlayed": {
+    "prompt": "Bağlanıp çevrim içi çok oyunculu oynayabildin mi?"
+  },
+  "opens": {
+    "legend": "Açılıyor",
+    "prompt": "Oyunu açıp ilk menüsüne ulaşabildin mi?"
+  },
+  "performanceFaults": {
+    "legend": "Performans",
+    "options": {
+      "significantSlowdown": {
+        "long": "Ciddi Performans Sorunları",
+        "short": "Ciddi Performans Sorunları"
+      },
+      "slightSlowdown": {
+        "long": "Hafif Performans Sorunları",
+        "short": "Hafif Performans Sorunları"
+      }
+    },
+    "prompt": "Donanımını göz önünde bulunduracak olursan beklenmedik yavaşlamalar yaşadın mı?"
+  },
+  "prerequisites": {
+    "invalidOrMissingSystemInfo": "Sistem bilgisi eksik ya da hatalı",
+    "missingProfileInfo": "Profil bilgileri tam değil. Eksik olan(lar): {{context}}",
+    "notLoggedIn": "{{context}} ile oturum açmadın"
+  },
+  "prerequisitesBlock": {
+    "action": "Profile git",
+    "context": "Göndermeden önce Steam'de oturum açıp sistem bilgilerini paylaşman gerekiyor!",
+    "headline": "Henüz Hazır Değil!"
+  },
+  "preview": {
+    "intro": "Kontrol listesi:",
+    "notes": [
+      "Sistem bilgilerin güncel mi? Grafik sürücünü güncellediğinde profilini açıp Steam bilgilerini paylaşman gerekiyor.",
+      "Doğru oyunu seçtin mi? Bazı oyunların adı eski sürümleriyle aynı olabiliyor (ör. GRID)?",
+      "Açıklamaları doğru bölüme girdin mi? Örneğin, grafik sorunlarıyla ilgili notlarını son notlar bölümüne değil de grafik sorunları bölümüne yazman gerekir."
+    ]
+  },
+  "prompts": {
+    "continuingDraft": "Otomatik kaydedilmiş bir taslaktan devam ediyorsun.",
+    "discardDraftWarning": "Tüm yanıtların kalıcı olarak silinecek.",
+    "startOver": "Sıfırdan Başla"
+  },
+  "protonVersion": {
+    "additionalNotes": {
+      "label": "Manüel Proton Sürümü",
+      "placeholder": "Geçerli bir Proton sürümü dizisi olmalıdır. Örnekler: {{examples}}"
+    },
+    "prompt": "Hangi Proton sürümünü kullanıyorsun?"
+  },
+  "saveGameFaults": {
+    "legend": "Oyun Kaydetme",
+    "options": {
+      "errorLoading": {
+        "long": "Kaydettiğim bir oyunu açamadım",
+        "short": "Kayıt açma"
+      },
+      "errorSaving": {
+        "long": "Oyunumu kaydedemedim",
+        "short": "Kaydetme"
+      },
+      "other": {
+        "long": "Diğer",
+        "short": "Diğer"
+      }
+    },
+    "prompt": "Oyun kaydetmeyle ilgili sorun yaşadın mı?"
+  },
+  "significantBugs": {
+    "legend": "Önemli Hatalar",
+    "prompt": "Başka önemli hatalarla karşılaştın mı?"
+  },
+  "stabilityFaults": {
+    "legend": "Kararlılık",
+    "options": {
+      "frequentCrashes": {
+        "long": "Sık sık çöküyor",
+        "short": "Sık sık"
+      },
+      "notListed": {
+        "long": "Listede yok",
+        "short": "Listede yok"
+      },
+      "occasionally": {
+        "long": "Ara sıra çöküyor",
+        "short": "Ara sıra"
+      }
+    },
+    "prompt": "Kararlılık sorunları yaşadın mı?"
+  },
+  "startsPlay": {
+    "legend": "Oyuna Başlama",
+    "prompt": "Oyuna başlayabildin mi?"
+  },
+  "stepHeadlines": {
+    "appSelection": "Oyun Seçimi",
+    "borked": "Olmamış!",
+    "customizations": "Özelleştirmeler",
+    "finalNotes": "Karar",
+    "gameplay": "Diğer Olası Sorunlar",
+    "graphics": "Grafik ve Performans",
+    "multiplayer": "Çok Oyunculu",
+    "preview": "Ön İzleme",
+    "setup": "Kurulum",
+    "stability": "Kararlılık",
+    "startup": "Kurup Çalıştırma",
+    "tinkerCheck": "Rapor Türü",
+    "unownedWarning": "Kütüphanede Yok"
+  },
+  "type": {
+    "intro": [
+      "ProtonDB, raporları artık ikiye ayıracak: Steam Play ve Tinker.",
+      "Kurup, oyna tuşuna basıp oyuna atıldığın ve hiçbir değişiklik yapmadığın durumlarda Steam Play'i seç.",
+      "Oyunu çalıştırmak için değişiklik ya da özelleştirme yapman gerektiyse Tinker'ı seç.",
+      "Aralarındaki fark hakkında daha fazla bilgi almak istersen [bu haber gönderisini]({{link}}) incele."
+    ],
+    "options": {
+      "steamPlay": {
+        "long": "SteamPlay Raporu",
+        "short": "SteamPlay Raporu"
+      },
+      "tinker": {
+        "long": "Tinker Raporu",
+        "short": "Tinker Raporu"
+      }
+    },
+    "prompt": "Ne tür rapor yazacaksın?"
+  },
+  "verdict": {
+    "additionalNotes": {
+      "label": "Özet (en fazla {{count}} karakter)",
+      "placeholder": "Raporunun başında yer alacak kısa bir özet ekle."
+    },
+    "prompt": "Ortalama oyuncu bu oyunu Proton ile Linux üzerinde oynasa keyif alır mıydı?"
+  },
+  "welcome": {
+    "headline": "Hoş Geldin",
+    "intro": "ProtonDB'nin Steam Play ve Proton uyumluluk raporları kataloğunu genişletmeye gösterdiğin ilgi için teşekkürler! Katkıda bulunmadan önce lütfen aşağıdakileri göz önünde bulundur",
+    "notes": [
+      "ProtonDB'de rapor yayınlamamızın sebebi sana, Valve'a ve oyunlarındaki hataları gidermek isteyen geliştiricilere destek olmak. Lütfen raporlarında doğrudan şaşma, kırıcı dil kullanma ve sırf en sevdiğin oyunu, dağıtımı ya da grafik kartını tanıtmak için rapor göndereyim deme.",
+      "Aynı oyun için birden fazla rapor gönderilmesi istediğimiz bir şey! Oyun süren uzadıkça ve/veya Proton sürümün yükseldikçe paylaşmak isteyeceğin yeni bulguların elbette olacak. Her bir raporun ilgili oyunun raporun gönderildiği tarihte ve kullandığın yapılandırmada nasıl çalıştığını gösteren bir 'anlık özet' sağladığını düşünürsek ProtonDB'nin bir wikiden farklı olduğunu söyleyebiliriz.",
+      "Birden fazla rapor gönderdiğinde yalnızca son raporun ProtonDB derecelendirmesinde dikkate alınır ve bunun için de sistem bilgilerinin Proton'un minimum koşullarını karşılaması gerekir.",
+      "Katkıların ProtonDB'de herkese açık olacak ve Açık Veri Tabanı Lisansı ilkeleri doğrultusunda dışa aktarılabilecek. Daha fazla bilgi almak istersen [burayı]({{link}}) incele."
+    ],
+    "outro": "Birbirimizi anladığımıza göre artık başlayabiliriz!"
+  },
+  "windowingFaults": {
+    "legend": "Pencere Ayarı",
+    "options": {
+      "activatingFullscreen": {
+        "long": "Tam ekran başlatılamadı",
+        "short": "Tam Ekranı Etkinleştirme"
+      },
+      "fullNotFull": {
+        "long": "Tam ekran tam değildi",
+        "short": "Boyut"
+      },
+      "other": {
+        "long": "Diğer",
+        "short": "Diğer"
+      },
+      "switching": {
+        "long": "Tam ekrandan bilindik yöntemlerle (mesela Alt-Tab yaparak) çıkamadım",
+        "short": "Geçiş"
+      }
+    },
+    "prompt": "Pencere ayarıyla ya da tam ekranla ilgili herhangi bir sorun yaşadın mı?"
+  }
+}

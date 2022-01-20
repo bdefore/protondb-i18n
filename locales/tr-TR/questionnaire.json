@@ -1,0 +1,20 @@
+{
+  "genericFollowUpPrompt": "Ne gibi sorunlar?",
+  "misc": {
+    "answerRequired": "Yanıt Vermen Gerekiyor",
+    "answerRequiredWhenNotListed": "Listede Yok Seçildiğinde Yanıt Vermen Gerekir",
+    "back": "Geri",
+    "error": "Hata!",
+    "markdownSupportNotice": "Markdown artık destekleniyor",
+    "maxChars": "En fazla {{count}} karakter",
+    "next": "Sonraki",
+    "submission": {
+      "error": "Beklenmedik bir hata meydana geldi. İnternete bağlıysan ve bu sorun devam ederse lütfen bize haber ver!",
+      "note": "Yeni raporların bir sonraki içerik yenilemesine kadar beklemede kalacağını unutma. Katkılarını [Profil]({{link}})inde görebilirsin",
+      "success": "Gönderildi",
+      "thanks": "{{siteName}} sitesine katkılarından dolayı teşekkür ederiz!"
+    },
+    "submit": "Gönder",
+    "tooLong": "Çok uzun"
+  }
+}
