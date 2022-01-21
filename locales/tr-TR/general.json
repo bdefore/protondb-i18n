@@ -1,0 +1,153 @@
+{
+  "auth": {
+    "genericSignIn": "Oturum Aç",
+    "headline": "Steam ile Doğrulama",
+    "loggedInAs": "{{username}} Olarak Oturum Açtın",
+    "notLoggedIn": "Oturum Açmadın",
+    "steamSignIn": "Steam ile Oturum Aç",
+    "unlink": "Hesap Bağlantısını Kaldır"
+  },
+  "content": {
+    "followingPost": "Sonraki Gönderi",
+    "previousPost": "Önceki Gönderi"
+  },
+  "contextualInfo": {
+    "dateAdded": "{{context}} tarihinde eklendi",
+    "fixWanted": "",
+    "hoursPlayed": "{{context}} saat oynandı",
+    "mostBorked": "",
+    "peakPlayers": "{{context}} anlık en çok oyuncu",
+    "percentPositive": "%{{context}} olumlu değerlendirme",
+    "playerCount": "{{context}} anlık en çok oyuncu",
+    "positiveRating": "%{{context}} olumlu değerlendirme",
+    "protonDbRating": "",
+    "rank": "Steam'de {{context}}. sırada",
+    "recentReportCount": "Hakkında en son iki Proton sürümüyle gönderilmiş {{context}} rapor mevcut",
+    "releaseDate": "{{context}} tarihinde çıktı",
+    "wilsonRating": ""
+  },
+  "footer": {
+    "description": "{{name}}; varlığını [@bdefore]({{link}})'nin ve bulgularını paylaşan topluluğumuzun özverileri sayesinde sürdürüyor.",
+    "feedbackPrompt": "Geri bildirimlerin mi var? Gel de sohbet edelim!",
+    "legal": "Bu sitenin Valve Software ile ilişkisi yoktur. Tüm oyun görselleri ve logolar ilgili kişi ve/veya kuruluşlara aittir."
+  },
+  "libraryLoader": {
+    "errorLoadingGames": "Oyunlar yüklenemedi. Profil ve Oyun Bilgilerinin herkese açık olduğunu teyit et.",
+    "gameTotal": "Kütüphanenden {{count}} oyun yüklendi.",
+    "note": "ID, profil adı ve avatarın dahil olmak üzere hesabınla ilgili herkese açık bilgileri Steam Web API üzerinden çekiyoruz. [Steam Gizlilik Ayarları]({{link}}'nda 'Profilim'i herkese açık olarak ayarladığından emin ol. 'Oyun bilgileri'nin herkese açık olması gerekiyor. Herkese açık olursa Keşfet sayfası kütüphane bilgilerini kullanacak, oyun sürelerin de katkılarınla birlikte gönderilecek.",
+    "refresh": "Yenile"
+  },
+  "misc": {
+    "addYourReport": "Rapor Ekle",
+    "affirmative": "Evet",
+    "any": "Herhangi biri",
+    "areYouSure": "Emin misin?",
+    "cancel": "İptal",
+    "chipset": "Yonga seti",
+    "conjunction": "ve",
+    "discard": "At",
+    "dismiss": "Kapat",
+    "distro": "Dağıtım",
+    "driver": "Sürücü",
+    "execute": "Çalıştır",
+    "feedbackPrompt": "Geri bildirimin mi var? [Discord]({{link}})'umuza gelip paylaş.",
+    "filter": "Filtre",
+    "filteringSettings": "Filtreleme Ayarları",
+    "games": "Oyunlar",
+    "hide": "Şunu gizle: {{what}}",
+    "include": "Dahil et",
+    "install": "Kur",
+    "joinUsPrompt": "Discord'umuza katıl!",
+    "lastContentRefreshTime": "Son içerik yenilemesi {{time}} önceydi",
+    "meetsRequirements": "Koşulları Karşılıyor",
+    "moreInfo": "Daha Fazla Bilgi",
+    "multiplayer": "Çok Oyunculu",
+    "native": "Yerel",
+    "negative": "Hayır",
+    "notFound": "Bulunamadı",
+    "note": "Not",
+    "overall": "Genel",
+    "pending": "Beklemede",
+    "preferences": "Tercihler",
+    "provisional": "Geçici",
+    "published": "Yayınlandı",
+    "rated": "Değerlendirildi",
+    "report": "Rapor",
+    "reports": "Raporlar",
+    "reset": "Sıfırla",
+    "save": "Kaydet",
+    "saved": "{{what}} Kaydedildi",
+    "show": "Göster: {{what}}",
+    "showAll": "Tümünü Göster",
+    "showMore": "Daha Fazla",
+    "skip": "Atla",
+    "tier": "Kademe",
+    "total": "Toplam",
+    "unknown": "Bilinmiyor",
+    "version": "Sürüm"
+  },
+  "nav": {
+    "contribute": "Katkıda Bulun",
+    "explore": "Keşfet",
+    "help": "Yardım",
+    "news": "Haberler",
+    "profile": "Profil",
+    "search": "Oyun ara...",
+    "stats": "İstatistikler"
+  },
+  "pagination": {
+    "next": "Sonraki sayfa",
+    "previous": "Önceki sayfa",
+    "summary": "{{total}} arasından {{from}}-{{to}} sayılı sonuçlar"
+  },
+  "preferences": {
+    "headline": "Tercihler",
+    "intro": "ProtonDB, raporu gönderen kişinin Steam kullanıcı adını raporun yanında gösterir. Benzersiz Steam ID bilgisi, yayınlanan rapor verilerine dahil edilmez. Kullanıcı adının, Steam profilini bulmak için kullanılabileceğinden kaygılıysan burada başka bir kullanıcı adı da seçebilirsin. Bir sonraki içerik yenilenmesi itibarıyla yeni kullanıcı adını kullanırız.",
+    "questions": {
+      "customName": {
+        "additionalNotes": {
+          "label": "Özel Ad"
+        },
+        "options": {
+          "custom": "Özel kullanıcı adı",
+          "keepSteam": "Steam kullanıcı adım ({{steamNickname}})"
+        },
+        "prompt": "Herkese açık adın"
+      },
+      "language": {
+        "prompt": "Dil"
+      },
+      "performanceMode": {
+        "prompt": "Sitenin performans dostu sürümünü kullanmak ister misin?"
+      }
+    }
+  },
+  "profile": {
+    "exploreLibrary": "Kütüphaneni aşağıdaki kriterlerle inceleyebilirsin:",
+    "inYourLibrary": "Kütüphanende Var",
+    "libraryTags": {
+      "byHoursPlayed": "Oynadığın saate göre",
+      "byPlayerCount": "Oyuncu sayısına göre",
+      "byProtonDbRating": "ProtonDB değerlendirmesine göre",
+      "bySteamDbScore": "SteamDB kullanıcı puanına göre",
+      "headline": "Aşağıdaki etiketlere kütüphanende sık rastladık. Bunları da kullanabilirsin:",
+      "lackReportsByHoursPlayed": "Oynadığın saate göre ve Rapor İhtiyacı Var",
+      "lackReportsByPlayerCount": "Oyuncu sayısına göre ve Rapor İhtiyacı Var",
+      "lackReportsBySteamDbScore": "SteamDB kullanıcı puanına göre ve Rapor İhtiyacı Var"
+    },
+    "notInYourLibrary": "Kütüphanende Yok",
+    "yourContributions": "Katkıların"
+  },
+  "reports": {
+    "clear": "Temizle",
+    "displayExcluded": "Hariç tutulan raporları göster",
+    "filteredOutCount": "{{count}} tanesi filtrelerle elendi",
+    "filteredOutHeadline": "{{count}} rapor {{filters}} filtreleme kriterlerine uymuyor",
+    "superceded": "Bu yazardan bu tipte daha güncel bir rapor mevcut",
+    "zeroStateMessage": "Rapor yok",
+    "zeroStateMessageWithFilters": "Uyguladığın filtrelere uyun rapor yok"
+  },
+  "search": {
+    "resultsHeader": "{{q}} için arama sonuçları"
+  }
+}

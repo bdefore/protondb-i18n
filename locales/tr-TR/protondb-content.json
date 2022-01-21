@@ -1,0 +1,190 @@
+{
+  "auth": {
+    "intro": "Steam ile oturum açtığında rapor gönderebilir ve [Keşfet sayfasında Kütüphane filtresi]({{link}}) kullanarak sonuçları sahip olduğun oyunlarla sınırlayabilirsin."
+  },
+  "breakdown": {
+    "headline": "Popüler Oyunlar",
+    "popularHeadline": "{{count}} en popüler oyunun değerlendirmeleri",
+    "topHundred": "Yüz",
+    "topTen": "On",
+    "topThousand": "Bin",
+    "topics": {
+      "allGames": "Tüm Oyunlar",
+      "indie": "Bağımsız",
+      "localMultiplayer": "Yerel Çok Oyunculu",
+      "singlePlayer": "Tek Oyunculu",
+      "vr": "VR"
+    },
+    "unavailable": "Yok",
+    "unrated": "Değerlendirilmemiş",
+    "unreported": "Rapor Gönderilmemiş"
+  },
+  "explore": {
+    "headlines": {
+      "dateAdded": "Yakınlarda Eklendi",
+      "fixWanted": "Çözüm Aranıyor",
+      "highestRated": "SteamDB'de En Yüksek Değerlendirme",
+      "hoursPlayed": "Oynanan Saat",
+      "inLibrary": "Kütüphane",
+      "inWishlist": "İstek Listesinde",
+      "mostBorked": "En Olmamış Raporlar",
+      "mostPopular": "En Popüler",
+      "percentPositive": "Son Zamanlarda Olumlu",
+      "rank": "En Popüler",
+      "recentlyImproved": "Son Zamanlarda İyileşen",
+      "releaseDate": "Çıkış Tarihi",
+      "wellRatedHere": "Burada Olumlu Değerlendirilmiş"
+    },
+    "layout": "Sayfa Düzeni",
+    "loadError": "Oyunları yüklerken bir hata meydana geldi!",
+    "notLoggedIn": "Steam ID olmadan kütüphane yüklenemez. [Profil]({{link}})ine gidip Steam ID'ni ekle.",
+    "poweredBy": "Kaynaklar",
+    "sorts": {
+      "dateAdded": "Yakınlarda Eklendi",
+      "fixWanted": "Çözüm Aranıyor",
+      "hoursPlayed": "Oynanan Saat",
+      "mostBorked": "En Olmamış",
+      "percentPositive": "Kullanıcı Puanı",
+      "playerCount": "Oyuncu Sayısı",
+      "rank": "En Popüler",
+      "recentlyImproved": "Son Zamanlarda İyileşen",
+      "releaseDate": "Çıkış Tarihi",
+      "userScore": "Kullanıcı Puanı",
+      "wilsonRating": "ProtonDB Değerlendirmesi"
+    },
+    "toggles": {
+      "includeNative": "Yereller Dahil",
+      "lackReports": "Rapor İhtiyacı Var",
+      "restrictToLibrary": "Kütüphane",
+      "untested": "Rapor İhtiyacı Var",
+      "userTags": "Kullanıcı Etiketleri",
+      "whitelisted": "Beyaz Listede",
+      "wishlisted": "İstek Listesinde"
+    }
+  },
+  "filters": {
+    "questions": {
+      "cpu": {
+        "label": "CPU"
+      },
+      "distro": {
+        "label": "Dağıtım"
+      },
+      "gpu": {
+        "label": "GPU"
+      },
+      "persist": {
+        "prompt": "Site Çapında Kalıcı Olsun mu?"
+      },
+      "query": {
+        "label": "Sorgu"
+      },
+      "type": {
+        "label": "Tür"
+      }
+    }
+  },
+  "gameDetails": {
+    "githubIssueSearch": "Github Sorun Araması",
+    "infoNotFound": "{{entry}} App ID hakkında bilgiye ulaşamadık. Oyun mağazadan kaldırılmış olabilir.",
+    "minimumRequirements": "Minimum Koşullar",
+    "nativelySupports": "Yerel Destek"
+  },
+  "home": {
+    "getStartedLinks": [
+      "[Steam'in Resmi Steam Play Sayfası](https://store.steampowered.com/steamplay)",
+      "[Linux'e geçiş rehberi](https://www.reddit.com/r/linux_gaming/comments/9oqq3w/guide_migrating_to_linux_in_2019/)",
+      "[Vulkan nedir?](https://www.reddit.com/r/linux_gaming/comments/9ritk1/not_sure_i_quite_understand_can_someone_explain/)"
+    ],
+    "headline": "Proton ve Steam Play sayesinde pek çok Windows oyununu Linux'te oynayabilirsin!",
+    "howDoIHelp": {
+      "answer": "Linux'e şans ver! Alışık değilsen de endişelenme. Başlarken kullanabileceğin rehberleri burada bulabilirsin. Valve ve Proton'un gelişmesine katkıda bulunmak istiyorsan raporlarını ProtonDB'de paylaş!",
+      "question": "İyiymiş! Nasıl yardım edebilirim?"
+    },
+    "letsGetStarted": "Haydi, başlayalım.",
+    "sampleGames": "Resmen beyaz listeye girmeyen ama ProtonDB'de çok sayıda Platin rapor alan popüler oyunlardan birkaç örneğe göz atalım",
+    "search": "Oyun ara...",
+    "stats": {
+      "gamesReported": "oyun hakkında rapor gönderildi",
+      "gamesWork": "oyun çalışıyor",
+      "gamesWorkExplanation": "Hakkında en azından 1 adet Thumbs Up ya da Platin (eski) raporu bulunuyor",
+      "reportsWritten": "rapor yazıldı"
+    },
+    "theImpact": {
+      "answer": "Steam Play; Proton uyumlu olduğu ve Linux'te çalıştığı kabul edilen, sayıları az da olsa günbegün artan, 'beyaz listeye alınmış' oyunları artık resmen destekliyor. ProtonDB raporlarından anladığımız kadarıyla, aralarında popüler oyunların da bulunduğu, pek çok oyun henüz beyaz listeye alınmamalarına rağmen Windows'ta olduğu kadar iyi çalışıyor.",
+      "question": "Etki"
+    },
+    "whatIsProton": {
+      "answer": "Valve Software tarafından kullanıma sunulan ve Steam Play ile entegre edilerek Windows oyunlarını Linux üzerinde oynamayı Steam’de Oyna düğmesine basmak kadar kolaylaştıran Proton, gücünü oyuncuların normal şartlarda kendi başlarına indirip güncel tutmaları gereken Wine, DXVK ve diğer araçlardan alır. Bu sayede oyuncular yeni sistemler öğrenme ya da oyun kütüphanelerinin çoğunu kaybetme gibi durumlarla karşılaşmadan Linux'e çok daha kolay geçiş yapabilirler. Henüz geliştirme aşamasında olan Proton, destek konusunda yüksek istikrara sahip olmasa da sürekli gelişim gösteriyor.",
+      "question": "Proton nedir?"
+    },
+    "whatIsProtonDb": {
+      "answer": "ProtonDB'nin amacı Proton ile Linux üzerinde oyun oynamayı deneyen oyuncuların gönderdiği raporları toplayıp oyunların performansına dair yığın değerlendirmeler sunmaktır. Proton gelişim süreci devam ederken büyümeye devam eden öneriler havuzundan oyun çalıştırmak için deneyebileceğiniz düzenlemelere erişim sağlayabilirsiniz. Ayrıca sitemizdeki Steam oyun kataloğunu inceleyerek eskiden Linux'te oynanamayan oyunları inceleyip keşfedebilirsiniz.",
+      "question": "ProtonDB nedir?"
+    },
+    "whyBigDeal": {
+      "answer": "Linux masaüstü deneyimi geçtiğimiz yıllarda büyük yol katetti. Windows ya da MacOS ile yapmaya alışık olduğun çoğu şeyi fazla ince ayar yapman gerekmeden Linux ile de yapabilirsin. Kaldı ki ince ayar yapmak eğlenceli dahi olabilir. Bilgisayar başındaki günlük etkileşimlerimizin çoğunun internet üzerinde gerçekleştiğini ve tarayıcıların Linux'te de diğer işletim sistemlerindekiyle hemen hemen aynı biçimde işlediğini de unutmamak gerek. Proton ve Steam Play; yakın zamana kadar yalnızca sınırlı uyumluluk sağlanabilen ve Linux kullanımının önündeki önemli engellerden biri olan oyun sorununu çözmeyi hedefliyor.",
+      "question": "Bu, neden bu kadar önemli?"
+    },
+    "youtubeId": "Co6FePZoNgE"
+  },
+  "medals": {
+    "borked": "Olmamış",
+    "bronze": "Bronz",
+    "gold": "Altın",
+    "platinum": "Platin",
+    "silver": "Gümüş"
+  },
+  "ratingDefinitions": {
+    "explanations": {
+      "borked": "Açılmıyor ya da oynanamaz halde",
+      "bronze": "Çalışsa da sık sık çöküyor ya da konforlu oyun deneyimini engelleyen sorunları var",
+      "gold": "Düzenleme yaptıktan sonra mükemmel çalışıyor",
+      "native": "Linux'te yerel çalışıyor",
+      "pending": "Değerlendirme atanmadan önce biraz daha rapor gelmesini bekliyor",
+      "platinum": "Mevcut haliyle kusursuz çalışıyor",
+      "silver": "Küçük sorunları olsa da genel itibarıyla oynanabilir"
+    },
+    "headline": "Değerlendirme Açıklamaları"
+  },
+  "specs": {
+    "cpu": "CPU",
+    "gpu": "GPU",
+    "gpuDriver": "GPU Sürücüsü",
+    "kernel": "Kernel",
+    "os": "Dağıtım",
+    "otherSpecs": "Diğer Özellikler",
+    "ram": "RAM"
+  },
+  "stats": {
+    "analysisInByTheNumbers1": "1 Numaralara Göre Analiz",
+    "byCommonDisplayDrivers": "Yaygın Grafik Sürücülerine Göre",
+    "byDistro": "Dağıtıma Göre",
+    "byGpu": "GPU'ya Göre",
+    "byProtonVersion": "Proton Sürümüne Göre",
+    "dailyReportsHeadline": "Günlük Rapor (Son {{days}} Gün)",
+    "downloadData": "Veriyi İndir",
+    "gameRatingDistribution": "Oyun Değerlendirmesi Dağılımı",
+    "gamesWithNOrMoreReports": "Hakkında N ya da Daha Fazla Rapor Bulunan Oyunlar",
+    "reportRatingDistributionOverTime": "Zamana Göre Rapor Değerlendirmesi Dağılımı",
+    "whenMeetingMinimumRequirements": "Minimum Koşulları Karşılarken"
+  },
+  "steamAuthor": {
+    "hoursInSteam": "Steam'de {{count}} saat",
+    "timeWithProton": "Proton ile {{time}}"
+  },
+  "suggestions": {
+    "headline": "Daha fazlasına hazır mısın?",
+    "intro": "Aşağıdaki oyunları oyun saatine, popülerliğe ve SteamDB değerlendirmesine dayanarak seçtik. Hepsinde de rapora ihtiyaç var ve bazılarının {{siteName}} değerlendirmesi almak için yalnızca 1 rapora ihtiyacı kalmış olabilir! Yeni öneriler almak için sayfayı yenileyebilir ya da Keşfet sayfasında [Rapora İhtiyacı Var]({{link}}) filtresini kullanabilirsin."
+  },
+  "systemInfo": {
+    "headline": "Sistem Bilgisi",
+    "howTo": "Oyun oynadığın makinede Steam ayarlarına erişimin varsa bu bilgiyi kolaylıkla edinebilirsin. [Nasıl yapacağını buradan öğrenebilirsin]({{link}}). (Bazı kullanıcılar her şeyi seçebilmek için sağ tıklamadan önce Ctrl-A'ya basmaları gerektiğini bildirdi.)",
+    "intro": "Oyunun denendiği donanım ve yazılımın paylaşıldığı raporlar hem daha faydalıdır hem de daha fazla itibar görür. Bu unsurların mümkün olduğunca doğru ve tutarlı olması için Steam'in bildirdiği sistem bilgilerinden faydalanıyoruz.",
+    "parseFailure": "Girdi işlenemedi. Doğru kopyaladığından eminsen Discord'da bize bildir",
+    "parseSuccess": "Sistem Bilgisi İşlendi!",
+    "pasteInstructions": "Steam Sistem Bilgini Buraya Yapıştır",
+    "unsupportedHeadline": "Desteklenmeyen Sürücüler Tespit Edildi",
+    "unsupportedWarning": "Sisteminin grafik sürücüsü [Proton'un mevcut minimum koşulları]({{link}})nı karşılamıyor! Çökme, düşük performans ya da grafik bozulmaları gibi durumlarla karşılaşabilirsin. Yine de rapor gönderebilirsin ve katkıların elbette faydalı olacaktır ancak raporlarında grafik sürücülerin kırmızı görünecek ve raporların oyunların yığın değerlendirilmelerine dahil edilmeyecek. Lütfen sürücülerini güncelle!"
+  }
+}
