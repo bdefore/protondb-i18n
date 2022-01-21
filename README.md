@@ -70,6 +70,7 @@ As ProtonDB continues development, new text will be added that may need translat
 - Simplified Chinese (zh-Hans): [@zactry](https://github.com/zactry)
 - Dutch (nl-NL): [@hypothermic](https://github.com/hypothermic)
 - Russian (ru-RU): [@Homaykin](https://github.com/Homyakin)
+- Turkish (tr-TR): [@csengor](https://github.com/csengor)
 
 ### Coming soon
 
