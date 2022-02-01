@@ -71,6 +71,7 @@ As ProtonDB continues development, new text will be added that may need translat
 - Dutch (nl-NL): [@hypothermic](https://github.com/hypothermic)
 - Russian (ru-RU): [@Homaykin](https://github.com/Homyakin)
 - Turkish (tr-TR): [@csengor](https://github.com/csengor)
+- Taiwanese Chinese (zh-TW): [@laichiaheng](https://github.com/laichiaheng)
 
 ### Coming soon
 
