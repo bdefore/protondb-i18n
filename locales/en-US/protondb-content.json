@@ -53,12 +53,13 @@
       "wilsonRating": "ProtonDB Rating"
     },
     "toggles": {
+      "deckVerified": "Deck Verified",
       "includeNative": "Include Native",
       "lackReports": "Lack Reports",
       "restrictToLibrary": "Library",
       "untested": "Lack Reports",
       "userTags": "User Tags",
-      "whitelisted": "Whitelisted",
+      "whitelisted": "Deck Verified",
       "wishlisted": "Wishlisted"
     }
   },
@@ -88,7 +89,22 @@
     "githubIssueSearch": "Github Issue Search",
     "infoNotFound": "Could not acquire information for App ID: {{entry}}. This can happen if a game was removed from the store.",
     "minimumRequirements": "Minimum Requirements",
-    "nativelySupports": "Natively Supports"
+    "nativelySupports": "Natively Supports",
+    "notices": {
+      "antiCheat": {
+        "headline": "Multiplayer Support",
+        "battlEye": {
+          "explanation": "This game is known to utilize [BattlEye](https://www.battleye.com). BattlEye [can be used in Linux](https://twitter.com/TheBattlEye/status/1441477816311291906), but multiplayer functionality varies depending on how the developer has implemented it."
+        },
+        "eac": {
+          "explanation": "This game is known to utilize [Easy Anti-Cheat](https://www.easy.ac). EAC has [limited support for Linux](https://dev.epicgames.com/en-US/news/epic-online-services-launches-anti-cheat-support-for-linux-mac-and-steam-deck), but multiplayer functionality varies depending on how the developer has implemented it."
+        }
+      },
+      "nativeDiscrepancy": {
+        "headline": "Native Support",
+        "explanation": "Although this game has a Linux-native build available, Steam does not list it as having Linux support. This can happen if a game has an unofficial, unfinished, or unsupported build. You may need to [force Steam to enable Proton for the game](/help/troubleshooting-faq#how-do-i-run-a-game-with-proton-even-though-it-has-a-native-linux-version) in order to run properly."
+      }
+    }
   },
   "home": {
     "getStartedLinks": [
@@ -105,7 +121,13 @@
     "sampleGames": "Here is a sample of some popular games that are officially not whitelisted yet, but have received many Platinum reports on ProtonDB",
     "search": "Search for a game...",
     "stats": {
+      "atLeastOneRecommends": "recommended by at least one",
+      "atLeastTwoRecommend": "recommended by two or more",
+      "atLeastThreeRecommend": "recommended by three or more",
+      "deckVerifiedPlayable": "deck verified (playable+)",
+      "deckVerified": "deck verified",
       "gamesReported": "games reported",
+      "gamesWithReports": "games with reports",
       "gamesWork": "games work",
       "gamesWorkExplanation": "Have at least one Thumbs Up or Platinum (legacy) report",
       "reportsWritten": "reports written"

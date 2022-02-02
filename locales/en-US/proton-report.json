@@ -411,7 +411,7 @@
     "prompt": "Did you experience any other significant bugs?"
   },
   "stabilityFaults": {
-    "legend": "Stability",
+    "legend": "Instability",
     "options": {
       "frequentCrashes": {
         "long": "Frequent crashes",
