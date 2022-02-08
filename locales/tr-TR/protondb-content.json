@@ -53,6 +53,7 @@
       "wilsonRating": "ProtonDB Değerlendirmesi"
     },
     "toggles": {
+      "deckVerified": "Deck İçin Doğrulanmış",
       "includeNative": "Yereller Dahil",
       "lackReports": "Rapor İhtiyacı Var",
       "restrictToLibrary": "Kütüphane",
@@ -105,6 +106,12 @@
     "sampleGames": "Resmen beyaz listeye girmeyen ama ProtonDB'de çok sayıda Platin rapor alan popüler oyunlardan birkaç örneğe göz atalım",
     "search": "Oyun ara...",
     "stats": {
+      "atLeastOneRecommends": "1 ve üstü öneri alan oyun",
+      "atLeastTwoRecommend": "2 ve üstü öneri alan oyun",
+      "atLeastThreeRecommend": "3 ve üstü öneri alan oyun",
+      "deckVerifiedPlayable": "deck için doğrulanmış (oynanabilir+)",
+      "deckVerified": "deck için doğrulanmış",
+      "gamesWithReports": "hakkında rapor yazılan oyun sayısı",
       "gamesReported": "oyun hakkında rapor gönderildi",
       "gamesWork": "oyun çalışıyor",
       "gamesWorkExplanation": "Hakkında en azından 1 adet Thumbs Up ya da Platin (eski) raporu bulunuyor",
