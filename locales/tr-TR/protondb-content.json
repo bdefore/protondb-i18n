@@ -115,7 +115,7 @@
       "gamesReported": "oyun hakkında rapor gönderildi",
       "gamesWork": "oyun çalışıyor",
       "gamesWorkExplanation": "Hakkında en azından 1 adet Thumbs Up ya da Platin (eski) raporu bulunuyor",
-      "reportsWritten": "rapor yazıldı"
+      "reportsWritten": "toplam rapor sayısı"
     },
     "theImpact": {
       "answer": "Steam Play; Proton uyumlu olduğu ve Linux'te çalıştığı kabul edilen, sayıları az da olsa günbegün artan, 'beyaz listeye alınmış' oyunları artık resmen destekliyor. ProtonDB raporlarından anladığımız kadarıyla, aralarında popüler oyunların da bulunduğu, pek çok oyun henüz beyaz listeye alınmamalarına rağmen Windows'ta olduğu kadar iyi çalışıyor.",
