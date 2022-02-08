@@ -107,12 +107,12 @@
     "search": "Oyun ara...",
     "stats": {
       "atLeastOneRecommends": "1 ve üstü öneri alan oyun",
-      "atLeastTwoRecommend": "2 ve üstü öneri alan oyun",
       "atLeastThreeRecommend": "3 ve üstü öneri alan oyun",
-      "deckVerifiedPlayable": "deck için doğrulanmış (oynanabilir+)",
+      "atLeastTwoRecommend": "2 ve üstü öneri alan oyun",
       "deckVerified": "deck için doğrulanmış",
-      "gamesWithReports": "hakkında rapor yazılan oyun sayısı",
+      "deckVerifiedPlayable": "deck için doğrulanmış (oynanabilir+)",
       "gamesReported": "oyun hakkında rapor gönderildi",
+      "gamesWithReports": "hakkında rapor yazılan oyun sayısı",
       "gamesWork": "oyun çalışıyor",
       "gamesWorkExplanation": "Hakkında en azından 1 adet Thumbs Up ya da Platin (eski) raporu bulunuyor",
       "reportsWritten": "toplam rapor sayısı"
