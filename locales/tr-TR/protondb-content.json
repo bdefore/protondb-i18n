@@ -53,6 +53,7 @@
       "wilsonRating": "ProtonDB Değerlendirmesi"
     },
     "toggles": {
+      "deckVerified": "Deck İçin Doğrulanmış",
       "includeNative": "Yereller Dahil",
       "lackReports": "Rapor İhtiyacı Var",
       "restrictToLibrary": "Kütüphane",
@@ -105,10 +106,16 @@
     "sampleGames": "Resmen beyaz listeye girmeyen ama ProtonDB'de çok sayıda Platin rapor alan popüler oyunlardan birkaç örneğe göz atalım",
     "search": "Oyun ara...",
     "stats": {
+      "atLeastOneRecommends": "1 ve üstü öneri alan oyun",
+      "atLeastThreeRecommend": "3 ve üstü öneri alan oyun",
+      "atLeastTwoRecommend": "2 ve üstü öneri alan oyun",
+      "deckVerified": "deck için doğrulanmış",
+      "deckVerifiedPlayable": "deck için doğrulanmış (oynanabilir+)",
       "gamesReported": "oyun hakkında rapor gönderildi",
+      "gamesWithReports": "hakkında rapor yazılan oyun sayısı",
       "gamesWork": "oyun çalışıyor",
       "gamesWorkExplanation": "Hakkında en azından 1 adet Thumbs Up ya da Platin (eski) raporu bulunuyor",
-      "reportsWritten": "rapor yazıldı"
+      "reportsWritten": "toplam rapor sayısı"
     },
     "theImpact": {
       "answer": "Steam Play; Proton uyumlu olduğu ve Linux'te çalıştığı kabul edilen, sayıları az da olsa günbegün artan, 'beyaz listeye alınmış' oyunları artık resmen destekliyor. ProtonDB raporlarından anladığımız kadarıyla, aralarında popüler oyunların da bulunduğu, pek çok oyun henüz beyaz listeye alınmamalarına rağmen Windows'ta olduğu kadar iyi çalışıyor.",
