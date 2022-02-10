@@ -21,13 +21,18 @@
   },
   "explore": {
     "headlines": {
+      "dateAdded": "Добавленные недавно",
       "fixWanted": "Нужны исправления",
       "highestRated": "Наибольший рейтинг на SteamDB",
       "hoursPlayed": "Часов сыграно",
       "inLibrary": "В библиотеке",
+      "inWishlist": "В желаемом",
       "mostBorked": "Больше всего 'сломанных' отчётов",
       "mostPopular": "Самые популярные",
+      "percentPositive": "Положительные отчёты",
+      "rank": "Самые популярные",
       "recentlyImproved": "Недавно улучшенные",
+      "releaseDate": "Дата выхода",
       "wellRatedHere": "Хорошо оценённые здесь"
     },
     "layout": "Расположение",
@@ -35,21 +40,27 @@
     "notLoggedIn": "Невозможно загрузить библиотеку без Steam ID. Перейдите в свой [Профиль]({{link}}) чтобы добавить его.",
     "poweredBy": "При поддержке",
     "sorts": {
+      "dateAdded": "Недавние",
       "fixWanted": "Нужны исправления",
       "hoursPlayed": "Часов сыграно",
       "mostBorked": "Наиболее сломано",
+      "percentPositive": "Положительные отзывы",
       "playerCount": "Количество игроков",
+      "rank": "Самые популярное",
       "recentlyImproved": "Недавно улучшенные",
+      "releaseDate": "Дата выхода",
       "userScore": "Оценка пользователей",
       "wilsonRating": "Рейтинг ProtonDB"
     },
     "toggles": {
+      "deckVerifed": "Проверено на Deck",
       "includeNative": "Включая нативные",
       "lackReports": "Недостаток отчётов",
       "restrictToLibrary": "Библиотека",
       "untested": "Недостаток отчётов",
       "userTags": "Пользовательские тэги",
-      "whitelisted": "В белом списке"
+      "whitelisted": "В белом списке",
+      "wishlisted": "В желаемом"
     }
   },
   "filters": {
@@ -89,8 +100,15 @@
     "sampleGames": "Вот пример нескольких популярных игр, которые официально не внесены в белый список, но получили много платиновых отчётов на ProtonDB",
     "search": "Найти игры...",
     "stats": {
+      "atLeastOneRecommends": "как минимум 1 рекомендация",
+      "atLeastThreeRecommend": "как минимум 3 рекомендации",
+      "atLeastTwoRecommend": "как минимум 2 рекомендации",
+      "deckVerified": "проверено на deck",
+      "deckVerifiedPlayable": "проверено на deck (играбельно или одобрено)",
       "gamesReported": "игр обозрено",
+      "gamesWithReports": "игр с отчетами",
       "gamesWork": "игр работают",
+      "gamesWorkExplanation": "Имеют как минимум один положительный или платиновый (устаревший) отчет",
       "reportsWritten": "отчётов написано"
     },
     "theImpact": {
