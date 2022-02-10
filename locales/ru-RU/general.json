@@ -12,13 +12,20 @@
     "previousPost": "Предыдущий пост"
   },
   "contextualInfo": {
+    "dateAdded": "Добавлено в {{context}}",
     "fixWanted": "",
     "hoursPlayed": "{{context}} часов сыграно",
     "mostBorked": "",
     "peakPlayers": "{{context}} игроков максимум",
+    "percentPositive": "{{context}}% положительных отзывов",
+    "playerCount": "{{context}} игроков максимум",
     "positiveRating": "{{context}}% положительных отзывов",
     "protonDbRating": "",
-    "recentReportCount": "{{context}} отзывов с двумя последними версиями Proton"
+    "rank": "Ranked {{context}} on Steam",
+    "recentReportCount": "{{context}} отзывов с двумя последними версиями Proton",
+    "recentlyImproved": "{{context}} отзывов с двумя последними версиями Proton",
+    "releaseDate": "Выпущена в {{context}}",
+    "wilsonRating": ""
   },
   "footer": {
     "description": "{{name}} является страстным проектом [@bdefore]({{link}}) и целеустремленного сообщества обозревателей.",
