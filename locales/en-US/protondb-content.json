@@ -21,6 +21,7 @@
   },
   "explore": {
     "headlines": {
+      "antiCheat": "Uses Anti-Cheat",
       "dateAdded": "Recently Added",
       "fixWanted": "Fix Wanted",
       "highestRated": "Highest Rated on SteamDB",
@@ -31,7 +32,7 @@
       "mostPopular": "Most Popular",
       "percentPositive": "Well Reviewed on Store",
       "popular": "Most Followers",
-      "releaseDate": "Release Date",
+      "releaseDate": "By Release Date",
       "rank": "Most Popular",
       "recentlyImproved": "Recently Improved",
       "userScore": "Well Reviewed",
@@ -56,6 +57,7 @@
     },
     "tagData": "Tag data",
     "toggles": {
+      "antiCheat": "Anti-Cheat",
       "deckVerified": "Deck Verified",
       "includeNative": "Include Native",
       "lackReports": "Lack Reports",

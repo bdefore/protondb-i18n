@@ -27,7 +27,7 @@
     "protonDbRating": "",
     "rank": "Ranked {{context}} on Steam",
     "recentlyImproved": "{{context}} reports with latest two Proton versions",
-    "releaseDate": "Released on {{context}}",
+    "releaseDate": "Released {{context}}",
     "userScore": "{{context}}% positive rating",
     "wilsonRating": ""
   },
