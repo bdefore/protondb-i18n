@@ -30,9 +30,11 @@
       "mostBorked": "Больше всего 'сломанных' отчётов",
       "mostPopular": "Самые популярные",
       "percentPositive": "Положительные отчёты",
+      "popular": "Популярные",
       "rank": "Самые популярные",
       "recentlyImproved": "Недавно улучшенные",
       "releaseDate": "Дата выхода",
+      "userScore": "Оценка пользователей",
       "wellRatedHere": "Хорошо оценённые здесь"
     },
     "layout": "Расположение",
@@ -46,6 +48,7 @@
       "mostBorked": "Наиболее сломано",
       "percentPositive": "Положительные отзывы",
       "playerCount": "Количество игроков",
+      "popular": "Популярные",
       "rank": "Самые популярное",
       "recentlyImproved": "Недавно улучшенные",
       "releaseDate": "Дата выхода",
@@ -53,6 +56,7 @@
       "wilsonRating": "Рейтинг ProtonDB"
     },
     "toggles": {
+      "antiCheat": "Анти-чит",
       "deckVerifed": "Проверено на Deck",
       "includeNative": "Включая нативные",
       "lackReports": "Недостаток отчётов",
@@ -73,6 +77,12 @@
       },
       "gpu": {
         "label": "GPU"
+      },
+      "persist": {
+        "prompt": "Применить по всему сайту?"
+      },
+      "query": {
+        "label": "Поиск"
       },
       "type": {
         "label": "Тип"
@@ -106,7 +116,7 @@
       "deckVerified": "проверено на deck",
       "deckVerifiedPlayable": "проверено на deck (играбельно или одобрено)",
       "gamesReported": "игр обозрено",
-      "gamesWithReports": "игр с отчетами",
+      "gamesWithReports": "игр с отчётами",
       "gamesWork": "игр работают",
       "gamesWorkExplanation": "Имеют как минимум один положительный или платиновый (устаревший) отчет",
       "reportsWritten": "отчётов написано"
