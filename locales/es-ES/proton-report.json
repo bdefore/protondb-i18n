@@ -1,11 +1,11 @@
 {
   "appSelection": {
     "caution": "Cuidado!",
-    "helperText": "También puedes añadir enlaces o el identificador de una aplicación y intentaremos encontrarla",
+    "helperText": "También puedes añadir enlaces o el identificador de una aplicación e intentaremos encontrarla",
     "notFound": "No se ha podido encontrar un juego con el identificador {{query}}. Esto puedo ocurrir cuando el id es incorrecto o si: se ha eliminado de la tienda de Steam, no está listado como un juego, o no está disponible en tu país.",
     "placeholder": "Introduce el nombre de un juego en tu biblioteca de Steam...",
     "previousReportsExist": "Tienes reportes previos para este juego",
-    "runsNativeWarning": "The selected game has published a native Linux version! Please be sure you have not inadvertently run the game natively. Steam does not use Steam Play to run this game by default, but [you can force it to do so]({{link}})."
+    "runsNativeWarning": "El juego seleccionado tiene una versión de Linux! Por favor asegurate de que no hayas ejecutado el juego de forma nativa inadvertidamente. Steam no usa Steam Play para correr este juego por defecto, pero [puedes forzar a que lo haga]({{link}})."
   },
   "audioFaults": {
     "legend": "Sonido",
@@ -15,8 +15,8 @@
         "short": "Roto"
       },
       "crackling": {
-        "long": "Crackling",
-        "short": "Crackling"
+        "long": "Chicharreo",
+        "short": "Chicharreo"
       },
       "lowQuality": {
         "long": "Notable degradación de la calidad",
@@ -168,8 +168,8 @@
     "legend": "Entrada",
     "options": {
       "bounding": {
-        "long": "Bounds were incorrect",
-        "short": "Bounding"
+        "long": "Los límites eran incorrectos",
+        "short": "Límites"
       },
       "controllerMapping": {
         "long": "Mando/os no está/n correctamente mapeado/os",
@@ -469,7 +469,7 @@
   "verdict": {
     "additionalNotes": {
       "label": "Sumario ({{count}} carácteres como máximo)",
-      "placeholder": "Añade un sumario corto. Esto será el títular de tu reporte"
+      "placeholder": "Añade un sumario corto. Esto será el titular de tu reporte"
     },
     "prompt": "¿Podría un jugador típico tener una experiencia agradable utilizando este juego en Linux con Proton?"
   },
@@ -478,8 +478,8 @@
     "intro": "¡Gracias por tu interés en expandir el catálogo de ProtonDB sobre los reportes de compatibilidad con SteamPLay y Proton! Por favor, tenlo en cuenta antes de contribuir",
     "notes": [
       "Estos reportes son publicados en ProtonDB como pendientes de revisión y utilizados por otros jugadores, Valve y otros desarrolladores para identificar y arreglar juegos. Por favor, mantén tus reportes detallados, libres de lenguaje ofensivo, y abstente de subir reportes promocionando tu juego favorito, distribución o tarjeta gráfica.",
-      "¡Subir multiples reportes para el mismo juego es algo recomendado! Conforme juegues o se actualice Proton tendrás más que decir. De esta forma ProtonDB se diferencia de una wiki, ya que cada reporte sirve como una 'captura' sobre como funcionaba el juego en esa fecha con tu configuración.",
-      "Si subes multiples reportes, solo el más reciente contará sobre la puntuación de ProtonDB y solo si tu información del sistema cumple los requisitos mínimos de Proton.",
+      "¡Subir múltiples reportes para el mismo juego es algo recomendado! Conforme juegues o se actualice Proton tendrás más que decir. De esta forma ProtonDB se diferencia de una wiki, ya que cada reporte sirve como una 'captura' sobre como funcionaba el juego en esa fecha con tu configuración.",
+      "Si subes múltiples reportes, solo el más reciente contará sobre la puntuación de ProtonDB y solo si tu información del sistema cumple los requisitos mínimos de Proton.",
       "Tu configuración será públicamente visible en ProtonDB y disponible en exportaciones de datos bajo la Licencia Open Database. Puedes ir [aquí]({{link}}) para obtener más información."
     ],
     "outro": "Y con eso, ¡empecemos!"

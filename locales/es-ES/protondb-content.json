@@ -21,35 +21,51 @@
   },
   "explore": {
     "headlines": {
+      "antiCheat": "Utiliza Anti-Cheat",
+      "dateAdded": "Añadido Recientemente",
       "fixWanted": "Se necesita arreglar",
       "highestRated": "Mejor puntuado en SteamDB",
       "hoursPlayed": "Horas jugadas",
       "inLibrary": "En biblioteca",
+      "inWishlist": "En Lista de Deseados",
       "mostBorked": "Reportes más rotos",
       "mostPopular": "Más popular",
+      "percentPositive": "Bien valorado en la tienda",
+      "popular": "Mayores Seguidores",
+      "rank": "Más Popular",
       "recentlyImproved": "Recientemente Mejorado",
+      "releaseDate": "Por fecha de lanzamiento",
+      "userScore": "Bien valorado",
       "wellRatedHere": "Bien puntuado aquí"
     },
-    "layout": "Layout",
+    "layout": "Disposición",
     "loadError": "Error cargando juegos!",
     "notLoggedIn": "No se puede cargar una librería sin un identificador de Steam. Visita tu [Perfil]({{link}}) para añadir uno.",
-    "poweredBy": "Potenciado por",
     "sorts": {
+      "dateAdded": "Añadido Recientemente",
       "fixWanted": "Se necesita arreglar",
       "hoursPlayed": "Horas jugadas",
       "mostBorked": "Más roto",
+      "percentPositive": "Porcentaje Positivo",
       "playerCount": "Número de jugadores",
+      "popular": "Popular",
+      "rank": "Más Popular",
       "recentlyImproved": "Recientemente Mejorado",
+      "releaseDate": "Fecha de Lanzamiento",
       "userScore": "Puntuación de usuario",
       "wilsonRating": "Puntuación de ProtonDB"
     },
+    "tagData": "Tag data",
     "toggles": {
+      "antiCheat": "Anti-Cheat",
+      "deckVerified": "Verificado para Deck",
       "includeNative": "Incluir Nativo",
       "lackReports": "Faltan Reportes",
       "restrictToLibrary": "Librería",
       "untested": "Faltan Reportes",
       "userTags": "Etiquetas de usuarios",
-      "whitelisted": "Lista de deseos"
+      "whitelisted": "Verificado para Deck",
+      "wishlisted": "Lista de deseos"
     }
   },
   "filters": {
@@ -63,6 +79,12 @@
       "gpu": {
         "label": "Tarjeta gráfica"
       },
+      "persist": {
+        "prompt": "¿Persistir a través del sitio?"
+      },
+      "query": {
+        "label": "Consulta"
+      },
       "type": {
         "label": "Tipo"
       }
@@ -72,7 +94,22 @@
     "githubIssueSearch": "Buscar por Issue en GitHub",
     "infoNotFound": "No se ha podido obtener información para el id de aplicación: {{entry}}. Esto puede pasar si un juego ha sido eliminado de la tienda.",
     "minimumRequirements": "Requisitos mínimos",
-    "nativelySupports": "Soporte Nativo"
+    "nativelySupports": "Soporte Nativo",
+    "notices": {
+      "antiCheat": {
+        "battlEye": {
+          "explanation": "Este juego es conocido por utilizar [BattlEye](https://www.battleye.com). BattlEye [puede ser usado en Linux](https://twitter.com/TheBattlEye/status/1441477816311291906), pero la funcionalidad en multijugador varia dependiendo de como el desarrollador lo implemente."
+        },
+        "eac": {
+          "explanation": "Este juego es conocido por utilizar [Easy Anti-Cheat](https://www.easy.ac). EAC tiene [soporte limitado en Linux](https://dev.epicgames.com/en-US/news/epic-online-services-launches-anti-cheat-support-for-linux-mac-and-steam-deck), pero la funcionalidad en multijugador varia dependiendo de como el desarrollador lo implemente."
+        },
+        "headline": "Soporte Multijugador"
+      },
+      "nativeDiscrepancy": {
+        "explanation": "A pesar de que este juego tiene una versión nativa de Linux disponible, Steam no lo lista como si tuviese soporte para Linux. Esto puede suceder si un juego tiene una versión no-oficial, inconclusa, u obsoleta. Puede que tengas que [forzar Steam a habilitar Proton para este juego](/help/troubleshooting-faq#how-do-i-run-a-game-with-proton-even-though-it-has-a-native-linux-version) para que funcione correctamente.",
+        "headline": "Soporte Nativo"
+      }
+    }
   },
   "home": {
     "getStartedLinks": [
@@ -89,7 +126,13 @@
     "sampleGames": "Aquí hay una muestra de algunos juegos populares que aún no han sido oficialmente soportados, pero que han recibido muchos reportes de Platino en ProtonDB",
     "search": "Buscar un juego...",
     "stats": {
+      "atLeastOneRecommends": "recomendado por al menos uno",
+      "atLeastThreeRecommend": "recomendado por tres o más",
+      "atLeastTwoRecommend": "recomendado por dos o más",
+      "deckVerified": "verificado para deck",
+      "deckVerifiedPlayable": "verificado para deck (jugable o verificado)",
       "gamesReported": "juegos reportados",
+      "gamesWithReports": "juegos con reportes",
       "gamesWork": "juegos que funcionan",
       "gamesWorkExplanation": "Tiene al menos un visto bueno o reporte de Platino (legado)",
       "reportsWritten": "reportes escritos"
@@ -141,7 +184,7 @@
     "ram": "RAM"
   },
   "stats": {
-    "analysisInByTheNumbers1": "Analysis in By The Numbers #1",
+    "analysisInByTheNumbers1": "Analisis por By The Numbers #1",
     "byCommonDisplayDrivers": "Por controladores de pantalla comunes",
     "byDistro": "Por distribución",
     "byGpu": "Por GPU",
@@ -164,7 +207,7 @@
   "systemInfo": {
     "headline": "Información del sistema",
     "howTo": "La recopilación de esta información es rápida si tienes acceso a tus ajustes de Steam en la máquina donde juegas. [Puedes ir aquí para saber cómo]({{link}}). (Algunos usuarios han informado que necesitan pulsar Ctrl-A para seleccionarlo todo antes de hacer click derecho)",
-    "intro": "Los reportes són más útiles y creíbles cuando muestran el hardware y software en el que el juego fue probado. Para mantener esto lo más preciso y consistente posible, aprovechamos la información del sistema proporcionada por Steam.",
+    "intro": "Los reportes son más útiles y creíbles cuando muestran el hardware y software en el que el juego fue probado. Para mantener esto lo más preciso y consistente posible, aprovechamos la información del sistema proporcionada por Steam.",
     "parseFailure": "Análisis fallido. Si estás seguro de haberlo copiado correctamente, por favor, háznoslo saber en Discord.",
     "parseSuccess": "Se ha analizado correctamente la información del sistema!",
     "pasteInstructions": "Pegar información del sistema de Steam aquí",
