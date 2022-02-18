@@ -3,11 +3,16 @@
     "steamDb": "{{subject}} provided by [{{name}}]({{link}}) via [{{partnerName}}]({{partnerLink}})."
   },
   "auth": {
+    "exampleSteamId": "76561999999999999",
     "genericSignIn": "Sign In",
-    "headline": "Steam Authentication",
+    "headline": "Steam Account",
     "loggedInAs": "Logged in as {{username}}",
     "notLoggedIn": "Not Logged In",
+    "steamId": "Steam ID",
+    "steamIdIntro": "Alternatively, provide your [SteamID]({{steamIdLink}}) to [explore your library and wishlist]({{link}}).",
+    "steamLoginIntro": "Log in with Steam for all features including authoring of reports.",
     "steamSignIn": "Sign In With Steam",
+    "topBarLink": "Your Steam Games",
     "unlink": "Unlink Account"
   },
   "content": {
@@ -37,6 +42,9 @@
     "data": "This site uses data from {{name}} as well as data",
     "legal": "This site has no affiliation with Valve Software. All game images and logos are property of their respective owners."
   },
+  "games": {
+    "zeroStateMessage": "No games found"
+  },
   "libraryLoader": {
     "errorLoadingGames": "Error loading games. Please ensure both Profile and Game Details are public on this account!",
     "gameTotal": "{{count}} games in library loaded!",
@@ -59,8 +67,11 @@
     "feedbackPrompt": "Feedback? Let us know on [Discord]({{link}})",
     "filter": "Filter",
     "filteringSettings": "Filtering Settings",
+    "forget": "Forget",
     "games": "Games",
     "hide": "Hide {{what}}",
+    "hour": "hour",
+    "hours": "hours",
     "include": "Include",
     "install": "Install",
     "joinUsPrompt": "Join us on Discord!",
@@ -71,10 +82,12 @@
     "native": "Native",
     "negative": "No",
     "notFound": "Not Found",
+    "notRecommended": "Not Recommended",
     "note": "Note",
     "overall": "Overall",
     "pending": "Pending",
     "preferences": "Preferences",
+    "recommended": "Recommended",
     "provisional": "Provisional",
     "published": "Published",
     "rated": "Rated",
@@ -88,6 +101,7 @@
     "showMore": "Show More",
     "skip": "Skip",
     "tier": "Tier",
+    "tinker": "tinker",
     "total": "Total",
     "unknown": "Unknown",
     "version": "Version"
@@ -150,6 +164,14 @@
     "filteredOutCount": "{{count}} filtered out",
     "filteredOutHeadline": "{{count}} reports do not match your filtering criteria for {{filters}}",
     "superceded": "There is a newer report of this type from this author",
+    "tinkerMethods": {
+      "other": "Other",
+      "launcher": "Launcher",
+      "older": "Switch to older version",
+      "experimental": "Switch to experimental",
+      "customProton": "Custom Proton",
+      "launchOptions": "Set launch options"
+    },
     "zeroStateMessage": "No reports",
     "zeroStateMessageWithFilters": "No reports match your applied filters"
   },

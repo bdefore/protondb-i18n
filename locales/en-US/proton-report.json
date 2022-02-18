@@ -2,10 +2,11 @@
   "appSelection": {
     "caution": "Caution!",
     "helperText": "You may also paste links or an App ID and we will try to find it",
+    "playedNatively": "Did you run the game natively without using Proton?",
     "notFound": "Could not find game with App ID {{query}}. This can happen if it is either inaccurate or if it has: been removed from the Steam store, not listed as a 'game', or not available in your country.",
     "placeholder": "Enter name of a game in your Steam library...",
     "previousReportsExist": "You have previous reports for this game",
-    "runsNativeWarning": "The selected game has published a native Linux version! Please be sure you have not inadvertently run the game natively. Steam does not use Steam Play to run this game by default, but [you can force it to do so]({{link}})."
+    "runsNativeWarning": "The selected game has published a native Linux version! Please be sure you have not inadvertently run the game natively. Steam does not use Proton to run this game by default, but [you can force it to do so]({{link}})."
   },
   "audioFaults": {
     "legend": "Audio",
@@ -41,6 +42,42 @@
     "headline": "That's a bummer!",
     "intro": "You will now proceed with submitting a borked report, but before you do you may want to visit our [Game Troubleshooting FAQ]({{link}}) page."
   },
+  "variant": {
+    "additionalNotes": {
+      "label": "What's it called?"
+    },
+    "legend": "Variant",
+    "options": {
+      "official": {
+        "long": "The one Steam recommends by default",
+        "short": "Official"
+      },
+      "experimental": {
+        "long": "Forced Experimental",
+        "short": "Experimental"
+      },
+      "older": {
+        "long": "Switched to an older version",
+        "short": "Older"
+      },
+      "ge": {
+        "long": "Glorious Eggroll (GE)",
+        "short": "GE"
+      },
+      "native": {
+        "long": "Native. No Proton.",
+        "short": "native"
+      },
+      "notListed": {
+        "long": "Not Listed",
+        "short": "Not Listed"
+      }
+    },
+    "prompt": "What variant of Proton do you use?"
+  },
+  "customProtonVersion": {
+    "label": "Version"
+  },
   "customizationsUsed": {
     "additionalNotes": {
       "label": "Further Details",
@@ -48,6 +85,10 @@
     },
     "legend": "Customizations",
     "options": {
+      "configChange": {
+        "long": "Changed the game's configuration file(s)",
+        "short": "Changed configuration"
+      },
       "customPrefix": {
         "long": "A custom Wine prefix",
         "short": "Custom Prefix"
@@ -64,13 +105,9 @@
         "long": "Media Foundation DLL (mf-install)",
         "short": "Media Foundation DLL"
       },
-      "native2Proton": {
-        "long": "Native2Proton",
-        "short": "Native2Proton"
-      },
       "notListed": {
-        "long": "Not Listed",
-        "short": "Not Listed"
+        "long": "Something else",
+        "short": "Something else"
       },
       "protonfixes": {
         "long": "protonfixes",
@@ -85,7 +122,7 @@
         "short": "winetricks"
       }
     },
-    "prompt": "What customizations have you made?"
+    "prompt": "Are you using any of these common tinkering methods?"
   },
   "duration": {
     "legend": "Duration",
@@ -113,12 +150,9 @@
     },
     "prompt": "For how long have you played?"
   },
-  "extra": {
-    "additionalNotes": {
-      "label": "Extra Notes",
-      "placeholder": "Please add it here."
-    },
-    "prompt": "Is there anything you'd like to add that was not covered in previous questions?"
+  "concludingNotes": {
+    "label": "Concluding Notes",
+    "prompt": "Add here anything extra that you'd like to conclude with at the end of your report."
   },
   "graphicalFaults": {
     "legend": "Graphics",
@@ -224,8 +258,12 @@
     },
     "prompt": "Is the game impacted by anti-cheat software?"
   },
-  "isMultiplayerImportant": {
-    "prompt": "Is multiplayer a crucial part of the value of this game?"
+  "launchOptions": {
+    "label": "Launch Options",
+    "legend": "Launch Options",
+    "placeholder": "(none)",
+    "prompt": "Do you set any launch options?",
+    "helperText": "i.e. PROTON_NO_D3D11=1 %command%"
   },
   "launchFlagsUsed": {
     "additionalNotes": {
@@ -250,17 +288,45 @@
         "long": "Disable Fsync (PROTON_NO_FSYNC)",
         "short": "Disable Fsync"
       },
+      "enableNvapi": {
+        "long": "Enable NVAPI (PROTON_ENABLE_NVAPI)",
+        "short": "Enable NVAPI"
+      },
       "fullscreenIntegerScaling": {
         "long": "Fullscreen Integer Scaling (WINE_FULLSCREEN_INTEGER_SCALING)",
         "short": "Fullscreen Integer Scaling"
+      },
+      "gameDrive": {
+        "long": "Set Game Drive (PROTON_SET_GAME_DRIVE)",
+        "short": "Set Game Drive"
+      },
+      "heapDelayFree": {
+        "long": "Delay freeing some memory (PROTON_HEAP_DELAY_FREE)",
+        "short": "Heap Delay Free"
+      },
+      "hideNvidia": {
+        "long": "Hide Nvidia GPU (PROTON_HIDE_NVIDIA_GPU)",
+        "short": "Hide Nvidia GPU"
       },
       "largeAddressAware": {
         "long": "Large Address Aware (PROTON_FORCE_LARGE_ADDRESS_AWARE)",
         "short": "Large Address Aware"
       },
+      "noWriteWatch": {
+        "long": "Disable support for memory write watches (PROTON_NO_WRITE_WATCH)",
+        "short": "No Write Watch"
+      },
+      "noXim": {
+        "long": "No XIM (PROTON_NO_XIM)",
+        "short": "No XIM"
+      },
       "oldGlString": {
         "long": "Old GL String (PROTON_OLD_GL_STRING)",
         "short": "Old GL String"
+      },
+      "useSeccomp": {
+        "long": "Enable Seccomp (PROTON_USE_SECCOMP)",
+        "short": "Enable Seccomp"
       },
       "useWineD3d11": {
         "long": "Use Wine D3D (PROTON_USE_WINED3D)",
@@ -279,13 +345,9 @@
     },
     "legend": "Launcher",
     "options": {
-      "gamehub": {
-        "long": "Gamehub",
-        "short": "Gamehub"
-      },
-      "lutris": {
-        "long": "Lutris",
-        "short": "Lutris"
+      "bottles": {
+        "long": "Bottles",
+        "short": "Bottles"
       },
       "notListed": {
         "long": "Not Listed",
@@ -298,7 +360,13 @@
     },
     "prompt": "How do you launch the game?"
   },
+  "authoringLanguage": {
+    "prompt": "What language will you write this report in?"
+  },
   "localMultiplayerAppraisal": {
+    "additionalNotes": {
+      "label": "Further Details"
+    },
     "prompt": "How would you rate the local multiplayer functionality? Please evaulate for lag, connectivity or input issues, etc."
   },
   "localMultiplayerAttempted": {
@@ -332,6 +400,9 @@
     }
   },
   "onlineMultiplayerAppraisal": {
+    "additionalNotes": {
+      "label": "Further Details"
+    },
     "prompt": "How would you rate the online multiplayer functionality? Please evaulate for lag, connectivity or input issues, matchingmaking failures etc."
   },
   "onlineMultiplayerAttempted": {
@@ -386,7 +457,7 @@
       "label": "Manual Proton Version",
       "placeholder": "Must be valid Proton version string. Examples: {{examples}}"
     },
-    "prompt": "What version of Proton are you using?"
+    "prompt": "Which version are you using?"
   },
   "saveGameFaults": {
     "legend": "Save Games",
@@ -437,41 +508,38 @@
     "borked": "Borked!",
     "customizations": "Customizations",
     "finalNotes": "Verdict",
-    "gameplay": "Other Potential Issues",
-    "graphics": "Graphics and Performance",
     "multiplayer": "Multiplayer",
+    "technical": "Technical Details",
     "preview": "Preview",
     "setup": "Setup",
-    "stability": "Stability",
     "startup": "Install and Startup",
-    "tinkerCheck": "Report Type",
     "unownedWarning": "Not In Library"
   },
-  "type": {
-    "intro": [
-      "ProtonDB now buckets reports into two types: Steam Play and Tinker.",
-      "Use Steam Play Report to cover the out-of-the-box experience. Install, hit play, and get your game on.",
-      "Use Tinker Report if you have made tweaks or customizations to get the game working.",
-      "For more on the differences, see [this news post]({{link}})."
-    ],
+  "tinkerOverride": {
     "options": {
-      "steamPlay": {
-        "long": "SteamPlay Report",
+      "no": {
+        "long": "Nope - no tinkering here",
         "short": "SteamPlay Report"
       },
-      "tinker": {
-        "long": "Tinker Report",
+      "yes": {
+        "long": "Yes",
         "short": "Tinker Report"
       }
     },
-    "prompt": "What type of report will you write?"
+    "prompt": "Looks like a non-tinker report so far. Have you made any customizations that would warrant this being a Tinker report? [More info]({{link}})"
   },
   "verdict": {
     "additionalNotes": {
       "label": "Summary (max {{count}} chars)",
       "placeholder": "Add a short summary. This will be the headline of your report."
     },
-    "prompt": "Would a typical gamer have an enjoyable experience running this game on Linux with Proton?"
+    "prompt": "Would a typical gamer enjoy playing this game on Linux as you've played it?"
+  },
+  "triedOob": {
+    "prompt": "Your report will be classified as a tinker report. Have you tried playing with Steam and Proton without any tinkering?"
+  },
+  "verdictOob": {
+    "prompt": "Launching straight from Steam, would a typical gamer enjoy playing this game on Linux even without tinkering?"
   },
   "welcome": {
     "headline": "Welcome",

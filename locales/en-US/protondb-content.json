@@ -1,7 +1,4 @@
 {
-  "auth": {
-    "intro": "Logging in with Steam lets you submit reports and use the [Explore page with a Library filter]({{link}}) to limit results to games that you own."
-  },
   "breakdown": {
     "headline": "Popular Games",
     "popularHeadline": "Ratings for {{count}} most popular",
@@ -197,7 +194,8 @@
     "whenMeetingMinimumRequirements": "When Meeting Minimum Requirements"
   },
   "steamAuthor": {
-    "hoursInSteam": "{{count}} hours in Steam",
+    "hoursOverall": "{{time}} overall",
+    "hoursOnLinux": "{{time}} on Linux",
     "timeWithProton": "{{time}} with Proton"
   },
   "suggestions": {
