@@ -1,4 +1,7 @@
 {
+  "attribution": {
+    "steamDb": "{{subject}} proporcionados por [{{name}}]({{link}}) vía [{{partnerName}}]({{partnerLink}})."
+  },
   "auth": {
     "genericSignIn": "Iniciar Sesión",
     "headline": "Autenticación de Steam",
@@ -8,20 +11,29 @@
     "unlink": "Desconectar Cuenta"
   },
   "content": {
-    "followingPost": "Post siguiente",
-    "previousPost": "Post anterior"
+    "followingPost": "Siguiente publicación",
+    "previousPost": "Publicación anterior"
   },
   "contextualInfo": {
+    "dateAdded": "Añadido el {{context}}",
     "fixWanted": "",
     "hoursPlayed": "{{context}} horas jugadas",
     "mostBorked": "",
     "peakPlayers": "{{context}} máximos jugadores",
+    "percentPositive": "{{context}}% valoración positiva",
+    "playerCount": "{{context}} máximos jugadores",
+    "popular": "{{context}} seguidores",
     "positiveRating": "{{context}}% puntuación positiva",
     "protonDbRating": "",
-    "recentReportCount": "{{context}} reportes con las ultimas dos versiones de Proton"
+    "rank": "Valoración {{context}} en Steam",
+    "recentlyImproved": "{{context}} reportes con las últimas dos versiones de Proton",
+    "releaseDate": "Lanzado {{context}}",
+    "userScore": "{{context}}% valoración positiva",
+    "wilsonRating": ""
   },
   "footer": {
-    "description": "{{name}} es un proyecto pasional de [@bdefore]({{link}}) y una dedicada comunidad de reporteros.",
+    "data": "Este sitio utiliza datos de {{name}} así como también datos",
+    "description": "{{name}} es un proyecto pasional de [@bdefore]({{link}}) y una dedicada comunidad de contribuidores.",
     "feedbackPrompt": "¿Tienes sugerencias? ¡Ven y únete en Discord!",
     "legal": "Este sitio no está afiliado con Valve Software. Todas las imágenes y logos de los juegos son propiedad de sus respectivos dueños."
   },
@@ -129,11 +141,12 @@
       "lackReportsByPlayerCount": "Faltan reportes por número de jugadores",
       "lackReportsBySteamDbScore": "Faltan reportes por puntuación de usuario en SteamDB"
     },
-    "notInYourLibrary": "No en tu libreria",
+    "notInYourLibrary": "No en tu librería",
     "yourContributions": "Tus contribuciones"
   },
   "reports": {
     "clear": "Limpiar",
+    "displayExcluded": "Mostrar reportes excluidos",
     "filteredOutCount": "{{count}} filtrados",
     "filteredOutHeadline": "Los {{count}} reportes siguientes no coinciden con tus criterios de filtrado para {{filters}}",
     "superceded": "Hay un reporte más reciente de este tipo para este autor",
@@ -141,6 +154,7 @@
     "zeroStateMessageWithFilters": "No hay reportes que coincidan con tus filtros aplicados"
   },
   "search": {
-    "resultsHeader": "Buscar resultados por {{q}}"
+    "headline": "Buscar por {{q}}",
+    "results": "Resultados"
   }
 }
