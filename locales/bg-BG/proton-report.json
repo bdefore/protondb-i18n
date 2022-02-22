@@ -2,6 +2,7 @@
   "appSelection": {
     "caution": "Внимание!",
     "helperText": "Можеш също така да поставиш линкове или App ID, които ще се опитаме да намерим",
+    "playedNatively": "Играете ли нативно, без нужда от Proton?",
     "notFound": "Не може да бъде намерена игра с App ID {{query}}. Възможна причина може да е неточност или ако: е премахната от магазина Steam, не е посочена като „game“, или не е налична в твоята държава.",
     "placeholder": "Въведи име на игра от твоята библиотека в Steam...",
     "previousReportsExist": "Имате предишни доклади за играта",
@@ -31,7 +32,7 @@
         "short": "Друго"
       },
       "outOfSync": {
-        "long": "Чувства се несинхронизирано с картината",
+        "long": "Несинхронизирано с картината",
         "short": "Несинхронизирано"
       }
     },
@@ -41,6 +42,42 @@
     "headline": "Това е неприятно!",
     "intro": "Предстои да изпратиш доклад за неработеща игра, но преди това е добре да посетиш нашата страница с [често задави въпроси за отстраняве на проблеми]({{link}})."
   },
+  "variant": {
+    "additionalNotes": {
+      "label": "Как се нарича?"
+    },
+    "legend": "Вариант",
+    "options": {
+      "official": {
+        "long": "Версията, която Steam препоръчва по подразбиране",
+        "short": "Официален"
+      },
+      "experimental": {
+        "long": "Експериментален (принудително)",
+        "short": "Експериментален"
+      },
+      "older": {
+        "long": "Превключено към по-стара версия",
+        "short": "По-стара"
+      },
+      "ge": {
+        "long": "Glorious Eggroll (GE)",
+        "short": "GE"
+      },
+      "native": {
+        "long": "Нейтив. Без Proton.",
+        "short": "Нейтив"
+      },
+      "notListed": {
+        "long": "Не е в списъка",
+        "short": "Не е в списъка"
+      }
+    },
+    "prompt": "Кой вариант на Proton използвате?"
+  },
+  "customProtonVersion": {
+    "label": "Версия"
+  },
   "customizationsUsed": {
     "additionalNotes": {
       "label": "Допълнителни подробности",
@@ -48,6 +85,10 @@
     },
     "legend": "Модификации",
     "options": {
+      "configChange": {
+        "long": "Променени конфигурационни файлове на играта",
+        "short": "Променена конфигурация"
+      },
       "customPrefix": {
         "long": "Сменен префикс на Wine",
         "short": "Сменен префикс"
@@ -81,7 +122,7 @@
         "short": "winetricks"
       }
     },
-    "prompt": "Какви промени си направил?"
+    "prompt": "Ползваш ли някой от тези често срещани модификации?"
   },
   "duration": {
     "legend": "Продължителност",
@@ -109,12 +150,9 @@
     },
     "prompt": "Колко дълго си играл?"
   },
-  "extra": {
-    "additionalNotes": {
-      "label": "Допълнителни бележки",
-      "placeholder": "Моля, добави ги тук."
-    },
-    "prompt": "Има ли нещо, което искаш да добавиш и не е покрито от предишните въпроси?"
+  "concludingNotes": {
+    "label": "Заключителни бележки",
+    "prompt": "Напишете тук с всичко допълнително, с което бихте искали да завършите този доклад."
   },
   "graphicalFaults": {
     "legend": "Графични",
@@ -164,8 +202,8 @@
     "legend": "Управление",
     "options": {
       "bounding": {
-        "long": "Bounds were incorrect",
-        "short": "Bounding"
+        "long": "Некоректни граници",
+        "short": "Граници"
       },
       "controllerMapping": {
         "long": "Контролера не е мапнат правилно",
@@ -203,7 +241,7 @@
     "prompt": "Успя ли да инсталираш играта?"
   },
   "isImpactedByAntiCheat": {
-    "legend": "Античийтове",
+    "legend": "Анти-чийтове",
     "options": {
       "battleEye": {
         "long": "BattlEye",
@@ -218,10 +256,14 @@
         "short": "Друго"
       }
     },
-    "prompt": "Влияе ли се играта от античийт софтуер?"
+    "prompt": "Влияе ли се играта от анти-чийт софтуер?"
   },
-  "isMultiplayerImportant": {
-    "prompt": "Мултиплейърът важна част ли е от стойността на тази игра?"
+  "launchOptions": {
+    "label": "Опции за стартиране",
+    "legend": "Опции за стартиране",
+    "placeholder": "(без)",
+    "prompt": "Задавал ли си някакви опции при стартиране?",
+    "helperText": "т.е. PROTON_NO_D3D11=1 %command%"
   },
   "launchFlagsUsed": {
     "additionalNotes": {
@@ -231,32 +273,60 @@
     "legend": "Флагове за пускане",
     "options": {
       "disableD3d10": {
-        "long": "Забранен D3D10 (PROTON_NO_D3D10)",
-        "short": "Забранен D3D10"
+        "long": "Деактивиран D3D10 (PROTON_NO_D3D10)",
+        "short": "Деактивиран D3D10"
       },
       "disableD3d11": {
-        "long": "Забранен D3D11 (PROTON_NO_D3D11)",
-        "short": "Забранен D3D11"
+        "long": "Деактивиран D3D11 (PROTON_NO_D3D11)",
+        "short": "Деактивиран D3D11"
       },
       "disableEsync": {
-        "long": "Забранен Esync (PROTON_NO_ESYNC)",
-        "short": "Забранен Esync"
+        "long": "Деактивиран Esync (PROTON_NO_ESYNC)",
+        "short": "Деактивиран Esync"
       },
       "disableFsync": {
-        "long": "Забранен Fsync (PROTON_NO_FSYNC)",
-        "short": "Забранен Fsync"
+        "long": "Деактивиран Fsync (PROTON_NO_FSYNC)",
+        "short": "Деактивиран Fsync"
+      },
+      "enableNvapi": {
+        "long": "Активиран NVAPI (PROTON_ENABLE_NVAPI)",
+        "short": "Активиран NVAPI"
       },
       "fullscreenIntegerScaling": {
         "long": "Мащабиране на цял екран, използвайки цяло число (WINE_FULLSCREEN_INTEGER_SCALING)",
         "short": "Мащабиране на цял екран, използвайки цяло число"
       },
+      "gameDrive": {
+        "long": "Задаване на устройство на играта (PROTON_SET_GAME_DRIVE)",
+        "short": "Устройство на играта"
+      },
+      "heapDelayFree": {
+        "long": "Забавяне освобождаването на памет (PROTON_HEAP_DELAY_FREE)",
+        "short": "Забавено освобождане на хийпа"
+      },
+      "hideNvidia": {
+        "long": "Скриване на Nvidia GPU (PROTON_HIDE_NVIDIA_GPU)",
+        "short": "Скриване на Nvidia GPU"
+      },
       "largeAddressAware": {
         "long": "Large Address Aware (PROTON_FORCE_LARGE_ADDRESS_AWARE)",
         "short": "Large Address Aware"
       },
+      "noWriteWatch": {
+        "long": "Деактивиране следенето на паметта при запис (PROTON_NO_WRITE_WATCH)",
+        "short": "Без следене при запис"
+      },
+      "noXim": {
+        "long": "Без XIM (PROTON_NO_XIM)",
+        "short": "Без XIM"
+      },
       "oldGlString": {
         "long": "Стар (т.е. по-кратък) низ за GL (PROTON_OLD_GL_STRING)",
         "short": "Стар низ за GL"
+      },
+      "useSeccomp": {
+        "long": "Активиране на Seccomp (PROTON_USE_SECCOMP)",
+        "short": "Активиране на Seccomp"
       },
       "useWineD3d11": {
         "long": "Използване на Wine D3D (PROTON_USE_WINED3D)",
@@ -275,13 +345,9 @@
     },
     "legend": "Стартираща програма",
     "options": {
-      "gamehub": {
-        "long": "Gamehub",
-        "short": "Gamehub"
-      },
-      "lutris": {
-        "long": "Lutris",
-        "short": "Lutris"
+      "bottles": {
+        "long": "Bottles",
+        "short": "Bottles"
       },
       "notListed": {
         "long": "Не е посочено",
@@ -294,7 +360,13 @@
     },
     "prompt": "Как стартираш тази игра?"
   },
+  "authoringLanguage": {
+    "prompt": "На какъв език желаеш да напишеш този доклад?"
+  },
   "localMultiplayerAppraisal": {
+    "additionalNotes": {
+      "label": "Допълнителни детайли"
+    },
     "prompt": "Желаеш ли да оцениш функцията за локален мултиплейър? Оцени за лаг, връзка, проблеми с управлението и др."
   },
   "localMultiplayerAttempted": {
@@ -328,6 +400,9 @@
     }
   },
   "onlineMultiplayerAppraisal": {
+    "additionalNotes": {
+      "label": "Допълнителни детайли"
+    },
     "prompt": "Как ще оцениш онлайн мултиплейъра? Моля, оцени за лаг, връзка, проблеми с управлението, грешки при осъществяване на мачовете, и др."
   },
   "onlineMultiplayerAttempted": {
@@ -433,34 +508,25 @@
     "borked": "Неработещо!",
     "customizations": "Модификации",
     "finalNotes": "Заключение",
-    "gameplay": "Други потенциални проблеми",
-    "graphics": "Графика и производителност",
     "multiplayer": "Мултиплейър",
+    "technical": "Технически детайли",
     "preview": "Предварителен преглед",
     "setup": "Настройка",
-    "stability": "Стабилност",
     "startup": "Инсталация и стартиране",
-    "tinkerCheck": "Тип доклад",
     "unownedWarning": "Не е в библиотеката"
   },
-  "type": {
-    "intro": [
-      "ProtonDB сега разделя докладите на два типа: Steam Play и Tinker.",
-      "Използвай Steam Play, за да докладваш стандартното протичане пускането на игра. Инсталираш, натискаш „Пускане“, и след това започваш да играеш.",
-      "Използвай Tinker тип, ако си правил някакви доработки, модификации и др., за да подкараш играта.",
-      "За повече информация относно разликите, виж [тази публикация]({{link}})."
-    ],
+  "tinkerOverride": {
     "options": {
-      "steamPlay": {
-        "long": "SteamPlay Доклад",
-        "short": "SteamPlay Доклад"
+      "no": {
+        "long": "Не - без бърникане",
+        "short": "SteamPlay доклад"
       },
-      "tinker": {
-        "long": "Tinker Доклад",
-        "short": "Tinker Доклад"
+      "yes": {
+        "long": "Да",
+        "short": "Доклад с бърникане"
       }
     },
-    "prompt": "Какъв тип доклад искаш да напишеш?"
+    "prompt": "Изглежда като доклад без допълнителни промени. Правил ли си някакви бърникания, или изобщо промени? [Повече информация]({{link}})"
   },
   "verdict": {
     "additionalNotes": {
@@ -468,6 +534,12 @@
       "placeholder": "Добави кратко резюме. Това ще е заглавието на твоя доклад."
     },
     "prompt": "Дали един типичен геймър би имал приятни моменти с играта, стартирайки я под Linux с Proton?"
+  },
+  "triedOob": {
+    "prompt": "Докладът ти ще бъде класифициран като такъв с бърникания. Опита ли да играеш с Steam и Proton без нужда от бърникане?"
+  },
+  "verdictOob": {
+    "prompt": "Стартирайки директно от Steam, един типичен геймър би ли се зарадвал да играе играта под Linux, без да му е необходимо допълнително бърникане?"
   },
   "welcome": {
     "headline": "Добре дошли",

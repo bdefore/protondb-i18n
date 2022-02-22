@@ -1,10 +1,18 @@
 {
+  "attribution": {
+    "steamDb": "{{subject}} осигурено от [{{name}}]({{link}}) чрез [{{partnerName}}]({{partnerLink}})."
+  },
   "auth": {
+    "exampleSteamId": "76561999999999999",
     "genericSignIn": "Вписване",
-    "headline": "Steam автентикация",
+    "headline": "Steam профил",
     "loggedInAs": "Вписан като {{username}}",
     "notLoggedIn": "Не си вписан",
+    "steamId": "Steam ID",
+    "steamIdIntro": "Алтернативно, дайте своя [SteamID]({{steamIdLink}}), за да [разгледате своята библиотека и списък с желания]({{link}}).",
+    "steamLoginIntro": "Логни се с със Steam за всички екстри, включително изготвяне на доклади.",
     "steamSignIn": "Вписване с Steam",
+    "topBarLink": "Твоите игри в Steam",
     "unlink": "Отпиши акаунта"
   },
   "content": {
@@ -12,18 +20,30 @@
     "previousPost": "Предишна публикация"
   },
   "contextualInfo": {
+    "dateAdded": "Добавено {{context}}",
     "fixWanted": "",
     "hoursPlayed": "{{context}} изиграни часа",
     "mostBorked": "",
     "peakPlayers": "{{context}} играчи в пика",
+    "playerCount": "{{context}} играчи в пика",
+    "percentPositive": "{{context}}% положителен рейтинг",
     "positiveRating": "{{context}}% положителен рейтинг",
     "protonDbRating": "",
-    "recentReportCount": "{{context}} доклада с последните две версии на Proton"
+    "rank": "Класиран {{context}} в Steam",
+    "recentlyImproved": "{{context}} доклада с последните две версии на Proton",
+    "recentReportCount": "{{context}} доклада с последните две версии на Proton",
+    "releaseDate": "Издаване {{context}}",
+    "userScore": "{{context}}% положителен рейтинг",
+    "wilsonRating": ""
   },
   "footer": {
     "description": "{{name}} е проект на [@bdefore]({{link}}) и общност от докладващи.",
     "feedbackPrompt": "Обратна връзка? Присъедини се към нас в Discord!",
+    "data": "Този сайт използва също информация от {{name}} като допълнителни данни",
     "legal": "Този сайт няма връзка с Valve Software. Всички гейм изображения и логота са притежание на техните собственици."
+  },
+  "games": {
+    "zeroStateMessage": "Не са намерени игри"
   },
   "libraryLoader": {
     "errorLoadingGames": "Грешка при зареждането на игри. Моля, увери се че както „Профилът ми“, така и „Игрални подробности“ са публични за този акаунт!",
@@ -47,8 +67,11 @@
     "feedbackPrompt": "Обратна връзка? Уведоми ни на [Discord]({{link}})",
     "filter": "Филтър",
     "filteringSettings": "Настройки за филтриране",
+    "forget": "Забравяне",
     "games": "Игри",
     "hide": "Скрий {{what}}",
+    "hour": "час",
+    "hours": "часа",
     "include": "Включи",
     "install": "Инсталиране",
     "joinUsPrompt": "Присъедини се на Discord!",
@@ -59,10 +82,12 @@
     "native": "Нейтив",
     "negative": "Не",
     "notFound": "Не е намерено",
+    "notRecommended": "Не се препоръчва",
     "note": "Бележка",
     "overall": "Общо",
     "pending": "В изчакване",
     "preferences": "Предпочитания",
+    "recommended": "Препоръчва се",
     "provisional": "Предварителен",
     "published": "Публикувано",
     "rated": "Оценен",
@@ -76,6 +101,7 @@
     "showMore": "Покажи повече",
     "skip": "Пропускане",
     "tier": "Ниво",
+    "tinker": "Бърникане",
     "total": "Общо",
     "unknown": "Неизвестно",
     "version": "Версия"
@@ -134,13 +160,23 @@
   },
   "reports": {
     "clear": "Изчистване",
+    "displayExcluded": "Показване на изключени доклади",
     "filteredOutCount": "{{count}} филтрирани",
     "filteredOutHeadline": "Следните {{count}} доклада не съвпадат с твоите критерии за търсене за {{filters}}",
     "superceded": "Има по-нов доклад за този тип от автора",
+    "tinkerMethods": {
+      "other": "Друго",
+      "launcher": "Стартираща програма",
+      "older": "Към по-стара версия",
+      "experimental": "Към експериментална",
+      "customProton": "Нестандартна версия Proton",
+      "launchOptions": "С опции за стартиране"
+    },
     "zeroStateMessage": "Няма доклади",
     "zeroStateMessageWithFilters": "Няма доклади, съвпадащи със зададените филтри"
   },
   "search": {
-    "resultsHeader": "Търсене за {{q}}"
+    "resultsHeader": "Търсене за {{q}}",
+    "results": "Резултати"
   }
 }
