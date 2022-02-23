@@ -1,7 +1,4 @@
 {
-  "auth": {
-    "intro": "使用 Steam 登入來您的提交回報。您還可以在 [探索頁面使用遊戲庫過濾器]({{link}}) 讓結果只顯示您擁有的遊戲。"
-  },
   "breakdown": {
     "headline": "受歡迎的遊戲",
     "popularHeadline": "Top {{count}} 受歡迎遊戲評分",
@@ -21,13 +18,21 @@
   },
   "explore": {
     "headlines": {
+      "antiCheat": "使用反作弊程式",
+      "dateAdded": "加入日期",
       "fixWanted": "期待修復",
       "highestRated": "SteamDB 高分",
       "hoursPlayed": "遊戲時間",
       "inLibrary": "在我的遊戲庫中：",
+      "inWishlist": "在白名單內",
       "mostBorked": "最多不可玩回報",
       "mostPopular": "最受歡迎",
+      "percentPositive": "在商店中受好評",
+      "popular": "最多追蹤者",
+      "releaseDate": "依照發佈日期",
+      "rank": "最受歡迎",
       "recentlyImproved": "最近改善",
+      "userScore": "良好的回覆內容",
       "wellRatedHere": "高評分"
     },
     "layout": "布局",
@@ -35,25 +40,37 @@
     "notLoggedIn": "需要關聯 Steam ID 以載入遊戲庫。請訪問您的 [個人頁面]({{link}}) 進行關聯。",
     "poweredBy": "Powered by",
     "sorts": {
+      "dateAdded": "最近加入",
       "fixWanted": "期待修復",
       "hoursPlayed": "遊戲時間",
       "mostBorked": "最多不可玩回報",
+      "percentPositive": "好評比例",
+      "popular": "受歡迎程度",
       "playerCount": "玩家數量",
+      "rank": "最受歡迎",
       "recentlyImproved": "最近改善",
+      "releaseDate": "發佈日期",
       "userScore": "用戶評分",
       "wilsonRating": "ProtonDB 評分"
     },
+    "tagData": "標籤資訊",
     "toggles": {
+      "antiCheat": "反作弊程式",
+      "deckVerified": "Deck 認證",
       "includeNative": "包含原生",
       "lackReports": "缺乏回報",
-      "restrictToLibrary": "庫",
+      "restrictToLibrary": "遊戲庫",
       "untested": "缺乏回報",
       "userTags": "用戶標籤",
       "whitelisted": "白名單"
+      "wishlisted": "願望清單"
     }
   },
   "filters": {
     "questions": {
+      "query": {
+        "label": "佇列"
+      },
       "cpu": {
         "label": "中央處理器"
       },
@@ -73,6 +90,21 @@
     "infoNotFound": "無法獲取 App ID：{{entry}} 的相關訊息。遊戲被從商店下架時會發生這種情況。",
     "minimumRequirements": "最低配置要求",
     "nativelySupports": "原生支持"
+    "notices": {
+      "antiCheat": {
+        "headline": "多人遊戲支援",
+        "battlEye": {
+          "explanation": "此遊戲已採用 [BattlEye](https://www.battleye.com)。BattlEye [可在 Linux 運行](https://twitter.com/TheBattlEye/status/1441477816311291906)，但多人遊戲功能取決於開發者是否啟用"
+        },
+        "eac": {
+          "explanation": "此遊戲已採用 [Easy Anti-Cheat](https://www.easy.ac)。EAC 已 [部分支援 Linux](https://dev.epicgames.com/en-US/news/epic-online-services-launches-anti-cheat-support-for-linux-mac-and-steam-deck)，但多人遊戲功能取決於開發者是否啟用."
+        }
+      },
+      "nativeDiscrepancy": {
+        "headline": "原生支援",
+        "explanation": "雖然此遊戲有 Linux 原生版本，Steam 不將它列為被 Linux 支援。這可能發生在遊戲為非官方、未完成、或版本不合。您可能需要 [強迫 Steam 為所有遊戲啟用 Proton](/help/troubleshooting-faq#how-do-i-run-a-game-with-proton-even-though-it-has-a-native-linux-version) 來正確執行遊戲."
+      }
+    }
   },
   "home": {
     "getStartedLinks": [
@@ -89,8 +121,15 @@
     "sampleGames": "以下遊戲雖然尚未在官方的白名單中，但 ProtonDB 已經收到了許多這些遊戲的白金等級的回報",
     "search": "搜索遊戲…",
     "stats": {
+      "atLeastOneRecommends": "至少有一人推薦",
+      "atLeastTwoRecommend": "至少有兩人推薦",
+      "atLeastThreeRecommend": "至少有三人或更多人推薦",
+      "deckVerifiedPlayable": "Deck 認證（可玩或已認證）",
+      "deckVerified": "Deck 認證",
       "gamesReported": "已回報的遊戲",
+      "gamesWithReports": "有回報的遊戲",
       "gamesWork": "可運行的遊戲",
+      "gamesWorkExplanation": "至少有一個讚或白金（舊評價系統）回報",
       "reportsWritten": "測試回報"
     },
     "theImpact": {
@@ -153,7 +192,8 @@
     "whenMeetingMinimumRequirements": "符合最低配置要求的情況下"
   },
   "steamAuthor": {
-    "hoursInSteam": "在 Steam 度過了 {{count}} 小時",
+    "hoursOverall": "總共遊玩 {{time}}",
+    "hoursOnLinux": "在 Linux 遊玩 {{time}}",
     "timeWithProton": "使用 Proton 遊玩 {{time}}"
   },
   "suggestions": {
