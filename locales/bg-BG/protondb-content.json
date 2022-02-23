@@ -1,7 +1,4 @@
 {
-  "auth": {
-    "intro": "Вписването чрез Steam позволява да изпращаш доклади и да използваш [страницата „Преглед“ с филтър „Библиотека“]({{link}}), ограничавайки резултите само до игрите, които имаш."
-  },
   "breakdown": {
     "headline": "Популярни игри",
     "popularHeadline": "Рейтинги за {{count}} най-популярни игри",
@@ -21,39 +18,58 @@
   },
   "explore": {
     "headlines": {
+      "antiCheat": "Използва анти-чийт система",
+      "dateAdded": "Наскоро добавено",
       "fixWanted": "Нужда от поправки",
       "highestRated": "Най-високо оценени на SteamDB",
       "hoursPlayed": "Изиграни часове",
       "inLibrary": "В Библиотека",
+      "inWishlist": "В Желания",
       "mostBorked": "Най-много доклади за неработещи",
       "mostPopular": "Най-популярни",
+      "percentPositive": "Добре оценено в магазина",
+      "popular": "Най-много последователи",
+      "releaseDate": "По дата на издаване",
+      "rank": "Най-популярно",
       "recentlyImproved": "Наскоро подобрени",
-      "wellRatedHere": "Добре оценен тук"
+      "userScore": "Добре оценени",
+      "wellRatedHere": "Добре оценени тук"
     },
     "layout": "Оформление",
     "loadError": "Грешка при зареждането на игри!",
     "notLoggedIn": "Не може да се зареди библиотека без Steam ID. Посети своя [Профил]({{link}}), за да добавиш такъв.",
-    "poweredBy": "Задвижван от",
     "sorts": {
+      "dateAdded": "Наскоро добавени",
       "fixWanted": "Нужда от поправки",
       "hoursPlayed": "Изиграни часове",
       "mostBorked": "Най-много неработещи",
+      "percentPositive": "Процент позитивни",
+      "popular": "Популярни",
       "playerCount": "Брой играчи",
+      "rank": "Най-популярни",
       "recentlyImproved": "Наскоро подобрени",
+      "releaseDate": "Дата на издаване",
       "userScore": "Потребителски оценки",
       "wilsonRating": "Оценка от ProtonDB"
     },
+    "tagData": "Тагване",
     "toggles": {
+      "antiCheat": "Анти-чийт",
+      "deckVerified": "Потвърден за Deck",
       "includeNative": "Нейтив поддръжка",
       "lackReports": "Недостатъчно доклади",
       "restrictToLibrary": "Библиотека",
       "untested": "Без тестове",
       "userTags": "Потребителски тагове",
-      "whitelisted": "В белия списък"
+      "whitelisted": "В белия списък",
+      "wishlisted": "В желания"
     }
   },
   "filters": {
     "questions": {
+      "query": {
+        "label": "Запитване"
+      },
       "cpu": {
         "label": "CPU"
       },
@@ -65,6 +81,9 @@
       },
       "type": {
         "label": "Тип"
+      },
+      "persist": {
+        "prompt": "Запазване за целия сайт?"
       }
     }
   },
@@ -72,7 +91,22 @@
     "githubIssueSearch": "Потърси в Github Issue",
     "infoNotFound": "Не може да се извлече информация за App ID: {{entry}}. Това може да се случи, ако играта бъде премахната от магазина.",
     "minimumRequirements": "Минимални изисквания",
-    "nativelySupports": "Нативна поддръжка"
+    "nativelySupports": "Нативна поддръжка",
+    "notices": {
+      "antiCheat": {
+        "headline": "Поддръжка за мултиплейър",
+        "battlEye": {
+          "explanation": "Тази игра е известна с използването на [BattlEye](https://www.battleye.com). BattlEye [може да се използва в Linux](https://twitter.com/TheBattlEye/status/1441477816311291906), но мултиплейър поддръжката варира в зависимост от това кой разработчик е направил импелементацията."
+        },
+        "eac": {
+          "explanation": "Тази игра е известна с използването на [Easy Anti-Cheat](https://www.easy.ac). EAC има [ограничена поддръжка за Linux](https://dev.epicgames.com/en-US/news/epic-online-services-launches-anti-cheat-support-for-linux-mac-and-steam-deck), но мултиплейър поддръжката варира в зависимост от това кой разработчик е направил импелементацията."
+        }
+      },
+      "nativeDiscrepancy": {
+        "headline": "Нейтив поддръжка",
+        "explanation": "Въпреки че тази игра разполага с Linux версия, Steam не я показва като поддържаща Linux. Обикновено това се случва, ако играта прижетава неофициален, неподдържан или незавършен билд. Вероятно е необходимо да [принудите Steam да пусне играта чрез Proton](/help/troubleshooting-faq#how-do-i-run-a-game-with-proton-even-though-it-has-a-native-linux-version) за да се стартира правилно."
+      }
+    }
   },
   "home": {
     "getStartedLinks": [
@@ -89,9 +123,15 @@
     "sampleGames": "Тук има кратък списък на някои популярни игри, които официално не са в белия списък, но са получили оценка Платина от докладите в ProtonDB",
     "search": "Търси за игра...",
     "stats": {
+      "atLeastOneRecommends": "препоръчани от поне един",
+      "atLeastTwoRecommend": "препоръчани от двама или повече",
+      "atLeastThreeRecommend": "препоръчани от трима и повече",
+      "deckVerifiedPlayable": "потвърдени за deck (официално или може да се играе)",
+      "deckVerified": "потвърдени за deck",
       "gamesReported": "докладвани игри",
+      "gamesWithReports": "игри с доклади",
       "gamesWork": "работещи игри",
-      "gamesWorkExplanation": "Има поне един палец нагоре или доклад с Платина",
+      "gamesWorkExplanation": "Има поне един палец нагоре, или Платина доклад (остарял)",
       "reportsWritten": "написани доклади"
     },
     "theImpact": {
@@ -154,7 +194,8 @@
     "whenMeetingMinimumRequirements": "Когато покриват минималните изисквания"
   },
   "steamAuthor": {
-    "hoursInSteam": "{{count}} часа в Steam",
+    "hoursInSteam": "{{time}} общо",
+    "hoursOnLinux": "{{time}} под Linux",
     "timeWithProton": "{{time}} с Proton"
   },
   "suggestions": {
