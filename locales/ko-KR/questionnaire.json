@@ -1,0 +1,27 @@
+{
+  "genericFollowUpPrompt": "어떤 종류의 문제입니까?",
+  "misc": {
+    "answerRequired": "답변 필요",
+    "answerRequiredWhenNotListed": "목록에 없음 선택시 답변 필요",
+    "back": "이전",
+    "invalidGeVersion": "GE 버전 문자열 잘못됨. '{major}.{minor}-ge-{patch}'을 포함 해야합니다. 예시: '7.2-GE-2'",
+    "error": "에러!",
+    "markdownSupportNotice": "마크다운 지원됨",
+    "maxChars": "Max {{count}} chars",
+    "maxChars": "최대 {{count}} 문자",
+    "next": "다음",
+    "submission": {
+      "error": "There was an error during submission and that shouldn't happen. If your connection is active and you still cannot submit, please let us know!",
+      "error": "등록 중에 에러가 발생했습니다. 이는 있어서는 안될 일입니다. 연결이 정상적임에도 등록이 불가능한경우, 우리에게 연락해주세요!",
+      "note": "Please note that new reports will be in a pending state until the next content refresh. You can view your contributions on your [Profile]({{link}})",
+      "note": "다음 컨텐츠가 새로고침 될때 까지 새로운 리포트는 대기 상태일 것입니다. [프로필]({{link}})에서 기여하신 것들을 볼 수 있습니다.",
+      "success": "Successfully Submitted",
+      "success": "성공적으로 등록됨",
+      "thanks": "Thanks for your contribution to {{siteName}}",
+      "thanks": "{{siteName}}에 기여해주셔서 감사합니다"
+    },
+    "submit": "등록",
+    "tooLong": "Too long",
+    "tooLong": "너무 깁니다"
+  }
+}
