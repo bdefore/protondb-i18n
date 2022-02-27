@@ -2,6 +2,7 @@
   "appSelection": {
     "caution": "注意！",
     "helperText": "您也可以通過貼上鏈結或 App ID 找到遊戲",
+    "playedNatively": "您是否沒用 Proton 來運行原生版本的遊戲？",
     "notFound": "無法找到 App ID 為 {{query}} 的遊戲。有可能是輸入錯誤或者以下原因導致的：已從 Steam 商店下架、不在「遊戲」分類中或該遊戲在您的區域不可用。",
     "placeholder": "輸入您 Steam 庫中的一個遊戲名稱……",
     "previousReportsExist": "您已提交過該遊戲的回報",
@@ -43,11 +44,51 @@
   },
   "customizationsUsed": {
     "additionalNotes": {
-      "label": "更多細節",
-      "placeholder": "詳細解釋或者部落格和 Github Repository"
+      "label": "更多細節"
     },
     "legend": "調整",
     "options": {
+      "official": {
+        "long": "Steam 預設推薦",
+        "short": "官方"
+      },
+      "experimental": {
+        "long": "強制使用測試版",
+        "short": "測試版"
+      },
+      "older": {
+        "long": "切換到較舊版本",
+        "short": "舊版"
+      },
+      "ge": {
+        "long": "Glorious Eggroll (GE)",
+        "short": "GE"
+      },
+      "native": {
+        "long": "原生非 Proton。",
+        "short": "原生"
+      },
+      "notListed": {
+        "long": "沒列出來",
+        "short": "沒列出來"
+      }
+    },
+    "prompt": "您做了哪些自訂？"
+  },
+  "customProtonVersion": {
+    "label": "版本"
+  },
+  "customizationsUsed": {
+    "additionalNotes": {
+      "label": "Further Details",
+      "placeholder": "Explanation or link to blog post or Github repository"
+    },
+    "legend": "調整",
+    "options": {
+      "configChange": {
+        "long": "更改遊戲設定檔",
+        "short": "更改遊戲設定"
+      },
       "customPrefix": {
         "long": "一個自訂的 Wine 目錄",
         "short": "自訂的目錄"
@@ -60,9 +101,9 @@
         "long": "Lutris 安裝腳本",
         "short": "Lutris"
       },
-      "native2Proton": {
-        "long": "Native2Proton",
-        "short": "Native2Proton"
+      "mediaFoundation": {
+        "long": "Media Foundation DLL (mf-install)",
+        "short": "Media Foundation DLL"
       },
       "notListed": {
         "long": "未列出",
@@ -81,7 +122,7 @@
         "short": "winetricks"
       }
     },
-    "prompt": "您做了哪些自訂？"
+    "prompt": "您用了以上哪些方法自訂？"
   },
   "duration": {
     "legend": "時長",
@@ -109,12 +150,9 @@
     },
     "prompt": "您玩了該遊戲多久？"
   },
-  "extra": {
-    "additionalNotes": {
-      "label": "額外說明",
-      "placeholder": "請在這輸入。"
-    },
-    "prompt": "您是否有其他前面沒有涉及到的内容想要說明？"
+  "concludingNotes": {
+    "label": "總結",
+    "prompt": "在報告最後加入總結。"
   },
   "graphicalFaults": {
     "legend": "畫面問題",
@@ -220,8 +258,12 @@
     },
     "prompt": "是否受到反作弊軟體的影響？"
   },
-  "isMultiplayerImportant": {
-    "prompt": "多人遊戲是否是該遊戲的重點？"
+  "launchOptions": {
+    "label": "啟動選項",
+    "legend": "啟動選項",
+    "placeholder": "（無）",
+    "prompt": "您是否有設定任何啟動選項",
+    "helperText": "例如：PROTON_NO_D3D11=1 %command%"
   },
   "launchFlagsUsed": {
     "additionalNotes": {
@@ -246,17 +288,45 @@
         "long": "關閉 Fsync (PROTON_NO_FSYNC)",
         "short": "關閉 Fsync"
       },
+      "enableNvapi": {
+        "long": "啟用 NVAPI (PROTON_ENABLE_NVAPI)",
+        "short": "啟用 NVAPI"
+      },
       "fullscreenIntegerScaling": {
         "long": "全螢幕整數縮放 (WINE_FULLSCREEN_INTEGER_SCALING)",
         "short": "全螢幕整數縮放"
+      },
+      "gameDrive": {
+        "long": "設定遊戲驅動 (PROTON_SET_GAME_DRIVE)",
+        "short": "設定遊戲驅動"
+      },
+      "heapDelayFree": {
+        "long": "延後釋放記憶體 (PROTON_HEAP_DELAY_FREE)",
+        "short": "Heap Delay Free"
+      },
+      "hideNvidia": {
+        "long": "隱藏 Nvidia 顯示卡 (PROTON_HIDE_NVIDIA_GPU)",
+        "short": "隱藏 Nvidia 顯示卡"
       },
       "largeAddressAware": {
         "long": "Large Address Aware (PROTON_FORCE_LARGE_ADDRESS_AWARE)",
         "short": "Large Address Aware"
       },
+      "noWriteWatch": {
+        "long": "關閉支援記憶體寫入監控 (PROTON_NO_WRITE_WATCH)",
+        "short": "無寫入監控"
+      },
+      "noXim": {
+        "long": "無 XIM (PROTON_NO_XIM)",
+        "short": "無 XIM"
+      },
       "oldGlString": {
         "long": "舊 GL 字串 (PROTON_OLD_GL_STRING)",
         "short": "舊 GL 字串"
+      },
+      "useSeccomp": {
+        "long": "啟用 Seccomp (PROTON_USE_SECCOMP)",
+        "short": "啟用 Seccomp"
       },
       "useWineD3d11": {
         "long": "使用 Wine D3D (PROTON_USE_WINED3D)",
@@ -275,13 +345,9 @@
     },
     "legend": "啟動器",
     "options": {
-      "gamehub": {
-        "long": "Gamehub",
-        "short": "Gamehub"
-      },
-      "lutris": {
-        "long": "Lutris",
-        "short": "Lutris"
+      "bottles": {
+        "long": "Bottles",
+        "short": "Bottles"
       },
       "notListed": {
         "long": "未列出",
@@ -294,7 +360,13 @@
     },
     "prompt": "您是如何啟動遊戲的？"
   },
+  "authoringLanguage": {
+    "prompt": "您會以什麼語言來回報？"
+  },
   "localMultiplayerAppraisal": {
+    "additionalNotes": {
+      "label": "更多細節"
+    },
     "prompt": "您是否想為區網多人遊戲功能評分？請評估延遲、網路或輸入問題等等。"
   },
   "localMultiplayerAttempted": {
@@ -328,6 +400,9 @@
     }
   },
   "onlineMultiplayerAppraisal": {
+    "additionalNotes": {
+      "label": "更多細節"
+    },
     "prompt": "您是否想為線上多人遊戲功能評分？請評估延遲、網路或輸入問題等等。"
   },
   "onlineMultiplayerAttempted": {
@@ -433,34 +508,25 @@
     "borked": "不可玩！",
     "customizations": "自訂",
     "finalNotes": "意見",
-    "gameplay": "其他可能問題",
-    "graphics": "圖形和效能",
     "multiplayer": "多人遊戲",
     "preview": "預覽",
     "setup": "配置",
     "stability": "穩定性",
     "startup": "安裝與運行",
-    "tinkerCheck": "回報類型",
     "unownedWarning": "不在遊戲庫中"
   },
-  "type": {
-    "intro": [
-      "ProtonDB 目前將回報分成兩類：Steam Play 和 Tinker。",
-      "使用 Steam Play 回報來描述「開箱」遊戲體驗。安裝，然後直接開始遊戲。",
-      "使用 Tinker 回報，如果您透過額外的調整或設定來使遊戲運行。",
-      "關於二者區别的更多内容，請查看 [這篇文章（英文）]({{link}})。"
-    ],
+  "tinkerOverride": {
     "options": {
-      "steamPlay": {
-        "long": "SteamPlay 回報",
+      "no": {
+        "long": "不 - 這不用手動調整",
         "short": "SteamPlay 回報"
       },
-      "tinker": {
-        "long": "Tinker 回報",
-        "short": "Tinker 回報"
+      "yes": {
+        "long": "是",
+        "short": "手動調整回報"
       }
     },
-    "prompt": "您將提交的是什麼類型的回報？"
+    "prompt": "看來目前無手動調整的回報。您是否做了哪些手動調整來保證這是個手動調整回報呢？[更多資訊]({{link}})"
   },
   "verdict": {
     "additionalNotes": {
@@ -468,6 +534,12 @@
       "placeholder": "添加一個簡要的總結。這將成為該回報的標題。"
     },
     "prompt": "一個典型的遊戲玩家是否可以通過在 Linux 使用 Proton 來運行該遊戲並獲得愉快的遊戲體驗？"
+  },
+  "triedOob": {
+    "prompt": "您的回報將會被認定為手動調整回報。您是否嘗試過不手動調整只用 Steam 與 Proton 來遊玩呢？"
+  },
+  "verdictOob": {
+    "prompt": "如果直接從 Steam 啟動，玩家能夠無手動設定的情況下遊玩遊戲嗎？"
   },
   "welcome": {
     "headline": "歡迎",
