@@ -38,7 +38,6 @@
     "layout": "布局",
     "loadError": "無法載入遊戲！",
     "notLoggedIn": "需要關聯 Steam ID 以載入遊戲庫。請訪問您的 [個人頁面]({{link}}) 進行關聯。",
-    "poweredBy": "Powered by",
     "sorts": {
       "dateAdded": "最近加入",
       "fixWanted": "期待修復",
@@ -62,7 +61,7 @@
       "restrictToLibrary": "遊戲庫",
       "untested": "缺乏回報",
       "userTags": "用戶標籤",
-      "whitelisted": "白名單"
+      "whitelisted": "白名單",
       "wishlisted": "願望清單"
     }
   },
@@ -82,6 +81,9 @@
       },
       "type": {
         "label": "類型"
+      },
+      "persist": {
+        "prompt": "套用到全網站？"
       }
     }
   },
@@ -89,7 +91,7 @@
     "githubIssueSearch": "搜索 Github Issue",
     "infoNotFound": "無法獲取 App ID：{{entry}} 的相關訊息。遊戲被從商店下架時會發生這種情況。",
     "minimumRequirements": "最低配置要求",
-    "nativelySupports": "原生支持"
+    "nativelySupports": "原生支持",
     "notices": {
       "antiCheat": {
         "headline": "多人遊戲支援",
