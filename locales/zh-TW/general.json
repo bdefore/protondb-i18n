@@ -176,7 +176,7 @@
     "zeroStateMessageWithFilters": "沒有回報與您設定的過濾器匹配"
   },
   "search": {
-    "resultsHeader": "{{q}} 的搜尋結果"
+    "resultsHeader": "{{q}} 的搜尋結果",
     "results": "結果"
   }
 }

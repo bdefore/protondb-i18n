@@ -2,9 +2,9 @@
   "appSelection": {
     "caution": "Caution!",
     "helperText": "You may also paste links or an App ID and we will try to find it",
-    "playedNatively": "Did you run the game natively without using Proton?",
     "notFound": "Could not find game with App ID {{query}}. This can happen if it is either inaccurate or if it has: been removed from the Steam store, not listed as a 'game', or not available in your country.",
     "placeholder": "Enter name of a game in your Steam library...",
+    "playedNatively": "Did you run the game natively without using Proton?",
     "previousReportsExist": "You have previous reports for this game",
     "runsNativeWarning": "The selected game has published a native Linux version! Please be sure you have not inadvertently run the game natively. Steam does not use Proton to run this game by default, but [you can force it to do so]({{link}})."
   },
@@ -38,42 +38,16 @@
     },
     "prompt": "Did you experience any problems with audio?"
   },
+  "authoringLanguage": {
+    "prompt": "What language will you write this report in?"
+  },
   "borked": {
     "headline": "That's a bummer!",
     "intro": "You will now proceed with submitting a borked report, but before you do you may want to visit our [Game Troubleshooting FAQ]({{link}}) page."
   },
-  "variant": {
-    "additionalNotes": {
-      "label": "What's it called?"
-    },
-    "legend": "Variant",
-    "options": {
-      "official": {
-        "long": "The one Steam recommends by default",
-        "short": "Official"
-      },
-      "experimental": {
-        "long": "Forced Experimental",
-        "short": "Experimental"
-      },
-      "older": {
-        "long": "Switched to an older version",
-        "short": "Older"
-      },
-      "ge": {
-        "long": "Glorious Eggroll (GE)",
-        "short": "GE"
-      },
-      "native": {
-        "long": "Native. No Proton.",
-        "short": "native"
-      },
-      "notListed": {
-        "long": "Not Listed",
-        "short": "Not Listed"
-      }
-    },
-    "prompt": "What variant of Proton do you use?"
+  "concludingNotes": {
+    "label": "Concluding Notes",
+    "prompt": "Add here anything extra that you'd like to conclude with at the end of your report."
   },
   "customProtonVersion": {
     "label": "Version"
@@ -149,10 +123,6 @@
       }
     },
     "prompt": "For how long have you played?"
-  },
-  "concludingNotes": {
-    "label": "Concluding Notes",
-    "prompt": "Add here anything extra that you'd like to conclude with at the end of your report."
   },
   "graphicalFaults": {
     "legend": "Graphics",
@@ -258,13 +228,6 @@
     },
     "prompt": "Is the game impacted by anti-cheat software?"
   },
-  "launchOptions": {
-    "label": "Launch Options",
-    "legend": "Launch Options",
-    "placeholder": "(none)",
-    "prompt": "Do you set any launch options?",
-    "helperText": "i.e. PROTON_NO_D3D11=1 %command%"
-  },
   "launchFlagsUsed": {
     "additionalNotes": {
       "label": "Further Details",
@@ -339,6 +302,13 @@
     },
     "prompt": "Do you use any of these Proton launch flags?"
   },
+  "launchOptions": {
+    "helperText": "i.e. PROTON_NO_D3D11=1 %command%",
+    "label": "Launch Options",
+    "legend": "Launch Options",
+    "placeholder": "(none)",
+    "prompt": "Do you set any launch options?"
+  },
   "launcher": {
     "additionalNotes": {
       "label": "Launcher"
@@ -359,9 +329,6 @@
       }
     },
     "prompt": "How do you launch the game?"
-  },
-  "authoringLanguage": {
-    "prompt": "What language will you write this report in?"
   },
   "localMultiplayerAppraisal": {
     "additionalNotes": {
@@ -509,10 +476,10 @@
     "customizations": "Customizations",
     "finalNotes": "Verdict",
     "multiplayer": "Multiplayer",
-    "technical": "Technical Details",
     "preview": "Preview",
     "setup": "Setup",
     "startup": "Install and Startup",
+    "technical": "Technical Details",
     "unownedWarning": "Not In Library"
   },
   "tinkerOverride": {
@@ -528,15 +495,48 @@
     },
     "prompt": "Looks like a non-tinker report so far. Have you made any customizations that would warrant this being a Tinker report? [More info]({{link}})"
   },
+  "triedOob": {
+    "prompt": "Your report will be classified as a tinker report. Have you tried playing with Steam and Proton without any tinkering?"
+  },
+  "variant": {
+    "additionalNotes": {
+      "label": "What's it called?"
+    },
+    "legend": "Variant",
+    "options": {
+      "experimental": {
+        "long": "Forced Experimental",
+        "short": "Experimental"
+      },
+      "ge": {
+        "long": "Glorious Eggroll (GE)",
+        "short": "GE"
+      },
+      "native": {
+        "long": "Native. No Proton.",
+        "short": "native"
+      },
+      "notListed": {
+        "long": "Not Listed",
+        "short": "Not Listed"
+      },
+      "official": {
+        "long": "The one Steam recommends by default",
+        "short": "Official"
+      },
+      "older": {
+        "long": "Switched to an older version",
+        "short": "Older"
+      }
+    },
+    "prompt": "What variant of Proton do you use?"
+  },
   "verdict": {
     "additionalNotes": {
       "label": "Summary (max {{count}} chars)",
       "placeholder": "Add a short summary. This will be the headline of your report."
     },
     "prompt": "Would a typical gamer enjoy playing this game on Linux as you've played it?"
-  },
-  "triedOob": {
-    "prompt": "Your report will be classified as a tinker report. Have you tried playing with Steam and Proton without any tinkering?"
   },
   "verdictOob": {
     "prompt": "Launching straight from Steam, would a typical gamer enjoy playing this game on Linux even without tinkering?"

@@ -29,9 +29,9 @@
       "mostPopular": "Най-популярни",
       "percentPositive": "Добре оценено в магазина",
       "popular": "Най-много последователи",
-      "releaseDate": "По дата на издаване",
       "rank": "Най-популярно",
       "recentlyImproved": "Наскоро подобрени",
+      "releaseDate": "По дата на издаване",
       "userScore": "Добре оценени",
       "wellRatedHere": "Добре оценени тук"
     },
@@ -44,8 +44,8 @@
       "hoursPlayed": "Изиграни часове",
       "mostBorked": "Най-много неработещи",
       "percentPositive": "Процент позитивни",
-      "popular": "Популярни",
       "playerCount": "Брой играчи",
+      "popular": "Популярни",
       "rank": "Най-популярни",
       "recentlyImproved": "Наскоро подобрени",
       "releaseDate": "Дата на издаване",
@@ -67,9 +67,6 @@
   },
   "filters": {
     "questions": {
-      "query": {
-        "label": "Запитване"
-      },
       "cpu": {
         "label": "CPU"
       },
@@ -79,11 +76,14 @@
       "gpu": {
         "label": "GPU"
       },
-      "type": {
-        "label": "Тип"
-      },
       "persist": {
         "prompt": "Запазване за целия сайт?"
+      },
+      "query": {
+        "label": "Запитване"
+      },
+      "type": {
+        "label": "Тип"
       }
     }
   },
@@ -94,17 +94,17 @@
     "nativelySupports": "Нативна поддръжка",
     "notices": {
       "antiCheat": {
-        "headline": "Поддръжка за мултиплейър",
         "battlEye": {
           "explanation": "Тази игра е известна с използването на [BattlEye](https://www.battleye.com). BattlEye [може да се използва в Linux](https://twitter.com/TheBattlEye/status/1441477816311291906), но мултиплейър поддръжката варира в зависимост от това кой разработчик е направил импелементацията."
         },
         "eac": {
           "explanation": "Тази игра е известна с използването на [Easy Anti-Cheat](https://www.easy.ac). EAC има [ограничена поддръжка за Linux](https://dev.epicgames.com/en-US/news/epic-online-services-launches-anti-cheat-support-for-linux-mac-and-steam-deck), но мултиплейър поддръжката варира в зависимост от това кой разработчик е направил импелементацията."
-        }
+        },
+        "headline": "Поддръжка за мултиплейър"
       },
       "nativeDiscrepancy": {
-        "headline": "Нейтив поддръжка",
-        "explanation": "Въпреки че тази игра разполага с Linux версия, Steam не я показва като поддържаща Linux. Обикновено това се случва, ако играта прижетава неофициален, неподдържан или незавършен билд. Вероятно е необходимо да [принудите Steam да пусне играта чрез Proton](/help/troubleshooting-faq#how-do-i-run-a-game-with-proton-even-though-it-has-a-native-linux-version) за да се стартира правилно."
+        "explanation": "Въпреки че тази игра разполага с Linux версия, Steam не я показва като поддържаща Linux. Обикновено това се случва, ако играта прижетава неофициален, неподдържан или незавършен билд. Вероятно е необходимо да [принудите Steam да пусне играта чрез Proton](/help/troubleshooting-faq#how-do-i-run-a-game-with-proton-even-though-it-has-a-native-linux-version) за да се стартира правилно.",
+        "headline": "Нейтив поддръжка"
       }
     }
   },
@@ -124,10 +124,10 @@
     "search": "Търси за игра...",
     "stats": {
       "atLeastOneRecommends": "препоръчани от поне един",
-      "atLeastTwoRecommend": "препоръчани от двама или повече",
       "atLeastThreeRecommend": "препоръчани от трима и повече",
-      "deckVerifiedPlayable": "потвърдени за deck (официално или може да се играе)",
+      "atLeastTwoRecommend": "препоръчани от двама или повече",
       "deckVerified": "потвърдени за deck",
+      "deckVerifiedPlayable": "потвърдени за deck (официално или може да се играе)",
       "gamesReported": "докладвани игри",
       "gamesWithReports": "игри с доклади",
       "gamesWork": "работещи игри",

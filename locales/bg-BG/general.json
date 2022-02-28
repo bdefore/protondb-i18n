@@ -25,21 +25,21 @@
     "hoursPlayed": "{{context}} изиграни часа",
     "mostBorked": "",
     "peakPlayers": "{{context}} играчи в пика",
-    "playerCount": "{{context}} играчи в пика",
     "percentPositive": "{{context}}% положителен рейтинг",
+    "playerCount": "{{context}} играчи в пика",
     "positiveRating": "{{context}}% положителен рейтинг",
     "protonDbRating": "",
     "rank": "Класиран {{context}} в Steam",
-    "recentlyImproved": "{{context}} доклада с последните две версии на Proton",
     "recentReportCount": "{{context}} доклада с последните две версии на Proton",
+    "recentlyImproved": "{{context}} доклада с последните две версии на Proton",
     "releaseDate": "Издаване {{context}}",
     "userScore": "{{context}}% положителен рейтинг",
     "wilsonRating": ""
   },
   "footer": {
+    "data": "Този сайт използва също информация от {{name}} като допълнителни данни",
     "description": "{{name}} е проект на [@bdefore]({{link}}) и общност от докладващи.",
     "feedbackPrompt": "Обратна връзка? Присъедини се към нас в Discord!",
-    "data": "Този сайт използва също информация от {{name}} като допълнителни данни",
     "legal": "Този сайт няма връзка с Valve Software. Всички гейм изображения и логота са притежание на техните собственици."
   },
   "games": {
@@ -87,10 +87,10 @@
     "overall": "Общо",
     "pending": "В изчакване",
     "preferences": "Предпочитания",
-    "recommended": "Препоръчва се",
     "provisional": "Предварителен",
     "published": "Публикувано",
     "rated": "Оценен",
+    "recommended": "Препоръчва се",
     "report": "Доклад",
     "reports": "Доклади",
     "reset": "Нулиране",
@@ -165,18 +165,18 @@
     "filteredOutHeadline": "Следните {{count}} доклада не съвпадат с твоите критерии за търсене за {{filters}}",
     "superceded": "Има по-нов доклад за този тип от автора",
     "tinkerMethods": {
-      "other": "Друго",
+      "customProton": "Нестандартна версия Proton",
+      "experimental": "Към експериментална",
+      "launchOptions": "С опции за стартиране",
       "launcher": "Стартираща програма",
       "older": "Към по-стара версия",
-      "experimental": "Към експериментална",
-      "customProton": "Нестандартна версия Proton",
-      "launchOptions": "С опции за стартиране"
+      "other": "Друго"
     },
     "zeroStateMessage": "Няма доклади",
     "zeroStateMessageWithFilters": "Няма доклади, съвпадащи със зададените филтри"
   },
   "search": {
-    "resultsHeader": "Търсене за {{q}}",
-    "results": "Резултати"
+    "results": "Резултати",
+    "resultsHeader": "Търсене за {{q}}"
   }
 }
