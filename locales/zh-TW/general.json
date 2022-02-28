@@ -1,10 +1,18 @@
 {
+  "attribution": {
+    "steamDb": "{{subject}} provided by [{{name}}]({{link}}) via [{{partnerName}}]({{partnerLink}})."
+  },
   "auth": {
+    "exampleSteamId": "76561999999999999",
     "genericSignIn": "登入",
     "headline": "Steam 驗證",
     "loggedInAs": "已使用 {{username}} 登入",
     "notLoggedIn": "未登入",
+    "steamId": "Steam ID",
+    "steamIdIntro": "您可以提供您的 [SteamID]({{steamIdLink}}) 以 [探索您的遊戲庫與願望清單]({{link}}).",
+    "steamLoginIntro": "登入您的 Steam 帳號體驗完整功能，包含驗證與回報",
     "steamSignIn": "使用 Steam 登入",
+    "topBarLink": "你的 steam 遊戲",
     "unlink": "取消連結"
   },
   "content": {
@@ -12,18 +20,30 @@
     "previousPost": "下一則新聞"
   },
   "contextualInfo": {
+    "dateAdded": "加入於 {{context}}",
     "fixWanted": "",
     "hoursPlayed": "已玩 {{context}} 小時",
     "mostBorked": "",
     "peakPlayers": "{{context}} 個玩家玩過",
+    "playerCount": "{{context}} 個玩家玩過",
+    "percentPositive": "{{context}}% 好評",
+    "popular": "{{context}} 個追蹤",
     "positiveRating": "{{context}}% 好評",
     "protonDbRating": "",
-    "recentReportCount": "{{context}} 個基於最新兩個版本的 Proton 測試報告"
+    "rank": "在 Steam 評分 {{context}}",
+    "recentlyImproved": "{{context}} 個最新兩版本 Proton 的回報",
+    "releaseDate": "發佈於 {{context}}",
+    "userScore": "{{context}}% 好評",
+    "wilsonRating": ""
   },
   "footer": {
     "description": "{{name}} 是由充滿熱誠的 [@bdefore]({{link}}) 創造的專案，並由眾多社群測試者回報。",
     "feedbackPrompt": "想提交回饋？來 Discord 加入我們的討論！",
+    "data": "此網站使用的數據來自於 {{name}}",
     "legal": "本站與 Valve Software 沒有關聯。所有遊戲圖片及 logo 均歸其各自所有者所有。"
+  },
+  "games": {
+    "zeroStateMessage": "查無遊戲"
   },
   "libraryLoader": {
     "errorLoadingGames": "無法載入遊戲。請確認該帳戶的個人檔案和遊戲資料已設定為公開！",
@@ -47,8 +67,11 @@
     "feedbackPrompt": "想提交回饋？經由 [Discord]({{link}}) 告訴我們",
     "filter": "過濾器",
     "filteringSettings": "過濾器設定",
+    "forget": "遺忘",
     "games": "遊戲",
     "hide": "隱藏 {{what}}",
+    "hour": "小時",
+    "hours": "小時",
     "include": "包含",
     "install": "安裝",
     "joinUsPrompt": "來 Discord 加入我們！",
@@ -59,10 +82,12 @@
     "native": "原生",
     "negative": "否",
     "notFound": "未找到",
+    "notRecommended": "不推薦",
     "note": "注意",
     "overall": "結論",
     "pending": "待定",
     "preferences": "偏好設定",
+    "recommended": "推薦",
     "provisional": "待定",
     "published": "已發布",
     "rated": "已評分",
@@ -76,6 +101,7 @@
     "showMore": "顯示更多",
     "skip": "跳過",
     "tier": "評分",
+    "tinker": "手動調整",
     "total": "總計",
     "unknown": "未知",
     "version": "版本"
@@ -134,13 +160,23 @@
   },
   "reports": {
     "clear": "清除",
+    "displayExcluded": "查看被排除的回報",
     "filteredOutCount": "{{count}} 被過濾",
     "filteredOutHeadline": "以下 {{count}} 個報告與您設定的過濾器 {{filters}} 不匹配",
     "superceded": "這是該作者提交之該類型較新的回報",
+    "tinkerMethods": {
+      "other": "其他",
+      "launcher": "Launcher",
+      "older": "接換到舊版",
+      "experimental": "切換到實驗版",
+      "customProton": "自訂的 Proton",
+      "launchOptions": "設定啟動選項"
+    },
     "zeroStateMessage": "暫無回報",
     "zeroStateMessageWithFilters": "沒有回報與您設定的過濾器匹配"
   },
   "search": {
     "resultsHeader": "{{q}} 的搜尋結果"
+    "results": "結果"
   }
 }
