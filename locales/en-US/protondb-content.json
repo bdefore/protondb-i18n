@@ -21,6 +21,7 @@
       "antiCheat": "Uses Anti-Cheat",
       "dateAdded": "Recently Added",
       "fixWanted": "Fix Wanted",
+      "heavilyReported": "Many Recent Reports",
       "highestRated": "Highest Rated on SteamDB",
       "hoursPlayed": "Hours Played",
       "inLibrary": "In Library",
@@ -28,10 +29,11 @@
       "mostBorked": "Most Borked Reports",
       "mostPopular": "Most Popular",
       "percentPositive": "Well Reviewed on Store",
-      "popular": "Most Followers",
-      "rank": "Most Popular",
-      "recentlyImproved": "Recently Improved",
+      "popular": "Most Steam Followers",
       "releaseDate": "By Release Date",
+      "rank": "Most Popular",
+      "recentlyReleased": "Recently Released",
+      "recentlyImproved": "Recently Improved",
       "userScore": "Well Reviewed",
       "wellRatedHere": "Well Rated Here"
     },
@@ -41,12 +43,14 @@
     "sorts": {
       "dateAdded": "Recently Added",
       "fixWanted": "Fix Wanted",
+      "heavilyReported": "Recent Report Tally",
       "hoursPlayed": "Hours played",
       "mostBorked": "Most Borked",
       "percentPositive": "Percent Positive",
-      "playerCount": "Player Count",
       "popular": "Popular",
+      "playerCount": "Player Count",
       "rank": "Most Popular",
+      "recentlyReleased": "Recently Released",
       "recentlyImproved": "Recently Improved",
       "releaseDate": "Release Date",
       "userScore": "User Score",
@@ -56,7 +60,7 @@
     "toggles": {
       "antiCheat": "Anti-Cheat",
       "deckVerified": "Deck Verified",
-      "includeNative": "Include Native",
+      "excludeNative": "Exclude Native",
       "lackReports": "Lack Reports",
       "restrictToLibrary": "Library",
       "untested": "Lack Reports",
@@ -67,6 +71,9 @@
   },
   "filters": {
     "questions": {
+      "query": {
+        "label": "Query"
+      },
       "cpu": {
         "label": "CPU"
       },
@@ -76,14 +83,11 @@
       "gpu": {
         "label": "GPU"
       },
-      "persist": {
-        "prompt": "Persist Across Site?"
-      },
-      "query": {
-        "label": "Query"
-      },
       "type": {
         "label": "Type"
+      },
+      "persist": {
+        "prompt": "Persist Across Site?"
       }
     }
   },
@@ -94,17 +98,17 @@
     "nativelySupports": "Natively Supports",
     "notices": {
       "antiCheat": {
+        "headline": "Multiplayer Support",
         "battlEye": {
           "explanation": "This game is known to utilize [BattlEye](https://www.battleye.com). BattlEye [can be used in Linux](https://twitter.com/TheBattlEye/status/1441477816311291906), but multiplayer functionality varies depending on how the developer has implemented it."
         },
         "eac": {
           "explanation": "This game is known to utilize [Easy Anti-Cheat](https://www.easy.ac). EAC has [limited support for Linux](https://dev.epicgames.com/en-US/news/epic-online-services-launches-anti-cheat-support-for-linux-mac-and-steam-deck), but multiplayer functionality varies depending on how the developer has implemented it."
-        },
-        "headline": "Multiplayer Support"
+        }
       },
       "nativeDiscrepancy": {
-        "explanation": "Although this game has a Linux-native build available, Steam does not list it as having Linux support. This can happen if a game has an unofficial, unfinished, or unsupported build. You may need to [force Steam to enable Proton for the game](/help/troubleshooting-faq#how-do-i-run-a-game-with-proton-even-though-it-has-a-native-linux-version) in order to run properly.",
-        "headline": "Native Support"
+        "headline": "Native Support",
+        "explanation": "Although this game has a Linux-native build available, Steam does not list it as having Linux support. This can happen if a game has an unofficial, unfinished, or unsupported build. You may need to [force Steam to enable Proton for the game](/help/troubleshooting-faq#how-do-i-run-a-game-with-proton-even-though-it-has-a-native-linux-version) in order to run properly."
       }
     }
   },
@@ -114,7 +118,7 @@
       "[A guide to migrating to Linux](https://www.reddit.com/r/linux_gaming/comments/9oqq3w/guide_migrating_to_linux_in_2019/)",
       "[What is Vulkan?](https://www.reddit.com/r/linux_gaming/comments/9ritk1/not_sure_i_quite_understand_can_someone_explain/)"
     ],
-    "headline": "With Proton and Steam Play, many Windows games now work on Linux!",
+    "headline": "Welcome to your home for crowdsourced Linux and Steam Deck game compatibility reports!",
     "howDoIHelp": {
       "answer": "Give Linux a try! If you are new, not to worry. Here is a list of guides to get started. And if you want to help Valve and Proton to improve, contribute your reports here on ProtonDB!",
       "question": "Cool! How do I help?"
@@ -124,15 +128,17 @@
     "search": "Search for a game...",
     "stats": {
       "atLeastOneRecommends": "recommended by at least one",
-      "atLeastThreeRecommend": "recommended by three or more",
       "atLeastTwoRecommend": "recommended by two or more",
-      "deckVerified": "deck verified",
-      "deckVerifiedPlayable": "deck verified (playable or verified)",
+      "atLeastThreeRecommend": "recommended by three or more",
+      "deckVerifiedPlayable": "verified or playable",
+      "deckVerified": "verified",
+      "deckVerifiedHeader": "Deck Verified Games",
       "gamesReported": "games reported",
       "gamesWithReports": "games with reports",
       "gamesWork": "games work",
       "gamesWorkExplanation": "Have at least one Thumbs Up or Platinum (legacy) report",
-      "reportsWritten": "reports written"
+      "reportsWritten": "reports written",
+      "protonDbGamesHeader": "Games on ProtonDB"
     },
     "theImpact": {
       "answer": "Steam Play now officially supports a limited but growing set of 'whitelisted' games that are deemed Proton-compatible and play on Linux. Based on ProtonDB reports, a significant number of non-whitelisted games, including many popular titles, play just as well as on Windows.",
@@ -160,6 +166,11 @@
     "silver": "Silver"
   },
   "ratingDefinitions": {
+    "categories": {
+      "clickPlay": "Click Play: Without any tinkering",
+      "tinker": "Tinker: Some assembly required",
+      "deck": "How it plays on the Steam Deck"
+    },
     "explanations": {
       "borked": "Either won't start or is crucially unplayable",
       "bronze": "Runs, but often crashes or has issues preventing from playing comfortably",
@@ -169,7 +180,17 @@
       "platinum": "Runs perfectly out of the box",
       "silver": "Runs with minor issues, but generally is playable"
     },
-    "headline": "Rating Definitions"
+    "headline": "Rating Definitions",
+    "ratings": {
+      "S": "S Tier: Nary a blemish",
+      "A": "A Tier: Mighty fine",
+      "B": "B Tier: Very good but room to improve",
+      "C": "C Tier: Needs some work",
+      "D": "D Tier: Hobbled by issues",
+      "F": "F Tier: Borked!",
+      "?": "Pending: Needs more data"
+    },
+    "reports": "Click to view reports"
   },
   "specs": {
     "cpu": "CPU",
@@ -194,8 +215,8 @@
     "whenMeetingMinimumRequirements": "When Meeting Minimum Requirements"
   },
   "steamAuthor": {
-    "hoursOnLinux": "{{time}} on Linux",
     "hoursOverall": "{{time}} overall",
+    "hoursOnLinux": "{{time}} on Linux",
     "timeWithProton": "{{time}} with Proton"
   },
   "suggestions": {

@@ -3,17 +3,20 @@
     "steamDb": "{{subject}} provided by [{{name}}]({{link}}) via [{{partnerName}}]({{partnerLink}})."
   },
   "auth": {
-    "exampleSteamId": "76561999999999999",
     "genericSignIn": "Sign In",
     "headline": "Steam Account",
+    "identifierExample": "Examples:\n - [{{profileExample}}](#)\n - {{steamIdExample}}",
+    "identifierOptions": "Profile URL or Steam ID",
     "loggedInAs": "Logged in as {{username}}",
     "notLoggedIn": "Not Logged In",
+    "profileUrl": "Profile URL",
     "steamId": "Steam ID",
     "steamIdIntro": "Alternatively, provide your [SteamID]({{steamIdLink}}) to [explore your library and wishlist]({{link}}).",
     "steamLoginIntro": "Log in with Steam for all features including authoring of reports.",
     "steamSignIn": "Sign In With Steam",
     "topBarLink": "Your Steam Games",
-    "unlink": "Unlink Account"
+    "unlink": "Unlink Account",
+    "vanityName": "Public Name"
   },
   "content": {
     "followingPost": "Following Post",
@@ -22,24 +25,27 @@
   "contextualInfo": {
     "dateAdded": "Added on {{context}}",
     "fixWanted": "",
+    "followers": "{{context}} Steam followers",
+    "heavilyReported": "{{context}} recent reports",
     "hoursPlayed": "{{context}} hours played",
     "mostBorked": "",
     "peakPlayers": "{{context}} peak players",
-    "percentPositive": "{{context}}% positive rating",
     "playerCount": "{{context}} peak players",
+    "percentPositive": "{{context}}% positive rating",
     "popular": "{{context}} followers",
     "positiveRating": "{{context}}% positive rating",
     "protonDbRating": "",
     "rank": "Ranked {{context}} on Steam",
+    "recentlyReleased": "First batch of {{context}} reports",
     "recentlyImproved": "{{context}} reports with latest two Proton versions",
     "releaseDate": "Released {{context}}",
     "userScore": "{{context}}% positive rating",
     "wilsonRating": ""
   },
   "footer": {
-    "data": "This site uses data from {{name}} as well as data",
     "description": "{{name}} is a passion project from [@bdefore]({{link}}) and a dedicated community of reporters.",
     "feedbackPrompt": "Have some feedback? Come chat with us!",
+    "data": "This site uses data from {{name}} as well as data",
     "legal": "This site has no affiliation with Valve Software. All game images and logos are property of their respective owners."
   },
   "games": {
@@ -48,8 +54,19 @@
   "libraryLoader": {
     "errorLoadingGames": "Error loading games. Please ensure both Profile and Game Details are public on this account!",
     "gameTotal": "{{count}} games in library loaded!",
-    "note": "This will use the Steam Web API to retrieve public information about your account including your id, profile name and avatar. Ensure that within your [Steam Privacy Settings]({{link}}) your 'My profile' is set to public. 'Game details' is not required to be public. If it is, the Explore page will use your library information and playtime will be sent with your contributions.",
+    "note": "This will use the Steam Web API to retrieve public information about your account including your id, profile name and avatar. Ensure that within your [Steam Privacy Settings]({{link}}) your 'My profile' is set to public. 'Game Details' is not required to be public. If it is, the Explore page will use your library information and playtime will be sent with your contributions.",
     "refresh": "Refresh"
+  },
+  "librarySummary": {
+    "submit": "Sure!",
+    "submitWhenLoggedOut": "Let's See!",
+    "greetLoggedIn": "Want to see how many games I can play?",
+    "mostPlayedVerified": "Your Most Played Deck Verified Games",
+    "mostPlayedVerifiedExtra": "These are your most played games that Valve has certified as Deck Verified: Verified or Playable status",
+    "mostPlayedRatedUnverified": "Not Deck Verified, But Looking Good Here",
+    "mostPlayedRatedUnverifiedExtra": "The following games are not yet officially Deck Verified as Verified nor Playable status, but according to community reports are looking good for play on Linux.",
+    "userNotFound": "User not found. Ensure 'My Profile' and 'Game Details' are set to public in your [Steam settings]({{link}}).",
+    "gamesNotFound": "No games found. Ensure 'Game Details' is set to public in your [Steam settings]({{link}})."
   },
   "misc": {
     "addYourReport": "Add Your Report",
@@ -87,10 +104,10 @@
     "overall": "Overall",
     "pending": "Pending",
     "preferences": "Preferences",
+    "recommended": "Recommended",
     "provisional": "Provisional",
     "published": "Published",
     "rated": "Rated",
-    "recommended": "Recommended",
     "report": "Report",
     "reports": "Reports",
     "reset": "Reset",
@@ -102,8 +119,10 @@
     "skip": "Skip",
     "tier": "Tier",
     "tinker": "tinker",
+    "tryAgain": "Try Again",
     "total": "Total",
     "unknown": "Unknown",
+    "unknownError": "Unknown Error",
     "version": "Version"
   },
   "nav": {
@@ -165,12 +184,12 @@
     "filteredOutHeadline": "{{count}} reports do not match your filtering criteria for {{filters}}",
     "superceded": "There is a newer report of this type from this author",
     "tinkerMethods": {
-      "customProton": "Custom Proton",
-      "experimental": "Switch to experimental",
-      "launchOptions": "Set launch options",
+      "other": "Other",
       "launcher": "Launcher",
       "older": "Switch to older version",
-      "other": "Other"
+      "experimental": "Switch to experimental",
+      "customProton": "Custom Proton",
+      "launchOptions": "Set launch options"
     },
     "zeroStateMessage": "No reports",
     "zeroStateMessageWithFilters": "No reports match your applied filters"
