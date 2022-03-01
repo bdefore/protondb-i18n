@@ -1,14 +1,21 @@
 {
-  "genericFollowUpPrompt": "What sort of problems?",
+  "genericFollowUpPrompt": "Que tipo de problemas?",
   "misc": {
-    "answerRequired": "Answer Required",
-    "answerRequiredWhenNotListed": "Answered Required When Not Listed Is Chosen",
-    "back": "Back",
-    "error": "Error!",
-    "markdownSupportNotice": "Markdown is now supported",
-    "maxChars": "Max {{count}} chars",
-    "next": "Next",
-    "submit": "Submit",
-    "tooLong": "Too long"
+    "answerRequired": "Resposta Obrigatória",
+    "answerRequiredWhenNotListed": "Resposta Obrigatória quando não listado é escolhido",
+    "back": "Voltar",
+    "invalidGeVersion": "String de versão GE inválida. Deve conter '{major}.{minor}-ge-{patch}'. Exemplo: '7.2-GE-2'",
+    "error": "Erro!",
+    "markdownSupportNotice": "Markdown é suportado",
+    "maxChars": "Um maximo de {{count}} caracteres",
+    "next": "Proximo",
+    "submission": {
+      "error": "Ocorreu um erro durante o envio e isso não deveria acontecer. Se sua conexão estiver ativa e você ainda não conseguir enviar, por favor nos avise!",
+      "note": "Observe que os novos relatórios estarão em estado pendente até a próxima atualização de conteúdo. Você pode ver suas contribuições em seu [Perfil]({{link}})",
+      "success": "Enviado com Sucesso",
+      "thanks": "Obrigado pela sua contribuição para {{siteName}}"
+    },
+    "submit": "Enviar",
+    "tooLong": "Muito Longo"
   }
 }
