@@ -1,72 +1,72 @@
 {
   "appSelection": {
-    "caution": "Caution!",
-    "helperText": "You may also paste links or an App ID and we will try to find it",
-    "notFound": "Could not find game with App ID {{query}}. This can happen if it is either inaccurate or if it has: been removed from the Steam store, not listed as a 'game', or not available in your country.",
-    "placeholder": "Enter name of a game in your Steam library...",
-    "previousReportsExist": "You have previous reports for this game",
-    "runsNativeWarning": "The selected game has published a native Linux version! Please be sure you have not inadvertently run the game natively. Steam does not use Steam Play to run this game by default, but [you can force it to do so]({{link}})."
+    "caution": "Cuidado!",
+    "helperText": "Você também pode colar links ou um ID de aplicativo e tentaremos encontrá-lo",
+    "notFound": "Não foi possível encontrar o jogo com o App ID {{query}}. Isso pode acontecer se isso for impreciso ou se: tiver sido removido da loja Steam, não estiver listado como um 'jogo' ou não estiver disponível em seu país.",
+    "placeholder": "Digite o nome de um jogo na sua biblioteca Steam...",
+    "previousReportsExist": "Você tem relatórios anteriores para este jogo",
+    "runsNativeWarning": "O jogo selecionado publicou uma versão nativa do Linux! Certifique-se de que não executou inadvertidamente o jogo nativamente. O Steam não usa o Steam Play para executar este jogo por padrão, mas [você pode forçá-lo a fazê-lo]({{link}})."
   },
   "audioFaults": {
     "legend": "Audio",
     "options": {
       "borked": {
-        "long": "Totally borked",
-        "short": "Borked"
+        "long": "Totalmente quebrado",
+        "short": "Quebrado"
       },
       "crackling": {
-        "long": "Crackling",
-        "short": "Crackling"
+        "long": "Crepitante",
+        "short": "Crepitante"
       },
       "lowQuality": {
-        "long": "Noticeable quality degradation",
-        "short": "Low quality"
+        "long": "Degradação de qualidade perceptível",
+        "short": "Baixa qualidade"
       },
       "missing": {
-        "long": "Some audio is missing",
-        "short": "Missing"
+        "long": "Algum áudio está faltando",
+        "short": "Faltando"
       },
       "other": {
-        "long": "Other",
-        "short": "Other"
+        "long": "Outro",
+        "short": "Outro"
       },
       "outOfSync": {
-        "long": "Fell out of sync",
-        "short": "Out of sync"
+        "long": "Fora de sincronia",
+        "short": "Fora de sincronia"
       }
     },
-    "prompt": "Did you experience any problems with audio?"
+    "prompt": "Você teve algum problema com o áudio?"
   },
   "borked": {
-    "headline": "That's a bummer!",
-    "intro": "You will now proceed with submitting a borked report, but before you do you may want to visit our [Game Troubleshooting FAQ]({{link}}) page."
+    "headline": "Isso é bem chato!",
+    "intro": "Agora você continuará enviando um relatório quebrado, mas antes de fazer isso, você pode visitar nossa página de [Perguntas frequentes sobre solução de problemas de jogos]({{link}})."
   },
   "customizationsUsed": {
     "additionalNotes": {
-      "label": "Further Details",
-      "placeholder": "Explanation or link to blog post or Github repository"
+      "label": "Detalhes adicionais",
+      "placeholder": "Explicação ou link para postagem de blog ou repositório do Github"
     },
-    "legend": "Customizations",
+    "legend": "Personalizações",
     "options": {
       "customPrefix": {
-        "long": "A custom Wine prefix",
-        "short": "Custom Prefix"
+        "long": "Um prefixo do Wine personalizado",
+        "short": "Prefixo Customizado"
       },
       "customProton": {
-        "long": "A custom fork of Proton",
-        "short": "Custom Proton"
+        "long": "Uma bifurcação personalizado do Proton",
+        "short": "Proton Customizado"
       },
       "lutris": {
-        "long": "Lutris install script",
+        "long": "Script de instalação Lutris",
         "short": "Lutris"
       },
       "native2Proton": {
-        "long": "Native2Proton",
-        "short": "Native2Proton"
+        "long": "NativoParaProton",
+        "short": "NativoParaProton"
       },
       "notListed": {
-        "long": "Not Listed",
-        "short": "Not Listed"
+        "long": "Não listado",
+        "short": "Não listado"
       },
       "protonfixes": {
         "long": "protonfixes",
@@ -81,65 +81,65 @@
         "short": "winetricks"
       }
     },
-    "prompt": "What customizations have you made?"
+    "prompt": "Quais customizações você fez?"
   },
   "duration": {
-    "legend": "Duration",
+    "legend": "Duração",
     "options": {
       "aboutAnHour": {
-        "long": "an hour",
-        "short": "an hour"
+        "long": "uma hora",
+        "short": "uma hora"
       },
       "lessThanAnHour": {
-        "long": "< 1 hour",
-        "short": "< 1 hour"
+        "long": "< 1 hora",
+        "short": "< 1 hora"
       },
       "lessThanFifteenMinutes": {
-        "long": "< 15 minutes",
-        "short": "< 15 minutes"
+        "long": "< 15 minutos",
+        "short": "< 15 minutos"
       },
       "moreThanTenHours": {
-        "long": "> 10 hours",
-        "short": "> 10 hours"
+        "long": "> 10 horas",
+        "short": "> 10 horas"
       },
       "severalHours": {
-        "long": "2+ hours",
-        "short": "2+ hours"
+        "long": "2+ horas",
+        "short": "2+ horas"
       }
     },
-    "prompt": "For how long have you played?"
+    "prompt": "Por quanto tempo você jogou?"
   },
   "extra": {
     "additionalNotes": {
-      "label": "Extra Notes",
-      "placeholder": "Please add it here."
+      "label": "Notas Extras",
+      "placeholder": "Por favor, adicione-o aqui."
     },
-    "prompt": "Is there anything you'd like to add that was not covered in previous questions?"
+    "prompt": "Há algo que você gostaria de acrescentar que não foi abordado nas perguntas anteriores?"
   },
   "graphicalFaults": {
-    "legend": "Graphics",
+    "legend": "Gráficos",
     "options": {
       "heavyArtifacts": {
-        "long": "Heavy or common artifacts",
-        "short": "Heavy artifacts"
+        "long": "Artefatos pesados ​​ou comuns",
+        "short": "Artefatos pesados"
       },
       "minorArtifacts": {
-        "long": "Minor or infrequent artifacts",
-        "short": "Minor artifacts"
+        "long": "Artefatos menores ou infrequentes",
+        "short": "Artefatos menores"
       },
       "missingTextures": {
-        "long": "Missing textures",
-        "short": "Missing textures"
+        "long": "Texturas ausentes",
+        "short": "Texturas ausentes"
       },
       "other": {
-        "long": "Other",
-        "short": "Other"
+        "long": "Outros",
+        "short": "Outros"
       }
     },
-    "prompt": "Did you notice any graphical degradations?"
+    "prompt": "Você notou alguma degradação gráfica?"
   },
   "graphicsApiSelection": {
-    "legend": "Graphics API",
+    "legend": "API Gráfica",
     "options": {
       "d3d": {
         "long": "Direct3D",
@@ -150,61 +150,61 @@
         "short": "OpenGL"
       },
       "unsure": {
-        "long": "Whatever the game uses by default",
-        "short": "Default"
+        "long": "O que quer que o jogo use por padrão",
+        "short": "Padrão"
       },
       "vk": {
         "long": "Vulkan",
         "short": "Vulkan"
       }
     },
-    "prompt": "What graphics API did you use within the game?"
+    "prompt": "Qual API gráfica você usou no jogo?"
   },
   "i18nStamp": 1573767610406,
   "inputFaults": {
-    "legend": "Input",
+    "legend": "Entrada",
     "options": {
       "bounding": {
-        "long": "Bounds were incorrect",
-        "short": "Bounding"
+        "long": "Os limites estavam incorretos",
+        "short": "Limite"
       },
       "controllerMapping": {
-        "long": "Controller(s) were not mapped properly",
-        "short": "Controller mapping"
+        "long": "O(s) controle(s) não foram mapeados corretamente",
+        "short": "Mapeamento do controle"
       },
       "controllerNotDetected": {
-        "long": "Controller(s) not detected",
-        "short": "Controller detection"
+        "long": "Controle(s) não detectado(s)",
+        "short": "Detecção de controle"
       },
       "controllerNotResponsive": {
-        "long": "Controller(s) detected but were not responsive",
-        "short": "Responsiveness"
+        "long": "Controle(s) detectado(s), mas não respondem",
+        "short": "Capacidade de resposta"
       },
       "drifting": {
-        "long": "Axes would drift",
+        "long": "Eixos iriam à deriva",
         "short": "Drifting"
       },
       "inaccuracy": {
-        "long": "Inaccuracy",
-        "short": "Inaccuracy"
+        "long": "Imprecisão",
+        "short": "Imprecisão"
       },
       "lag": {
-        "long": "Input was laggy",
-        "short": "Lag"
+        "long": "A entrada estava atrasada",
+        "short": "Atraso"
       },
       "other": {
-        "long": "Other",
-        "short": "Other"
+        "long": "Outro",
+        "short": "Outro"
       }
     },
-    "prompt": "Did you experience any problems with your mouse, gamepad or other input devices?"
+    "prompt": "Você teve algum problema com seu mouse, gamepad ou outros dispositivos de entrada?"
   },
   "installs": {
-    "legend": "Installs",
-    "prompt": "Were you able to install the game?"
+    "legend": "Instalações",
+    "prompt": "Você conseguiu instalar o jogo?"
   },
   "isImpactedByAntiCheat": {
-    "legend": "Anti-Cheat",
+    "legend": "Anti-trapaça",
     "options": {
       "battleEye": {
         "long": "BattlEye",
@@ -215,37 +215,37 @@
         "short": "EAC"
       },
       "other": {
-        "long": "Other",
-        "short": "Other"
+        "long": "Outro",
+        "short": "Outro"
       }
     },
-    "prompt": "Is the game impacted by anti-cheat software?"
+    "prompt": "O jogo é afetado por software anti-trapaça?"
   },
   "isMultiplayerImportant": {
-    "prompt": "Is multiplayer a crucial part of the value of this game?"
+    "prompt": "O multiplayer é uma parte crucial do valor deste jogo?"
   },
   "launchFlagsUsed": {
     "additionalNotes": {
-      "label": "Further Details",
-      "placeholder": "What did this help with?"
+      "label": "Detalhes adicionais",
+      "placeholder": "No que isso ajudou?"
     },
-    "legend": "Launch Flags",
+    "legend": "Bandeiras de Inicialização",
     "options": {
       "disableD3d10": {
-        "long": "Disable D3D10",
-        "short": "Disable D3D10"
+        "long": "Desabilitar D3D10",
+        "short": "Desabilitar D3D10"
       },
       "disableD3d11": {
-        "long": "Disable D3D11",
-        "short": "Disable D3D11"
+        "long": "Desabilitar D3D11",
+        "short": "Desabilitar D3D11"
       },
       "disableEsync": {
-        "long": "Disable Esync",
-        "short": "Disable Esync"
+        "long": "Desabilitar Esync",
+        "short": "Desabilitar Esync"
       },
       "disableFsync": {
-        "long": "Disable Fsync",
-        "short": "Disable Fsync"
+        "long": "Desabilitar Fsync",
+        "short": "Desabilitar Fsync"
       },
       "largeAddressAware": {
         "long": "Large Address Aware",
@@ -256,21 +256,21 @@
         "short": "Old GL String"
       },
       "useWineD3d11": {
-        "long": "Use Wine D3D",
-        "short": "Use Wine D3D"
+        "long": "Usar Wine D3D",
+        "short": "Usar Wine D3D"
       },
       "useWineD9vk": {
-        "long": "Use Wine D9VK",
-        "short": "Use Wine D9VK"
+        "long": "Usar Wine D9VK",
+        "short": "Usar Wine D9VK"
       }
     },
-    "prompt": "Do you use any of these Proton launch flags?"
+    "prompt": "Você usa algum desses sinalizadores de lançamento do Proton?"
   },
   "launcher": {
     "additionalNotes": {
-      "label": "Launcher"
+      "label": "Inicializador"
     },
-    "legend": "Launcher",
+    "legend": "Inicializador",
     "options": {
       "gamehub": {
         "long": "Gamehub",
@@ -281,211 +281,211 @@
         "short": "Lutris"
       },
       "notListed": {
-        "long": "Not Listed",
-        "short": "Not Listed"
+        "long": "Não listado",
+        "short": "Não listado"
       },
       "steam": {
         "long": "Steam",
         "short": "Steam"
       }
     },
-    "prompt": "How do you launch the game?"
+    "prompt": "Como você inicia o jogo?"
   },
   "localMultiplayerAppraisal": {
-    "prompt": "How would you rate the local multiplayer functionality? Please evaulate for lag, connectivity or input issues, etc."
+    "prompt": "Como você classificaria a funcionalidade multijogador local? Avalie se há problemas de atraso, conectividade ou entrada, etc."
   },
   "localMultiplayerAttempted": {
-    "prompt": "Did you try to play multiplayer locally (offline i.e. couch play)?"
+    "prompt": "Você tentou jogar multiplayer localmente (offline, ou seja, jogar no sofá)?"
   },
   "localMultiplayerPlayed": {
-    "prompt": "Were you able to get local multiplayer to work?"
+    "prompt": "Você conseguiu fazer o multiplayer local funcionar?"
   },
   "multiplayerAppraisal": {
     "options": {
       "acceptable": {
-        "long": "Acceptable. Moderate issues but can be struggled through.",
-        "short": "Acceptable"
+        "long": "Aceitável. Problemas moderados, mas é possivel de se jogar.",
+        "short": "Aceitável"
       },
       "awful": {
-        "long": "Awful. Practically not playable",
-        "short": "Awful"
+        "long": "Horrível. Praticamente não jogável",
+        "short": "Horrível"
       },
       "excellent": {
-        "long": "Excellent. Did not experience any problems.",
-        "short": "Excellent"
+        "long": "Excelente. Não experienciou nenhum problema.",
+        "short": "Excelente"
       },
       "good": {
-        "long": "Good. Had infrequent issues but is overall playable.",
-        "short": "Good"
+        "long": "Bom. Teve problemas infrequentes, mas no geral é jogável.",
+        "short": "Bom"
       },
       "weak": {
-        "long": "Weak. Its problems significantly impact the experience",
-        "short": "Weak"
+        "long": "Fraco. Seus problemas impactam significativamente a experiência",
+        "short": "Fraco"
       }
     }
   },
   "onlineMultiplayerAppraisal": {
-    "prompt": "How would you rate the online multiplayer functionality? Please evaulate for lag, connectivity or input issues, matchingmaking failures etc."
+    "prompt": "Como você classificaria a funcionalidade multiplayer online? Por favor, avalie para problemas de atraso, conectividade ou entrada, falhas de matchmaking, etc."
   },
   "onlineMultiplayerAttempted": {
-    "prompt": "Did you try to play multiplayer online?"
+    "prompt": "Você tentou jogar multiplayer online?"
   },
   "onlineMultiplayerPlayed": {
-    "prompt": "Were you able to connect and play online multiplayer?"
+    "prompt": "Você conseguiu se conectar e jogar o multiplayer online?"
   },
   "opens": {
-    "legend": "Opens",
-    "prompt": "Were you able to start up the game and view its initial menu?"
+    "legend": "Abre",
+    "prompt": "Você conseguiu iniciar o jogo e visualizar seu menu inicial?"
   },
   "performanceFaults": {
     "legend": "Performance",
     "options": {
       "significantSlowdown": {
-        "long": "Significant slowness",
-        "short": "Significant"
+        "long": "Lentidão significante",
+        "short": "Significante"
       },
       "slightSlowdown": {
-        "long": "Slightly slow",
-        "short": "Slight"
+        "long": "Ligeiramente lento",
+        "short": "Lento"
       }
     },
-    "prompt": "Did you experience unexpected slowness given your hardware?"
+    "prompt": "Você experimentou lentidão inesperada devido ao seu hardware?"
   },
   "preview": {
-    "intro": "Things to check for:",
+    "intro": "Coisas para verificar:",
     "notes": [
-      "Is your system information up to date? You will need to go to your profile and provide your Steam information after a graphics driver update.",
-      "Have you selected the correct game? Some games have the same name as older versions i.e. GRID",
-      "Have you added descriptions in the right place? For example, write notes about graphics issues in that section rather than end notes."
+      "As informações do seu sistema estão atualizadas? Você precisará acessar seu perfil e fornecer suas informações da Steam após uma atualização do driver gráfico.",
+      "Você selecionou o jogo correto? Alguns jogos têm o mesmo nome de versões mais antigas, ou seja, GRID",
+      "Você adicionou descrições no lugar certo? Por exemplo, escreva notas sobre problemas gráficos nessa seção em vez de notas finais."
     ]
   },
   "prompts": {
-    "continuingDraft": "You are continuing from an automatically saved draft.",
-    "discardDraftWarning": "All of your responses will be permanently discarded.",
-    "startOver": "Start Over"
+    "continuingDraft": "Você está continuando a partir de um rascunho salvo automaticamente.",
+    "discardDraftWarning": "Todas as suas respostas serão descartadas permanentemente.",
+    "startOver": "Recomeçar"
   },
   "protonVersion": {
     "additionalNotes": {
-      "label": "Manual Proton Version",
-      "placeholder": "Must be valid Proton version string. Examples: {{examples}}"
+      "label": "Versão manual do Proton",
+      "placeholder": "Deve ser uma string de versão Proton válida. Exemplos: {{examples}}"
     },
-    "prompt": "What version of Proton are you using?"
+    "prompt": "Qual versão do Proton você está usando?"
   },
   "saveGameFaults": {
     "legend": "Save Games",
     "options": {
       "errorLoading": {
-        "long": "Could not load a save game",
-        "short": "Loading"
+        "long": "Não foi possível carregar um jogo salvo",
+        "short": "Carregamento"
       },
       "errorSaving": {
-        "long": "Could not save",
-        "short": "Saving"
+        "long": "Não foi possível salvar",
+        "short": "Salvamento"
       },
       "other": {
-        "long": "Other",
-        "short": "Other"
+        "long": "Outro",
+        "short": "Outro"
       }
     },
-    "prompt": "Did you experience any problems with save games?"
+    "prompt": "Você teve algum problema com save games?"
   },
   "significantBugs": {
-    "legend": "Significant Bugs",
-    "prompt": "Did you experience any other significant bugs?"
+    "legend": "Bugs significativos",
+    "prompt": "Você experimentou algum outro bug significativo?"
   },
   "stabilityFaults": {
-    "legend": "Stability",
+    "legend": "Estabilidade",
     "options": {
       "frequentCrashes": {
-        "long": "Frequent crashes",
-        "short": "Frequently"
+        "long": "Falhas frequentes",
+        "short": "Frequentemente"
       },
       "notListed": {
-        "long": "Not listed",
-        "short": "Not listed"
+        "long": "Não listado",
+        "short": "Não listado"
       },
       "occasionally": {
-        "long": "Occasional crashes",
-        "short": "Occasionally"
+        "long": "Falhas ocasionais",
+        "short": "Ocasionalmente"
       }
     },
-    "prompt": "Did you experience any stability issues?"
+    "prompt": "Você teve algum problema de estabilidade?"
   },
   "startsPlay": {
-    "legend": "Starts Play",
-    "prompt": "Were you able to begin playing?"
+    "legend": "Começar a jogar",
+    "prompt": "Você conseguiu começar a jogar?"
   },
   "stepHeadlines": {
-    "appSelection": "Game Selection",
-    "borked": "Borked!",
-    "customizations": "Customizations",
-    "finalNotes": "Verdict",
-    "gameplay": "Other Potential Issues",
-    "graphics": "Graphics and Performance",
+    "appSelection": "Seleção de jogo",
+    "borked": "Qubrado!",
+    "customizations": "Personalizações",
+    "finalNotes": "Veredito",
+    "gameplay": "Outros problemas potenciais",
+    "graphics": "Gráficos e desempenho",
     "multiplayer": "Multiplayer",
-    "preview": "Preview",
-    "setup": "Setup",
-    "stability": "Stability",
-    "startup": "Install and Startup",
-    "tinkerCheck": "Report Type",
-    "unownedWarning": "Not In Library"
+    "preview": "Prévia",
+    "setup": "Configuração",
+    "stability": "Estabilidade",
+    "startup": "Instação e Inicialização",
+    "tinkerCheck": "Tipo de Relatório",
+    "unownedWarning": "Não está na biblioteca"
   },
   "type": {
     "intro": [
-      "ProtonDB now buckets reports into two types: Steam Play and Tinker.",
-      "Use Steam Play Report to cover the out-of-the-box experience. Install, hit play, and get your game on.",
-      "Use Tinker Report if you have made tweaks or customizations to get the game working.",
-      "For more on the differences, see [this news post]({{link}})."
+      "O ProtonDB agora agrupa relatórios em dois tipos: Steam Play e Tinker.",
+      "Use o Steam Play Report para cobrir a experiência pronta para uso. Instale, aperte o play e comece o seu jogo.",
+      "Use o Tinker Report se você fez ajustes ou personalizações para fazer o jogo funcionar.",
+      "Para saber mais sobre as diferenças, veja [este post de notícias]({{link}})."
     ],
     "options": {
       "steamPlay": {
-        "long": "SteamPlay Report",
-        "short": "SteamPlay Report"
+        "long": "Reporte SteamPlay",
+        "short": "Reporte SteamPlay"
       },
       "tinker": {
-        "long": "Tinker Report",
-        "short": "Tinker Report"
+        "long": "Reporte Tinker",
+        "short": "Reporte TInker"
       }
     },
-    "prompt": "What type of report will you write?"
+    "prompt": "Que tipo de relatório você vai escrever?"
   },
   "verdict": {
     "additionalNotes": {
-      "label": "Summary (max {{count}} chars)",
-      "placeholder": "Add a short summary. This will be the headline of your report."
+      "label": "Resumo (max {{count}} chars)",
+      "placeholder": "Adicione um breve resumo. Este será o título do seu relatório."
     },
-    "prompt": "Would a typical gamer have an enjoyable experience running this game on Linux with Proton?"
+    "prompt": "Um jogador típico teria uma experiência agradável rodando este jogo no Linux com o Proton?"
   },
   "welcome": {
-    "intro": "Thanks for your interest in expanding ProtonDB's catalog of compatibility reports on Steam Play and Proton! Please keep in mind the following before you contribute",
+    "intro": "Obrigado pelo seu interesse em expandir o catálogo de relatórios de compatibilidade do ProtonDB no Steam Play e Proton! Lembre-se do seguinte antes de contribuir",
     "notes": [
-      "These reports are published on ProtonDB pending review and used by other gamers, Valve, and developers to identify and fix games. Please keep your reports accurate, free of offensive language, and refrain from submitting reports just to promote your favorite game, distro or graphics card.",
-      "Submitting multiple reports for the same game is encouraged! As you play more or update Proton you'll have more to say. In this way ProtonDB differs from a wiki, since each report serves as a 'snapshot' of how the game played on that date with your configuration.",
-      "If you submit multiple reports, only your most recent will count towards the ProtonDB rating and only if your system information meets Proton's minimum requirements.",
-      "Your contributions will be publicly visible on ProtonDB and available in data exports under the Open Database License. Go [here]({{link}}) for more information."
+      "Esses relatórios são publicados no ProtonDB com revisão pendente e usados ​​por outros jogadores, Valve e desenvolvedores para identificar e corrigir jogos. Mantenha seus relatórios precisos, livres de linguagem ofensiva e evite enviar relatórios apenas para promover seu jogo, distribuição ou placa gráfica favorita(os).",
+      "O envio de vários relatórios para o mesmo jogo é incentivado! Conforme você joga mais ou atualiza o Proton, você terá mais a dizer. Desta forma o ProtonDB difere de um wiki, pois cada relatório serve como um 'instantâneo' de como o jogo foi jogado naquela data com sua configuração.",
+      "Se você enviar vários relatórios, apenas o mais recente contará para a classificação do ProtonDB e somente se as informações do seu sistema atenderem aos requisitos mínimos do Proton.",
+      "Suas contribuições serão publicamente visíveis no ProtonDB e disponíveis nas exportações de dados sob a Open Database License. Vá [aqui]({{link}}) para mais informações."
     ],
-    "outro": "With that, let's get started!"
+    "outro": "Com isso, vamos começar!"
   },
   "windowingFaults": {
-    "legend": "Windowing",
+    "legend": "Janelas",
     "options": {
       "activatingFullscreen": {
-        "long": "Fullscreen could not be initiated",
-        "short": "Activating Fullscreen"
+        "long": "Tela cheia não pôde ser iniciada",
+        "short": "Ativando tela cheia"
       },
       "fullNotFull": {
-        "long": "Fullscreen was not fully full",
-        "short": "Size"
+        "long": "A tela cheia não estava totalmente cheia",
+        "short": "Tamanho"
       },
       "other": {
-        "long": "Other",
-        "short": "Other"
+        "long": "Outro",
+        "short": "Outro"
       },
       "switching": {
-        "long": "Could not conventionally escape from fullscreen (such as with Alt-Tab)",
-        "short": "Switching"
+        "long": "Não foi possível escapar convencionalmente da tela cheia (como com Alt-Tab)",
+        "short": "Trocando"
       }
     },
-    "prompt": "Did you experience any problems with windowing or fullscreen?"
+    "prompt": "Você teve algum problema com janelas ou tela cheia?"
   }
 }
