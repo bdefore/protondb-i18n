@@ -1,56 +1,128 @@
 {
+  "attribution": {
+    "steamDb": "{{subject}} fornecido por [{{name}}]({{link}}) via [{{partnerName}}]({{partnerLink}})."
+  },
   "auth": {
-    "headline": "Autenticação Steam",
+    "genericSignIn": "Logar",
+    "headline": "Conta Steam",
+    "identifierExample": "Exemplos:\n - [{{profileExample}}](#)\n - {{steamIdExample}}",
+    "identifierOptions": "URL do Perfil ou ID Steam",
     "loggedInAs": "Logado como {{username}}",
-    "steamSignIn": "Logar com a conta Steam",
-    "unlink": "Desvincular conta"
+    "notLoggedIn": "Não logado",
+    "profileUrl": "URL do Perfil",
+    "steamId": "ID Steam",
+    "steamIdIntro": "Alternativamente, forneça seu [SteamID]({{steamIdLink}}) para [explorar sua biblioteca e lista de desejos]({{link}}).",
+    "steamLoginIntro": "Faça login com o Steam para todos os recursos, incluindo a criação de relatórios.",
+    "steamSignIn": "Entrar com o Steam",
+    "topBarLink": "Seus jogos do Steam",
+    "unlink": "Desvincular conta",
+    "vanityName": "Nome público"
+  },
+  "content": {
+    "followingPost": "Post Seguinte",
+    "previousPost": "Postagem anterior"
+  },
+  "contextualInfo": {
+    "dateAdded": "Adicionado ao {{context}}",
+    "fixWanted": "",
+    "followers": "{{context}} Seguidores Steam",
+    "heavilyReported": "{{context}} relatórios recentes",
+    "hoursPlayed": "{{context}} horas jogadas",
+    "mostBorked": "",
+    "peakPlayers": "{{context}} pico de jogadores",
+    "playerCount": "{{context}} pico de jogadores",
+    "percentPositive": "{{context}}% classificações positivas",
+    "popular": "{{context}} seguidores",
+    "positiveRating": "{{context}}% classificação positiva",
+    "protonDbRating": "",
+    "rank": "Classificado {{context}} no Steam",
+    "recentlyReleased": "Primeiro lote de {{context}} reportes",
+    "recentlyImproved": "{{context}} relatórios com as duas últimas versões do Proton",
+    "releaseDate": "Lançado {{context}}",
+    "userScore": "{{context}}% classificação positiva",
+    "wilsonRating": ""
+  },
+  "footer": {
+    "description": "{{name}} é um projeto de paixão de [@bdefore]({{link}}) e uma comunidade dedicada de contribuidores.",
+    "feedbackPrompt": "Tem algum feedback? Venha conversar com a gente!",
+    "data": "Este site usa dados de {{name}} bem como dados",
+    "legal": "Este site não tem afiliação com a Valve Software. Todas as imagens e logotipos do jogo são de propriedade de seus respectivos proprietários."
+  },
+  "games": {
+    "zeroStateMessage": "Nenhum jogo encontrado"
   },
   "libraryLoader": {
-    "errorLoadingGames": "Erro ao carregar jogos. Por favor verifique se a privacidade do seu perfil e dos seus jogos estão marcados como públicos na sua conta!",
+    "errorLoadingGames": "Erro ao carregar jogos. Certifique-se de que os detalhes do perfil e do jogo sejam públicos nesta conta!",
     "gameTotal": "{{count}} jogos na biblioteca carregados!",
-    "note": "Certifique-se que em suas [Configurações de Privacidade da Steam]({{link}}) tanto 'Privacidade do perfil' como 'Privacidade de jogos' estejam marcados como 'Pública'. Mudanças recentes na Steam tornaram essas configurações privadas por padrão. Isso utilizará a Steam Web API para recuperar informações públicas da sua conta incluindo sua ID, nome do perfil e avatar. A Steam mostrará o endereço de IP do {{host}} para você aprovar - isso é normal e esperado.",
+    "note": "Isso usará a API da Web do Steam para recuperar informações públicas sobre sua conta, incluindo seu id, nome de perfil e avatar. Certifique-se de que em suas [Configurações de privacidade do Steam]({{link}}) o seu 'Meu perfil' esteja definido como público. 'Detalhes do jogo' não precisa ser público. Se for, a página Explorar usará as informações da sua biblioteca e o tempo de jogo será enviado com suas contribuições.",
     "refresh": "Atualizar"
   },
+  "librarySummary": {
+    "submit": "Certo!",
+    "submitWhenLoggedOut": "Vamos ver!",
+    "greetLoggedIn": "Quer ver quantos jogos posso jogar?",
+    "mostPlayedVerified": "Seus Jogos Mais Jogados que Foram Verificados no Deck",
+    "mostPlayedVerifiedExtra": "Estes são os jogos mais jogados que a Valve certificou como Verificado no Deck: Verificado ou tem o Status de Jogável",
+    "mostPlayedRatedUnverified": "Não é Verificado no Deck, Mas Parece Funcionar Aqui",
+    "mostPlayedRatedUnverifiedExtra": "Os jogos a seguir ainda não são oficialmente Verificados no Deck como Verificado nem em Status Jogável, mas de acordo com relatórios da comunidade parecem bons para jogar no Linux.",
+    "userNotFound": "Usuário não encontrado. Certifique-se de que 'Meu perfil' e 'Detalhes do jogo' estejam definidos como públicos em suas [Configurações Steam]({{link}}).",
+    "gamesNotFound": "Nenhum jogo encontrado. Certifique-se de que 'Detalhes do jogo' esteja definido como público em suas [configurações do Steam]({{link}})."
+  },
   "misc": {
-    "addYourReport": "Adicionar seu Relato",
+    "addYourReport": "Adicione seu relatório",
     "affirmative": "Sim",
-    "areYouSure": "Tem certeza?",
+    "any": "Qualquer",
+    "areYouSure": "Você tem certeza?",
+    "cancel": "Cancelar",
     "chipset": "Chipset",
     "conjunction": "e",
+    "discard": "Descartar",
     "dismiss": "Dispensar",
     "distro": "Distro",
     "driver": "Driver",
-    "execute": "Rodar",
-    "feedbackPrompt": "Comentários? Fale com a gente no [Discord]({{link}})",
+    "execute": "Executar",
+    "feedbackPrompt": "Comentários? Deixe-nos saber no [Discord]({{link}})",
     "filter": "Filtro",
+    "filteringSettings": "Configurações de filtragem",
+    "forget": "Esqueço",
     "games": "Jogos",
-    "hide": "Ocultar {{what}}",
+    "hide": "Esconder {{what}}",
+    "hour": "hora",
+    "hours": "horas",
     "include": "Incluir",
-    "install": "Instalar",
+    "install": "Instalação",
     "joinUsPrompt": "Junte-se a nós no Discord!",
-    "lastContentRefreshTime": "Última atualização de conteúdo foi há {{time}}",
-    "meetsRequirements": "Cumpre os requisitos",
-    "moreInfo": "Mais informações",
-    "multiplayer": "Multijogador",
+    "lastContentRefreshTime": "A última atualização de conteúdo foi {{time}} atrás",
+    "meetsRequirements": "Atende aos Requisitos",
+    "moreInfo": "Mais Informações",
+    "multiplayer": "Multi-jogador",
     "native": "Nativo",
     "negative": "Não",
-    "notFound": "Não encontrado",
+    "notFound": "Não Encontrado",
+    "notRecommended": "Não Recomendado",
     "note": "Nota",
-    "overall": "Geral",
+    "overall": "No geral",
     "pending": "Pendente",
+    "preferences": "Preferências",
+    "recommended": "Recomendado",
     "provisional": "Provisório",
     "published": "Publicado",
-    "rated": "Avaliado",
-    "report": "Relato",
-    "reports": "Relatos",
+    "rated": "Classificado",
+    "report": "Relatório",
+    "reports": "Relatórios",
+    "reset": "Redefinir",
     "save": "Salvar",
-    "saved": "{{what}} Salvo",
+    "saved": "{{what}} Salvou",
     "show": "Mostrar {{what}}",
-    "showAll": "Mostrar Todos",
-    "showMore": "Mostrar Mais",
-    "tier": "Categoria",
+    "showAll": "Mostre Tudo",
+    "showMore": "Mostre Mais",
+    "skip": "Pular",
+    "tier": "Tier",
+    "tinker": "tinker",
+    "tryAgain": "Tente Novamente",
     "total": "Total",
     "unknown": "Desconhecido",
+    "unknownError": "Erro desconhecido",
     "version": "Versão"
   },
   "nav": {
@@ -59,51 +131,71 @@
     "help": "Ajuda",
     "news": "Notícias",
     "profile": "Perfil",
-    "search": "Buscar jogos...",
+    "search": "Pesquisar jogos...",
     "stats": "Estatísticas"
   },
   "pagination": {
-    "next": "Página seguinte",
-    "previous": "Página anterior",
-    "summary": "Resultados {{from}} a {{to}} de {{total}}"
+    "next": "Próxima página",
+    "previous": "Previous page",
+    "summary": "Resultados {{from}} para {{to}} de {{total}}"
   },
   "preferences": {
     "headline": "Preferências",
-    "intro": "O ProtonDB mostra o nome de usuário do remetente ao lado dos relatos. Sua ID Steam única não é transmitida nos dados dos relatos publicados. Se você está preocupado que seu nome de usuário possa ser utilizado para inferir seu perfil na Steam, você pode utilizar um nome de usuário diferente aqui e isso será utilizado após a próxima atualização de conteúdo.",
+    "intro": "O ProtonDB exibe o apelido Steam do remetente ao lado dos relatórios. Seu Steam ID exclusivo não é transmitido nos dados de relatórios publicados. Se você estiver preocupado que seu apelido possa ser usado para inferir seu perfil Steam, você pode escolher um apelido diferente aqui e ele será usado após a próxima atualização de conteúdo.",
     "questions": {
       "customName": {
         "additionalNotes": {
           "label": "Nome Personalizado"
         },
         "options": {
-          "custom": "Um nome de usuário personalizado",
-          "keepSteam": "Meu nome de usuário Steam ({{steamNickname}})"
+          "custom": "Um apelido personalizado",
+          "keepSteam": "Meu apelido no Steam ({{steamNickname}})"
         },
         "prompt": "Seu nome público"
       },
       "language": {
-        "prompt": "Idioma (Experimental)"
+        "prompt": "Linguagem"
+      },
+      "performanceMode": {
+        "prompt": "Você prefere executar uma versão de melhor desempenho do site?"
       }
     }
   },
   "profile": {
-    "exploreLibrary": "Você pode explorar sua biblioteca ordenada pelas seguintes visualizações:",
-    "inYourLibrary": "Na sua biblioteca",
+    "exploreLibrary": "Você pode explorar sua biblioteca classificada com as seguintes visualizações:",
+    "inYourLibrary": "Na Sua Biblioteca",
     "libraryTags": {
-      "byHoursPlayed": "Pelo seu tempo de jogo",
-      "byPlayerCount": "Pelo numero de jogadores",
-      "byProtonDbRating": "Pela avaliação no ProtonDB",
-      "bySteamDbScore": "Pela nota dos usuários no SteamDB",
-      "headline": "Os marcadores a seguir são comuns na sua biblioteca. Você pode explorar com eles:",
-      "lackReportsByHoursPlayed": "Faltam Relatos por seu tempo de jogo",
-      "lackReportsByPlayerCount": "Faltam Relatos pelo número de jogadores",
-      "lackReportsBySteamDbScore": "Faltam Relatos pela nota dos usuários no SteamDB"
+      "byHoursPlayed": "Por suas horas jogadas",
+      "byPlayerCount": "Por contagem de jogadores",
+      "byProtonDbRating": "Por classificação ProtonDB",
+      "bySteamDbScore": "Por pontuação de usuário do SteamDB",
+      "headline": "As seguintes tags são comuns em sua biblioteca. Você pode mergulhar com estas",
+      "lackReportsByHoursPlayed": "Falta relatórios por suas horas jogadas",
+      "lackReportsByPlayerCount": "Falta relatório por contagem de jogadores",
+      "lackReportsBySteamDbScore": "Falta de relatório por pontuação de usuário do SteamDB"
     },
-    "notInYourLibrary": "Não Existe na Sua Biblioteca",
+    "notInYourLibrary": "Não Está Na Sua Biblioteca",
     "yourContributions": "Suas Contribuições"
   },
-  "reports": {},
+  "reports": {
+    "clear": "Limpar",
+    "displayExcluded": "Mostrar relatórios excluídos",
+    "filteredOutCount": "{{count}} filtrados",
+    "filteredOutHeadline": "{{count}} os relatórios não correspondem aos seus critérios de filtragem para {{filters}}",
+    "superceded": "Existe um relatório mais recen﻿te deste tipo deste autor",
+    "tinkerMethods": {
+      "other": "Outro",
+      "launcher": "Iniciador",
+      "older": "Mudar para a versão mais antiga",
+      "experimental": "Mudar para experimental",
+      "customProton": "Proton customizado",
+      "launchOptions": "Definir opções de inicialização"
+    },
+    "zeroStateMessage": "Nenhum relatório",
+    "zeroStateMessageWithFilters": "Nenhum relatório corresponde aos seus filtros aplicados"
+  },
   "search": {
-    "resultsHeader": "Resultados da busca por {{q}}"
+    "headline": "Procurar por {{q}}",
+    "results": "Resultados"
   }
 }
