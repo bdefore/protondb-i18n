@@ -2,11 +2,11 @@
   "appSelection": {
     "caution": "Cuidado!",
     "helperText": "Você também pode colar links ou um ID de aplicativo e tentaremos encontrá-lo",
-    "playedNatively": "Você executou o jogo nativamente sem usar o Proton?",
-    "notOwner": "Sua conta Steam não lista este jogo como de sua propriedade e não será exibido em seu relatório. Isso pode acontecer se suas [configurações de privacidade do Steam]({{link}}) não tornarem públicos os detalhes do jogo. Se isso for um erro, por favor nos avise.",
     "noPlaytime": "Sua conta Steam não mostra nenhum tempo de jogo registrado para este jogo. Isso pode acontecer se suas [configurações de privacidade do Steam]({{link}}) não tornarem os detalhes do jogo públicos ou se você optar por não compartilhar o tempo de jogo por meio da opção 'Sempre manter meu total de tempo de jogo privado, mesmo que os usuários possam ver meus detalhes de jogo. Seu relatório ainda mostrará você como proprietário. Se isso for um erro, por favor nos avise.",
     "notFound": "Não foi possível encontrar o jogo com o App ID {{query}}. Isso pode acontecer se estiver impreciso ou se: tiver sido removido da loja Steam, não estiver listado como um 'jogo' ou não estiver disponível em seu país.",
+    "notOwner": "Sua conta Steam não lista este jogo como de sua propriedade e não será exibido em seu relatório. Isso pode acontecer se suas [configurações de privacidade do Steam]({{link}}) não tornarem públicos os detalhes do jogo. Se isso for um erro, por favor nos avise.",
     "placeholder": "Digite o nome de um jogo na sua biblioteca Steam...",
+    "playedNatively": "Você executou o jogo nativamente sem usar o Proton?",
     "previousReportsExist": "Você tem relatórios anteriores para este jogo",
     "runsNativeWarning": "O jogo selecionado publicou uma versão nativa do Linux! Certifique-se de que não executou inadvertidamente o jogo nativamente. O Steam não usa o Proton para executar este jogo por padrão, mas [você pode forçá-lo a fazê-lo]({{link}})."
   },
@@ -40,42 +40,16 @@
     },
     "prompt": "Você teve algum problema com o áudio?"
   },
+  "authoringLanguage": {
+    "prompt": "Em que idioma você escreverá este relatório?"
+  },
   "borked": {
     "headline": "Isso é uma chato!",
     "intro": "Agora você continuará enviando um relatório quebrado, mas antes de fazer isso, você pode visitar nossa página de [Perguntas frequentes sobre solução de problemas de jogos]({{link}})."
   },
-  "variant": {
-    "additionalNotes": {
-      "label": "Como é chamado?"
-    },
-    "legend": "Variante",
-    "options": {
-      "official": {
-        "long": "O que o Steam recomenda por padrão",
-        "short": "Oficial"
-      },
-      "experimental": {
-        "long": "Experimental Forçado",
-        "short": "Experimental"
-      },
-      "older": {
-        "long": "Mudou para uma versão mais antiga",
-        "short": "Mais antigo"
-      },
-      "ge": {
-        "long": "Glorious Eggroll (GE)",
-        "short": "GE"
-      },
-      "native": {
-        "long": "Nativo. Não Proton.",
-        "short": "nativo"
-      },
-      "notListed": {
-        "long": "Não listado",
-        "short": "Não listado"
-      }
-    },
-    "prompt": "Qual variante do Proton você usa?"
+  "concludingNotes": {
+    "label": "Notas Finais",
+    "prompt": "Adicione aqui qualquer coisa extra com a qual você gostaria de concluir no final do seu relatório."
   },
   "customProtonVersion": {
     "label": "Versão"
@@ -151,10 +125,6 @@
       }
     },
     "prompt": "Por quanto tempo você jogou?"
-  },
-  "concludingNotes": {
-    "label": "Notas Finais",
-    "prompt": "Adicione aqui qualquer coisa extra com a qual você gostaria de concluir no final do seu relatório."
   },
   "graphicalFaults": {
     "legend": "Gráficos",
@@ -260,13 +230,6 @@
     },
     "prompt": "O jogo é afetado por software anti-trapaça?"
   },
-  "launchOptions": {
-    "label": "Opções de Inicialização",
-    "legend": "Opções de Inicialização",
-    "placeholder": "(nenhum)",
-    "prompt": "Você define alguma opção de inicialização?",
-    "helperText": "i.e. PROTON_NO_D3D11=1 %command%"
-  },
   "launchFlagsUsed": {
     "additionalNotes": {
       "label": "Detalhes Adicionais",
@@ -341,6 +304,13 @@
     },
     "prompt": "Você usa algum dessas flags de inicialização do Proton?"
   },
+  "launchOptions": {
+    "helperText": "i.e. PROTON_NO_D3D11=1 %command%",
+    "label": "Opções de Inicialização",
+    "legend": "Opções de Inicialização",
+    "placeholder": "(nenhum)",
+    "prompt": "Você define alguma opção de inicialização?"
+  },
   "launcher": {
     "additionalNotes": {
       "label": "Inicializador"
@@ -361,9 +331,6 @@
       }
     },
     "prompt": "Como você inicia o jogo?"
-  },
-  "authoringLanguage": {
-    "prompt": "Em que idioma você escreverá este relatório?"
   },
   "localMultiplayerAppraisal": {
     "additionalNotes": {
@@ -511,10 +478,10 @@
     "customizations": "Personalizações",
     "finalNotes": "Veredito",
     "multiplayer": "Multijogador",
-    "technical": "Detalhes Técnicos",
     "preview": "Prever",
     "setup": "Configuração",
     "startup": "Instalar e Iniciar",
+    "technical": "Detalhes Técnicos",
     "unownedWarning": "Não Está na Biblioteca"
   },
   "tinkerOverride": {
@@ -533,15 +500,48 @@
     },
     "prompt": "Parece um relatório não-tinker (conserto) até agora. Você fez alguma personalização que justifique que este seja um relatório de Tinker? [Mais informações]({{link}})"
   },
+  "triedOob": {
+    "prompt": "Seu relatório será classificado como um relatório de Tinker. Você já tentou jogar com Steam e Proton sem consertar algo?"
+  },
+  "variant": {
+    "additionalNotes": {
+      "label": "Como é chamado?"
+    },
+    "legend": "Variante",
+    "options": {
+      "experimental": {
+        "long": "Experimental Forçado",
+        "short": "Experimental"
+      },
+      "ge": {
+        "long": "Glorious Eggroll (GE)",
+        "short": "GE"
+      },
+      "native": {
+        "long": "Nativo. Não Proton.",
+        "short": "nativo"
+      },
+      "notListed": {
+        "long": "Não listado",
+        "short": "Não listado"
+      },
+      "official": {
+        "long": "O que o Steam recomenda por padrão",
+        "short": "Oficial"
+      },
+      "older": {
+        "long": "Mudou para uma versão mais antiga",
+        "short": "Mais antigo"
+      }
+    },
+    "prompt": "Qual variante do Proton você usa?"
+  },
   "verdict": {
     "additionalNotes": {
       "label": "Resumo (max {{count}} chars)",
       "placeholder": "Adicione um breve resumo. Este será o título do seu relatório."
     },
     "prompt": "Um jogador típico gostaria de jogar este jogo no Linux como você o jogou?"
-  },
-  "triedOob": {
-    "prompt": "Seu relatório será classificado como um relatório de Tinker. Você já tentou jogar com Steam e Proton sem consertar algo?"
   },
   "verdictOob": {
     "prompt": "Abrindo diretamente do Steam, um jogador típico gosta de jogar este jogo no Linux mesmo ter que fazer modificações?"

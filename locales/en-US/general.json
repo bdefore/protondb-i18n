@@ -30,22 +30,22 @@
     "hoursPlayed": "{{context}} hours played",
     "mostBorked": "",
     "peakPlayers": "{{context}} peak players",
-    "playerCount": "{{context}} peak players",
     "percentPositive": "{{context}}% positive rating",
+    "playerCount": "{{context}} peak players",
     "popular": "{{context}} followers",
     "positiveRating": "{{context}}% positive rating",
     "protonDbRating": "",
     "rank": "Ranked {{context}} on Steam",
-    "recentlyReleased": "First batch of {{context}} reports",
     "recentlyImproved": "{{context}} reports with latest two Proton versions",
+    "recentlyReleased": "First batch of {{context}} reports",
     "releaseDate": "Released {{context}}",
     "userScore": "{{context}}% positive rating",
     "wilsonRating": ""
   },
   "footer": {
+    "data": "This site uses data from {{name}} as well as data",
     "description": "{{name}} is a passion project from [@bdefore]({{link}}) and a dedicated community of reporters.",
     "feedbackPrompt": "Have some feedback? Come chat with us!",
-    "data": "This site uses data from {{name}} as well as data",
     "legal": "This site has no affiliation with Valve Software. All game images and logos are property of their respective owners."
   },
   "games": {
@@ -58,15 +58,15 @@
     "refresh": "Refresh"
   },
   "librarySummary": {
-    "submit": "Sure!",
-    "submitWhenLoggedOut": "Let's See!",
+    "gamesNotFound": "No games found. Ensure 'Game Details' is set to public in your [Steam settings]({{link}}).",
     "greetLoggedIn": "Want to see how many games I can play?",
-    "mostPlayedVerified": "Your Most Played Deck Verified Games",
-    "mostPlayedVerifiedExtra": "These are your most played games that Valve has certified as Deck Verified: Verified or Playable status",
     "mostPlayedRatedUnverified": "Not Deck Verified, But Looking Good Here",
     "mostPlayedRatedUnverifiedExtra": "The following games are not yet officially Deck Verified as Verified nor Playable status, but according to community reports are looking good for play on Linux.",
-    "userNotFound": "User not found. Ensure 'My Profile' and 'Game Details' are set to public in your [Steam settings]({{link}}).",
-    "gamesNotFound": "No games found. Ensure 'Game Details' is set to public in your [Steam settings]({{link}})."
+    "mostPlayedVerified": "Your Most Played Deck Verified Games",
+    "mostPlayedVerifiedExtra": "These are your most played games that Valve has certified as Deck Verified: Verified or Playable status",
+    "submit": "Sure!",
+    "submitWhenLoggedOut": "Let's See!",
+    "userNotFound": "User not found. Ensure 'My Profile' and 'Game Details' are set to public in your [Steam settings]({{link}})."
   },
   "misc": {
     "addYourReport": "Add Your Report",
@@ -104,10 +104,10 @@
     "overall": "Overall",
     "pending": "Pending",
     "preferences": "Preferences",
-    "recommended": "Recommended",
     "provisional": "Provisional",
     "published": "Published",
     "rated": "Rated",
+    "recommended": "Recommended",
     "report": "Report",
     "reports": "Reports",
     "reset": "Reset",
@@ -119,8 +119,8 @@
     "skip": "Skip",
     "tier": "Tier",
     "tinker": "tinker",
-    "tryAgain": "Try Again",
     "total": "Total",
+    "tryAgain": "Try Again",
     "unknown": "Unknown",
     "unknownError": "Unknown Error",
     "version": "Version"
@@ -184,12 +184,12 @@
     "filteredOutHeadline": "{{count}} reports do not match your filtering criteria for {{filters}}",
     "superceded": "There is a newer report of this type from this author",
     "tinkerMethods": {
-      "other": "Other",
+      "customProton": "Custom Proton",
+      "experimental": "Switch to experimental",
+      "launchOptions": "Set launch options",
       "launcher": "Launcher",
       "older": "Switch to older version",
-      "experimental": "Switch to experimental",
-      "customProton": "Custom Proton",
-      "launchOptions": "Set launch options"
+      "other": "Other"
     },
     "zeroStateMessage": "No reports",
     "zeroStateMessageWithFilters": "No reports match your applied filters"

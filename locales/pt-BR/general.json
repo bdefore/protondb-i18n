@@ -30,22 +30,22 @@
     "hoursPlayed": "{{context}} horas jogadas",
     "mostBorked": "",
     "peakPlayers": "{{context}} pico de jogadores",
-    "playerCount": "{{context}} pico de jogadores",
     "percentPositive": "{{context}}% classificações positivas",
+    "playerCount": "{{context}} pico de jogadores",
     "popular": "{{context}} seguidores",
     "positiveRating": "{{context}}% classificação positiva",
     "protonDbRating": "",
     "rank": "Classificado {{context}} no Steam",
-    "recentlyReleased": "Primeiro lote de {{context}} reportes",
     "recentlyImproved": "{{context}} relatórios com as duas últimas versões do Proton",
+    "recentlyReleased": "Primeiro lote de {{context}} reportes",
     "releaseDate": "Lançado {{context}}",
     "userScore": "{{context}}% classificação positiva",
     "wilsonRating": ""
   },
   "footer": {
+    "data": "Este site usa dados de {{name}} bem como dados",
     "description": "{{name}} é um projeto de paixão de [@bdefore]({{link}}) e uma comunidade dedicada de contribuidores.",
     "feedbackPrompt": "Tem algum feedback? Venha conversar com a gente!",
-    "data": "Este site usa dados de {{name}} bem como dados",
     "legal": "Este site não tem afiliação com a Valve Software. Todas as imagens e logotipos do jogo são de propriedade de seus respectivos proprietários."
   },
   "games": {
@@ -58,15 +58,15 @@
     "refresh": "Atualizar"
   },
   "librarySummary": {
-    "submit": "Certo!",
-    "submitWhenLoggedOut": "Vamos ver!",
+    "gamesNotFound": "Nenhum jogo encontrado. Certifique-se de que 'Detalhes do jogo' esteja definido como público em suas [configurações do Steam]({{link}}).",
     "greetLoggedIn": "Quer ver quantos jogos posso jogar?",
-    "mostPlayedVerified": "Seus Jogos Mais Jogados que Foram Verificados no Deck",
-    "mostPlayedVerifiedExtra": "Estes são os jogos mais jogados que a Valve certificou como Verificado no Deck: Verificado ou tem o Status de Jogável",
     "mostPlayedRatedUnverified": "Não é Verificado no Deck, Mas Parece Funcionar Aqui",
     "mostPlayedRatedUnverifiedExtra": "Os jogos a seguir ainda não são oficialmente Verificados no Deck como Verificado nem em Status Jogável, mas de acordo com relatórios da comunidade parecem bons para jogar no Linux.",
-    "userNotFound": "Usuário não encontrado. Certifique-se de que 'Meu perfil' e 'Detalhes do jogo' estejam definidos como públicos em suas [Configurações Steam]({{link}}).",
-    "gamesNotFound": "Nenhum jogo encontrado. Certifique-se de que 'Detalhes do jogo' esteja definido como público em suas [configurações do Steam]({{link}})."
+    "mostPlayedVerified": "Seus Jogos Mais Jogados que Foram Verificados no Deck",
+    "mostPlayedVerifiedExtra": "Estes são os jogos mais jogados que a Valve certificou como Verificado no Deck: Verificado ou tem o Status de Jogável",
+    "submit": "Certo!",
+    "submitWhenLoggedOut": "Vamos ver!",
+    "userNotFound": "Usuário não encontrado. Certifique-se de que 'Meu perfil' e 'Detalhes do jogo' estejam definidos como públicos em suas [Configurações Steam]({{link}})."
   },
   "misc": {
     "addYourReport": "Adicione seu relatório",
@@ -104,10 +104,10 @@
     "overall": "No geral",
     "pending": "Pendente",
     "preferences": "Preferências",
-    "recommended": "Recomendado",
     "provisional": "Provisório",
     "published": "Publicado",
     "rated": "Classificado",
+    "recommended": "Recomendado",
     "report": "Relatório",
     "reports": "Relatórios",
     "reset": "Redefinir",
@@ -119,8 +119,8 @@
     "skip": "Pular",
     "tier": "Tier",
     "tinker": "tinker",
-    "tryAgain": "Tente Novamente",
     "total": "Total",
+    "tryAgain": "Tente Novamente",
     "unknown": "Desconhecido",
     "unknownError": "Erro desconhecido",
     "version": "Versão"
@@ -184,12 +184,12 @@
     "filteredOutHeadline": "{{count}} os relatórios não correspondem aos seus critérios de filtragem para {{filters}}",
     "superceded": "Existe um relatório mais recen﻿te deste tipo deste autor",
     "tinkerMethods": {
-      "other": "Outro",
+      "customProton": "Proton customizado",
+      "experimental": "Mudar para experimental",
+      "launchOptions": "Definir opções de inicialização",
       "launcher": "Iniciador",
       "older": "Mudar para a versão mais antiga",
-      "experimental": "Mudar para experimental",
-      "customProton": "Proton customizado",
-      "launchOptions": "Definir opções de inicialização"
+      "other": "Outro"
     },
     "zeroStateMessage": "Nenhum relatório",
     "zeroStateMessageWithFilters": "Nenhum relatório corresponde aos seus filtros aplicados"

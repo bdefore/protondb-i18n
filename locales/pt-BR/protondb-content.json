@@ -30,10 +30,10 @@
       "mostPopular": "Mais Populares",
       "percentPositive": "Bem Avaliado na Loja",
       "popular": "Mais Seguidores do Steam",
-      "releaseDate": "Por Data de Lançamento",
       "rank": "Mais Popular",
-      "recentlyReleased": "Lançado Recentemente",
       "recentlyImproved": "Melhorado Recentemente",
+      "recentlyReleased": "Lançado Recentemente",
+      "releaseDate": "Por Data de Lançamento",
       "userScore": "Bem Avaliado",
       "wellRatedHere": "Bem Avaliado Por Aqui"
     },
@@ -47,11 +47,11 @@
       "hoursPlayed": "Horas Jogadas",
       "mostBorked": "Com mais relatórios como quebrado",
       "percentPositive": "Porcentagem Positiva",
-      "popular": "Popular",
       "playerCount": "Contagem de Jogadores",
+      "popular": "Popular",
       "rank": "Mais Popular",
-      "recentlyReleased": "Lançado Recentemente",
       "recentlyImproved": "Melhorado Recentemente",
+      "recentlyReleased": "Lançado Recentemente",
       "releaseDate": "Data de Lançamento",
       "userScore": "Pontuação de Usuário",
       "wilsonRating": "Avaliação do ProtonDB"
@@ -71,9 +71,6 @@
   },
   "filters": {
     "questions": {
-      "query": {
-        "label": "Consulta"
-      },
       "cpu": {
         "label": "CPU"
       },
@@ -83,11 +80,14 @@
       "gpu": {
         "label": "GPU"
       },
-      "type": {
-        "label": "Tipo"
-      },
       "persist": {
         "prompt": "Persiste em todo o site?"
+      },
+      "query": {
+        "label": "Consulta"
+      },
+      "type": {
+        "label": "Tipo"
       }
     }
   },
@@ -98,17 +98,17 @@
     "nativelySupports": "Suporta Nativamente",
     "notices": {
       "antiCheat": {
-        "headline": "Suporte Multijogador",
         "battlEye": {
           "explanation": "Este jogo é conhecido por utilizar [BattlEye](https://www.battleye.com). BattlEye [pode ser usado no Linux](https://twitter.com/TheBattlEye/status/1441477816311291906), mas a funcionalidade multijogador varia dependendo de como o desenvolvedor a implementou."
         },
         "eac": {
           "explanation": "Este jogo é conhecido por utilizar o [Easy Anti-Cheat](https://www.easy.ac). O EAC tem [suporte limitado para Linux](https://dev.epicgames.com/en-US/news/epic-online-services-launches-anti-cheat-support-for-linux-mac-and-steam-deck), mas a funcionalidade multijogador varia dependendo de como o desenvolvedor a implementou."
-        }
+        },
+        "headline": "Suporte Multijogador"
       },
       "nativeDiscrepancy": {
-        "headline": "Suporte Nativo",
-        "explanation": "Embora este jogo tenha uma versão nativa do Linux disponível, o Steam não o lista como tendo suporte ao Linux. Isso pode acontecer se um jogo tiver uma versão não oficial, inacabada ou sem suporte. Você pode precisar [forçar o Steam a habilitar o Proton para o jogo](/help/troubleshooting-faq#how-do-i-run-a-game-with-proton-even-though-it-has-a-native-linux-version) para funcionar corretamente."
+        "explanation": "Embora este jogo tenha uma versão nativa do Linux disponível, o Steam não o lista como tendo suporte ao Linux. Isso pode acontecer se um jogo tiver uma versão não oficial, inacabada ou sem suporte. Você pode precisar [forçar o Steam a habilitar o Proton para o jogo](/help/troubleshooting-faq#how-do-i-run-a-game-with-proton-even-though-it-has-a-native-linux-version) para funcionar corretamente.",
+        "headline": "Suporte Nativo"
       }
     }
   },
@@ -128,17 +128,17 @@
     "search": "Procure por um jogo...",
     "stats": {
       "atLeastOneRecommends": "recomendado por pelo menos um",
-      "atLeastTwoRecommend": "recomendado por dois ou mais",
       "atLeastThreeRecommend": "recomendado por três ou mais",
-      "deckVerifiedPlayable": "verificado ou jogável",
+      "atLeastTwoRecommend": "recomendado por dois ou mais",
       "deckVerified": "verificado",
       "deckVerifiedHeader": "Jogos Verificados no Deck",
+      "deckVerifiedPlayable": "verificado ou jogável",
       "gamesReported": "jogos reportados",
       "gamesWithReports": "jogos com relatórios",
       "gamesWork": "jogos funcionando",
       "gamesWorkExplanation": "Ter pelo menos um relatório Thumbs Up ou Platinum (legado)",
-      "reportsWritten": "Relatórios escritos",
-      "protonDbGamesHeader": "Jogos no ProtonDB"
+      "protonDbGamesHeader": "Jogos no ProtonDB",
+      "reportsWritten": "Relatórios escritos"
     },
     "theImpact": {
       "answer": "O Steam Play agora suporta oficialmente um conjunto limitado, mas crescente, de jogos na 'whitelist' que são considerados compatíveis com Proton e rodam no Linux. Com base nos relatórios do ProtonDB, um número significativo de jogos não incluídos na whitelist, incluindo muitos títulos populares, rodam tão bem quanto no Windows.",
@@ -168,8 +168,8 @@
   "ratingDefinitions": {
     "categories": {
       "clickPlay": "Clique em Play: sem mais",
-      "tinker": "Tinker: Alguma modificação necessária",
-      "deck": "Como ele funciona no Steam Deck"
+      "deck": "Como ele funciona no Steam Deck",
+      "tinker": "Tinker: Alguma modificação necessária"
     },
     "explanations": {
       "borked": "Ou não inicia ou é crucialmente impossível de jogar",
@@ -182,13 +182,13 @@
     },
     "headline": "Definições de classificação",
     "ratings": {
-      "S": "S Tier: Nem uma mancha",
+      "?": "Pendente: Precisa de mais dados",
       "A": "A Tier: Bem poderosa",
       "B": "B Tier: Muito bom mas pode melhorar",
       "C": "C Tier: Precisa de algum trabalho",
       "D": "D Tier: Manchado por problemas",
       "F": "F Tier: Quebrado!",
-      "?": "Pendente: Precisa de mais dados"
+      "S": "S Tier: Nem uma mancha"
     },
     "reports": "Clique para ver os relatórios"
   },
@@ -215,8 +215,8 @@
     "whenMeetingMinimumRequirements": "Quando Atender aos Requisitos Mínimos"
   },
   "steamAuthor": {
-    "hoursOverall": "{{time}} no geral",
     "hoursOnLinux": "{{time}} no Linux",
+    "hoursOverall": "{{time}} no geral",
     "timeWithProton": "{{time}} com Proton"
   },
   "suggestions": {
