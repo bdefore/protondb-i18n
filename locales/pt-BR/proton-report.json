@@ -339,7 +339,7 @@
     "prompt": "Como você classificaria a funcionalidade de multijogador local? Avalie se há problemas de atraso, conectividade ou entrada, etc."
   },
   "localMultiplayerAttempted": {
-    "prompt": "Você tentou jogar multi localmente (offline, ou seja, jogar no sofá)?"
+    "prompt": "Você tentou jogar multijogador localmente (offline, ou seja, jogar no sofá)?"
   },
   "localMultiplayerPlayed": {
     "prompt": "Você conseguiu fazer o multijogador local funcionar?"
