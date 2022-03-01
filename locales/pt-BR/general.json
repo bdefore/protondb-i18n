@@ -1,4 +1,4 @@
-
+{
   "auth": {
     "headline": "Autenticação Steam",
     "loggedInAs": "Logado como {{username}}",

@@ -25,8 +25,8 @@
     "hoursPlayed": "已玩 {{context}} 小時",
     "mostBorked": "",
     "peakPlayers": "{{context}} 個玩家玩過",
-    "playerCount": "{{context}} 個玩家玩過",
     "percentPositive": "{{context}}% 好評",
+    "playerCount": "{{context}} 個玩家玩過",
     "popular": "{{context}} 個追蹤",
     "positiveRating": "{{context}}% 好評",
     "protonDbRating": "",
@@ -37,9 +37,9 @@
     "wilsonRating": ""
   },
   "footer": {
+    "data": "此網站使用的數據來自於 {{name}}",
     "description": "{{name}} 是由充滿熱誠的 [@bdefore]({{link}}) 創造的專案，並由眾多社群測試者回報。",
     "feedbackPrompt": "想提交回饋？來 Discord 加入我們的討論！",
-    "data": "此網站使用的數據來自於 {{name}}",
     "legal": "本站與 Valve Software 沒有關聯。所有遊戲圖片及 logo 均歸其各自所有者所有。"
   },
   "games": {
@@ -87,10 +87,10 @@
     "overall": "結論",
     "pending": "待定",
     "preferences": "偏好設定",
-    "recommended": "推薦",
     "provisional": "待定",
     "published": "已發布",
     "rated": "已評分",
+    "recommended": "推薦",
     "report": "回報",
     "reports": "回報",
     "reset": "重設",
@@ -165,18 +165,18 @@
     "filteredOutHeadline": "以下 {{count}} 個報告與您設定的過濾器 {{filters}} 不匹配",
     "superceded": "這是該作者提交之該類型較新的回報",
     "tinkerMethods": {
-      "other": "其他",
+      "customProton": "自訂的 Proton",
+      "experimental": "切換到實驗版",
+      "launchOptions": "設定啟動選項",
       "launcher": "Launcher",
       "older": "接換到舊版",
-      "experimental": "切換到實驗版",
-      "customProton": "自訂的 Proton",
-      "launchOptions": "設定啟動選項"
+      "other": "其他"
     },
     "zeroStateMessage": "暫無回報",
     "zeroStateMessageWithFilters": "沒有回報與您設定的過濾器匹配"
   },
   "search": {
-    "resultsHeader": "{{q}} 的搜尋結果",
-    "results": "結果"
+    "results": "結果",
+    "resultsHeader": "{{q}} 的搜尋結果"
   }
 }

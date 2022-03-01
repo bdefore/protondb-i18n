@@ -2,9 +2,9 @@
   "appSelection": {
     "caution": "注意！",
     "helperText": "您也可以通過貼上鏈結或 App ID 找到遊戲",
-    "playedNatively": "您是否沒用 Proton 來運行原生版本的遊戲？",
     "notFound": "無法找到 App ID 為 {{query}} 的遊戲。有可能是輸入錯誤或者以下原因導致的：已從 Steam 商店下架、不在「遊戲」分類中或該遊戲在您的區域不可用。",
     "placeholder": "輸入您 Steam 庫中的一個遊戲名稱……",
+    "playedNatively": "您是否沒用 Proton 來運行原生版本的遊戲？",
     "previousReportsExist": "您已提交過該遊戲的回報",
     "runsNativeWarning": "您選中的遊戲已發布了原生 Linux 版！請確認您運行的不是原生版。默認情况下，Steam 不會使用 Steam Play 運行該遊戲，但您可以 [強制這樣做]({{link}})。"
   },
@@ -38,42 +38,16 @@
     },
     "prompt": "是否有聲音問題？"
   },
+  "authoringLanguage": {
+    "prompt": "您會以什麼語言來回報？"
+  },
   "borked": {
     "headline": "真是可惜！",
     "intro": "您將會提交無法遊玩的回報，但在那之前您也許想看看我們的 [遊戲疑難排解 FAQ]({{link}}) 頁面。"
   },
-  "customizationsUsed": {
-    "additionalNotes": {
-      "label": "更多細節"
-    },
-    "legend": "調整",
-    "options": {
-      "official": {
-        "long": "Steam 預設推薦",
-        "short": "官方"
-      },
-      "experimental": {
-        "long": "強制使用測試版",
-        "short": "測試版"
-      },
-      "older": {
-        "long": "切換到較舊版本",
-        "short": "舊版"
-      },
-      "ge": {
-        "long": "Glorious Eggroll (GE)",
-        "short": "GE"
-      },
-      "native": {
-        "long": "原生非 Proton。",
-        "short": "原生"
-      },
-      "notListed": {
-        "long": "沒列出來",
-        "short": "沒列出來"
-      }
-    },
-    "prompt": "您做了哪些自訂？"
+  "concludingNotes": {
+    "label": "總結",
+    "prompt": "在報告最後加入總結。"
   },
   "customProtonVersion": {
     "label": "版本"
@@ -149,10 +123,6 @@
       }
     },
     "prompt": "您玩了該遊戲多久？"
-  },
-  "concludingNotes": {
-    "label": "總結",
-    "prompt": "在報告最後加入總結。"
   },
   "graphicalFaults": {
     "legend": "畫面問題",
@@ -258,13 +228,6 @@
     },
     "prompt": "是否受到反作弊軟體的影響？"
   },
-  "launchOptions": {
-    "label": "啟動選項",
-    "legend": "啟動選項",
-    "placeholder": "（無）",
-    "prompt": "您是否有設定任何啟動選項",
-    "helperText": "例如：PROTON_NO_D3D11=1 %command%"
-  },
   "launchFlagsUsed": {
     "additionalNotes": {
       "label": "更多細節",
@@ -339,6 +302,13 @@
     },
     "prompt": "您是否使用了以下 Proton 啟動選項？"
   },
+  "launchOptions": {
+    "helperText": "例如：PROTON_NO_D3D11=1 %command%",
+    "label": "啟動選項",
+    "legend": "啟動選項",
+    "placeholder": "（無）",
+    "prompt": "您是否有設定任何啟動選項"
+  },
   "launcher": {
     "additionalNotes": {
       "label": "啟動器"
@@ -359,9 +329,6 @@
       }
     },
     "prompt": "您是如何啟動遊戲的？"
-  },
-  "authoringLanguage": {
-    "prompt": "您會以什麼語言來回報？"
   },
   "localMultiplayerAppraisal": {
     "additionalNotes": {
@@ -528,15 +495,15 @@
     },
     "prompt": "看來目前無手動調整的回報。您是否做了哪些手動調整來保證這是個手動調整回報呢？[更多資訊]({{link}})"
   },
+  "triedOob": {
+    "prompt": "您的回報將會被認定為手動調整回報。您是否嘗試過不手動調整只用 Steam 與 Proton 來遊玩呢？"
+  },
   "verdict": {
     "additionalNotes": {
       "label": "總結（不超過 {{count}} 個字）",
       "placeholder": "添加一個簡要的總結。這將成為該回報的標題。"
     },
     "prompt": "一個典型的遊戲玩家是否可以通過在 Linux 使用 Proton 來運行該遊戲並獲得愉快的遊戲體驗？"
-  },
-  "triedOob": {
-    "prompt": "您的回報將會被認定為手動調整回報。您是否嘗試過不手動調整只用 Steam 與 Proton 來遊玩呢？"
   },
   "verdictOob": {
     "prompt": "如果直接從 Steam 啟動，玩家能夠無手動設定的情況下遊玩遊戲嗎？"
