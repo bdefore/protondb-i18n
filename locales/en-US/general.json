@@ -76,6 +76,9 @@
     "cancel": "Cancel",
     "chipset": "Chipset",
     "conjunction": "and",
+    "delete": "Delete",
+    "device": "Device",
+    "devices": "Devices",
     "discard": "Discard",
     "dismiss": "Dismiss",
     "distro": "Distro",
@@ -111,18 +114,21 @@
     "report": "Report",
     "reports": "Reports",
     "reset": "Reset",
+    "revert": "Revert",
     "save": "Save",
     "saved": "{{what}} Saved",
     "show": "Show {{what}}",
     "showAll": "Show All",
     "showMore": "Show More",
     "skip": "Skip",
+    "switchTo": "Switch to {{thing}}",
     "tier": "Tier",
     "tinker": "tinker",
     "total": "Total",
     "tryAgain": "Try Again",
     "unknown": "Unknown",
     "unknownError": "Unknown Error",
+    "updated": "{{what}} Updated",
     "version": "Version"
   },
   "nav": {
@@ -162,7 +168,7 @@
     }
   },
   "profile": {
-    "exploreLibrary": "You can explore your library sorted with the following views:",
+    "exploreLibrary": "Now that you've got your library loaded, you can explore your library sorted with the following views:",
     "inYourLibrary": "In Your Library",
     "libraryTags": {
       "byHoursPlayed": "By your hours played",

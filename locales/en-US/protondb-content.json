@@ -16,6 +16,22 @@
     "unrated": "Unrated",
     "unreported": "Unreported"
   },
+  "contributorSettings": {
+    "addAPCDevice": "Add a PC",
+    "addASteamDeckDevice": "Add a Steam Deck",
+    "headline": "Contributor Settings",
+    "intro": "Add a device to contribute reports. ProtonDB now supports storing multiple device configurations. Devices are divided into one of two types: PC or Steam Deck",
+    "intro2": "Some further detail:",
+    "invalidInfo": "Device details are invalid. Must be fixed to be used for contributing.",
+    "notOnSteamDeck": "Log into ProtonDB with a Steam Deck on Desktop Mode to add one.",
+    "otherDetail1": "Devices (as well as preferences) are now persisted across anywhere you login.",
+    "otherDetail2": "If you provide a single device, it will be automatically be applied during the contribute flow.",
+    "otherDetail3": "If you provide more than one, you will be prompted to select one, by its name, at the 'Setup' step.",
+    "otherDetail4": "Changes to your devices will not be ready until you hit Save.",
+    "otherDetail5": "Only the inferrence of your system information is ever made public, never raw Steam data.",
+    "validInfo": "Device details are valid and may be used for contributing.",
+    "yourDevices": "Your Devices"
+  },
   "explore": {
     "headlines": {
       "antiCheat": "Uses Anti-Cheat",
@@ -225,7 +241,8 @@
   },
   "systemInfo": {
     "headline": "System Information",
-    "howTo": "Gathering this information is quick if you have access to Steam settings on the machine where you play your games. [Go here to learn how]({{link}}). (Some users have reported that they need to press Ctrl-A to select everything before right clicking.)",
+    "howTo": "PC: Gathering Steam information is straightforward if you have access to Steam settings on the machine where you play your games. [Go here to learn how]({{link}}). Some users have reported that they need to press Ctrl-A to select everything before right clicking. You may omit everything starting with 'LD Scout Report' or if provided it will be stripped out automatically upon saving.",
+    "howToSteamDeck": "Steam Deck: Adding this device can currently only be done from Desktop Mode of a Steam Deck. Since devices now persist across login sessions, you only need to do this once and may author reports from another machine afterwards.",
     "intro": "Reports have more utility and lend more credibility by displaying the hardware and software the game was tested on. To keep this as accurate and consistent as possible, we leverage the system information reported by Steam itself.",
     "parseFailure": "Parsing failed. If you are certain you copied correctly please let us know on Discord",
     "parseSuccess": "System Information Parsed Successfully!",

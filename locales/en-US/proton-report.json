@@ -43,6 +43,10 @@
   "authoringLanguage": {
     "prompt": "What language will you write this report in?"
   },
+  "batteryPerformance": {
+    "legend": "Battery Performance",
+    "prompt": "Did you make any changes to improve battery performance?"
+  },
   "borked": {
     "headline": "That's a bummer!",
     "intro": "You will now proceed with submitting a borked report, but before you do you may want to visit our [Game Troubleshooting FAQ]({{link}}) page."
@@ -50,6 +54,77 @@
   "concludingNotes": {
     "label": "Concluding Notes",
     "prompt": "Add here anything extra that you'd like to conclude with at the end of your report."
+  },
+  "controlLayout": {
+    "additionalNotes": {
+      "label": "What community version?"
+    },
+    "legend": "Control Layout",
+    "options": {
+      "community": {
+        "long": "A community layout",
+        "short": "Community layout"
+      },
+      "gamepad": {
+        "long": "Gamepad",
+        "short": "Gamepad"
+      },
+      "gamepadWithGyro": {
+        "long": "Gamepad With Gyro",
+        "short": "Gamepad With Gyro"
+      },
+      "gamepadWithJoystick": {
+        "long": "Gamepad With Joystick Trackpad",
+        "short": "Gamepad With Joystick Trackpad"
+      },
+      "gamepadWithMouseTrackpad": {
+        "long": "Gamepad With Mouse Trackpad",
+        "short": "Gamepad With Mouse Trackpad"
+      },
+      "keyboardAndMouse": {
+        "long": "Keyboard (WASD) And Mouse",
+        "short": "Keyboard And Mouse"
+      },
+      "mouseOnly": {
+        "long": "Mouse Only",
+        "short": "Mouse Only"
+      },
+      "official": {
+        "long": "The official layout",
+        "short": "official"
+      },
+      "touchscreenMouseEmulation": {
+        "long": "Touchscreen Mouse Emulation",
+        "short": "Touchscreen Mouse Emulation"
+      }
+    },
+    "prompt": "What control layout did you play with?"
+  },
+  "controlLayoutCustomization": {
+    "additionalNotes": {
+      "label": "Customizations",
+      "prompt": "Describe your changes"
+    },
+    "legend": "Control Layout Customization",
+    "options": {
+      "enableGripButtons": {
+        "long": "Enabled Back Grip Buttons",
+        "short": "Grip Buttons"
+      },
+      "gyro": {
+        "long": "Enabled Gyro",
+        "short": "Gryo"
+      },
+      "other": {
+        "long": "Other",
+        "short": "Other"
+      },
+      "rightTrackpad": {
+        "long": "Changed Right Trackpad Behavior",
+        "short": "Right Trackpad"
+      }
+    },
+    "prompt": "Did you customize the controls further?"
   },
   "customProtonVersion": {
     "label": "Version"
@@ -99,6 +174,13 @@
       }
     },
     "prompt": "Are you using any of these common tinkering methods?"
+  },
+  "device": {
+    "legend": "Device",
+    "prompt": "Which of your devices are you playing on?"
+  },
+  "didChangeControlLayout": {
+    "prompt": "Did you change the default control layout?"
   },
   "duration": {
     "legend": "Duration",
@@ -399,8 +481,8 @@
     "prompt": "Did you experience unexpected slowness given your hardware?"
   },
   "prerequisites": {
-    "invalidOrMissingSystemInfo": "System information is missing or invalid",
     "missingProfileInfo": "Profile information incomplete. Missing: {{context}}",
+    "noValidDevices": "None of your devices have valid system information",
     "notLoggedIn": "Not logged in with {{context}}"
   },
   "prerequisitesBlock": {
@@ -481,6 +563,7 @@
     "preview": "Preview",
     "setup": "Setup",
     "startup": "Install and Startup",
+    "steamDeckRelated": "Steam Deck Related",
     "technical": "Technical Details",
     "unownedWarning": "Not In Library"
   },
