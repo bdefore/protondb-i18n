@@ -52,10 +52,6 @@ Keep an eye out for page rendering issues if your text is smaller or larger than
 
 As ProtonDB continues development, new text will be added that may need translation. For a quick way to verify if a language is missing translations (or has identical ones to English), you can run: `yarn compare --locale <locale-code>`
 
-### Known Active Translations
-
-- Portuguese (pt-BR): [@pedrofleck](https://github.com/pedrofleck) (ongoing at [PR #10](https://github.com/bdefore/protondb-i18n/pull/10))
-
 ### Hall of Fame
 
 - German (de-DE): [@NoXPhasma](https://github.com/NoXPhasma) and [@VoxelCubes](https://github.com/VoxelCubes)
