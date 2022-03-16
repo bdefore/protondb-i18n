@@ -3,10 +3,11 @@
     "steamDb": "{{subject}} provided by [{{name}}]({{link}}) via [{{partnerName}}]({{partnerLink}})."
   },
   "auth": {
+    "forgetMe": "Forget Me",
     "genericSignIn": "Sign In",
     "headline": "Steam Account",
     "identifierExample": "Examples:\n - [{{profileExample}}](#)\n - {{steamIdExample}}",
-    "identifierOptions": "Profile URL or Steam ID",
+    "identifierOptions": "Steam ID or Profile URL",
     "loggedInAs": "Logged in as {{username}}",
     "notLoggedIn": "Not Logged In",
     "profileUrl": "Profile URL",
@@ -57,17 +58,6 @@
     "note": "This will use the Steam Web API to retrieve public information about your account including your id, profile name and avatar. Ensure that within your [Steam Privacy Settings]({{link}}) your 'My profile' is set to public. 'Game Details' is not required to be public. If it is, the Explore page will use your library information and playtime will be sent with your contributions.",
     "refresh": "Refresh"
   },
-  "librarySummary": {
-    "gamesNotFound": "No games found. Ensure 'Game Details' is set to public in your [Steam settings]({{link}}).",
-    "greetLoggedIn": "Want to see how many games I can play?",
-    "mostPlayedRatedUnverified": "Not Deck Verified, But Looking Good Here",
-    "mostPlayedRatedUnverifiedExtra": "The following games are not yet officially Deck Verified as Verified nor Playable status, but according to community reports are looking good for play on Linux.",
-    "mostPlayedVerified": "Your Most Played Deck Verified Games",
-    "mostPlayedVerifiedExtra": "These are your most played games that Valve has certified as Deck Verified: Verified or Playable status",
-    "submit": "Sure!",
-    "submitWhenLoggedOut": "Let's See!",
-    "userNotFound": "User not found. Ensure 'My Profile' and 'Game Details' are set to public in your [Steam settings]({{link}})."
-  },
   "misc": {
     "addYourReport": "Add Your Report",
     "affirmative": "Yes",
@@ -75,6 +65,7 @@
     "areYouSure": "Are you sure?",
     "cancel": "Cancel",
     "chipset": "Chipset",
+    "clear": "Clear",
     "conjunction": "and",
     "delete": "Delete",
     "device": "Device",
@@ -121,6 +112,7 @@
     "showAll": "Show All",
     "showMore": "Show More",
     "skip": "Skip",
+    "sortBy": "Sort By",
     "switchTo": "Switch to {{thing}}",
     "tier": "Tier",
     "tinker": "tinker",
@@ -133,6 +125,7 @@
   },
   "nav": {
     "contribute": "Contribute",
+    "dashboard": "Dashboard",
     "explore": "Explore",
     "help": "Help",
     "news": "News",
@@ -142,7 +135,9 @@
   },
   "pagination": {
     "next": "Next page",
+    "nextShort": "Next",
     "previous": "Previous page",
+    "previousShort": "Prev",
     "summary": "Results {{from}} to {{to}} out of {{total}}"
   },
   "preferences": {
@@ -184,7 +179,6 @@
     "yourContributions": "Your Contributions"
   },
   "reports": {
-    "clear": "Clear",
     "displayExcluded": "Show excluded reports",
     "filteredOutCount": "{{count}} filtered out",
     "filteredOutHeadline": "{{count}} reports do not match your filtering criteria for {{filters}}",

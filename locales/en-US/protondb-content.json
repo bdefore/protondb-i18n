@@ -16,6 +16,130 @@
     "unrated": "Unrated",
     "unreported": "Unreported"
   },
+  "compatibilitySection": {
+    "aggregateHeadline": "In aggregate",
+    "chartTypeHeadline": "Category",
+    "chartTypes": {
+      "fullSteamCatalog": {
+        "description": "All of Steam's Games",
+        "long": "Steam Catalog",
+        "short": "Steam Catalog"
+      },
+      "indie": {
+        "description": "Games tagged with 'Indie'",
+        "long": "Indie",
+        "short": "Indie"
+      },
+      "library": {
+        "description": "{{username}}'s games",
+        "long": "Personal Library",
+        "short": "Personal Library"
+      },
+      "localMultiplayer": {
+        "description": "Games tagged with 'Local Multiplayer'",
+        "long": "Local Multiplayer",
+        "short": "Local Multiplayer"
+      },
+      "minProminence": {
+        "description": "Games that meet a minimum threshold of Steam followers",
+        "long": "Popular Games",
+        "short": "Popular Games"
+      },
+      "singlePlayer": {
+        "description": "Games tagged with 'Singleplayer'",
+        "long": "Single Player",
+        "short": "Single Player"
+      },
+      "topHundred": {
+        "description": "Measured by peak concurrent players",
+        "long": "Top 100",
+        "short": "Top 100"
+      },
+      "topTen": {
+        "description": "Measured by peak concurrent players",
+        "long": "Top 10",
+        "short": "Top 10"
+      },
+      "topThousand": {
+        "description": "Measured by peak concurrent players",
+        "long": "Top 1000",
+        "short": "Top 1000"
+      },
+      "vr": {
+        "description": "Games tagged with 'VR'",
+        "long": "VR",
+        "short": "VR"
+      }
+    },
+    "decline": "Go back",
+    "gameSorts": {
+      "playerCount": {
+        "long": "Sort By: Player Count",
+        "short": "Player Count"
+      },
+      "rating": {
+        "long": "Sort By: Rating",
+        "short": "Rating"
+      }
+    },
+    "gamesNotFound": "No games found. Ensure 'Game Details' is set to public in your [Steam settings]({{link}}).",
+    "greetLoggedIn": "Want to see how many games I can play?",
+    "lookupMyLibrary": "Load A Library",
+    "mostPlayedRatedUnverified": "Unofficially Looking Good Here",
+    "mostPlayedRatedUnverifiedExtra": "The following games are not yet officially Deck Verified as Verified nor Playable status, but according to community reports are looking good for play on Linux.",
+    "mostPlayedVerified": "Officially Verified",
+    "mostPlayedVerifiedExtra": "These are games you own that Valve has certified as Deck Verified: Verified or Playable status",
+    "ratingDefinitions": {
+      "?": "Pending: Needs more data",
+      "T1": "The highest tier. Ubiquitously positive reports.",
+      "T1andT2": "T2 or better",
+      "T1andT2andT3": "T3 or better",
+      "T2": "The second-highest tier. Some reports of trouble but is mostly good.",
+      "T3": "Middle tier. A mix of positive and negative.",
+      "T4": "Second-lowest tier. Negative reports overall.",
+      "T5": "Lowest tier. Borked!",
+      "borked": "Either won't start or is crucially unplayable",
+      "bronze": "Runs, but often crashes or has issues preventing from playing comfortably",
+      "gold": "Runs perfectly after tweaks",
+      "native": "Runs natively on Linux",
+      "pending": "Awaiting further reports before giving a rating",
+      "platinum": "Runs perfectly out of the box",
+      "platinumandgold": "Gold or better",
+      "platinumandgoldandsilver": "Silver or better",
+      "playable": "Playable",
+      "silver": "Runs with minor issues, but generally is playable",
+      "unknown": "Unknown",
+      "unsupported": "Unsupported",
+      "verified": "Verified",
+      "verifiedandplayable": "Verified or Playable"
+    },
+    "submit": "Sure!",
+    "tierSystemHeadline": "Rating System",
+    "tierSystems": {
+      "deckVerified": {
+        "description": "Steam's official certification for play on the Steam Deck",
+        "long": "Steam Deck Verified",
+        "short": "Deck Verified"
+      },
+      "protonDbClickPlay": {
+        "description": "ProtonDB's new appraisal: How does it play without any tinkering.",
+        "long": "ProtonDB Click Play",
+        "short": "Click Play"
+      },
+      "protonDbMedals": {
+        "description": "ProtonDB's appraisal: How does it play. You may need to tinker.",
+        "long": "ProtonDB Medals",
+        "short": "Medals"
+      }
+    },
+    "tryYourLibrary": "Try your library",
+    "useLibrary": "Use",
+    "userNotFound": "User not found. Ensure 'My Profile' and 'Game Details' are set to public in your [Steam settings]({{link}}).",
+    "using": "Using",
+    "viewSteamCatalog": "View Steam catalog",
+    "yourLibrary": "Your Library",
+    "yourSteamId": "Your Steam ID"
+  },
   "contributorSettings": {
     "addAPCDevice": "Add a PC",
     "addASteamDeckDevice": "Add a Steam Deck",
@@ -31,6 +155,11 @@
     "otherDetail5": "Only the inferrence of your system information is ever made public, never raw Steam data.",
     "validInfo": "Device details are valid and may be used for contributing.",
     "yourDevices": "Your Devices"
+  },
+  "dashboard": {
+    "description1": "ProtonDB's new Click Play rating is still being fine-tuned. For more information, see the [news post]({{link1}}). Tens of thousands of authors contribute the reports that power this visualization. You can too! Reports are available via ODBL license [in monthly exports]({{link2}}).",
+    "description2": "This site was created by Buck DeFore. It's an indepdendent community project unaffiliated with Valve or Steam. If you appreciate this dashboard, consider [supporting me on Patreon]({{link}}).",
+    "headline": "How many games work on Linux? On the Steam Deck?"
   },
   "explore": {
     "headlines": {
@@ -129,6 +258,7 @@
     }
   },
   "home": {
+    "compatibilityScoresDescription": "How's this work? Read about it on the [news post]({{link1}}). Also, you can use a bigger version on [the new Dashboard page]({{link2}}).",
     "getStartedLinks": [
       "[Steam's Official Steam Play Page](https://store.steampowered.com/steamplay)",
       "[A guide to migrating to Linux](https://www.reddit.com/r/linux_gaming/comments/9oqq3w/guide_migrating_to_linux_in_2019/)",

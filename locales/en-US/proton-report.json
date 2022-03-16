@@ -510,6 +510,10 @@
     },
     "prompt": "Which version are you using?"
   },
+  "readability": {
+    "legend": "Difficult To Read Text",
+    "prompt": "Was there text in the game that was difficult to read?"
+  },
   "saveGameFaults": {
     "legend": "Save Games",
     "options": {
@@ -527,6 +531,10 @@
       }
     },
     "prompt": "Did you experience any problems with save games?"
+  },
+  "secondaryLauncher": {
+    "legend": "Secondary Launcher Problem",
+    "prompt": "Did you have any trouble due to a secondary launch window?"
   },
   "significantBugs": {
     "legend": "Significant Bugs",
