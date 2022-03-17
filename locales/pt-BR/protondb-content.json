@@ -16,6 +16,130 @@
     "unrated": "Sem Classificação",
     "unreported": "Não reportado"
   },
+    "compatibilitySection": {
+    "aggregateHeadline": "No agregado",
+    "chartTypeHeadline": "Categoria",
+    "chartTypes": {
+      "fullSteamCatalog": {
+        "description": "Todos os jogos Steam",
+        "long": "Catálogo Steam",
+        "short": "Catálogo Steam"
+      },
+      "indie": {
+        "description": "Jogos marcados com 'Indie'",
+        "long": "Indie",
+        "short": "Indie"
+      },
+      "library": {
+        "description": "{{username}}'s jogos",
+        "long": "Biblioteca Pessoal",
+        "short": "Biblioteca Pessoal"
+      },
+      "localMultiplayer": {
+        "description": "Jogos marcados com 'Multiplayer local'",
+        "long": "Multiplayer Local",
+        "short": "Multiplayer Local"
+      },
+      "minProminence": {
+        "description": "Jogos que atendem a um limite mínimo de seguidores do Steam",
+        "long": "Jogos Populares",
+        "short": "Jogos Populares"
+      },
+      "singlePlayer": {
+        "description": "Jogos marcados com 'Jogador único'",
+        "long": "Jogador Único",
+        "short": "Jogador Único"
+      },
+      "topHundred": {
+        "description": "Medido por pico de jogadores simultâneos",
+        "long": "Top 100",
+        "short": "Top 100"
+      },
+      "topTen": {
+        "description": "Medido por pico de jogadores simultâneos",
+        "long": "Top 10",
+        "short": "Top 10"
+      },
+      "topThousand": {
+        "description": "Medido por pico de jogadores simultâneos",
+        "long": "Top 1000",
+        "short": "Top 1000"
+      },
+      "vr": {
+        "description": "Jogos marcados com 'VR'",
+        "long": "VR",
+        "short": "VR"
+      }
+    },
+    "decline": "Voltar",
+    "gameSorts": {
+      "playerCount": {
+        "long": "Classificar por: contagem de jogadores",
+        "short": "Contagem de Jogadores"
+      },
+      "rating": {
+        "long": "Classificar por: Avaliação",
+        "short": "Avaliação"
+      }
+    },
+    "gamesNotFound": "Nenhum jogo encontrado. Certifique-se de que 'Detalhes do jogo' esteja definido como público em suas [configurações da Steam]({{link}}).",
+    "greetLoggedIn": "Quer ver quantos jogos posso jogar?",
+    "lookupMyLibrary": "Carregar uma Biblioteca",
+    "mostPlayedRatedUnverified": "Não oficialmente parecendo bom por aqui",
+    "mostPlayedRatedUnverifiedExtra": "Os jogos a seguir ainda não são oficialmente Verificados No Deck como Verificado nem com status Jogável, mas de acordo com relatórios da comunidade parecem bons para jogar no Linux.",
+    "mostPlayedVerified": "Verificado Oficialmente",
+    "mostPlayedVerifiedExtra": "Estes são os jogos que você possui e que a Valve certificou como Verificado No Deck: Verificado ou com status Jogável",
+    "ratingDefinitions": {
+      "?": "Pendente: precisa de mais dados",
+      "T1": "O tier mais alto. Relatórios ubiquamente positivos.",
+      "T1andT2": "T2 ou melhor",
+      "T1andT2andT3": "T3 ou melhor",
+      "T2": "O segundo tier mais alto. Alguns relatórios de problemas, mas é principalmente bom.",
+      "T3": "Tier intermediário. Uma mistura de positivo e negativo.",
+      "T4": "Segundo tier mais baixo. Relatórios negativos em geral.",
+      "T5": "Tier mais baixo. Quebrado!",
+      "borked": "Ou não inicia ou é crucialmente impossível de jogar",
+      "bronze": "Funciona, mas muitas vezes trava ou tem problemas que impedem de jogar confortavelmente",
+      "gold": "Funciona perfeitamente após ajustes",
+      "native": "Roda nativamente no Linux",
+      "pending": "Aguardando mais relatórios antes de dar uma classificação",
+      "platinum": "Funciona perfeitamente sem precisar de ajustes",
+      "platinumandgold": "Ouro ou melhor",
+      "platinumandgoldandsilver": "Prata ou melhor",
+      "playable": "Jogável",
+      "silver": "Funciona com pequenos problemas, mas geralmente é jogável",
+      "unknown": "Desconhecido",
+      "unsupported": "Sem suporte",
+      "verified": "Verificado",
+      "verifiedandplayable": "Verificado ou Jogável"
+    },
+    "submit": "Claro!",
+    "tierSystemHeadline": "Sistema de classificação",
+    "tierSystems": {
+      "deckVerified": {
+        "description": "Certificação oficial do Steam para jogar no Steam Deck",
+        "long": "Verificado no Steam Deck",
+        "short": "Verificado no Deck"
+      },
+      "protonDbClickPlay": {
+        "description": "Nova avaliação do ProtonDB: Como funciona sem ajustes.",
+        "long": "ProtonDB Click para Jogar",
+        "short": "Click para Jogar"
+      },
+      "protonDbMedals": {
+        "description": "Avaliação do ProtonDB: Como funciona. Você pode precisar fazer ajustes",
+        "long": "ProtonDB Medalhas",
+        "short": "Medalhas"
+      }
+    },
+    "tryYourLibrary": "Tente sua biblioteca",
+    "useLibrary": "Use",
+    "userNotFound": "Usuário não encontrado. Certifique-se de que 'Meu perfil' e 'Detalhes do jogo' estejam definidos como públicos em suas [configurações do Steam]({{link}}).",
+    "using": "Usando",
+    "viewSteamCatalog": "Ver catálogo Steam",
+    "yourLibrary": "Sua biblioteca",
+    "yourSteamId": "Sua ID Steam"
+  },
   "explore": {
     "headlines": {
       "antiCheat": "Usa Anti-Trapaça",
