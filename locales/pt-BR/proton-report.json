@@ -469,16 +469,16 @@
     "prompt": "Você teve algum problema de estabilidade?"
   },
   "startsPlay": {
-    "legend": "Começar e jogar",
-    "prompt": "Você conseguiu começar a jogar?"
+    "legend": "Iniciar e jogar",
+    "prompt": "Você conseguiu iniciar e jogar?"
   },
   "stepHeadlines": {
     "appSelection": "Seleção de Jogos",
     "borked": "Quebrado!",
-    "customizations": "Personalizações",
+    "customizations": "Customizações",
     "finalNotes": "Veredito",
     "multiplayer": "Multijogador",
-    "preview": "Prever",
+    "preview": "Prévia",
     "setup": "Configuração",
     "startup": "Instalar e Iniciar",
     "technical": "Detalhes Técnicos",
