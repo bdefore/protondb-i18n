@@ -2,8 +2,11 @@
   "appSelection": {
     "caution": "Внимание!",
     "helperText": "Вы можете также вставить ссылку или ID приложения и мы попытаемся найти его",
+    "noPlaytime": "В вашем Steam аккаунте не отображается время, проведённое в данной игре. Это могло произойти, если в Ваших [настройках приватности Steam]({{link}}) детали игры не являются публичными, или если вы выбрали не делится своим игровым временем через переключатель 'Скрывать общее время в игре, даже если видны другие данные об играх'. Ваш отчёт всё ещё будет показывать Вас как автора. Если это ошибка, пожалуйста, дайте нам знать.",
     "notFound": "Не удалось найти игру с ID {{query}}. Это могло произойти либо из-за неточности ID, либо из-за того, что: игра удалена из магазина Steam, не указана как 'игра' или недоступна в Вашей стране.",
+    "notOwner": "В Вашем Steam аккаунте не содержится данной игры и это будет отображено в отчёте. Это могло произойти, если в Ваших [настройках приватности Steam]({{link}}) детали игры не являются публичными. Если это ошибка, пожалуйста, дайте нам знать.",
     "placeholder": "Введите название игры из вашей библиотеки Steam...",
+    "playedNatively": "Вы играли в игру нативно без использования Proton?",
     "previousReportsExist": "Вы уже делали отчёт на данную игру",
     "runsNativeWarning": "Выбранная игра имеет опубликованную нативную версию для Linux! Пожалуйста, удостоверьтесь, что Вы не запустили игру нативно. Steam не использует Steam Play по-умолчанию чтобы запустить эту игру, но [Вы можете включить это самостоятельно]({{link}})."
   },
@@ -37,9 +40,94 @@
     },
     "prompt": "Вы испытывали какие-нибудь проблемы со звуком?"
   },
+  "authoringLanguage": {
+    "prompt": "На каком языку вы будете писать данный отчёт?"
+  },
+  "batteryPerformance": {
+    "legend": "Использование батареи",
+    "prompt": "Делали Вы какие-либо изменения, чтобы улучшить использование батареи?"
+  },
   "borked": {
     "headline": "Очень жаль!",
     "intro": "Вы можете приступить к отправке отчёта о сломанной игре, но перед этим вы можете посетить наш [FAQ по устранению неисправностей]({{link}})."
+  },
+  "concludingNotes": {
+    "label": "Заключительные замечания",
+    "prompt": "Добавьте сюда дополнительную информацию, которая необходима для завершения отчёта"
+  },
+  "controlLayout": {
+    "additionalNotes": {
+      "label": "Какая версия сообщества?"
+    },
+    "legend": "Схема управления",
+    "options": {
+      "community": {
+        "long": "Схема сообщества",
+        "short": "Схема сообщества"
+      },
+      "gamepad": {
+        "long": "Геймпад",
+        "short": "Геймпад"
+      },
+      "gamepadWithGyro": {
+        "long": "Геймпад с гироскопом",
+        "short": "Геймпад с гироскопом"
+      },
+      "gamepadWithJoystick": {
+        "long": "Геймпад с трэкпадом джостика",
+        "short": "Геймпад с трэкпадом джостика"
+      },
+      "gamepadWithMouseTrackpad": {
+        "long": "Геймпад с трэкпадом мыши",
+        "short": "Геймпад с трэкпадом мыши"
+      },
+      "keyboardAndMouse": {
+        "long": "Клавиатура и мышь",
+        "short": "Клавиатура и мышь"
+      },
+      "mouseOnly": {
+        "long": "Только мышь",
+        "short": "Только мышь"
+      },
+      "official": {
+        "long": "Официальная схема",
+        "short": "Официальная схема"
+      },
+      "touchscreenMouseEmulation": {
+        "long": "Эмуляция мыши на тачскрине",
+        "short": "Эмуляция мыши на тачскрине"
+      }
+    },
+    "prompt": "С какой схемой управления вы играли?"
+  },
+  "controlLayoutCustomization": {
+    "additionalNotes": {
+      "label": "Модификации",
+      "prompt": "Опишите свои изменения"
+    },
+    "legend": "Модификации схемы управления",
+    "options": {
+      "enableGripButtons": {
+        "long": "Включены обратные кнопки",
+        "short": "Обратные кнопки"
+      },
+      "gyro": {
+        "long": "Включен гироскоп",
+        "short": "Гироскоп"
+      },
+      "other": {
+        "long": "Другое",
+        "short": "Другое"
+      },
+      "rightTrackpad": {
+        "long": "Изменено поведение правого трэкпада",
+        "short": "Правый трэкпад"
+      }
+    },
+    "prompt": "Вы настраивали элементы управления дополнительно?"
+  },
+  "customProtonVersion": {
+    "label": "Версия"
   },
   "customizationsUsed": {
     "additionalNotes": {
@@ -48,6 +136,10 @@
     },
     "legend": "Модификации",
     "options": {
+      "configChange": {
+        "long": "Изменение файлов конфигурации игры",
+        "short": "Изменение конфигурации"
+      },
       "customPrefix": {
         "long": "Модифицированный префикс Wine",
         "short": "Модифицированный префикс"
@@ -69,8 +161,8 @@
         "short": "Native2Proton"
       },
       "notListed": {
-        "long": "Не в списке",
-        "short": "Не в списке"
+        "long": "Что-то ещё",
+        "short": "Что-то ещё"
       },
       "protonfixes": {
         "long": "protonfixes",
@@ -86,6 +178,13 @@
       }
     },
     "prompt": "Какие модификации Вы произвели?"
+  },
+  "device": {
+    "legend": "Устройство",
+    "prompt": "На каком из ваших устройств Вы играли?"
+  },
+  "didChangeControlLayout": {
+    "prompt": "Вы меняли схему управления по-умолчанию?"
   },
   "duration": {
     "legend": "Продолжительность",
@@ -250,17 +349,45 @@
         "long": "Отключить Fsync (PROTON_NO_FSYNC)",
         "short": "Отключить Fsync"
       },
+      "enableNvapi": {
+        "long": "Включить NVAPI (PROTON_ENABLE_NVAPI)",
+        "short": "Включить NVAPI"
+      },
       "fullscreenIntegerScaling": {
         "long": "Fullscreen Integer Scaling (WINE_FULLSCREEN_INTEGER_SCALING)",
         "short": "Fullscreen Integer Scaling"
+      },
+      "gameDrive": {
+        "long": "Установить \"Game Drive\" (PROTON_SET_GAME_DRIVE)",
+        "short": "Установить \"Game Drive\""
+      },
+      "heapDelayFree": {
+        "long": "Задержка освобождения памяти (PROTON_HEAP_DELAY_FREE)",
+        "short": "Задержка освобождения памяти"
+      },
+      "hideNvidia": {
+        "long": "Спрятать Nvidia GPU (PROTON_HIDE_NVIDIA_GPU)",
+        "short": "Спрятать Nvidia GPU"
       },
       "largeAddressAware": {
         "long": "Large Address Aware (PROTON_FORCE_LARGE_ADDRESS_AWARE)",
         "short": "Large Address Aware"
       },
+      "noWriteWatch": {
+        "long": "Отключить поддержку отслеживания записи в память (PROTON_NO_WRITE_WATCH)",
+        "short": "Не отслеживать запись"
+      },
+      "noXim": {
+        "long": "No XIM (PROTON_NO_XIM)",
+        "short": "No XIM"
+      },
       "oldGlString": {
         "long": "Старый GL String (PROTON_OLD_GL_STRING)",
         "short": "Старый GL String"
+      },
+      "useSeccomp": {
+        "long": "Включить Seccomp (PROTON_USE_SECCOMP)",
+        "short": "Включить Seccomp"
       },
       "useWineD3d11": {
         "long": "Использовать Wine D3D (PROTON_USE_WINED3D)",
@@ -273,19 +400,22 @@
     },
     "prompt": "Вы использовали какие-либо из этих флагов запуска Proton?"
   },
+  "launchOptions": {
+    "helperText": "т.е. PROTON_NO_D3D11=1 %command%",
+    "label": "Параметры запуска",
+    "legend": "Параметры запуска",
+    "placeholder": "(никаких)",
+    "prompt": "Вы устанавливали какие-либо параметры запуска?"
+  },
   "launcher": {
     "additionalNotes": {
       "label": "Лаунчер"
     },
     "legend": "Лаунчер",
     "options": {
-      "gamehub": {
-        "long": "Gamehub",
-        "short": "Gamehub"
-      },
-      "lutris": {
-        "long": "Lutris",
-        "short": "Lutris"
+      "bottles": {
+        "long": "Bottles",
+        "short": "Bottles"
       },
       "notListed": {
         "long": "Нет в списке",
@@ -299,6 +429,9 @@
     "prompt": "Как Вы запускаете игру?"
   },
   "localMultiplayerAppraisal": {
+    "additionalNotes": {
+      "label": "Дополнительные детали"
+    },
     "prompt": "Как Вы оцениваете функционирование локального мультиплеера? Пожалуйста, оцените лаги, проблемы с подключением или вводом и т.д."
   },
   "localMultiplayerAttempted": {
@@ -332,6 +465,9 @@
     }
   },
   "onlineMultiplayerAppraisal": {
+    "additionalNotes": {
+      "label": "Дополнительные детали"
+    },
     "prompt": "Как Вы оцениваете функционирование онлайн мультиплеера? Пожалуйста, оцените лаги, проблемы с подключением или вводом и т.д.Please evaulate for lag, connectivity or input issues, matchingmaking failures etc."
   },
   "onlineMultiplayerAttempted": {
@@ -359,8 +495,8 @@
     "prompt": "Вы испытывали неожиданные замедления на вашем железе?"
   },
   "prerequisites": {
-    "invalidOrMissingSystemInfo": "Информация о системе отсутствует или некорректная",
     "missingProfileInfo": "Профиль неполный. Отсутствует: {{context}}",
+    "noValidDevices": "Ни в одном из Ваших устройств нет корректной системной информации",
     "notLoggedIn": "Вы не вошли в систему через {{context}}"
   },
   "prerequisitesBlock": {
@@ -388,6 +524,10 @@
     },
     "prompt": "Какую версию Proton Вы используете?"
   },
+  "readability": {
+    "legend": "Сложности с чтением текста",
+    "prompt": "Был ли в игре текст, который сложно прочитать?"
+  },
   "saveGameFaults": {
     "legend": "Сохранение игры",
     "options": {
@@ -405,6 +545,10 @@
       }
     },
     "prompt": "Вы испытывали какие-либо проблемы с сохранением игры?"
+  },
+  "secondaryLauncher": {
+    "legend": "Проблемы вторичного лаунчера",
+    "prompt": "Были ли у вас проблемы со вторым окном запуска?"
   },
   "significantBugs": {
     "legend": "Серьёзные баги",
@@ -444,34 +588,72 @@
     "setup": "Настройка",
     "stability": "Стабильность",
     "startup": "Установка и запуск",
+    "steamDeckRelated": "Steam Deck",
+    "technical": "Технические детали",
     "tinkerCheck": "Тип отчёта",
     "unownedWarning": "Не в библиотеке"
   },
-  "type": {
-    "intro": [
-      "ProtonDB теперь делит отчёты на два типа: Steam Play and Мастер.",
-      "Используйте отчёт Steam Play чтобы раскрыть опыт игры 'из коробки'. Установите, нажмите Играть и получите свою игру.",
-      "Используйте отчёт мастера, если вы делали какие-либо модификации, чтобы заставить игру работать.",
-      "Для большей разницы посмотрите [эту новость]({{link}})."
-    ],
+  "tinkerOverride": {
+    "additionalNotes": {
+      "label": "Описание специальных модификаций"
+    },
     "options": {
-      "steamPlay": {
-        "long": "Отчёт SteamPlay",
+      "no": {
+        "long": "Никаких специальных модификаций",
         "short": "Отчёт SteamPlay"
       },
       "tinker": {
-        "long": "Отчёт Мастера",
+        "long": "Да",
         "short": "Отчёт Мастера"
       }
     },
-    "prompt": "Какой тип отчёта Вы хотите написать?"
+    "prompt": "Пока что выглядит как обычный отчёт. Внесли ли Вы какие-либо модификации, которые гарантирует, что это будет отчётом мастера? [Больше информации]({{link}})"
+  },
+  "triedOob": {
+    "prompt": "Ваш отчёт будет классифицирован как отчёт мастера. Вы пытались играть через Steam и Proton без специальных модификаций?"
+  },
+  "variant": {
+    "additionalNotes": {
+      "label": "Как называется?"
+    },
+    "legend": "Вариант",
+    "options": {
+      "experimental": {
+        "long": "Forced Experimental",
+        "short": "Experimental"
+      },
+      "ge": {
+        "long": "Glorious Eggroll (GE)",
+        "short": "GE"
+      },
+      "native": {
+        "long": "Нативно. Без Proton.",
+        "short": "Нативный"
+      },
+      "notListed": {
+        "long": "Не в списке",
+        "short": "Не в списке"
+      },
+      "official": {
+        "long": "Рекомендованный Steam",
+        "short": "Официальный"
+      },
+      "older": {
+        "long": "Перключение на старую версию",
+        "short": "Старый"
+      }
+    },
+    "prompt": "Какой вариант Proton Вы использовали?"
   },
   "verdict": {
     "additionalNotes": {
       "label": "Вывод (максимум символов: {{count}})",
       "placeholder": "Короткий вывод. Это будет заголовком Вашего отчёта."
     },
-    "prompt": "Будет ли среднестатистический игрок иметь позитивный опыт, запуская данную игру на Linux через Proton?"
+    "prompt": "Будет ли типичный игрок наслаждаться игрой, запуская данную игру также как и Вы?"
+  },
+  "verdictOob": {
+    "prompt": "Будет ли типичный игрок наслаждаться игрой на Linux без дополнительных модификаций?"
   },
   "welcome": {
     "headline": "Добро пожаловать",

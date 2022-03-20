@@ -13,3 +13,4 @@ tmp
 *.out
 cgdb-content.json
 cloud-report.json
+.idea/
