@@ -5,6 +5,7 @@
     "answerRequiredWhenNotListed": "Ответ обязателен, когда выбрано 'Не в списке'",
     "back": "Назад",
     "error": "Ошибка!",
+    "invalidGeVersion": "Неккоректная версия GE. Необходим следующий формат: (новый) 'GE-Proton{major}.{minor}-patch' или (старые) '{major}.{minor}-ge-{patch}'. Например: 'GE-Proton7-5'",
     "markdownSupportNotice": "Markdown теперь поддерживается",
     "maxChars": "Максимум символов: {{count}}",
     "next": "Дальше",

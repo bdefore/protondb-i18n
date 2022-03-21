@@ -1,11 +1,23 @@
 {
+  "attribution": {
+    "steamDb": "{{subject}} предоставленные [{{name}}]({{link}}) посредством [{{partnerName}}]({{partnerLink}})."
+  },
   "auth": {
+    "forgetMe": "Забыть меня",
     "genericSignIn": "Вход",
     "headline": "Аутентификация Steam",
+    "identifierExample": "Примеры:\n - [{{profileExample}}](#)\n - {{steamIdExample}}",
+    "identifierOptions": "Steam ID или ссылка на профиль",
     "loggedInAs": "Вы вошли как {{username}}",
     "notLoggedIn": "Вы не вошли в систему",
+    "profileUrl": "Ссылка на профиль",
+    "steamId": "Steam ID",
+    "steamIdIntro": "Иначе, предоставьте Ваш [SteamID]({{steamIdLink}}) чтобы [исследовать Вашу библиотеку и список желаемого]({{link}}).",
+    "steamLoginIntro": "Войдите через Steam для полной функциональности, включая авторство отчётов.",
     "steamSignIn": "Войти через Steam",
-    "unlink": "Отвязать аккаунт"
+    "topBarLink": "Ваши игры в Steam",
+    "unlink": "Отвязать аккаунт",
+    "vanityName": "Публичное имя"
   },
   "content": {
     "followingPost": "Следующий пост",
@@ -14,6 +26,8 @@
   "contextualInfo": {
     "dateAdded": "Добавлено в {{context}}",
     "fixWanted": "",
+    "followers": "{{context}} подписчиков Steam",
+    "heavilyReported": "{{context}} недавних отчётов",
     "hoursPlayed": "{{context}} часов сыграно",
     "mostBorked": "",
     "peakPlayers": "{{context}} пик игроков",
@@ -22,14 +36,18 @@
     "popular": "{{context}} отслеживающих",
     "positiveRating": "{{context}}% положительных отзывов",
     "protonDbRating": "",
-    "rank": "Ranked {{context}} on Steam",
-    "recentReportCount": "{{context}} отзыв(ов) с двумя последними версиями Proton",
+    "rank": "Оценено {{context}} в Steam",
     "recentlyImproved": "{{context}} отзыв(ов) с двумя последними версиями Proton",
+    "recentlyReleased": "Первая партия отчётов: {{context}}",
     "releaseDate": "Выпущена в {{context}}",
     "userScore": "{{context}} оценка пользователей",
     "wilsonRating": ""
   },
+  "games": {
+    "zeroStateMessage": "Игр не найдено"
+  },
   "footer": {
+    "data": "Данный сайт использует данные {{name}}, а также данные",
     "description": "{{name}} является страстным проектом [@bdefore]({{link}}) и целеустремленного сообщества обозревателей.",
     "feedbackPrompt": "Есть обратная связь? Присоединяйся к нам в Discord!",
     "legal": "Этот сайт не связан с Valve Software. Все игровые изображения и логотипы являются собственностью их соответствующих владельцев."
@@ -48,6 +66,9 @@
     "cancel": "Отмена",
     "chipset": "Чипсет",
     "conjunction": "и",
+    "delete": "Удалить",
+    "device": "Устройство",
+    "devices": "Устройства",
     "discard": "Сбросить",
     "dismiss": "Закрыть",
     "distro": "Дистрибутив",
@@ -56,8 +77,11 @@
     "feedbackPrompt": "Обратная связь? Сообщите нам в [Discord]({{link}})",
     "filter": "Фильтр",
     "filteringSettings": "Настройки фильтра",
+    "forget": "Забыть",
     "games": "Игры",
     "hide": "Скрыть {{what}}",
+    "hour": "час",
+    "hours": "часов",
     "include": "Включить",
     "install": "Установить",
     "joinUsPrompt": "Присоединяйтесь к нам в Discord!",
@@ -68,6 +92,7 @@
     "native": "Нативно",
     "negative": "Нет",
     "notFound": "Не найдено",
+    "notRecommended": "Не рекомендовано",
     "note": "Заметка",
     "overall": "Итого",
     "pending": "Ожидает",
@@ -75,22 +100,31 @@
     "provisional": "Предварительно",
     "published": "Опубликовано",
     "rated": "Оценено",
+    "recommended": "Рекомендовано",
     "report": "Отчёт",
     "reports": "Отчёты",
     "reset": "Сбросить",
+    "revert": "Восстоновить",
     "save": "Сохранить",
     "saved": "{{what}} сохранено",
     "show": "Показать {{what}}",
     "showAll": "Показать всё",
     "showMore": "Показать больше",
     "skip": "Пропустить",
+    "sortBy": "Сортировать по",
+    "switchTo": "Переключить на {{thing}}",
     "tier": "Уровень",
+    "tinker": "мастер",
     "total": "Всего",
+    "tryAgain": "Попробуйте снова",
     "unknown": "Неизвестно",
+    "unknownError": "Неизвестная ошибка",
+    "updated": "{{what}} обновлено",
     "version": "Версия"
   },
   "nav": {
     "contribute": "Сделать вклад",
+    "dashboard": "Мониторинг",
     "explore": "Обзор",
     "help": "Помощь",
     "news": "Новости",
@@ -100,7 +134,9 @@
   },
   "pagination": {
     "next": "Следующая страница",
+    "nextShort": "Дальше",
     "previous": "Предыдущая страница",
+    "previousShort": "Назад",
     "summary": "Результаты {{from}} до {{to}} из {{total}}"
   },
   "preferences": {
@@ -142,14 +178,23 @@
     "yourContributions": "Ваш вклад"
   },
   "reports": {
-    "clear": "Очистить",
+    "displayExcluded": "Показать исключённые отчёты",
     "filteredOutCount": "{{count}} отфильтровано",
     "filteredOutHeadline": "Следующие отчёты ({{count}}) не соответствуют Вашим критериям фильтрования: {{filters}}",
     "superceded": "Существует новый отчёт этого типа от этого автора",
+    "tinkerMethods": {
+      "customProton": "Модифицированный Proton",
+      "experimental": "Переключение на эксперементальную версию",
+      "launchOptions": "Установка параметров запусков",
+      "launcher": "Лаунчер",
+      "older": "Переключение на старую версию",
+      "other": "Другое"
+    },
     "zeroStateMessage": "Отчёты отсутствуют",
     "zeroStateMessageWithFilters": "Ни один отчёт не попадает под применённые фильтры"
   },
   "search": {
-    "resultsHeader": "Результат поиска для {{q}}"
+    "headline": "Поиск по {{q}}",
+    "results": "Результаты"
   }
 }
