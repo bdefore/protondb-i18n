@@ -8,16 +8,21 @@
     "headline": "Steam Account",
     "identifierExample": "Examples:\n - [{{profileExample}}](#)\n - {{steamIdExample}}",
     "identifierOptions": "Steam ID or Profile URL",
+    "logInToContribute": "Verify your Steam account to contribute content",
     "loggedInAs": "Logged in as {{username}}",
-    "notLoggedIn": "Not Logged In",
+    "notLoggedIn": "Not Signed In",
+    "note": "Within your [Steam Privacy Settings]({{link}}) your 'My profile' must be set to public. 'Game Details' is not required to be public, but if it is, ownership and playtime information will be sent with your contributions.",
     "profileUrl": "Profile URL",
+    "signOut": "Sign Out",
     "steamId": "Steam ID",
-    "steamIdIntro": "Alternatively, provide your [SteamID]({{steamIdLink}}) to [explore your library and wishlist]({{link}}).",
-    "steamLoginIntro": "Log in with Steam for all features including authoring of reports.",
+    "steamIdIntro": "Alternatively to signing in with Steam, you may provide [an identifier]({{steamIdLink}}) for an account so that you can [explore its library or wishlist]({{link}}).",
+    "steamLoginIntro": "ProtonDB uses Steam authentication to confirm the identity of contributors. Signing in this way accesses some public information about you but it will NOT bestow any privileges to your Steam account.",
     "steamSignIn": "Sign In With Steam",
     "topBarLink": "Your Steam Games",
     "unlink": "Unlink Account",
-    "vanityName": "Public Name"
+    "unverified": "Unverified",
+    "vanityName": "Public Name",
+    "verifiedAs": "Verified as {{username}}"
   },
   "content": {
     "followingPost": "Following Post",
@@ -54,8 +59,9 @@
   },
   "libraryLoader": {
     "errorLoadingGames": "Error loading games. Please ensure both Profile and Game Details are public on this account!",
-    "gameTotal": "{{count}} games in library loaded!",
-    "note": "This will use the Steam Web API to retrieve public information about your account including your id, profile name and avatar. Ensure that within your [Steam Privacy Settings]({{link}}) your 'My profile' is set to public. 'Game Details' is not required to be public. If it is, the Explore page will use your library information and playtime will be sent with your contributions.",
+    "gameTotal": "{{username}}: {{count}} games",
+    "headline": "Library",
+    "note": "You do not need to sign in with Steam to load your library, but if you do your library will be found automatically. Your Steam privacy settings for 'My Profile' and 'Game Details' must be public.",
     "refresh": "Refresh"
   },
   "misc": {
@@ -143,6 +149,7 @@
   "preferences": {
     "headline": "Preferences",
     "intro": "ProtonDB displays the submitter's Steam nickname beside reports. Your unique Steam ID is not transmitted in the data of published report data. If you are concerned your nickname may be used to infer your Steam profile, you can choose a different nickname here and this will be used after the next content refresh.",
+    "note": "Your preferences will synchronize wherever you login with Steam.",
     "questions": {
       "customName": {
         "additionalNotes": {
@@ -163,14 +170,14 @@
     }
   },
   "profile": {
-    "exploreLibrary": "Now that you've got your library loaded, you can explore your library sorted with the following views:",
+    "exploreLibrary": "Now that you've got your library loaded, you can explore it sorted with the following views:",
     "inYourLibrary": "In Your Library",
     "libraryTags": {
       "byHoursPlayed": "By your hours played",
       "byPlayerCount": "By player count",
       "byProtonDbRating": "By ProtonDB rating",
       "bySteamDbScore": "By SteamDB user score",
-      "headline": "The following tags are common in your library. You can dive in with these:",
+      "headline": "The following tags are common across your library. You can dive in with these:",
       "lackReportsByHoursPlayed": "Lack Reports by your hours played",
       "lackReportsByPlayerCount": "Lack Reports by player count",
       "lackReportsBySteamDbScore": "Lack Reports by SteamDB user score"
