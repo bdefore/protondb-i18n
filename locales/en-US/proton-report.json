@@ -113,7 +113,7 @@
       },
       "gyro": {
         "long": "Enabled Gyro",
-        "short": "Gryo"
+        "short": "Gyro"
       },
       "other": {
         "long": "Other",
