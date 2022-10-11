@@ -1,0 +1,383 @@
+{
+  "breakdown": {
+    "headline": "Populární hry",
+    "popularHeadline": "Hodnocení pro {{count}} nejvíce populárních",
+    "topHundred": "Nejlepších sto",
+    "topTen": "Nejlepších deset",
+    "topThousand": "Nejlepších tisíc",
+    "topics": {
+      "allGames": "Všechny hry",
+      "indie": "Indie",
+      "localMultiplayer": "Lokální hra více hráčů",
+      "singlePlayer": "Pro jednoho hráče",
+      "vr": "VR"
+    },
+    "unavailable": "Nedostupné",
+    "unrated": "Nehodnocené",
+    "unreported": "Bez hlášení"
+  },
+  "compatibilitySection": {
+    "aggregateHeadline": "Souhrnně",
+    "chartTypeHeadline": "Kategorie",
+    "chartTypes": {
+      "fullSteamCatalog": {
+        "description": "Všechny hry ve službě Steam",
+        "long": "Katalog služby Steam",
+        "short": "Katalog služby Steam"
+      },
+      "indie": {
+        "description": "Hry označené jako 'Indie'",
+        "long": "Indie",
+        "short": "Indie"
+      },
+      "library": {
+        "description": "Hry uživatele {{username}}",
+        "long": "Osobní knihovna",
+        "short": "Osobní knihovna"
+      },
+      "localMultiplayer": {
+        "description": "Hry označené jako 'Lokální hra více hráčů'",
+        "long": "Lokální hra více hráčů",
+        "short": "Lokální hra více hráčů"
+      },
+      "minProminence": {
+        "description": "Hry, které splňují minimální hranici sledovatelů ve službě Steam",
+        "long": "Populární hry",
+        "short": "Populární hry"
+      },
+      "singlePlayer": {
+        "description": "Hry označené jako 'Pro jednoho hráče'",
+        "long": "Pro jednoho hráče",
+        "short": "Pro jednoho hráče"
+      },
+      "topHundred": {
+        "description": "Měřeno podle nejvíce souběžně hrajících hráčů",
+        "long": "Nejlepších 100",
+        "short": "Nejlepších 100"
+      },
+      "topTen": {
+        "description": "Měřeno podle nejvíce souběžně hrajících hráčů",
+        "long": "Nejlepších 10",
+        "short": "Nejlepších 10"
+      },
+      "topThousand": {
+        "description": "Měřeno podle nejvíce souběžně hrajících hráčů",
+        "long": "Nejlepších 1000",
+        "short": "Nejlepších 1000"
+      },
+      "vr": {
+        "description": "Hry označené jako 'VR'",
+        "long": "VR",
+        "short": "VR"
+      }
+    },
+    "decline": "Zpět",
+    "gameSorts": {
+      "playerCount": {
+        "long": "Řadit dle: počtu hráčů",
+        "short": "Počet hráčů"
+      },
+      "rating": {
+        "long": "Řadit dle: hodnocení",
+        "short": "Hodnocení"
+      }
+    },
+    "gamesNotFound": "Nenalezeny žádné hry. Ujistěte se, že je položka 'Údaje o produktech' nastavena na veřejné ve vašich [nastaveních služby Steam]({{link}}).",
+    "greetLoggedIn": "Chcete vidět, kolik her můžu hrát?",
+    "lookupMyLibrary": "Načíst knihovnu",
+    "mostPlayedRatedUnverified": "Tady to neoficiálně vypadá dobře",
+    "mostPlayedRatedUnverifiedExtra": "Následující hry zatím nemají oficiálně status Kompatibilita se zařízením Steam Deck jako Plná ani Částečná, ale podle zpráv komunity vypadají dobře pro hraní v Linuxu.",
+    "mostPlayedVerified": "Oficiálně ověřeno",
+    "mostPlayedVerifiedExtra": "U těchto her, které vlastníte, společnost Valve označila status Kompatibilita se zařízením Steam Deck jako Plná nebo Částečná",
+    "ratingDefinitions": {
+      "?": "Čekající: Vyžaduje více dat",
+      "T1": "Nejvyšší úroveň. Většina zpráv je pozitivní.",
+      "T1andT2": "T2 nebo lepší",
+      "T1andT2andT3": "T3 nebo lepší",
+      "T2": "Druhá nejvyšší úroveň. Některé zprávy o potížích, ale většinou je dobrá.",
+      "T3": "Prostřední úroveň. Směs pozitiv a negativ.",
+      "T4": "Druhá nejnižší úroveň. Celkově negativní hlášení.",
+      "T5": "Nejnižší úroveň. Ztracené!",
+      "borked": "Buď se nezapne, nebo je zásadně nehratelná",
+      "bronze": "Běží, ale často padá nebo má problémy bránící komfortnímu hraní",
+      "gold": "Běží perfektně po úpravách",
+      "native": "Běží na Linuxu nativně",
+      "pending": "Čekání na další hlášení před vytvořením hodnocení",
+      "platinum": "Běží perfektně po spuštění",
+      "platinumandgold": "Zlaté nebo lepší",
+      "platinumandgoldandsilver": "Stříbrné nebo lepší",
+      "playable": "Hratelné",
+      "silver": "Běží s menšími problémy, ale obecně je hratelná",
+      "unknown": "Neznámé",
+      "unsupported": "Nepodporováno",
+      "verified": "Ověřeno",
+      "verifiedandplayable": "Ověřené nebo hratelné"
+    },
+    "submit": "Jistě!",
+    "tierSystemHeadline": "Systém hodnocení",
+    "tierSystems": {
+      "deckVerified": {
+        "description": "Oficiální certifikace služby Steam pro hraní na Steam Decku",
+        "long": "Kompatibilita se Steam Deckem",
+        "short": "Ověřeno na Decku"
+      },
+      "protonDbClickPlay": {
+        "description": "Nové hodnocení ProtonDB: Jak se hra hraje bez jakéhokoli zásahu.",
+        "long": "ProtonDB Click Play",
+        "short": "Click Play"
+      },
+      "protonDbMedals": {
+        "description": "Hodnocení ProtonDB: Jak se hra hraje. Možná budou potřeba úpravy.",
+        "long": "Medaile ProtonDB",
+        "short": "Medaile"
+      }
+    },
+    "tryYourLibrary": "Vyzkoušejte svou knihovnu",
+    "useLibrary": "Použít",
+    "userNotFound": "Uživatel nenalezen. Ujistěte se, že jsou položky 'Údaje na profilu' a 'Údaje o produktech' nastaveny na veřejné ve vašem [nastavení služby Steam]({{link}}).",
+    "using": "Používám",
+    "viewSteamCatalog": "Zobrazit katalog služby Steam",
+    "yourLibrary": "Vaše knihovna",
+    "yourSteamId": "Vaše ID služby Steam"
+  },
+  "contributorSettings": {
+    "addAPCDevice": "Přidat PC",
+    "addASteamDeckDevice": "Přidat Steam Deck",
+    "headline": "Nastavení přispěvatele",
+    "intro": "Přidejte zařízení pro příspívání vašich hlášení. ProtonDB nyní podporuje ukládání více konfigurací zařízení. Zařízení se dělí na jeden ze dvou typů: PC nebo Steam Deck",
+    "intro2": "Některé další podrobnosti:",
+    "invalidInfo": "Podrobnosti o zařízení jsou neplatná. Před přispíváním musí být opravena.",
+    "notOnSteamDeck": "Pro přidání Steam Decku se s ním přihlaste v režimu plochy do ProtonDB.",
+    "otherDetail1": "Zařízení (stejně jako předvolby) budou nyní zachována všude, kde se přihlásíte.",
+    "otherDetail2": "Pokud poskytnete jedno zařízení, bude automaticky použito při přidávání hlášení.",
+    "otherDetail3": "Pokud poskytnete více než jedno zařízení, budete si moci jedno vybrat podle jeho jména, v kroku 'Nastavení'.",
+    "otherDetail4": "Změny vašich zařízení nebudou připraveny, dokud nezmáčknete Uložit.",
+    "otherDetail5": "Veřejně budou zobrazeny pouze odvozené systémové informace, nikdy ne nezpracovaná data ze služby Steam.",
+    "validInfo": "Podrobnosti o zařízení jsou platné a mohou být použity k příspívání.",
+    "yourDevices": "Vaše zařízení"
+  },
+  "dashboard": {
+    "description1": "Nové hodnocení ProtonDB Click Play se stále dolaďuje. Více informací naleznete v [novince]({{link1}}). Desítky tisíc autorů přispívají do zpráv, které tuto vizualizaci pohánějí. Vy můžete také! Zprávy jsou k dispozici prostřednictvím licence ODBL [v měsíčních exportech]({{link2}}).",
+    "description2": "Tuto stránku vytvořil Buck DeFore. Jedná se o nezávislý komunitní projekt, který není spojen se společností Valve ani se službou Steam. Pokud si tohoto přehledu ceníte, zvažte možnost [podpořit mě na Patreonu]({{link}}).",
+    "headline": "Kolik her funguje na Linuxu? A kolik na Steam Decku?"
+  },
+  "explore": {
+    "headlines": {
+      "antiCheat": "Používá Anti-Cheat",
+      "dateAdded": "Nedávno přidané",
+      "fixWanted": "Hledána oprava",
+      "heavilyReported": "Spousta nedávných hlášení",
+      "highestRated": "Nejlepší hodnocení na SteamDB",
+      "hoursPlayed": "Odehraných hodin",
+      "inLibrary": "V knihovně",
+      "inWishlist": "V seznamu přání",
+      "mostBorked": "Nejvíce hlášení o nefunkčnosti",
+      "mostPopular": "Nejpopulárnější",
+      "percentPositive": "Dobré hodnocení v obchodě",
+      "popular": "Nejvíce sledujících ve službě Steam",
+      "rank": "Nejpopulárnější",
+      "recentlyImproved": "Nedávno vylepšeno",
+      "recentlyReleased": "Nedávno vydáno",
+      "releaseDate": "Podle data vydání",
+      "userScore": "Dobře hodnoceno",
+      "wellRatedHere": "Zde dobře hodnoceno"
+    },
+    "layout": "Rozložení",
+    "loadError": "Chyba při načítání her!",
+    "notLoggedIn": "Nelze načíst knihovnu bez ID služby Steam. Navštivte váš [profil]({{link}}) pro jeho přidání.",
+    "sorts": {
+      "dateAdded": "Nedávno přidáno",
+      "fixWanted": "Potřeba oprava",
+      "heavilyReported": "Spousta nedávných hlášení",
+      "hoursPlayed": "Odehraných hodin",
+      "mostBorked": "Nejméně funkční",
+      "percentPositive": "Procent pozitivních",
+      "playerCount": "Počet hráčů",
+      "popular": "Populární",
+      "rank": "Nejpopulárnější",
+      "recentlyImproved": "Nedávno vylepšeno",
+      "recentlyReleased": "Nedávno vydáno",
+      "releaseDate": "Datum vydání",
+      "userScore": "Uživatelské skóre",
+      "wilsonRating": "Hodnocení ProtonDB"
+    },
+    "tagData": "Data štítků",
+    "toggles": {
+      "antiCheat": "Anti-Cheat",
+      "deckVerified": "Ověřeno na Decku",
+      "excludeNative": "Nezahrnovat nativní",
+      "lackReports": "Chybí hlášení",
+      "restrictToLibrary": "Knihovna",
+      "untested": "Chybí hlášení",
+      "userTags": "Uživatelské štítky",
+      "whitelisted": "Ověřeno na Decku",
+      "wishlisted": "V seznamu přání"
+    }
+  },
+  "filters": {
+    "questions": {
+      "cpu": {
+        "label": "CPU"
+      },
+      "distro": {
+        "label": "Distribuce"
+      },
+      "gpu": {
+        "label": "GPU"
+      },
+      "persist": {
+        "prompt": "Uložit na webu?"
+      },
+      "query": {
+        "label": "Dotaz"
+      },
+      "type": {
+        "label": "Typ"
+      }
+    }
+  },
+  "gameDetails": {
+    "githubIssueSearch": "Hledání problémů na GitHubu",
+    "infoNotFound": "Nepodařilo se získat informace o aplikaci s ID: {{entry}}. Toto se může stát, pokud byla hra odebrána z obchodu.",
+    "minimumRequirements": "Minimální požadavky",
+    "nativelySupports": "Nativně podporuje",
+    "notices": {
+      "antiCheat": {
+        "battlEye": {
+          "explanation": "Tato hra využívá software [BattlEye](https://www.battleye.com). BattlEye [lze použít na Linuxu](https://twitter.com/TheBattlEye/status/1441477816311291906), ale funkcionalita hry více hráčů záleží na implementaci vývojářem."
+        },
+        "eac": {
+          "explanation": "Tato hra využívá software [Easy Anti-Cheat](https://www.easy.ac). EAC má [omezenou podporu pro Linux](https://dev.epicgames.com/en-US/news/epic-online-services-launches-anti-cheat-support-for-linux-mac-and-steam-deck), ale funkcionalita hry více hráčů záleží na implementaci vývojářem."
+        },
+        "headline": "Podpora hry více hráčů"
+      },
+      "nativeDiscrepancy": {
+        "explanation": "Tato hra má sice dostupné nativní sestavení pro Linux, ale na Steamu nemá uvedenou podporu Linuxu. Toto se může stát, pokud má hra neoficiální, nedokončené nebo nepodporované sestavení. Možná budete muset [vynutit, aby služba Steam používala u dané hry Proton](/help/troubleshooting-faq#how-do-i-run-a-game-with-proton-even-though-it-has-a-native-linux-version) pro její správnou funkčnost.",
+        "headline": "Nativní podpora"
+      }
+    }
+  },
+  "home": {
+    "compatibilityScoresDescription": "Jak to funguje? Přečtěte si o tom v [novinkovém příspěvku]({{link1}}). Můžete také použít větší verzi v [novém Přehledu]({{link2}}).",
+    "getStartedLinks": [
+      "[Oficiální stránka funkce Steam Play ve službě Steam](https://store.steampowered.com/steamplay)",
+      "[Návod k přechodu na Linux](https://www.reddit.com/r/linux_gaming/comments/9oqq3w/guide_migrating_to_linux_in_2019/)",
+      "[Co je to Vulkan?](https://www.reddit.com/r/linux_gaming/comments/9ritk1/not_sure_i_quite_understand_can_someone_explain/)"
+    ],
+    "headline": "Vítejte ve vašem domově pro komunitní hlášení o kompatibilitě her se systémem Linux a zařízením Steam Deck!",
+    "howDoIHelp": {
+      "answer": "Dejte Linuxu šanci! Pokud jste noví, nezoufejte. Zde je seznam návodů pro začátek. A pokud chcete pomoci společnosti Valve vylepšovat Proton, sdílejte svá hlášení zde na ProtonDB!",
+      "question": "Skvělé! Jak můžu pomoct?"
+    },
+    "letsGetStarted": "Pojďme začít.",
+    "sampleGames": "Zde je vzorek populárních her, které ještě nejsou oficiálně na bílé listině, ale obdržely spoustu platinových hlášení na ProtonDB",
+    "search": "Hledat hru...",
+    "stats": {
+      "atLeastOneRecommends": "doporučených alespoň jedním",
+      "atLeastThreeRecommend": "doporučených třemi nebo více",
+      "atLeastTwoRecommend": "doporučených dvěma nebo více",
+      "deckVerified": "ověřených",
+      "deckVerifiedHeader": "her ověřených na Decku",
+      "deckVerifiedPlayable": "ověřených nebo hratelných",
+      "gamesReported": "nahlášených her",
+      "gamesWithReports": "her s hlášeními",
+      "gamesWork": "funkčních her",
+      "gamesWorkExplanation": "Mají alespoň jeden palec nahoru nebo platinové (zastaralé) hlášení",
+      "protonDbGamesHeader": "Hry na ProtonDB",
+      "reportsWritten": "napsaných hlášení"
+    },
+    "theImpact": {
+      "answer": "Služba Steam Play nyní oficiálně podporuje omezený ale rostoucí počet her na „bílé listině“, které jsou kompatibilní s Protonem a hratelné na Linuxu. Podle hlášení ProtonDB je velký počet her, které nejsou na „bílé listině“, včetně spousty populárních titulů, hratelný stejně dobře jako na systému Windows.",
+      "question": "Dopad"
+    },
+    "whatIsProton": {
+      "answer": "Proton je nový nástroj vydaný společností Valve Software, který byl integrován do služby Steam Play, aby bylo hraní her pro systém Windows na Linuxu stejně jednoduché jako stisknutí tlačítka Hrát ve službě Steam. Pod kapotou Protonu se skrývají další populární nástroje, jako je Wine a DXVK, které by si jinak hráč musel nainstalovat a udržovat sám. To uživatelům výrazně ulehčuje přechod na Linux, aniž by se museli učit základní systémy nebo ztratit přístup k velké části své knihovny her. Proton je stále v plenkách, takže podpora je nekonzistentní, ale pravidelně se zlepšuje.",
+      "question": "Co je to Proton?"
+    },
+    "whatIsProtonDb": {
+      "answer": "Cílem ProtonDB je shromažďovat hlášení od ostatních hráčů, kteří testují hry s Protonem na Linuxu, a poskytovat souhrnné výsledky o tom, jak dobře hry fungují. Rostoucí zásoba návrhů poskytuje vylepšení, která můžete vyzkoušet, aby hry fungovaly, zatímco Proton pokračuje ve vývoji. Kromě toho můžete na těchto stránkách prozkoumat katalog her služby Steam a procházet a objevovat širokou škálu titulů, které dříve nebyly pro použití na Linuxu k dispozici.",
+      "question": "Co je to ProtonDB?"
+    },
+    "whyBigDeal": {
+      "answer": "Za poslední rok nebo dva se prostředí Linuxu zlepšilo mílovými kroky. Většina věcí, na které jste zvyklí z Windows nebo MacOS, je na Linuxu možná, aniž byste museli nastavovat příliš mnoho věcí (což mimochodem může být zábavné). Mezitím se stále více našich každodenních interakcí s počítačem odehrává online a prohlížeče se na Linuxu chovají stejně jako v jiných operačních systémech. Proton a Steam Play řeší významnou překážku přijetí: hraní her, kde donedávna byla kompatibilita omezená.",
+      "question": "Proč na tom záleží?"
+    },
+    "youtubeId": "Co6FePZoNgE"
+  },
+  "medals": {
+    "borked": "Nefunkční",
+    "bronze": "Bronzová",
+    "gold": "Zlatá",
+    "platinum": "Platinová",
+    "silver": "Stříbrná"
+  },
+  "ratingDefinitions": {
+    "categories": {
+      "clickPlay": "Click Play: bez jakýchkoli úprav",
+      "deck": "Jak se hraje na zařízení Steam Deck",
+      "tinker": "Úpravy: jsou vyžadovány úpravy"
+    },
+    "explanations": {
+      "borked": "Buď se nespustí, nebo je nehratelná",
+      "bronze": "Funguje, ale často padá nebo má problémy zabraňující pohodlnému hraní",
+      "gold": "Po úpravách běží bez problémů",
+      "native": "Běží nativně na Linuxu",
+      "pending": "Čekání na další hlášení před ohodnocením",
+      "platinum": "Běží perfektně bez úprav",
+      "silver": "Běží s menšími problémy, ale celkově je hratelná"
+    },
+    "headline": "Definice hodnocení",
+    "ratings": {
+      "?": "Čeká se: Je třeba více dat",
+      "A": "Úroveň A: Výborné",
+      "B": "Úroveň B: Velmi dobré, ale lze zlepšit",
+      "C": "Úroveň C: Potřebuje práci",
+      "D": "Úroveň D: Spousta problémů",
+      "F": "Úroveň F: Nefunguje!",
+      "S": "Úroveň S: Beze skvrny"
+    },
+    "reports": "Klikněte pro zobrazení hlášení"
+  },
+  "specs": {
+    "cpu": "CPU",
+    "gpu": "GPU",
+    "gpuDriver": "Ovladač GPU",
+    "kernel": "Jádro",
+    "os": "Distribuce",
+    "otherSpecs": "Další hardware",
+    "ram": "RAM"
+  },
+  "stats": {
+    "analysisInByTheNumbers1": "Analýza podle čísel #1",
+    "byCommonDisplayDrivers": "Podle běžných ovladačů obrazovky",
+    "byDistro": "Podle distribuce",
+    "byGpu": "Podle GPU",
+    "byProtonVersion": "Podle verze Protonu",
+    "dailyReportsHeadline": "Denní hlášení (posledních {{days}} dnů)",
+    "downloadData": "Stáhnout data",
+    "gameRatingDistribution": "Rozložení herního hodnocení",
+    "gamesWithNOrMoreReports": "Hry s N nebo více hlášeními",
+    "reportRatingDistributionOverTime": "Rozložení hodnocení hlášení v čase",
+    "whenMeetingMinimumRequirements": "Při splnění minimálních požadavků"
+  },
+  "steamAuthor": {
+    "hoursOnLinux": "{{time}} na Linuxu",
+    "hoursOverall": "{{time}} celkem",
+    "timeWithProton": "{{time}} s Protonem"
+  },
+  "suggestions": {
+    "headline": "Připraveni na více?",
+    "intro": "Následující hry byly vybrány podle odehraných hodin, popularity a hodnocení SteamDB. Všem chybí hlášení a některé potřebují už jen jedno pro obdržení hodnocení {{siteName}}! Pro další hry můžete znovu načíst stránku nebo jít na filtr [Chybějící hlášení]({{link}}) stránky Prozkoumat pro ještě další hry."
+  },
+  "systemInfo": {
+    "headline": "Systémové informace",
+    "howTo": "PC: Získávání informací je přímočaré, pokud máte přístup k nastavení služby Steam na počítači, na kterém hrajete své hry. [Přejděte sem pro zjištění jak]({{link}}). Někteří uživatelé hlásili, že museli před pravým kliknutím stisknout Ctrl-A pro vybrání celého textu. Můžete vynechat vše, co začíná slovy „LD Scout Report“, případně bude text odstraněn automaticky.",
+    "howToSteamDeck": "Steam Deck: Toto zařízení lze momentálně přidat pouze z režimu plochy zařízení Steam Deck. Jelikož jsou zařízení nyní uchovávána napříč přihlašovacími relacemi, stačí tuto akci provést jednou a poté můžete přidávat hlášení z jiného počítače.",
+    "intro": "Zprávy jsou užitečnější a důvěryhodnější při uvedení hardware a software, na kterém byla hra testována. Aby byly tyto informace co nejpřesnější a nejkonzistentnější, získáváme systémové informace přímo ze služby Steam.",
+    "parseFailure": "Zpracování se nezdařilo. Pokud jste si jisti, že jste vše zkopírovali správně, kontaktujte nás prosím na Discordu",
+    "parseSuccess": "Systémové informace byly úspěšně zpracovány!",
+    "pasteInstructions": "Sem vložte systémové informace ze služby Steam",
+    "unsupportedHeadline": "Detekovány nepodporované ovladače",
+    "unsupportedWarning": "Ovladač displeje vašeho systému nesplňuje [aktuální minimální požadavky Protonu]({{link}})! Může docházet k pádům, pomalému výkonu nebo zhoršení grafického zobrazení. Stále můžete odesílat hlášení a vaše příspěvky mají stále hodnotu, ale vaše hlášení budou zobrazovat vaše grafické ovladače červeně a nebudou započítávány do souhrnného hodnocení her. Prosíme, aktualizujte své ovladače!"
+  }
+}
