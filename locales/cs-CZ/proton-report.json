@@ -48,108 +48,108 @@
     "prompt": "Zaznamenali jste nějaké změny pro zlepšení výkonu baterie?"
   },
   "borked": {
-    "headline": "That's a bummer!",
-    "intro": "You will now proceed with submitting a borked report, but before you do you may want to visit our [Game Troubleshooting FAQ]({{link}}) page."
+    "headline": "To je smůla!",
+    "intro": "Nyní budete pokračovat v odesílání hlášení o chybě, ale ještě předtím můžete navštívit naši stránku [Často kladené dotazy k řešení problémů ve hře]({{link}})."
   },
   "concludingNotes": {
-    "label": "Concluding Notes",
-    "prompt": "Add here anything extra that you'd like to conclude with at the end of your report."
+    "label": "Závěrečné poznámky",
+    "prompt": "Sem přidejte cokoli dalšího, co byste chtěli přidat na konec svého hlášení."
   },
   "controlLayout": {
     "additionalNotes": {
-      "label": "What community version?"
+      "label": "Jaká komunitní verze?"
     },
-    "legend": "Control Layout",
+    "legend": "Rozložení ovládání",
     "options": {
       "community": {
-        "long": "A community layout",
-        "short": "Community layout"
+        "long": "Komunitní rozložení",
+        "short": "Komunitní rozložení"
       },
       "gamepad": {
         "long": "Gamepad",
         "short": "Gamepad"
       },
       "gamepadWithGyro": {
-        "long": "Gamepad With Gyro",
-        "short": "Gamepad With Gyro"
+        "long": "Gamepad s gyroskopem",
+        "short": "Gamepad s gyroskopem"
       },
       "gamepadWithJoystick": {
-        "long": "Gamepad With Joystick Trackpad",
-        "short": "Gamepad With Joystick Trackpad"
+        "long": "Gamepad s joystickovou ploškou",
+        "short": "Gamepad s joystickovou ploškou"
       },
       "gamepadWithMouseTrackpad": {
-        "long": "Gamepad With Mouse Trackpad",
-        "short": "Gamepad With Mouse Trackpad"
+        "long": "Gamepad s pložkou myši",
+        "short": "Gamepad s pložkou myši"
       },
       "keyboardAndMouse": {
-        "long": "Keyboard (WASD) And Mouse",
-        "short": "Keyboard And Mouse"
+        "long": "Klávesnice (WASD) a myš",
+        "short": "Klávesnice a myš"
       },
       "mouseOnly": {
-        "long": "Mouse Only",
-        "short": "Mouse Only"
+        "long": "Pouze myš",
+        "short": "Pouze myš"
       },
       "official": {
-        "long": "The official layout",
-        "short": "official"
+        "long": "Oficiální rozložení",
+        "short": "oficiální"
       },
       "touchscreenMouseEmulation": {
-        "long": "Touchscreen Mouse Emulation",
-        "short": "Touchscreen Mouse Emulation"
+        "long": "Emulace myši přes dotykovou obrazovku",
+        "short": "Emulace myši přes obrazovku"
       }
     },
-    "prompt": "What control layout did you play with?"
+    "prompt": "S jakým rozložením ovládání jste hráli?"
   },
   "controlLayoutCustomization": {
     "additionalNotes": {
-      "label": "Customizations",
-      "prompt": "Describe your changes"
+      "label": "Přizpůsobení",
+      "prompt": "Popište své změny"
     },
-    "legend": "Control Layout Customization",
+    "legend": "Přizpůsobení rozložení ovládání",
     "options": {
       "enableGripButtons": {
-        "long": "Enabled Back Grip Buttons",
-        "short": "Grip Buttons"
+        "long": "Povolena zadní tlačítka",
+        "short": "Zadní tlačítka"
       },
       "gyro": {
-        "long": "Enabled Gyro",
-        "short": "Gryo"
+        "long": "Povolen gyroskop",
+        "short": "Gryoskop"
       },
       "other": {
-        "long": "Other",
-        "short": "Other"
+        "long": "Jiné",
+        "short": "Jiné"
       },
       "rightTrackpad": {
-        "long": "Changed Right Trackpad Behavior",
-        "short": "Right Trackpad"
+        "long": "Změněno chování pravé dotykové plošky",
+        "short": "Pravá dotyková ploška"
       }
     },
-    "prompt": "Did you customize the controls further?"
+    "prompt": "Přizpůsobili jste si nějak dále ovládání?"
   },
   "customProtonVersion": {
-    "label": "Version"
+    "label": "Verze"
   },
   "customizationsUsed": {
     "additionalNotes": {
-      "label": "Further Details",
-      "placeholder": "Explanation or link to blog post or Github repository"
+      "label": "Další podrobnosti",
+      "placeholder": "Vysvětlení nebo odkaz na blogový příspěvek nebo na GitHub repozitář"
     },
-    "legend": "Customizations",
+    "legend": "Přizpůsobení",
     "options": {
       "configChange": {
-        "long": "Changed the game's configuration file(s)",
-        "short": "Changed configuration"
+        "long": "Změněny konfigurační soubory hry",
+        "short": "Změněna konfigurace"
       },
       "customPrefix": {
-        "long": "A custom Wine prefix",
-        "short": "Custom Prefix"
+        "long": "Vlastní prefix Wine",
+        "short": "Vlastní prefix"
       },
       "customProton": {
-        "long": "A custom fork of Proton",
-        "short": "Custom Proton"
+        "long": "Vlastní fork Protonu",
+        "short": "Vlastní Proton"
       },
       "lutris": {
-        "long": "Lutris install script",
+        "long": "Instalační skript Lutris",
         "short": "Lutris"
       },
       "mediaFoundation": {
@@ -157,8 +157,8 @@
         "short": "Media Foundation DLL"
       },
       "notListed": {
-        "long": "Something else",
-        "short": "Something else"
+        "long": "Něco jiného",
+        "short": "Něco jiného"
       },
       "protonfixes": {
         "long": "protonfixes",
@@ -173,65 +173,65 @@
         "short": "winetricks"
       }
     },
-    "prompt": "Are you using any of these common tinkering methods?"
+    "prompt": "Používáte tyto běžné způsoby úprav?"
   },
   "device": {
-    "legend": "Device",
-    "prompt": "Which of your devices are you playing on?"
+    "legend": "Zařízení",
+    "prompt": "Na kterém z vašich zařízení hrajete?"
   },
   "didChangeControlLayout": {
-    "prompt": "Did you change the default control layout?"
+    "prompt": "Změnili jste výchozí ovládání rozložení?"
   },
   "duration": {
-    "legend": "Duration",
+    "legend": "Trvání",
     "options": {
       "aboutAnHour": {
-        "long": "an hour",
-        "short": "an hour"
+        "long": "hodina",
+        "short": "hodina"
       },
       "lessThanAnHour": {
-        "long": "< 1 hour",
-        "short": "< 1 hour"
+        "long": "< 1 hodina",
+        "short": "< 1 hodina"
       },
       "lessThanFifteenMinutes": {
-        "long": "< 15 minutes",
-        "short": "< 15 minutes"
+        "long": "< 15 minut",
+        "short": "< 15 minut"
       },
       "moreThanTenHours": {
-        "long": "> 10 hours",
-        "short": "> 10 hours"
+        "long": "> 10 hodin",
+        "short": "> 10 hodin"
       },
       "severalHours": {
-        "long": "2+ hours",
-        "short": "2+ hours"
+        "long": "2+ hodiny",
+        "short": "2+ hodiny"
       }
     },
-    "prompt": "For how long have you played?"
+    "prompt": "Jak dlouho jste hráli?"
   },
   "graphicalFaults": {
-    "legend": "Graphics",
+    "legend": "Grafika",
     "options": {
       "heavyArtifacts": {
-        "long": "Heavy or common artifacts",
-        "short": "Heavy artifacts"
+        "long": "Výrazné nebo běžné artefakty",
+        "short": "Výrazné artefakty"
       },
       "minorArtifacts": {
-        "long": "Minor or infrequent artifacts",
-        "short": "Minor artifacts"
+        "long": "Menší nebo málo časté artefakty",
+        "short": "Menší artefakty"
       },
       "missingTextures": {
-        "long": "Missing textures",
-        "short": "Missing textures"
+        "long": "Chybějící textury",
+        "short": "Chybějící textury"
       },
       "other": {
-        "long": "Other",
-        "short": "Other"
+        "long": "Jiné",
+        "short": "Jiné"
       }
     },
-    "prompt": "Did you notice any graphical degradations?"
+    "prompt": "Zaznamenali jste nějaké zhoršení grafiky?"
   },
   "graphicsApiSelection": {
-    "legend": "Graphics API",
+    "legend": "API grafiky",
     "options": {
       "d3d": {
         "long": "Direct3D",
@@ -242,57 +242,57 @@
         "short": "OpenGL"
       },
       "unsure": {
-        "long": "Whatever the game uses by default",
-        "short": "Default"
+        "long": "Výchozí nastavení hry",
+        "short": "Výchozí"
       },
       "vk": {
         "long": "Vulkan",
         "short": "Vulkan"
       }
     },
-    "prompt": "What graphics API did you use within the game?"
+    "prompt": "Jaké API grafiky jste ve hře použili?"
   },
   "inputFaults": {
-    "legend": "Input",
+    "legend": "Vstup",
     "options": {
       "bounding": {
-        "long": "Bounds were incorrect",
-        "short": "Bounding"
+        "long": "Hranice byly nesprávné",
+        "short": "Hranice"
       },
       "controllerMapping": {
-        "long": "Controller(s) were not mapped properly",
-        "short": "Controller mapping"
+        "long": "Ovladač nebyl správně namapován",
+        "short": "Mapování ovladače"
       },
       "controllerNotDetected": {
-        "long": "Controller(s) not detected",
-        "short": "Controller detection"
+        "long": "Ovladač nebyl detekován",
+        "short": "Ovladač nedetekován"
       },
       "controllerNotResponsive": {
-        "long": "Controller(s) detected but were not responsive",
-        "short": "Responsiveness"
+        "long": "Ovladač byl detekován, ale neodpovídal",
+        "short": "Ovladač neodpovídal"
       },
       "drifting": {
-        "long": "Axes would drift",
-        "short": "Drifting"
+        "long": "Osy se samovolně pohybovaly",
+        "short": "Samovolný pohyb"
       },
       "inaccuracy": {
-        "long": "Inaccuracy",
-        "short": "Inaccuracy"
+        "long": "Nepřesnost",
+        "short": "Nepřesnost"
       },
       "lag": {
-        "long": "Input was laggy",
-        "short": "Lag"
+        "long": "Vstup se sekal",
+        "short": "Sekání"
       },
       "other": {
-        "long": "Other",
-        "short": "Other"
+        "long": "Jiné",
+        "short": "Jiné"
       }
     },
-    "prompt": "Did you experience any problems with your mouse, gamepad or other input devices?"
+    "prompt": "Zaznamenali jste nějaké problémy se svou myší, gamepadem nebo jinými vstupními zařízeními?"
   },
   "installs": {
-    "legend": "Installs",
-    "prompt": "Were you able to install the game?"
+    "legend": "Instalace",
+    "prompt": "Byli jste schopni nainstalovat hru?"
   },
   "isImpactedByAntiCheat": {
     "legend": "Anti-Cheat",
@@ -306,368 +306,368 @@
         "short": "EAC"
       },
       "other": {
-        "long": "Other",
-        "short": "Other"
+        "long": "Jiné",
+        "short": "Jiné"
       }
     },
-    "prompt": "Is the game impacted by anti-cheat software?"
+    "prompt": "Je hra ovlivněna softwarem proti podvádění?"
   },
   "launchFlagsUsed": {
     "additionalNotes": {
-      "label": "Further Details",
-      "placeholder": "What did this help with?"
+      "label": "Další podrobnosti",
+      "placeholder": "Čemu toto pomohlo?"
     },
-    "legend": "Launch Flags",
+    "legend": "Vlajky spouštění",
     "options": {
       "disableD3d10": {
-        "long": "Disable D3D10 (PROTON_NO_D3D10)",
-        "short": "Disable D3D10"
+        "long": "Zakázání D3D10 (PROTON_NO_D3D10)",
+        "short": "Zakázání D3D10"
       },
       "disableD3d11": {
-        "long": "Disable D3D11 (PROTON_NO_D3D11)",
-        "short": "Disable D3D11"
+        "long": "Zakázání D3D11 (PROTON_NO_D3D11)",
+        "short": "Zakázání D3D11"
       },
       "disableEsync": {
-        "long": "Disable Esync (PROTON_NO_ESYNC)",
-        "short": "Disable Esync"
+        "long": "Zakázání Esync (PROTON_NO_ESYNC)",
+        "short": "Zakázání Esync"
       },
       "disableFsync": {
-        "long": "Disable Fsync (PROTON_NO_FSYNC)",
-        "short": "Disable Fsync"
+        "long": "Zakázání Fsync (PROTON_NO_FSYNC)",
+        "short": "Zakázání Fsync"
       },
       "enableNvapi": {
-        "long": "Enable NVAPI (PROTON_ENABLE_NVAPI)",
-        "short": "Enable NVAPI"
+        "long": "Povolení NVAPI (PROTON_ENABLE_NVAPI)",
+        "short": "Povolení NVAPI"
       },
       "fullscreenIntegerScaling": {
-        "long": "Fullscreen Integer Scaling (WINE_FULLSCREEN_INTEGER_SCALING)",
-        "short": "Fullscreen Integer Scaling"
+        "long": "Celoobrazovkové škálování integerů (WINE_FULLSCREEN_INTEGER_SCALING)",
+        "short": "Celoobrazovkové škálování integerů"
       },
       "gameDrive": {
-        "long": "Set Game Drive (PROTON_SET_GAME_DRIVE)",
-        "short": "Set Game Drive"
+        "long": "Nastavení herního disku (PROTON_SET_GAME_DRIVE)",
+        "short": "Nastavení herního disku"
       },
       "heapDelayFree": {
-        "long": "Delay freeing some memory (PROTON_HEAP_DELAY_FREE)",
-        "short": "Heap Delay Free"
+        "long": "Zpoždění uvolnění paměti (PROTON_HEAP_DELAY_FREE)",
+        "short": "Zpoždění uvolnění paměti"
       },
       "hideNvidia": {
-        "long": "Hide Nvidia GPU (PROTON_HIDE_NVIDIA_GPU)",
-        "short": "Hide Nvidia GPU"
+        "long": "Skrytí GPU Nvidia (PROTON_HIDE_NVIDIA_GPU)",
+        "short": "Skrytí GPU Nvidia"
       },
       "largeAddressAware": {
-        "long": "Large Address Aware (PROTON_FORCE_LARGE_ADDRESS_AWARE)",
-        "short": "Large Address Aware"
+        "long": "Rozpoznání velkých adres (PROTON_FORCE_LARGE_ADDRESS_AWARE)",
+        "short": "Rozpoznání velkých adres"
       },
       "noWriteWatch": {
-        "long": "Disable support for memory write watches (PROTON_NO_WRITE_WATCH)",
-        "short": "No Write Watch"
+        "long": "Zakázání podpory pro sledování zápisu do paměti (PROTON_NO_WRITE_WATCH)",
+        "short": "Zákaz sledování paměti"
       },
       "noXim": {
-        "long": "No XIM (PROTON_NO_XIM)",
-        "short": "No XIM"
+        "long": "Žádné XIM (PROTON_NO_XIM)",
+        "short": "Žádné XIM"
       },
       "oldGlString": {
-        "long": "Old GL String (PROTON_OLD_GL_STRING)",
-        "short": "Old GL String"
+        "long": "Starý řetězec GL (PROTON_OLD_GL_STRING)",
+        "short": "Starý řetězec GL"
       },
       "useSeccomp": {
-        "long": "Enable Seccomp (PROTON_USE_SECCOMP)",
-        "short": "Enable Seccomp"
+        "long": "Povolení Seccomp (PROTON_USE_SECCOMP)",
+        "short": "Povolení Seccomp"
       },
       "useWineD3d11": {
-        "long": "Use Wine D3D (PROTON_USE_WINED3D)",
-        "short": "Use Wine D3D"
+        "long": "Použití Wine D3D (PROTON_USE_WINED3D)",
+        "short": "Použití Wine D3D"
       },
       "useWineD9vk": {
-        "long": "Use D9VK (PROTON_USE_D9VK)",
-        "short": "Use D9VK"
+        "long": "Použití D9VK (PROTON_USE_D9VK)",
+        "short": "Použití D9VK"
       }
     },
-    "prompt": "Do you use any of these Proton launch flags?"
+    "prompt": "Použili jste některé z těchto spouštěcích vlajek Protonu?"
   },
   "launchOptions": {
     "helperText": "i.e. PROTON_NO_D3D11=1 %command%",
-    "label": "Launch Options",
-    "legend": "Launch Options",
-    "placeholder": "(none)",
-    "prompt": "Do you set any launch options?"
+    "label": "Možnosti spuštění",
+    "legend": "Možnosti spuštění",
+    "placeholder": "(žádné)",
+    "prompt": "Nastavili jste nějaké možnosti spuštění?"
   },
   "launcher": {
     "additionalNotes": {
-      "label": "Launcher"
+      "label": "Spouštěč"
     },
-    "legend": "Launcher",
+    "legend": "Spouštěč",
     "options": {
       "bottles": {
         "long": "Bottles",
         "short": "Bottles"
       },
       "notListed": {
-        "long": "Not Listed",
-        "short": "Not Listed"
+        "long": "Není v seznamu",
+        "short": "Není v seznamu"
       },
       "steam": {
         "long": "Steam",
         "short": "Steam"
       }
     },
-    "prompt": "How do you launch the game?"
+    "prompt": "Jak jste spustili hru?"
   },
   "localMultiplayerAppraisal": {
     "additionalNotes": {
-      "label": "Further Details"
+      "label": "Další podrobnosti"
     },
-    "prompt": "How would you rate the local multiplayer functionality? Please evaulate for lag, connectivity or input issues, etc."
+    "prompt": "Jak hodnotíte funkci místní hry více hráčů? Zhodnoťte prosím zpoždění, problémy s připojením nebo vstupem atd."
   },
   "localMultiplayerAttempted": {
-    "prompt": "Did you try to play multiplayer locally (offline i.e. couch play)?"
+    "prompt": "Pokusili jste se hrát lokální hru více hráčů (offline, např. gaučové hraní)?"
   },
   "localMultiplayerPlayed": {
-    "prompt": "Were you able to get local multiplayer to work?"
+    "prompt": "Byli jste schopni zprovoznit místní hru více hráčů?"
   },
   "multiplayerAppraisal": {
     "options": {
       "acceptable": {
-        "long": "Acceptable. Moderate issues but can be struggled through.",
-        "short": "Acceptable"
+        "long": "Přijatelné. Mírné problémy, ale lze je přetrpět.",
+        "short": "Přijatelné"
       },
       "awful": {
-        "long": "Awful. Practically not playable",
-        "short": "Awful"
+        "long": "Příšerné. Prakticky nehratelné.",
+        "short": "Příšerné"
       },
       "excellent": {
-        "long": "Excellent. Did not experience any problems.",
-        "short": "Excellent"
+        "long": "Výborné. Nezaznamenali jste žádné problémy.",
+        "short": "Výborné"
       },
       "good": {
-        "long": "Good. Had infrequent issues but is overall playable.",
-        "short": "Good"
+        "long": "Dobré. Má občasné problémy, ale celkově je hratelná.",
+        "short": "Dobré"
       },
       "weak": {
-        "long": "Weak. Its problems significantly impact the experience",
-        "short": "Weak"
+        "long": "Slabé. Problémy významně ovlivňují zážitek.",
+        "short": "Slabé"
       }
     }
   },
   "onlineMultiplayerAppraisal": {
     "additionalNotes": {
-      "label": "Further Details"
+      "label": "Další podrobnosti"
     },
-    "prompt": "How would you rate the online multiplayer functionality? Please evaulate for lag, connectivity or input issues, matchingmaking failures etc."
+    "prompt": "Jak byste ohodnotili funkci online hry více hráčů? Zhodnoťte prosím zpoždění, problémy s připojením nebo vstupem, selhání matchmakingu atd."
   },
   "onlineMultiplayerAttempted": {
-    "prompt": "Did you try to play multiplayer online?"
+    "prompt": "Pokusili jste se hrát online hru více hráčů?"
   },
   "onlineMultiplayerPlayed": {
-    "prompt": "Were you able to connect and play online multiplayer?"
+    "prompt": "Byli jste schopni se připojit a hrát online hru více hráčů?"
   },
   "opens": {
-    "legend": "Opens",
-    "prompt": "Were you able to start up the game and view its initial menu?"
+    "legend": "Otevře se",
+    "prompt": "Byli jste schopni spustit hru a zobrazit její úvodní nabídku?"
   },
   "performanceFaults": {
-    "legend": "Performance",
+    "legend": "Výkon",
     "options": {
       "significantSlowdown": {
-        "long": "Significant Performance Problems",
-        "short": "Significant Performance Problems"
+        "long": "Znatelné problémy s výkonem",
+        "short": "Znatelné problémy s výkonem"
       },
       "slightSlowdown": {
-        "long": "Slight Performance Problems",
-        "short": "Slight Performance Problems"
+        "long": "Malé problémy s výkonem",
+        "short": "Malé problémy s výkonem"
       }
     },
-    "prompt": "Did you experience unexpected slowness given your hardware?"
+    "prompt": "Zaznamenali jste vzhledem k vašemu hardwaru neočekávané zpomalení?"
   },
   "prerequisites": {
-    "missingProfileInfo": "Profile information incomplete. Missing: {{context}}",
-    "noValidDevices": "None of your devices have valid system information",
-    "notLoggedIn": "Not logged in with {{context}}"
+    "missingProfileInfo": "Profilové informace nejsou kompletní. Chybí: {{context}}",
+    "noValidDevices": "Žádné z vašich zařízení nemají platné systémové informace",
+    "notLoggedIn": "Nepřihlášen pomocí služby {{context}}"
   },
   "prerequisitesBlock": {
-    "action": "Go to profile",
-    "context": "You'll need to log into Steam and provide system information before submitting!",
-    "headline": "Not Ready Yet!"
+    "action": "Přejít na profil",
+    "context": "Před odesláním se budete muset přihlásit do služby Steam a poskytnout systémové informace!",
+    "headline": "Zatím nepřipraveni!"
   },
   "preview": {
-    "intro": "Things to check for:",
+    "intro": "Věci ke kontrole:",
     "notes": [
-      "Is your system information up to date? You will need to go to your profile and provide your Steam information after a graphics driver update.",
-      "Have you selected the correct game? Some games have the same name as older versions i.e. GRID",
-      "Have you added descriptions in the right place? For example, write notes about graphics issues in that section rather than end notes."
+      "Jsou systémové informace aktuální? Po aktualizaci grafického ovladače musíte přejít do svého profilu a zadat informace o službě Steam.",
+      "Vybrali jste správnou hru? Některé hry mají stejný název jako starší verze, např. GRID.",
+      "Přidali jste popisy na správné místo? Například poznámky o problémech s grafikou pište do vlastní části, nikoli do závěrečných poznámek."
     ]
   },
   "prompts": {
-    "continuingDraft": "You are continuing from an automatically saved draft.",
-    "discardDraftWarning": "All of your responses will be permanently discarded.",
-    "startOver": "Start Over"
+    "continuingDraft": "Pokračujete z automaticky uložené rozepsané verze.",
+    "discardDraftWarning": "Všechny vaše odpovědi budou nevratně smazány.",
+    "startOver": "Začít znovu"
   },
   "protonVersion": {
     "additionalNotes": {
-      "label": "Manual Proton Version",
-      "placeholder": "Must be valid Proton version string. Examples: {{examples}}"
+      "label": "Ruční verze Protonu",
+      "placeholder": "Musí být platný řetězec verze Protonu. Příklady: {{examples}}"
     },
-    "prompt": "Which version are you using?"
+    "prompt": "Jakou verzi používáte?"
   },
   "readability": {
-    "legend": "Difficult To Read Text",
-    "prompt": "Was there text in the game that was difficult to read?"
+    "legend": "Obtížné čtení textu",
+    "prompt": "Byl ve hře text, který bylo obtížné přečíst?"
   },
   "saveGameFaults": {
-    "legend": "Save Games",
+    "legend": "Ukládání her",
     "options": {
       "errorLoading": {
-        "long": "Could not load a save game",
-        "short": "Loading"
+        "long": "Nepodařilo se načíst uloženou hru",
+        "short": "Načítání"
       },
       "errorSaving": {
-        "long": "Could not save",
-        "short": "Saving"
+        "long": "Nepodařilo se uložit hru",
+        "short": "Ukládání"
       },
       "other": {
-        "long": "Other",
-        "short": "Other"
+        "long": "Jiné",
+        "short": "Jiné"
       }
     },
-    "prompt": "Did you experience any problems with save games?"
+    "prompt": "Zaznamenali jste nějaké problémy s ukládáním her?"
   },
   "secondaryLauncher": {
-    "legend": "Secondary Launcher Problem",
-    "prompt": "Did you have any trouble due to a secondary launch window?"
+    "legend": "Problém se sekundárním spouštěčem",
+    "prompt": "Zaznamenali jste nějaké problémy kvůli sekundárnímu spuštěnému oknu?"
   },
   "significantBugs": {
-    "legend": "Significant Bugs",
-    "prompt": "Did you experience any other significant bugs?"
+    "legend": "Výrazné chyby",
+    "prompt": "Zaznamenali jste nějaké další výrazné chyby?"
   },
   "stabilityFaults": {
-    "legend": "Instability",
+    "legend": "Nestabilita",
     "options": {
       "frequentCrashes": {
-        "long": "Frequent crashes",
-        "short": "Frequently"
+        "long": "Časté pády",
+        "short": "Častá"
       },
       "notListed": {
-        "long": "Not listed",
-        "short": "Not listed"
+        "long": "Není v seznamu",
+        "short": "Není v seznamu"
       },
       "occasionally": {
-        "long": "Occasional crashes",
-        "short": "Occasionally"
+        "long": "Občasné pády",
+        "short": "Občasná"
       }
     },
-    "prompt": "Did you experience any stability issues?"
+    "prompt": "Zaznamenali jste nějaké problémy se stabilitou?"
   },
   "startsPlay": {
-    "legend": "Starts Play",
-    "prompt": "Were you able to begin playing?"
+    "legend": "Začátek hraní",
+    "prompt": "Byli jste schopni začít hrát?"
   },
   "stepHeadlines": {
-    "appSelection": "Game Selection",
-    "borked": "Borked!",
-    "customizations": "Customizations",
-    "finalNotes": "Verdict",
-    "multiplayer": "Multiplayer",
-    "preview": "Preview",
-    "setup": "Setup",
-    "startup": "Install and Startup",
-    "steamDeckRelated": "Steam Deck Related",
-    "technical": "Technical Details",
-    "unownedWarning": "Not In Library"
+    "appSelection": "Výběr hry",
+    "borked": "Nefunkční!",
+    "customizations": "Přizpůsobení",
+    "finalNotes": "Verdikt",
+    "multiplayer": "Hra více hráčů",
+    "preview": "Náhled",
+    "setup": "Nastavení",
+    "startup": "Instalace a spuštění",
+    "steamDeckRelated": "Hodnocení zařízení Steam Deck",
+    "technical": "Technické podrobnosti",
+    "unownedWarning": "Není v knihovně"
   },
   "tinkerOverride": {
     "additionalNotes": {
-      "label": "Tinkering Description"
+      "label": "Popis úprav"
     },
     "options": {
       "no": {
-        "long": "Nope - no tinkering here",
-        "short": "SteamPlay Report"
+        "long": "Ne - tady žádné úpravy",
+        "short": "Hlášení SteamPlay"
       },
       "yes": {
-        "long": "Yes",
-        "short": "Tinker Report"
+        "long": "Ano",
+        "short": "Hlášení s úpravami"
       }
     },
-    "prompt": "Looks like a non-tinker report so far. Have you made any customizations that would warrant this being a Tinker report? [More info]({{link}})"
+    "prompt": "Zatím to vypadá jako hlášení bez úprav. Udělali jste nějaká přizpůsobení, která by zaručila, že se jedná o hlášení s úpravami? [Více informací]({{link}})"
   },
   "triedOob": {
-    "prompt": "Your report will be classified as a tinker report. Have you tried playing with Steam and Proton without any tinkering?"
+    "prompt": "Vaše hlášení bude klasifikováno jako hlášení s úpravami. Zkoušeli jste hrát se službou Steam a s Protonem bez jakýchkoli úprav?"
   },
   "variant": {
     "additionalNotes": {
-      "label": "What's it called?"
+      "label": "Jak se nazývá?"
     },
-    "legend": "Variant",
+    "legend": "Varianta",
     "options": {
       "experimental": {
-        "long": "Forced Experimental",
-        "short": "Experimental"
+        "long": "Vynucená experimentální",
+        "short": "Experimentální"
       },
       "ge": {
         "long": "Glorious Eggroll (GE)",
         "short": "GE"
       },
       "native": {
-        "long": "Native. No Proton.",
-        "short": "native"
+        "long": "Nativní. Žádný Proton.",
+        "short": "nativní"
       },
       "notListed": {
-        "long": "Not Listed",
-        "short": "Not Listed"
+        "long": "Není v seznamu",
+        "short": "Není v seznamu"
       },
       "official": {
-        "long": "The one Steam recommends by default",
-        "short": "Official"
+        "long": "Ta, kterou služba Steam doporučuje jako výchozí",
+        "short": "Oficiální"
       },
       "older": {
-        "long": "Switched to an older version",
-        "short": "Older"
+        "long": "Přepnuto na starší verzi",
+        "short": "Starší"
       }
     },
-    "prompt": "What variant of Proton do you use?"
+    "prompt": "Jakou variantu Protonu používáte?"
   },
   "verdict": {
     "additionalNotes": {
-      "label": "Summary (max {{count}} chars)",
-      "placeholder": "Add a short summary. This will be the headline of your report."
+      "label": "Shrnutí (max. {{count}} znaků)",
+      "placeholder": "Přidejte krátké shrnutí. Bude to titulek vašeho hlášení."
     },
-    "prompt": "Would a typical gamer enjoy playing this game on Linux as you've played it?"
+    "prompt": "Užil by si průměrný hráč hraní této hry na Linuxu tak, jak jste ji hráli vy?"
   },
   "verdictOob": {
-    "prompt": "Launching straight from Steam, would a typical gamer enjoy playing this game on Linux even without tinkering?"
+    "prompt": "Užil by si průměrný hráč na Linuxu tuto hru při spuštění přímo ze služby Steam i bez úprav?"
   },
   "welcome": {
-    "headline": "Welcome",
-    "intro": "Thanks for your interest in expanding ProtonDB's catalog of compatibility reports on Steam Play and Proton! Please keep in mind the following before you contribute",
+    "headline": "Vítejte",
+    "intro": "Děkujeme za váš zájem o rozšíření katalogu hlášení ProtonDB o kompatibilitě ve službě Steam Play a Proton! Než začnete přispívat, mějte prosím na paměti následující",
     "notes": [
-      "Reports are published on ProtonDB to help you, Valve, and developers to help fix games. Please keep your reports accurate, free of offensive language, and refrain from submitting reports just to promote your favorite game, distro or graphics card.",
-      "Submitting multiple reports for the same game is encouraged! As you play more or update Proton you'll have more to say. In this way ProtonDB differs from a wiki, since each report serves as a 'snapshot' of how the game played on that date with your configuration.",
-      "If you submit multiple reports, only your most recent will count towards the ProtonDB rating and only if your system information meets Proton's minimum requirements.",
-      "Your contributions will be publicly visible on ProtonDB and available in data exports under the Open Database License. Go [here]({{link}}) for more information."
+      "Hlášení jsou zveřejňována na ProtonDB, aby vám, společnosti Valve a vývojářům pomohla s opravou her. Prosíme, aby vaše hlášení byla přesná, neobsahovala urážlivé výrazy a abyste nezasílali hlášení jen proto, abyste propagovali svou oblíbenou hru, distribuci nebo grafickou kartu.",
+      "Doporučujeme zasílat více hlášení pro stejnou hru! Až budete více hrát nebo aktualizovat Proton, budete mít více co říci. Tímto způsobem se ProtonDB liší od wiki, protože každá zpráva slouží jako 'snímek' toho, jak se hra hrála v daný den s vaší konfigurací.",
+      "Pokud odešlete více hlášení, do hodnocení ProtonDB se započítá pouze poslední z nich, a to pouze v případě, že informace o vašem systému splňují minimální požadavky Protonu.",
+      "Vaše příspěvky budou veřejně viditelné na ProtonDB a dostupné v exportech dat pod licencí Open Database License. Více informací naleznete [zde]({{link}})."
     ],
-    "outro": "With that, let's get started!"
+    "outro": "A teď můžeme začít!"
   },
   "windowingFaults": {
-    "legend": "Windowing",
+    "legend": "Okna",
     "options": {
       "activatingFullscreen": {
-        "long": "Fullscreen could not be initiated",
-        "short": "Activating Fullscreen"
+        "long": "Celá obrazovka nebyla spuštěna",
+        "short": "Aktivace celé obrazovky"
       },
       "fullNotFull": {
-        "long": "Fullscreen was not fully full",
-        "short": "Size"
+        "long": "Celá obrazovka nebyla úplně celá",
+        "short": "Velikost"
       },
       "other": {
-        "long": "Other",
-        "short": "Other"
+        "long": "Jiné",
+        "short": "Jiné"
       },
       "switching": {
-        "long": "Could not conventionally escape from fullscreen (such as with Alt-Tab)",
-        "short": "Switching"
+        "long": "Nepodařilo se normálním způsobem opustit celou obrazovku (například pomocí Alt-Tab)",
+        "short": "Přepínání"
       }
     },
-    "prompt": "Did you experience any problems with windowing or fullscreen?"
+    "prompt": "Zaznamenali jste nějaké problémy s okny nebo s celou obrazovkou?"
   }
 }
