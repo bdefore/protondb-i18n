@@ -1,7 +1,4 @@
 {
-  "auth": {
-    "intro": "Steam ile oturum açtığında rapor gönderebilir ve [Keşfet sayfasında Kütüphane filtresi]({{link}}) kullanarak sonuçları sahip olduğun oyunlarla sınırlayabilirsin."
-  },
   "breakdown": {
     "headline": "Popüler Oyunlar",
     "popularHeadline": "{{count}} en popüler oyunun değerlendirmeleri",
@@ -19,10 +16,157 @@
     "unrated": "Değerlendirilmemiş",
     "unreported": "Rapor Gönderilmemiş"
   },
+  "compatibilitySection": {
+    "aggregateHeadline": "Toplam",
+    "chartTypeHeadline": "Kategori",
+    "chartTypes": {
+      "fullSteamCatalog": {
+        "description": "Steam Oyunlarının Tümü",
+        "long": "Steam Kataloğu",
+        "short": "Steam Kataloğu"
+      },
+      "indie": {
+        "description": "'Bağımsız' olarak işaretlenmiş oyunlar",
+        "long": "Bağımsız",
+        "short": "Bağımsız"
+      },
+      "library": {
+        "description": "{{username}}'in oyunları",
+        "long": "Kişisel Kütüphane",
+        "short": "Kişisel Kütüphane"
+      },
+      "localMultiplayer": {
+        "description": "'Yerel Çok Oyunculu' olarak işaretlenmiş oyunlar",
+        "long": "Yerel Çok Oyunculu",
+        "short": "Yerel Çok Oyunculu"
+      },
+      "minProminence": {
+        "description": "Steam'in en düşük takipçi seviyesini karşılayan oyunlar",
+        "long": "Popüler Oyunlar",
+        "short": "Popüler Oyunlar"
+      },
+      "singlePlayer": {
+        "description": "'Tek Oyunculu' olarak işaretlenmiş oyunlar",
+        "long": "Tek Oyunculu",
+        "short": "Tek Oyunculu"
+      },
+      "topHundred": {
+        "description": "Mevcut en çok oyuncuya göre hesaplandı",
+        "long": "İlk 100",
+        "short": "İlk 100"
+      },
+      "topTen": {
+        "description": "Mevcut en çok oyuncuya göre hesaplandı",
+        "long": "İlk 10",
+        "short": "İlk 10"
+      },
+      "topThousand": {
+        "description": "Mevcut en çok oyuncuya göre hesaplandı",
+        "long": "İlk 1000",
+        "short": "İlk 1000"
+      },
+      "vr": {
+        "description": "'VR' olarak işaretlenmiş oyunlar",
+        "long": "VR",
+        "short": "VR"
+      }
+    },
+    "decline": "Geri git",
+    "gameSorts": {
+      "playerCount": {
+        "long": "Sırala: Oyuncu Sayısı",
+        "short": "Oyuncu Sayısı"
+      },
+      "rating": {
+        "long": "Sırala: Değerlendirme",
+        "short": "Değerlendirme"
+      }
+    },
+    "gamesNotFound": "Hiç oyun bulunmadı. [Steam ayarlarında]({{link}}) 'Oyun Detayları'nın herkese açık olarak ayarlandığından emin ol.",
+    "greetLoggedIn": "Ne kadar oyun oynayabildiğimi görmek ister misin?",
+    "lookupMyLibrary": "Bir Kütüphane Yükle",
+    "mostPlayedRatedUnverified": "Resmiyetsizce İyi Görünüyor",
+    "mostPlayedRatedUnverifiedExtra": "Buradaki oyunlar henüz Doğrulanmış ya da Oynanabilir şeklinde Deck Doğrulaması almamış, ama topluluk raporlarına göre Linux'ta oynamaya uygun gözüküyor. ",
+    "mostPlayedVerified": "Resmi Olarak Onaylanmış",
+    "mostPlayedVerifiedExtra": "Bunlar sahip olduğun Valve tarafından Deck Doğrulamalı olarak sertifikalandırılmış oyunların: Doğrulandı ya da Oynanabilir durumunda",
+    "ratingDefinitions": {
+      "?": "Devam Ediyor: Daha çok veriye ihtiyaç var",
+      "T1": "En yüksek seviye. Açıkça olumlu yorumlar.",
+      "T1andT2": "S2 ve daha iyisi.",
+      "T1andT2andT3": "S3 ve daha iyisi.",
+      "T2": "İkinci en yüksek seviye. Bir kaç sorunun raporu var ama genel olarak iyi.",
+      "T3": "Orta seviye. Hem pozitif hem negatif raporlar.",
+      "T4": "İkinci en düşük seviye. Genel olarak olumsuz raporlar.",
+      "T5": "En düşük seviye. Olmamış!",
+      "borked": "Ya açılmayacak ya da oynanamaz durumda.",
+      "bronze": "Açılır, ama genel olarak çöker ya da rahat bir şekilde oynamanı engelleyecek sorunlara sahiptir",
+      "gold": "Kurcalamalardan sonra mükemmel çalışır",
+      "native": "Linux için geliştirilmiş/Direkt çalışır",
+      "pending": "Değerlendirilmeden önce biraz daha rapor bekleniyor",
+      "platinum": "Olduğu gibi mükemmel çalışır",
+      "platinumandgold": "Altin ya da daha iyi",
+      "platinumandgoldandsilver": "Gümüş ya da daha iyi",
+      "playable": "Oynanabilir",
+      "silver": "Küçük sorunlarla çalışır ama genel olarak oynanabilir",
+      "unknown": "Bilinmiyor",
+      "unsupported": "Desteklenmiyor",
+      "verified": "Doğrulandı",
+      "verifiedandplayable": "Doğrulandı ya da Oynanabilir"
+    },
+    "submit": "Tabi!",
+    "tierSystemHeadline": "Değerlendirme Sistemi",
+    "tierSystems": {
+      "deckVerified": {
+        "description": "Steam Deck'te oynanabilirlik için Steam'in resmi sertifikalandırması",
+        "long": "Steam Deck Doğrulamalı",
+        "short": "Deck Doğrulamalı"
+      },
+      "protonDbClickPlay": {
+        "description": "ProtonDB'nin yeni değerlendirmesi: Kurcalama olmadan ne kadar iyi oynanabilyor.",
+        "long": "ProtonDB Tıkla Oyna",
+        "short": "Tıkla Oyna"
+      },
+      "protonDbMedals": {
+        "description": "ProtonDB'nun Değerlendirmesi: Nasıl oynanıyor. Kurcalaman gerekebilir.",
+        "long": "ProtonDB Madalyaları",
+        "short": "Madalyalar"
+      }
+    },
+    "tryYourLibrary": "Kütüphaneni dene",
+    "useLibrary": "Kullan",
+    "userNotFound": "Kullanıcı bulunamadı. [Steam ayarlarında]({{link}}) `Profilim` ve `Oyun Detayları`nın herkese açık olarak ayarlandığından emin ol.",
+    "using": "Kullanılıyor",
+    "viewSteamCatalog": "Steam kataloğunu göster",
+    "yourLibrary": "Senin Kütüphanen",
+    "yourSteamId": "Senin Steam ID'n"
+  },
+  "contributorSettings": {
+    "addAPCDevice": "Bir bilgisayar ekle",
+    "addASteamDeckDevice": "Bir Steam Deck ekle",
+    "headline": "Katkı Sağlayıcı Seçenekleri",
+    "intro": "Katkı sağlamak için bir cihaz ekle. ProtonDB artık birdan fazla cihaz konfigürasyonu saklamayı destekliyor. Cihazlar iki tipe ayrılır: PC ya da Steam Deck",
+    "intro2": "Biraz daha detay:",
+    "invalidInfo": "Cihaz detayları geçersiz. Katkı sağlamak için düzeltilmek zorunda.",
+    "notOnSteamDeck": "Birini eklemek için ProtonDB'ye bir Steam Deck'ten masaüstü modunda giriş yap.",
+    "otherDetail1": "Cihazlar (ve ayrıca tercihler) artik bütün oturumlarınızda erişilebilir.",
+    "otherDetail2": "Tek bir cihaz sunarsanız, katkınızı yazarken otomatik olarak seçilecektir.",
+    "otherDetail3": "Birden fazla sunarsanız, 'Sistem' sekmesinde ismine göre bir tanesini seçmeniz istenilecek.",
+    "otherDetail4": "Cihazlarınızda yaptığınız değişiklikler 'Kaydet'e basana kadar uygulanmayacaktır.",
+    "otherDetail5": "Sadede sistem bilgileriniz herkese açık olarak paylaşılır. Saf Steam verileriniz asla.",
+    "validInfo": "Cihaz detayları geçerli ve katkı sağlamak için kullanılabilir.",
+    "yourDevices": "Senin Cihazların"
+  },
+  "dashboard": {
+    "description1": "ProtonDB'nin yeni Tıkla Oyna değerlendirmesi hâlâ iyileştiriliyor. Dahası için, [haber gönderimize]({{link1}}) bak. Bu görsellendirmeyi on binlerce katkı gerçek kılıyor. Sen de katkı sağlayabilirsin! Raporlar ODBL lisansı ile [aylık dışa aktarımlarla]({{link2}}) erişilebilir.",
+    "description2": "Bu site daha önce Buck DeFore tarafından oluşturuldu. Valve ya da Steam'e bağlı olmayan bir topluluk projesi. Bu paneli takdir ediyorsan, [beni Patreon'da desteklemeyi]({{link}}) gözden geçir.",
+    "headline": "Linux'da kaç oyun çalışıyor? Ya da Steam Deck'te?"
+  },
   "explore": {
     "headlines": {
-      "dateAdded": "Yakınlarda Eklendi",
+      "antiCheat": "Anti-Hile Kullanır",
+      "dateAdded": "Son Zamanlarda Eklendi",
       "fixWanted": "Çözüm Aranıyor",
+      "heavilyReported": "Pek Çok Yeni Rapor",
       "highestRated": "SteamDB'de En Yüksek Değerlendirme",
       "hoursPlayed": "Oynanan Saat",
       "inLibrary": "Kütüphane",
@@ -30,29 +174,36 @@
       "mostBorked": "En Olmamış Raporlar",
       "mostPopular": "En Popüler",
       "percentPositive": "Son Zamanlarda Olumlu",
+      "popular": "En Çok Steam Takipçisi",
       "rank": "En Popüler",
       "recentlyImproved": "Son Zamanlarda İyileşen",
+      "recentlyReleased": "Son Zamanlarda Yayımlandı",
       "releaseDate": "Çıkış Tarihi",
+      "userScore": "Güzel Değerlendirmeli",
       "wellRatedHere": "Burada Olumlu Değerlendirilmiş"
     },
     "layout": "Sayfa Düzeni",
     "loadError": "Oyunları yüklerken bir hata meydana geldi!",
     "notLoggedIn": "Steam ID olmadan kütüphane yüklenemez. [Profil]({{link}})ine gidip Steam ID'ni ekle.",
-    "poweredBy": "Kaynaklar",
     "sorts": {
       "dateAdded": "Yakınlarda Eklendi",
       "fixWanted": "Çözüm Aranıyor",
+      "heavilyReported": "Son Zamanlarda Ağırca Raporlanan",
       "hoursPlayed": "Oynanan Saat",
       "mostBorked": "En Olmamış",
-      "percentPositive": "Kullanıcı Puanı",
+      "percentPositive": "Pozitif Yüzdesi",
       "playerCount": "Oyuncu Sayısı",
+      "popular": "Popüler",
       "rank": "En Popüler",
       "recentlyImproved": "Son Zamanlarda İyileşen",
+      "recentlyReleased": "Son Zamanlarda Yayımlanan",
       "releaseDate": "Çıkış Tarihi",
       "userScore": "Kullanıcı Puanı",
       "wilsonRating": "ProtonDB Değerlendirmesi"
     },
+    "tagData": "Veriyi etikerle",
     "toggles": {
+      "antiCheat": "Anti-Hile",
       "deckVerified": "Deck İçin Doğrulanmış",
       "includeNative": "Yereller Dahil",
       "lackReports": "Rapor İhtiyacı Var",
@@ -89,9 +240,25 @@
     "githubIssueSearch": "Github Sorun Araması",
     "infoNotFound": "{{entry}} App ID hakkında bilgiye ulaşamadık. Oyun mağazadan kaldırılmış olabilir.",
     "minimumRequirements": "Minimum Koşullar",
-    "nativelySupports": "Yerel Destek"
+    "nativelySupports": "Yerel Destek",
+    "notices": {
+      "antiCheat": {
+        "battlEye": {
+          "explanation": "Bu oyun [BattlEye](https://www.battleye.com) kullanmasıyla biliniyor. BattlEye [Linux'ta kullanılabilir](https://twitter.com/TheBattlEye/status/1441477816311291906), ama çok oyunculunun nasıl çalıştığı tamamen geliştiricinin nasıl kullandığına bağlı."
+        },
+        "eac": {
+          "explanation": "Bu oyun [Easy Anti-Cheat](https://www.easy.ac) kullanmasıyla biliniyor. EAC [Linux için sınırlı desteğe](https://dev.epicgames.com/en-US/news/epic-online-services-launches-anti-cheat-support-for-linux-mac-and-steam-deck) sahip, ama çok oyunculunun nasıl çalıştığı tamamen geliştiricinin nasıl kullandığına bağlı."
+        },
+        "headline": "Çok Oyunculu Desteği"
+      },
+      "nativeDiscrepancy": {
+        "explanation": "Bu oyun Linux direkt çalışma desteğine sahip olsa da, Steam Linux desteği var olarak listelemiyor. Bu, bir oyunun resmi olmayan, yarım kalan ya da desteklenmeyen bir sürümü olmasından kaynaklanabilir. Düzgün oynamak için Steam'i [Proton kullanmaya zorlaman](/help/troubleshooting-faq#how-do-i-run-a-game-with-proton-even-though-it-has-a-native-linux-version) gerekebilir.",
+        "headline": "Direkt Destek"
+      }
+    }
   },
   "home": {
+    "compatibilityScoresDescription": "Bu nasıl çalışır? [Haber gönderisinden]({{link1}}) oku. Ayrıca, [yeni panel sayfasında]({{link2}}) daha güncel bir sürümunu kullanabilirsin.",
     "getStartedLinks": [
       "[Steam'in Resmi Steam Play Sayfası](https://store.steampowered.com/steamplay)",
       "[Linux'e geçiş rehberi](https://www.reddit.com/r/linux_gaming/comments/9oqq3w/guide_migrating_to_linux_in_2019/)",
@@ -109,12 +276,14 @@
       "atLeastOneRecommends": "1 ve üstü öneri alan oyun",
       "atLeastThreeRecommend": "3 ve üstü öneri alan oyun",
       "atLeastTwoRecommend": "2 ve üstü öneri alan oyun",
-      "deckVerified": "deck için doğrulanmış",
-      "deckVerifiedPlayable": "deck için doğrulanmış (oynanabilir+)",
+      "deckVerified": "doğrulanmış",
+      "deckVerifiedHeader": "Deck Doğrulanmış Oyunlar",
+      "deckVerifiedPlayable": "doğrulanmış ya da oynanabilir",
       "gamesReported": "oyun hakkında rapor gönderildi",
       "gamesWithReports": "hakkında rapor yazılan oyun sayısı",
       "gamesWork": "oyun çalışıyor",
       "gamesWorkExplanation": "Hakkında en azından 1 adet Thumbs Up ya da Platin (eski) raporu bulunuyor",
+      "protonDbGamesHeader": "ProtonDB'deki Oyunlar",
       "reportsWritten": "toplam rapor sayısı"
     },
     "theImpact": {
@@ -143,6 +312,11 @@
     "silver": "Gümüş"
   },
   "ratingDefinitions": {
+    "categories": {
+      "clickPlay": "Tıkla Oyna: Kurcalama olmadan",
+      "deck": "Steam Deck'te nasıl çalıştığı",
+      "tinker": "Kurcalam: Bir kaç oynama gerekir"
+    },
     "explanations": {
       "borked": "Açılmıyor ya da oynanamaz halde",
       "bronze": "Çalışsa da sık sık çöküyor ya da konforlu oyun deneyimini engelleyen sorunları var",
@@ -152,7 +326,17 @@
       "platinum": "Mevcut haliyle kusursuz çalışıyor",
       "silver": "Küçük sorunları olsa da genel itibarıyla oynanabilir"
     },
-    "headline": "Değerlendirme Açıklamaları"
+    "headline": "Değerlendirme Açıklamaları",
+    "ratings": {
+      "?": "Devam Ediyor: Daha çok veri gerekiyor",
+      "A": "A Seviye: Gayet Güzel",
+      "B": "B Seviye: Çok iyi ama geliştirilebilir",
+      "C": "C Seviye: Geliştirilmesi gerekiyor",
+      "D": "D Seviye: Sorunlarla dolu",
+      "F": "F Seviye: Olmamış!",
+      "S": "S Seviye: Bir kusur bile yok"
+    },
+    "reports": "Raporları görmek için tıkla"
   },
   "specs": {
     "cpu": "CPU",
@@ -177,7 +361,8 @@
     "whenMeetingMinimumRequirements": "Minimum Koşulları Karşılarken"
   },
   "steamAuthor": {
-    "hoursInSteam": "Steam'de {{count}} saat",
+    "hoursOnLinux": "Linux'da {{time}}",
+    "hoursOverall": "Toplam {{time}}",
     "timeWithProton": "Proton ile {{time}}"
   },
   "suggestions": {
@@ -187,6 +372,7 @@
   "systemInfo": {
     "headline": "Sistem Bilgisi",
     "howTo": "Oyun oynadığın makinede Steam ayarlarına erişimin varsa bu bilgiyi kolaylıkla edinebilirsin. [Nasıl yapacağını buradan öğrenebilirsin]({{link}}). (Bazı kullanıcılar her şeyi seçebilmek için sağ tıklamadan önce Ctrl-A'ya basmaları gerektiğini bildirdi.)",
+    "howToSteamDeck": "Steam Deck: Bu cihazı eklemek şu anda sadece Steam Deck'in masaüstü modu ile mümkün. Artık cihazlar oturumlar arası kullanılabildiğinden, bunu sadece bir kez yapman gerekiyor ve sonrasında başka bir cihazdan rapor yazabilirsin.",
     "intro": "Oyunun denendiği donanım ve yazılımın paylaşıldığı raporlar hem daha faydalıdır hem de daha fazla itibar görür. Bu unsurların mümkün olduğunca doğru ve tutarlı olması için Steam'in bildirdiği sistem bilgilerinden faydalanıyoruz.",
     "parseFailure": "Girdi işlenemedi. Doğru kopyaladığından eminsen Discord'da bize bildir",
     "parseSuccess": "Sistem Bilgisi İşlendi!",
