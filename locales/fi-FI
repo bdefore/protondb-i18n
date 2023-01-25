@@ -1,1 +1,208 @@
-
+{
+  "attribution": {
+    "steamDb": "{{subject}} provided by [{{name}}]({{link}}) via [{{partnerName}}]({{partnerLink}})."
+  },
+  "auth": {
+    "forgetMe": "Unohda minut",
+    "genericSignIn": "Kirjaudu sisään",
+    "headline": "Steam-tili",
+    "identifierExample": "Esimerkkejä:\n - [{{profileExample}}](#)\n - {{steamIdExample}}",
+    "identifierOptions": "Steam-tunnus (ID) tai profiilin URL-osoite",
+    "logInToContribute": "Vahvista Steam-tilisi osallistuaksesi sisällöntuottamiseen",
+    "loggedInAs": "Kirjautuneena sisään nimellä {{username}}",
+    "notLoggedIn": "Et ole kirjautuneena sisään",
+    "note": "Omissa [Steam-yksityisyysasetuksissasi]({{link}}) kohde 'Profiilini' täytyy olla asetettu julkiseksi. 'Pelitiedot' -kohtaa ei vaadita julkiseksi, mutta mikäli se kuitenkin on, omistus- ja peliaikatiedot lähetetään selontekojesi mukana.",
+    "profileUrl": "Profiilin URL-osoite",
+    "signOut": "Kirjaudu ulos",
+    "steamId": "Steam-tunnus",
+    "steamIdIntro": "Vaihtoehtoisesti Steam-kirjautumisen ohessa, voit toimittaa [tunnisteen]({{steamIdLink}}) tilille jotta voit [tutkiskella sen kirjastoa tai toivelistaa]({{link}}).",
+    "steamLoginIntro": "ProtonDB käyttää Steam-tunnistautumista varmistaakseen osanottajien henkilöllisyyden. Sisäänkirjaus tällä tavalla käy sinusta läpi jonkin verran julkista tietoa mutta mitään oikeuksia EI suoda sinun Steam-tiliisi.",
+    "steamSignIn": "Kirjaudu sisään Steam:in kautta",
+    "topBarLink": "Steam-pelisi",
+    "unlink": "Poislinkitä tili",
+    "unverified": "Varmistamatta",
+    "vanityName": "Julkinen nimi",
+    "verifiedAs": "Varmistettu nimellä {{username}}"
+  },
+  "content": {
+    "followingPost": "Seuraava viesti",
+    "previousPost": "Edellinen viesti"
+  },
+  "contextualInfo": {
+    "dateAdded": "Lisätty {{context}}",
+    "fixWanted": "",
+    "followers": "{{context}} Steam-seuraajat",
+    "heavilyReported": "{{context}} viimeaikaiset raportit",
+    "hoursPlayed": "{{context}} pelatut tunnit",
+    "mostBorked": "",
+    "peakPlayers": "{{context}} pelaajahuippu",
+    "percentPositive": "{{context}}% myönteinen luokitus",
+    "playerCount": "{{context}} pelaajamäärän huippu",
+    "popular": "{{context}} seuraajat",
+    "positiveRating": "{{context}}% myönteinen luokitus",
+    "protonDbRating": "",
+    "rank": "Sijoitus {{context}} Steamissa",
+    "recentlyImproved": "{{context}} raportit joissa on käytetty Protonin kahta viimeisintä versiota",
+    "recentlyReleased": "Raporttien ensimmäinen {{context}} erä",
+    "releaseDate": "Julkaistu {{context}}",
+    "userScore": "{{context}}% myönteinen luokitus",
+    "wilsonRating": ""
+  },
+  "footer": {
+    "data": "Tämä sivusto käyttää tietoja kohteesta {{name}} kuten myös dataa",
+    "description": "{{name}} on kehittäjän [@bdefore]({{link}}) intohimohanke sekä raportintekijöiden omistautunut yhteisö.",
+    "feedbackPrompt": "Olisiko sinulla palautetta annettavana? Tule ja keskustele kanssamme!",
+    "legal": "Tällä sivustolla ei ole mitään kytköksiä Valve Software:n kanssa. Kaikki pelikuvat ja logot ovat niihin liittyvien omistajien omaisuutta."
+  },
+  "games": {
+    "zeroStateMessage": "Pelejä ei löytynyt"
+  },
+  "libraryLoader": {
+    "errorLoadingGames": "Pelejä ladattaessa ilmeni virhe. Varmistathan että molemmat sekä profiilisi että pelitiedot ovat asetettuna julkiseksi tälle tilille!",
+    "gameTotal": "{{username}}: {{count}} peliä",
+    "headline": "Kirjasto",
+    "note": "Sinun ei tarvitse olla sisäänkirjautuneena Steamiin ladataksesi kirjastosi, mutta jos olet, kirjastosi löytyy automaattisesti. Steamin yksityisyysasetuksesi kohteissa 'Profiilini' ja 'Pelitiedot' tulee olla asetettuna julkisiksi.",
+    "refresh": "Virkistä"
+  },
+  "misc": {
+    "addYourReport": "Lisää raporttisi",
+    "affirmative": "Kyllä",
+    "any": "Mikä vain",
+    "areYouSure": "Oletko varma?",
+    "cancel": "Keskeytä",
+    "chipset": "Piirisarja",
+    "clear": "Tyhjennä",
+    "conjunction": "ja",
+    "delete": "Poista",
+    "device": "Laite",
+    "devices": "Laitteet",
+    "discard": "Hylkää",
+    "dismiss": "Evää",
+    "distro": "Jakelu",
+    "driver": "Ajuri",
+    "execute": "Aja",
+    "feedbackPrompt": "Palautetta? Toimita sitä meille [Discordissa]({{link}})",
+    "filter": "Suodatin",
+    "filteringSettings": "Suodatusasetukset",
+    "forget": "Unohda",
+    "games": "Pelit",
+    "hide": "Piilota {{what}}",
+    "hour": "tunti",
+    "hours": "tuntia",
+    "include": "Sisällytä",
+    "install": "Asenna",
+    "joinUsPrompt": "Liity seuraamme Discordissa!",
+    "lastContentRefreshTime": "Viimeisin sisällönvirkistys tapahtui ajassa {{time}}",
+    "meetsRequirements": "Täsmää vaatimusten kanssa",
+    "moreInfo": "Lisää tietoa",
+    "multiplayer": "Moninpeli",
+    "native": "Kotoperäinen",
+    "negative": "Ei",
+    "notFound": "Ei löytynyt",
+    "notRecommended": "Ei suositeltava",
+    "note": "Muistiinpano",
+    "overall": "Yleisestiottaen",
+    "pending": "Odottaa",
+    "preferences": "Asetukset",
+    "provisional": "Väliaikainen",
+    "published": "Julkaistu",
+    "rated": "Luokitettu",
+    "recommended": "Suositeltava",
+    "report": "Raportti",
+    "reports": "Raportit",
+    "reset": "Nollaa",
+    "revert": "palauta",
+    "save": "Tallenna",
+    "saved": "{{what}} tallennettu",
+    "show": "Näytä {{what}}",
+    "showAll": "Näytä kaikki",
+    "showMore": "Näytä lisää",
+    "skip": "Ohita",
+    "sortBy": "Järjestä täten",
+    "switchTo": "Vaihda {{thing}}",
+    "tier": "Taso",
+    "tinker": "säätöä",
+    "total": "Yhteensä",
+    "tryAgain": "Yritä uudelleen",
+    "unknown": "Tuntematon",
+    "unknownError": "Tuntematon virhe",
+    "updated": "{{what}} päivitetty",
+    "version": "Versio"
+  },
+  "nav": {
+    "contribute": "Osallistu",
+    "dashboard": "Kojelauta",
+    "explore": "Tutkaile",
+    "help": "Apua",
+    "news": "Uutiset",
+    "profile": "Profiili",
+    "search": "Etsi pelejä...",
+    "stats": "Tilastot"
+  },
+  "pagination": {
+    "next": "Seuraava sivu",
+    "nextShort": "Seuraava",
+    "previous": "Edellinen sivu",
+    "previousShort": "Edellinen",
+    "summary": "Tulokset määreestä {{from}} määreeseen {{to}} määrästä {{total}}"
+  },
+  "preferences": {
+    "headline": "Asetukset",
+    "intro": "ProtonDB näyttää lähettäjän Steam-lempinimen raporttien ohessa. Ainutlaatuista Steam-tunnustasi (ID) ei lähetetä julkistettavan datan tiedoissa. Mikäli olet huolestunu siitä, että lempinimeäsi voitaisiin käyttää haitallisesti Steam-profiilisi suhteen, voit valita eri lempinimen tässä ja sitä tullaan käyttämään seuraavan sisällönvirkistyksen jälkeen.",
+    "note": "Asetuksesi yhdentyvät missä tahansa sitten sisäänkirjaudutkin Steamilla.",
+    "questions": {
+      "customName": {
+        "additionalNotes": {
+          "label": "Räätälöity nimi"
+        },
+        "options": {
+          "custom": "Räätälöity lempinimi",
+          "keepSteam": "Steam-lempinimeni({{steamNickname}})"
+        },
+        "prompt": "Julkinen nimesi"
+      },
+      "language": {
+        "prompt": "Kieli"
+      },
+      "performanceMode": {
+        "prompt": "Haluaisitko että tämän sivun suorituskyvylle ystävällistä versiota käytettäisiin?"
+      }
+    }
+  },
+  "profile": {
+    "exploreLibrary": "Nyt kun olet saanut kirjastosi ladattua, voit tutkailla sitä seuraavin näkymin:",
+    "inYourLibrary": "Kirjastossasi",
+    "libraryTags": {
+      "byHoursPlayed": "Pelaamiesi tuntien mukaan",
+      "byPlayerCount": "Pelaajamäärän mukaan",
+      "byProtonDbRating": "ProtonDB-luokituksen mukaan",
+      "bySteamDbScore": "SteamDB-käyttäjäpisteytyksen mukaan",
+      "headline": "Seuraavat tunnisteet ovat yleisiä läpi pelikirjastosi. Sukellapa sekaan näillä:",
+      "lackReportsByHoursPlayed": "Uupuu raporteilta pelituntien mukaan",
+      "lackReportsByPlayerCount": "Uupuu raporteilta pelaajamäärän mukaan",
+      "lackReportsBySteamDbScore": "Uupuu raporteilta SteamDB-käyttäjäpisteytyksissä"
+    },
+    "notInYourLibrary": "Ei kirjastossasi",
+    "yourContributions": "Omat panostuksesi"
+  },
+  "reports": {
+    "displayExcluded": "Näytä poisrajatut raportit",
+    "filteredOutCount": "{{count}} suodatettu pois",
+    "filteredOutHeadline": "{{count}} raportit eivät täsmää suodatuskriteeriesi kanssa {{filters}}",
+    "superceded": "On olemassa uudempi tämänkaltainen raportti samalta tekijältä",
+    "tinkerMethods": {
+      "customProton": "Räätälöity Proton",
+      "experimental": "Vaihda kokeelliseen (experimental)",
+      "launchOptions": "Määritä käynnistysasetukset",
+      "launcher": "Käynnistin",
+      "older": "Vaihda vanhempaan versioon",
+      "other": "Muu"
+    },
+    "zeroStateMessage": "Ei raportteja",
+    "zeroStateMessageWithFilters": "Yksikään raportti ei täsmää asettamiesi suodattimien kautta"
+  },
+  "search": {
+    "headline": "Search for {{q}}",
+    "results": "Tulokset"
+  }
+}
