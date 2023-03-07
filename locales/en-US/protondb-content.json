@@ -73,6 +73,10 @@
     },
     "decline": "Go back",
     "gameSorts": {
+      "hoursPlayed": {
+        "long": "Sort By: Hours Played",
+        "short": "Hours Played"
+      },
       "playerCount": {
         "long": "Sort By: Player Count",
         "short": "Player Count"
@@ -82,6 +86,7 @@
         "short": "Rating"
       }
     },
+    "gamesLimit": "Game chart is limited to {{cap}} most popular games",
     "gamesNotFound": "No games found. Ensure 'Game Details' is set to public in your [Steam settings]({{link}}).",
     "greetLoggedIn": "Want to see how many games I can play?",
     "lookupMyLibrary": "Load A Library",
@@ -89,6 +94,8 @@
     "mostPlayedRatedUnverifiedExtra": "The following games are not yet officially Deck Verified as Verified nor Playable status, but according to community reports are looking good for play on Linux.",
     "mostPlayedVerified": "Officially Verified",
     "mostPlayedVerifiedExtra": "These are games you own that Valve has certified as Deck Verified: Verified or Playable status",
+    "owned": "Owned game",
+    "playedFor": "Played for {{hours}} hour(s)",
     "ratingDefinitions": {
       "?": "Pending: Needs more data",
       "T1": "The highest tier. Ubiquitously positive reports.",
@@ -130,6 +137,11 @@
         "description": "ProtonDB's appraisal: How does it play. You may need to tinker.",
         "long": "ProtonDB Medals",
         "short": "Medals"
+      },
+      "protonDbTinker": {
+        "description": "ProtonDB's new appraisal: How does it play. You may need to tinker.",
+        "long": "ProtonDB Tinker",
+        "short": "Tinker"
       }
     },
     "tryYourLibrary": "Try your library",
@@ -174,6 +186,7 @@
       "mostBorked": "Most Borked Reports",
       "mostPopular": "Most Popular",
       "percentPositive": "Well Reviewed on Store",
+      "playerCount": "Most Active Players",
       "popular": "Most Steam Followers",
       "rank": "Most Popular",
       "recentlyImproved": "Recently Improved",
