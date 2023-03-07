@@ -1,9 +1,9 @@
 {
   "appSelection": {
     "caution": "Cuidado!",
-    "helperText": "Você também pode colar links ou um ID de aplicativo e tentaremos encontrá-lo",
-    "noPlaytime": "Sua conta Steam não mostra nenhum tempo de jogo registrado para este jogo. Isso pode acontecer se suas [configurações de privacidade do Steam]({{link}}) não tornarem os detalhes do jogo públicos ou se você optar por não compartilhar o tempo de jogo por meio da opção 'Sempre manter meu total de tempo de jogo privado, mesmo que os usuários possam ver meus detalhes de jogo. Seu relatório ainda mostrará você como proprietário. Se isso for um erro, por favor nos avise.",
-    "notFound": "Não foi possível encontrar o jogo com o App ID {{query}}. Isso pode acontecer se estiver impreciso ou se: tiver sido removido da loja Steam, não estiver listado como um 'jogo' ou não estiver disponível em seu país.",
+    "helperText": "Você também pode colar links ou um App ID e tentaremos encontrá-lo",
+    "noPlaytime": "Sua conta Steam não mostra nenhum tempo de jogo registrado para este jogo. Isso pode acontecer se suas [configurações de privacidade do Steam]({{link}}) não tornarem os detalhes do jogo públicos ou se você optou por não compartilhar o tempo de jogo por meio da opção 'Sempre manter meu total de tempo de jogo privado, mesmo que os usuários possam ver meus detalhes de jogo'. Seu relatório ainda mostrará você como proprietário. Se isso for um erro, por favor nos avise.",
+    "notFound": "Não foi possível encontrar o jogo com o App ID {{query}}. Isso pode acontecer se estiver incorreto ou se: tiver sido removido da loja Steam, não estiver listado como um 'jogo', ou não estiver disponível em seu país.",
     "notOwner": "Sua conta Steam não lista este jogo como de sua propriedade e não será exibido em seu relatório. Isso pode acontecer se suas [configurações de privacidade do Steam]({{link}}) não tornarem públicos os detalhes do jogo. Se isso for um erro, por favor nos avise.",
     "placeholder": "Digite o nome de um jogo na sua biblioteca Steam...",
     "playedNatively": "Você executou o jogo nativamente sem usar o Proton?",
@@ -26,7 +26,7 @@
         "short": "Baixa qualidade"
       },
       "missing": {
-        "long": "Alguns áudios está faltando",
+        "long": "Alguns áudios estão faltando",
         "short": "Faltando"
       },
       "other": {
@@ -43,13 +43,88 @@
   "authoringLanguage": {
     "prompt": "Em que idioma você escreverá este relatório?"
   },
+  "batteryPerformance": {
+    "legend": "Performance da Bateria",
+    "prompt": "Você fez alguma alteração para melhorar a performance da bateria?"
+  },
   "borked": {
-    "headline": "Isso é uma chato!",
-    "intro": "Agora você continuará enviando um relatório quebrado, mas antes de fazer isso, você pode visitar nossa página de [Perguntas frequentes sobre solução de problemas de jogos]({{link}})."
+    "headline": "Que chato!",
+    "intro": "Agora você irá enviar um relatório de jogo quebrado, mas antes de fazer isso, você pode visitar nossa página de [Perguntas Frequentes sobre soluções de problemas de jogos]({{link}})."
   },
   "concludingNotes": {
     "label": "Notas Finais",
-    "prompt": "Adicione aqui qualquer coisa extra com a qual você gostaria de concluir no final do seu relatório."
+    "prompt": "Adicione aqui qualquer coisa extra sobre a qual você gostaria de concluir no final do seu relatório."
+  },
+  "controlLayout": {
+    "additionalNotes": {
+      "label": "Qual versão da comunidade?"
+    },
+    "legend": "Layout do Controle",
+    "options": {
+      "community": {
+        "long": "Um layout da comunidade",
+        "short": "Layout da comunidade"
+      },
+      "gamepad": {
+        "long": "Controle",
+        "short": "Controle"
+      },
+      "gamepadWithGyro": {
+        "long": "Controle com Giroscópio",
+        "short": "Controle com Giroscópio"
+      },
+      "gamepadWithJoystick": {
+        "long": "Controle com Trackpad de Analógico",
+        "short": "Controle com Trackpad de Analógico"
+      },
+      "gamepadWithMouseTrackpad": {
+        "long": "Controle com Trackpad de Mouse",
+        "short": "Controle com Trackpad de Mouse"
+      },
+      "keyboardAndMouse": {
+        "long": "Teclado (WASD) e Mouse",
+        "short": "Teclado e Mouse"
+      },
+      "mouseOnly": {
+        "long": "Apenas Mouse",
+        "short": "Apenas Mouse"
+      },
+      "official": {
+        "long": "O layout oficial",
+        "short": "oficial"
+      },
+      "touchscreenMouseEmulation": {
+        "long": "Emulação de Mouse Touchscreen",
+        "short": "Emulação de Mouse Touchscreen"
+      }
+    },
+    "prompt": "Com qual layout de controle você jogou?"
+  },
+  "controlLayoutCustomization": {
+    "additionalNotes": {
+      "label": "Customizações",
+      "prompt": "Descreva suas alterações"
+    },
+    "legend": "Customização do Layout de Controle",
+    "options": {
+      "enableGripButtons": {
+        "long": "Habilitados os Botões Traseiros",
+        "short": "Botões Traseiros"
+      },
+      "gyro": {
+        "long": "Ativado o Giroscópio",
+        "short": "Giroscópio"
+      },
+      "other": {
+        "long": "Outro",
+        "short": "Outro"
+      },
+      "rightTrackpad": {
+        "long": "Alterado o Comportamento do Trackpad Direito",
+        "short": "Trackpad Direito"
+      }
+    },
+    "prompt": "Você fez mais customizações nos controles?"
   },
   "customProtonVersion": {
     "label": "Versão"
@@ -57,16 +132,16 @@
   "customizationsUsed": {
     "additionalNotes": {
       "label": "Detalhes Adicionais",
-      "placeholder": "Explicação ou link para postagem de blog ou repositório do Github"
+      "placeholder": "Explicação ou link para uma postagem de blog ou repositório do Github"
     },
-    "legend": "Personalizações",
+    "legend": "Customizações",
     "options": {
       "configChange": {
         "long": "Alterado o(s) arquivo(s) de configuração do jogo",
         "short": "Configuração alterada"
       },
       "customPrefix": {
-        "long": "Um prefixo do Wine personalizado",
+        "long": "Um prefixo do Wine customizado",
         "short": "Prefixo Customizado"
       },
       "customProton": {
@@ -100,6 +175,13 @@
     },
     "prompt": "Você está usando algum desses métodos comuns de ajustes?"
   },
+  "device": {
+    "legend": "Dispositivo",
+    "prompt": "Em qual destes dispositivos você está jogando?"
+  },
+  "didChangeControlLayout": {
+    "prompt": "Você alterou o layout padrão de controle?"
+  },
   "duration": {
     "legend": "Duração",
     "options": {
@@ -130,7 +212,7 @@
     "legend": "Gráficos",
     "options": {
       "heavyArtifacts": {
-        "long": "Artefatos pesados ​​ou comuns",
+        "long": "Artefatos pesados ou comuns",
         "short": "Artefatos pesados"
       },
       "minorArtifacts": {
@@ -146,7 +228,7 @@
         "short": "Outro"
       }
     },
-    "prompt": "Você notou alguma degradação gráfica?"
+    "prompt": "Você percebeu alguma degradação gráfica?"
   },
   "graphicsApiSelection": {
     "legend": "API Gráfica",
@@ -178,7 +260,7 @@
         "short": "Limites"
       },
       "controllerMapping": {
-        "long": "o(s) controle(s) não foi/foram mapeado(s) corretamente",
+        "long": "O(s) controle(s) não foi/foram mapeado(s) corretamente",
         "short": "Mapeamento do controle"
       },
       "controllerNotDetected": {
@@ -206,10 +288,10 @@
         "short": "Outro"
       }
     },
-    "prompt": "Você teve algum problema com seu mouse, gamepad ou outros dispositivos de entrada?"
+    "prompt": "Você teve algum problema com seu mouse, controle ou outros dispositivos de entrada?"
   },
   "installs": {
-    "legend": "Instação",
+    "legend": "Instala",
     "prompt": "Você conseguiu instalar o jogo?"
   },
   "isImpactedByAntiCheat": {
@@ -235,7 +317,7 @@
       "label": "Detalhes Adicionais",
       "placeholder": "No que isso ajudou?"
     },
-    "legend": "Flags de Inicialização",
+    "legend": "Opções de Inicialização",
     "options": {
       "disableD3d10": {
         "long": "Desabilitar D3D10 (PROTON_NO_D3D10)",
@@ -270,8 +352,8 @@
         "short": "Heap Delay Free"
       },
       "hideNvidia": {
-        "long": "Esconder Nvidia GPU (PROTON_HIDE_NVIDIA_GPU)",
-        "short": "Esconder Nvidia GPU"
+        "long": "Esconder GPU Nvidia (PROTON_HIDE_NVIDIA_GPU)",
+        "short": "Esconder GPU Nvidia"
       },
       "largeAddressAware": {
         "long": "Large Address Aware (PROTON_FORCE_LARGE_ADDRESS_AWARE)",
@@ -279,11 +361,11 @@
       },
       "noWriteWatch": {
         "long": "Desabilitar suporte para memory write watches (PROTON_NO_WRITE_WATCH)",
-        "short": "No Write Watch"
+        "short": "Sem Write Watch"
       },
       "noXim": {
-        "long": "No XIM (PROTON_NO_XIM)",
-        "short": "No XIM"
+        "long": "Sem XIM (PROTON_NO_XIM)",
+        "short": "Sem XIM"
       },
       "oldGlString": {
         "long": "String GL antiga (PROTON_OLD_GL_STRING)",
@@ -302,7 +384,7 @@
         "short": "Usar D9VK"
       }
     },
-    "prompt": "Você usa algum dessas flags de inicialização do Proton?"
+    "prompt": "Você usa alguma dessas opções de inicialização do Proton?"
   },
   "launchOptions": {
     "helperText": "i.e. PROTON_NO_D3D11=1 %command%",
@@ -347,7 +429,7 @@
   "multiplayerAppraisal": {
     "options": {
       "acceptable": {
-        "long": "Aceitável. Problemas moderados, mas podem ser consertados",
+        "long": "Aceitável. Problemas moderados, mas podem ser ignorados",
         "short": "Aceitável"
       },
       "awful": {
@@ -355,7 +437,7 @@
         "short": "Horrível"
       },
       "excellent": {
-        "long": "Excelente. Não experienciou nenhum problema.",
+        "long": "Excelente. Não encontrou nenhum problema.",
         "short": "Excelente"
       },
       "good": {
@@ -372,13 +454,13 @@
     "additionalNotes": {
       "label": "Detalhes Adicionais"
     },
-    "prompt": "Como você classificaria a funcionalidade multijogador online? Por favor, avalie para problemas de atraso, conectividade ou entrada, falhas de matchmaking, etc."
+    "prompt": "Como você classificaria a funcionalidade de multijogador online? Avalie se há problemas de atraso, conectividade ou entrada, falhas de criação de partidas, etc."
   },
   "onlineMultiplayerAttempted": {
-    "prompt": "Você tentou jogar multijogador online?"
+    "prompt": "Você tentou jogar no multijogador online?"
   },
   "onlineMultiplayerPlayed": {
-    "prompt": "Você conseguiu se conectar e jogar multijogador online?"
+    "prompt": "Você conseguiu se conectar e jogar no multijogador online?"
   },
   "opens": {
     "legend": "Abre",
@@ -396,24 +478,24 @@
         "short": "Pequenos Problemas de Desempenho"
       }
     },
-    "prompt": "Você experimentou lentidão inesperada devido ao seu hardware?"
+    "prompt": "Você experienciou lentidão inesperada dado o seu hardware?"
   },
   "prerequisites": {
-    "invalidOrMissingSystemInfo": "As informações do sistema estão ausentes ou são inválidas",
     "missingProfileInfo": "Informações de perfil incompletas. Ausência de: {{context}}",
-    "notLoggedIn": "Não logado com {{context}}"
+    "noValidDevices": "Nenhum dos seus dispositivos contém informação de sistema válida",
+    "notLoggedIn": "Não conectado com {{context}}"
   },
   "prerequisitesBlock": {
     "action": "Ir para o perfil",
-    "context": "Você precisará fazer login no Steam e fornecer informações do sistema antes de enviar!",
+    "context": "Você precisará iniciar sua sessão no Steam e fornecer informações do sistema antes de enviar!",
     "headline": "Ainda Não Está Pronto!"
   },
   "preview": {
     "intro": "Coisas para verificar:",
     "notes": [
       "As informações do seu sistema estão atualizadas? Você precisará acessar seu perfil e fornecer suas informações do Steam após uma atualização do driver gráfico.",
-      "Você selecionou o jogo correto? Alguns jogos têm o mesmo nome de versões mais antigas, ou seja, GRID",
-      "Você adicionou descrições no lugar certo? Por exemplo, escreva notas sobre problemas gráficos nessa seção em vez de notas finais."
+      "Você selecionou o jogo correto? Alguns jogos têm o mesmo nome de versões mais antigas, por exemplo, GRID",
+      "Você adicionou descrições no lugar certo? Por exemplo, escreva notas sobre problemas gráficos naquela seção em vez das notas finais."
     ]
   },
   "prompts": {
@@ -427,6 +509,10 @@
       "placeholder": "Deve ser uma string de versão Proton válida. Exemplos: {{examples}}"
     },
     "prompt": "Qual versão você está usando?"
+  },
+  "readability": {
+    "legend": "Texto Difícil de Ler",
+    "prompt": "Tinha algum texto no jogo que era difícil de ler?"
   },
   "saveGameFaults": {
     "legend": "Jogos Salvos",
@@ -446,16 +532,20 @@
     },
     "prompt": "Você teve algum problema com jogos salvos?"
   },
+  "secondaryLauncher": {
+    "legend": "Problema com Inicializador Secundário",
+    "prompt": "Você teve algum problema devido a uma janela de inicialização secundária?"
+  },
   "significantBugs": {
     "legend": "Erros Significativos",
-    "prompt": "Você experienciou algum outro bug significativo?"
+    "prompt": "Você encontrou algum outro erro significativo?"
   },
   "stabilityFaults": {
     "legend": "Instabilidade",
     "options": {
       "frequentCrashes": {
         "long": "Falhas frequentes",
-        "short": "Freqüentemente"
+        "short": "Frequentemente"
       },
       "notListed": {
         "long": "Não listado",
@@ -473,7 +563,7 @@
     "prompt": "Você conseguiu iniciar e jogar?"
   },
   "stepHeadlines": {
-    "appSelection": "Seleção de Jogos",
+    "appSelection": "Seleção de Jogo",
     "borked": "Quebrado!",
     "customizations": "Customizações",
     "finalNotes": "Veredito",
@@ -481,12 +571,13 @@
     "preview": "Prévia",
     "setup": "Configuração",
     "startup": "Instalar e Iniciar",
+    "steamDeckRelated": "Relacionado ao Steam Deck",
     "technical": "Detalhes Técnicos",
     "unownedWarning": "Não Está na Biblioteca"
   },
   "tinkerOverride": {
     "additionalNotes": {
-      "label": "Descrição do Conserto"
+      "label": "Descrição do Ajuste"
     },
     "options": {
       "no": {
@@ -495,13 +586,13 @@
       },
       "yes": {
         "long": "Sim",
-        "short": "Relatório de Conserto"
+        "short": "Relatório de Ajuste"
       }
     },
-    "prompt": "Parece um relatório não-tinker (conserto) até agora. Você fez alguma personalização que justifique que este seja um relatório de Tinker? [Mais informações]({{link}})"
+    "prompt": "Parece um relatório sem ajustes até agora. Você fez alguma personalização que justifique que este seja um relatório de Ajuste? [Mais informações]({{link}})"
   },
   "triedOob": {
-    "prompt": "Seu relatório será classificado como um relatório de Tinker. Você já tentou jogar com Steam e Proton sem consertar algo?"
+    "prompt": "Seu relatório será classificado como um relatório de ajuste. Você já tentou jogar com o Steam e Proton sem nenhum ajuste?"
   },
   "variant": {
     "additionalNotes": {
@@ -510,7 +601,7 @@
     "legend": "Variante",
     "options": {
       "experimental": {
-        "long": "Experimental Forçado",
+        "long": "Forçado Experimental",
         "short": "Experimental"
       },
       "ge": {
@@ -518,12 +609,12 @@
         "short": "GE"
       },
       "native": {
-        "long": "Nativo. Não Proton.",
+        "long": "Nativo. Sem Proton.",
         "short": "nativo"
       },
       "notListed": {
-        "long": "Não listado",
-        "short": "Não listado"
+        "long": "Não Listado",
+        "short": "Não Listado"
       },
       "official": {
         "long": "O que o Steam recomenda por padrão",
@@ -538,27 +629,27 @@
   },
   "verdict": {
     "additionalNotes": {
-      "label": "Resumo (max {{count}} chars)",
+      "label": "Resumo (máx. {{count}} caracteres)",
       "placeholder": "Adicione um breve resumo. Este será o título do seu relatório."
     },
     "prompt": "Um jogador típico gostaria de jogar este jogo no Linux como você o jogou?"
   },
   "verdictOob": {
-    "prompt": "Abrindo diretamente do Steam, um jogador típico gosta de jogar este jogo no Linux mesmo ter que fazer modificações?"
+    "prompt": "Abrindo diretamente do Steam, um jogador típico gostaria de jogar este jogo no Linux mesmo sem ter que fazer modificações?"
   },
   "welcome": {
     "headline": "Bem-vindo",
-    "intro": "Obrigado pelo seu interesse em expandir o catálogo de relatórios de compatibilidade do ProtonDB no Steam Play e Proton! Lembre-se do seguinte antes de contribuir",
+    "intro": "Obrigado pelo seu interesse em expandir o catálogo de relatórios de compatibilidade do ProtonDB sobre o Steam Play e o Proton! Lembre-se do seguinte antes de contribuir",
     "notes": [
       "Os relatórios são publicados no ProtonDB para ajudar você, a Valve e os desenvolvedores a corrigir os jogos. Mantenha seus relatórios precisos, livres de linguagem ofensiva e evite enviar relatórios apenas para promover seu jogo, distribuição ou placa gráfica favoritos.",
-      "O envio de vários relatórios para o mesmo jogo é incentivado! Conforme você joga mais ou atualiza o Proton, você terá mais a dizer. Desta forma o ProtonDB difere de um wiki, pois cada relatório serve como um 'instantâneo' de como o jogo foi jogado naquela data com sua configuração.",
+      "O envio de vários relatórios para o mesmo jogo é incentivado! Conforme você joga mais ou atualiza o Proton, você terá mais a dizer. Desta forma o ProtonDB difere de uma wiki, pois cada relatório serve como um 'instantâneo' de como o jogo foi jogado naquela data com sua configuração.",
       "Se você enviar vários relatórios, apenas o mais recente contará para a classificação do ProtonDB e somente se as informações do seu sistema atenderem aos requisitos mínimos do Proton.",
       "Suas contribuições serão publicamente visíveis no ProtonDB e disponíveis nas exportações de dados sob a Open Database License. Veja [aqui]({{link}}) para mais informações."
     ],
     "outro": "Com isso, vamos começar!"
   },
   "windowingFaults": {
-    "legend": "Janelas",
+    "legend": "Janelamento",
     "options": {
       "activatingFullscreen": {
         "long": "Tela cheia não pôde ser iniciada",
@@ -577,6 +668,6 @@
         "short": "Trocando"
       }
     },
-    "prompt": "Você teve algum problema com as janelas ou tela cheia?"
+    "prompt": "Você teve algum problema com janelamento ou tela cheia?"
   }
 }

@@ -2,16 +2,16 @@
   "genericFollowUpPrompt": "Que tipo de problemas?",
   "misc": {
     "answerRequired": "Resposta Obrigatória",
-    "answerRequiredWhenNotListed": "Resposta Obrigatória quando não listado é escolhido",
+    "answerRequiredWhenNotListed": "Resposta Obrigatória Quando Não Listado é Escolhido",
     "back": "Voltar",
     "error": "Erro!",
-    "invalidGeVersion": "String de versão GE inválida. Deve conter '{major}.{minor}-ge-{patch}'. Exemplo: '7.2-GE-2'",
+    "invalidGeVersion": "String de versão GE inválida. Deve conter 'GE-Proton{maior}.{menor}-patch' (novo formato) ou '{maior}.{menor}-ge-{patch}' (formato antigo). Exemplo: 'GE-Proton7-5'",
     "markdownSupportNotice": "Markdown é suportado",
-    "maxChars": "Um maximo de {{count}} caracteres",
-    "next": "Proximo",
+    "maxChars": "Máximo de {{count}} caracteres",
+    "next": "Próximo",
     "submission": {
-      "error": "Ocorreu um erro durante o envio e isso não deveria acontecer. Se sua conexão estiver ativa e você ainda não conseguir enviar, por favor nos avise!",
-      "note": "Observe que os novos relatórios estarão em estado pendente até a próxima atualização de conteúdo. Você pode ver suas contribuições em seu [Perfil]({{link}})",
+      "error": "Ocorreu um erro durante o envio e isso não deveria acontecer. Se sua conexão estiver ativa e você ainda não conseguir enviar, por favor, nos avise!",
+      "note": "Observe que os novos relatórios estarão em estado pendente até a próxima atualização de conteúdo. Você pode ver as suas contribuições em seu [Perfil]({{link}})",
       "success": "Enviado com Sucesso",
       "thanks": "Obrigado pela sua contribuição para {{siteName}}"
     },
