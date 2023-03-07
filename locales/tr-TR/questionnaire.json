@@ -5,6 +5,7 @@
     "answerRequiredWhenNotListed": "Listede Yok Seçildiğinde Yanıt Vermen Gerekir",
     "back": "Geri",
     "error": "Hata!",
+    "invalidGeVersion": "Geçersiz GE sürüm yazısı. Yeni formatla 'GE-Proton{major}.{minor}-patch' ya da eski formatla '{major}.{minor}-ge-{patch}' şeklinde bir metin içermelidir. Örnek: 'GE-Proton7-5'",
     "markdownSupportNotice": "Markdown artık destekleniyor",
     "maxChars": "En fazla {{count}} karakter",
     "next": "Sonraki",
