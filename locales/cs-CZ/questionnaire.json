@@ -1,0 +1,21 @@
+{
+  "genericFollowUpPrompt": "Jaké problémy?",
+  "misc": {
+    "answerRequired": "Vyžadována odpověď",
+    "answerRequiredWhenNotListed": "Odpověď vyžadována při neuvedeném výběru",
+    "back": "Zpět",
+    "error": "Chyba!",
+    "invalidGeVersion": "Neplatný řetězec verze GE. Musí obsahovat (novější formát) 'GE-Proton{major}.{minor}-patch' nebo (starší formát) '{major}.{minor}-ge-{patch}'. Například: 'GE-Proton7-5'",
+    "markdownSupportNotice": "Je podporován Markdown",
+    "maxChars": "Max {{count}} znaků",
+    "next": "Další",
+    "submission": {
+      "error": "Při odesílání vašeho hlášení se vyskytla chyba. Pokud je vaše připojení aktivní a stále nemůžete odesílat hlášení, dejte nám prosím vědět!",
+      "note": "Vezměte prosím na vědomí, že všechna nová hlášení budou v čekajícím stavu do dalšího obnovení obsahu. Své příspěvky si můžete zobrazit na svém [profilu]({{link}})",
+      "success": "Úspěšně odesláno",
+      "thanks": "Děkujeme za váš příspěvek do {{siteName}}"
+    },
+    "submit": "Odeslat",
+    "tooLong": "Příliš dlouhé"
+  }
+}
