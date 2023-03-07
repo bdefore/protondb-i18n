@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "license": "MIT",
   "dependencies": {
-    "@prantlf/jsonlint": "^10.2.0",
+    "@prantlf/jsonlint": "^14.0.1",
     "chalk": "^4.1.2",
-    "fs-extra": "^10.0.0",
-    "minimist": "^1.2.6"
+    "fs-extra": "^11.1.0",
+    "minimist": "^1.2.8"
   },
   "scripts": {
     "compare": "node check_keys.js",
