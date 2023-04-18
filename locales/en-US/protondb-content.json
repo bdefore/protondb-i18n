@@ -159,7 +159,7 @@
     "intro": "Add a device to contribute reports. ProtonDB now supports storing multiple device configurations. Devices are divided into one of two types: PC or Steam Deck",
     "intro2": "Some further detail:",
     "invalidInfo": "Device details are invalid. Must be fixed to be used for contributing.",
-    "notOnSteamDeck": "Log into ProtonDB with a Steam Deck on Desktop Mode to add one.",
+    "notOnSteamDeck": "Log into ProtonDB with a Steam Deck on Desktop Mode to add it to your profile. Disconnect any peripherals or monitors first.",
     "otherDetail1": "Devices (as well as preferences) are now persisted across anywhere you login.",
     "otherDetail2": "If you provide a single device, it will be automatically be applied during the contribute flow.",
     "otherDetail3": "If you provide more than one, you will be prompted to select one, by its name, at the 'Setup' step.",
