@@ -1,0 +1,217 @@
+{
+  "attribution": {
+    "steamDb": "{{subject}} provided by [{{name}}]({{link}}) via [{{partnerName}}]({{partnerLink}})."
+  },
+  "auth": {
+    "forgetMe": "Forget Me",
+    "genericSignIn": "Sign In",
+    "headline": "Steam Account",
+    "identifierExample": "Examples:\n - [{{profileExample}}](#)\n - {{steamIdExample}}",
+    "identifierOptions": "Steam ID or Profile URL",
+    "logInToContribute": "Verify your Steam account to contribute content",
+    "loggedInAs": "Logged in as {{username}}",
+    "notLoggedIn": "Not Signed In",
+    "note": "Within your [Steam Privacy Settings]({{link}}), 'My profile' must be set to public. 'Game Details' is not required to be public, but if it is, ownership and playtime information will be sent with your contributions.",
+    "profileUrl": "Profile URL",
+    "signOut": "Sign Out",
+    "steamId": "Steam ID",
+    "steamIdIntro": "Alternatively to signing in with Steam, you may provide [an identifier]({{steamIdLink}}) for an account so that you can [explore its library or wishlist]({{link}}).",
+    "steamLoginIntro": "ProtonDB requires Steam authentication to confirm the identity of contributors. Signing in this way accesses some public information about you but it will NOT bestow any privileges to your Steam account.",
+    "steamSignIn": "Sign In With Steam",
+    "topBarLink": "Your Steam Games",
+    "unlink": "Unlink Account",
+    "unverified": "Unverified",
+    "vanityName": "Public Name",
+    "verifiedAs": "Verified as {{username}}"
+  },
+  "content": {
+    "followingPost": "Following Post",
+    "previousPost": "Previous Post"
+  },
+  "contextualInfo": {
+    "dateAdded": "Added on {{context}}",
+    "fixWanted": "",
+    "followers": "{{context}} Steam followers",
+    "heavilyReported": "{{context}} recent reports",
+    "hoursPlayed": "{{context}} hours played",
+    "mostBorked": "",
+    "peakPlayers": "{{context}} peak players",
+    "percentPositive": "{{context}}% positive rating",
+    "playerCount": "{{context}} peak players",
+    "popular": "{{context}} followers",
+    "positiveRating": "{{context}}% positive rating",
+    "protonDbRating": "",
+    "rank": "Ranked {{context}} on Steam",
+    "recentlyImproved": "{{context}} reports with latest two Proton versions",
+    "recentlyReleased": "First batch of {{context}} reports",
+    "releaseDate": "Released {{context}}",
+    "userScore": "{{context}}% positive rating",
+    "wilsonRating": ""
+  },
+  "footer": {
+    "data": "This site uses data from {{name}} as well as data",
+    "description": "{{name}} is a passion project from [@bdefore]({{link}}) and a dedicated community of reporters.",
+    "feedbackPrompt": "Have some feedback? Come chat with us!",
+    "legal": "This site has no affiliation with Valve Software. All game images and logos are property of their respective owners."
+  },
+  "games": {
+    "zeroStateMessage": "No games found"
+  },
+  "libraryLoader": {
+    "errorLoadingGames": "Error loading games. Please ensure both Profile and Game Details are public on this account!",
+    "gameTotal": "{{username}}: {{count}} games",
+    "headline": "Library",
+    "note": "You do not need to sign in with Steam to load your library, but if you do your library will be found automatically. Your [Steam Privacy Settings]({{link}}) for 'My Profile' and 'Game Details' must be public.",
+    "refresh": "Refresh"
+  },
+  "misc": {
+    "addYourReport": "Add Your Report",
+    "affirmative": "Yes",
+    "any": "Any",
+    "areYouSure": "Are you sure?",
+    "cancel": "Cancel",
+    "chipset": "Chipset",
+    "clear": "Clear",
+    "conjunction": "and",
+    "delete": "Delete",
+    "device": "Device",
+    "devices": "Devices",
+    "discard": "Discard",
+    "dismiss": "Dismiss",
+    "distro": "Distro",
+    "driver": "Driver",
+    "execute": "Run",
+    "feedbackPrompt": "Feedback? Let us know on [Discord]({{link}})",
+    "filter": "Filter",
+    "filteringSettings": "Filtering Settings",
+    "forget": "Forget",
+    "games": "Games",
+    "hide": "Hide {{what}}",
+    "hour": "hour",
+    "hours": "hours",
+    "include": "Include",
+    "install": "Install",
+    "joinUsPrompt": "Join us on Discord!",
+    "lastContentRefreshTime": "Last content refresh was {{time}}",
+    "meetsRequirements": "Meets Requirements",
+    "moreInfo": "More Info",
+    "multiplayer": "Multiplayer",
+    "native": "Native",
+    "negative": "No",
+    "notFound": "Not Found",
+    "notRecommended": "Not Recommended",
+    "note": "Note",
+    "overall": "Overall",
+    "pending": "Pending",
+    "preferences": "Preferences",
+    "provisional": "Provisional",
+    "published": "Published",
+    "rated": "Rated",
+    "recommended": "Recommended",
+    "report": "Report",
+    "reports": "Reports",
+    "reset": "Reset",
+    "revert": "Revert",
+    "save": "Save",
+    "saved": "{{what}} Saved",
+    "show": "Show {{what}}",
+    "showAll": "Show All",
+    "showMore": "Show More",
+    "skip": "Skip",
+    "sortBy": "Sort By",
+    "switchTo": "Switch to {{thing}}",
+    "tier": "Tier",
+    "tinker": "tinker",
+    "total": "Total",
+    "tryAgain": "Try Again",
+    "unknown": "Unknown",
+    "unknownError": "Unknown Error",
+    "updated": "{{what}} Updated",
+    "version": "Version"
+  },
+  "nav": {
+    "contribute": "Contribute",
+    "dashboard": "Dashboard",
+    "explore": "Explore",
+    "help": "Help",
+    "news": "News",
+    "profile": "Profile",
+    "search": "Search games...",
+    "stats": "Stats"
+  },
+  "pagination": {
+    "next": "Next page",
+    "nextShort": "Next",
+    "previous": "Previous page",
+    "previousShort": "Prev",
+    "summary": "Results {{from}} to {{to}} out of {{total}}"
+  },
+  "preferences": {
+    "headline": "Preferences",
+    "intro": "ProtonDB displays the submitter's Steam nickname beside reports. Your unique Steam ID is not transmitted in the data of published report data. If you are concerned your nickname may be used to infer your Steam profile, you can choose a different nickname here and this will be used after the next content refresh.",
+    "note": "Your preferences will synchronize wherever you login with Steam.",
+    "questions": {
+      "customName": {
+        "additionalNotes": {
+          "label": "Custom Name"
+        },
+        "options": {
+          "custom": "A custom nickname",
+          "keepSteam": "My Steam nickname ({{steamNickname}})"
+        },
+        "prompt": "Your public name"
+      },
+      "language": {
+        "prompt": "Language"
+      },
+      "performanceMode": {
+        "prompt": "Would you prefer to run a performance-friendly version of the site?"
+      }
+    }
+  },
+  "profile": {
+    "exploreLibrary": "Now that you've got your library loaded, you can explore it sorted with the following views:",
+    "inYourLibrary": "In Your Library",
+    "libraryTags": {
+      "byHoursPlayed": "By your hours played",
+      "byPlayerCount": "By player count",
+      "byProtonDbRating": "By ProtonDB rating",
+      "byReleaseDate": "By release date",
+      "bySteamDbScore": "By SteamDB user score",
+      "headline": "The following tags are common across your library. You can dive in with these:",
+      "lackReportsByHoursPlayed": "Lack Reports by your hours played",
+      "lackReportsByPlayerCount": "Lack Reports by player count",
+      "lackReportsBySteamDbScore": "Lack Reports by SteamDB user score"
+    },
+    "notInYourLibrary": "Not In Your Library",
+    "yourContributions": "Your Contributions"
+  },
+  "reports": {
+    "addAReportPrompt": "Let us all know how it runs by [contributing a report]({{link}})!",
+    "deckVerifiedStatus": "Deck Verified Status",
+    "displayExcluded": "Show excluded reports",
+    "doYouOwnSteamDeck": "Do you own one? You can [add a device]({{link}}) on your profile.",
+    "filteredOutCount": "{{count}} filtered out",
+    "filteredOutHeadline": "{{count}} reports do not match your filtering criteria for {{filters}}",
+    "haveYouPlayed": "Have you played this game?",
+    "inLibrary": "This game is in library.",
+    "noReportsYetSteamDeck": "No reports yet on Steam Deck.",
+    "readyToAuthorSteamDeck": "You're ready to author Steam Deck reports.",
+    "superceded": "There is a newer report of this type from this author",
+    "timePlayedOnLinux": "You've played on Linux for {{hours}} hours.",
+    "tinkerMethods": {
+      "customProton": "Custom Proton",
+      "experimental": "Switch to experimental",
+      "launchOptions": "Set launch options",
+      "launcher": "Launcher",
+      "older": "Switch to older version",
+      "other": "Other"
+    },
+    "zeroStateMessage": "No reports",
+    "zeroStateMessageWithFilters": "No reports match your applied filters"
+  },
+  "search": {
+    "headline": "Search for {{q}}",
+    "results": "Results"
+  }
+}

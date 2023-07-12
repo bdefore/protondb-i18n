@@ -1,0 +1,21 @@
+{
+  "genericFollowUpPrompt": "What sort of problems?",
+  "misc": {
+    "answerRequired": "Answer Required",
+    "answerRequiredWhenNotListed": "Answered Required When Not Listed Is Chosen",
+    "back": "Back",
+    "error": "Error!",
+    "invalidGeVersion": "Invalid GE version string. Must contain (newer format) 'GE-Proton{major}.{minor}-patch' or (older format) '{major}.{minor}-ge-{patch}'. Example: 'GE-Proton7-5'",
+    "markdownSupportNotice": "Markdown is supported",
+    "maxChars": "Max {{count}} chars",
+    "next": "Next",
+    "submission": {
+      "error": "There was an error during submission and that shouldn't happen. If your connection is active and you still cannot submit, please let us know!",
+      "note": "Please note that new reports will be in a pending state until the next content refresh. You can view your contributions on your [Profile]({{link}})",
+      "success": "Successfully Submitted",
+      "thanks": "Thanks for your contribution to {{siteName}}"
+    },
+    "submit": "Submit",
+    "tooLong": "Too long"
+  }
+}
