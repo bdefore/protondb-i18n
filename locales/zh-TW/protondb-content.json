@@ -17,7 +17,7 @@
     "unreported": "未回報"
   },
   "compatibilitySection": {
-    "aggregateHeadline": "In aggregate",
+    "aggregateHeadline": "總計",
     "chartTypeHeadline": "類別",
     "chartTypes": {
       "fullSteamCatalog": {
@@ -79,7 +79,7 @@
       },
       "playerCount": {
         "long": "Sort By: Player Count",
-        "short": "Player Count"
+        "short": "玩家數"
       },
       "rating": {
         "long": "Sort By: Rating",
@@ -87,56 +87,56 @@
       }
     },
     "gamesLimit": "Game chart is limited to {{cap}} most popular games",
-    "gamesNotFound": "No games found. Ensure 'Game Details' is set to public in your [Steam settings]({{link}}).",
+    "gamesNotFound": "找不到遊戲。Ensure 'Game Details' is set to public in your [Steam settings]({{link}}).",
     "greetLoggedIn": "Want to see how many games I can play?",
-    "lookupMyLibrary": "Load A Library",
+    "lookupMyLibrary": "載入收藏庫",
     "mostPlayedRatedUnverified": "Unofficially Looking Good Here",
-    "mostPlayedRatedUnverifiedExtra": "The following games are not yet officially Deck Verified as Verified nor Playable status, but according to community reports are looking good for play on Linux.",
-    "mostPlayedVerified": "Officially Verified",
+    "mostPlayedRatedUnverifiedExtra": "以下遊戲尚未經官方 Deck 驗證，無論是「已驗證」或「可遊玩」狀態，但根據社群回報，它們在 Linux 上的遊玩表現良好。",
+    "mostPlayedVerified": "官方認證",
     "mostPlayedVerifiedExtra": "These are games you own that Valve has certified as Deck Verified: Verified or Playable status",
     "owned": "Owned game",
     "playedFor": "已遊玩 {{hours}} 小時",
     "ratingDefinitions": {
-      "?": "Pending: Needs more data",
+      "?": "待定：需要更多資料",
       "T1": "The highest tier. Ubiquitously positive reports.",
-      "T1andT2": "T2 or better",
-      "T1andT2andT3": "T3 or better",
+      "T1andT2": "T2 以上",
+      "T1andT2andT3": "T3 以上",
       "T2": "The second-highest tier. Some reports of trouble but is mostly good.",
       "T3": "Middle tier. A mix of positive and negative.",
       "T4": "Second-lowest tier. Negative reports overall.",
       "T5": "Lowest tier. Borked!",
-      "borked": "Either won't start or is crucially unplayable",
-      "bronze": "Runs, but often crashes or has issues preventing from playing comfortably",
-      "gold": "Runs perfectly after tweaks",
-      "native": "Runs natively on Linux",
-      "pending": "Awaiting further reports before giving a rating",
-      "platinum": "Runs perfectly out of the box",
-      "platinumandgold": "Gold or better",
-      "platinumandgoldandsilver": "Silver or better",
-      "playable": "Playable",
-      "silver": "Runs with minor issues, but generally is playable",
-      "unknown": "Unknown",
-      "unsupported": "Unsupported",
-      "verified": "Verified",
-      "verifiedandplayable": "Verified or Playable"
+      "borked": "無法執行或關鍵部分不可玩",
+      "bronze": "可以執行，但經常死當或存在影響遊戲體驗的問題",
+      "gold": "經過調整後完美執行",
+      "native": "原生 Linux 遊戲",
+      "pending": "等待更多回報以得出評分",
+      "platinum": "開箱即玩，完美執行",
+      "platinumandgold": "金牌以上",
+      "platinumandgoldandsilver": "銀牌以上",
+      "playable": "可遊玩",
+      "silver": "雖然有小問題，但總體上可玩",
+      "unknown": "未知",
+      "unsupported": "不支援",
+      "verified": "已認證",
+      "verifiedandplayable": "已認證或可遊玩"
     },
     "submit": "Sure!",
     "tierSystemHeadline": "Rating System",
     "tierSystems": {
       "deckVerified": {
         "description": "Steam's official certification for play on the Steam Deck",
-        "long": "Steam Deck Verified",
-        "short": "Deck Verified"
+        "long": "Steam Deck 認證",
+        "short": "Deck 認證"
       },
       "protonDbClickPlay": {
         "description": "ProtonDB's new appraisal: How does it play without any tinkering.",
-        "long": "ProtonDB Click Play",
-        "short": "Click Play"
+        "long": "ProtonDB 開箱即玩",
+        "short": "開箱即玩"
       },
       "protonDbMedals": {
         "description": "ProtonDB's appraisal: How does it play. You may need to tinker.",
-        "long": "ProtonDB Medals",
-        "short": "Medals"
+        "long": "ProtonDB 獎牌",
+        "short": "獎牌"
       },
       "protonDbTinker": {
         "description": "ProtonDB's new appraisal: How does it play. You may need to tinker.",
@@ -144,29 +144,29 @@
         "short": "Tinker"
       }
     },
-    "tryYourLibrary": "Try your library",
-    "useLibrary": "Use",
-    "userNotFound": "User not found. Ensure 'My Profile' and 'Game Details' are set to public in your [Steam settings]({{link}}).",
+    "tryYourLibrary": "試試您的收藏庫",
+    "useLibrary": "使用",
+    "userNotFound": "找不到使用者。Ensure 'My Profile' and 'Game Details' are set to public in your [Steam settings]({{link}}).",
     "using": "Using",
     "viewSteamCatalog": "View Steam catalog",
-    "yourLibrary": "Your Library",
-    "yourSteamId": "Your Steam ID"
+    "yourLibrary": "您的收藏庫",
+    "yourSteamId": "您的 Steam ID"
   },
   "contributorSettings": {
-    "addAPCDevice": "Add a PC",
-    "addASteamDeckDevice": "Add a Steam Deck",
+    "addAPCDevice": "新增電腦",
+    "addASteamDeckDevice": "新增 Steam Deck",
     "headline": "Contributor Settings",
-    "intro": "Add a device to contribute reports. ProtonDB now supports storing multiple device configurations. Devices are divided into one of two types: PC or Steam Deck",
+    "intro": "新增裝置以貢獻回報。ProtonDB 現支援儲存多個裝置設定。裝置分為兩種類型：PC 或 Steam Deck。",
     "intro2": "Some further detail:",
-    "invalidInfo": "Device details are invalid. Must be fixed to be used for contributing.",
-    "notOnSteamDeck": "Log into ProtonDB with a Steam Deck on Desktop Mode to add it to your profile. Disconnect any peripherals or monitors first.",
+    "invalidInfo": "裝置詳細資料無效，必須修正後才能用於貢獻。",
+    "notOnSteamDeck": "使用 Steam Deck 的桌面模式登入 ProtonDB 以將其加入您的個人檔案中。請先斷開任何周邊裝置或顯示器的連線。",
     "otherDetail1": "Devices (as well as preferences) are now persisted across anywhere you login.",
-    "otherDetail2": "If you provide a single device, it will be automatically be applied during the contribute flow.",
-    "otherDetail3": "If you provide more than one, you will be prompted to select one, by its name, at the 'Setup' step.",
+    "otherDetail2": "如果您僅提供一部裝置，將在貢獻過程中自動套用。",
+    "otherDetail3": "如果您提供多台裝置，您將在「設定」步驟中被提示按名稱選擇其中一個裝置。",
     "otherDetail4": "Changes to your devices will not be ready until you hit Save.",
-    "otherDetail5": "Only the inferrence of your system information is ever made public, never raw Steam data.",
-    "validInfo": "Device details are valid and may be used for contributing.",
-    "yourDevices": "Your Devices"
+    "otherDetail5": "只有您系統資訊的推斷結果會被公開，絕不會公開原始的 Steam 資料。",
+    "validInfo": "裝置詳細資訊有效，可用於貢獻。",
+    "yourDevices": "您的裝置"
   },
   "dashboard": {
     "description1": "ProtonDB's new Click Play rating is still being fine-tuned. For more information, see the [news post]({{link1}}). Tens of thousands of authors contribute the reports that power this visualization. You can too! Reports are available via ODBL license [in monthly exports]({{link2}}).",
@@ -178,7 +178,7 @@
       "antiCheat": "使用反作弊程式",
       "dateAdded": "加入日期",
       "fixWanted": "期待修復",
-      "heavilyReported": "Many Recent Reports",
+      "heavilyReported": "許多近期回報",
       "highestRated": "SteamDB 高分",
       "hoursPlayed": "遊戲時間",
       "inLibrary": "在我的收藏庫中：",
@@ -186,18 +186,18 @@
       "mostBorked": "最多不可玩回報",
       "mostPopular": "最受歡迎",
       "percentPositive": "在商店中受好評",
-      "playerCount": "Most Active Players",
+      "playerCount": "最多活躍玩家",
       "popular": "最多追蹤者",
       "rank": "最受歡迎",
       "recentlyImproved": "最近改善",
-      "recentlyReleased": "Recently Released",
+      "recentlyReleased": "近期發布",
       "releaseDate": "依照發佈日期",
       "userScore": "良好的回覆內容",
       "wellRatedHere": "高評分"
     },
-    "layout": "布局",
+    "layout": "配置",
     "loadError": "無法載入遊戲！",
-    "notLoggedIn": "需要關聯 Steam ID 以載入收藏庫。請訪問您的 [個人頁面]({{link}}) 進行關聯。",
+    "notLoggedIn": "需要關聯 Steam ID 以載入收藏庫。請前往您的 [個人頁面]({{link}}) 進行關聯。",
     "sorts": {
       "dateAdded": "最近加入",
       "fixWanted": "期待修復",
@@ -209,9 +209,9 @@
       "popular": "受歡迎程度",
       "rank": "最受歡迎",
       "recentlyImproved": "最近改善",
-      "recentlyReleased": "Recently Released",
+      "recentlyReleased": "近期發布",
       "releaseDate": "發佈日期",
-      "userScore": "用戶評分",
+      "userScore": "使用者評分",
       "wilsonRating": "ProtonDB 評分"
     },
     "tagData": "標籤資訊",
@@ -222,7 +222,7 @@
       "lackReports": "缺乏回報",
       "restrictToLibrary": "收藏庫",
       "untested": "缺乏回報",
-      "userTags": "用戶標籤",
+      "userTags": "使用者標籤",
       "whitelisted": "白名單",
       "wishlisted": "願望清單"
     }
@@ -304,7 +304,7 @@
       "question": "影響"
     },
     "whatIsProton": {
-      "answer": "Proton 是 Valve Software 發布的內建於 Steam Play 中的一個新工具，使得在 Linux 玩 Windows 遊戲變得非常簡單。在其背後，Proton 整合了其他像 Wine 和 DXVK 這樣的流行工具，使得遊戲玩家不必自行進行安裝和維護。這極大地免除了用戶切換到 Linux 的負擔，不需要學習系統底層知識，也不會失去很多心愛的遊戲。Proton 仍在起步階段，因此對不同遊戲的支援參差不齊，但 Proton 正在不斷進步中。",
+      "answer": "Proton 是 Valve Software 發布的內建於 Steam Play 中的一個新工具，使得在 Linux 玩 Windows 遊戲變得非常簡單。在其背後，Proton 整合了其他像 Wine 和 DXVK 這樣的流行工具，使得遊戲玩家不必自行進行安裝和維護。這極大地免除了使用者切換到 Linux 的負擔，不需要學習系統底層知識，也不會失去很多心愛的遊戲。Proton 仍在起步階段，因此對不同遊戲的支援參差不齊，但 Proton 正在不斷進步中。",
       "question": "Proton 是什麼？"
     },
     "whatIsProtonDb": {
@@ -354,7 +354,7 @@
   "specs": {
     "cpu": "中央處理器",
     "gpu": "顯示卡",
-    "gpuDriver": "顯示卡驅動",
+    "gpuDriver": "顯示卡驅動程式",
     "kernel": "核心",
     "os": "發行版",
     "otherSpecs": "其他規格",
@@ -362,15 +362,15 @@
   },
   "stats": {
     "analysisInByTheNumbers1": "Analysis in By The Numbers #1",
-    "byCommonDisplayDrivers": "按顯示卡驅動",
+    "byCommonDisplayDrivers": "按顯示卡驅動程式",
     "byDistro": "按發行版",
-    "byGpu": "按顯卡",
+    "byGpu": "按顯示卡",
     "byProtonVersion": "按 Proton 版本",
     "dailyReportsHeadline": "每日回報提交數量（最近 {{days}} 天）",
     "downloadData": "下載資料",
     "gameRatingDistribution": "遊戲評分分布",
     "gamesWithNOrMoreReports": "每個遊戲擁有的回報數量",
-    "reportRatingDistributionOverTime": "随時間變化的回報等級分布",
+    "reportRatingDistributionOverTime": "隨時間變化的回報等級分布",
     "whenMeetingMinimumRequirements": "符合最低配置要求的情況下"
   },
   "steamAuthor": {
@@ -380,17 +380,17 @@
   },
   "suggestions": {
     "headline": "提交更多回報？",
-    "intro": "以下遊戲是從您玩過的遊戲、當下熱門遊戲或者 SteamDB 評分榜中挑選出來的。這些遊戲都缺少測試回報，有一些只需要多一份回報就可以獲得 {{siteName}} 評分。您可以通過刷新來取得其他遊戲推薦，或者訪問 [缺乏回報]({{link}}) 頁面取得更多結果。"
+    "intro": "以下遊戲是從您玩過的遊戲、當下熱門遊戲或者 SteamDB 評分榜中挑選出來的。這些遊戲都缺少測試回報，有一些只需要多一份回報就可以獲得 {{siteName}} 評分。您可以通過重新整理來取得其他遊戲推薦，或者前往[缺乏回報]({{link}})頁面取得更多結果。"
   },
   "systemInfo": {
     "headline": "系統資訊",
-    "howTo": "您可以通過訪問您玩遊戲的機器上的 Steam 設置來快速取得這些資訊。[請到這了解更多資訊]({{link}})。（一些用戶反應他們在點擊右鍵前，需要通過按 Ctrl-A 來全選内容。）",
-    "howToSteamDeck": "Steam Deck: Adding this device can currently only be done from Desktop Mode of a Steam Deck. Since devices now persist across login sessions, you only need to do this once and may author reports from another machine afterwards.",
+    "howTo": "您可以通過前往您玩遊戲的機器上的 Steam 設置來快速取得這些資訊。[請到這了解更多資訊]({{link}})。（一些使用者反應他們在點擊右鍵前，需要通過按 Ctrl-A 來全選内容。）",
+    "howToSteamDeck": "Steam Deck: 目前只能在 Steam Deck 的桌面模式下加入此裝置。由於裝置現在能夠跨登入階段同步，您只需加入一次後，即可在其他裝置上撰寫回報。",
     "intro": "顯示測試遊戲的硬體和軟體資訊有助於保證回報的實用性和可信度。為了盡可能保證準確和一致性，我們使用 Steam 本身蒐集的系統資訊。",
     "parseFailure": "解讀失敗。如果您確定您複製的内容是正確的，請在 Discord 告知我們",
     "parseSuccess": "系統資訊解讀成功！",
     "pasteInstructions": "在此處貼上 Steam 系統資訊",
-    "unsupportedHeadline": "檢測到不支援的設備",
-    "unsupportedWarning": "您系統上的顯示卡驅動不符合 [Proton 目前的最低要求]({{link}})！您可能會碰到死當、低性能或者低畫質等問題。如果您仍然繼續提交回報，您的回報還是會被紀錄並且也仍具備一定價值，但是您的回報中顯示卡驅動會被用紅色標記，並且測試結論不會被計入到那些遊戲的綜合評分中。請您更新驅動！"
+    "unsupportedHeadline": "檢測到不支援的裝置",
+    "unsupportedWarning": "您系統上的顯示卡驅動程式不符合 [Proton 目前的最低要求]({{link}})！您可能會碰到死當、低性能或者低畫質等問題。如果您仍然繼續提交回報，您的回報還是會被紀錄並且也仍具備一定價值，但是您的回報中顯示卡驅動程式會被用紅色標記，並且測試結論不會被計入到那些遊戲的綜合評分中。請您更新驅動程式！"
   }
 }

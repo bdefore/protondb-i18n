@@ -164,7 +164,7 @@
     "otherDetail2": "If you provide a single device, it will be automatically be applied during the contribute flow.",
     "otherDetail3": "If you provide more than one, you will be prompted to select one, by its name, at the 'Setup' step.",
     "otherDetail4": "Changes to your devices will not be ready until you hit Save.",
-    "otherDetail5": "Only the inferrence of your system information is ever made public, never raw Steam data.",
+    "otherDetail5": "Only the inference of your system information is ever made public, never raw Steam data.",
     "validInfo": "Device details are valid and may be used for contributing.",
     "yourDevices": "Your Devices"
   },

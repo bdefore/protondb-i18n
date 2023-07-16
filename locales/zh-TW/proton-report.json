@@ -2,9 +2,9 @@
   "appSelection": {
     "caution": "注意！",
     "helperText": "您也可以通過貼上連結或 App ID 找到遊戲",
-    "noPlaytime": "Your Steam account shows no playtime recorded for this game. This can happen if your [Steam privacy settings]({{link}}) do not make game details public, or if you've elected not to share playtime via the 'Always keep my total playtime private even if users can see my game details' toggle. Your report will still show you as an owner. If this is in error, please let us know.",
+    "noPlaytime": "您的 Steam 帳號中沒有此遊戲的遊玩時數記錄。這可能是因為您的 [Steam 隱私設定]({{link}})未公開遊戲詳細資訊，或者您選擇不通過「始終將我的總遊玩時數保密，即使其他使用者可以查看我的遊戲詳細資訊」開關來分享遊玩時數。您的回報仍然會顯示您擁有此遊戲。如果有誤，請通知我們。",
     "notFound": "無法找到 App ID 為 {{query}} 的遊戲。有可能是輸入錯誤或者以下原因導致：已從 Steam 商店下架、不在「遊戲」分類中或該遊戲在您的地區不可用。",
-    "notOwner": "Your Steam account does not list this game as owned by you and will not display so on your report. This can happen if your [Steam privacy settings]({{link}}) do not make game details public. If this is in error, please let us know.",
+    "notOwner": "Your Steam account does not list this game as owned by you and will not display so on your report. This can happen if your [Steam privacy settings]({{link}}) do not make game details public. 如果有誤，請通知我們。",
     "placeholder": "輸入您 Steam 收藏庫中的遊戲名稱……",
     "playedNatively": "您是否沒用 Proton 來執行原生版本的遊戲？",
     "previousReportsExist": "您已提交過該遊戲的回報",
@@ -66,20 +66,20 @@
         "short": "Community layout"
       },
       "gamepad": {
-        "long": "Gamepad",
-        "short": "Gamepad"
+        "long": "控制器",
+        "short": "控制器"
       },
       "gamepadWithGyro": {
-        "long": "Gamepad With Gyro",
-        "short": "Gamepad With Gyro"
+        "long": "帶陀螺儀的控制器",
+        "short": "帶陀螺儀的控制器"
       },
       "gamepadWithJoystick": {
-        "long": "Gamepad With Joystick Trackpad",
-        "short": "Gamepad With Joystick Trackpad"
+        "long": "帶搖桿觸控板的控制器",
+        "short": "帶搖桿觸控板的控制器"
       },
       "gamepadWithMouseTrackpad": {
-        "long": "Gamepad With Mouse Trackpad",
-        "short": "Gamepad With Mouse Trackpad"
+        "long": "帶滑鼠觸控板的控制器",
+        "short": "帶滑鼠觸控板的控制器"
       },
       "keyboardAndMouse": {
         "long": "鍵盤 (WASD) 和滑鼠",
@@ -94,15 +94,15 @@
         "short": "官方"
       },
       "touchscreenMouseEmulation": {
-        "long": "Touchscreen Mouse Emulation",
-        "short": "Touchscreen Mouse Emulation"
+        "long": "觸控滑鼠模擬",
+        "short": "觸控滑鼠模擬"
       }
     },
     "prompt": "What control layout did you play with?"
   },
   "controlLayoutCustomization": {
     "additionalNotes": {
-      "label": "Customizations",
+      "label": "自訂",
       "prompt": "描述您的變更"
     },
     "legend": "Control Layout Customization",
@@ -121,7 +121,7 @@
       },
       "rightTrackpad": {
         "long": "Changed Right Trackpad Behavior",
-        "short": "Right Trackpad"
+        "short": "右觸控板"
       }
     },
     "prompt": "Did you customize the controls further?"
@@ -288,7 +288,7 @@
         "short": "其他"
       }
     },
-    "prompt": "是否有滑鼠、手把或其他輸入設備的問題？"
+    "prompt": "是否有滑鼠、手把或其他輸入裝置的問題？"
   },
   "installs": {
     "legend": "安裝",
@@ -344,8 +344,8 @@
         "short": "全螢幕整數縮放"
       },
       "gameDrive": {
-        "long": "設定遊戲驅動 (PROTON_SET_GAME_DRIVE)",
-        "short": "設定遊戲驅動"
+        "long": "設定遊戲驅動程式 (PROTON_SET_GAME_DRIVE)",
+        "short": "設定遊戲驅動程式"
       },
       "heapDelayFree": {
         "long": "延後釋放記憶體 (PROTON_HEAP_DELAY_FREE)",
@@ -493,7 +493,7 @@
   "preview": {
     "intro": "需要檢查的内容：",
     "notes": [
-      "您的系統資訊是否是最新的？顯卡驅動更新後，您需要到您的個人頁面提交新的系統資訊。",
+      "您的系統資訊是否是最新的？顯示卡驅動程式更新後，您需要到您的個人頁面提交新的系統資訊。",
       "您是否選擇了正確的遊戲？有些遊戲會使用和舊版本一樣的名稱，例如 GRID",
       "您是否在正確的位置填寫了正確的内容？例如，在圖形那裡備註圖形相關的問題，而不是在最後的備註。"
     ]
@@ -641,7 +641,7 @@
     "headline": "歡迎",
     "intro": "感謝您對壯大 ProtonDB 的 Steam Play 和 Proton 兼容性回報庫感興趣！在您開始提交之前，請您記住以下幾點",
     "notes": [
-      "所有回報會被在 ProtonDB 上公開，以幫助用戶、Valve 和開發者修復遊戲。請保證您的回報正確、言語和善，並且避免出於推廣您喜歡的遊戲、發行版或顯卡的目的提交回報。",
+      "所有回報會被在 ProtonDB 上公開，以幫助使用者、Valve 和開發者修復遊戲。請保證您的回報正確、言語和善，並且避免出於推廣您喜歡的遊戲、發行版或顯示卡的目的提交回報。",
       "為同一個遊戲提交多個回報是被鼓勵的行為！當您深入遊玩後或者更新了 Proton，您可能會有更多資訊想要分享。ProtonDB 在這一點上和 wiki 有所不同，每個回報都被視為您當時遊戲狀態的「快照」。",
       "如果您提交了多個回報，只有最新的、並且只有符合 Proton 最低要求的那個才會被 ProtonDB 評分系統採用。",
       "您的回報將在 ProtonDB 上公開，並且可以以開放資料庫授權（Open Database License）匯出資料。請到[這裡]({{link}})了解更多資訊。"
