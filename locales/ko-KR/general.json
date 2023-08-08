@@ -121,7 +121,7 @@
     "sortBy": "정렬 기준",
     "switchTo": "{{thing}}(으)로 바꾸기",
     "tier": "티어",
-    "tinker": "tinker",
+    "tinker": "추가 설정/작업",
     "total": "총",
     "tryAgain": "재시도",
     "unknown": "알 수 없음",
@@ -170,21 +170,21 @@
     }
   },
   "profile": {
-    "exploreLibrary": "Now that you've got your library loaded, you can explore it sorted with the following views:",
-    "inYourLibrary": "In Your Library",
+    "exploreLibrary": "라이브러리 연동이 완료되었습니다. 이제 라이브러리를 다음과 같이 정렬해 탐색할 수 있습니다:",
+    "inYourLibrary": "라이브러리에 있음",
     "libraryTags": {
-      "byHoursPlayed": "By your hours played",
-      "byPlayerCount": "By player count",
-      "byProtonDbRating": "By ProtonDB rating",
-      "byReleaseDate": "By release date",
-      "bySteamDbScore": "By SteamDB user score",
-      "headline": "The following tags are common across your library. You can dive in with these:",
-      "lackReportsByHoursPlayed": "Lack Reports by your hours played",
-      "lackReportsByPlayerCount": "Lack Reports by player count",
-      "lackReportsBySteamDbScore": "Lack Reports by SteamDB user score"
+      "byHoursPlayed": "플레이 시간 순",
+      "byPlayerCount": "플레이어 수 순",
+      "byProtonDbRating": "ProtonDB 평가 순",
+      "byReleaseDate": "출시일 순",
+      "bySteamDbScore": "SteamDB 평가 순",
+      "headline": "라이브러리에 이 태그를 가진 게임이 많은 것 같습니다. 다음을 추가적으로 확인해 보십시오:",
+      "lackReportsByHoursPlayed": "플레이 시간 순 리뷰 누락",
+      "lackReportsByPlayerCount": "플레이어 수 순 리뷰 누락",
+      "lackReportsBySteamDbScore": "SteamDB 평가 순 리뷰 누락"
     },
-    "notInYourLibrary": "Not In Your Library",
-    "yourContributions": "Your Contributions"
+    "notInYourLibrary": "라이브러리에 없음",
+    "yourContributions": "내 기여"
   },
   "reports": {
     "addAReportPrompt": "Let us all know how it runs by [contributing a report]({{link}})!",
