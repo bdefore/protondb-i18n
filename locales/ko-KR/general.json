@@ -1,28 +1,28 @@
 {
   "attribution": {
-    "steamDb": "[{{name}}]({{link}})이/가 [{{partnerName}}]({{partnerLink}})을/를 통해 {{subject}} 제공."
+    "steamDb": "[{{name}}]({{link}})에 의해 [{{partnerName}}]({{partnerLink}})로 {{subject}} 제공."
   },
   "auth": {
-    "forgetMe": "계정 잊기",
+    "forgetMe": "로그인 잊기",
     "genericSignIn": "로그인",
     "headline": "Steam 계정",
     "identifierExample": "예시:\n - [{{profileExample}}](#)\n - {{steamIdExample}}",
-    "identifierOptions": "Steam ID 또는 프로필 URL",
+    "identifierOptions": "Steam ID 또는 프로파일 URL",
     "logInToContribute": "ProtonDB에 기여하려면 Steam 계정으로 로그인 하세요.",
     "loggedInAs": "{{username}}으로 로그인됨",
     "notLoggedIn": "로그인 되지 않음",
-    "note": "Within your [Steam Privacy Settings]({{link}}), 'My profile' must be set to public. 'Game Details' is not required to be public, but if it is, ownership and playtime information will be sent with your contributions.",
-    "profileUrl": "프로필 URL",
+    "note": "연동을 위해서는 [Steam 공개 설정]({{link}})에서 '프로필'이 공개로 설정되어 있어야 합니다. '게임 세부 정보'는 요구되지 않지만, 공개 시 기여할 때 게임의 소유 여부와 플레이 타임이 함께 기록됩니다.",
+    "profileUrl": "프로파일 URL",
     "signOut": "로그아웃",
     "steamId": "Steam ID",
     "steamIdIntro": "Steam으로 로그인하는 대신, [steamID]({{steamIdLink}})를 통해 해당 계정 라이브러리 게임들의 [호환 여부를 확인]({{link}})할 수 있습니다.",
-    "steamLoginIntro": "ProtonDB requires Steam authentication to confirm the identity of contributors. Signing in this way accesses some public information about you but it will NOT bestow any privileges to your Steam account.",
-    "steamSignIn": "Sign In With Steam",
-    "topBarLink": "Your Steam Games",
-    "unlink": "Unlink Account",
-    "unverified": "Unverified",
-    "vanityName": "Public Name",
-    "verifiedAs": "Verified as {{username}}"
+    "steamLoginIntro": "ProtonDB는 기여자들의 신원을 확인하기 위해 Steam 로그인을 필요로 합니다. 이 방법으로 로그인 시 ProtonDB는 일부 공개 정보에 액세스하지만 계정의 그 어떤 권한에도 접근하지 않습니다.",
+    "steamSignIn": "Steam으로 로그인",
+    "topBarLink": "사용자의 Steam 게임들",
+    "unlink": "계정 연동 해제",
+    "unverified": "인증되지 않음",
+    "vanityName": "공개 이름",
+    "verifiedAs": "{{username}}(으)로 인증됨"
   },
   "content": {
     "followingPost": "다음 게시글",
@@ -49,7 +49,7 @@
     "wilsonRating": ""
   },
   "footer": {
-    "data": "This site uses data from {{name}} as well as data",
+    "data": "본 사이트에서는 사이트 데이터와 함께 {{name}}에서 제공된 데이터도 사용합니다",
     "description": "{{name}}는 [@bdefore]({{link}})의 열정을 담은 프로젝트이자 기여자들을 위한 헌신적인 커뮤니티 입니다.",
     "feedbackPrompt": "피드백이 있으신가요? 이곳을 통해 연락해 주세요!",
     "legal": "본 사이트는 Valve Software와 관련이 없습니다. 모든 게임 이미지와 로고는 해당 소유권자의 저작물 입니다."
@@ -58,10 +58,10 @@
     "zeroStateMessage": "게임을 찾을 수 없습니다."
   },
   "libraryLoader": {
-    "errorLoadingGames": "게임 로딩 실패. 프로필과 게임 세부 정보가 공개로 설정되어 있는지 확인하십시오.",
+    "errorLoadingGames": "게임 로딩 실패. 프로파일과 게임 세부 정보가 공개로 설정되어 있는지 확인하십시오.",
     "gameTotal": "{{username}}: 게임 {{count}}개",
     "headline": "라이브러리",
-    "note": "라이브러리를 로드하기 위해 Steam으로 로그인할 필요는 없지만, 로그인 시 사이트에서 자동으로 라이브러리를 감지합니다. 자동으로 라이브러리를 감지하기 위해서는 [공개 설정]({{link}})에서 '프로필'과 '게임 세부 정보'가 '공개'로 설정되어 있어야 합니다.",
+    "note": "라이브러리를 로드하기 위해 Steam으로 로그인할 필요는 없지만, 로그인 시 사이트에서 자동으로 라이브러리를 감지합니다. 자동으로 라이브러리를 감지하기 위해서는 [공개 설정]({{link}})에서 '프로파일'과 '게임 세부 정보'가 '공개'로 설정되어 있어야 합니다.",
     "refresh": "새로고침"
   },
   "misc": {
@@ -104,68 +104,68 @@
     "overall": "전체적으로",
     "pending": "대기 중",
     "preferences": "설정",
-    "provisional": "Provisional",
+    "provisional": "임시",
     "published": "게시됨",
     "rated": "평가함",
-    "recommended": "Recommended",
-    "report": "Report",
-    "reports": "Reports",
-    "reset": "Reset",
-    "revert": "Revert",
-    "save": "Save",
-    "saved": "{{what}} Saved",
-    "show": "Show {{what}}",
-    "showAll": "Show All",
-    "showMore": "Show More",
-    "skip": "Skip",
-    "sortBy": "Sort By",
-    "switchTo": "Switch to {{thing}}",
-    "tier": "Tier",
+    "recommended": "추천됨",
+    "report": "리뷰",
+    "reports": "리뷰",
+    "reset": "초기화",
+    "revert": "되돌리기",
+    "save": "저장",
+    "saved": "{{what}} 저장됨",
+    "show": "{{what}} 보기",
+    "showAll": "모두 보기",
+    "showMore": "더 보기",
+    "skip": "넘기기",
+    "sortBy": "정렬 기준",
+    "switchTo": "{{thing}}(으)로 바꾸기",
+    "tier": "티어",
     "tinker": "tinker",
-    "total": "Total",
-    "tryAgain": "Try Again",
-    "unknown": "Unknown",
-    "unknownError": "Unknown Error",
-    "updated": "{{what}} Updated",
-    "version": "Version"
+    "total": "총",
+    "tryAgain": "재시도",
+    "unknown": "알 수 없음",
+    "unknownError": "알 수 없는 에러",
+    "updated": "{{what}}이/가",
+    "version": "버전"
   },
   "nav": {
-    "contribute": "Contribute",
-    "dashboard": "Dashboard",
-    "explore": "Explore",
-    "help": "Help",
-    "news": "News",
-    "profile": "Profile",
-    "search": "Search games...",
-    "stats": "Stats"
+    "contribute": "기여하기",
+    "dashboard": "대시보드",
+    "explore": "탐색",
+    "help": "지원",
+    "news": "소식",
+    "profile": "프로파일",
+    "search": "게임 검색...",
+    "stats": "통계"
   },
   "pagination": {
-    "next": "Next page",
-    "nextShort": "Next",
-    "previous": "Previous page",
-    "previousShort": "Prev",
-    "summary": "Results {{from}} to {{to}} out of {{total}}"
+    "next": "다음 페이지",
+    "nextShort": "다음",
+    "previous": "이전 페이지",
+    "previousShort": "이전",
+    "summary": "결과 {{total}}개 중 {{from}}-{{to}}"
   },
   "preferences": {
-    "headline": "Preferences",
-    "intro": "ProtonDB displays the submitter's Steam nickname beside reports. Your unique Steam ID is not transmitted in the data of published report data. If you are concerned your nickname may be used to infer your Steam profile, you can choose a different nickname here and this will be used after the next content refresh.",
-    "note": "Your preferences will synchronize wherever you login with Steam.",
+    "headline": "설정",
+    "intro": "ProtonDB는 리뷰 우측에 기여자의 Steam 닉네임을 표시합니다. 개인의 고유 Steam ID는 리뷰를 제출할 때 전송되거나 기록되지 않습니다. Steam 계정 유출이 걱정된다면 이곳에서 다른 닉네임을 선택할 수 있고, 이는 다음 컨텐츠 갱신 때 반영될 것입니다.",
+    "note": "Steam으로 로그인 시 설정이 자동으로 동기화 됩니다.",
     "questions": {
       "customName": {
         "additionalNotes": {
-          "label": "Custom Name"
+          "label": "사용자 지정 이름"
         },
         "options": {
-          "custom": "A custom nickname",
-          "keepSteam": "My Steam nickname ({{steamNickname}})"
+          "custom": "사용자 지정 닉네임",
+          "keepSteam": "사용자의 Steam 닉네임({{steamNickname}})"
         },
-        "prompt": "Your public name"
+        "prompt": "사용자의 공개 이름"
       },
       "language": {
-        "prompt": "Language"
+        "prompt": "언어"
       },
       "performanceMode": {
-        "prompt": "Would you prefer to run a performance-friendly version of the site?"
+        "prompt": "본 사이트의 성능이 최적화된 버전을 이용하시겠습니까? (구형 기기에서 유용함)"
       }
     }
   },
