@@ -66,7 +66,7 @@
   },
   "misc": {
     "addYourReport": "리뷰 쓰기",
-    "affirmative": "",
+    "affirmative": "예",
     "any": "아무",
     "areYouSure": "?",
     "cancel": "취소",
@@ -188,30 +188,30 @@
   },
   "reports": {
     "addAReportPrompt": "[리뷰를 기여하는 것]({{link}})을 통해 다른 사람들에게 게임이 어떻게 작동되는지를 알릴 수 있습니다.",
-    "deckVerifiedStatus": "Deck Verified Status",
-    "displayExcluded": "Show excluded reports",
-    "doYouOwnSteamDeck": "Do you own one? You can [add a device]({{link}}) on your profile.",
-    "filteredOutCount": "{{count}} filtered out",
-    "filteredOutHeadline": "{{count}} reports do not match your filtering criteria for {{filters}}",
-    "haveYouPlayed": "Have you played this game?",
-    "inLibrary": "This game is in library.",
-    "noReportsYetSteamDeck": "No reports yet on Steam Deck.",
-    "readyToAuthorSteamDeck": "You're ready to author Steam Deck reports.",
-    "superceded": "There is a newer report of this type from this author",
-    "timePlayedOnLinux": "You've played on Linux for {{hours}} hours.",
+    "deckVerifiedStatus": "Steam Deck 인증 여부",
+    "displayExcluded": "제외된 리뷰 표시",
+    "doYouOwnSteamDeck": "Steam Deck을 소유하고 계신가요? 프로파일에서 [장치를 추가]({{link}})하실 수 있습니다.",
+    "filteredOutCount": "{{count}}개 제외됨",
+    "filteredOutHeadline": "{{count}}개의 리뷰가 설정한 필터 {{filters}}을/를 만족하지 않습니다.",
+    "haveYouPlayed": "이 게임을 플레이 해 보셨나요?",
+    "inLibrary": "이 게임은 라이브러리에 있습니다.",
+    "noReportsYetSteamDeck": "Steam Deck에 대한 리뷰 없음.",
+    "readyToAuthorSteamDeck": "Steam Deck에 대한 리뷰를 작성할 수 있습니다.",
+    "superceded": "T이 작성자가 더 최근에 작성한 리뷰가 있습니다.",
+    "timePlayedOnLinux": "Linux에서 {{hours}}시간 플레이했습니다.",
     "tinkerMethods": {
-      "customProton": "Custom Proton",
-      "experimental": "Switch to experimental",
-      "launchOptions": "Set launch options",
-      "launcher": "Launcher",
-      "older": "Switch to older version",
-      "other": "Other"
+      "customProton": "사용자 지정 Proton 버전 (또는 포크) 사용",
+      "experimental": "Proton Experimental (실험적/베타 버전) 사용",
+      "launchOptions": "실행 옵션 변경",
+      "launcher": "런처 사용",
+      "older": "이전 버전 사용",
+      "other": "기타"
     },
-    "zeroStateMessage": "No reports",
-    "zeroStateMessageWithFilters": "No reports match your applied filters"
+    "zeroStateMessage": "리뷰 없음",
+    "zeroStateMessageWithFilters": "설정한 필터를 만족하는 리뷰 없음"
   },
   "search": {
-    "headline": "Search for {{q}}",
-    "results": "Results"
+    "headline": "\"{{q}}\" 검색",
+    "results": "결과"
   }
 }
