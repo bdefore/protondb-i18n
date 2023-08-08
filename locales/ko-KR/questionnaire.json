@@ -1,21 +1,21 @@
 {
-  "genericFollowUpPrompt": "What sort of problems?",
+  "genericFollowUpPrompt": "어떤 종류의 문제가 있나요?",
   "misc": {
-    "answerRequired": "Answer Required",
-    "answerRequiredWhenNotListed": "Answered Required When Not Listed Is Chosen",
-    "back": "Back",
-    "error": "Error!",
-    "invalidGeVersion": "Invalid GE version string. Must contain (newer format) 'GE-Proton{major}.{minor}-patch' or (older format) '{major}.{minor}-ge-{patch}'. Example: 'GE-Proton7-5'",
-    "markdownSupportNotice": "Markdown is supported",
-    "maxChars": "Max {{count}} chars",
-    "next": "Next",
+    "answerRequired": "답변 필수",
+    "answerRequiredWhenNotListed": "기타/해당 없음 선택 시 답변 필수",
+    "back": "뒤로 가기",
+    "error": "에러!",
+    "invalidGeVersion": "GE 버전 문자열이 유효하지 않습니다. (신 버전 포맷) 'GE-Proton{major}.{minor}-patch' 또는 (구 버전 포맷) '{major}.{minor}-ge-{patch}' 중 하나를 포함해야 합니다. 예: 'GE-Proton7-5'",
+    "markdownSupportNotice": "Markdown 문법 지원됨",
+    "maxChars": "최대 {{count}} 문자",
+    "next": "다음",
     "submission": {
-      "error": "There was an error during submission and that shouldn't happen. If your connection is active and you still cannot submit, please let us know!",
-      "note": "Please note that new reports will be in a pending state until the next content refresh. You can view your contributions on your [Profile]({{link}})",
-      "success": "Successfully Submitted",
-      "thanks": "Thanks for your contribution to {{siteName}}"
+      "error": "제출 중 오류가 발생했습니다. 인터넷 연결을 확인한 이후에도 제출이 불가능하다면 개발자에게 연락해 주세요.",
+      "note": "새 리뷰는 다음 컨텐츠 갱신 전까지 업로드가 보류됩니다. [개인 프로파일]({{link}})에서 본인의 기여를 확인할 수 있습니다.",
+      "success": "정상적으로 제출됨",
+      "thanks": "{{siteName}}에 기여해 주셔서 감사합니다"
     },
-    "submit": "Submit",
-    "tooLong": "Too long"
+    "submit": "제출",
+    "tooLong": "너무 김"
   }
 }
