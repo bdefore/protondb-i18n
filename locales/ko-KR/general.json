@@ -187,7 +187,7 @@
     "yourContributions": "내 기여"
   },
   "reports": {
-    "addAReportPrompt": "Let us all know how it runs by [contributing a report]({{link}})!",
+    "addAReportPrompt": "[리뷰를 기여하는 것]({{link}})을 통해 다른 사람들에게 게임이 어떻게 작동되는지를 알릴 수 있습니다.",
     "deckVerifiedStatus": "Deck Verified Status",
     "displayExcluded": "Show excluded reports",
     "doYouOwnSteamDeck": "Do you own one? You can [add a device]({{link}}) on your profile.",
