@@ -1,0 +1,516 @@
+{
+    "appSelection": {
+      "caution": "Paznja!",
+      "helperText": "Možete također dodati linkove ili ID aplikacije i mi ćemo pokušati pronaći.",
+      "notFound": "Igra s ID-om aplikacije {{Query}} nije pronađena. Ovo se može dogoditi ako ID nije točan, ili ako je igra uklonjena iz Steam trgovine, nije označena kao 'Igra', ili nije dostupna u vašoj zemlji.",
+      "placeholder": "Upišite ime igre iz vaše Steam knjižnice...",
+      "previousReportsExist": "Postoje stariji izvještaji koje ste napisali za ovu igru",
+      "runsNativeWarning": "Odabrana igra ima izdanu verziju za Linux! Molimo vas da provjerite jeste li slučajno pokrenuli igru u nativnom načinu. Steam prema zadanim postavkama ne koristi Steam Play za pokretanje ove igre, ali [možete to prisiliti]({{link}})."
+    },
+    "audioFaults": {
+      "legend": "Zvuk",
+      "options": {
+        "borked": {
+          "long": "Potpuno neispravan",
+          "short": "Neispravan"
+        },
+        "crackling": {
+          "long": "Šuštanje",
+          "short": "Šuštanje"
+        },
+        "lowQuality": {
+          "long": "Niska kvaliteta zvuka",
+          "short": "Niska kvaliteta"
+        },
+        "missing": {
+          "long": "Nedostaje dio zvuka",
+          "short": "Nedostaje zvuk"
+        },
+        "other": {
+          "long": "Drugo",
+          "short": "Drugo"
+        },
+        "outOfSync": {
+          "long": "Zvuk nije sinkroniziran",
+          "short": "Nesinkroniziran zvuk"
+        }
+      },
+      "prompt": "Imate li problema sa zvukom?"
+    },
+    "borked": {
+      "headline": "To je jadno!",
+      "intro": "Uskoro ćete nastaviti s unosom 'Neispravne ocjene', ali prije toga provjerite našu [FAQ za rješavanje problema s igrama]({{link}})."
+    },
+    "customizationsUsed": {
+      "additionalNotes": {
+        "label": "Dodatne napomene",
+        "placeholder": "Objašnjenje ili poveznica na blog post ili GitHub repozitorij"
+      },
+      "legend": "Prilagodbe",
+      "options": {
+        "customPrefix": {
+          "long": "Prilagođeni Wine Prefix",
+          "short": "Prilagođeni Prefix"
+        },
+        "customProton": {
+          "long": "Prilagođena verzija Protona",
+          "short": "Prilagođeni Proton"
+        },
+        "lutris": {
+          "long": "Lutris instalacijski skript",
+          "short": "Lutris"
+        },
+        "mediaFoundation": {
+          "long": "Media Foundation DLL (mf-install)",
+          "short": "Media Foundation DLL"
+        },
+        "native2Proton": {
+          "long": "Native2Proton",
+          "short": "Native2Proton"
+        },
+        "notListed": {
+          "long": "Nije navedeno",
+          "short": "Nije navedeno"
+        },
+        "protonfixes": {
+          "long": "protonfixes",
+          "short": "protonfixes"
+        },
+        "protontricks": {
+          "long": "protontricks",
+          "short": "protontricks"
+        },
+        "winetricks": {
+          "long": "winetricks",
+          "short": "winetricks"
+        }
+      },
+      "prompt": "Kakve ste prilagodbe napravili?"
+    },
+    "duration": {
+      "legend": "Trajanje",
+      "options": {
+        "aboutAnHour": {
+          "long": "oko jedan sat",
+          "short": "oko 1 sat"
+        },
+        "lessThanAnHour": {
+          "long": "manje od jednog sata",
+          "short": "manje od 1 sata"
+        },
+        "lessThanFifteenMinutes": {
+          "long": "manje od petnaest minuta",
+          "short": "manje od 15 minuta"
+        },
+        "moreThanTenHours": {
+          "long": "više od deset sati",
+          "short": "više od 10 sati"
+        },
+        "severalHours": {
+          "long": "dva sata ili više",
+          "short": "2+ sata"
+        }
+      },
+      "prompt": "Koliko ste dugo igrali?"
+    },
+    "extra": {
+      "additionalNotes": {
+        "label": "Dodatne napomene",
+        "placeholder": "Molimo dodajte ovdje."
+      },
+      "prompt": "Imate li nešto što biste željeli dodati, a što nije obuhvaćeno prethodnim pitanjima?"
+    },
+    "graphicalFaults": {
+      "legend": "Grafika",
+      "options": {
+        "heavyArtifacts": {
+          "long": "Izraženi ili česti artefakti",
+          "short": "Izraženi artefakti"
+        },
+        "minorArtifacts": {
+          "long": "Manji ili rijetki artefakti",
+          "short": "Manji artefakti"
+        },
+        "missingTextures": {
+          "long": "Nedostajuće teksture",
+          "short": "Nedostajuće teksture"
+        },
+        "other": {
+          "long": "Drugo",
+          "short": "Drugo"
+        }
+      },
+      "prompt": "Primijetili ste li ikakve grafičke probleme?"
+    },
+    "graphicsApiSelection": {
+      "legend": "Grafički API",
+      "options": {
+        "d3d": {
+          "long": "Direct3D",
+          "short": "Direct3D"
+        },
+        "ogl": {
+          "long": "OpenGL",
+          "short": "OpenGL"
+        },
+        "unsure": {
+          "long": "Ono što igra koristi po zadanim postavkama",
+          "short": "Zadano"
+        },
+        "vk": {
+          "long": "Vulkan",
+          "short": "Vulkan"
+        }
+      },
+      "prompt": "Koji grafički API ste koristili unutar igre?"
+    },
+    "inputFaults": {
+      "legend": "Ulaz",
+      "options": {
+        "bounding": {
+          "long": "Deadzone nije ispravno postavljen",
+          "short": "Deadzone"
+        },
+        "controllerMapping": {
+          "long": "Dugmad na kontroleru nisu ispravno mapirana",
+          "short": "Mapiranje dugmadi na kontroleru"
+        },
+        "controllerNotDetected": {
+          "long": "Kontroleri nisu prepoznati",
+          "short": "Neprepoznavanje kontrolera"
+        },
+        "controllerNotResponsive": {
+          "long": "Kontroleri su prepoznati, ali nisu reagirali",
+          "short": "Kontroleri ne reagiraju"
+        },
+        "drifting": {
+          "long": "Osi se ne vraćaju u nultu poziciju",
+          "short": "Drifting"
+        },
+        "inaccuracy": {
+          "long": "Nepreciznost",
+          "short": "Nepreciznost"
+        },
+        "lag": {
+          "long": "Kašnjenje ulaza",
+          "short": "Kašnjenje ulaza"
+        },
+        "other": {
+          "long": "Drugo",
+          "short": "Drugo"
+        }
+      },
+      "prompt": "Imate li problema s mišem, kontrolerom ili drugim ulaznim uređajima?"
+    },
+    "installs": {
+      "legend": "Instalacija",
+      "prompt": "Jeste li mogli instalirati igru?"
+    },
+    "isImpactedByAntiCheat": {
+      "legend": "Anti-cheat",
+      "options": {
+        "battleEye": {
+          "long": "BattlEye",
+          "short": "BattlEye"
+        },
+        "easyAntiCheat": {
+          "long": "Easy Anti Cheat",
+          "short": "EAC"
+        },
+        "other": {
+          "long": "Drugo",
+          "short": "Drugo"
+        }
+      },
+      "prompt": "Ispireka li igru anti-cheat softver?"
+    },
+    "isMultiplayerImportant": {
+      "prompt": "Je li višeigrački način igranja bitan dio ove igre?"
+    },
+    "launchFlagsUsed": {
+      "additionalNotes": {
+        "label": "Dodatne napomene",
+        "placeholder": "Kako je ovo pomoglo?"
+      },
+      "legend": "Parametri pokretanja",
+      "options": {
+        "disableD3d10": {
+          "long": "Onemogući D3D10 (PROTON_NO_D3D10)",
+          "short": "Onemogući D3D10"
+        },
+        "disableD3d11": {
+          "long": "Onemogući D3D11 (PROTON_NO_D3D11)",
+          "short": "Onemogući D3D11"
+        },
+        "disableEsync": {
+          "long": "Onemogući Esync (PROTON_NO_ESYNC)",
+          "short": "Onemogući Esync"
+        },
+        "disableFsync": {
+          "long": "Onemogući Fsync (PROTON_NO_FSYNC)",
+          "short": "Onemogući Fsync"
+        },
+        "fullscreenIntegerScaling": {
+          "long": "Cijeli brojevi prilikom promjene veličine u cijelom ekranu (WINE_FULLSCREEN_INTEGER_SCALING)",
+          "short": "Cijeli brojevi prilikom promjene veličine u cijelom ekranu"
+        },
+        "largeAddressAware": {
+          "long": "Large Address Aware (PROTON_FORCE_LARGE_ADDRESS_AWARE)",
+          "short": "Large Address Aware"
+        },
+        "oldGlString": {
+          "long": "Stari GL string (PROTON_OLD_GL_STRING)",
+          "short": "Stari GL string"
+        },
+        "useWineD3d11": {
+          "long": "Koristi Wine D3D (PROTON_USE_WINED3D)",
+          "short": "Koristi Wine D3D"
+        },
+        "useWineD9vk": {
+          "long": "Koristi Wine D9VK (PROTON_USE_D9VK)",
+          "short": "Koristi Wine D9VK"
+        }
+      },
+      "prompt": "Koristite li neke od ovih Proton parametara prilikom pokretanja igre?"
+    },
+    "launcher": {
+      "additionalNotes": {
+        "label": "Pokretač"
+      },
+      "legend": "Pokretač",
+      "options": {
+        "gamehub": {
+          "long": "Gamehub",
+          "short": "Gamehub"
+        },
+        "lutris": {
+          "long": "Lutris",
+          "short": "Lutris"
+        },
+        "notListed": {
+          "long": "Nije navedeno",
+          "short": "Nije navedeno"
+        },
+        "steam": {
+          "long": "Steam",
+          "short": "Steam"
+        }
+      },
+      "prompt": "Kako pokrećete igru?"
+    },
+    "localMultiplayerAppraisal": {
+      "prompt": "Kako biste ocijenili lokalni višeigrački način igranja? Molimo vas da provjerite postoji li kašnjenje, problemi s vezom ili problemi s unosom itd."
+    },
+    "localMultiplayerAttempted": {
+      "prompt": "Jeste li pokušali igrati lokalni višeigrački način (offline, npr. na jednom uređaju)?"
+    },
+    "localMultiplayerPlayed": {
+      "prompt": "Jeste li uspješno igrali lokalni višeigrački način?"
+    },
+    "multiplayerAppraisal": {
+      "options": {
+        "acceptable": {
+          "long": "Prihvatljivo. Postoje manji problemi, ali se mogu riješiti.",
+          "short": "Prihvatljivo"
+        },
+        "awful": {
+          "long": "Užasno. Praktički nepodnošljivo.",
+          "short": "Užasno"
+        },
+        "excellent": {
+          "long": "Izvrsno. Nema problema.",
+          "short": "Izvrsno"
+        },
+        "good": {
+          "long": "Dobro. Postoje rijetki problemi, ali igra je igračka.",
+          "short": "Dobro"
+        },
+        "weak": {
+          "long": "Slabo. Problem znatno utječe na iskustvo igranja.",
+          "short": "Slabo"
+        }
+      }
+    },
+    "onlineMultiplayerAppraisal": {
+      "prompt": "Kako biste ocijenili online višeigrački način igranja? Molimo vas da provjerite postoji li kašnjenje, problemi s vezom ili problemi s unosom itd."
+    },
+    "onlineMultiplayerAttempted": {
+      "prompt": "Jeste li pokušali igrati online višeigrački način?"
+    },
+    "onlineMultiplayerPlayed": {
+      "prompt": "Jeste li uspješno igrali online višeigrački način?"
+    },
+    "opens": {
+      "legend": "Otvori igru",
+      "prompt": "Jeste li uspjeli pokrenuti igru i vidjeti glavni izbornik?"
+    },
+    "performanceFaults": {
+      "legend": "Performanse",
+      "options": {
+        "significantSlowdown": {
+          "long": "Značajno usporavanje",
+          "short": "Značajno usporavanje"
+        },
+        "slightSlowdown": {
+          "long": "Blago usporavanje",
+          "short": "Blago usporavanje"
+        }
+      },
+      "prompt": "Jeste li doživjeli neočekivanu lošu izvedbu s obzirom na svoj hardver?"
+    },
+    "prerequisites": {
+      "invalidOrMissingSystemInfo": "Nedostaju ili su nevažeće informacije o sustavu",
+      "missingProfileInfo": "Nepotpune profilne informacije. Nedostaje: {{context}}",
+      "notLoggedIn": "Niste prijavljeni na {{context}}"
+    },
+    "prerequisitesBlock": {
+      "action": "Idi na profil",
+      "context": "Morate se prijaviti na Steam i unijeti informacije o vašem sustavu prije nego što možete poslati svoj izvještaj!",
+      "headline": "Još Niste Spremni!"
+    },
+    "preview": {
+      "intro": "Stvari koje biste trebali provjeriti prije nego što pošaljete izvještaj:",
+      "notes": [
+        "Jesu li informacije o vašem sustavu ažurirane? Morate otići na svoj profil i obnoviti Steam informacije nakon nadogradnje grafičkih drajvera.",
+        "Jeste li odabrali pravu igru? Neke igre imaju isto ime kao i starije verzije, npr. GRID.",
+        "Jeste li dodali opise na odgovarajuća mjesta? Na primjer, pišite opise problema s grafikom u odjeljku za grafiku umjesto u završnim napomenama."
+      ]
+    },
+    "prompts": {
+      "continuingDraft": "Nastavljate sa automatski spremljenom nacrtom.",
+      "discardDraftWarning": "Svi vaši odgovori bit će trajno odbačeni.",
+      "startOver": "Počni ispočetka"
+    },
+    "protonVersion": {
+      "additionalNotes": {
+        "label": "Ručna Proton verzija",
+        "placeholder": "Mora biti važeća verzija Protona. Primjeri: {{examples}}"
+      },
+      "prompt": "Koju verziju Protona koristite?"
+    },
+    "saveGameFaults": {
+      "legend": "Spremni stanja",
+      "options": {
+        "errorLoading": {
+          "long": "Spremno stanje se nije moglo učitati.",
+          "short": "Neuspjelo učitavanje"
+        },
+        "errorSaving": {
+          "long": "Spremno stanje se nije moglo spremiti.",
+          "short": "Neuspjelo spremanje"
+        },
+        "other": {
+          "long": "Drugo",
+          "short": "Drugo"
+        }
+      },
+      "prompt": "Jeste li imali problema sa spremanjem stanja igre?"
+    },
+    "significantBugs": {
+      "legend": "Značajni bugovi",
+      "prompt": "Jeste li doživjeli još neke značajne bugove?"
+    },
+    "stabilityFaults": {
+      "legend": "Stabilnost",
+      "options": {
+        "frequentCrashes": {
+          "long": "Česti padovi aplikacije",
+          "short": "Česti padovi"
+        },
+        "notListed": {
+          "long": "Nije navedeno",
+          "short": "Nije navedeno"
+        },
+        "occasionally": {
+          "long": "Povremeni padovi aplikacije",
+          "short": "Povremeni padovi"
+        }
+      },
+      "prompt": "Jeste li imali problema s stabilnošću?"
+    },
+    "startsPlay": {
+      "legend": "Pokretanje igre",
+      "prompt": "Jeste li uspjeli početi igrati?"
+    },
+    "stepHeadlines": {
+      "appSelection": "Odabir igre",
+      "borked": "Problem!",
+      "customizations": "Prilagodbe",
+      "finalNotes": "Zaključak",
+      "gameplay": "Dodatni mogući problemi",
+      "graphics": "Grafika i izvedba",
+      "multiplayer": "Višeigrački način igranja",
+      "preview": "Pregled",
+      "setup": "Postavljanje",
+      "stability": "Stabilnost",
+      "startup": "Instalacija i pokretanje",
+      "tinkerCheck": "Vrsta ocjene",
+      "unownedWarning": "Nije posjedovano"
+    },
+    "type": {
+      "intro": [
+        "ProtonDB sada razdvaja recenzije u dvije vrste: SteamPlay i Tinkering (Prilagodba).",
+        "Upotrijebite SteamPlay recenziju da obuhvatite iskustvo izvan kutije s igrom (dakle, bez ikakvih posebnih prilagodbi koje ste napravili).",
+        "Upotrijebite Tinkering recenziju za recenziranje igara s prilagodbama ili instalacijama s posebnim softverom."
+      ],
+      "options": {
+        "steamplay": {
+          "long": "SteamPlay",
+          "short": "SteamPlay"
+        },
+        "tinkering": {
+          "long": "Prilagodba",
+          "short": "Prilagodba"
+        }
+      },
+      "prompt": "Koja vrsta recenzije je ovo?"
+    },
+    "unownedWarning": {
+      "action": "Dodajte igru u knjižnicu",
+      "headline": "Niste vlasnik ove igre na Steamu!",
+      "note": "Molimo dodajte igru u svoju Steam knjižnicu prije nego što pošaljete izvještaj.",
+      "warning": "Upozorenje"
+    },
+    "username": {
+      "prompt": "Korisničko ime"
+    },
+    "windowManager": {
+      "legend": "Upravitelj prozora",
+      "options": {
+        "kde": {
+          "long": "KDE Plasma",
+          "short": "KDE Plasma"
+        },
+        "none": {
+          "long": "Nema",
+          "short": "Nema"
+        },
+        "other": {
+          "long": "Drugo",
+          "short": "Drugo"
+        },
+        "unity": {
+          "long": "Unity",
+          "short": "Unity"
+        },
+        "wayland": {
+          "long": "Wayland",
+          "short": "Wayland"
+        },
+        "winCompScale": {
+          "long": "Windows Composition Scaling",
+          "short": "Windows Composition Scaling"
+        },
+        "xfce": {
+          "long": "Xfce",
+          "short": "Xfce"
+        },
+        "xorg": {
+          "long": "Xorg",
+          "short": "Xorg"
+        }
+      },
+      "prompt": "Koji upravitelj prozora koristite?"
+    }
+  }
+  
