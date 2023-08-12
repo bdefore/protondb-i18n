@@ -1,6 +1,6 @@
 {
   "appSelection": {
-    "caution": "Caution!",
+    "caution": "경고!",
     "helperText": "You may also paste links or an App ID and we will try to find it",
     "noPlaytime": "Your Steam account shows no playtime recorded for this game. This can happen if your [Steam privacy settings]({{link}}) do not make game details public, or if you've elected not to share playtime via the 'Always keep my total playtime private even if users can see my game details' toggle. Your report will still show you as an owner. If this is in error, please let us know.",
     "notFound": "Could not find game with App ID {{query}}. This can happen if it is either inaccurate or if it has: been removed from the Steam store, not listed as a 'game', or not available in your country.",
@@ -11,145 +11,145 @@
     "runsNativeWarning": "The selected game has published a native Linux version! Please be sure you have not inadvertently run the game natively. Steam does not use Proton to run this game by default, but [you can force it to do so]({{link}})."
   },
   "audioFaults": {
-    "legend": "Audio",
+    "legend": "오디오",
     "options": {
       "borked": {
-        "long": "Totally borked",
-        "short": "Borked"
+        "long": "완전히 미작동",
+        "short": "미작동"
       },
       "crackling": {
-        "long": "Crackling",
-        "short": "Crackling"
+        "long": "노이즈 있음",
+        "short": "노이즈 있음"
       },
       "lowQuality": {
-        "long": "Noticeable quality degradation",
-        "short": "Low quality"
+        "long": "인지 가능한 품질 저하",
+        "short": "품질 저하"
       },
       "missing": {
-        "long": "Some audio is missing",
-        "short": "Missing"
+        "long": "일부 오디오 누락됨",
+        "short": "오디오 누락"
       },
       "other": {
-        "long": "Other",
-        "short": "Other"
+        "long": "기타",
+        "short": "기타"
       },
       "outOfSync": {
-        "long": "Fell out of sync",
-        "short": "Out of sync"
+        "long": "영상과 싱크(sync) 안 됨",
+        "short": "싱크(sync) 안 됨"
       }
     },
-    "prompt": "Did you experience any problems with audio?"
+    "prompt": "오디오 관련 문제들이 있었나요?"
   },
   "authoringLanguage": {
-    "prompt": "What language will you write this report in?"
+    "prompt": "어떤 언어로 이 리뷰를 작성하시겠습니까?"
   },
   "batteryPerformance": {
-    "legend": "Battery Performance",
-    "prompt": "Did you make any changes to improve battery performance?"
+    "legend": "배터리 성능",
+    "prompt": "배터리 성능 향상을 위해 추가적으로 취한 조치가 있나요?"
   },
   "borked": {
-    "headline": "That's a bummer!",
-    "intro": "You will now proceed with submitting a borked report, but before you do you may want to visit our [Game Troubleshooting FAQ]({{link}}) page."
+    "headline": "저런!",
+    "intro": "현재 게임이 작동하지 않는다는 리포트를 작성하고 계십니다. 그러나 그 전에 [게임 문제 해결 FAQ]({{link}}) 페이지를 확인해 보시는 것을 추천드립니다."
   },
   "concludingNotes": {
-    "label": "Concluding Notes",
-    "prompt": "Add here anything extra that you'd like to conclude with at the end of your report."
+    "label": "추신",
+    "prompt": "리뷰 끝에 붙일 추가적인 말들을 작성해 주세요."
   },
   "controlLayout": {
     "additionalNotes": {
-      "label": "What community version?"
+      "label": "어떤 커뮤니티 버전을 사용했습니까?"
     },
-    "legend": "Control Layout",
+    "legend": "컨트롤 레이아웃",
     "options": {
       "community": {
-        "long": "A community layout",
-        "short": "Community layout"
+        "long": "커뮤니티 레이아웃",
+        "short": "커뮤니티 레이아웃"
       },
       "gamepad": {
-        "long": "Gamepad",
-        "short": "Gamepad"
+        "long": "컨트롤러",
+        "short": "컨트롤러"
       },
       "gamepadWithGyro": {
-        "long": "Gamepad With Gyro",
-        "short": "Gamepad With Gyro"
+        "long": "자이로 센서가 있는 컨트롤러",
+        "short": "자이로 센서가 있는 컨트롤러"
       },
       "gamepadWithJoystick": {
-        "long": "Gamepad With Joystick Trackpad",
-        "short": "Gamepad With Joystick Trackpad"
+        "long": "조이스틱 트랙패드가 있는 컨트롤러",
+        "short": "조이스틱 트랙패드가 있는 컨트롤러"
       },
       "gamepadWithMouseTrackpad": {
-        "long": "Gamepad With Mouse Trackpad",
-        "short": "Gamepad With Mouse Trackpad"
+        "long": "마우스/트랙패드와 컨트롤러",
+        "short": "마우스/트랙패드와 컨트롤러"
       },
       "keyboardAndMouse": {
-        "long": "Keyboard (WASD) And Mouse",
-        "short": "Keyboard And Mouse"
+        "long": "키보드(WASD)와 마우스",
+        "short": "키보드와 마우스"
       },
       "mouseOnly": {
-        "long": "Mouse Only",
-        "short": "Mouse Only"
+        "long": "마우스만",
+        "short": "마우스만"
       },
       "official": {
-        "long": "The official layout",
-        "short": "official"
+        "long": "공식 레이아웃",
+        "short": "공식"
       },
       "touchscreenMouseEmulation": {
-        "long": "Touchscreen Mouse Emulation",
-        "short": "Touchscreen Mouse Emulation"
+        "long": "터치스크린 마우스 에뮬레이션",
+        "short": "터치스크린 마우스 에뮬레이션"
       }
     },
-    "prompt": "What control layout did you play with?"
+    "prompt": "어떤 컨트롤 레이아웃으로 플레이했나요?"
   },
   "controlLayoutCustomization": {
     "additionalNotes": {
-      "label": "Customizations",
-      "prompt": "Describe your changes"
+      "label": "커스터마이징",
+      "prompt": "어떤 커스터마이징을 했는지 알려주세요."
     },
-    "legend": "Control Layout Customization",
+    "legend": "컨트롤 레이아웃 커스터마이징",
     "options": {
       "enableGripButtons": {
-        "long": "Enabled Back Grip Buttons",
-        "short": "Grip Buttons"
+        "long": "후면 그립 버튼 활성화",
+        "short": "그립 버튼"
       },
       "gyro": {
-        "long": "Enabled Gyro",
-        "short": "Gyro"
+        "long": "자이로 센서",
+        "short": "자이로 센서"
       },
       "other": {
-        "long": "Other",
-        "short": "Other"
+        "long": "기타",
+        "short": "기타"
       },
       "rightTrackpad": {
-        "long": "Changed Right Trackpad Behavior",
-        "short": "Right Trackpad"
+        "long": "우측 트랙패드 행동 변경",
+        "short": "우측 트랙패드"
       }
     },
-    "prompt": "Did you customize the controls further?"
+    "prompt": "컨트롤 레이아웃에 추가적인 커스터마이징을 했나요?"
   },
   "customProtonVersion": {
-    "label": "Version"
+    "label": "버전"
   },
   "customizationsUsed": {
     "additionalNotes": {
-      "label": "Further Details",
-      "placeholder": "Explanation or link to blog post or Github repository"
+      "label": "추가적인 정보",
+      "placeholder": "설명 또는 블로그/GitHub 리포지토리 링크 첨부"
     },
-    "legend": "Customizations",
+    "legend": "커스터마이징",
     "options": {
       "configChange": {
-        "long": "Changed the game's configuration file(s)",
-        "short": "Changed configuration"
+        "long": "게임 설정 파일 변경",
+        "short": "게임 설정 변경"
       },
       "customPrefix": {
-        "long": "A custom Wine prefix",
-        "short": "Custom Prefix"
+        "long": "사용자 지정 Wine Prefix",
+        "short": "사용자 지정 Wine Prefix"
       },
       "customProton": {
-        "long": "A custom fork of Proton",
-        "short": "Custom Proton"
+        "long": "패치/변경된 Proton 버전 사용",
+        "short": "패치/변경된 Proton"
       },
       "lutris": {
-        "long": "Lutris install script",
+        "long": "Lutris 설치 스크립트",
         "short": "Lutris"
       },
       "mediaFoundation": {
@@ -157,8 +157,8 @@
         "short": "Media Foundation DLL"
       },
       "notListed": {
-        "long": "Something else",
-        "short": "Something else"
+        "long": "기타",
+        "short": "기타"
       },
       "protonfixes": {
         "long": "protonfixes",
@@ -173,65 +173,65 @@
         "short": "winetricks"
       }
     },
-    "prompt": "Are you using any of these common tinkering methods?"
+    "prompt": "다음 중 게임 실행을 위해 사용한 것이 있나요?"
   },
   "device": {
-    "legend": "Device",
-    "prompt": "Which of your devices are you playing on?"
+    "legend": "기기",
+    "prompt": "당신의 기기 중 무엇으로 이 게임을 플레이했나요?"
   },
   "didChangeControlLayout": {
-    "prompt": "Did you change the default control layout?"
+    "prompt": "기본 컨트롤 레이아웃을 변경했습니까?"
   },
   "duration": {
-    "legend": "Duration",
+    "legend": "시간",
     "options": {
       "aboutAnHour": {
-        "long": "an hour",
-        "short": "an hour"
+        "long": "한 시간 정도",
+        "short": "한 시간 정도"
       },
       "lessThanAnHour": {
-        "long": "< 1 hour",
-        "short": "< 1 hour"
+        "long": "한 시간 미만",
+        "short": "한 시간 미만"
       },
       "lessThanFifteenMinutes": {
-        "long": "< 15 minutes",
-        "short": "< 15 minutes"
+        "long": "15분 미만",
+        "short": "15분 미만"
       },
       "moreThanTenHours": {
-        "long": "> 10 hours",
-        "short": "> 10 hours"
+        "long": "10시간 이상",
+        "short": "10시간 이상"
       },
       "severalHours": {
-        "long": "2+ hours",
-        "short": "2+ hours"
+        "long": "몇 시간 정도",
+        "short": "몇 시간 정도"
       }
     },
-    "prompt": "For how long have you played?"
+    "prompt": "게임을 얼마 동안 플레이했습니까?"
   },
   "graphicalFaults": {
-    "legend": "Graphics",
+    "legend": "그래픽",
     "options": {
       "heavyArtifacts": {
-        "long": "Heavy or common artifacts",
-        "short": "Heavy artifacts"
+        "long": "크게 깨지거나 많은 문제 발생",
+        "short": "크게 깨짐"
       },
       "minorArtifacts": {
-        "long": "Minor or infrequent artifacts",
-        "short": "Minor artifacts"
+        "long": "조금 깨지거나 거의 문제 없음",
+        "short": "조금 깨짐"
       },
       "missingTextures": {
-        "long": "Missing textures",
-        "short": "Missing textures"
+        "long": "누락된 텍스쳐 있음",
+        "short": "텍스쳐 누락"
       },
       "other": {
-        "long": "Other",
-        "short": "Other"
+        "long": "기타",
+        "short": "기타"
       }
     },
-    "prompt": "Did you notice any graphical degradations?"
+    "prompt": "그래픽 문제가 있었나요?"
   },
   "graphicsApiSelection": {
-    "legend": "Graphics API",
+    "legend": "그래픽 API",
     "options": {
       "d3d": {
         "long": "Direct3D",
@@ -242,60 +242,60 @@
         "short": "OpenGL"
       },
       "unsure": {
-        "long": "Whatever the game uses by default",
-        "short": "Default"
+        "long": "게임에서 제공하는 기본 그래픽 API",
+        "short": "기본"
       },
       "vk": {
         "long": "Vulkan",
         "short": "Vulkan"
       }
     },
-    "prompt": "What graphics API did you use within the game?"
+    "prompt": "어떤 그래픽 API를 사용했나요?"
   },
   "inputFaults": {
-    "legend": "Input",
+    "legend": "입력",
     "options": {
       "bounding": {
-        "long": "Bounds were incorrect",
-        "short": "Bounding"
+        "long": "범위가 올바르지 않음",
+        "short": "범위 안 맞음"
       },
       "controllerMapping": {
-        "long": "Controller(s) were not mapped properly",
-        "short": "Controller mapping"
+        "long": "컨트롤러 매핑이 올바르지 않음",
+        "short": "매핑 오류"
       },
       "controllerNotDetected": {
-        "long": "Controller(s) not detected",
-        "short": "Controller detection"
+        "long": "컨트롤러 인식 안됨",
+        "short": "인식 안됨"
       },
       "controllerNotResponsive": {
-        "long": "Controller(s) detected but were not responsive",
-        "short": "Responsiveness"
+        "long": "컨트롤러가 인식됐으나 작동하지 않음",
+        "short": "인식되나 작동 안 됨"
       },
       "drifting": {
-        "long": "Axes would drift",
-        "short": "Drifting"
+        "long": "조이스틱 쏠림 현상",
+        "short": "조이스틱 쏠림"
       },
       "inaccuracy": {
-        "long": "Inaccuracy",
-        "short": "Inaccuracy"
+        "long": "입력 정확도가 떨어짐",
+        "short": "정확도 떨어짐"
       },
       "lag": {
-        "long": "Input was laggy",
-        "short": "Lag"
+        "long": "입력 딜레이 심함",
+        "short": "딜레이 심함"
       },
       "other": {
-        "long": "Other",
-        "short": "Other"
+        "long": "기타",
+        "short": "기타"
       }
     },
-    "prompt": "Did you experience any problems with your mouse, gamepad or other input devices?"
+    "prompt": "마우스, 게임패드 또는 기타 컨트롤러 사용 시에 문제가 있었나요?"
   },
   "installs": {
-    "legend": "Installs",
-    "prompt": "Were you able to install the game?"
+    "legend": "설치",
+    "prompt": "게임을 정상적으로 설치할 수 있었나요?"
   },
   "isImpactedByAntiCheat": {
-    "legend": "Anti-Cheat",
+    "legend": "안티 치트",
     "options": {
       "battleEye": {
         "long": "BattlEye",
@@ -306,147 +306,147 @@
         "short": "EAC"
       },
       "other": {
-        "long": "Other",
-        "short": "Other"
+        "long": "기타",
+        "short": "기타"
       }
     },
-    "prompt": "Is the game impacted by anti-cheat software?"
+    "prompt": "게임이 안티 치트 소프트웨어를 사용하나요?"
   },
   "launchFlagsUsed": {
     "additionalNotes": {
-      "label": "Further Details",
-      "placeholder": "What did this help with?"
+      "label": "추가적인 정보",
+      "placeholder": "이 플래그들이 어떤 도움울 주었나요?"
     },
-    "legend": "Launch Flags",
+    "legend": "실행 시 플래그",
     "options": {
       "disableD3d10": {
-        "long": "Disable D3D10 (PROTON_NO_D3D10)",
-        "short": "Disable D3D10"
+        "long": "D3D10 비활성화 (PROTON_NO_D3D10)",
+        "short": "D3D10 비활성화"
       },
       "disableD3d11": {
-        "long": "Disable D3D11 (PROTON_NO_D3D11)",
-        "short": "Disable D3D11"
+        "long": "D3D11 비활성화 (PROTON_NO_D3D11)",
+        "short": "D3D11 비활성화"
       },
       "disableEsync": {
-        "long": "Disable Esync (PROTON_NO_ESYNC)",
-        "short": "Disable Esync"
+        "long": "Esync 비활성화 (PROTON_NO_ESYNC)",
+        "short": "Esync 비활성화"
       },
       "disableFsync": {
-        "long": "Disable Fsync (PROTON_NO_FSYNC)",
-        "short": "Disable Fsync"
+        "long": "Fsync 비활성화 (PROTON_NO_FSYNC)",
+        "short": "Fsync 비활성화"
       },
       "enableNvapi": {
-        "long": "Enable NVAPI (PROTON_ENABLE_NVAPI)",
-        "short": "Enable NVAPI"
+        "long": "NVAPI 활성화 (PROTON_ENABLE_NVAPI)",
+        "short": "NVAPI 활성화"
       },
       "fullscreenIntegerScaling": {
-        "long": "Fullscreen Integer Scaling (WINE_FULLSCREEN_INTEGER_SCALING)",
-        "short": "Fullscreen Integer Scaling"
+        "long": "전체 화면 정수 스케일링 (WINE_FULLSCREEN_INTEGER_SCALING)",
+        "short": "전체 화면 정수 스케일링"
       },
       "gameDrive": {
-        "long": "Set Game Drive (PROTON_SET_GAME_DRIVE)",
-        "short": "Set Game Drive"
+        "long": "게임 드라이브 설정 (PROTON_SET_GAME_DRIVE)",
+        "short": "게임 드라이브 설정"
       },
       "heapDelayFree": {
-        "long": "Delay freeing some memory (PROTON_HEAP_DELAY_FREE)",
+        "long": "Heap Delay Free (PROTON_HEAP_DELAY_FREE)",
         "short": "Heap Delay Free"
       },
       "hideNvidia": {
-        "long": "Hide Nvidia GPU (PROTON_HIDE_NVIDIA_GPU)",
-        "short": "Hide Nvidia GPU"
+        "long": "Nvidia GPU 숨기기 (PROTON_HIDE_NVIDIA_GPU)",
+        "short": "Nvidia GPU 숨기기"
       },
       "largeAddressAware": {
         "long": "Large Address Aware (PROTON_FORCE_LARGE_ADDRESS_AWARE)",
         "short": "Large Address Aware"
       },
       "noWriteWatch": {
-        "long": "Disable support for memory write watches (PROTON_NO_WRITE_WATCH)",
-        "short": "No Write Watch"
+        "long": "메모리 쓰기 모니터링 비활성화 (PROTON_NO_WRITE_WATCH)",
+        "short": "쓰기 모니터링 비활성화"
       },
       "noXim": {
-        "long": "No XIM (PROTON_NO_XIM)",
-        "short": "No XIM"
+        "long": "XIM 비활성화 (PROTON_NO_XIM)",
+        "short": "XIM 비활성화"
       },
       "oldGlString": {
-        "long": "Old GL String (PROTON_OLD_GL_STRING)",
-        "short": "Old GL String"
+        "long": "이전 버전 GL 문자열 (PROTON_OLD_GL_STRING)",
+        "short": "이전 버전 GL 문자열"
       },
       "useSeccomp": {
-        "long": "Enable Seccomp (PROTON_USE_SECCOMP)",
-        "short": "Enable Seccomp"
+        "long": "Seccomp 활성화 (PROTON_USE_SECCOMP)",
+        "short": "Seccomp 활성화"
       },
       "useWineD3d11": {
-        "long": "Use Wine D3D (PROTON_USE_WINED3D)",
-        "short": "Use Wine D3D"
+        "long": "Wine D3D 사용 (PROTON_USE_WINED3D)",
+        "short": "Wine D3D 사용"
       },
       "useWineD9vk": {
-        "long": "Use D9VK (PROTON_USE_D9VK)",
-        "short": "Use D9VK"
+        "long": "D9VK 사용 (PROTON_USE_D9VK)",
+        "short": "D9VK 사용"
       }
     },
-    "prompt": "Do you use any of these Proton launch flags?"
+    "prompt": "다음 중 사용한 Proton 실행 플래그가 있나요?"
   },
   "launchOptions": {
-    "helperText": "i.e. PROTON_NO_D3D11=1 %command%",
-    "label": "Launch Options",
-    "legend": "Launch Options",
+    "helperText": "예: PROTON_NO_D3D11=1 %command%",
+    "label": "실행 옵션",
+    "legend": "실행 옵션",
     "placeholder": "(none)",
-    "prompt": "Do you set any launch options?"
+    "prompt": "따로 설정한 실행 옵션이 있나요?"
   },
   "launcher": {
     "additionalNotes": {
-      "label": "Launcher"
+      "label": "런쳐"
     },
-    "legend": "Launcher",
+    "legend": "런쳐",
     "options": {
       "bottles": {
         "long": "Bottles",
         "short": "Bottles"
       },
       "notListed": {
-        "long": "Not Listed",
-        "short": "Not Listed"
+        "long": "이 목록에 없음",
+        "short": "이 목록에 없음"
       },
       "steam": {
         "long": "Steam",
         "short": "Steam"
       }
     },
-    "prompt": "How do you launch the game?"
+    "prompt": "어떤 런쳐로 게임을 실행하셨나요?"
   },
   "localMultiplayerAppraisal": {
     "additionalNotes": {
-      "label": "Further Details"
+      "label": "세부 정보"
     },
-    "prompt": "How would you rate the local multiplayer functionality? Please evaulate for lag, connectivity or input issues, etc."
+    "prompt": "LAN 멀티 플레이 경험은 어땠나요? 통신 딜레이, 입력 등의 관점에서 자세히 작성해 주세요."
   },
   "localMultiplayerAttempted": {
-    "prompt": "Did you try to play multiplayer locally (offline i.e. couch play)?"
+    "prompt": "LAN 멀티 플레이를 시도해 보셨나요?"
   },
   "localMultiplayerPlayed": {
-    "prompt": "Were you able to get local multiplayer to work?"
+    "prompt": "LAN 멀티 플레이가 작동했나요?"
   },
   "multiplayerAppraisal": {
     "options": {
       "acceptable": {
-        "long": "Acceptable. Moderate issues but can be struggled through.",
-        "short": "Acceptable"
+        "long": "보통. 중간 정도의 문제들이 있지만 플레이 가능",
+        "short": "보통 (플레이는 가능)"
       },
       "awful": {
-        "long": "Awful. Practically not playable",
-        "short": "Awful"
+        "long": "최악. 거의 플레이 할 수 없음",
+        "short": "최악 (플레이 불가능)"
       },
       "excellent": {
-        "long": "Excellent. Did not experience any problems.",
-        "short": "Excellent"
+        "long": "최상. 아무런 문제 없이 플레이 가능",
+        "short": "최상 (문제 없음)"
       },
       "good": {
-        "long": "Good. Had infrequent issues but is overall playable.",
-        "short": "Good"
+        "long": "좋음. 작은 문제들이 있었지만 플레이 가능",
+        "short": "좋음 (자잘한 문제들)"
       },
       "weak": {
-        "long": "Weak. Its problems significantly impact the experience",
-        "short": "Weak"
+        "long": "나쁨. 플레이에 영향을 주는 큰 문제들 다수 존재",
+        "short": "나쁨 (플레이 힘듦)"
       }
     }
   },
