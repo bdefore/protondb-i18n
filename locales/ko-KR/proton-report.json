@@ -5,7 +5,7 @@
     "noPlaytime": "Your Steam account shows no playtime recorded for this game. This can happen if your [Steam privacy settings]({{link}}) do not make game details public, or if you've elected not to share playtime via the 'Always keep my total playtime private even if users can see my game details' toggle. Your report will still show you as an owner. If this is in error, please let us know.",
     "notFound": "Could not find game with App ID {{query}}. This can happen if it is either inaccurate or if it has: been removed from the Steam store, not listed as a 'game', or not available in your country.",
     "notOwner": "Your Steam account does not list this game as owned by you and will not display so on your report. This can happen if your [Steam privacy settings]({{link}}) do not make game details public. If this is in error, please let us know.",
-    "placeholder": "Enter name of a game in your Steam library...",
+    "placeholder": " Enter name of a game in your Steam library...",
     "playedNatively": "Did you run the game natively without using Proton?",
     "previousReportsExist": "You have previous reports for this game",
     "runsNativeWarning": "The selected game has published a native Linux version! Please be sure you have not inadvertently run the game natively. Steam does not use Proton to run this game by default, but [you can force it to do so]({{link}})."
