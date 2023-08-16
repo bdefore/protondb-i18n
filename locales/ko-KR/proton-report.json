@@ -1,14 +1,14 @@
 {
   "appSelection": {
     "caution": "경고!",
-    "helperText": "You may also paste links or an App ID and we will try to find it",
-    "noPlaytime": "Your Steam account shows no playtime recorded for this game. This can happen if your [Steam privacy settings]({{link}}) do not make game details public, or if you've elected not to share playtime via the 'Always keep my total playtime private even if users can see my game details' toggle. Your report will still show you as an owner. If this is in error, please let us know.",
-    "notFound": "Could not find game with App ID {{query}}. This can happen if it is either inaccurate or if it has: been removed from the Steam store, not listed as a 'game', or not available in your country.",
-    "notOwner": "Your Steam account does not list this game as owned by you and will not display so on your report. This can happen if your [Steam privacy settings]({{link}}) do not make game details public. If this is in error, please let us know.",
-    "placeholder": " Enter name of a game in your Steam library...",
-    "playedNatively": "Did you run the game natively without using Proton?",
-    "previousReportsExist": "You have previous reports for this game",
-    "runsNativeWarning": "The selected game has published a native Linux version! Please be sure you have not inadvertently run the game natively. Steam does not use Proton to run this game by default, but [you can force it to do so]({{link}})."
+    "helperText": "링크나 앱 ID를 이곳에 붙여넣어 검색을 시도할 수도 있습니다.",
+    "noPlaytime": "사용자의 Steam 계정의 이 게임에 대한 플레이 기록이 없습니다. [Steam 공개 설정]({{link}})에서 게임 디테일을 '공개'로 설정해 두지 않았거나 '언제나 플레이 타임 기록 전송하지 않기'를 켜둔 경우 이런 현상이 발생할 수 있습니다. 제출한 리뷰에는 여전히 사용자가 기여자로 표시됩니다. 이것이 에러라고 생각하신다면, 관리자에게 문의해 주세요.",
+    "notFound": "앱 ID {{query}} 정보와 일치하는 게임을 찾을 수 없습니다. 앱 ID를 잘못 입력했거나, '게임'으로 등록되어 있지 않거나, Steam 스토어에서 제거되었거나, 사용자의 국가에서 플레이할 수 없는 경우 이런 현상이 발생할 수 있습니다.",
+    "notOwner": "사용자의 Steam 계정이 이 게임을 소유하고 있지 않은 것 같습니다. [Steam 공개 설정]({{link}})에서 게임 세부 정보를 '공개'로 설정해 두지 않은 경우 이런 현상이 발생할 수 있습니다. 이것이 에러라고 생각하신다면, 관리자에게 문의해 주세요.",
+    "placeholder": " Steam 라이브러리에 소유한 게임 이름을 입력하세요...",
+    "playedNatively": "게임을 Proton을 사용하지 않고 Linux 전용 버전(native)으로 플레이하셨나요?",
+    "previousReportsExist": "이 게임에 대해 이전에 작성한 리뷰가 존재합니다.",
+    "runsNativeWarning": "선택한 게임은 Linux 전용 버전(native)이 존재합니다. 기여하기 전에 게임을 Linux 전용 버전(native)으로 실행하지 않았는지 다시 한번 확인해 주세요. Steam은 기본적으로 이 게임을 Proton을 사용해 실행하지 않지만, [강제로 Proton을 사용해 실행하게 할 수 있습니다]({{link}})."
   },
   "audioFaults": {
     "legend": "오디오",
@@ -452,33 +452,33 @@
   },
   "onlineMultiplayerAppraisal": {
     "additionalNotes": {
-      "label": "Further Details"
+      "label": "추가 정보"
     },
-    "prompt": "How would you rate the online multiplayer functionality? Please evaulate for lag, connectivity or input issues, matchingmaking failures etc."
+    "prompt": "온라인 멀티플레이 경험은 어땠나요? 통신 딜레이, 입력 등의 관점에서 자세히 작성해 주세요."
   },
   "onlineMultiplayerAttempted": {
-    "prompt": "Did you try to play multiplayer online?"
+    "prompt": "온라인 멀티플레이를 시도해 보셨나요?"
   },
   "onlineMultiplayerPlayed": {
-    "prompt": "Were you able to connect and play online multiplayer?"
+    "prompt": "온라인 멀티플레이가 작동했나요?"
   },
   "opens": {
-    "legend": "Opens",
-    "prompt": "Were you able to start up the game and view its initial menu?"
+    "legend": "실행 여부",
+    "prompt": "게임을 실행하고 처음 화면을 볼 수 있었나요?"
   },
   "performanceFaults": {
-    "legend": "Performance",
+    "legend": "성능",
     "options": {
       "significantSlowdown": {
-        "long": "Significant Performance Problems",
-        "short": "Significant Performance Problems"
+        "long": "중대한 성능 저하",
+        "short": "중대한 성능 저하"
       },
       "slightSlowdown": {
-        "long": "Slight Performance Problems",
-        "short": "Slight Performance Problems"
+        "long": "미약한 성능 저하",
+        "short": "미약한 성능 저하"
       }
     },
-    "prompt": "Did you experience unexpected slowness given your hardware?"
+    "prompt": "하드웨어 사양에 비해 예상치 못한 성능 저하가 있었나요?"
   },
   "prerequisites": {
     "missingProfileInfo": "Profile information incomplete. Missing: {{context}}",
