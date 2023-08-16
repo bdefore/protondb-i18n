@@ -102,8 +102,8 @@
   },
   "controlLayoutCustomization": {
     "additionalNotes": {
-      "label": "커스터마이징",
-      "prompt": "어떤 커스터마이징을 했는지 알려주세요."
+      "label": "팅커링",
+      "prompt": "팅커링"
     },
     "legend": "컨트롤 레이아웃 커스터마이징",
     "options": {
@@ -481,193 +481,193 @@
     "prompt": "하드웨어 사양에 비해 예상치 못한 성능 저하가 있었나요?"
   },
   "prerequisites": {
-    "missingProfileInfo": "Profile information incomplete. Missing: {{context}}",
-    "noValidDevices": "None of your devices have valid system information",
-    "notLoggedIn": "Not logged in with {{context}}"
+    "missingProfileInfo": "프로파일 정보 불완전. 누락된 정보: {{context}}",
+    "noValidDevices": "유효한 기기 정보가 등록된 기기가 없습니다.",
+    "notLoggedIn": "{{context}}로 로그인되지 않음"
   },
   "prerequisitesBlock": {
-    "action": "Go to profile",
-    "context": "You'll need to log into Steam and provide system information before submitting!",
-    "headline": "Not Ready Yet!"
+    "action": "프로파일로 가기",
+    "context": "리뷰를 제출하기 전 Steam에 로그인하여 시스템 정보를 입력해야 합니다.",
+    "headline": "잠깐!"
   },
   "preview": {
-    "intro": "Things to check for:",
+    "intro": "확인해야 할 것들:",
     "notes": [
-      "Is your system information up to date? You will need to go to your profile and provide your Steam information after a graphics driver update.",
-      "Have you selected the correct game? Some games have the same name as older versions i.e. GRID",
-      "Have you added descriptions in the right place? For example, write notes about graphics issues in that section rather than end notes."
+      "시스템 정보가 변경되지는 않았나요? 그래픽 드라이버 업데이트 등 하드웨어 변경사항이 발생한 경우는 Steam 하드웨어 정보를 다시 제공해야 합니다.",
+      "게임을 제대로 선택하셨나요? 어떤 게임들은 신버전과 구버전 이름이 일치하는 경우들도 있습니다. (예: GRID)",
+      "설명을 올바른 부분에 적었나요? 예를 들어, 그래픽 이슈는 추가 정보 대신 그래픽 이슈에 해당하는 부분에 적어주세요."
     ]
   },
   "prompts": {
-    "continuingDraft": "You are continuing from an automatically saved draft.",
-    "discardDraftWarning": "All of your responses will be permanently discarded.",
-    "startOver": "Start Over"
+    "continuingDraft": "자동저장된 글을 이어서 작성하고 있습니다.",
+    "discardDraftWarning" : "경고! 임시 저장된 모든 글이 삭제됩니다.",
+    "startOver": "처음부터 다시 작성하기"
   },
   "protonVersion": {
     "additionalNotes": {
-      "label": "Manual Proton Version",
-      "placeholder": "Must be valid Proton version string. Examples: {{examples}}"
+      "label": "Proton 버전 수동 입력",
+      "placeholder": "유효한 Proton 버전 문자열이여야 합니다. 예: {{examples}}"
     },
-    "prompt": "Which version are you using?"
+    "prompt": "어떤 Proton 버전을 사용하고 계신가요?"
   },
   "readability": {
-    "legend": "Difficult To Read Text",
-    "prompt": "Was there text in the game that was difficult to read?"
+    "legend": "텍스트 읽기 힘듦",
+    "prompt": "인게임 텍스트 중 읽기 힘들거나 깨진 텍스트가 있었나요?"
   },
   "saveGameFaults": {
-    "legend": "Save Games",
+    "legend": "게임 세이브",
     "options": {
       "errorLoading": {
-        "long": "Could not load a save game",
-        "short": "Loading"
+        "long": "저장된 게임 파일을 불러올 수 없음",
+        "short": "불러올 수 없음"
       },
       "errorSaving": {
-        "long": "Could not save",
-        "short": "Saving"
+        "long": "게임 저장 불가",
+        "short": "저장 불가"
       },
       "other": {
-        "long": "Other",
-        "short": "Other"
+        "long": "기타",
+        "short": "기타"
       }
     },
-    "prompt": "Did you experience any problems with save games?"
+    "prompt": "게임을 저장하고 불러올 때 문제가 있었나요?"
   },
   "secondaryLauncher": {
-    "legend": "Secondary Launcher Problem",
-    "prompt": "Did you have any trouble due to a secondary launch window?"
+    "legend": "두 번째 런처 문제",
+    "prompt": "두 개 이상의 런처 창에 의해 발생하는 문제가 있었나요?"
   },
   "significantBugs": {
-    "legend": "Significant Bugs",
-    "prompt": "Did you experience any other significant bugs?"
+    "legend": "중대한 버그",
+    "prompt": "다른 중대한 버그를 경험한 것이 있나요?"
   },
   "stabilityFaults": {
-    "legend": "Instability",
+    "legend": "불안정성",
     "options": {
       "frequentCrashes": {
-        "long": "Frequent crashes",
-        "short": "Frequently"
+        "long": "자주 튕김",
+        "short": "자주 튕김"
       },
       "notListed": {
-        "long": "Not listed",
-        "short": "Not listed"
+        "long": "목록에 없음",
+        "short": "목록에 없음"
       },
       "occasionally": {
-        "long": "Occasional crashes",
-        "short": "Occasionally"
+        "long": "가끔씩 튕김",
+        "short": "가끔씩 튕김"
       }
     },
-    "prompt": "Did you experience any stability issues?"
+    "prompt": "게임이 얼마나 자주 튕겼나요?"
   },
   "startsPlay": {
-    "legend": "Starts Play",
-    "prompt": "Were you able to begin playing?"
+    "legend": "플레이 시작",
+    "prompt": "게임 플레이를 시작할 수 있었나요?"
   },
   "stepHeadlines": {
-    "appSelection": "Game Selection",
-    "borked": "Borked!",
-    "customizations": "Customizations",
-    "finalNotes": "Verdict",
-    "multiplayer": "Multiplayer",
-    "preview": "Preview",
-    "setup": "Setup",
-    "startup": "Install and Startup",
-    "steamDeckRelated": "Steam Deck Related",
-    "technical": "Technical Details",
-    "unownedWarning": "Not In Library"
+    "appSelection": "게임 선택",
+    "borked": "작동 불가!",
+    "customizations": "팅커링 필요",
+    "finalNotes": "최종 확정",
+    "multiplayer": "멀티플레이어",
+    "preview": "미리보기",
+    "setup": "셋업",
+    "startup": "설치 및 실행",
+    "steamDeckRelated": "Steam Deck 관련",
+    "technical": "기술적인 디테일",
+    "unownedWarning": "소유하고 있지 않음"
   },
   "tinkerOverride": {
     "additionalNotes": {
-      "label": "Tinkering Description"
+      "label": "팅커링 설명"
     },
     "options": {
       "no": {
-        "long": "Nope - no tinkering here",
-        "short": "SteamPlay Report"
+        "long": "따로 팅커링하지 않음",
+        "short": "팅커링 안 함"
       },
       "yes": {
-        "long": "Yes",
-        "short": "Tinker Report"
+        "long": "게임을 팅커링 함",
+        "short": "팅커링 함"
       }
     },
-    "prompt": "Looks like a non-tinker report so far. Have you made any customizations that would warrant this being a Tinker report? [More info]({{link}})"
+    "prompt": "현재까지는 게임을 실행하기 위해 따로 팅커링을 한 것 같지는 않아 보입니다. 게임을 실행시키거나 원활히 플레이하기 위해 따로 팅커링을 한 것이 있나요? 팅커링을 했을 시, 팅커링된 리뷰로 분류됩니다. [자세히]({{link}})"
   },
   "triedOob": {
-    "prompt": "Your report will be classified as a tinker report. Have you tried playing with Steam and Proton without any tinkering?"
+    "prompt": "이 리뷰는 팅커링 리뷰로 분류될 것입니다. Steam 또는 Proton에 팅커링을 하지 않은 채로 실행해 보셨나요?"
   },
   "variant": {
     "additionalNotes": {
-      "label": "What's it called?"
+      "label": "어떤 버전의 Proton을 사용했습니까?"
     },
-    "legend": "Variant",
+    "legend": "종류",
     "options": {
       "experimental": {
-        "long": "Forced Experimental",
-        "short": "Experimental"
+        "long": "실험적 버전",
+        "short": "실험적 버전"
       },
       "ge": {
         "long": "Glorious Eggroll (GE)",
         "short": "GE"
       },
       "native": {
-        "long": "Native. No Proton.",
-        "short": "native"
+        "long": "Proton을 사용하지 않음",
+        "short": "Proton 사용 안 함"
       },
       "notListed": {
-        "long": "Not Listed",
-        "short": "Not Listed"
+        "long": "목록에 없음",
+        "short": "목록에 없음"
       },
       "official": {
-        "long": "The one Steam recommends by default",
-        "short": "Official"
+        "long": "Steam 기본 설정",
+        "short": "기본 버전"
       },
       "older": {
-        "long": "Switched to an older version",
-        "short": "Older"
+        "long": "오래된 버전을 사용힘",
+        "short": "오래된 버전"
       }
     },
-    "prompt": "What variant of Proton do you use?"
+    "prompt": "어떤 버전의 Proton을 사용했습니까?"
   },
   "verdict": {
     "additionalNotes": {
-      "label": "Summary (max {{count}} chars)",
-      "placeholder": "Add a short summary. This will be the headline of your report."
+      "label": "요약 (최대 {{count}} 문자)",
+      "placeholder": "짧은 요약을 작성해 주세요. 리뷰의 앞부분에 들어갈 것입니다."
     },
-    "prompt": "Would a typical gamer enjoy playing this game on Linux as you've played it?"
+    "prompt": "플레이해본 경험에 비추어 보아, 평균적인 Linux 게이머가 이 게임을 플레이할 수 있을 것이라고 생각하나요?"
   },
   "verdictOob": {
-    "prompt": "Launching straight from Steam, would a typical gamer enjoy playing this game on Linux even without tinkering?"
+    "prompt": "Steam에서 아무런 팅커링 없이 실행할 때, 평균적인 Linux 게이머가 이 게임을 플레이할 수 있을 것이라고 생각하나요?"
   },
   "welcome": {
-    "headline": "Welcome",
-    "intro": "Thanks for your interest in expanding ProtonDB's catalog of compatibility reports on Steam Play and Proton! Please keep in mind the following before you contribute",
+    "headline": "환영합니다",
+    "intro": "ProtonDB에 기여하는 것을 선택해 주셔서 대단히 감사드립니다! 기여하시기 전에, 다음의 사항들을 숙지해 주세요",
     "notes": [
-      "Reports are published on ProtonDB to help you, Valve, and developers to help fix games. Please keep your reports accurate, free of offensive language, and refrain from submitting reports just to promote your favorite game, distro or graphics card.",
-      "Submitting multiple reports for the same game is encouraged! As you play more or update Proton you'll have more to say. In this way ProtonDB differs from a wiki, since each report serves as a 'snapshot' of how the game played on that date with your configuration.",
-      "If you submit multiple reports, only your most recent will count towards the ProtonDB rating and only if your system information meets Proton's minimum requirements.",
-      "Your contributions will be publicly visible on ProtonDB and available in data exports under the Open Database License. Go [here]({{link}}) for more information."
+      "리뷰는 당신, Valve, 개발자들이 게임을 고치는 것을 돕기 위해 ProtonDB에 게재됩니다. 부정확하고, 외설적이고, 단순히 게임/배포판/그래픽 카드를 홍보하기 위해 제출하는 것이 아닌, 정말로 다른 사람들을 돕기 위한 리포트를 제출해 주세요.",
+      "같은 게임에 대해 여러 개의 리뷰를 제출하는 것은 언제나 환영입니다! Proton이 업데이트 되거나 게임을 더 깊게 플레이하는 동안 제공할 정보가 더 많아질 것입니다. 이 부분에서 ProtonDB는 일반적인 위키와는 다르며, 각각의 리뷰는 당시 상태와 날짜에 게임의 플레이 여부/성능을 확인할 수 있는 '스냅샷'의 역할을 합니다.",
+      "여러 개의 리뷰를 제출한다면, 가장 최근의 리뷰가 ProtonDB 레이팅에 반영되며 이는 사용자의 시스템 환경이 Proton을 실행하기 위한 최소 사양을 만족하는 경우에만 유효합니다.",
+      "당신의 기여는 ProtonDB에 공개적으로 게시되며, Open Database License가 적용되는 데이터 파일을 통해 접근할 수 있습니다. [자세히 알아보기]({{link}})"
     ],
-    "outro": "With that, let's get started!"
+    "outro": "이제 본격적으로 리뷰를 작성해 봅시다"
   },
   "windowingFaults": {
-    "legend": "Windowing",
+    "legend": "창",
     "options": {
       "activatingFullscreen": {
-        "long": "Fullscreen could not be initiated",
-        "short": "Activating Fullscreen"
+        "long": "전체 화면 실행 불가",
+        "short": "전체 화면 불가능"
       },
       "fullNotFull": {
-        "long": "Fullscreen was not fully full",
-        "short": "Size"
+        "long": "전체 화면이 화면에 맞지 않음",
+        "short": "전체 화면 크기 이상함"
       },
       "other": {
-        "long": "Other",
-        "short": "Other"
+        "long": "기타",
+        "short": "기타"
       },
       "switching": {
-        "long": "Could not conventionally escape from fullscreen (such as with Alt-Tab)",
-        "short": "Switching"
+        "long": "전체 화면에서 다른 창으로 전환하기 힘듦 (에를 들어 Alt-Tab으로 하는 것과 같이)",
+        "short": "전체 화면에서 전환하기 힘듦"
       }
     },
-    "prompt": "Did you experience any problems with windowing or fullscreen?"
+    "prompt": "창 관리나 전체 화면 플레이 시에 경험한 문제가 있었습니까?"
   }
 }
