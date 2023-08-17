@@ -1,230 +1,230 @@
 {
   "breakdown": {
-    "headline": "Popular Games",
-    "popularHeadline": "Ratings for {{count}} most popular",
-    "topHundred": "Top Hundred",
-    "topTen": "Top Ten",
-    "topThousand": "Top Thousand",
+    "headline": "인기 게임들",
+    "popularHeadline": "상위 {{count}}개 인기 게임들에 대한 평가",
+    "topHundred": "상위 100개",
+    "topTen": "상위 10개",
+    "topThousand": "상위 1000개",
     "topics": {
-      "allGames": "All Games",
-      "indie": "Indie",
-      "localMultiplayer": "Local Multiplayer",
-      "singlePlayer": "Single Player",
+      "allGames": "모든 게임",
+      "indie": "인디",
+      "localMultiplayer": "로컬 멀티플레이어",
+      "singlePlayer": "싱글플레이어",
       "vr": "VR"
     },
-    "unavailable": "Unavailable",
-    "unrated": "Unrated",
-    "unreported": "Unreported"
+    "unavailable": "표시 가능한 리뷰 없음",
+    "unrated": "평가 없음",
+    "unreported": "리뷰 없음"
   },
   "compatibilitySection": {
-    "aggregateHeadline": "In aggregate",
-    "chartTypeHeadline": "Category",
+    "aggregateHeadline": "총합",
+    "chartTypeHeadline": "카테고리",
     "chartTypes": {
       "fullSteamCatalog": {
-        "description": "All of Steam's Games",
-        "long": "Steam Catalog",
-        "short": "Steam Catalog"
+        "description": "모든 Steam 게임",
+        "long": "Steam 카탈로그",
+        "short": "Steam 카탈로그"
       },
       "indie": {
-        "description": "Games tagged with 'Indie'",
-        "long": "Indie",
-        "short": "Indie"
+        "description": "'인디' 태그가 붙은 게임",
+        "long": "인디",
+        "short": "인디"
       },
       "library": {
-        "description": "{{username}}'s games",
-        "long": "Personal Library",
-        "short": "Personal Library"
+        "description": "{{username}}의 게임",
+        "long": "개인 라이브러리",
+        "short": "개인 라이브러리"
       },
       "localMultiplayer": {
-        "description": "Games tagged with 'Local Multiplayer'",
-        "long": "Local Multiplayer",
-        "short": "Local Multiplayer"
+        "description": "'로컬 멀티플레이어' 태그가 붙은 게임",
+        "long": "로컬 멀티플레이어",
+        "short": "로컬 멀티플레이어"
       },
       "minProminence": {
-        "description": "Games that meet a minimum threshold of Steam followers",
-        "long": "Popular Games",
-        "short": "Popular Games"
+        "description": "Steam 팔로워가 일정 인원수 이상인 게임",
+        "long": "인기 게임",
+        "short": "인기 게임"
       },
       "singlePlayer": {
-        "description": "Games tagged with 'Singleplayer'",
-        "long": "Single Player",
-        "short": "Single Player"
+        "description": "'싱글플레이어' 태그가 붙은 게임",
+        "long": "싱글플레이어",
+        "short": "싱글플레이어"
       },
       "topHundred": {
-        "description": "Measured by peak concurrent players",
-        "long": "Top 100",
-        "short": "Top 100"
+        "description": "현재 동시 접속자 수 최대치로 측정",
+        "long": "상위 100개",
+        "short": "상위 100개"
       },
       "topTen": {
-        "description": "Measured by peak concurrent players",
-        "long": "Top 10",
-        "short": "Top 10"
+        "description": "현재 동시 접속자 수 최대치로 측정",
+        "long": "상위 10개",
+        "short": "상위 10개"
       },
       "topThousand": {
-        "description": "Measured by peak concurrent players",
-        "long": "Top 1000",
-        "short": "Top 1000"
+        "description": "현재 동시 접속자 수 최대치로 측정",
+        "long": "상위 1000개",
+        "short": "상위 1000개"
       },
       "vr": {
-        "description": "Games tagged with 'VR'",
+        "description": "'VR' 태그가 붙은 게임",
         "long": "VR",
         "short": "VR"
       }
     },
-    "decline": "Go back",
+    "decline": "뒤로 가기",
     "gameSorts": {
       "hoursPlayed": {
-        "long": "Sort By: Hours Played",
-        "short": "Hours Played"
+        "long": "정렬 기준: 플레이 시간",
+        "short": "플레이 시간"
       },
       "playerCount": {
-        "long": "Sort By: Player Count",
-        "short": "Player Count"
+        "long": "정렬 기준: 플레이어 수",
+        "short": "플레이어 수"
       },
       "rating": {
-        "long": "Sort By: Rating",
-        "short": "Rating"
+        "long": "정렬 기준: 평가",
+        "short": "평가"
       }
     },
-    "gamesLimit": "Game chart is limited to {{cap}} most popular games",
-    "gamesNotFound": "No games found. Ensure 'Game Details' is set to public in your [Steam settings]({{link}}).",
-    "greetLoggedIn": "Want to see how many games I can play?",
-    "lookupMyLibrary": "Load A Library",
-    "mostPlayedRatedUnverified": "Unofficially Looking Good Here",
-    "mostPlayedRatedUnverifiedExtra": "The following games are not yet officially Deck Verified as Verified nor Playable status, but according to community reports are looking good for play on Linux.",
-    "mostPlayedVerified": "Officially Verified",
-    "mostPlayedVerifiedExtra": "These are games you own that Valve has certified as Deck Verified: Verified or Playable status",
-    "owned": "Owned game",
-    "playedFor": "Played for {{hours}} hour(s)",
+    "gamesLimit": "게임 차트는 최대 상위 {{cap}} 개의 인기 게임들을 표시할 수 있습니다.",
+    "gamesNotFound": "게임을 찾을 수 없습니다. [Steam 설정]({{link}})에서 '게임 세부 정보' 항목이 공개로 설정되어 있는지 확인해 주세요.",
+    "greetLoggedIn": "얼마나 많은 게임을 플레이할 수 있는지 확인해 볼까요?",
+    "lookupMyLibrary": "라이브러리 불러오기",
+    "mostPlayedRatedUnverified": "비공식적으로 확인됨",
+    "mostPlayedRatedUnverifiedExtra": "다음 게임들은 공식적으로 Deck 인증을 받지 않았지만, 커뮤니티 리뷰들에 의하면 플레이 가능한 것으로 알려져 있습니다.",
+    "mostPlayedVerified": "공식적으로 확인됨",
+    "mostPlayedVerifiedExtra": "다음 게임들은 Valve에서 Deck 인증을 공식적으로 받은 게임들입니다.",
+    "owned": "소유한 게임들",
+    "playedFor": "{{hours}} 시간 플레이함",
     "ratingDefinitions": {
-      "?": "Pending: Needs more data",
-      "T1": "The highest tier. Ubiquitously positive reports.",
-      "T1andT2": "T2 or better",
-      "T1andT2andT3": "T3 or better",
-      "T2": "The second-highest tier. Some reports of trouble but is mostly good.",
-      "T3": "Middle tier. A mix of positive and negative.",
-      "T4": "Second-lowest tier. Negative reports overall.",
-      "T5": "Lowest tier. Borked!",
-      "borked": "Either won't start or is crucially unplayable",
-      "bronze": "Runs, but often crashes or has issues preventing from playing comfortably",
-      "gold": "Runs perfectly after tweaks",
-      "native": "Runs natively on Linux",
-      "pending": "Awaiting further reports before giving a rating",
-      "platinum": "Runs perfectly out of the box",
-      "platinumandgold": "Gold or better",
-      "platinumandgoldandsilver": "Silver or better",
-      "playable": "Playable",
-      "silver": "Runs with minor issues, but generally is playable",
-      "unknown": "Unknown",
-      "unsupported": "Unsupported",
-      "verified": "Verified",
-      "verifiedandplayable": "Verified or Playable"
+      "?": "대기 중: 더 많은 데이터 필요",
+      "T1": "가장 높은 티어. 잘 작동한다는 리뷰가 절대 다수.",
+      "T1andT2": "T2 또는 그 이상",
+      "T1andT2andT3": "T3 또는 그 이상",
+      "T2": "두 번째로 높은 티어. 가끔 문제가 있지만 거의 잘 작동함.",
+      "T3": "중간 티어. 잘 되는 경우도, 그렇지 않은 경우도 있음.",
+      "T4": "두 번째로 낮은 티어. 전반적으로 플레이하기 힘듦.",
+      "T5": "가장 낮은 티어. 작동하지 않음!",
+      "borked": "게임이 실행되지 않거나 플레이하기 매우 힘듦",
+      "bronze": "실행되긴 하나, 튕기는 등의 플레이 방해 이슈가 존재함",
+      "gold": "팅커링(tinkering, tweak)을 통해 매우 원활하게 작동함",
+      "native": "개발사에서 Linux를 지원함",
+      "pending": "평가 등록 전에 더 많은 리뷰를 기다리는 중",
+      "platinum": "아무런 문제 없이 설치 후 실행 가능",
+      "platinumandgold": "골드 또는 그 이상",
+      "platinumandgoldandsilver": "실버 또는 그 이상",
+      "playable": "플레이 가능",
+      "silver": "작은 이슈들이 있지만, 대체로 플레이 가능",
+      "unknown": "알 수 없음",
+      "unsupported": "지원되지 않음",
+      "verified": "인증됨",
+      "verifiedandplayable": "인증되거나 플레이 가능"
     },
-    "submit": "Sure!",
-    "tierSystemHeadline": "Rating System",
+    "submit": "네!",
+    "tierSystemHeadline": "평가 시스템",
     "tierSystems": {
       "deckVerified": {
-        "description": "Steam's official certification for play on the Steam Deck",
-        "long": "Steam Deck Verified",
-        "short": "Deck Verified"
+        "description": "Steam Deck에서 플레이할 수 있는 게임들에 Steam이 공식적으로 하는 인증",
+        "long": "Steam Deck 인증됨",
+        "short": "Deck 인증됨"
       },
       "protonDbClickPlay": {
-        "description": "ProtonDB's new appraisal: How does it play without any tinkering.",
-        "long": "ProtonDB Click Play",
-        "short": "Click Play"
+        "description": "ProtonDB의 새로운 평가 방식: 팅커링 없이(일반적인 설치 직후) 어느 정도 플레이 가능한지 척도.",
+        "long": "ProtonDB 클릭 플레이",
+        "short": "클릭 플레이"
       },
       "protonDbMedals": {
-        "description": "ProtonDB's appraisal: How does it play. You may need to tinker.",
-        "long": "ProtonDB Medals",
-        "short": "Medals"
+        "description": "ProtonDB의 평가 방식: 어느 정도 플레이 가능한지 (팅커링 포함)",
+        "long": "ProtonDB 메달",
+        "short": "메달"
       },
       "protonDbTinker": {
-        "description": "ProtonDB's new appraisal: How does it play. You may need to tinker.",
-        "long": "ProtonDB Tinker",
-        "short": "Tinker"
+        "description": "ProtonDB의 새로운 평가 방식: 어느 정도 플레이 가능한지 (팅커링한 경우만)",
+        "long": "ProtonDB 팅커",
+        "short": "팅커"
       }
     },
-    "tryYourLibrary": "Try your library",
-    "useLibrary": "Use",
-    "userNotFound": "User not found. Ensure 'My Profile' and 'Game Details' are set to public in your [Steam settings]({{link}}).",
-    "using": "Using",
-    "viewSteamCatalog": "View Steam catalog",
-    "yourLibrary": "Your Library",
-    "yourSteamId": "Your Steam ID"
+    "tryYourLibrary": "사용자 라이브러리로 시도",
+    "useLibrary": "사용",
+    "userNotFound": "사용자를 찾을 수 없음. '프로필'과 '게임 세부 정보' 항목이 공개로 설정되어 있는지 [Steam 설정]({{link}})에서 확인해 주세요.",
+    "using": "사용 중",
+    "viewSteamCatalog": "Steam 카탈로그 보기",
+    "yourLibrary": "사용자의 라이브러리",
+    "yourSteamId": "사용자의 Steam ID"
   },
   "contributorSettings": {
-    "addAPCDevice": "Add a PC",
-    "addASteamDeckDevice": "Add a Steam Deck",
-    "headline": "Contributor Settings",
-    "intro": "Add a device to contribute reports. ProtonDB now supports storing multiple device configurations. Devices are divided into one of two types: PC or Steam Deck",
-    "intro2": "Some further detail:",
-    "invalidInfo": "Device details are invalid. Must be fixed to be used for contributing.",
-    "notOnSteamDeck": "Log into ProtonDB with a Steam Deck on Desktop Mode to add it to your profile. Disconnect any peripherals or monitors first.",
-    "otherDetail1": "Devices (as well as preferences) are now persisted across anywhere you login.",
-    "otherDetail2": "If you provide a single device, it will be automatically be applied during the contribute flow.",
-    "otherDetail3": "If you provide more than one, you will be prompted to select one, by its name, at the 'Setup' step.",
-    "otherDetail4": "Changes to your devices will not be ready until you hit Save.",
-    "otherDetail5": "Only the inferrence of your system information is ever made public, never raw Steam data.",
-    "validInfo": "Device details are valid and may be used for contributing.",
-    "yourDevices": "Your Devices"
+    "addAPCDevice": "PC 추가",
+    "addASteamDeckDevice": "Steam Deck 추가",
+    "headline": "기여 설정",
+    "intro": "리뷰를 기여하기 위해서는 장치를 추가해야 합니다. ProtonDB는 여러 장치를 한꺼번에 기록할 수 있습니다. 장치는 PC와 Steam Deck으로 구분됩니다.",
+    "intro2": "추가 정보:",
+    "invalidInfo": "장치 정보가 올바르지 않습니다. 기여하기 위해서는 올바른 장치 정보가 필요합니다.",
+    "notOnSteamDeck": "Steam Deck 데스크탑 모드에서 ProtonDB에 로그인 해 Steam Deck을 프로파일에 추가할 수 있습니다. 추가하기 위해선 USB 장치나 외부 모니터를 연결 해제하셔야 합니다.",
+    "otherDetail1": "장치와 설정 정보는 서버에 저장되어 로그인하는 브라우저에서 자동으로 동기화됩니다.",
+    "otherDetail2": "한 개의 장치만 등록되어 있는 경우, 기여하는 과정에서 자동으로 선택됩니다.",
+    "otherDetail3": "두 개 이상의 장치가 등록되어 있는 경우, '셋업' 과정에서 하나를 선택하실 수 있습니다.",
+    "otherDetail4": "'셋업'을 누르기 전까진 장치 변경의 효과가 나타나지 않을 것입니다.",
+    "otherDetail5": "장치 정보는 극히 일부만 공개됩니다. 절대 (raw) Steam 데이터 전체가 공개되지 않습니다.",
+    "validInfo": "장치 정보가 올바르며 기여할 때 사용할 수 있습니다.",
+    "yourDevices": "내 장치"
   },
   "dashboard": {
-    "description1": "ProtonDB's new Click Play rating is still being fine-tuned. For more information, see the [news post]({{link1}}). Tens of thousands of authors contribute the reports that power this visualization. You can too! Reports are available via ODBL license [in monthly exports]({{link2}}).",
-    "description2": "This site was created by Buck DeFore. It's an indepdendent community project unaffiliated with Valve or Steam. If you appreciate this dashboard, consider [supporting me on Patreon]({{link}}).",
-    "headline": "How many games work on Linux? On the Steam Deck?"
+    "description1": "ProtonDB의 새 클릭 플레이 평가는 아직 시범 운영 중에 있습니다. 더 많은 내용은 [포스팅]({{link1}})을 참고해 주세요. 수천, 수만 명의 유저가 이 데이터를 위해 기여 중입니다. 물론 당신도 기여할 수 있습니다! 평가들은 [한 달 마다 업데이트되는 데이터베이스 파일]({{link2}})에서 ODBL 라이선스 하에 이용할 수 있습니다.",
+    "description2": "본 사이트는 Buck DeFore (@bdefore)에 의해 만들어졌습니다. 사이트는 Valve 또는 Steam과 직접적인 관련이 없으며, 독립적인 커뮤니티 프로젝트입니다. 이 대시보드를 유용하게 이용 중이시라면 [Patreon에서 제게 기부해 주세요]({{link}}).",
+    "headline": "얼마나 많은 게임이 Linux에서 작동할까요? Steam Deck에서는 어떤가요?"
   },
   "explore": {
     "headlines": {
-      "antiCheat": "Uses Anti-Cheat",
-      "dateAdded": "Recently Added",
-      "fixWanted": "Fix Wanted",
-      "heavilyReported": "Many Recent Reports",
-      "highestRated": "Highest Rated on SteamDB",
-      "hoursPlayed": "Hours Played",
-      "inLibrary": "In Library",
-      "inWishlist": "In Wishlist",
-      "mostBorked": "Most Borked Reports",
-      "mostPopular": "Most Popular",
-      "percentPositive": "Well Reviewed on Store",
-      "playerCount": "Most Active Players",
-      "popular": "Most Steam Followers",
-      "rank": "Most Popular",
-      "recentlyImproved": "Recently Improved",
-      "recentlyReleased": "Recently Released",
-      "releaseDate": "By Release Date",
-      "userScore": "Well Reviewed",
-      "wellRatedHere": "Well Rated Here"
+      "antiCheat": "안티치트 사용",
+      "dateAdded": "최근 추가됨",
+      "fixWanted": "고쳐야 될 것들",
+      "heavilyReported": "최근 많이 리뷰됨",
+      "highestRated": "ProtonDB 최고 평점",
+      "hoursPlayed": "플레이 타임",
+      "inLibrary": "라이브러리에 있음",
+      "inWishlist": "위시리스트에 있음",
+      "mostBorked": "가장 많은 '작동하지 않음' 리뷰",
+      "mostPopular": "가장 인기 있음",
+      "percentPositive": "Steam 스토어 최고 평점",
+      "playerCount": "가장 많은 활성 플레이어",
+      "popular": "가장 많은 스팀 팔로워",
+      "rank": "가장 인기 있음",
+      "recentlyImproved": "최근 향상됨",
+      "recentlyReleased": "최근 출시됨",
+      "releaseDate": "출시일 순",
+      "userScore": "좋은 평가",
+      "wellRatedHere": "ProtonDB에서 좋은 평가"
     },
-    "layout": "Layout",
-    "loadError": "Error loading games!",
-    "notLoggedIn": "Cannot load a library without a Steam ID. Visit your [Profile]({{link}}) to add one.",
+    "layout": "레이아웃",
+    "loadError": "게임 목록 로드 중 오류가 발생했습니다!",
+    "notLoggedIn": "Steam ID 없이 라이브러리를 로드할 수 없습니다. [프로파일]({{link}})에서 추가해 주세요.",
     "sorts": {
-      "dateAdded": "Recently Added",
-      "fixWanted": "Fix Wanted",
-      "heavilyReported": "Recent Report Tally",
-      "hoursPlayed": "Hours played",
-      "mostBorked": "Most Borked",
-      "percentPositive": "Percent Positive",
-      "playerCount": "Player Count",
-      "popular": "Popular",
-      "rank": "Most Popular",
-      "recentlyImproved": "Recently Improved",
-      "recentlyReleased": "Recently Released",
-      "releaseDate": "Release Date",
-      "userScore": "User Score",
-      "wilsonRating": "ProtonDB Rating"
+      "dateAdded": "최근 추가됨",
+      "fixWanted": "고쳐야 될 것들",
+      "heavilyReported": "최근 많이 리뷰됨",
+      "hoursPlayed": "플레이 타임",
+      "mostBorked": "'작동하지 않음' 리뷰 비율",
+      "percentPositive": "긍정적 (%)",
+      "playerCount": "플레이어 수",
+      "popular": "스팀 팔로워",
+      "rank": "인기",
+      "recentlyImproved": "최근 향상됨",
+      "recentlyReleased": "최근 출시됨",
+      "releaseDate": "출시일",
+      "userScore": "평가",
+      "wilsonRating": "ProtonDB 평가"
     },
-    "tagData": "Tag data",
+    "tagData": "태그 정보",
     "toggles": {
-      "antiCheat": "Anti-Cheat",
-      "deckVerified": "Deck Verified",
-      "excludeNative": "Exclude Native",
-      "lackReports": "Lack Reports",
-      "restrictToLibrary": "Library",
-      "untested": "Lack Reports",
-      "userTags": "User Tags",
-      "whitelisted": "Deck Verified",
-      "wishlisted": "Wishlisted"
+      "antiCheat": "안티 치트",
+      "deckVerified": "Deck 인증됨",
+      "excludeNative": "Linux 네이티브 제외",
+      "lackReports": "리뷰 부족",
+      "restrictToLibrary": "내 라이브러리만",
+      "untested": "리뷰 부족",
+      "userTags": "사용자 지정 태그",
+      "whitelisted": "Deck 인증됨",
+      "wishlisted": "내 위시리스트만"
     }
   },
   "filters": {
@@ -233,83 +233,83 @@
         "label": "CPU"
       },
       "distro": {
-        "label": "Distro"
+        "label": "배포판(distro, distribution)"
       },
       "gpu": {
         "label": "GPU"
       },
       "persist": {
-        "prompt": "Persist Across Site?"
+        "prompt": "사이트에 정보 저장?"
       },
       "query": {
-        "label": "Query"
+        "label": "쿼리"
       },
       "type": {
-        "label": "Type"
+        "label": "종류"
       }
     }
   },
   "gameDetails": {
-    "githubIssueSearch": "Github Issue Search",
-    "infoNotFound": "Could not acquire information for App ID: {{entry}}. This can happen if a game was removed from the store.",
-    "minimumRequirements": "Minimum Requirements",
-    "nativelySupports": "Natively Supports",
+    "githubIssueSearch": "Github 이슈 검색",
+    "infoNotFound": "앱 ID: {{entry}}에 대한 정보를 찾을 수 없습니다. Steam 스토어에서 앱이 제거된 경우 이런 일이 발생할 수 있습니다.",
+    "minimumRequirements": "최소 사양",
+    "nativelySupports": "Linux 자체 지원",
     "notices": {
       "antiCheat": {
         "battlEye": {
-          "explanation": "This game is known to utilize [BattlEye](https://www.battleye.com). BattlEye [can be used in Linux](https://twitter.com/TheBattlEye/status/1441477816311291906), but multiplayer functionality varies depending on how the developer has implemented it."
+          "explanation": "이 게임은 [BattlEye](https://www.battleye.com)를 사용하는 것으로 알려져 있습니다. BattlEye는 [Linux에서 사용할 수 있지만](https://twitter.com/TheBattlEye/status/1441477816311291906), 게임에 따라 멀티플레이어 가능 여부는 다를 수 있습니다."
         },
         "eac": {
-          "explanation": "This game is known to utilize [Easy Anti-Cheat](https://www.easy.ac). EAC has [limited support for Linux](https://dev.epicgames.com/en-US/news/epic-online-services-launches-anti-cheat-support-for-linux-mac-and-steam-deck), but multiplayer functionality varies depending on how the developer has implemented it."
+          "explanation": "이 게임은 [Easy Anti-Cheat](https://www.easy.ac)를 사용하는 것으로 알려져 있습니다. EAC는 [제한적으로 Linux를 지원하지만](https://dev.epicgames.com/en-US/news/epic-online-services-launches-anti-cheat-support-for-linux-mac-and-steam-deck), 게임에 따라 멀티플레이어 가능 여부는 다를 수 있습니다."
         },
-        "headline": "Multiplayer Support"
+        "headline": "멀티플레이어 지원"
       },
       "nativeDiscrepancy": {
-        "explanation": "Although this game has a Linux-native build available, Steam does not list it as having Linux support. This can happen if a game has an unofficial, unfinished, or unsupported build. You may need to [force Steam to enable Proton for the game](/help/troubleshooting-faq#how-do-i-run-a-game-with-proton-even-though-it-has-a-native-linux-version) in order to run properly.",
-        "headline": "Native Support"
+        "explanation": "이 게임은 Linux 전용(native) 빌드가 존재하지만, Steam은 이 게임이 Linux를 지원한다고 판단하지 않습니다. 게임이 비공식적이거나, 미완성이거나, 지원되지 않는 빌드를 배포하고 있다면 이 이슈가 일어날 수 있습니다. 게임을 정상적으로 실행하기 위해 [Proton을 강제로 사용](/help/troubleshooting-faq#how-do-i-run-a-game-with-proton-even-though-it-has-a-native-linux-version)해야 할 수 있습니다.",
+        "headline": "Linux 전용(native) 버전 지원"
       }
     }
   },
   "home": {
-    "compatibilityScoresDescription": "How's this work? Read about it on the [news post]({{link1}}). Also, you can use a bigger version on [the new Dashboard page]({{link2}}).",
+    "compatibilityScoresDescription": "평점 기준이 궁금하신가요? [이 포스트]({{link1}})에서 자세히 알아볼 수 있습니다. 또한, 더 큰 버전을 [새로운 대시보드 페이지]({{link2}})에서 볼 수 있습니다.",
     "getStartedLinks": [
-      "[Steam's Official Steam Play Page](https://store.steampowered.com/steamplay)",
-      "[A guide to migrating to Linux](https://www.reddit.com/r/linux_gaming/comments/9oqq3w/guide_migrating_to_linux_in_2019/)",
-      "[What is Vulkan?](https://www.reddit.com/r/linux_gaming/comments/9ritk1/not_sure_i_quite_understand_can_someone_explain/)"
+      "[Steam 공식 Steam Play 페이지](https://store.steampowered.com/steamplay)",
+      "[Linux로 넘어올 준비 하기 (2019 버전, en)](https://www.reddit.com/r/linux_gaming/comments/9oqq3w/guide_migrating_to_linux_in_2019/)",
+      "[Vulkan이 뭘까? (en)](https://www.reddit.com/r/linux_gaming/comments/9ritk1/not_sure_i_quite_understand_can_someone_explain/)"
     ],
-    "headline": "Welcome to your home for crowdsourced Linux and Steam Deck game compatibility reports!",
+    "headline": "함께 만들어 가는 Linux와 Steam Deck 게임 호환성 리뷰",
     "howDoIHelp": {
-      "answer": "Give Linux a try! If you are new, not to worry. Here is a list of guides to get started. And if you want to help Valve and Proton to improve, contribute your reports here on ProtonDB!",
-      "question": "Cool! How do I help?"
+      "answer": "Linux를 써보시는 것은 어떠신가요? 새로 오신 뉴비 분들이시라면, 너무 두려워할 필요 없습니다. 여행의 처음을 책임져 줄 가이드들을 드릴게요. 그리고 Valve와 Proton에 기여하고 싶다면, ProtonDB에 리뷰를 제출해 보세요!",
+      "question": "와! 어떻게 기여할 수 있죠?"
     },
-    "letsGetStarted": "Let's get started.",
-    "sampleGames": "Here is a sample of some popular games that are officially not whitelisted yet, but have received many Platinum reports on ProtonDB",
-    "search": "Search for a game...",
+    "letsGetStarted": "시작해 봅시다.",
+    "sampleGames": " 이 게임들은 공식적으로 Linux에서 잘 작동한다고 승인되지는 않았지만, 복잡한 과정 없이 매우 잘 작동한다는 리뷰가 대다수인 게임들 중 일부입니다.",
+    "search": "게임을 찾아보세요...",
     "stats": {
-      "atLeastOneRecommends": "recommended by at least one",
-      "atLeastThreeRecommend": "recommended by three or more",
-      "atLeastTwoRecommend": "recommended by two or more",
-      "deckVerified": "verified",
-      "deckVerifiedHeader": "Deck Verified Games",
-      "deckVerifiedPlayable": "verified or playable",
-      "gamesReported": "games reported",
-      "gamesWithReports": "games with reports",
-      "gamesWork": "games work",
-      "gamesWorkExplanation": "Have at least one Thumbs Up or Platinum (legacy) report",
-      "protonDbGamesHeader": "Games on ProtonDB",
-      "reportsWritten": "reports written"
+      "atLeastOneRecommends": "하나 이상이 추천함",
+      "atLeastThreeRecommend": "셋 이상이 추천함",
+      "atLeastTwoRecommend": "둘 이상이 추천함",
+      "deckVerified": "인증됨",
+      "deckVerifiedHeader": "Deck 인증된 게임들",
+      "deckVerifiedPlayable": "인증되었거나 플레이 가능",
+      "gamesReported": "리뷰된 게임들",
+      "gamesWithReports": "리뷰가 존재하는 게임들",
+      "gamesWork": "작동하는 게임들",
+      "gamesWorkExplanation": "최소 하나의 Thumbs Up 혹은 플래티넘 리뷰가 있음",
+      "protonDbGamesHeader": "ProtonDB에 등록된 게임들",
+      "reportsWritten": "작성된 리뷰들"
     },
     "theImpact": {
-      "answer": "Steam Play now officially supports a limited but growing set of 'whitelisted' games that are deemed Proton-compatible and play on Linux. Based on ProtonDB reports, a significant number of non-whitelisted games, including many popular titles, play just as well as on Windows.",
-      "question": "The Impact"
+      "answer": "Steam Play는 이제 공식적으로 제한적이지만 점점 커지고 있는 '승인된' Proton 호환 게임들 목록을 제공합니다. 그러나 ProtonDB 리뷰들에 비추어 보아, 꽤 많은 '승인되'지 않은 게임들이 Windows에서 작동하는 것과 똑같이 잘 작동합니다.",
+      "question": "효과"
     },
     "whatIsProton": {
-      "answer": "Proton is a new tool released by Valve Software that has been integrated with Steam Play to make playing Windows games on Linux as simple as hitting the Play button within Steam. Underneath the hood, Proton comprises other popular tools like Wine and DXVK among others that a gamer would otherwise have to install and maintain themselves. This greatly eases the burden for users to switch to Linux without having to learn the underlying systems or losing access to a large part of their library of games. Proton is still in its infancy so support is inconsistent, but regularly improving.",
-      "question": "What is Proton?"
+      "answer": "Proton은 Valve Software에서 제공하는 새로운 도구입니다. Proton은 Steam Play와 융합되어 Windows 게임을 Linux에서 실행하는 것을 플레이 버튼 하나만 눌러도 되는 정도로 쉽게 만들어 줍니다. 조금 더 기술적인 얘기를 해 보자면, Proton은 유명한 오픈 소스 소프트웨어 Wine과 DXVK를 설치하고 관리하는 것을 자동화해 줍니다. 이는 머리 아프게 직접 패키지와 설정 파일을 관리하거나, 적은 수의 게임들만 플레이할 수 있게 되는 것을 방지하고, Linux로 전환하려는 유저들의 이런 걱정을 덜어 줍니다. Proton은 아직 개발 중에 있지만, 여러 기여자들 덕분에 주기적으로 나아지는 중입니다.",
+      "question": "Proton이 무엇인가요?"
     },
     "whatIsProtonDb": {
-      "answer": "The goal of ProtonDB is to gather reports from other gamers as they test games with Proton on Linux and provide aggregate scores of how well games perform. A growing pool of suggestions provides tweaks that you can try to get games working while Proton continues development. In addition to this, you may explore the Steam game catalog on this site to browse and discover a wide range of titles that were previously unavailable for use on Linux.",
-      "question": "What is ProtonDB?"
+      "answer": "ProtonDB의 주 목적은 다른 여러 게이머들이 각자 자신의 Linux 환경에서 Proton을 사용해 본 후기를 모아 새로운 사용자들에게 참고와 가이드의 목적으로 제공하는 것입니다. 게임이 작동하지 않아도 다른 유저들이 게임을 작동시키기 위해 노력한 방법을 보고 점차 발전하는 Proton 아래에서 게임을 작동하게 만들 수 있고, 이전에 Linux에서 플레이할 수 없었던 게임들을 이 사이트의 카탈로그를 통해 발견할 수 있습니다.",
+      "question": "ProtonDB는 또 뭔가요?"
     },
     "whyBigDeal": {
       "answer": "The Linux desktop experience has improved by leaps and bounds in the last year or two. Most of what you may be used to on Windows or MacOS is possible on Linux without having to tinker too much, and the tinkering can even be fun. Meanwhile, more and more of our daily interactions with a computer happen online, and browsers behave much the same on Linux as they do on other operating systems. Proton and Steam Play address a significant obstacle to adoption: gaming, where until recently there was limited compatibility.",
@@ -318,11 +318,11 @@
     "youtubeId": "Co6FePZoNgE"
   },
   "medals": {
-    "borked": "Borked",
-    "bronze": "Bronze",
-    "gold": "Gold",
-    "platinum": "Platinum",
-    "silver": "Silver"
+    "borked": "작동하지 않음",
+    "bronze": "브론즈",
+    "gold": "골드",
+    "platinum": "플래티넘",
+    "silver": "실버"
   },
   "ratingDefinitions": {
     "categories": {
