@@ -312,8 +312,8 @@
       "question": "ProtonDB는 또 뭔가요?"
     },
     "whyBigDeal": {
-      "answer": "The Linux desktop experience has improved by leaps and bounds in the last year or two. Most of what you may be used to on Windows or MacOS is possible on Linux without having to tinker too much, and the tinkering can even be fun. Meanwhile, more and more of our daily interactions with a computer happen online, and browsers behave much the same on Linux as they do on other operating systems. Proton and Steam Play address a significant obstacle to adoption: gaming, where until recently there was limited compatibility.",
-      "question": "Why is this a big deal?"
+      "answer": "데스크탑에서 Linux를 사용하는 환경은 최근 1~2년 사이에 많은 도약과 발전을 통해 매우 나아졌습니다. Windows와 MacOS에서 하던 것들을 Linux에서 힘들이지 않고 손쉽게 할 수 있게 되었으며, 그 과정에서 발생하는 문제를 해결하는 것조차도 하나의 재미있는 일이 되었습니다. 또한, 일상의 많은 부분이 점점 오프라인에서 온라인으로 전환되고 있는 와중에 Linux에서 웹을 탐색하거나, 자료를 찾거나 하는 일들도 다른 운영체제에서 하는 것과 마찬가지로 다양한 브라우저들 덕분에 매우 간단한 일이 되었습니다. Proton과 Steam Play는 이런 일상 중에서도 진척이 더뎠던 부분, 게이밍을 더 손쉽게 만드는 중요한 역할을 하고 있습니다.",
+      "question": "이게 그래서 왜 중요한 거죠?"
     },
     "youtubeId": "Co6FePZoNgE"
   },
@@ -326,71 +326,71 @@
   },
   "ratingDefinitions": {
     "categories": {
-      "clickPlay": "Click Play: Without any tinkering",
-      "deck": "How it plays on the Steam Deck",
-      "tinker": "Tinker: Some assembly required"
+      "clickPlay": "클릭 플레이: 특별한 팅커링 없이 잘 작동하는지",
+      "deck": "Steam Deck에서 잘 작동하는지",
+      "tinker": "팅커: 조금의 문제 해결 과정 이후 잘 작동하는지"
     },
     "explanations": {
-      "borked": "Either won't start or is crucially unplayable",
-      "bronze": "Runs, but often crashes or has issues preventing from playing comfortably",
-      "gold": "Runs perfectly after tweaks",
-      "native": "Runs natively on Linux",
-      "pending": "Awaiting further reports before giving a rating",
-      "platinum": "Runs perfectly out of the box",
-      "silver": "Runs with minor issues, but generally is playable"
+      "borked": "게임이 실행되지 않거나 게임을 플레이할 수 없을 정도의 중대한 문제가 있는 경우",
+      "bronze": "실행되기는 하나, 가끔씩 크고작은 문제들에 의해 게임 플레이가 방해받는 경우",
+      "gold": "약간의 설정을 거치면 잘 실행됨",
+      "native": "Linux 네이티브(native) 버전이 지원됨",
+      "pending": "평가하기 전 추가적인 리뷰를 더 기다리는 중",
+      "platinum": "설치 버튼만 누르면 알아서 잘 작동함",
+      "silver": "사소한 문제들이 있지만 잘 플레이할 수 있음"
     },
-    "headline": "Rating Definitions",
+    "headline": "평가 기준",
     "ratings": {
-      "?": "Pending: Needs more data",
-      "A": "A Tier: Mighty fine",
-      "B": "B Tier: Very good but room to improve",
-      "C": "C Tier: Needs some work",
-      "D": "D Tier: Hobbled by issues",
-      "F": "F Tier: Borked!",
-      "S": "S Tier: Nary a blemish"
+      "?": "대기 중: 더 많은 데이터 필요,
+      "A": "A 티어: 매우 괜찮음",
+      "B": "B 티어: 괜찮지만 개선할 수 있음",
+      "C": "C 티어: 개선이 필요함",
+      "D": "D 티어: 문제가 많음",
+      "F": "F 티어: 작동하지 않음!",
+      "S": "S 티어: 천사의 선물"
     },
-    "reports": "Click to view reports"
+    "reports": "리뷰를 보려면 클릭"
   },
   "specs": {
     "cpu": "CPU",
     "gpu": "GPU",
-    "gpuDriver": "GPU Driver",
-    "kernel": "Kernel",
-    "os": "Distro",
-    "otherSpecs": "Other Specs",
+    "gpuDriver": "GPU 드라이버",
+    "kernel": "커널",
+    "os": "배포판",
+    "otherSpecs": "기타 사양",
     "ram": "RAM"
   },
   "stats": {
-    "analysisInByTheNumbers1": "Analysis in By The Numbers #1",
-    "byCommonDisplayDrivers": "By Common Display Drivers",
-    "byDistro": "By Distro",
-    "byGpu": "By GPU",
-    "byProtonVersion": "By Proton Version",
-    "dailyReportsHeadline": "Daily Reports (Last {{days}} Days)",
-    "downloadData": "Download Data",
-    "gameRatingDistribution": "Game Rating Distribution",
-    "gamesWithNOrMoreReports": "Games With N Or More Reports",
-    "reportRatingDistributionOverTime": "Report Rating Distribution Over Time",
-    "whenMeetingMinimumRequirements": "When Meeting Minimum Requirements"
+    "analysisInByTheNumbers1": "#1 숫자들로 분류",
+    "byCommonDisplayDrivers": "흔한 디스플레이 드라이버로 분류",
+    "byDistro": "배포판으로 분류",
+    "byGpu": "GPU로 분류",
+    "byProtonVersion": "Proton 버전으로 분류",
+    "dailyReportsHeadline": "일일 리뷰들 (최근 {{days}}일)",
+    "downloadData": "다운로드 정보로 분류",
+    "gameRatingDistribution": "게임 평가 분포로 분류",
+    "gamesWithNOrMoreReports": "N개 이상의 리뷰가 있는 게임",
+    "reportRatingDistributionOverTime": "게임 평가 증/감으로 분류",
+    "whenMeetingMinimumRequirements": "최소 사양 충족"
   },
   "steamAuthor": {
-    "hoursOnLinux": "{{time}} on Linux",
-    "hoursOverall": "{{time}} overall",
-    "timeWithProton": "{{time}} with Proton"
+    "hoursOnLinux": "리눅스에서 {{time}}시간 플레이함",
+    "hoursOverall": "전체 {{time}}시간 플레이함",
+    "timeWithProton": "Proton으로 {{time}}시간 플레이함"
   },
   "suggestions": {
-    "headline": "Ready for more?",
-    "intro": "The following games have been selected based on hours you've played, popularity, and SteamDB rating. They all lack reports and some may only need one more to get a {{siteName}} rating! You can reload for other suggestions or go to [Lack Reports]({{link}}) filter of Explore page for even more."
+    "headline": "이런 것들은 어떤가요?",
+    "intro": "이 게임들은 사용자의 플레이 시간, 인기, SteamDB 평가에 의해 자동으로 추천되었습니다. 이 게임들은 모두 리뷰가 부족하며 이들 중 어떤 것들은 한 개의 리뷰만 더 있으면 {{sitename}} 평가를 받을 수 있습니다! 새로고침을 하여 다른 게임들을 추천받으시거나 둘러보기에서 [리뷰 부족함]({{link}}) 필터를 선택하여 더 많은 게임들을 확인할 수 있습니다."
   },
   "systemInfo": {
-    "headline": "System Information",
-    "howTo": "PC: Gathering Steam information is straightforward if you have access to Steam settings on the machine where you play your games. [Go here to learn how]({{link}}). Some users have reported that they need to press Ctrl-A to select everything before right clicking. You may omit everything starting with 'LD Scout Report' or if provided it will be stripped out automatically upon saving.",
-    "howToSteamDeck": "Steam Deck: Adding this device can currently only be done from Desktop Mode of a Steam Deck. Since devices now persist across login sessions, you only need to do this once and may author reports from another machine afterwards.",
-    "intro": "Reports have more utility and lend more credibility by displaying the hardware and software the game was tested on. To keep this as accurate and consistent as possible, we leverage the system information reported by Steam itself.",
-    "parseFailure": "Parsing failed. If you are certain you copied correctly please let us know on Discord",
-    "parseSuccess": "System Information Parsed Successfully!",
-    "pasteInstructions": "Paste Steam System Info Here",
-    "unsupportedHeadline": "Unsupported Drivers Detected",
-    "unsupportedWarning": "Your system's display driver does not meet [Proton's current minimum requirements]({{link}})! You may experience crashes, slow performance, or graphical degradations. You may still submit reports and there is still value in your contributions, but your reports will show your graphics drivers in red and will not be counted toward aggregate ratings for games. Please update your drivers!"
+    "headline": "시스템 정보",
+    "howTo": "PC: Steam 정보를 확인하는 것은 Steam 설정에 접근할 수 있는 환경이라면 매우 쉽습니다. [방법은 이곳에 상세히 나와 있습니다]({{link}}). 어떤 사용자들은 우클릭 전에 Ctrl-A를 눌러 전체 선택을 해야 정보를 복사할 수 있을 수도 있습니다. 'LD Scout Report' 부분은 직접 제거하셔도 되지만, 저장 시 자동으로 제거되어 저장됩니다.",
+    "howToSteamDeck": "Steam Deck: Steam Deck은 Steam Deck의 데스크탑 모드에서만 추가할 수 있습니다. 설정은 사이트 내부적으로 동기화 되므로, 한 번만 장치를 등록하고 다른 기기에서 리뷰를 작성하시는 것도 가능합니다",
+    "intro": "리뷰들은 게임이 실행된 하드웨어와 소프트웨어에 관련된 정보가 있어면 더 유용하고 신뢰도가 높습니다. 이 정보를 최대한 정확하고 지속적으로 관리하기 위해 이 사이트에서는 Steam 클라이언트에서 제공하는 시스템 정보 형식을 사용합니다.",
+    "parseFailure": "처리 실패. 복사를 제대로 한 것이 확실하다면 Discord를 통해 연락해 주세요.",
+    "parseSuccess": "시스템 정보 처리 성공!",
+    "pasteInstructions": "이곳에 시스템 정보를 붙여넣으세요",
+    "unsupportedHeadline": "미지원 드라이버 감지됨",
+    "unsupportedWarning": "사용자의 디스플레이 드라이버가 [Proton을 실행하기 위한 최소 사양]({{link}})을 만족하지 않습니다! 게임 실행 시 크래시, 성능 저하, 그래픽 품질 저하 등을 경험하실 수도 있습니다. 리뷰는 계속 기여할 수 있고 실제로도 가치가 있지만, 리뷰에서 그래픽 드라이버 부분은 빨간색으로 처리될 것이며 게임의 전체 평가에는 영향을 주지 않을 것입니다. 드라이버를 반드시 업데이트 해 주세요!"
   }
 }
