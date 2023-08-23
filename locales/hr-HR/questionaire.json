@@ -1,21 +1,20 @@
 {
-    "genericFollowUpPrompt": "Kakva vrsta problema?",
-    "misc": {
-      "answerRequired": "Potrebno je odgovoriti",
-      "answerRequiredWhenNotListed": "Potrebno je odgovoriti ako nije navedeno na popisu",
-      "back": "Natrag",
-      "error": "Greška!",
-      "markdownSupportNotice": "Markdown je sada podržan",
-      "maxChars": "Maksimalno {{count}} znakova",
-      "next": "Sljedeće",
-      "submission": {
-        "error": "Došlo je do pogreške prilikom slanja. Molimo vas da nam javite kako se to dogodilo!",
-        "note": "Imajte na umu da će nove prijave biti u statusu čekanja do sljedeće ažuriranja sadržaja. Možete pregledati svoje priloge u svom [profilu]({{link}}).",
-        "success": "Uspješno poslano",
-        "thanks": "Hvala vam na doprinosu {{siteName}}"
-      },
-      "submit": "Pošalji",
-      "tooLong": "Previše dugo"
-    }
+  "genericFollowUpPrompt": "Kakva vrsta problema?",
+  "misc": {
+    "answerRequired": "Potrebno je odgovoriti",
+    "answerRequiredWhenNotListed": "Potrebno je odgovoriti ako nije navedeno na popisu",
+    "back": "Natrag",
+    "error": "Greška!",
+    "markdownSupportNotice": "Markdown je sada podržan",
+    "maxChars": "Maksimalno {{count}} znakova",
+    "next": "Sljedeće",
+    "submission": {
+      "error": "Došlo je do pogreške prilikom slanja. Molimo vas da nam javite kako se to dogodilo!",
+      "note": "Imajte na umu da će nove prijave biti u statusu čekanja do sljedeće ažuriranja sadržaja. Možete pregledati svoje priloge u svom [profilu]({{link}}).",
+      "success": "Uspješno poslano",
+      "thanks": "Hvala vam na doprinosu {{siteName}}"
+    },
+    "submit": "Pošalji",
+    "tooLong": "Previše dugo"
   }
-  
+}
