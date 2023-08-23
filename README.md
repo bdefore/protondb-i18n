@@ -70,6 +70,7 @@ As ProtonDB continues development, new text will be added that may need translat
 - Taiwanese Chinese (zh-TW): [@laichiaheng](https://github.com/laichiaheng)
 - Portuguese Brazilian (pt-BR): [@kassindornelles](https://github.com/kassindornelles)
 - Czech (cs-CZ): [@Fjuro](https://github.com/Fjuro)
+- Croatian (hr-HR): [@wuku0](https://github.com/wuku0)
 
 ### Coming soon
 
