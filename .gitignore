@@ -14,5 +14,3 @@ tmp
 cgdb-content.json
 cloud-report.json
 .idea/
-
-yarn.lock
