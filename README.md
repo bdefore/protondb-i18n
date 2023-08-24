@@ -32,7 +32,6 @@ Each language, as represented by their 'xx-XX' [BCP-47 language tag](https://dev
 - Taiwanese Chinese (zh-TW): [@laichiaheng](https://github.com/laichiaheng)
 - Portuguese Brazilian (pt-BR): [@kassindornelles](https://github.com/kassindornelles)
 - Czech (cs-CZ): [@Fjuro](https://github.com/Fjuro)
-- Korean (ko-KR): [@infopcgood](https://github.com/infopcgood)
 
 ### Coming soon
 
