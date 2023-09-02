@@ -1,0 +1,145 @@
+{
+  "auth": {
+    "genericSignIn": "Prijava",
+    "headline": "Steam Autentifikacija",
+    "loggedInAs": "Prijavljen kao {{username}}",
+    "notLoggedIn": "Niste prijavljeni",
+    "steamSignIn": "Prijava putem Steama",
+    "unlink": "Odvoji račun"
+  },
+  "content": {
+    "followingPost": "Sljedeći post",
+    "previousPost": "Prethodni post"
+  },
+  "contextualInfo": {
+    "fixWanted": "",
+    "hoursPlayed": "Igrano {{context}} sati",
+    "mostBorked": "",
+    "peakPlayers": "Najviše igrača: {{context}}",
+    "positiveRating": "{{context}}% pozitivnih ocjena",
+    "protonDbRating": "",
+    "recentReportCount": "{{context}} izvješća s posljednja dva Proton izdanja"
+  },
+  "footer": {
+    "description": "{{name}} je strastveni projekt od [@bdefore]({{link}}) i predanog zajednice izvjestitelja.",
+    "feedbackPrompt": "Imate povratne informacije? Javite nam na Discordu!",
+    "legal": "Ova web stranica nije povezana s Valve Softwareom. Sva igračka omota i logotipi su vlasništvo njihovih vlasnika."
+  },
+  "libraryLoader": {
+    "errorLoadingGames": "Greška pri učitavanju igara. Molimo provjerite jesu li i profil i detalji igre na ovom računu javni!",
+    "gameTotal": "Učitano {{count}} igara u knjižnici!",
+    "note": "Molimo provjerite [Steam postavke privatnosti]({{link}}) i postavite i 'Moj profil' i 'Detalji igre' kao javne. Nedavne promjene na Steamu su to postavile kao privatno. Ova stranica koristi Steam Web API za dobivanje javnih informacija o vašem računu, uključujući vaš ID, ime profila i avatar.",
+    "refresh": "Osvježi"
+  },
+  "misc": {
+    "addYourReport": "Dodaj izvješće",
+    "affirmative": "Da",
+    "any": "Bilo koji",
+    "areYouSure": "Jeste li sigurni?",
+    "cancel": "Odustani",
+    "chipset": "Čipset",
+    "conjunction": "i",
+    "discard": "Odbaci",
+    "dismiss": "Odbaci",
+    "distro": "Distribucija",
+    "driver": "Driver",
+    "execute": "Izvrši",
+    "feedbackPrompt": "Povratne informacije? Javite nam na [Discordu]({{link}})",
+    "filter": "Filter",
+    "filteringSettings": "Postavke filtriranja",
+    "games": "Igre",
+    "hide": "Sakrij {{what}}",
+    "include": "Uključi",
+    "install": "Instaliraj",
+    "joinUsPrompt": "Pridružite nam se na Discordu!",
+    "lastContentRefreshTime": "Zadnje ažuriranje sadržaja prije {{time}}",
+    "meetsRequirements": "Zadovoljava zahtjeve",
+    "moreInfo": "Više informacija",
+    "multiplayer": "Više igrača",
+    "native": "Izvorno",
+    "negative": "Ne",
+    "notFound": "Nije pronađeno",
+    "note": "Bilješka",
+    "overall": "Ukupno",
+    "pending": "Na čekanju",
+    "preferences": "Postavke",
+    "provisional": "Privremeno",
+    "published": "Objavljeno",
+    "rated": "Ocijenjeno",
+    "report": "Izvješće",
+    "reports": "Izvješća",
+    "reset": "Resetiraj",
+    "save": "Spremi",
+    "saved": "{{what}} spremljeno",
+    "show": "Prikaži {{what}}",
+    "showAll": "Prikaži sve",
+    "showMore": "Prikaži više",
+    "skip": "Preskoči",
+    "tier": "Razina",
+    "total": "Ukupno",
+    "unknown": "Nepoznato",
+    "version": "Verzija"
+  },
+  "nav": {
+    "contribute": "Doprinos",
+    "explore": "Istraži",
+    "help": "Pomoć",
+    "news": "Novosti",
+    "search": "Pretraži igre...",
+    "stats": "Statistike"
+  },
+  "pagination": {
+    "next": "Sljedeća stranica",
+    "previous": "Prethodna stranica",
+    "summary": "Rezultati {{from}} do {{to}} od ukupno {{total}}"
+  },
+  "preferences": {
+    "headline": "Postavke",
+    "intro": "ProtonDB prikazuje Steam nadimak podnositelja uz izvješća. Vaš jedinstveni Steam ID se ne prikazuje u podacima objavljenih izvješća. Ako ste zabrinuti da se putem nadimka može zaključiti vaš Steam profil, možete odabrati drugi nadimak koji će se koristiti nakon sljedećeg ažuriranja sadržaja.",
+    "questions": {
+      "customName": {
+        "additionalNotes": {
+          "label": "Prilagođeno ime"
+        },
+        "options": {
+          "custom": "Prilagođeni nadimak",
+          "keepSteam": "Moj Steam nadimak ({{steamNickname}})"
+        },
+        "prompt": "Vaše javno ime"
+      },
+      "language": {
+        "prompt": "Jezik"
+      },
+      "performanceMode": {
+        "prompt": "Želite li koristiti verziju stranice optimiziranu za performanse?"
+      }
+    }
+  },
+  "profile": {
+    "exploreLibrary": "Možete pretraživati svoju knjižnicu prema sljedećim prikazima:",
+    "inYourLibrary": "U vašoj knjižnici",
+    "libraryTags": {
+      "byHoursPlayed": "Prema broju sati igranja",
+      "byPlayerCount": "Prema broju igrača",
+      "byProtonDbRating": "Prema ProtonDB ocjeni",
+      "bySteamDbScore": "Prema SteamDB ocjeni korisnika",
+      "headline": "Slijedeći tagovi se često javljaju u vašoj knjižnici. Možete početi s njima:",
+      "lackReportsByHoursPlayed": "Potrebna izvješća prema broju sati igranja",
+      "lackReportsByPlayerCount": "Potrebna izvješća prema broju igrača",
+      "lackReportsBySteamDbScore": "Potrebna izvješća prema SteamDB ocjeni korisnika"
+    },
+    "notInYourLibrary": "Nije u vašoj knjižnici",
+    "yourContributions": "Vaši doprinosi"
+  },
+  "reports": {
+    "clear": "Očisti",
+    "filteredOutCount": "{{count}} filtrirano",
+    "filteredOutHeadline": "{{count}} izvješća ne odgovaraju vašim filterima za {{filters}}.",
+    "superceded": "Postoji novije izvješće ovog tipa od istog autora",
+    "zeroStateMessage": "Nema izvješća",
+    "zeroStateMessageWithFilters": "Nema izvješća prema vašim primijenjenim filterima"
+  },
+  "search": {
+    "resultsHeader": "Rezultati pretrage za {{q}}"
+  }
+}

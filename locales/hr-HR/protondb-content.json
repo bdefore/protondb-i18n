@@ -1,0 +1,173 @@
+{
+  "auth": {
+    "intro": "Kada se prijavite putem Steam, možete podnijeti izvješća i istražiti stranicu [s filtriranjem knjižnice]({{link}}) kako biste rezultate ograničili na igre koje posjedujete."
+  },
+  "breakdown": {
+    "headline": "Popularne igre",
+    "popularHeadline": "Ocjene za {{count}} Najpopularnijih",
+    "topHundred": "Top sto",
+    "topTen": "Top deset",
+    "topThousand": "Top tisuću",
+    "topics": {
+      "allGames": "Sve igre",
+      "indie": "Indie",
+      "localMultiplayer": "Lokalno više igrača",
+      "singlePlayer": "Jednokratni igrač",
+      "vr": "VR"
+    },
+    "unavailable": "Nedostupno",
+    "unrated": "Nema ocjena",
+    "unreported": "Nije prijavljeno"
+  },
+  "explore": {
+    "headlines": {
+      "fixWanted": "Potrebno popraviti",
+      "highestRated": "Najviša ocjena na SteamDB-u",
+      "hoursPlayed": "Sati igranja",
+      "inLibrary": "U knjižnici",
+      "mostBorked": "Pretežno neupotrebljivo",
+      "mostPopular": "Najpopularnije",
+      "recentlyImproved": "Nedavno poboljšano",
+      "wellRatedHere": "Dobro ocijenjeno ovdje"
+    },
+    "layout": "Raspored",
+    "loadError": "Greška pri učitavanju igara!",
+    "notLoggedIn": "Knjižnica se ne može učitati bez Steam ID-a. Posjetite svoj [profil]({{link}}) da ga dodate.",
+    "poweredBy": "Pokreće",
+    "sorts": {
+      "fixWanted": "Potrebno popraviti",
+      "hoursPlayed": "Sati igranja",
+      "mostBorked": "Pretežno neupotrebljivo",
+      "playerCount": "Broj igrača",
+      "recentlyImproved": "Nedavno poboljšano",
+      "userScore": "Ocjena korisnika",
+      "wilsonRating": "ProtonDB ocjena"
+    },
+    "toggles": {
+      "includeNative": "Uključi domaće",
+      "lackReports": "Potrebna izvješća",
+      "restrictToLibrary": "Knjižnica",
+      "untested": "Potrebna izvješća",
+      "userTags": "Korisničke oznake",
+      "whitelisted": "Dodijeljeni"
+    }
+  },
+  "filters": {
+    "questions": {
+      "cpu": {
+        "label": "CPU"
+      },
+      "distro": {
+        "label": "Distro"
+      },
+      "gpu": {
+        "label": "GPU"
+      },
+      "type": {
+        "label": "Vrsta"
+      }
+    }
+  },
+  "gameDetails": {
+    "githubIssueSearch": "Pretraživanje problema na Githubu",
+    "infoNotFound": "Nije moguće pronaći informacije za App-ID: {{entry}}. To se može dogoditi ako je igra uklonjena iz trgovine.",
+    "minimumRequirements": "Minimalni zahtjevi",
+    "nativelySupports": "Domaća podrška"
+  },
+  "home": {
+    "getStartedLinks": [
+      "[Službena Steam Play stranica na Steamu](https://store.steampowered.com/steamplay)",
+      "[Vodič za prelazak na Linux](https://www.reddit.com/r/linux_gaming/comments/9oqq3w/guide_migrating_to_linux_in_2019/)",
+      "[Što je Vulkan?](https://www.reddit.com/r/linux_gaming/comments/9ritk1/not_sure_i_quite_understand_can_someone_explain/)"
+    ],
+    "headline": "Proton i Steam Play omogućavaju mnogim Windows igrama da rade na Linuxu!",
+    "howDoIHelp": {
+      "answer": "Isprobajte Linux! Ako ste početnik, ne brinite. Ovdje su neki vodiči za početak. I ako želite pomoći Valveu i Protonu da se poboljšaju, unesite svoja izvješća ovdje na ProtonDB!",
+      "question": "Super! Kako mogu pomoći?"
+    },
+    "letsGetStarted": "Hajde da počnemo.",
+    "sampleGames": "Evo nekoliko popularnih igara koje još uvijek nisu službeno na bijeloj listi, ali su dobile mnogo Platinastih izvješća na ProtonDB-u",
+    "search": "Traži igru...",
+    "stats": {
+      "gamesReported": "Izvješća o igrama",
+      "gamesWork": "funkcionalne igre",
+      "reportsWritten": "Napisana izvješća"
+    },
+    "theImpact": {
+      "answer": "Steam Play sada službeno podržava ograničen, ali rastući broj igara na bijeloj listi koje se smatraju kompatibilnim s Protonom i rade na Linuxu. Prema izvješćima na ProtonDB-u, znatan broj igara koje nisu na bijeloj listi, uključujući mnoge popularne naslove, rade jednako dobro kao i na Windowsu.",
+      "question": "Utjecaj"
+    },
+    "whatIsProton": {
+      "answer": "Proton je nova alatka Valve Softwarea integrirana u Steam Play, koja omogućuje igranje Windows igara na Linuxu jednostavno kao pritiskanje Play tipke na Steamu. Iza scene, Proton uključuje popularne alatke poput Wine-a i DXVK-a, koje bi igrači inače morali sami instalirati i održavati. Ovo značajno olakšava korisnicima prelazak na Linux, bez potrebe da se upuste u dublje razumijevanje sustava ili izgube pristup većem dijelu svoje kolekcije igara. Proton je još uvijek u razvoju, pa podrška može biti neujednačena, ali se redovito poboljšava.",
+      "question": "Što je Proton?"
+    },
+    "whatIsProtonDb": {
+      "answer": "Cilj ProtonDB-a je prikupiti izvješća drugih igrača koji testiraju igre s Protonom na Linuxu i pružaju rezultate o tome kako dobro rade. Rastući broj savjeta nudi prilagodbe koje možete isprobati kako biste pokrenuli igre dok se razvoj Protona nastavlja. Osim toga, na ovoj web stranici možete pretraživati ​​katalog Steam igara i otkriti širok spektar naslova koji dosad nisu bili dostupni za korištenje na Linuxu.",
+      "question": "Što je ProtonDB?"
+    },
+    "whyBigDeal": {
+      "answer": "Iskustvo na Linux radnoj površini se znatno poboljšalo u posljednjih godinu ili dvije. Većina stvari koje ste navikli raditi na Windowsu ili MacOS-u je moguće i na Linuxu, bez previše tinkeringa, a tinkering čak može biti i zabavan. Također, sve više naših svakodnevnih interakcija s računalom odvija se online, a preglednici se ponašaju slično pod Linuxom kao i pod drugim operativnim sustavima. Proton i Steam Play rješavaju ključnu prepreku za prihvaćanje Linuxa: igranje igara, gdje je do nedavno postojala ograničena kompatibilnost.",
+      "question": "Zašto je ovo velika stvar?"
+    },
+    "youtubeId": "Co6FePZoNgE"
+  },
+  "medals": {
+    "borked": "Neupotrebljivo",
+    "bronze": "Bronca",
+    "gold": "Zlato",
+    "platinum": "Platina",
+    "silver": "Srebro"
+  },
+  "ratingDefinitions": {
+    "explanations": {
+      "borked": "Igra se ili ne pokreće ili se ne može igrati",
+      "bronze": "Radi, ali često se ruši ili ima problema koji sprječavaju udobno igranje",
+      "gold": "Radi savršeno nakon nekih prilagodbi",
+      "native": "Radi nativno na Linuxu",
+      "pending": "Čeka se više izvješća prije nego što se može ocijeniti",
+      "platinum": "Radi savršeno bez ikakvih promjena",
+      "silver": "Radi s manjim problemima, ali je uglavnom igrivo"
+    },
+    "headline": "Definicije ocjena"
+  },
+  "specs": {
+    "cpu": "CPU",
+    "gpu": "GPU",
+    "gpuDriver": "GPU vozač",
+    "kernel": "Kernel",
+    "os": "Distro",
+    "otherSpecs": "Ostale specifikacije",
+    "ram": "RAM"
+  },
+  "stats": {
+    "analysisInByTheNumbers1": "Analiza u brojkama br. 1",
+    "byCommonDisplayDrivers": "Prema uobičajenim prikaznim vozačima",
+    "byDistro": "Prema Distro",
+    "byGpu": "Prema GPU",
+    "byProtonVersion": "Prema verziji Protona",
+    "dailyReportsHeadline": "Dnevna izvješća (posljednjih {{days}} dana)",
+    "downloadData": "Preuzmi podatke",
+    "gameRatingDistribution": "Razdioba ocjena igre",
+    "gamesWithNOrMoreReports": "Igre s N ili više izvješća",
+    "reportRatingDistributionOverTime": "Razdioba izvješća tijekom vremena",
+    "whenMeetingMinimumRequirements": "Kada se ispunjavaju minimalni zahtjevi"
+  },
+  "steamAuthor": {
+    "hoursInSteam": "{{count}} sati na Steamu",
+    "timeWithProton": "{{time}} s Protonom"
+  },
+  "suggestions": {
+    "headline": "Spremni za više?",
+    "intro": "Sljedeće igre su odabrane prema vremenu igranja, popularnosti i ocjenama na SteamDB-u. Sve im nedostaju izvješća i neke možda samo trebaju još jedno izvješće kako bi dobile ocjenu na {{siteName}}! Možete osvježiti za druge prijedloge ili potražiti [Potrebna izvješća]({{link}}) na stranici za istraživanje kako biste pronašli još više."
+  },
+  "systemInfo": {
+    "headline": "Sistemski podaci",
+    "howTo": "Sakupljanje ovih informacija brzo ide ako imate pristup Steamu na računalu na kojem testirate igre. [Ovdje]({{link}}) saznajte kako doći do ovih podataka. (Neki korisnici su izvijestili da moraju pritisnuti Ctrl-A kako bi sve označili prije nego što desnom tipkom miša kliknu.)",
+    "intro": "Izvješća imaju veću korist i bolje su razumljiva ako su navedeni hardverski i softverski uvjeti na kojima su stvoreni. Kako bi podaci bili što dosljedniji, koristimo informacije o sustavu koje je Steam sam prijavio.",
+    "parseFailure": "Analiza nije uspjela. Ako ste sigurni da ste ispravno kopirali podatke, obavijestite nas putem Discorda.",
+    "parseSuccess": "Sistemski podaci uspješno analizirani!",
+    "pasteInstructions": "Zalijepite Steam sistemsku informaciju ovdje",
+    "unsupportedHeadline": "Nepodržani vozači otkriveni",
+    "unsupportedWarning": "Grafički vozač vašeg sustava ne odgovara [trenutnim minimalnim zahtjevima za Proton]({{link}})! To može rezultirati rušenjima, smanjenjem performansi ili grafičkim oštećenjima. Ipak, možete podnijeti izvješća i vaši doprinosi i dalje mogu biti korisni, ali vaša izvješća će crveno prikazivati vaš grafički vozač i neće se brojiti za ukupnu ocjenu igara. Molimo vas da ažurirate svoje vozače!"
+  }
+}
