@@ -1,0 +1,673 @@
+{
+  "appSelection": {
+    "caution": "경고!",
+    "helperText": "링크나 앱 ID를 이곳에 붙여넣어 검색을 시도할 수도 있습니다.",
+    "noPlaytime": "사용자의 Steam 계정의 이 게임에 대한 플레이 기록이 없습니다. [Steam 공개 설정]({{link}})에서 게임 디테일을 '공개'로 설정해 두지 않았거나 '언제나 플레이 타임 기록 전송하지 않기'를 켜둔 경우 이런 현상이 발생할 수 있습니다. 제출한 리뷰에는 여전히 사용자가 기여자로 표시됩니다. 이것이 에러라고 생각하신다면, 관리자에게 문의해 주세요.",
+    "notFound": "앱 ID {{query}} 정보와 일치하는 게임을 찾을 수 없습니다. 앱 ID를 잘못 입력했거나, '게임'으로 등록되어 있지 않거나, Steam 스토어에서 제거되었거나, 사용자의 국가에서 플레이할 수 없는 경우 이런 현상이 발생할 수 있습니다.",
+    "notOwner": "사용자의 Steam 계정이 이 게임을 소유하고 있지 않은 것 같습니다. [Steam 공개 설정]({{link}})에서 게임 세부 정보를 '공개'로 설정해 두지 않은 경우 이런 현상이 발생할 수 있습니다. 이것이 에러라고 생각하신다면, 관리자에게 문의해 주세요.",
+    "placeholder": " Steam 라이브러리에 소유한 게임 이름을 입력하세요...",
+    "playedNatively": "게임을 Proton을 사용하지 않고 Linux 전용 버전(native)으로 플레이하셨나요?",
+    "previousReportsExist": "이 게임에 대해 이전에 작성한 리뷰가 존재합니다.",
+    "runsNativeWarning": "선택한 게임은 Linux 전용 버전(native)이 존재합니다. 기여하기 전에 게임을 Linux 전용 버전(native)으로 실행하지 않았는지 다시 한번 확인해 주세요. Steam은 기본적으로 이 게임을 Proton을 사용해 실행하지 않지만, [강제로 Proton을 사용해 실행하게 할 수 있습니다]({{link}})."
+  },
+  "audioFaults": {
+    "legend": "오디오",
+    "options": {
+      "borked": {
+        "long": "완전히 미작동",
+        "short": "미작동"
+      },
+      "crackling": {
+        "long": "노이즈 있음",
+        "short": "노이즈 있음"
+      },
+      "lowQuality": {
+        "long": "인지 가능한 품질 저하",
+        "short": "품질 저하"
+      },
+      "missing": {
+        "long": "일부 오디오 누락됨",
+        "short": "오디오 누락"
+      },
+      "other": {
+        "long": "기타",
+        "short": "기타"
+      },
+      "outOfSync": {
+        "long": "영상과 싱크(sync) 안 됨",
+        "short": "싱크(sync) 안 됨"
+      }
+    },
+    "prompt": "오디오 관련 문제들이 있었나요?"
+  },
+  "authoringLanguage": {
+    "prompt": "어떤 언어로 이 리뷰를 작성하시겠습니까?"
+  },
+  "batteryPerformance": {
+    "legend": "배터리 성능",
+    "prompt": "배터리 성능 향상을 위해 추가적으로 취한 조치가 있나요?"
+  },
+  "borked": {
+    "headline": "저런!",
+    "intro": "현재 게임이 작동하지 않는다는 리포트를 작성하고 계십니다. 그러나 그 전에 [게임 문제 해결 FAQ]({{link}}) 페이지를 확인해 보시는 것을 추천드립니다."
+  },
+  "concludingNotes": {
+    "label": "추신",
+    "prompt": "리뷰 끝에 붙일 추가적인 말들을 작성해 주세요."
+  },
+  "controlLayout": {
+    "additionalNotes": {
+      "label": "어떤 커뮤니티 버전을 사용했습니까?"
+    },
+    "legend": "컨트롤 레이아웃",
+    "options": {
+      "community": {
+        "long": "커뮤니티 레이아웃",
+        "short": "커뮤니티 레이아웃"
+      },
+      "gamepad": {
+        "long": "컨트롤러",
+        "short": "컨트롤러"
+      },
+      "gamepadWithGyro": {
+        "long": "자이로 센서가 있는 컨트롤러",
+        "short": "자이로 센서가 있는 컨트롤러"
+      },
+      "gamepadWithJoystick": {
+        "long": "조이스틱 트랙패드가 있는 컨트롤러",
+        "short": "조이스틱 트랙패드가 있는 컨트롤러"
+      },
+      "gamepadWithMouseTrackpad": {
+        "long": "마우스/트랙패드와 컨트롤러",
+        "short": "마우스/트랙패드와 컨트롤러"
+      },
+      "keyboardAndMouse": {
+        "long": "키보드(WASD)와 마우스",
+        "short": "키보드와 마우스"
+      },
+      "mouseOnly": {
+        "long": "마우스만",
+        "short": "마우스만"
+      },
+      "official": {
+        "long": "공식 레이아웃",
+        "short": "공식"
+      },
+      "touchscreenMouseEmulation": {
+        "long": "터치스크린 마우스 에뮬레이션",
+        "short": "터치스크린 마우스 에뮬레이션"
+      }
+    },
+    "prompt": "어떤 컨트롤 레이아웃으로 플레이했나요?"
+  },
+  "controlLayoutCustomization": {
+    "additionalNotes": {
+      "label": "팅커링",
+      "prompt": "팅커링"
+    },
+    "legend": "컨트롤 레이아웃 커스터마이징",
+    "options": {
+      "enableGripButtons": {
+        "long": "후면 그립 버튼 활성화",
+        "short": "그립 버튼"
+      },
+      "gyro": {
+        "long": "자이로 센서",
+        "short": "자이로 센서"
+      },
+      "other": {
+        "long": "기타",
+        "short": "기타"
+      },
+      "rightTrackpad": {
+        "long": "우측 트랙패드 행동 변경",
+        "short": "우측 트랙패드"
+      }
+    },
+    "prompt": "컨트롤 레이아웃에 추가적인 커스터마이징을 했나요?"
+  },
+  "customProtonVersion": {
+    "label": "버전"
+  },
+  "customizationsUsed": {
+    "additionalNotes": {
+      "label": "추가적인 정보",
+      "placeholder": "설명 또는 블로그/GitHub 리포지토리 링크 첨부"
+    },
+    "legend": "커스터마이징",
+    "options": {
+      "configChange": {
+        "long": "게임 설정 파일 변경",
+        "short": "게임 설정 변경"
+      },
+      "customPrefix": {
+        "long": "사용자 지정 Wine Prefix",
+        "short": "사용자 지정 Wine Prefix"
+      },
+      "customProton": {
+        "long": "패치/변경된 Proton 버전 사용",
+        "short": "패치/변경된 Proton"
+      },
+      "lutris": {
+        "long": "Lutris 설치 스크립트",
+        "short": "Lutris"
+      },
+      "mediaFoundation": {
+        "long": "Media Foundation DLL (mf-install)",
+        "short": "Media Foundation DLL"
+      },
+      "notListed": {
+        "long": "기타",
+        "short": "기타"
+      },
+      "protonfixes": {
+        "long": "protonfixes",
+        "short": "protonfixes"
+      },
+      "protontricks": {
+        "long": "protontricks",
+        "short": "protontricks"
+      },
+      "winetricks": {
+        "long": "winetricks",
+        "short": "winetricks"
+      }
+    },
+    "prompt": "다음 중 게임 실행을 위해 사용한 것이 있나요?"
+  },
+  "device": {
+    "legend": "기기",
+    "prompt": "당신의 기기 중 무엇으로 이 게임을 플레이했나요?"
+  },
+  "didChangeControlLayout": {
+    "prompt": "기본 컨트롤 레이아웃을 변경했습니까?"
+  },
+  "duration": {
+    "legend": "시간",
+    "options": {
+      "aboutAnHour": {
+        "long": "한 시간 정도",
+        "short": "한 시간 정도"
+      },
+      "lessThanAnHour": {
+        "long": "한 시간 미만",
+        "short": "한 시간 미만"
+      },
+      "lessThanFifteenMinutes": {
+        "long": "15분 미만",
+        "short": "15분 미만"
+      },
+      "moreThanTenHours": {
+        "long": "10시간 이상",
+        "short": "10시간 이상"
+      },
+      "severalHours": {
+        "long": "몇 시간 정도",
+        "short": "몇 시간 정도"
+      }
+    },
+    "prompt": "게임을 얼마 동안 플레이했습니까?"
+  },
+  "graphicalFaults": {
+    "legend": "그래픽",
+    "options": {
+      "heavyArtifacts": {
+        "long": "크게 깨지거나 많은 문제 발생",
+        "short": "크게 깨짐"
+      },
+      "minorArtifacts": {
+        "long": "조금 깨지거나 거의 문제 없음",
+        "short": "조금 깨짐"
+      },
+      "missingTextures": {
+        "long": "누락된 텍스쳐 있음",
+        "short": "텍스쳐 누락"
+      },
+      "other": {
+        "long": "기타",
+        "short": "기타"
+      }
+    },
+    "prompt": "그래픽 문제가 있었나요?"
+  },
+  "graphicsApiSelection": {
+    "legend": "그래픽 API",
+    "options": {
+      "d3d": {
+        "long": "Direct3D",
+        "short": "Direct3D"
+      },
+      "ogl": {
+        "long": "OpenGL",
+        "short": "OpenGL"
+      },
+      "unsure": {
+        "long": "게임에서 제공하는 기본 그래픽 API",
+        "short": "기본"
+      },
+      "vk": {
+        "long": "Vulkan",
+        "short": "Vulkan"
+      }
+    },
+    "prompt": "어떤 그래픽 API를 사용했나요?"
+  },
+  "inputFaults": {
+    "legend": "입력",
+    "options": {
+      "bounding": {
+        "long": "범위가 올바르지 않음",
+        "short": "범위 안 맞음"
+      },
+      "controllerMapping": {
+        "long": "컨트롤러 매핑이 올바르지 않음",
+        "short": "매핑 오류"
+      },
+      "controllerNotDetected": {
+        "long": "컨트롤러 인식 안됨",
+        "short": "인식 안됨"
+      },
+      "controllerNotResponsive": {
+        "long": "컨트롤러가 인식됐으나 작동하지 않음",
+        "short": "인식되나 작동 안 됨"
+      },
+      "drifting": {
+        "long": "조이스틱 쏠림 현상",
+        "short": "조이스틱 쏠림"
+      },
+      "inaccuracy": {
+        "long": "입력 정확도가 떨어짐",
+        "short": "정확도 떨어짐"
+      },
+      "lag": {
+        "long": "입력 딜레이 심함",
+        "short": "딜레이 심함"
+      },
+      "other": {
+        "long": "기타",
+        "short": "기타"
+      }
+    },
+    "prompt": "마우스, 게임패드 또는 기타 컨트롤러 사용 시에 문제가 있었나요?"
+  },
+  "installs": {
+    "legend": "설치",
+    "prompt": "게임을 정상적으로 설치할 수 있었나요?"
+  },
+  "isImpactedByAntiCheat": {
+    "legend": "안티 치트",
+    "options": {
+      "battleEye": {
+        "long": "BattlEye",
+        "short": "BattlEye"
+      },
+      "easyAntiCheat": {
+        "long": "Easy Anti Cheat",
+        "short": "EAC"
+      },
+      "other": {
+        "long": "기타",
+        "short": "기타"
+      }
+    },
+    "prompt": "게임이 안티 치트 소프트웨어를 사용하나요?"
+  },
+  "launchFlagsUsed": {
+    "additionalNotes": {
+      "label": "추가적인 정보",
+      "placeholder": "이 플래그들이 어떤 도움울 주었나요?"
+    },
+    "legend": "실행 시 플래그",
+    "options": {
+      "disableD3d10": {
+        "long": "D3D10 비활성화 (PROTON_NO_D3D10)",
+        "short": "D3D10 비활성화"
+      },
+      "disableD3d11": {
+        "long": "D3D11 비활성화 (PROTON_NO_D3D11)",
+        "short": "D3D11 비활성화"
+      },
+      "disableEsync": {
+        "long": "Esync 비활성화 (PROTON_NO_ESYNC)",
+        "short": "Esync 비활성화"
+      },
+      "disableFsync": {
+        "long": "Fsync 비활성화 (PROTON_NO_FSYNC)",
+        "short": "Fsync 비활성화"
+      },
+      "enableNvapi": {
+        "long": "NVAPI 활성화 (PROTON_ENABLE_NVAPI)",
+        "short": "NVAPI 활성화"
+      },
+      "fullscreenIntegerScaling": {
+        "long": "전체 화면 정수 스케일링 (WINE_FULLSCREEN_INTEGER_SCALING)",
+        "short": "전체 화면 정수 스케일링"
+      },
+      "gameDrive": {
+        "long": "게임 드라이브 설정 (PROTON_SET_GAME_DRIVE)",
+        "short": "게임 드라이브 설정"
+      },
+      "heapDelayFree": {
+        "long": "Heap Delay Free (PROTON_HEAP_DELAY_FREE)",
+        "short": "Heap Delay Free"
+      },
+      "hideNvidia": {
+        "long": "Nvidia GPU 숨기기 (PROTON_HIDE_NVIDIA_GPU)",
+        "short": "Nvidia GPU 숨기기"
+      },
+      "largeAddressAware": {
+        "long": "Large Address Aware (PROTON_FORCE_LARGE_ADDRESS_AWARE)",
+        "short": "Large Address Aware"
+      },
+      "noWriteWatch": {
+        "long": "메모리 쓰기 모니터링 비활성화 (PROTON_NO_WRITE_WATCH)",
+        "short": "쓰기 모니터링 비활성화"
+      },
+      "noXim": {
+        "long": "XIM 비활성화 (PROTON_NO_XIM)",
+        "short": "XIM 비활성화"
+      },
+      "oldGlString": {
+        "long": "이전 버전 GL 문자열 (PROTON_OLD_GL_STRING)",
+        "short": "이전 버전 GL 문자열"
+      },
+      "useSeccomp": {
+        "long": "Seccomp 활성화 (PROTON_USE_SECCOMP)",
+        "short": "Seccomp 활성화"
+      },
+      "useWineD3d11": {
+        "long": "Wine D3D 사용 (PROTON_USE_WINED3D)",
+        "short": "Wine D3D 사용"
+      },
+      "useWineD9vk": {
+        "long": "D9VK 사용 (PROTON_USE_D9VK)",
+        "short": "D9VK 사용"
+      }
+    },
+    "prompt": "다음 중 사용한 Proton 실행 플래그가 있나요?"
+  },
+  "launchOptions": {
+    "helperText": "예: PROTON_NO_D3D11=1 %command%",
+    "label": "실행 옵션",
+    "legend": "실행 옵션",
+    "placeholder": "(none)",
+    "prompt": "따로 설정한 실행 옵션이 있나요?"
+  },
+  "launcher": {
+    "additionalNotes": {
+      "label": "런쳐"
+    },
+    "legend": "런쳐",
+    "options": {
+      "bottles": {
+        "long": "Bottles",
+        "short": "Bottles"
+      },
+      "notListed": {
+        "long": "이 목록에 없음",
+        "short": "이 목록에 없음"
+      },
+      "steam": {
+        "long": "Steam",
+        "short": "Steam"
+      }
+    },
+    "prompt": "어떤 런쳐로 게임을 실행하셨나요?"
+  },
+  "localMultiplayerAppraisal": {
+    "additionalNotes": {
+      "label": "세부 정보"
+    },
+    "prompt": "LAN 멀티 플레이 경험은 어땠나요? 통신 딜레이, 입력 등의 관점에서 자세히 작성해 주세요."
+  },
+  "localMultiplayerAttempted": {
+    "prompt": "LAN 멀티 플레이를 시도해 보셨나요?"
+  },
+  "localMultiplayerPlayed": {
+    "prompt": "LAN 멀티 플레이가 작동했나요?"
+  },
+  "multiplayerAppraisal": {
+    "options": {
+      "acceptable": {
+        "long": "보통. 중간 정도의 문제들이 있지만 플레이 가능",
+        "short": "보통 (플레이는 가능)"
+      },
+      "awful": {
+        "long": "최악. 거의 플레이 할 수 없음",
+        "short": "최악 (플레이 불가능)"
+      },
+      "excellent": {
+        "long": "최상. 아무런 문제 없이 플레이 가능",
+        "short": "최상 (문제 없음)"
+      },
+      "good": {
+        "long": "좋음. 작은 문제들이 있었지만 플레이 가능",
+        "short": "좋음 (자잘한 문제들)"
+      },
+      "weak": {
+        "long": "나쁨. 플레이에 영향을 주는 큰 문제들 다수 존재",
+        "short": "나쁨 (플레이 힘듦)"
+      }
+    }
+  },
+  "onlineMultiplayerAppraisal": {
+    "additionalNotes": {
+      "label": "추가 정보"
+    },
+    "prompt": "온라인 멀티플레이 경험은 어땠나요? 통신 딜레이, 입력 등의 관점에서 자세히 작성해 주세요."
+  },
+  "onlineMultiplayerAttempted": {
+    "prompt": "온라인 멀티플레이를 시도해 보셨나요?"
+  },
+  "onlineMultiplayerPlayed": {
+    "prompt": "온라인 멀티플레이가 작동했나요?"
+  },
+  "opens": {
+    "legend": "실행 여부",
+    "prompt": "게임을 실행하고 처음 화면을 볼 수 있었나요?"
+  },
+  "performanceFaults": {
+    "legend": "성능",
+    "options": {
+      "significantSlowdown": {
+        "long": "중대한 성능 저하",
+        "short": "중대한 성능 저하"
+      },
+      "slightSlowdown": {
+        "long": "미약한 성능 저하",
+        "short": "미약한 성능 저하"
+      }
+    },
+    "prompt": "하드웨어 사양에 비해 예상치 못한 성능 저하가 있었나요?"
+  },
+  "prerequisites": {
+    "missingProfileInfo": "프로파일 정보 불완전. 누락된 정보: {{context}}",
+    "noValidDevices": "유효한 기기 정보가 등록된 기기가 없습니다.",
+    "notLoggedIn": "{{context}}로 로그인되지 않음"
+  },
+  "prerequisitesBlock": {
+    "action": "프로파일로 가기",
+    "context": "리뷰를 제출하기 전 Steam에 로그인하여 시스템 정보를 입력해야 합니다.",
+    "headline": "잠깐!"
+  },
+  "preview": {
+    "intro": "확인해야 할 것들:",
+    "notes": [
+      "시스템 정보가 변경되지는 않았나요? 그래픽 드라이버 업데이트 등 하드웨어 변경사항이 발생한 경우는 Steam 하드웨어 정보를 다시 제공해야 합니다.",
+      "게임을 제대로 선택하셨나요? 어떤 게임들은 신버전과 구버전 이름이 일치하는 경우들도 있습니다. (예: GRID)",
+      "설명을 올바른 부분에 적었나요? 예를 들어, 그래픽 이슈는 추가 정보 대신 그래픽 이슈에 해당하는 부분에 적어주세요."
+    ]
+  },
+  "prompts": {
+    "continuingDraft": "자동저장된 글을 이어서 작성하고 있습니다.",
+    "discardDraftWarning" : "경고! 임시 저장된 모든 글이 삭제됩니다.",
+    "startOver": "처음부터 다시 작성하기"
+  },
+  "protonVersion": {
+    "additionalNotes": {
+      "label": "Proton 버전 수동 입력",
+      "placeholder": "유효한 Proton 버전 문자열이여야 합니다. 예: {{examples}}"
+    },
+    "prompt": "어떤 Proton 버전을 사용하고 계신가요?"
+  },
+  "readability": {
+    "legend": "텍스트 읽기 힘듦",
+    "prompt": "인게임 텍스트 중 읽기 힘들거나 깨진 텍스트가 있었나요?"
+  },
+  "saveGameFaults": {
+    "legend": "게임 세이브",
+    "options": {
+      "errorLoading": {
+        "long": "저장된 게임 파일을 불러올 수 없음",
+        "short": "불러올 수 없음"
+      },
+      "errorSaving": {
+        "long": "게임 저장 불가",
+        "short": "저장 불가"
+      },
+      "other": {
+        "long": "기타",
+        "short": "기타"
+      }
+    },
+    "prompt": "게임을 저장하고 불러올 때 문제가 있었나요?"
+  },
+  "secondaryLauncher": {
+    "legend": "두 번째 런처 문제",
+    "prompt": "두 개 이상의 런처 창에 의해 발생하는 문제가 있었나요?"
+  },
+  "significantBugs": {
+    "legend": "중대한 버그",
+    "prompt": "다른 중대한 버그를 경험한 것이 있나요?"
+  },
+  "stabilityFaults": {
+    "legend": "불안정성",
+    "options": {
+      "frequentCrashes": {
+        "long": "자주 튕김",
+        "short": "자주 튕김"
+      },
+      "notListed": {
+        "long": "목록에 없음",
+        "short": "목록에 없음"
+      },
+      "occasionally": {
+        "long": "가끔씩 튕김",
+        "short": "가끔씩 튕김"
+      }
+    },
+    "prompt": "게임이 얼마나 자주 튕겼나요?"
+  },
+  "startsPlay": {
+    "legend": "플레이 시작",
+    "prompt": "게임 플레이를 시작할 수 있었나요?"
+  },
+  "stepHeadlines": {
+    "appSelection": "게임 선택",
+    "borked": "작동 불가!",
+    "customizations": "팅커링 필요",
+    "finalNotes": "최종 확정",
+    "multiplayer": "멀티플레이어",
+    "preview": "미리보기",
+    "setup": "셋업",
+    "startup": "설치 및 실행",
+    "steamDeckRelated": "Steam Deck 관련",
+    "technical": "기술적인 디테일",
+    "unownedWarning": "소유하고 있지 않음"
+  },
+  "tinkerOverride": {
+    "additionalNotes": {
+      "label": "팅커링 설명"
+    },
+    "options": {
+      "no": {
+        "long": "따로 팅커링하지 않음",
+        "short": "팅커링 안 함"
+      },
+      "yes": {
+        "long": "게임을 팅커링 함",
+        "short": "팅커링 함"
+      }
+    },
+    "prompt": "현재까지는 게임을 실행하기 위해 따로 팅커링을 한 것 같지는 않아 보입니다. 게임을 실행시키거나 원활히 플레이하기 위해 따로 팅커링을 한 것이 있나요? 팅커링을 했을 시, 팅커링된 리뷰로 분류됩니다. [자세히]({{link}})"
+  },
+  "triedOob": {
+    "prompt": "이 리뷰는 팅커링 리뷰로 분류될 것입니다. Steam 또는 Proton에 팅커링을 하지 않은 채로 실행해 보셨나요?"
+  },
+  "variant": {
+    "additionalNotes": {
+      "label": "어떤 버전의 Proton을 사용했습니까?"
+    },
+    "legend": "종류",
+    "options": {
+      "experimental": {
+        "long": "실험적 버전",
+        "short": "실험적 버전"
+      },
+      "ge": {
+        "long": "Glorious Eggroll (GE)",
+        "short": "GE"
+      },
+      "native": {
+        "long": "Proton을 사용하지 않음",
+        "short": "Proton 사용 안 함"
+      },
+      "notListed": {
+        "long": "목록에 없음",
+        "short": "목록에 없음"
+      },
+      "official": {
+        "long": "Steam 기본 설정",
+        "short": "기본 버전"
+      },
+      "older": {
+        "long": "오래된 버전을 사용힘",
+        "short": "오래된 버전"
+      }
+    },
+    "prompt": "어떤 버전의 Proton을 사용했습니까?"
+  },
+  "verdict": {
+    "additionalNotes": {
+      "label": "요약 (최대 {{count}} 문자)",
+      "placeholder": "짧은 요약을 작성해 주세요. 리뷰의 앞부분에 들어갈 것입니다."
+    },
+    "prompt": "플레이해본 경험에 비추어 보아, 평균적인 Linux 게이머가 이 게임을 플레이할 수 있을 것이라고 생각하나요?"
+  },
+  "verdictOob": {
+    "prompt": "Steam에서 아무런 팅커링 없이 실행할 때, 평균적인 Linux 게이머가 이 게임을 플레이할 수 있을 것이라고 생각하나요?"
+  },
+  "welcome": {
+    "headline": "환영합니다",
+    "intro": "ProtonDB에 기여하는 것을 선택해 주셔서 대단히 감사드립니다! 기여하시기 전에, 다음의 사항들을 숙지해 주세요",
+    "notes": [
+      "리뷰는 당신, Valve, 개발자들이 게임을 고치는 것을 돕기 위해 ProtonDB에 게재됩니다. 부정확하고, 외설적이고, 단순히 게임/배포판/그래픽 카드를 홍보하기 위해 제출하는 것이 아닌, 정말로 다른 사람들을 돕기 위한 리포트를 제출해 주세요.",
+      "같은 게임에 대해 여러 개의 리뷰를 제출하는 것은 언제나 환영입니다! Proton이 업데이트 되거나 게임을 더 깊게 플레이하는 동안 제공할 정보가 더 많아질 것입니다. 이 부분에서 ProtonDB는 일반적인 위키와는 다르며, 각각의 리뷰는 당시 상태와 날짜에 게임의 플레이 여부/성능을 확인할 수 있는 '스냅샷'의 역할을 합니다.",
+      "여러 개의 리뷰를 제출한다면, 가장 최근의 리뷰가 ProtonDB 레이팅에 반영되며 이는 사용자의 시스템 환경이 Proton을 실행하기 위한 최소 사양을 만족하는 경우에만 유효합니다.",
+      "당신의 기여는 ProtonDB에 공개적으로 게시되며, Open Database License가 적용되는 데이터 파일을 통해 접근할 수 있습니다. [자세히 알아보기]({{link}})"
+    ],
+    "outro": "이제 본격적으로 리뷰를 작성해 봅시다"
+  },
+  "windowingFaults": {
+    "legend": "창",
+    "options": {
+      "activatingFullscreen": {
+        "long": "전체 화면 실행 불가",
+        "short": "전체 화면 불가능"
+      },
+      "fullNotFull": {
+        "long": "전체 화면이 화면에 맞지 않음",
+        "short": "전체 화면 크기 이상함"
+      },
+      "other": {
+        "long": "기타",
+        "short": "기타"
+      },
+      "switching": {
+        "long": "전체 화면에서 다른 창으로 전환하기 힘듦 (에를 들어 Alt-Tab으로 하는 것과 같이)",
+        "short": "전체 화면에서 전환하기 힘듦"
+      }
+    },
+    "prompt": "창 관리나 전체 화면 플레이 시에 경험한 문제가 있었습니까?"
+  }
+}
