@@ -93,7 +93,7 @@
     "gamesNotFound": "Aucun jeu trouvé. Assurez vous que 'Détails de jeux' est en publique dans vos [paramètres Steam]({{link}}).",
     "greetLoggedIn": "Voulez vous voir combien de jeux vous pouvez jouer?",
     "lookupMyLibrary": "Charger Une Bibliothèque",
-    "mostPlayedRatedUnverified":"Non officiellement, Ca a l'air de marcher",
+    "mostPlayedRatedUnverified": "Non officiellement, Ca a l'air de marcher",
     "mostPlayedRatedUnverifiedExtra": "Les jeux suivants ne sont ni officiellement vérifiés pour le Steam Deck ni vérifées et n'ont pas le status Jouable, mais les rapports communautaires semblent indiquer que le jeu fonctionne sous Linux.",
     "mostPlayedVerified": "Officiellement Vérifié",
     "mostPlayedVerifiedExtra": "Ces jeux que vous possédez que valve ont certifié pour le Steam Deck: Status Vérifié ou Jouable",
@@ -178,45 +178,45 @@
   },
   "explore": {
     "headlines": {
+      "antiCheat": "Utilise un Anti-Cheat",
+      "dateAdded": "Récemment ajouté",
       "fixWanted": "Correction souhaitée",
+      "heavilyReported": "Beaucoup De Rapports Récents",
       "highestRated": "Meilleures évaluations sur SteamDB",
       "hoursPlayed": "Heures jouées",
       "inLibrary": "Dans la bibliothèque",
+      "inWishlist": "Dans La Liste De Souhaits",
       "mostBorked": "Déclarés injouables",
       "mostPopular": "Populaires",
-      "recentlyImproved": "Récemment améliorés",
-      "wellRatedHere": "Bien évalués ici",
-      "antiCheat": "Utilise un Anti-Cheat",
-      "dateAdded": "Récemment ajouté",
-      "heavilyReported": "Beaucoup De Rapports Récents",
-      "inWishlist": "Dans La Liste De Souhaits",
       "percentPositive": "Bien Noté Dans Le Magasin",
       "playerCount": "Le Plus De Joueur Actifs",
       "popular": "Le Plus De Suiveurs Steams",
       "rank": "Les Plus Populaires",
+      "recentlyImproved": "Récemment améliorés",
       "recentlyReleased": "Récemment publié",
       "releaseDate": "Par Date de publication",
-      "userScore": "Bien Evalué"
+      "userScore": "Bien Evalué",
+      "wellRatedHere": "Bien évalués ici"
     },
     "layout": "Mise en page",
     "loadError": "Erreur lors du chargement des jeux !",
     "notLoggedIn": "Impossible de charger la bibliothèque sans un Steam ID. Visitez votre [Profil]({{link}}) pour en ajouter un.",
     "poweredBy": "Propulsé par",
     "sorts": {
+      "dateAdded": "Récemment ajouté",
       "fixWanted": "Correction souhaitée",
+      "heavilyReported": "Total des rapports récents",
       "hoursPlayed": "Heures jouées",
       "mostBorked": "Déclarés injouables",
-      "playerCount": "Nombre de joueurs",
-      "recentlyImproved": "Récemment améliorés",
-      "userScore": "Score utilisateur",
-      "wilsonRating": "Évaluation ProtonDB",   
-      "dateAdded": "Récemment ajouté",
-      "heavilyReported": "Total des rapports récents",
       "percentPositive": "Pourcent positifs",
+      "playerCount": "Nombre de joueurs",
       "popular": "Populaire",
       "rank": "Les plus populaires",
+      "recentlyImproved": "Récemment améliorés",
       "recentlyReleased": "Récemment publié",
-      "releaseDate": "Date de publication"
+      "releaseDate": "Date de publication",
+      "userScore": "Score utilisateur",
+      "wilsonRating": "Évaluation ProtonDB"
     },
     "tagData": "Données Tag",
     "toggles": {
@@ -287,19 +287,18 @@
     "sampleGames": "Voici un échantillon de quelques jeux populaires qui ne sont pas encore officiellement inscrits dans la liste blanche, mais qui ont été évalués Platine sur ProtonDB.",
     "search": "Rechercher un jeu…",
     "stats": {
-      "gamesReported": "jeux rapportés",
-      "gamesWork": "jeux fonctionnent",
-      "reportsWritten": "rapports écrits",
-      
       "atLeastOneRecommends": "Recommandé par au moins un",
       "atLeastThreeRecommend": "Recommandé par trois ou plus",
       "atLeastTwoRecommend": "Recommandé par deux ou plus",
       "deckVerified": "verifié",
       "deckVerifiedHeader": "Jeux Deck Vérifié",
       "deckVerifiedPlayable": "vérifié ou jouable",
+      "gamesReported": "jeux rapportés",
       "gamesWithReports": "jeux avec rapports",
+      "gamesWork": "jeux fonctionnent",
       "gamesWorkExplanation": "Ont ay moins un pouce en l'air ou un rapport Platine (legacy)",
-      "protonDbGamesHeader": "Jeux sur ProtonDB"
+      "protonDbGamesHeader": "Jeux sur ProtonDB",
+      "reportsWritten": "rapports écrits"
     },
     "theImpact": {
       "answer": "Steam Play prend désormais officiellement en charge un nombre limité, mais croissant de jeux sur « liste blanche » qui sont considérés comme compatibles avec Proton et qui fonctionnent sous Linux. Selon les rapports de ProtonDB, un nombre important de jeux non inscrits sur la liste blanche, y compris de nombreux titres populaires, fonctionnent aussi bien que sous Windows.",
@@ -352,7 +351,7 @@
       "S": "S Tier: Pas le moindre défaut"
     },
     "reports": "Click to view reports"
-  }, 
+  },
   "specs": {
     "cpu": "CPU",
     "gpu": "GPU",

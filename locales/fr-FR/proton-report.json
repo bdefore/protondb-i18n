@@ -574,6 +574,25 @@
   "triedOob": {
     "prompt": "Votre rapport sera classifé en tant que rapport de bidouillage. Avez vous essayé de jouer avec Steam et Proton sans bidouillage?"
   },
+  "type": {
+    "intro": [
+      "ProtonDB divise maintenant les rapports en deux types : Steam Play et Tinker.",
+      "Utilisez les rapports Steam Play pour couvrir l’expérience originale. Installez, lancez le jeu et commencez à jouer.",
+      "Utilisez les rapports Tinker si vous avez fait des ajustements ou des modifications pour que le jeu fonctionne.",
+      "Pour plus d’informations sur les différences, veuillez lire [cette news]({{link}})."
+    ],
+    "options": {
+      "steamPlay": {
+        "long": "Rapport Steam Play",
+        "short": "Rapport Steam Play"
+      },
+      "tinker": {
+        "long": "Rapport Tinker",
+        "short": "Rapport Tinker"
+      }
+    },
+    "prompt": "Quel type de rapport souhaitez-vous écrire ?"
+  },
   "variant": {
     "additionalNotes": {
       "label": "What's it called?"
@@ -606,25 +625,6 @@
       }
     },
     "prompt": "What variant of Proton do you use?"
-  },
-  "type": {
-    "intro": [
-      "ProtonDB divise maintenant les rapports en deux types : Steam Play et Tinker.",
-      "Utilisez les rapports Steam Play pour couvrir l’expérience originale. Installez, lancez le jeu et commencez à jouer.",
-      "Utilisez les rapports Tinker si vous avez fait des ajustements ou des modifications pour que le jeu fonctionne.",
-      "Pour plus d’informations sur les différences, veuillez lire [cette news]({{link}})."
-    ],
-    "options": {
-      "steamPlay": {
-        "long": "Rapport Steam Play",
-        "short": "Rapport Steam Play"
-      },
-      "tinker": {
-        "long": "Rapport Tinker",
-        "short": "Rapport Tinker"
-      }
-    },
-    "prompt": "Quel type de rapport souhaitez-vous écrire ?"
   },
   "verdict": {
     "additionalNotes": {
