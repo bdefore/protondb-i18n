@@ -41,7 +41,15 @@
       "playerCount": "Nombre de joueurs",
       "recentlyImproved": "Récemment améliorés",
       "userScore": "Score utilisateur",
-      "wilsonRating": "Évaluation ProtonDB"
+      "wilsonRating": "Évaluation ProtonDB",
+      
+      "dateAdded": "Récemment ajouté",
+      "heavilyReported": "Total des rapports récents",
+      "percentPositive": "Pourcent positifs",
+      "popular": "Populaire",
+      "rank": "Les plus populaires",
+      "recentlyReleased": "Récemment publié",
+      "releaseDate": "Date de publication"
     },
     "toggles": {
       "includeNative": "Inclure natifs",

@@ -37,9 +37,20 @@
     },
     "prompt": "Avez-vous rencontré des problèmes avec le son ?"
   },
+  "authoringLanguage": {
+    "prompt": "Dans quelle langue allez vous écrire ce rapport?"
+  },
+  "batteryPerformance": {
+    "legend": "Autonomie de la batterie",
+    "prompt": "Avez vous effectué des changements pour améliorer l'autonomie de la batterie?"
+  },
   "borked": {
     "headline": "C’est vraiment dommage !",
     "intro": "Vous allez maintenant procéder à la soumission d’un rapport de jeu injouable, mais avant de le faire, vous pourriez aller lire notre [FAQ de dépannage de jeu]({{link}})."
+  },
+  "concludingNotes": {
+    "label": "Notes conclusives",
+    "prompt": "Ajoutez ici n'importe quelle information que vous souhaitez pour conclure votre rapport"
   },
   "customizationsUsed": {
     "additionalNotes": {
