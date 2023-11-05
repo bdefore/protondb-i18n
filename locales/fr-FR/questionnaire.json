@@ -5,6 +5,7 @@
     "answerRequiredWhenNotListed": "Réponse requise lorsque Non listé est choisi",
     "back": "Retour",
     "error": "Erreur !",
+    "invalidGeVersion": "Version GE invalide. Elle doit contenir (nouveau formatage) 'GE-Proton{major}.{minor}-patch' ou (ancient formatage) '{major}.{minor}-ge-{patch}'. Exemple: 'GE-Proton7-5'",
     "markdownSupportNotice": "La notation Markdown peut maintenant être utilisée",
     "maxChars": "{{count}} caractères max",
     "next": "Suivant",
