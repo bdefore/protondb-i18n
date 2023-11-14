@@ -40,7 +40,7 @@ Any questions? Ask us on [Discord](https://discord.gg/uuwK9EV) You might want to
 
 Keep an eye out for page rendering issues if your text is smaller or larger than the English equivalent, and open an issue with a screenshot if you cannot fit readable words for your language.
 
-- Learn how to modify your browser's local storage (here are instructions for [Chrome](https://developers.google.com/web/tools/chrome-devtools/storage/localstorage) and [Firefox](https://developer.mozilla.org/en-US/docs/Tools/Storage_Inspector))
+- Learn how to modify your browser's local storage (here are instructions for [Chrome](https://developer.chrome.com/docs/devtools/storage/localstorage/) and [Firefox](https://developer.mozilla.org/en-US/docs/Tools/Storage_Inspector))
 - Visit [ProtonDB](https://www.protondb.com)
 - If you're not already, switch to English
 - (NEW): For both files, copy the values for `i18nStamp` and `i18nVersion` that occur in the ones that are stored in your local storage.
