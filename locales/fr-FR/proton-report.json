@@ -37,9 +37,94 @@
     },
     "prompt": "Avez-vous rencontré des problèmes avec le son ?"
   },
+  "authoringLanguage": {
+    "prompt": "Dans quelle langue allez vous écrire ce rapport?"
+  },
+  "batteryPerformance": {
+    "legend": "Autonomie de la batterie",
+    "prompt": "Avez vous effectué des changements pour améliorer l'autonomie de la batterie?"
+  },
   "borked": {
     "headline": "C’est vraiment dommage !",
     "intro": "Vous allez maintenant procéder à la soumission d’un rapport de jeu injouable, mais avant de le faire, vous pourriez aller lire notre [FAQ de dépannage de jeu]({{link}})."
+  },
+  "concludingNotes": {
+    "label": "Notes conclusives",
+    "prompt": "Ajoutez ici n'importe quelle information que vous souhaitez pour conclure votre rapport"
+  },
+  "controlLayout": {
+    "additionalNotes": {
+      "label": "Quelle version communautaire?"
+    },
+    "legend": "Disposition des contrôles",
+    "options": {
+      "community": {
+        "long": "Une disposition communautairet",
+        "short": "Disposition Communautaire"
+      },
+      "gamepad": {
+        "long": "Manette",
+        "short": "Manette"
+      },
+      "gamepadWithGyro": {
+        "long": "Manette Avec Gyroscope",
+        "short": "Manette Avec Gyroscope"
+      },
+      "gamepadWithJoystick": {
+        "long": "Manette Avec Joystick Pavé Tactile",
+        "short": "Manette Avec Joystick Pavé Tactile"
+      },
+      "gamepadWithMouseTrackpad": {
+        "long": "Manette Avec Souris Pavé Tactile",
+        "short": "Manette Avec Souris Pavé Tactile"
+      },
+      "keyboardAndMouse": {
+        "long": "Clavier (WASD) Et Souris",
+        "short": "Clavier Souris"
+      },
+      "mouseOnly": {
+        "long": "Souris Seulement",
+        "short": "Souris Seulement"
+      },
+      "official": {
+        "long": "Disposition officielle",
+        "short": "officielle"
+      },
+      "touchscreenMouseEmulation": {
+        "long": "Emulation Souris Ecran Tactile",
+        "short": "Emulation Souris Ecran Tactile"
+      }
+    },
+    "prompt": "Avec quelle dispostion de contrôles avez vous joué?"
+  },
+  "controlLayoutCustomization": {
+    "additionalNotes": {
+      "label": "Personnalisation",
+      "prompt": "Décrivez vos modifications"
+    },
+    "legend": "Personnalisation De La Disposition Des Contrôles",
+    "options": {
+      "enableGripButtons": {
+        "long": "Boutons Grip Arrière Activés",
+        "short": "Boutons Grip"
+      },
+      "gyro": {
+        "long": "Gyroscope Activé",
+        "short": "Gyroscope"
+      },
+      "other": {
+        "long": "Autre",
+        "short": "Autre"
+      },
+      "rightTrackpad": {
+        "long": "Comportement Pavé Tactile Droit Modifié",
+        "short": "Pavé Tactile Droit"
+      }
+    },
+    "prompt": "Avez vous modifié d'avantage les contrôles?"
+  },
+  "customProtonVersion": {
+    "label": "Version"
   },
   "customizationsUsed": {
     "additionalNotes": {
@@ -81,7 +166,14 @@
         "short": "winetricks"
       }
     },
-    "prompt": "Quelles modifications avez-vous apportées ?"
+    "prompt": "Quelles modifications avez-vous apportées?"
+  },
+  "device": {
+    "legend": "Appareils",
+    "prompt": "Sur lequel de vos appreils jouez vous?"
+  },
+  "didChangeControlLayout": {
+    "prompt": "Avez vous modfié les dispositions par défaut des contrôles?"
   },
   "duration": {
     "legend": "Durée",
@@ -269,6 +361,13 @@
     },
     "prompt": "Utilisez-vous l’une de ces options de lancement de Proton ?"
   },
+  "launchOptions": {
+    "helperText": "i.e. PROTON_NO_D3D11=1 %command%",
+    "label": "Options De Lancement",
+    "legend": "Options De Lancement",
+    "placeholder": "(aucune)",
+    "prompt": "Avez vous utilisé des options de lancement?"
+  },
   "launcher": {
     "additionalNotes": {
       "label": "Lanceur"
@@ -295,6 +394,9 @@
     "prompt": "Comment lancez-vous le jeu ?"
   },
   "localMultiplayerAppraisal": {
+    "additionalNotes": {
+      "label": "Plus De Details"
+    },
     "prompt": "Comment évalueriez-vous le multijoueur local ? Veuillez évaluer les lags, les problèmes de connexion ou d’entrée, etc."
   },
   "localMultiplayerAttempted": {
@@ -328,6 +430,9 @@
     }
   },
   "onlineMultiplayerAppraisal": {
+    "additionalNotes": {
+      "label": "Plus De Details"
+    },
     "prompt": "Comment évaluez-vous le multijoueur en ligne ? Veuillez évaluer les lags, les problèmes de connexion ou d’entrée, les échecs de matchmaking, etc."
   },
   "onlineMultiplayerAttempted": {
@@ -383,6 +488,10 @@
     },
     "prompt": "Quelle version de Proton utilisez-vous ?"
   },
+  "readability": {
+    "legend": "Difficultées À Lire Du Texte",
+    "prompt": "Y Avais T'Il Du Texte Difficile À Lire Dans Le Jeu?"
+  },
   "saveGameFaults": {
     "legend": "Sauvegardes",
     "options": {
@@ -401,12 +510,16 @@
     },
     "prompt": "Avez-vous rencontré des problèmes avec les sauvegardes ?"
   },
+  "secondaryLauncher": {
+    "legend": "Problème De Lancement Secondaire",
+    "prompt": "Avez Vous Rencontré Des Problèmes À Cause d'une Fenêtre De Lancement Secondaire?"
+  },
   "significantBugs": {
     "legend": "Bugs importants",
     "prompt": "Avez-vous rencontré d’autres bogues importants ?"
   },
   "stabilityFaults": {
-    "legend": "Stabilité",
+    "legend": "Instabilitées",
     "options": {
       "frequentCrashes": {
         "long": "Crashs fréquents",
@@ -442,6 +555,25 @@
     "tinkerCheck": "Type de rapport",
     "unownedWarning": "Pas dans la bibliothèque"
   },
+  "tinkerOverride": {
+    "additionalNotes": {
+      "label": "Description Bidouillage"
+    },
+    "options": {
+      "no": {
+        "long": "Non - pas de bidouillage ici",
+        "short": "Rapport SteamPlay"
+      },
+      "yes": {
+        "long": "Oui",
+        "short": "Rapport De Bidouillage"
+      }
+    },
+    "prompt": "On dirait un rapport sans bidouillage. Avez vous réalisé des modifications qui ferait de cela un rapport de bidouillage? [Plus D'Informations]({{link}})"
+  },
+  "triedOob": {
+    "prompt": "Votre rapport sera classifé en tant que rapport de bidouillage. Avez vous essayé de jouer avec Steam et Proton sans bidouillage?"
+  },
   "type": {
     "intro": [
       "ProtonDB divise maintenant les rapports en deux types : Steam Play et Tinker.",
@@ -461,12 +593,48 @@
     },
     "prompt": "Quel type de rapport souhaitez-vous écrire ?"
   },
+  "variant": {
+    "additionalNotes": {
+      "label": "What's it called?"
+    },
+    "legend": "Variant",
+    "options": {
+      "experimental": {
+        "long": "Forced Experimental",
+        "short": "Experimental"
+      },
+      "ge": {
+        "long": "Glorious Eggroll (GE)",
+        "short": "GE"
+      },
+      "native": {
+        "long": "Native. No Proton.",
+        "short": "native"
+      },
+      "notListed": {
+        "long": "Not Listed",
+        "short": "Not Listed"
+      },
+      "official": {
+        "long": "The one Steam recommends by default",
+        "short": "Official"
+      },
+      "older": {
+        "long": "Switched to an older version",
+        "short": "Older"
+      }
+    },
+    "prompt": "What variant of Proton do you use?"
+  },
   "verdict": {
     "additionalNotes": {
       "label": "Résumé ({{count}} caractères max)",
       "placeholder": "Ajoutez un bref résumé. Ceci sera le titre de votre rapport."
     },
     "prompt": "Un joueur typique aurait-il une expérience agréable en exécutant ce jeu sous Linux avec Proton ?"
+  },
+  "verdictOob": {
+    "prompt": "Lancer directement depuis Steam, est-ce qu'un joueur banal prendrait du plaisir à jouer à ce jeu sur Linux, même sans bidouillage?"
   },
   "welcome": {
     "headline": "Bienvenue",
