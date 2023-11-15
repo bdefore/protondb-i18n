@@ -3,7 +3,23 @@
     "headline": "Autenticazione di Steam",
     "loggedInAs": "Autenticato come {{username}}",
     "steamSignIn": "Autenticati con Steam",
-    "unlink": "Scollega Account"
+    "unlink": "Scollega Account",
+    "forgetMe": "Forget Me",
+    "genericSignIn": "Sign In",
+    "identifierExample": "Examples:\n - [{{profileExample}}](#)\n - {{steamIdExample}}",
+    "identifierOptions": "Steam ID or Profile URL",
+    "logInToContribute": "Verify your Steam account to contribute content",
+    "notLoggedIn": "Not Signed In",
+    "note": "Within your [Steam Privacy Settings]({{link}}), 'My profile' must be set to public. 'Game Details' is not required to be public, but if it is, ownership and playtime information will be sent with your contributions.",
+    "profileUrl": "Profile URL",
+    "signOut": "Sign Out",
+    "steamId": "Steam ID",
+    "steamIdIntro": "Alternatively to signing in with Steam, you may provide [an identifier]({{steamIdLink}}) for an account so that you can [explore its library or wishlist]({{link}}).",
+    "steamLoginIntro": "ProtonDB requires Steam authentication to confirm the identity of contributors. Signing in this way accesses some public information about you but it will NOT bestow any privileges to your Steam account.",
+    "topBarLink": "Your Steam Games",
+    "unverified": "Unverified",
+    "vanityName": "Public Name",
+    "verifiedAs": "Verified as {{username}}"
   },
   "content": {
     "followingPost": "Post Successivo",
@@ -16,18 +32,32 @@
     "peakPlayers": "{{context}} giocatori",
     "positiveRating": "{{context}}% rating positivi",
     "protonDbRating": "",
-    "recentReportCount": "{{context}} report con le ultime due versioni di Proton"
+    "recentReportCount": "{{context}} report con le ultime due versioni di Proton",
+    "dateAdded": "Added on {{context}}",
+    "followers": "{{context}} Steam followers",
+    "heavilyReported": "{{context}} recent reports",
+    "percentPositive": "{{context}}% positive rating",
+    "playerCount": "{{context}} peak players",
+    "popular": "{{context}} followers",
+    "rank": "Ranked {{context}} on Steam",
+    "recentlyImproved": "{{context}} reports with latest two Proton versions",
+    "recentlyReleased": "First batch of {{context}} reports",
+    "releaseDate": "Released {{context}}",
+    "userScore": "{{context}}% positive rating",
+    "wilsonRating": ""
   },
   "footer": {
     "description": "{{name}} è un progetto di [@bdefore]({{link}}) e di una community dedicata di reporters.",
     "feedbackPrompt": "Hai qualche feedback? Unisciti a noi su Discord!",
-    "legal": "Questo sito non ha alcun legame con Valve Software. Tutte le immagini di giochi e loghi sono proprietà dei rispettivi proprietari."
+    "legal": "Questo sito non ha alcun legame con Valve Software. Tutte le immagini di giochi e loghi sono proprietà dei rispettivi proprietari.",
+    "data": "This site uses data from {{name}} as well as data"
   },
   "libraryLoader": {
     "errorLoadingGames": "Errore nel caricamento della libreria. Assicurati che il Profilo e i Dettagli del gioco siano pubblici su questo account!",
     "gameTotal": "{{count}} giochi caricati dalla libreria!",
     "note": "Assicurati che 'Visibilità del mio profilo' e 'Visibilità delle mie informazioni di gioco' siano entrambe pubbliche nelle [impostazioni della privacy di Steam]({{link}}). Cambiamenti recenti le hanno impostate a private di default. Verranno usate le Steam Web API per recuperare informazioni come il tuo id, nome e avatar. Steam presenterà un indirizzo IP di {{host}} di cui fidarti.",
-    "refresh": "Aggiorna"
+    "refresh": "Aggiorna",
+    "headline": "Library"
   },
   "misc": {
     "addYourReport": "Aggiungi un report",
@@ -76,7 +106,23 @@
     "tier": "Categoria",
     "total": "Totale",
     "unknown": "Sconosciuto",
-    "version": "Versione"
+    "version": "Versione",
+    "clear": "Clear",
+    "delete": "Delete",
+    "device": "Device",
+    "devices": "Devices",
+    "forget": "Forget",
+    "hour": "hour",
+    "hours": "hours",
+    "notRecommended": "Not Recommended",
+    "recommended": "Recommended",
+    "revert": "Revert",
+    "sortBy": "Sort By",
+    "switchTo": "Switch to {{thing}}",
+    "tinker": "tinker",
+    "tryAgain": "Try Again",
+    "unknownError": "Unknown Error",
+    "updated": "{{what}} Updated"
   },
   "nav": {
     "contribute": "Contribuisci",
@@ -85,12 +131,15 @@
     "news": "Novità",
     "profile": "Profilo",
     "search": "Cerca titoli...",
-    "stats": "Statistiche"
+    "stats": "Statistiche",
+    "dashboard": "Dashboard"
   },
   "pagination": {
     "next": "Prossima pagina",
     "previous": "Pagina precedente",
-    "summary": "Risultati da {{from}} a {{to}} su {{total}}"
+    "summary": "Risultati da {{from}} a {{to}} su {{total}}",
+    "nextShort": "Next",
+    "previousShort": "Prev"
   },
   "preferences": {
     "headline": "Preferenze",
@@ -108,8 +157,12 @@
       },
       "language": {
         "prompt": "Lingua (Sperimentale)"
+      },
+      "performanceMode": {
+        "prompt": "Would you prefer to run a performance-friendly version of the site?"
       }
-    }
+    },
+    "note": "Your preferences will synchronize wherever you login with Steam."
   },
   "profile": {
     "exploreLibrary": "Puoi esplorare la tua libreria nei seguenti modi:",
@@ -122,7 +175,8 @@
       "headline": "I seguenti tag sono comuni nella tua libreria. Puoi provare con questi:",
       "lackReportsByHoursPlayed": "Report Mancanti per le tue ore di gioco",
       "lackReportsByPlayerCount": "Report Mancanti per numero di giocatori",
-      "lackReportsBySteamDbScore": "Report Mancanti per score degli utenti di SteamDB"
+      "lackReportsBySteamDbScore": "Report Mancanti per score degli utenti di SteamDB",
+      "byReleaseDate": "By release date"
     },
     "notInYourLibrary": "Non è nella tua libreria",
     "yourContributions": "Le tue contribuzioni"
@@ -133,9 +187,34 @@
     "filteredOutHeadline": "I seguenti {{count}} reports non corrispondono ai tuoi criteri di filtraggio per {{filters}}",
     "superceded": "C'è un nuovo report di questo tipo fatto da questo autore",
     "zeroStateMessage": "Nessun report",
-    "zeroStateMessageWithFilters": "Nessun report corrisponde ai tuoi filtri scelti"
+    "zeroStateMessageWithFilters": "Nessun report corrisponde ai tuoi filtri scelti",
+    "addAReportPrompt": "Let us all know how it runs by [contributing a report]({{link}})!",
+    "deckVerifiedStatus": "Deck Verified Status",
+    "displayExcluded": "Show excluded reports",
+    "doYouOwnSteamDeck": "Do you own one? You can [add a device]({{link}}) on your profile.",
+    "haveYouPlayed": "Have you played this game?",
+    "inLibrary": "This game is in library.",
+    "noReportsYetSteamDeck": "No reports yet on Steam Deck.",
+    "readyToAuthorSteamDeck": "You're ready to author Steam Deck reports.",
+    "timePlayedOnLinux": "You've played on Linux for {{hours}} hours.",
+    "tinkerMethods": {
+      "customProton": "Custom Proton",
+      "experimental": "Switch to experimental",
+      "launchOptions": "Set launch options",
+      "launcher": "Launcher",
+      "older": "Switch to older version",
+      "other": "Other"
+    }
   },
   "search": {
-    "resultsHeader": "Risultati per {{q}}"
+    "resultsHeader": "Risultati per {{q}}",
+    "headline": "Search for {{q}}",
+    "results": "Results"
+  },
+  "attribution": {
+    "steamDb": "{{subject}} provided by [{{name}}]({{link}}) via [{{partnerName}}]({{partnerLink}})."
+  },
+  "games": {
+    "zeroStateMessage": "No games found"
   }
 }

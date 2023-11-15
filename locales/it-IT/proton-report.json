@@ -5,7 +5,10 @@
     "notFound": "Non siamo riusciti a trovare {{query}}. Questo può succedere se l'ID è errato oppure se il gioco: è stato rimosso dallo store di Steam, non è listato come 'Gioco', oppure non è disponibile nel tuo stato.",
     "placeholder": "Inserisci il nome di un gioco nella tua libreria di Steam...",
     "previousReportsExist": "Hai report precedenti di questo gioco",
-    "runsNativeWarning": "Il gioco selezionato ha pubblicato una versione nativa per Linux! Assicurati di non aver avviato il gioco nativamente. Steam normalmente non usa Steam Play per eseguire questo gioco, ma [puoi forzarlo]({{link}})."
+    "runsNativeWarning": "Il gioco selezionato ha pubblicato una versione nativa per Linux! Assicurati di non aver avviato il gioco nativamente. Steam normalmente non usa Steam Play per eseguire questo gioco, ma [puoi forzarlo]({{link}}).",
+    "noPlaytime": "Your Steam account shows no playtime recorded for this game. This can happen if your [Steam privacy settings]({{link}}) do not make game details public, or if you've elected not to share playtime via the 'Always keep my total playtime private even if users can see my game details' toggle. Your report will still show you as an owner. If this is in error, please let us know.",
+    "notOwner": "Your Steam account does not list this game as owned by you and will not display so on your report. This can happen if your [Steam privacy settings]({{link}}) do not make game details public. If this is in error, please let us know.",
+    "playedNatively": "Did you run the game natively without using Proton?"
   },
   "audioFaults": {
     "legend": "Audio",
@@ -79,6 +82,14 @@
       "winetricks": {
         "long": "winetricks",
         "short": "winetricks"
+      },
+      "configChange": {
+        "long": "Changed the game's configuration file(s)",
+        "short": "Changed configuration"
+      },
+      "mediaFoundation": {
+        "long": "Media Foundation DLL (mf-install)",
+        "short": "Media Foundation DLL"
       }
     },
     "prompt": "Che modifiche hai fatto?"
@@ -261,6 +272,38 @@
       "useWineD9vk": {
         "long": "Usa Wine D9VK",
         "short": "Usa Wine D9VK"
+      },
+      "enableNvapi": {
+        "long": "Enable NVAPI (PROTON_ENABLE_NVAPI)",
+        "short": "Enable NVAPI"
+      },
+      "fullscreenIntegerScaling": {
+        "long": "Fullscreen Integer Scaling (WINE_FULLSCREEN_INTEGER_SCALING)",
+        "short": "Fullscreen Integer Scaling"
+      },
+      "gameDrive": {
+        "long": "Set Game Drive (PROTON_SET_GAME_DRIVE)",
+        "short": "Set Game Drive"
+      },
+      "heapDelayFree": {
+        "long": "Delay freeing some memory (PROTON_HEAP_DELAY_FREE)",
+        "short": "Heap Delay Free"
+      },
+      "hideNvidia": {
+        "long": "Hide Nvidia GPU (PROTON_HIDE_NVIDIA_GPU)",
+        "short": "Hide Nvidia GPU"
+      },
+      "noWriteWatch": {
+        "long": "Disable support for memory write watches (PROTON_NO_WRITE_WATCH)",
+        "short": "No Write Watch"
+      },
+      "noXim": {
+        "long": "No XIM (PROTON_NO_XIM)",
+        "short": "No XIM"
+      },
+      "useSeccomp": {
+        "long": "Enable Seccomp (PROTON_USE_SECCOMP)",
+        "short": "Enable Seccomp"
       }
     },
     "prompt": "Hai usato qualche flag di Proton?"
@@ -286,12 +329,19 @@
       "steam": {
         "long": "Steam",
         "short": "Steam"
+      },
+      "bottles": {
+        "long": "Bottles",
+        "short": "Bottles"
       }
     },
     "prompt": "Come avvii il gioco?"
   },
   "localMultiplayerAppraisal": {
-    "prompt": "Come valuteresti la funzionalità di multiplayer locale? Valuta ritardi, connettività, problemi di input ecc."
+    "prompt": "Come valuteresti la funzionalità di multiplayer locale? Valuta ritardi, connettività, problemi di input ecc.",
+    "additionalNotes": {
+      "label": "Further Details"
+    }
   },
   "localMultiplayerAttempted": {
     "prompt": "Hai provato il multiplayer locale (offline)?"
@@ -324,7 +374,10 @@
     }
   },
   "onlineMultiplayerAppraisal": {
-    "prompt": "Come valuteresti il multiplayer online? Valuta ritardi, connettività, problemi di input, fallimenti nel matchmaking ecc."
+    "prompt": "Come valuteresti il multiplayer online? Valuta ritardi, connettività, problemi di input, fallimenti nel matchmaking ecc.",
+    "additionalNotes": {
+      "label": "Further Details"
+    }
   },
   "onlineMultiplayerAttempted": {
     "prompt": "Hai provato il multiplayer online?"
@@ -352,7 +405,8 @@
   },
   "prerequisitesBlock": {
     "action": "Vai al tuo profilo",
-    "context": "Devi autenticarti con Steam e fornire le tue informazioni di sistema prima di inviare!"
+    "context": "Devi autenticarti con Steam e fornire le tue informazioni di sistema prima di inviare!",
+    "headline": "Not Ready Yet!"
   },
   "preview": {
     "intro": "Cose da controllare:",
@@ -431,7 +485,9 @@
     "stability": "Stabilità",
     "startup": "Installazione e Avvio",
     "tinkerCheck": "Tipo di Report",
-    "unownedWarning": "Non nella libreria"
+    "unownedWarning": "Non nella libreria",
+    "steamDeckRelated": "Steam Deck Related",
+    "technical": "Technical Details"
   },
   "type": {
     "intro": [
@@ -491,5 +547,172 @@
       }
     },
     "prompt": "Hai riscontrato problemi con la finestra di gioco o il fullscreen?"
+  },
+  "authoringLanguage": {
+    "prompt": "What language will you write this report in?"
+  },
+  "batteryPerformance": {
+    "legend": "Battery Performance",
+    "prompt": "Did you make any changes to improve battery performance?"
+  },
+  "concludingNotes": {
+    "label": "Concluding Notes",
+    "prompt": "Add here anything extra that you'd like to conclude with at the end of your report."
+  },
+  "controlLayout": {
+    "additionalNotes": {
+      "label": "What community version?"
+    },
+    "legend": "Control Layout",
+    "options": {
+      "community": {
+        "long": "A community layout",
+        "short": "Community layout"
+      },
+      "gamepad": {
+        "long": "Gamepad",
+        "short": "Gamepad"
+      },
+      "gamepadWithGyro": {
+        "long": "Gamepad With Gyro",
+        "short": "Gamepad With Gyro"
+      },
+      "gamepadWithJoystick": {
+        "long": "Gamepad With Joystick Trackpad",
+        "short": "Gamepad With Joystick Trackpad"
+      },
+      "gamepadWithMouseTrackpad": {
+        "long": "Gamepad With Mouse Trackpad",
+        "short": "Gamepad With Mouse Trackpad"
+      },
+      "keyboardAndMouse": {
+        "long": "Keyboard (WASD) And Mouse",
+        "short": "Keyboard And Mouse"
+      },
+      "mouseOnly": {
+        "long": "Mouse Only",
+        "short": "Mouse Only"
+      },
+      "official": {
+        "long": "The official layout",
+        "short": "official"
+      },
+      "touchscreenMouseEmulation": {
+        "long": "Touchscreen Mouse Emulation",
+        "short": "Touchscreen Mouse Emulation"
+      }
+    },
+    "prompt": "What control layout did you play with?"
+  },
+  "controlLayoutCustomization": {
+    "additionalNotes": {
+      "label": "Customizations",
+      "prompt": "Describe your changes"
+    },
+    "legend": "Control Layout Customization",
+    "options": {
+      "enableGripButtons": {
+        "long": "Enabled Back Grip Buttons",
+        "short": "Grip Buttons"
+      },
+      "gyro": {
+        "long": "Enabled Gyro",
+        "short": "Gyro"
+      },
+      "other": {
+        "long": "Other",
+        "short": "Other"
+      },
+      "rightTrackpad": {
+        "long": "Changed Right Trackpad Behavior",
+        "short": "Right Trackpad"
+      }
+    },
+    "prompt": "Did you customize the controls further?"
+  },
+  "customProtonVersion": {
+    "label": "Version"
+  },
+  "device": {
+    "legend": "Device",
+    "prompt": "Which of your devices are you playing on?"
+  },
+  "didChangeControlLayout": {
+    "prompt": "Did you change the default control layout?"
+  },
+  "launchOptions": {
+    "helperText": "i.e. PROTON_NO_D3D11=1 %command%",
+    "label": "Launch Options",
+    "legend": "Launch Options",
+    "placeholder": "(none)",
+    "prompt": "Do you set any launch options?"
+  },
+  "prerequisites": {
+    "missingProfileInfo": "Profile information incomplete. Missing: {{context}}",
+    "noValidDevices": "None of your devices have valid system information",
+    "notLoggedIn": "Not logged in with {{context}}"
+  },
+  "readability": {
+    "legend": "Difficult To Read Text",
+    "prompt": "Was there text in the game that was difficult to read?"
+  },
+  "secondaryLauncher": {
+    "legend": "Secondary Launcher Problem",
+    "prompt": "Did you have any trouble due to a secondary launch window?"
+  },
+  "tinkerOverride": {
+    "additionalNotes": {
+      "label": "Tinkering Description"
+    },
+    "options": {
+      "no": {
+        "long": "Nope - no tinkering here",
+        "short": "SteamPlay Report"
+      },
+      "yes": {
+        "long": "Yes",
+        "short": "Tinker Report"
+      }
+    },
+    "prompt": "Looks like a non-tinker report so far. Have you made any customizations that would warrant this being a Tinker report? [More info]({{link}})"
+  },
+  "triedOob": {
+    "prompt": "Your report will be classified as a tinker report. Have you tried playing with Steam and Proton without any tinkering?"
+  },
+  "variant": {
+    "additionalNotes": {
+      "label": "What's it called?"
+    },
+    "legend": "Variant",
+    "options": {
+      "experimental": {
+        "long": "Forced Experimental",
+        "short": "Experimental"
+      },
+      "ge": {
+        "long": "Glorious Eggroll (GE)",
+        "short": "GE"
+      },
+      "native": {
+        "long": "Native. No Proton.",
+        "short": "native"
+      },
+      "notListed": {
+        "long": "Not Listed",
+        "short": "Not Listed"
+      },
+      "official": {
+        "long": "The one Steam recommends by default",
+        "short": "Official"
+      },
+      "older": {
+        "long": "Switched to an older version",
+        "short": "Older"
+      }
+    },
+    "prompt": "What variant of Proton do you use?"
+  },
+  "verdictOob": {
+    "prompt": "Launching straight from Steam, would a typical gamer enjoy playing this game on Linux even without tinkering?"
   }
 }
