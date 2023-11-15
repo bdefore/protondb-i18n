@@ -71,6 +71,7 @@
         "short": "VR"
       }
     },
+    "chromebookReady": "Chromebook Ready",
     "decline": "Go back",
     "gameSorts": {
       "hoursPlayed": {
@@ -90,12 +91,12 @@
     "gamesNotFound": "No games found. Ensure 'Game Details' is set to public in your [Steam settings]({{link}}).",
     "greetLoggedIn": "Want to see how many games I can play?",
     "lookupMyLibrary": "Load A Library",
-    "mostPlayedRatedUnverified": "Unofficially Looking Good Here",
-    "mostPlayedRatedUnverifiedExtra": "The following games are not yet officially Deck Verified as Verified nor Playable status, but according to community reports are looking good for play on Linux.",
-    "mostPlayedVerified": "Officially Verified",
-    "mostPlayedVerifiedExtra": "These are games you own that Valve has certified as Deck Verified: Verified or Playable status",
+    "mostPlayedUnverified": "These games you like are not yet officially Verified nor Playable status, but according to community reports are looking good for play on Linux.",
+    "mostPlayedVerified": "These are your favorite games that are certified Verified or Playable status",
     "owned": "Owned game",
     "playedFor": "Played for {{hours}} hour(s)",
+    "playerCountUnverified": "The following popular games are not yet officially Verified nor Playable status, but according to community reports are looking good for play on Linux.",
+    "playerCountVerified": "These popular games are certified Verified or Playable status",
     "ratingDefinitions": {
       "?": "Pending: Needs more data",
       "T1": "The highest tier. Ubiquitously positive reports.",
@@ -120,6 +121,7 @@
       "verified": "Verified",
       "verifiedandplayable": "Verified or Playable"
     },
+    "steamDeckVerified": "Steam Deck Verified",
     "submit": "Sure!",
     "tierSystemHeadline": "Rating System",
     "tierSystems": {
@@ -145,14 +147,18 @@
       }
     },
     "tryYourLibrary": "Try your library",
+    "unverified": "Unofficially Looking Good Here",
     "useLibrary": "Use",
     "userNotFound": "User not found. Ensure 'My Profile' and 'Game Details' are set to public in your [Steam settings]({{link}}).",
+    "userScoreUnverified": "The following well-reviewed games are not yet officially Verified nor Playable status, but according to community reports are looking good for play on Linux.",
+    "userScoreVerified": "These are well-reviewed games that are certified Verified or Playable status",
     "using": "Using",
     "viewSteamCatalog": "View Steam catalog",
     "yourLibrary": "Your Library",
     "yourSteamId": "Your Steam ID"
   },
   "contributorSettings": {
+    "addAChromebook": "Add a Chromebook",
     "addAPCDevice": "Add a PC",
     "addASteamDeckDevice": "Add a Steam Deck",
     "headline": "Contributor Settings",
@@ -352,13 +358,18 @@
     "reports": "Click to view reports"
   },
   "specs": {
+    "board": "Board",
+    "channel": "Channel",
+    "chromeOs": "OS",
+    "chromeVersion": "Chrome",
     "cpu": "CPU",
     "gpu": "GPU",
     "gpuDriver": "GPU Driver",
     "kernel": "Kernel",
     "os": "Distro",
     "otherSpecs": "Other Specs",
-    "ram": "RAM"
+    "ram": "RAM",
+    "version": "Version"
   },
   "stats": {
     "analysisInByTheNumbers1": "Analysis in By The Numbers #1",
@@ -386,10 +397,13 @@
     "headline": "System Information",
     "howTo": "PC: Gathering Steam information is straightforward if you have access to Steam settings on the machine where you play your games. [Go here to learn how]({{link}}). Some users have reported that they need to press Ctrl-A to select everything before right clicking. You may omit everything starting with 'LD Scout Report' or if provided it will be stripped out automatically upon saving.",
     "howToSteamDeck": "Steam Deck: Adding this device can currently only be done from Desktop Mode of a Steam Deck. Since devices now persist across login sessions, you only need to do this once and may author reports from another machine afterwards.",
+    "incorrectDeviceType": "Incorrect Device Type",
+    "incorrectDeviceTypeExplanation": "The system information you've provided is incompatible with this type of device.",
     "intro": "Reports have more utility and lend more credibility by displaying the hardware and software the game was tested on. To keep this as accurate and consistent as possible, we leverage the system information reported by Steam itself.",
     "parseFailure": "Parsing failed. If you are certain you copied correctly please let us know on Discord",
     "parseSuccess": "System Information Parsed Successfully!",
     "pasteInstructions": "Paste Steam System Info Here",
+    "pasteInstructionsChromeOs": "Paste ChromeOS system info here.\n\nIn the Settings app: About ChromeOS -> Additional Details -> Build Details (press the copy icon) -> Paste here",
     "unsupportedHeadline": "Unsupported Drivers Detected",
     "unsupportedWarning": "Your system's display driver does not meet [Proton's current minimum requirements]({{link}})! You may experience crashes, slow performance, or graphical degradations. You may still submit reports and there is still value in your contributions, but your reports will show your graphics drivers in red and will not be counted toward aggregate ratings for games. Please update your drivers!"
   }

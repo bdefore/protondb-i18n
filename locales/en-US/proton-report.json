@@ -208,6 +208,32 @@
     },
     "prompt": "For how long have you played?"
   },
+  "frameRate": {
+    "legend": "FPS",
+    "options": {
+      "10to20": {
+        "long": "Between 10 and 20 FPS",
+        "short": "10 to 20"
+      },
+      "20to30": {
+        "long": "Between 20 and 30 FPS",
+        "short": "20 to 30"
+      },
+      "30to60": {
+        "long": "Between 30 and 60 FPS",
+        "short": "30 to 60"
+      },
+      "gt60": {
+        "long": "60 FPS or higher",
+        "short": "60 or higher"
+      },
+      "lt10": {
+        "long": "Below 10 FPS",
+        "short": "10 to 20"
+      }
+    },
+    "prompt": "Most of the time, how many frames per second (FPS) did the game run at?"
+  },
   "graphicalFaults": {
     "legend": "Graphics",
     "options": {
@@ -565,6 +591,7 @@
   "stepHeadlines": {
     "appSelection": "Game Selection",
     "borked": "Borked!",
+    "chromeOsRelated": "ChromeOS Related",
     "customizations": "Customizations",
     "finalNotes": "Verdict",
     "multiplayer": "Multiplayer",

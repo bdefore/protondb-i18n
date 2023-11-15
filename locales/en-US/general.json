@@ -166,6 +166,15 @@
       },
       "performanceMode": {
         "prompt": "Would you prefer to run a performance-friendly version of the site?"
+      },
+      "preferredDeviceType": {
+        "options": {
+          "any": "No Preference",
+          "chromeOs": "ChromeOS",
+          "pc": "PC",
+          "steamDeck": "Steam Deck"
+        },
+        "prompt": "What device type should be prioritized when displaying content, if any?"
       }
     }
   },
@@ -188,6 +197,7 @@
   },
   "reports": {
     "addAReportPrompt": "Let us all know how it runs by [contributing a report]({{link}})!",
+    "chromeOsVerifiedStatus": "Chromebook Ready Status",
     "deckVerifiedStatus": "Deck Verified Status",
     "displayExcluded": "Show excluded reports",
     "doYouOwnSteamDeck": "Do you own one? You can [add a device]({{link}}) on your profile.",
@@ -195,6 +205,7 @@
     "filteredOutHeadline": "{{count}} reports do not match your filtering criteria for {{filters}}",
     "haveYouPlayed": "Have you played this game?",
     "inLibrary": "This game is in library.",
+    "noReportsYetChromeOs": "No reports yet on ChromeOS.",
     "noReportsYetSteamDeck": "No reports yet on Steam Deck.",
     "readyToAuthorSteamDeck": "You're ready to author Steam Deck reports.",
     "superceded": "There is a newer report of this type from this author",
@@ -212,6 +223,7 @@
   },
   "search": {
     "headline": "Search for {{q}}",
+    "pageTitle": "Search",
     "results": "Results"
   }
 }
