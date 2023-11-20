@@ -61,7 +61,7 @@ As ProtonDB continues development, new text will be added that may need translat
 - Greek (el-GR): [@xnick](https://github.com/xnick)
 - Swedish (sv-SE): [@newbytee](https://github.com/newbytee)
 - French (fr-FR): [@julroy67](https://github.com/julroy67)
-- Italian (it-IT): [@apontini](https://github.com/apontini) and [@protoroto](https://github.com/protoroto)
+- Italian (it-IT): [@apontini](https://github.com/apontini), [@protoroto](https://github.com/protoroto), [@Mte90](https://github.com/Mte90/), [@spagoc](https://github.com/spagoc), [@marco-acorte](https://github.com/marco-acorte) and simojn
 - Spanish (es-ES): [@xathech](https://github.com/xathech)
 - Simplified Chinese (zh-Hans): [@zactry](https://github.com/zactry)
 - Dutch (nl-NL): [@hypothermic](https://github.com/hypothermic)

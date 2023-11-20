@@ -28,7 +28,18 @@
       "mostBorked": "I Report Più Rotti!",
       "mostPopular": "Più popolari",
       "recentlyImproved": "Migliorati di recente",
-      "wellRatedHere": "Ben valutati qui"
+      "wellRatedHere": "Ben valutati qui",
+      "antiCheat": "Uses Anti-Cheat",
+      "dateAdded": "Recently Added",
+      "heavilyReported": "Many Recent Reports",
+      "inWishlist": "In Wishlist",
+      "percentPositive": "Well Reviewed on Store",
+      "playerCount": "Most Active Players",
+      "popular": "Most Steam Followers",
+      "rank": "Most Popular",
+      "recentlyReleased": "Recently Released",
+      "releaseDate": "By Release Date",
+      "userScore": "Well Reviewed"
     },
     "layout": "Layout",
     "loadError": "Errore nel caricamento!",
@@ -41,7 +52,14 @@
       "playerCount": "Numero di giocatori",
       "recentlyImproved": "Migliorato di recente",
       "userScore": "Punteggio degli utenti",
-      "wilsonRating": "Valutazione di ProtonDB"
+      "wilsonRating": "Valutazione di ProtonDB",
+      "dateAdded": "Recently Added",
+      "heavilyReported": "Recent Report Tally",
+      "percentPositive": "Percent Positive",
+      "popular": "Popular",
+      "rank": "Most Popular",
+      "recentlyReleased": "Recently Released",
+      "releaseDate": "Release Date"
     },
     "toggles": {
       "includeNative": "Includi Nativo",
@@ -49,8 +67,13 @@
       "restrictToLibrary": "Libreria",
       "untested": "Report Mancanti",
       "userTags": "Tag degli utenti",
-      "whitelisted": "Whitelisted"
-    }
+      "whitelisted": "Whitelisted",
+      "antiCheat": "Anti-Cheat",
+      "deckVerified": "Deck Verified",
+      "excludeNative": "Exclude Native",
+      "wishlisted": "Wishlisted"
+    },
+    "tagData": "Tag data"
   },
   "filters": {
     "questions": {
@@ -65,6 +88,12 @@
       },
       "type": {
         "label": "Tipo"
+      },
+      "persist": {
+        "prompt": "Persist Across Site?"
+      },
+      "query": {
+        "label": "Query"
       }
     }
   },
@@ -72,7 +101,22 @@
     "githubIssueSearch": "Ricerca Github Issue",
     "infoNotFound": "Impossibile ottenere informazioni per l'App ID: {{entry}}. Questo può succedere se il gioco è stato rimosso dallo store.",
     "minimumRequirements": "Requirement minimi",
-    "nativelySupports": "Supportato Nativamente"
+    "nativelySupports": "Supportato Nativamente",
+    "notices": {
+      "antiCheat": {
+        "battlEye": {
+          "explanation": "Questo gioco utilizza [BattlEye](https://www.battleye.com). BattlEye [può essere utilizzato su Linux](https://twitter.com/TheBattlEye/status/1441477816311291906), ma la funzionalità multiplayer varia a seconda di come lo sviluppatore lo ha implementato."
+        },
+        "eac": {
+          "explanation": "Questo gioco utilizza [Easy Anti-Cheat](https://www.easy.ac). EAC ha [supporto limitato per Linux](https://dev.epicgames.com/en-US/news/epic-online-services-launches-anti-cheat-support-for-linux-mac-and-steam-deck), ma la funzionalità multiplayer varia a seconda di come lo sviluppatore lo ha implementato."
+        },
+        "headline": "Supporto Multiplayer"
+      },
+      "nativeDiscrepancy": {
+        "explanation": "Anche se questo gioco ha una build nativa per Linux disponibile, Steam non la elenca come supportata su Linux. Questo può succedere se un gioco ha una build non ufficiale, incompleta o non supportata. Potresti aver bisogno di [forzare Steam ad abilitare Proton per il gioco](/help/troubleshooting-faq#how-do-i-run-a-game-with-proton-even-though-it-has-a-native-linux-version) per farlo funzionare correttamente.",
+        "headline": "Supporto Nativo"
+      }
+    }
   },
   "home": {
     "getStartedLinks": [
@@ -91,7 +135,16 @@
     "stats": {
       "gamesReported": "Giochi con report",
       "gamesWork": "Giochi funzionanti",
-      "reportsWritten": "Report scritti"
+      "reportsWritten": "Report scritti",
+      "atLeastOneRecommends": "recommended by at least one",
+      "atLeastThreeRecommend": "recommended by three or more",
+      "atLeastTwoRecommend": "recommended by two or more",
+      "deckVerified": "verified",
+      "deckVerifiedHeader": "Giochi Deck Verificati",
+      "deckVerifiedPlayable": "verificati o giocabili", 
+      "gamesWithReports": "giochi con report",
+      "gamesWorkExplanation": "Hanno almeno un report Thumbs Up o Platino (legacy)",
+      "protonDbGamesHeader": "Giochi su ProtonDB"
     },
     "theImpact": {
       "answer": "Steam Play supporta un insieme limitato ma crescente di giochi 'whitelisted' considerati compatibili con Proton e funzionanti su Linux. In base ai report su ProtonDB, un numero significativo di giochi non in whitelist, compresi molti titoli popolari, funzionano come su Windows.",
@@ -109,7 +162,8 @@
       "answer": "L'esperienza desktop di Linux è migliorata notevolmente negli ultimi due anni. Molte cose a cui sei abituato su Windows o MacOS sono possibili su Linux senza troppa fatica e anche divertendosi! Allo stesso tempo, sempre più delle nostre interazioni quotidiane con il computer avvengono online e i browser si comportano allo stesso modo sia su Linux che negli altri sistemi operativi. Proton e Steam Play si dedicano ad un ostacolo significativo: il gaming, dove la compatibilità è sempre stata limitata",
       "question": "Perché è importante?"
     },
-    "youtubeId": "Co6FePZoNgE"
+    "youtubeId": "Co6FePZoNgE",
+    "compatibilityScoresDescription": "Come funziona? Leggi la [news]({{link1}}). Puoi anche usare una versione più grande nella [nuova pagina Dashboard]({{link2}})."
   },
   "medals": {
     "borked": "Rotto",
@@ -128,7 +182,22 @@
       "platinum": "Funziona perfettamente senza alcuna modifica",
       "silver": "Funziona con qualche problema ma nulla di grave"
     },
-    "headline": "Definizioni dei rating"
+    "headline": "Definizioni dei rating",
+    "categories": {
+      "clickPlay": "Click Play: Senza alcuna modifica",
+      "deck": "Come funziona su Steam Deck",
+      "tinker": "Tinker: Richiede qualche modifica"
+    },
+    "ratings": {
+      "?": "In attesa: Ha bisogno di più dati",
+      "A": "Livello A: molto buono",
+      "B": "Livello B: molto buono ma c'è margine di miglioramento",
+      "C": "Livello C: necessita di qualche lavoro",
+      "D": "Livello D: ostacolato dai problemi",
+      "F": "Livello F: Borked!",
+      "S": "Livello S: nessun difetto"
+    },
+    "reports": "Clicca per vedere i report"
   },
   "specs": {
     "cpu": "CPU",
@@ -154,7 +223,9 @@
   },
   "steamAuthor": {
     "hoursInSteam": "{{count}} ore in Steam",
-    "timeWithProton": "{{time}} con Proton"
+    "timeWithProton": "{{time}} con Proton",
+    "hoursOnLinux": "{{time}} on Linux",
+    "hoursOverall": "{{time}} overall"
   },
   "suggestions": {
     "headline": "Pronto per il resto?",
@@ -168,6 +239,164 @@
     "parseSuccess": "Informazioni di sistema parsate con successo!",
     "pasteInstructions": "Incolla qui le tue informazioni di sistema di Steam",
     "unsupportedHeadline": "Rilevati driver non supportati",
-    "unsupportedWarning": "I tuoi driver grafici non soddisfano [i requirement minimi di Proton]({{link}})! Potresti riscontrare crash, rallentamenti o grafica ridotta. Puoi ancora inviare report ma questi mostreranno i tuoi driver in rosso e il report non verrà valutato nell'aggregazione di report per i giochi. Aggiorna i tuoi driver!"
+    "unsupportedWarning": "I tuoi driver grafici non soddisfano [i requirement minimi di Proton]({{link}})! Potresti riscontrare crash, rallentamenti o grafica ridotta. Puoi ancora inviare report ma questi mostreranno i tuoi driver in rosso e il report non verrà valutato nell'aggregazione di report per i giochi. Aggiorna i tuoi driver!",
+    "howToSteamDeck": "Steam Deck: Adding this device can currently only be done from Desktop Mode of a Steam Deck. Since devices now persist across login sessions, you only need to do this once and may author reports from another machine afterwards."
+  },
+  "compatibilitySection": {
+    "aggregateHeadline": "In aggregato",
+    "chartTypeHeadline": "Categoria",
+    "chartTypes": {
+      "fullSteamCatalog": {
+        "description": "Tutti i giochi di Steam",
+        "long": "Catalogo Steam",
+        "short": "Catalogo Steam"
+      },
+      "indie": {
+        "description": "Giochi taggati con 'Indie'",
+        "long": "Indie",
+        "short": "Indie"
+      },
+      "library": {
+        "description": "Giochi di {{username}}",
+        "long": "Libreria Personale",
+        "short": "Libreria Personale"
+      },
+      "localMultiplayer": {
+        "description": "Giochi taggati con 'Multiplayer locale'",
+        "long": "Multiplayer locale",
+        "short": "Multiplayer locale"
+      },
+      "minProminence": {
+        "description": "Giochi che soddisfano un minimo di follower su Steam",
+        "long": "Giochi popolari",
+        "short": "Giochi popolari"
+      },
+      "singlePlayer": {
+        "description": "Giochi taggati con 'Singleplayer'",
+        "long": "Single Player",
+        "short": "Single Player"
+      },
+      "topHundred": {
+        "description": "Misurato in base ai giocatori massimi contemporanei",
+        "long": "Top 100",
+        "short": "Top 100"
+      },
+      "topTen": {
+        "description": "Misurato in base ai giocatori massimi contemporanei",
+        "long": "Top 10",
+        "short": "Top 10"
+      },
+      "topThousand": {
+        "description": "Misurato in base ai giocatori massimi contemporanei",
+        "long": "Top 1000",
+        "short": "Top 1000"
+      },
+      "vr": {
+        "description": "Giochi taggati con 'VR'",
+        "long": "VR",
+        "short": "VR"
+      }
+    },
+    "decline": "Torna indietro",
+    "gameSorts": {
+      "hoursPlayed": {
+        "long": "Ordina per: Ore Giocate",
+        "short": "Ore Giocate"
+      },
+      "playerCount": {
+        "long": "Ordina per: Numero di giocatori",
+        "short": "Numero di giocatori"
+      },
+      "rating": {
+        "long": "Ordina per: Rating",
+        "short": "Rating"
+      }
+    },
+    "gamesLimit": "Il grafico dei giochi è limitato ai {{cap}} giochi più popolari",
+    "gamesNotFound": "Nessun gioco trovato. Assicurati che 'Dettagli del gioco' sia impostato su pubblico nelle tue [impostazioni di Steam]({{link}}).",
+    "greetLoggedIn": "Vuoi vedere quanti giochi posso giocare?",
+    "lookupMyLibrary": "Carica una libreria",
+    "mostPlayedRatedUnverified": "Unofficially Looking Good Here",
+    "mostPlayedRatedUnverifiedExtra": "I seguenti giochi non sono ancora ufficialmente Deck Verified come Verificati o Giocabili, ma secondo i report della community funzionano bene su Linux.",
+    "mostPlayedVerified": "Verificati ufficialmente",
+    "mostPlayedVerifiedExtra": "Questi sono giochi che possiedi che Valve ha certificato come Deck Verified: con status Verificati o Giocabili",
+    "owned": "Gioco posseduto",
+    "playedFor": "Giocato per {{hours}} ora(e)",
+    "ratingDefinitions": {
+      "?": "In attesa: Ha bisogno di più dati",
+      "T1": "Il livello più alto. Rapporti ovunque positivi.",
+      "T1andT2": "T2 o migliore",
+      "T1andT2andT3": "T3 o migliore",
+      "T2": "Il secondo livello più alto. Alcune segnalazioni di problemi ma per lo più è buono.",
+      "T3": "Livello intermedio. Un mix di positivo e negativo.",
+      "T4": "Secondo livello più basso. Rapporti negativi nel complesso.",
+      "T5": "Livello più basso. Borked!",
+      "borked": "O non si avvia oppure è assolutamente ingiocabile",
+      "bronze": "Funziona, ma spesso si blocca o ha problemi che impediscono di giocare comodamente",
+      "gold": "Funziona perfettamente dopo le modifiche",
+      "native": "Funziona in modo nativo su Linux",
+      "pending": "In attesa di ulteriori rapporti prima di dare una valutazione",
+      "platinum": "Funziona perfettamente al primo tentativo",
+      "platinumandgold": "Oro o migliore",
+      "platinumandgoldandsilver": "Argento o migliore",
+      "playable": "Giocabile",
+      "silver": "Funziona con problemi minori, ma generalmente è giocabile",
+      "unknown": "Sconosciuto",
+      "unsupported": "Non supportato",
+      "verified": "Verificato",
+      "verifiedandplayable": "Verificato o giocabile"
+    },
+    "submit": "Certo!",
+    "tierSystemHeadline": "Rating System",
+    "tierSystems": {
+      "deckVerified": {
+        "description": "La certificazione ufficiale di Steam per il gioco su Steam Deck",
+        "long": "Verificato per Steam Deck",
+        "short": "Verificato Deck"
+      },
+      "protonDbClickPlay": {
+        "description": "Valutazione di ProtonDB: Come funziona senza alcuna modifica.",
+        "long": "ProtonDB Click Play",
+        "short": "Click Play"
+      },
+      "protonDbMedals": {
+        "description": "Valutazione di ProtonDB: come funziona. Potrebbe essere necessario modificare.",
+        "long": "Medaglie ProtonDB",
+        "corto": "Medaglie"
+      },
+      "protonDbTinker": {
+        "description": "Nuova valutazione di ProtonDB: come funziona. Potrebbe essere necessario modificare.",
+        "long": "ProtonDB Tinker",
+        "short": "Tinker"
+      }
+    },
+    "tryYourLibrary": "Prova la tua libreria",
+    "useLibrary": "Usa",
+    "userNotFound": "Utente non trovato. Assicurati che 'Il mio profilo' e 'Dettagli del gioco' siano impostati su pubblico nelle tue [impostazioni di Steam]({{link}}).",
+    "using": "Stai usando",
+    "viewSteamCatalog": "Vedi il catalogo di Steam",
+    "yourLibrary": "La tua libreria",
+    "yourSteamId": "Il tuo Steam ID"
+  },
+  "contributorSettings": {
+    "addAPCDevice": "Aggiungi un PC",
+    "addASteamDeckDevice": "Aggiungi uno Steam Deck",
+    "headline": "Impostazioni del contributore",
+    "intro": "Aggiungi un dispositivo per contribuire ai report. ProtonDB ora supporta la memorizzazione di più configurazioni di dispositivi. I dispositivi sono divisi in due tipi: PC o Steam Deck",
+    "intro2": "Alcuni dettagli aggiuntivi:",
+    "invalidInfo": "I dettagli del dispositivo non sono validi. Devono essere corretti per essere utilizzati per contribuire.",
+    "notOnSteamDeck": "Accedi a ProtonDB con uno Steam Deck in Desktop Mode per aggiungerlo al tuo profilo. Disconnetti prima qualsiasi periferica o monitor.",
+    "otherDetail1": "I dispositivi (così come le preferenze) sono ora memorizzati ovunque tu effettui il login.",
+    "otherDetail2": "Se fornisci un singolo dispositivo, verrà automaticamente applicato durante l'attivita di contribuzione.",
+    "otherDetail3": "Se fornisci più di uno, ti verrà chiesto di selezionarne uno, per nome, durante la fase di 'Setup'.",
+    "otherDetail4": "I cambiamenti ai tuoi dispositivi non saranno pronti fino a quando non premi Salva.",
+    "otherDetail5": "Solo le informazioni ricavate dal tuo sistema vengono rese pubbliche, mai i dati grezzi di Steam.",
+    "validInfo": "I dettagli del dispositivo sono validi e possono essere utilizzati per contribuire.",
+    "yourDevices": "I tuoi dispositivi"
+  },
+  "dashboard": {
+    "description1": "Il nuovo rating Click Play di ProtonDB è ancora in fase di ottimizzazione. Per maggiori informazioni, consulta il [post delle news]({{link1}}). Decine di migliaia di autori contribuiscono ai report che alimentano questa visualizzazione. Puoi farlo anche tu! I report sono disponibili tramite licenza ODBL [in esportazioni mensili]({{link2}}).",
+    "description2": "Questo sito è stato creato da Buck DeFore. È un progetto indipendente della community non affiliato con Valve o Steam. Se apprezzi questo dashboard, considera di [supportarmi su Patreon]({{link}}).",
+    "headline": "Quanti giochi funzionano su Linux? Su Steam Deck?"
   }
 }
