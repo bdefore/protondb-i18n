@@ -5,6 +5,7 @@
     "answerRequiredWhenNotListed": "Richiede una risposta quando è scelto 'Non Elencato'",
     "back": "Indietro",
     "error": "Errore!",
+    "invalidGeVersion": "Versione GE version non valida. Deve contenere (nuovo formato) 'GE-Proton{major}.{minor}-patch' o (vecchio formato) '{major}.{minor}-ge-{patch}'. Esempio: 'GE-Proton7-5'",
     "markdownSupportNotice": "Il markdown non è supportato",
     "maxChars": "Massimo {{count}} caratteri",
     "next": "Prossimo",
@@ -15,7 +16,6 @@
       "thanks": "Grazie per il tuo contributo a {{siteName}}"
     },
     "submit": "Invia",
-    "tooLong": "Troppo lungo",
-    "invalidGeVersion": "Versione GE version non valida. Deve contenere (nuovo formato) 'GE-Proton{major}.{minor}-patch' o (vecchio formato) '{major}.{minor}-ge-{patch}'. Esempio: 'GE-Proton7-5'"
+    "tooLong": "Troppo lungo"
   }
 }
