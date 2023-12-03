@@ -2,14 +2,14 @@
   "appSelection": {
     "caution": "Attention !",
     "helperText": "Vous pouvez aussi coller des liens ou un ID d'application et nous essaierons de le trouver.",
-	"noPlaytime": "Votre compte Steam n'affiche aucune heure de jeu pour ce jeu. Cela peut ce produire si vos [paramètres de confidentialité Steam]({{link}}) n'affichent pas publiquement les détails des jeux, ou si vous avez choisi de ne pas partager vos heures de jeu via l'option 'Toujours garder mon total d'heures de jeu privé même si les utilisateurs peuvent voir mes détails de jeu'. Votre rapport vous désignera quand même comme en possession du jeu. Si cela est un erreur, merci de nous le faire savoir.",
+    "noPlaytime": "Votre compte Steam n'affiche aucune heure de jeu pour ce jeu. Cela peut ce produire si vos [paramètres de confidentialité Steam]({{link}}) n'affichent pas publiquement les détails des jeux, ou si vous avez choisi de ne pas partager vos heures de jeu via l'option 'Toujours garder mon total d'heures de jeu privé même si les utilisateurs peuvent voir mes détails de jeu'. Votre rapport vous désignera quand même comme en possession du jeu. Si cela est un erreur, merci de nous le faire savoir.",
     "notFound": "Impossible de trouver le jeu avec l'ID d'application {{query}}}. Cela peut se produire s'il est inexact, s'il a été retiré du magasin Steam, s'il n'est pas répertorié comme un jeu ou s'il n'est pas disponible dans votre pays.",
     "notOwner": "Votre compte Steam ne liste pas ce jeu comme l'un que vous posséderiez mais ne l'affichera pas sur votre rapport, cela peut arriver si vos [paramètres de confidentialité Steam]({{link}}) n'affichent pas publiquement les détails des jeux. Si cela est un erreur, merci de nous le faire savoir.",
     "placeholder": "Entrez le nom d'un jeu disponible dans votre bibliothèque Steam…",
     "playedNatively": "Avez-vous joué au jeu nativement sans utiliser Proton?",
     "previousReportsExist": "Vous avez des rapports précédents pour ce jeu",
     "runsNativeWarning": "Le jeu sélectionné dispose d'une version Linux native ! Veuillez vous assurer que vous n'avez pas par inadvertance lancé la version native du jeu. Steam n'utilise pas Steam Play pour lancer ce jeu par défaut, mais [vous pouvez le forcer à le faire]({{link}})."
-  },	
+  },
   "audioFaults": {
     "legend": "Son",
     "options": {
@@ -480,8 +480,8 @@
   },
   "prerequisites": {
     "missingProfileInfo": "Informations du profil incomplètes. Manquant : {{context}}",
-    "notLoggedIn": "Non connecté avec {{context}}",
-	"noValidDevices": "Aucun de vos appareils possède des informations système valides."
+    "noValidDevices": "Aucun de vos appareils possède des informations système valides.",
+    "notLoggedIn": "Non connecté avec {{context}}"
   },
   "prerequisitesBlock": {
     "action": "Aller au profil",

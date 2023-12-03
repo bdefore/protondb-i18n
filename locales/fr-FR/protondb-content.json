@@ -93,10 +93,10 @@
     "lookupMyLibrary": "Charger Une Bibliothèque",
     "mostPlayedUnverified": "Ces jeux que vous aimez ne sont ni officiellement vérifiés ni vérifiées et n'ont pas le statut Jouable, mais les rapports communautaires semblent indiquer que le jeu fonctionne sous Linux.",
     "mostPlayedVerified": "Ceci sont vos jeux favoris qui sont officiellement certifiés vérifiés ou ont le statut Jouable",
-    "playerCountUnverified": "Ces jeux populaires ne sont ni officiellement vérifiés ni vérifiées et n'ont pas le statut Jouable, mais les rapports communautaires semblent indiquer que le jeu fonctionne sous Linux.",
-    "playerCountVerified": "Ces jeux populaires sont certifiés vérifiés ou ont le statut Jouable",
     "owned": "Jeux possédés",
     "playedFor": "Joué pendant {{hours}} heure(s)",
+    "playerCountUnverified": "Ces jeux populaires ne sont ni officiellement vérifiés ni vérifiées et n'ont pas le statut Jouable, mais les rapports communautaires semblent indiquer que le jeu fonctionne sous Linux.",
+    "playerCountVerified": "Ces jeux populaires sont certifiés vérifiés ou ont le statut Jouable",
     "ratingDefinitions": {
       "?": "En Attente: Nécessite plus de données",
       "T1": "Le plus haut tier. Rapports majoritairement positifs.",
@@ -147,15 +147,15 @@
       }
     },
     "tryYourLibrary": "Essayer votre bibliothèque",
+    "unverified": "Non officiellement, ça semble marcher",
     "useLibrary": "Utiliser",
     "userNotFound": "Utilisateur introuvable. Assurez vous que 'Mon Profil' et 'Details Jeux' sont publiques dans vos [paramètres Steam]({{link}}).",
+    "userScoreUnverified": "Les jeux favorablement examinées ne sont pas officiellement vérifiés et n'ont pas le statut Jouable, mais en vu des raports communautaires, semblent fonctionner sous Linux.",
+    "userScoreVerified": "Ceci sont des jeux favorablement examinés et qui sont certifiées vérifiés ou ont le statut Jouable.",
     "using": "Utilisant",
     "viewSteamCatalog": "Voir catalogue Steam",
     "yourLibrary": "Votre Bibliothèque",
-    "yourSteamId": "Votre ID Steam",
-    "unverified": "Non officiellement, ça semble marcher",
-    "userScoreUnverified": "Les jeux favorablement examinées ne sont pas officiellement vérifiés et n'ont pas le statut Jouable, mais en vu des raports communautaires, semblent fonctionner sous Linux.",
-    "userScoreVerified": "Ceci sont des jeux favorablement examinés et qui sont certifiées vérifiés ou ont le statut Jouable."
+    "yourSteamId": "Votre ID Steam"
   },
   "contributorSettings": {
     "addAPCDevice": "Ajouter un PC",
@@ -221,14 +221,14 @@
     },
     "tagData": "Données Tag",
     "toggles": {
+      "antiCheat": "Anti-Triche",
+      "deckVerified": "Vérifié Deck",
+      "excludeNative": "Exclusion Natifs",
       "lackReports": "Manque de rapports",
       "restrictToLibrary": "Bibliothèque",
       "untested": "Rapports insuffisants",
       "userTags": "Tags utilisateurs",
       "whitelisted": "Sur liste blanche",
-      "antiCheat": "Anti-Triche",
-      "deckVerified": "Vérifié Deck",
-      "excludeNative": "Exclusion Natifs",
       "wishlisted": "Liste de souhaits"
     }
   },
@@ -357,6 +357,10 @@
     "reports": "Click to view reports"
   },
   "specs": {
+    "board": "Carte",
+    "channel": "Canal",
+    "chromeOs": "OS",
+    "chromeVersion": "Chrome",
     "cpu": "CPU",
     "gpu": "GPU",
     "gpuDriver": "Pilote GPU",
@@ -364,10 +368,6 @@
     "os": "Distribution",
     "otherSpecs": "Autres caractéristiques",
     "ram": "RAM",
-    "board": "Carte",
-    "channel": "Canal",
-    "chromeOs": "OS",
-    "chromeVersion": "Chrome",
     "version": "Version"
   },
   "stats": {
@@ -384,9 +384,9 @@
     "whenMeetingMinimumRequirements": "Lorsque les configurations minimales sont atteintes"
   },
   "steamAuthor": {
+    "hoursOnLinux": "{{time}} sur Linux",
     "hoursOverall": "{{time}} en tout",
-    "timeWithProton": "{{time}} avec Proton",
-    "hoursOnLinux": "{{time}} sur Linux"
+    "timeWithProton": "{{time}} avec Proton"
   },
   "suggestions": {
     "headline": "Prêt pour plus ?",
@@ -396,17 +396,13 @@
     "headline": "Informations système",
     "howTo": "La collecte de ces informations est rapide si vous avez accès aux paramètres de Steam sur la machine sur laquelle vous jouez. [Rendez-vous ici pour apprendre comment faire]({{link}}). (Certains utilisateurs ont signalé qu 'ils devaient appuyer sur Ctrl-A pour tout sélectionner avant de cliquer avec le bouton droit de la souris.)",
     "howToSteamDeck": "Steam Deck: Ajouter cet appareil ne peut se faire uniquement depuis le mode Bureau du Steam Deck. Puisque les appareils sont maintenant persistant à travers les sessions de connection, vous n'avez qu'à réaliser cette opération une seule fois puis rédiger vos rapports depuis une autre machine.",
-    
     "incorrectDeviceType": "Type d'Appareil Incorrect",
     "incorrectDeviceTypeExplanation": "Les informations système que vous avez fournis sont incompatibles avec le type de cet appareil.",
-
     "intro": "Les rapports sont plus utiles et donnent plus de crédibilité en affichant le matériel et les logiciels sur lesquels le jeu a été testé. Pour que cette information soit aussi précise et cohérente que possible, nous exploitons les informations système transmises par Steam.",
     "parseFailure": "L 'analyse a échoué. Si vous êtes certain d 'avoir correctement copié, merci de nous le faire savoir sur Discord.",
     "parseSuccess": "Informations système analysées !",
     "pasteInstructions": "Collez les informations système Steam ici",
-
     "pasteInstructionsChromeOs": "Coller les informations système ChromeOS ici.\n\nDans l'application Paramètres: A propos de ChromeOS -> Plus de détails -> Détails de Build (Appuyez sur l'icône copier) -> Coller ici",
-    
     "unsupportedHeadline": "Pilotes non pris en charge détectés",
     "unsupportedWarning": "Le pilote d 'affichage de votre système n 'atteint pas les critères de [configuration minimale requise par Proton]({{link}}) ! Vous pourriez rencontrer des problèmes de fonctionnement, des ralentissements ou des dégradations graphiques. Vous pouvez toujours envoyer des rapports et vos contributions ont encore de la valeur, mais vos rapports montreront vos pilotes graphiques en rouge et ne seront pas comptabilisés dans les notes globales des jeux. Veuillez mettre à jour vos pilotes !"
   }
