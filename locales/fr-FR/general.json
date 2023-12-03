@@ -42,7 +42,6 @@
     "positiveRating": "{{context}} % d'évaluations positives",
     "protonDbRating": "",
     "rank": "Classé {{context}} sur Steam",
-    "recentReportCount": "{{context}} rapports avec les deux dernières versions de Proton",
     "recentlyImproved": "{{context}} rapports avec les deux dernières versions de Proton",
     "recentlyReleased": "Première série de rapports {{context}}",
     "releaseDate": "Publié {{context}}",
@@ -189,7 +188,7 @@
   },
   "reports": {
     "addAReportPrompt": "Faites nous tous savoir comment il tourne en [rédigant un rapport]({{link}})!",
-    "clear": "Effacer",
+    "chromeOsVerifiedStatus": "Status Chromebook Prêt",
     "deckVerifiedStatus": "Status Deck Verifié",
     "displayExcluded": "Afficher les rapports exclus",
     "doYouOwnSteamDeck": "En possédez-vous un? Vous pouvez en [ajouter un]({{link}}) sur votre profile.",
@@ -197,7 +196,8 @@
     "filteredOutHeadline": "Les {{count}} rapports suivants ne respectent pas vos critères de filtrage : {{filters}}",
     "haveYouPlayed": "Avez vous joué à ce jeu?",
     "inLibrary": "Ce jeux est dans votre bibliothèque.",
-    "noReportsYetSteamDeck": "Aucun rapport jusqu'a maintenant sir le Steam Deck.",
+    "noReportsYetChromeOs": "Aucun rapport jusqu'à maintenant sur ChromeOS.",
+    "noReportsYetSteamDeck": "Aucun rapport jusqu'à maintenant sur le Steam Deck.",
     "readyToAuthorSteamDeck": "Vous êtes prêt à rédiger des rapports pour le Steam Deck.",
     "superceded": "Il y a un nouveau rapport de ce type du même auteur",
     "timePlayedOnLinux": "Vous avez joué sur Linux durant {{hours}} heures.",
@@ -213,7 +213,8 @@
     "zeroStateMessageWithFilters": "Aucun rapport ne respecte vos filtres"
   },
   "search": {
-    "results": "Résultats",
-    "resultsHeader": "Résultats de recherche pour {{q}}"
+    "headline": "Résultats de recherche pour {{q}}",
+    "pageTitle": "Recherche",
+    "results": "Résultats"
   }
 }
