@@ -1,7 +1,4 @@
 {
-  "auth": {
-    "intro": "En vous connectant avec Steam vous pourrez soumettre des rapports et utiliser la [page Explorer avec un filtre Bibliothèque]({{link}}) pour limiter les résultats aux jeux que vous possédez"
-  },
   "breakdown": {
     "headline": "Jeux populaires",
     "popularHeadline": "Évaluation pour les {{count}} plus populaires",
@@ -74,6 +71,7 @@
         "short": "VR"
       }
     },
+    "chromebookReady": "Prêt pour le Chromebook",
     "decline": "Retourner",
     "gameSorts": {
       "hoursPlayed": {
@@ -93,10 +91,10 @@
     "gamesNotFound": "Aucun jeu trouvé. Assurez vous que 'Détails de jeux' est en publique dans vos [paramètres Steam]({{link}}).",
     "greetLoggedIn": "Voulez vous voir combien de jeux vous pouvez jouer?",
     "lookupMyLibrary": "Charger Une Bibliothèque",
-    "mostPlayedRatedUnverified": "Non officiellement, Ca a l'air de marcher",
-    "mostPlayedRatedUnverifiedExtra": "Les jeux suivants ne sont ni officiellement vérifiés pour le Steam Deck ni vérifiées et n'ont pas le statut Jouable, mais les rapports communautaires semblent indiquer que le jeu fonctionne sous Linux.",
-    "mostPlayedVerified": "Officiellement Vérifié",
-    "mostPlayedVerifiedExtra": "Ces jeux que vous possédez que valve ont certifié pour le Steam Deck: Statut Vérifié ou Jouable",
+    "mostPlayedUnverified": "Ces jeux que vous aimez ne sont ni officiellement vérifiés ni vérifiées et n'ont pas le statut Jouable, mais les rapports communautaires semblent indiquer que le jeu fonctionne sous Linux.",
+    "mostPlayedVerified": "Ceci sont vos jeux favoris qui sont officiellement certifiés vérifiés ou ont le statut Jouable",
+    "playerCountUnverified": "Ces jeux populaires ne sont ni officiellement vérifiés ni vérifiées et n'ont pas le statut Jouable, mais les rapports communautaires semblent indiquer que le jeu fonctionne sous Linux.",
+    "playerCountVerified": "Ces jeux populaires sont certifiés vérifiés ou ont le statut Jouable",
     "owned": "Jeux possédés",
     "playedFor": "Joué pendant {{hours}} heure(s)",
     "ratingDefinitions": {
@@ -123,6 +121,7 @@
       "verified": "Vérifié",
       "verifiedandplayable": "Vérifié ou Jouable"
     },
+    "steamDeckVerified": "Vérifié Steam Deck",
     "submit": "Bien Sur!",
     "tierSystemHeadline": "Système d'évaluation",
     "tierSystems": {
@@ -153,7 +152,10 @@
     "using": "Utilisant",
     "viewSteamCatalog": "Voir catalogue Steam",
     "yourLibrary": "Votre Bibliothèque",
-    "yourSteamId": "Votre ID Steam"
+    "yourSteamId": "Votre ID Steam",
+    "unverified": "Non officiellement, ça semble marcher",
+    "userScoreUnverified": "Les jeux favorablement examinées ne sont pas officiellement vérifiés et n'ont pas le statut Jouable, mais en vu des raports communautaires, semblent fonctionner sous Linux.",
+    "userScoreVerified": "Ceci sont des jeux favorablement examinés et qui sont certifiées vérifiés ou ont le statut Jouable."
   },
   "contributorSettings": {
     "addAPCDevice": "Ajouter un PC",
@@ -201,7 +203,6 @@
     "layout": "Mise en page",
     "loadError": "Erreur lors du chargement des jeux !",
     "notLoggedIn": "Impossible de charger la bibliothèque sans un Steam ID. Visitez votre [Profil]({{link}}) pour en ajouter un.",
-    "poweredBy": "Propulsé par",
     "sorts": {
       "dateAdded": "Récemment ajouté",
       "fixWanted": "Correction souhaitée",
@@ -220,12 +221,15 @@
     },
     "tagData": "Données Tag",
     "toggles": {
-      "includeNative": "Inclure natifs",
       "lackReports": "Manque de rapports",
       "restrictToLibrary": "Bibliothèque",
       "untested": "Rapports insuffisants",
       "userTags": "Tags utilisateurs",
-      "whitelisted": "Sur liste blanche"
+      "whitelisted": "Sur liste blanche",
+      "antiCheat": "Anti-Triche",
+      "deckVerified": "Vérifié Deck",
+      "excludeNative": "Exclusion Natifs",
+      "wishlisted": "Liste de souhaits"
     }
   },
   "filters": {
@@ -359,7 +363,12 @@
     "kernel": "Noyau",
     "os": "Distribution",
     "otherSpecs": "Autres caractéristiques",
-    "ram": "RAM"
+    "ram": "RAM",
+    "board": "Carte",
+    "channel": "Canal",
+    "chromeOs": "OS",
+    "chromeVersion": "Chrome",
+    "version": "Version"
   },
   "stats": {
     "analysisInByTheNumbers1": "Analyse par les nombres nº 1",
@@ -375,9 +384,9 @@
     "whenMeetingMinimumRequirements": "Lorsque les configurations minimales sont atteintes"
   },
   "steamAuthor": {
-    "hoursInSteam": "{{count}} heures dans Steam",
     "hoursOverall": "{{time}} en tout",
-    "timeWithProton": "{{time}} avec Proton"
+    "timeWithProton": "{{time}} avec Proton",
+    "hoursOnLinux": "{{time}} sur Linux"
   },
   "suggestions": {
     "headline": "Prêt pour plus ?",
@@ -387,10 +396,17 @@
     "headline": "Informations système",
     "howTo": "La collecte de ces informations est rapide si vous avez accès aux paramètres de Steam sur la machine sur laquelle vous jouez. [Rendez-vous ici pour apprendre comment faire]({{link}}). (Certains utilisateurs ont signalé qu 'ils devaient appuyer sur Ctrl-A pour tout sélectionner avant de cliquer avec le bouton droit de la souris.)",
     "howToSteamDeck": "Steam Deck: Ajouter cet appareil ne peut se faire uniquement depuis le mode Bureau du Steam Deck. Puisque les appareils sont maintenant persistant à travers les sessions de connection, vous n'avez qu'à réaliser cette opération une seule fois puis rédiger vos rapports depuis une autre machine.",
+    
+    "incorrectDeviceType": "Type d'Appareil Incorrect",
+    "incorrectDeviceTypeExplanation": "Les informations système que vous avez fournis sont incompatibles avec le type de cet appareil.",
+
     "intro": "Les rapports sont plus utiles et donnent plus de crédibilité en affichant le matériel et les logiciels sur lesquels le jeu a été testé. Pour que cette information soit aussi précise et cohérente que possible, nous exploitons les informations système transmises par Steam.",
     "parseFailure": "L 'analyse a échoué. Si vous êtes certain d 'avoir correctement copié, merci de nous le faire savoir sur Discord.",
     "parseSuccess": "Informations système analysées !",
     "pasteInstructions": "Collez les informations système Steam ici",
+
+    "pasteInstructionsChromeOs": "Coller les informations système ChromeOS ici.\n\nDans l'application Paramètres: A propos de ChromeOS -> Plus de détails -> Détails de Build (Appuyez sur l'icône copier) -> Coller ici",
+    
     "unsupportedHeadline": "Pilotes non pris en charge détectés",
     "unsupportedWarning": "Le pilote d 'affichage de votre système n 'atteint pas les critères de [configuration minimale requise par Proton]({{link}}) ! Vous pourriez rencontrer des problèmes de fonctionnement, des ralentissements ou des dégradations graphiques. Vous pouvez toujours envoyer des rapports et vos contributions ont encore de la valeur, mais vos rapports montreront vos pilotes graphiques en rouge et ne seront pas comptabilisés dans les notes globales des jeux. Veuillez mettre à jour vos pilotes !"
   }
