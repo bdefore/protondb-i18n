@@ -174,7 +174,7 @@
     "yourDevices": "Vos Appareils"
   },
   "dashboard": {
-    "description1": "La nouvelle évaluation de ProtonDB Click Play est encore en train d'être ajustée. Pour plus d'informations, voir les [nouvelles]({{link1}}). Des dizaines de milliers d'auteurs contribuent aux rapports qui alimentent cette visualisation. Vous les pouvez vous aussi! Les rapports sont disponibles sous une license ODBL [en exportation mensuelle]({{link2}}).",
+    "description1": "La nouvelle évaluation de ProtonDB Click Play est encore en train d'être ajustée. Pour plus d'informations, voir les [nouvelles]({{link1}}). Des dizaines de milliers d'auteurs contribuent aux rapports qui alimentent cette visualisation. Vous aussi vous le pouvez! Les rapports sont disponibles sous une license ODBL [en exportation mensuelle]({{link2}}).",
     "description2": "Ce site à été réalisé par Buck DeFore. Il s'agit d'un projet communautaire indépendant non affilié à Valve ou Steam. Si vous appréciez ce tableau de bord, considérez à [me supporter sur Patreon]({{link}}).",
     "headline": "Combien de jeux tournent sur Linux? Sur le Steam Deck?"
   },
