@@ -639,7 +639,7 @@
     "headline": "Bienvenue",
     "intro": "Merci de l'intérêt que vous portez à étendre le catalogue de rapports de compatibilité ProtonDB pour Steam Play et Proton ! Veuillez garder ceci à l'esprit avant de contribuer :",
     "notes": [
-      "Les rapports sont publiés sur ProtonDB pour vous aider vous, Valve et les développeurs à aider à réparer les jeux. Veillez à ce que vos rapports soient précis, sans langage offensant et évitez de les envoyer dans le seul but de promouvoir votre jeu favori, votre distribution ou votre carte graphique préférés.",
+      "Les rapports sont publiés sur ProtonDB pour vous aider vous, Valve et les développeurs à aider à réparer les jeux. Veillez à ce que vos rapports soient précis, sans langage offensant et évitez de les envoyer dans le seul but de promouvoir votre jeu favori, votre distribution ou votre carte graphique préféré.",
       "Nous vous encourageons à soumettre plusieurs rapports pour le même jeu ! Au fur et à mesure que vous jouez ou que vous mettez à jour Proton, vous aurez plus de choses à dire. De cette façon, ProtonDB diffère d'un wiki, puisque chaque rapport sert d'instantané de la façon dont le jeu fonctionnait à cette date avec votre configuration.",
       "Si vous soumettez plusieurs rapports, seul votre rapport le plus récent comptera pour l'évaluation de ProtonDB et seulement si les informations de votre système répondent aux exigences minimales de Proton.",
       "Vos contributions seront visibles publiquement sur ProtonDB et disponibles dans les données exportées sous licence Open Database License. Rendez-vous [ici]({{{link}}}) pour plus d'informations."
