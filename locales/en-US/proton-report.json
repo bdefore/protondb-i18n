@@ -229,7 +229,7 @@
       },
       "lt10": {
         "long": "Below 10 FPS",
-        "short": "10 to 20"
+        "short": "Below 10"
       }
     },
     "prompt": "Most of the time, how many frames per second (FPS) did the game run at?"
