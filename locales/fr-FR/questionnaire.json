@@ -1,17 +1,17 @@
 {
-  "genericFollowUpPrompt": "Quelle sorte de problèmes ?",
+  "genericFollowUpPrompt": "Quelle sorte de problèmes ?",
   "misc": {
     "answerRequired": "Réponse requise",
     "answerRequiredWhenNotListed": "Réponse requise lorsque Non listé est choisi",
     "back": "Retour",
-    "error": "Erreur !",
-    "invalidGeVersion": "Version GE invalide. Elle doit contenir (nouveau formatage) 'GE-Proton{major}.{minor}-patch' ou (ancient formatage) '{major}.{minor}-ge-{patch}'. Exemple: 'GE-Proton7-5'",
+    "error": "Erreur !",
+    "invalidGeVersion": "Version GE invalide. Elle doit contenir (nouveau formatage) 'GE-Proton{major}.{minor}-patch' ou (ancien formatage) '{major}.{minor}-ge-{patch}'. Exemple: 'GE-Proton7-5'",
     "markdownSupportNotice": "La notation Markdown peut maintenant être utilisée",
     "maxChars": "{{count}} caractères max",
     "next": "Suivant",
     "submission": {
-      "error": "Une erreur est survenue lors de la soumission. Assurez-vous que votre navigateur autorise les appels à « apis.google.com ». Brave et Privacy Badger sont connus pour bloquer ces appels par défaut. Si vous n’arrivez toujours pas à soumettre votre rapport, n’hésitez pas à nous le faire savoir !",
-      "note": "Veuillez noter que les nouveaux rapports seront mis en attente jusqu’au prochain rafraichissement. Vous pouvez voir votre contribution dans votre [Profil]({{link}})",
+      "error": "Une erreur est survenue lors de la soumission. Assurez-vous que votre navigateur autorise les appels à « apis.google.com ». Brave et Privacy Badger sont connus pour bloquer ces appels par défaut. Si vous n'arrivez toujours pas à soumettre votre rapport, n'hésitez pas à nous le faire savoir !",
+      "note": "Veuillez noter que les nouveaux rapports seront mis en attente jusqu'au prochain rafraîchissement. Vous pouvez voir votre contribution dans votre [Profil]({{link}})",
       "success": "Soumis",
       "thanks": "Merci pour votre contribution à {{siteName}}"
     },

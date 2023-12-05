@@ -1,13 +1,10 @@
 {
-  "auth": {
-    "intro": "En vous connectant avec Steam vous pourrez soumettre des rapports et utiliser la [page Explorer avec un filtre Bibliothèque]({{link}}) pour limiter les résultats aux jeux que vous possédez"
-  },
   "breakdown": {
     "headline": "Jeux populaires",
     "popularHeadline": "Évaluation pour les {{count}} plus populaires",
-    "topHundred": "Top 100",
-    "topTen": "Top 10",
-    "topThousand": "Top 1000",
+    "topHundred": "Top 100",
+    "topTen": "Top 10",
+    "topThousand": "Top 1000",
     "topics": {
       "allGames": "Tous les jeux",
       "indie": "Indépendant",
@@ -35,8 +32,8 @@
       },
       "library": {
         "description": "Jeux de {{username}}",
-        "long": "Bibliothèque Personelle",
-        "short": "Bibliothèque Personelle"
+        "long": "Bibliothèque Personnelle",
+        "short": "Bibliothèque Personnelle"
       },
       "localMultiplayer": {
         "description": "Jeux avec le tag 'Multijoueur Local'",
@@ -74,6 +71,7 @@
         "short": "VR"
       }
     },
+    "chromebookReady": "Prêt pour le Chromebook",
     "decline": "Retourner",
     "gameSorts": {
       "hoursPlayed": {
@@ -93,12 +91,12 @@
     "gamesNotFound": "Aucun jeu trouvé. Assurez vous que 'Détails de jeux' est en publique dans vos [paramètres Steam]({{link}}).",
     "greetLoggedIn": "Voulez vous voir combien de jeux vous pouvez jouer?",
     "lookupMyLibrary": "Charger Une Bibliothèque",
-    "mostPlayedRatedUnverified": "Non officiellement, Ca a l'air de marcher",
-    "mostPlayedRatedUnverifiedExtra": "Les jeux suivants ne sont ni officiellement vérifiés pour le Steam Deck ni vérifées et n'ont pas le status Jouable, mais les rapports communautaires semblent indiquer que le jeu fonctionne sous Linux.",
-    "mostPlayedVerified": "Officiellement Vérifié",
-    "mostPlayedVerifiedExtra": "Ces jeux que vous possédez que valve ont certifié pour le Steam Deck: Status Vérifié ou Jouable",
+    "mostPlayedUnverified": "Ces jeux que vous aimez ne sont ni officiellement vérifiés ni vérifiées et n'ont pas le statut Jouable, mais les rapports communautaires semblent indiquer que le jeu fonctionne sous Linux.",
+    "mostPlayedVerified": "Ceci sont vos jeux favoris qui sont officiellement certifiés vérifiés ou ont le statut Jouable",
     "owned": "Jeux possédés",
     "playedFor": "Joué pendant {{hours}} heure(s)",
+    "playerCountUnverified": "Ces jeux populaires ne sont ni officiellement vérifiés ni vérifiées et n'ont pas le statut Jouable, mais les rapports communautaires semblent indiquer que le jeu fonctionne sous Linux.",
+    "playerCountVerified": "Ces jeux populaires sont certifiés vérifiés ou ont le statut Jouable",
     "ratingDefinitions": {
       "?": "En Attente: Nécessite plus de données",
       "T1": "Le plus haut tier. Rapports majoritairement positifs.",
@@ -109,8 +107,8 @@
       "T4": "Second tier le plus bas. Rapport essentiellement mauvais.",
       "T5": "Tier le plus bas. Ca marche pas!",
       "borked": "Soit ne se lance pas ou est simplement injouable",
-      "bronze": "Tourne, mais crash fréquemment ou à des problémes empéchant de jouer confortablement",
-      "gold": "Tourne parfaitement aprés quelques ajustements",
+      "bronze": "Tourne, mais crash fréquemment ou à des problèmes empéchant de jouer confortablement",
+      "gold": "Tourne parfaitement après quelques ajustements",
       "native": "Tourne nativement sous Linux",
       "pending": "En attente de plus de rapports avant de donner une evaluation",
       "platinum": "Tourne parfaitement sans modifications",
@@ -123,11 +121,12 @@
       "verified": "Vérifié",
       "verifiedandplayable": "Vérifié ou Jouable"
     },
+    "steamDeckVerified": "Vérifié Steam Deck",
     "submit": "Bien Sur!",
     "tierSystemHeadline": "Système d'évaluation",
     "tierSystems": {
       "deckVerified": {
-        "description": "Certification officielle de Steam pour la joabilité sur le Steam Deck",
+        "description": "Certification officielle de Steam pour la jouabilité sur le Steam Deck",
         "long": "Verifié Steam Deck",
         "short": "Verifié Steam Deck"
       },
@@ -148,8 +147,11 @@
       }
     },
     "tryYourLibrary": "Essayer votre bibliothèque",
+    "unverified": "Non officiellement, ça semble marcher",
     "useLibrary": "Utiliser",
     "userNotFound": "Utilisateur introuvable. Assurez vous que 'Mon Profil' et 'Details Jeux' sont publiques dans vos [paramètres Steam]({{link}}).",
+    "userScoreUnverified": "Les jeux favorablement examinées ne sont pas officiellement vérifiés et n'ont pas le statut Jouable, mais en vu des raports communautaires, semblent fonctionner sous Linux.",
+    "userScoreVerified": "Ceci sont des jeux favorablement examinés et qui sont certifiées vérifiés ou ont le statut Jouable.",
     "using": "Utilisant",
     "viewSteamCatalog": "Voir catalogue Steam",
     "yourLibrary": "Votre Bibliothèque",
@@ -162,19 +164,19 @@
     "intro": "Ajouter un appareil pour rédiger des rapports. ProtonDB supporte désormais la configuration de multiples appareils. Les appareils sont divisées en deux catégories: PC ou Steam Deck",
     "intro2": "Plus de détails:",
     "invalidInfo": "Les détails de l'appareil sont invalides. Ils doivent êtres corrigés avant d'êtres utilisés pour contribuer.",
-    "notOnSteamDeck": "Connectez vous à ProtonDB sur votre Steam Deck en mode Bureau pour l'ajouter à votre profil. Déconnectez tout périférique ou moniteur au préalable.",
+    "notOnSteamDeck": "Connectez-vous à ProtonDB sur votre Steam Deck en mode Bureau pour l'ajouter à votre profil. Déconnectez tout périférique ou moniteur au préalable.",
     "otherDetail1": "Les Appareils (ainsi que les paramètres) sont dès à présent synchronisés depuis n'importe quel point de connection.",
-    "otherDetail2": "Si vous fournissez un seul appareil, il sera automatiquement séléctionné durant le processus de contribution.",
-    "otherDetail3": "Si vous fournissez plus d'un, il vous sera demmandé d'en séléctionner un, par son nom, à l'étape 'Setup'.",
+    "otherDetail2": "Si vous fournissez un seul appareil, il sera automatiquement sélectionné durant le processus de contribution.",
+    "otherDetail3": "Si vous fournissez plus d'un, il vous sera demandé d'en sélectionner un, par son nom, à l'étape 'Setup'.",
     "otherDetail4": "Les changements faits à vos appareils ne seront pas prêts avant que vous appuyez sur sauvegarder.",
     "otherDetail5": "Seule l'inférence de vos informations système est rendue publique, jamais les données brutes de Steam.",
     "validInfo": "Les détails de l'appareil sont corrects et peuvent être utilisé pour contribuer.",
     "yourDevices": "Vos Appareils"
   },
   "dashboard": {
-    "description1": "La nouvelle évaluation de ProtonDB Click Play est encore en train d'être ajustée. Pour plus d'informations, voir les [nouvelles]({{link1}}). Des dizaines de milliers d'autheurs contribuent aux rapports qui alimentent cette visualisation. Vous les pouvez vous aussi! Les rapports sont disponibles sous une license ODBL [en exportation mensuelle]({{link2}}).",
-    "description2": "Ce site à été réalisé par Buck DeFore. Il s'agit d'un projet communautaire indépendant non affilié à Valve ou. Si vous appréciez cet tableau de bord, considérez à [me supporter sur Patreon]({{link}}).",
-    "headline": "Coombien de jeux tournes sur Linux? Sur le Steam Deck?"
+    "description1": "La nouvelle évaluation de ProtonDB Click Play est encore en train d'être ajustée. Pour plus d'informations, voir les [nouvelles]({{link1}}). Des dizaines de milliers d'auteurs contribuent aux rapports qui alimentent cette visualisation. Vous aussi vous le pouvez! Les rapports sont disponibles sous une license ODBL [en exportation mensuelle]({{link2}}).",
+    "description2": "Ce site à été réalisé par Buck DeFore. Il s'agit d'un projet communautaire indépendant non affilié à Valve ou Steam. Si vous appréciez ce tableau de bord, considérez à [me supporter sur Patreon]({{link}}).",
+    "headline": "Combien de jeux tournent sur Linux? Sur le Steam Deck?"
   },
   "explore": {
     "headlines": {
@@ -199,9 +201,8 @@
       "wellRatedHere": "Bien évalués ici"
     },
     "layout": "Mise en page",
-    "loadError": "Erreur lors du chargement des jeux !",
+    "loadError": "Erreur lors du chargement des jeux !",
     "notLoggedIn": "Impossible de charger la bibliothèque sans un Steam ID. Visitez votre [Profil]({{link}}) pour en ajouter un.",
-    "poweredBy": "Propulsé par",
     "sorts": {
       "dateAdded": "Récemment ajouté",
       "fixWanted": "Correction souhaitée",
@@ -220,12 +221,15 @@
     },
     "tagData": "Données Tag",
     "toggles": {
-      "includeNative": "Inclure natifs",
+      "antiCheat": "Anti-Triche",
+      "deckVerified": "Vérifié Deck",
+      "excludeNative": "Exclusion Natifs",
       "lackReports": "Manque de rapports",
       "restrictToLibrary": "Bibliothèque",
       "untested": "Rapports insuffisants",
       "userTags": "Tags utilisateurs",
-      "whitelisted": "Sur liste blanche"
+      "whitelisted": "Sur liste blanche",
+      "wishlisted": "Liste de souhaits"
     }
   },
   "filters": {
@@ -252,13 +256,13 @@
   },
   "gameDetails": {
     "githubIssueSearch": "Recherche D'Issue Github",
-    "infoNotFound": "Impossible d’acquérir les informations pour l’App ID : {{entry}}. Cela peut se produire lorsque le jeu a été retiré du magasin.",
+    "infoNotFound": "Impossible d 'acquérir les informations pour l 'App ID : {{entry}}. Cela peut se produire lorsque le jeu a été retiré du magasin.",
     "minimumRequirements": "Configuration minimale",
     "nativelySupports": "Compatibilité native",
     "notices": {
       "antiCheat": {
         "battlEye": {
-          "explanation": "Ce jeu est connu pour son utilisation de [BattlEye](https://www.battleye.com). BattlEye [peu fonctionner sur Linux](https://twitter.com/TheBattlEye/status/1441477816311291906), mais les fonctionnalitées multijoueurs varient en fonction de comment les développeurs l'ont implémenté."
+          "explanation": "Ce jeu est connu pour son utilisation de [BattlEye](https://www.battleye.com). BattlEye [peut fonctionner sur Linux](https://twitter.com/TheBattlEye/status/1441477816311291906), mais les fonctionnalités multijoueurs varient en fonction de comment les développeurs l'ont implémenté."
         },
         "eac": {
           "explanation": "Ce jeu est connu pour son utilisation de [Easy Anti-Cheat](https://www.easy.ac). EAC à [un support limité sur Linux](https://dev.epicgames.com/en-US/news/epic-online-services-launches-anti-cheat-support-for-linux-mac-and-steam-deck) mais les fonctionnalitées multijoueurs varient en fonction de comment les développeurs l'ont implémenté."
@@ -266,7 +270,7 @@
         "headline": "Support Multi Joueurs"
       },
       "nativeDiscrepancy": {
-        "explanation": "Même si ce jeux à un build natif Linux disponible, Steam ne le considére pas comme ayant un support Linux. Cela peut se produire si un jeu à un build non officiel, non fini ou non supporté. Vous pourriez avoir à [forcer Steam à utiliser Proton pour le jeu](/help/troubleshooting-faq#how-do-i-run-a-game-with-proton-even-though-it-has-a-native-linux-version) afin qu'il fonctionne convenablement.",
+        "explanation": "Même si ce jeu à un build natif Linux disponible, Steam ne le considère pas comme ayant un support Linux. Cela peut se produire si un jeu à un build non officiel, non fini ou non supporté. Vous pourriez avoir à [forcer Steam à utiliser Proton pour le jeu](/help/troubleshooting-faq#how-do-i-run-a-game-with-proton-even-though-it-has-a-native-linux-version) afin qu'il fonctionne convenablement.",
         "headline": "Support Natif"
       }
     }
@@ -276,14 +280,14 @@
     "getStartedLinks": [
       "[Page officielle Steam de Steam Play](https://store.steampowered.com/steamplay)",
       "[Guide de migration vers Linux](https://www.reddit.com/r/linux_gaming/comments/9oqq3w/guide_migrating_to_linux_in_2019/)",
-      "[Qu’est-ce que Vulkan ?](https://www.reddit.com/r/linux_gaming/comments/9ritk1/not_sure_i_quite_understand_can_someone_explain/)"
+      "[Qu 'est-ce que Vulkan ?](https://www.reddit.com/r/linux_gaming/comments/9ritk1/not_sure_i_quite_understand_can_someone_explain/)"
     ],
-    "headline": "Avec Proton et Steam Play, beaucoup de jeux Windows fonctionnent maintenant sur Linux !",
+    "headline": "Avec Proton et Steam Play, beaucoup de jeux Windows fonctionnent maintenant sur Linux !",
     "howDoIHelp": {
-      "answer": "Essayez Linux ! Si vous êtes nouveau, ne vous inquiétez pas. Voici une liste de guides pour vous aider à démarrer. Et si vous souhaitez aider Valve et Proton à s’améliorer, contribuez en ajoutant vos rapports ici sur ProtonDB !",
-      "question": "Cool ! Comment puis-je aider ?"
+      "answer": "Essayez Linux ! Si vous êtes nouveau, ne vous inquiétez pas. Voici une liste de guides pour vous aider à démarrer. Et si vous souhaitez aider Valve et Proton à s 'améliorer, contribuez en ajoutant vos rapports ici sur ProtonDB !",
+      "question": "Cool ! Comment puis-je aider ?"
     },
-    "letsGetStarted": "C’est parti !",
+    "letsGetStarted": "C 'est parti !",
     "sampleGames": "Voici un échantillon de quelques jeux populaires qui ne sont pas encore officiellement inscrits dans la liste blanche, mais qui ont été évalués Platine sur ProtonDB.",
     "search": "Rechercher un jeu…",
     "stats": {
@@ -296,25 +300,25 @@
       "gamesReported": "jeux rapportés",
       "gamesWithReports": "jeux avec rapports",
       "gamesWork": "jeux fonctionnent",
-      "gamesWorkExplanation": "Ont ay moins un pouce en l'air ou un rapport Platine (legacy)",
+      "gamesWorkExplanation": "Ont au moins un pouce en l'air ou un rapport Platine (legacy)",
       "protonDbGamesHeader": "Jeux sur ProtonDB",
       "reportsWritten": "rapports écrits"
     },
     "theImpact": {
-      "answer": "Steam Play prend désormais officiellement en charge un nombre limité, mais croissant de jeux sur « liste blanche » qui sont considérés comme compatibles avec Proton et qui fonctionnent sous Linux. Selon les rapports de ProtonDB, un nombre important de jeux non inscrits sur la liste blanche, y compris de nombreux titres populaires, fonctionnent aussi bien que sous Windows.",
-      "question": "L’impact"
+      "answer": "Steam Play prend désormais officiellement en charge un nombre limité, mais croissant de jeux sur « liste blanche » qui sont considérés comme compatibles avec Proton et qui fonctionnent sous Linux. Selon les rapports de ProtonDB, un nombre important de jeux non inscrits sur la liste blanche, y compris de nombreux titres populaires, fonctionnent aussi bien que sous Windows.",
+      "question": "L 'impact"
     },
     "whatIsProton": {
-      "answer": "Proton est un nouvel outil publié par Valve Software qui a été intégré avec Steam Play afin de permettre de jouer aux jeux Windows sous Linux aussi simplement qu’en appuyant sur le bouton Jouer dans Steam. Sous le capot, Proton comprend d’autres outils populaires comme Wine et DXVK, entre autres, qu’un gamer devrait installer et maintenir par lui-même s’il n’y avait pas Proton. Ce dernier allège fortement le fardeau pour les utilisateurs passant à Linux sans avoir à apprendre les systèmes sous-jacents ou perdre l’accès à une grande partie de leur bibliothèque de jeux. Proton en est encore à ses balbutiements et la compatibilité est encore inconsistante, mais celle-ci s’améliore régulièrement.",
-      "question": "Qu’est-ce que Proton ?"
+      "answer": "Proton est un nouvel outil publié par Valve Software qui a été intégré avec Steam Play afin de permettre de jouer aux jeux Windows sous Linux aussi simplement qu 'en appuyant sur le bouton Jouer dans Steam. Sous le capot, Proton comprend d 'autres outils populaires comme Wine et DXVK, entre autres, qu 'un gamer devrait installer et maintenir par lui-même s 'il n 'y avait pas Proton. Ce dernier allège fortement le fardeau pour les utilisateurs passant à Linux sans avoir à apprendre les systèmes sous-jacents ou perdre l 'accès à une grande partie de leur bibliothèque de jeux. Proton en est encore à ses balbutiements et la compatibilité est encore inconsistante, mais celle-ci s 'améliore régulièrement.",
+      "question": "Qu 'est-ce que Proton ?"
     },
     "whatIsProtonDb": {
-      "answer": "Le but de ProtonDB est de collecter les rapports d’autres joueurs lorsqu’ils testent des jeux avec Proton sous Linux et de regrouper les scores de la performance des jeux. Un regroupement croissant de suggestions fournit des modifications que vous pouvez essayer pour faire fonctionner les jeux pendant que Proton poursuit son développement. De plus, vous pouvez explorer le catalogue de jeux Steam sur ce site pour parcourir et découvrir un large éventail de titres qui n’étaient pas disponibles auparavant sur Linux.",
-      "question": "Qu’est-ce que ProtonDB ?"
+      "answer": "Le but de ProtonDB est de collecter les rapports d 'autres joueurs lorsqu 'ils testent des jeux avec Proton sous Linux et de regrouper les scores de la performance des jeux. Un regroupement croissant de suggestions fournit des modifications que vous pouvez essayer pour faire fonctionner les jeux pendant que Proton poursuit son développement. De plus, vous pouvez explorer le catalogue de jeux Steam sur ce site pour parcourir et découvrir un large éventail de titres qui n 'étaient pas disponibles auparavant sur Linux.",
+      "question": "Qu 'est-ce que ProtonDB ?"
     },
     "whyBigDeal": {
-      "answer": "L’expérience de bureau Linux s’est améliorée à grands pas au cours des deux dernières années. La plupart des choses auxquelles vous êtes peut-être habitué sous Windows ou macOS sont possibles sous Linux sans avoir à trop bricoler, et bricoler peut même s’avérer être amusant. Pendant ce temps, de plus en plus de nos interactions quotidiennes avec un ordinateur se font en ligne, et les navigateurs se comportent sensiblement de la même manière sous Linux que sous d’autres systèmes d’exploitation. Proton et Steam Play éliminent un obstacle important à l’adoption : les jeux, où la compatibilité était jusqu’à récemment très limitée.",
-      "question": "Pourquoi est-ce très important ?"
+      "answer": "L 'expérience de bureau Linux s 'est améliorée à grands pas au cours des deux dernières années. La plupart des choses auxquelles vous êtes peut-être habitué sous Windows ou macOS sont possibles sous Linux sans avoir à trop bricoler, et bricoler peut même s 'avérer être amusant. Pendant ce temps, de plus en plus de nos interactions quotidiennes avec un ordinateur se font en ligne, et les navigateurs se comportent sensiblement de la même manière sous Linux que sous d 'autres systèmes d 'exploitation. Proton et Steam Play éliminent un obstacle important à l 'adoption : les jeux, où la compatibilité était jusqu 'à récemment très limitée.",
+      "question": "Pourquoi est-ce très important ?"
     },
     "youtubeId": "Co6FePZoNgE"
   },
@@ -333,7 +337,7 @@
     },
     "explanations": {
       "borked": "Ne démarre pas ou est quasiment injouable",
-      "bronze": "Démarre, mais plante souvent ou a des problèmes empêchant de jouer confortablement",
+      "bronze": "Démarre, mais plante souvent ou à des problèmes empêchant de jouer confortablement",
       "gold": "Fonctionne parfaitement après quelques modifications",
       "native": "Fonctionne nativement sur Linux",
       "pending": "En attente de rapports supplémentaires avant de donner une évaluation",
@@ -353,13 +357,18 @@
     "reports": "Click to view reports"
   },
   "specs": {
+    "board": "Carte",
+    "channel": "Canal",
+    "chromeOs": "OS",
+    "chromeVersion": "Chrome",
     "cpu": "CPU",
     "gpu": "GPU",
     "gpuDriver": "Pilote GPU",
     "kernel": "Noyau",
     "os": "Distribution",
     "otherSpecs": "Autres caractéristiques",
-    "ram": "RAM"
+    "ram": "RAM",
+    "version": "Version"
   },
   "stats": {
     "analysisInByTheNumbers1": "Analyse par les nombres nº 1",
@@ -375,23 +384,26 @@
     "whenMeetingMinimumRequirements": "Lorsque les configurations minimales sont atteintes"
   },
   "steamAuthor": {
-    "hoursInSteam": "{{count}} heures dans Steam",
+    "hoursOnLinux": "{{time}} sur Linux",
     "hoursOverall": "{{time}} en tout",
     "timeWithProton": "{{time}} avec Proton"
   },
   "suggestions": {
-    "headline": "Prêt pour plus ?",
-    "intro": "Les jeux suivants ont été sélectionnés en fonction du nombre d’heures de jeu, de popularité et d’évaluation SteamDB. Ils manquent tous de rapports et certains n’ont besoin que d’un seul autre pour obtenir un {{siteName}} ! Vous pouvez recharger la page pour d’autres suggestions ou vous rendre au filtre de [Rapports insuffisants] ({{link}}) de la page Explorer pour en avoir encore plus."
+    "headline": "Prêt pour plus ?",
+    "intro": "Les jeux suivants ont été sélectionnés en fonction du nombre d 'heures de jeu, de popularité et d 'évaluation SteamDB. Ils manquent tous de rapports et certains n 'ont besoin que d 'un seul autre pour obtenir un {{siteName}} ! Vous pouvez recharger la page pour d 'autres suggestions ou vous rendre au filtre de [Rapports insuffisants] ({{link}}) de la page Explorer pour en avoir encore plus."
   },
   "systemInfo": {
     "headline": "Informations système",
-    "howTo": "La collecte de ces informations est rapide si vous avez accès aux paramètres de Steam sur la machine sur laquelle vous jouez. [Rendez-vous ici pour apprendre comment faire]({{link}}). (Certains utilisateurs ont signalé qu’ils devaient appuyer sur Ctrl-A pour tout sélectionner avant de cliquer avec le bouton droit de la souris.)",
-    "howToSteamDeck": "Steam Deck: Ajouter cet appareil ne pe se faire uniquement depuius le mode Bureau du Steam Deck. Puisque les appareils sont maintenant persistant à travers les sessions de connection, vous n'avez qu'a réaliser cette opération une seule fois puis rédiger vos rapports depuis une autre machine.",
+    "howTo": "La collecte de ces informations est rapide si vous avez accès aux paramètres de Steam sur la machine sur laquelle vous jouez. [Rendez-vous ici pour apprendre comment faire]({{link}}). (Certains utilisateurs ont signalé qu 'ils devaient appuyer sur Ctrl-A pour tout sélectionner avant de cliquer avec le bouton droit de la souris.)",
+    "howToSteamDeck": "Steam Deck: Ajouter cet appareil ne peut se faire uniquement depuis le mode Bureau du Steam Deck. Puisque les appareils sont maintenant persistant à travers les sessions de connection, vous n'avez qu'à réaliser cette opération une seule fois puis rédiger vos rapports depuis une autre machine.",
+    "incorrectDeviceType": "Type d'Appareil Incorrect",
+    "incorrectDeviceTypeExplanation": "Les informations système que vous avez fournis sont incompatibles avec le type de cet appareil.",
     "intro": "Les rapports sont plus utiles et donnent plus de crédibilité en affichant le matériel et les logiciels sur lesquels le jeu a été testé. Pour que cette information soit aussi précise et cohérente que possible, nous exploitons les informations système transmises par Steam.",
-    "parseFailure": "L’analyse a échoué. Si vous êtes certain d’avoir correctement copié, merci de nous le faire savoir sur Discord.",
-    "parseSuccess": "Informations système analysées !",
+    "parseFailure": "L 'analyse a échoué. Si vous êtes certain d 'avoir correctement copié, merci de nous le faire savoir sur Discord.",
+    "parseSuccess": "Informations système analysées !",
     "pasteInstructions": "Collez les informations système Steam ici",
+    "pasteInstructionsChromeOs": "Coller les informations système ChromeOS ici.\n\nDans l'application Paramètres: A propos de ChromeOS -> Plus de détails -> Détails de Build (Appuyez sur l'icône copier) -> Coller ici",
     "unsupportedHeadline": "Pilotes non pris en charge détectés",
-    "unsupportedWarning": "Le pilote d’affichage de votre système n’atteint pas les critères de [configuration minimale requise par Proton]({{link}}) ! Vous pourriez rencontrer des problèmes de fonctionnement, des ralentissements ou des dégradations graphiques. Vous pouvez toujours envoyer des rapports et vos contributions ont encore de la valeur, mais vos rapports montreront vos pilotes graphiques en rouge et ne seront pas comptabilisés dans les notes globales des jeux. Veuillez mettre à jour vos pilotes !"
+    "unsupportedWarning": "Le pilote d 'affichage de votre système n 'atteint pas les critères de [configuration minimale requise par Proton]({{link}}) ! Vous pourriez rencontrer des problèmes de fonctionnement, des ralentissements ou des dégradations graphiques. Vous pouvez toujours envoyer des rapports et vos contributions ont encore de la valeur, mais vos rapports montreront vos pilotes graphiques en rouge et ne seront pas comptabilisés dans les notes globales des jeux. Veuillez mettre à jour vos pilotes !"
   }
 }

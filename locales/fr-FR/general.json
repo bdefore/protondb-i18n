@@ -11,12 +11,12 @@
     "logInToContribute": "Vérifiez votre compte Steam pour contribuer",
     "loggedInAs": "Connecté en tant que {{username}}",
     "notLoggedIn": "Non connecté",
-    "note": "Dans vos [Paramètres De Confidentialité Steam]({{link}}), 'Mon profil' doit être publique. 'Détails Des Jeux' ne dois pas nécessairement être public, mais si il l'est, la possession et les information de temps de jeu seront envoyées avec vos contributions.",
+    "note": "Dans vos [Paramètres De Confidentialité Steam]({{link}}), 'Mon profil' doit être public. 'Détails Des Jeux' ne doit pas nécessairement être public, mais si il l'est, la possession et les information de temps de jeu seront envoyées avec vos contributions.",
     "profileUrl": "URL Profil",
     "signOut": "Se Déconnecter",
     "steamId": "ID Steam",
     "steamIdIntro": "Alternativement, pour se connecter avec Steam, vous pouvez fournir [un identifiant]({{steamIdLink}}) pour un compte afin que vous puissiez [explorer sa librarie ou sa liste de souhaits]({{link}}).",
-    "steamLoginIntro": "ProtonDB nécessite une authentication Steam afin de confirmer l'identitée des contributeurs. Se connecter de cette manière accède à certaines informations publiques vous concernant mais il ne conférera aucun privilège sur votre compte Steam.",
+    "steamLoginIntro": "ProtonDB nécessite une authentification Steam afin de confirmer l'identité des contributeurs. Se connecter de cette manière accède à certaines informations publiques vous concernant mais il ne conférera aucun privilège sur votre compte Steam.",
     "steamSignIn": "Se connecter avec Steam",
     "topBarLink": "Vos Jeux Steam",
     "unlink": "Dissocier le compte",
@@ -31,7 +31,7 @@
   "contextualInfo": {
     "dateAdded": "Ajouté le {{context}}",
     "fixWanted": "",
-    "followers": "{{context}} suiveurs Steam",
+    "followers": "{{context}} abonnés Steam",
     "heavilyReported": "{{context}} rapports récents",
     "hoursPlayed": "{{context}} heures jouées",
     "mostBorked": "",
@@ -39,11 +39,10 @@
     "percentPositive": "{{context}}% évaluations positives",
     "playerCount": "{{context}} pic de joueurs",
     "popular": "{{context}} suiveurs",
-    "positiveRating": "{{context}} % d’évaluations positives",
+    "positiveRating": "{{context}} % d'évaluations positives",
     "protonDbRating": "",
     "rank": "Classé {{context}} sur Steam",
-    "recentReportCount": "{{context}} rapports avec les deux dernières versions de Proton",
-    "recentlyImproved": "{{context}} rapports avec oes deux derinières versions de Proton",
+    "recentlyImproved": "{{context}} rapports avec les deux dernières versions de Proton",
     "recentlyReleased": "Première série de rapports {{context}}",
     "releaseDate": "Publié {{context}}",
     "userScore": "{{context}}% évaluations positives",
@@ -51,25 +50,25 @@
   },
   "footer": {
     "data": "Ce site utilise les données de {{name}}",
-    "description": "{{name}} est un projet passionnant de [@bdefore]({{link}}) et d’une communauté dédiée de rapporteurs.",
-    "feedbackPrompt": "Des commentaires ? Rejoignez-nous sur Discord !",
-    "legal": "Ce site n’est pas affilié avec Valve Software. Toutes les images et logos des jeux sont la propriété de leurs propriétaires respectifs."
+    "description": "{{name}} est un projet passionnant de [@bdefore]({{link}}) et d'une communauté dédiée de rapporteurs.",
+    "feedbackPrompt": "Des commentaires ? Rejoignez-nous sur Discord !",
+    "legal": "Ce site n'est pas affilié avec Valve Software. Toutes les images et logos des jeux sont la propriété de leurs propriétaires respectifs."
   },
   "games": {
     "zeroStateMessage": "Aucun jeux trouvé"
   },
   "libraryLoader": {
-    "errorLoadingGames": "Erreur lors du chargement des jeux. Assurez-vous que le Profil et les Détails de Jeu soient publics sur ce compte !",
-    "gameTotal": "{{count}} jeux dans la bibliothèque chargés !",
+    "errorLoadingGames": "Erreur lors du chargement des jeux. Assurez-vous que le Profil et les Détails de Jeu soient publics sur ce compte !",
+    "gameTotal": "{{count}} jeux dans la bibliothèque chargés !",
     "headline": "Librairie",
-    "note": "Ceci utilisera l’API Web de Steam pour récupérer les informations publiques à propos de votre compte, dont l’ID, le nom de profil et l’avatar. Veuillez vous assurer que dans vos [Paramètres de Confidentialité Steam]({{link}}), votre 'Profil' soit visible pour 'tout le monde'. Il n'est pas nécessaire de rendre publique la 'Visibilité sur mes jeux'. Néanmoins, si cela est le cas, la page Explorer utilisera les informations de votre bibliothèque et le temps de jeu sera envoyé lors de vos contributions.",
+    "note": "Ceci utilisera l'API Web de Steam pour récupérer les informations publiques à propos de votre compte, dont l'ID, le nom de profil et l'avatar. Veuillez vous assurer que dans vos [Paramètres de Confidentialité Steam]({{link}}), votre 'Profil' soit visible pour 'tout le monde'. Il n'est pas nécessaire de rendre publique la 'Visibilité sur mes jeux'. Néanmoins, si cela est le cas, la page Explorer utilisera les informations de votre bibliothèque et le temps de jeu sera envoyé lors de vos contributions.",
     "refresh": "Rafraichir"
   },
   "misc": {
     "addYourReport": "Ajoutez votre rapport",
     "affirmative": "Oui",
     "any": "Tout",
-    "areYouSure": "Êtes-vous sûr ?",
+    "areYouSure": "Êtes-vous sûr ?",
     "cancel": "Annuler",
     "chipset": "Chipset",
     "clear": "Effacer",
@@ -82,7 +81,7 @@
     "distro": "Distribution",
     "driver": "Pilote",
     "execute": "Exécuter",
-    "feedbackPrompt": "Des commentaires ? Donnez-nous votre avis sur [Discord]({{link}}).",
+    "feedbackPrompt": "Des commentaires ? Donnez-nous votre avis sur [Discord]({{link}}).",
     "filter": "Filtrer",
     "filteringSettings": "Paramètres de filtrage",
     "forget": "Oublier",
@@ -92,10 +91,10 @@
     "hours": "heures",
     "include": "Inclure",
     "install": "Installer",
-    "joinUsPrompt": "Rejoignez-nous sur Discord !",
-    "lastContentRefreshTime": "Le dernier rafraichissement du contenu était il y a {{time}}",
+    "joinUsPrompt": "Rejoignez-nous sur Discord !",
+    "lastContentRefreshTime": "Le dernier rafraîchissement du contenu était il y a {{time}}",
     "meetsRequirements": "Recommandations atteintes",
-    "moreInfo": "Plus d’infos",
+    "moreInfo": "Plus d'infos",
     "multiplayer": "Multijoueur",
     "native": "Natif",
     "negative": "Non",
@@ -135,10 +134,10 @@
     "dashboard": "Tableau De Bord",
     "explore": "Explorer",
     "help": "Aide",
-    "news": "News",
+    "news": "Nouvelles",
     "profile": "Profil",
     "search": "Rechercher jeu…",
-    "stats": "Stats"
+    "stats": "Statistiques"
   },
   "pagination": {
     "next": "Page suivante",
@@ -149,7 +148,7 @@
   },
   "preferences": {
     "headline": "Préférences",
-    "intro": "ProtonDB affiche les pseudonymes Steam des contributeurs à côté de leurs rapports. Votre identifiant unique Steam n’est pas transmis dans les données du rapport de publié. Si vous êtes préoccupé par le fait que votre pseudonyme puisse être utilisé pour déduire votre profil Steam, vous pouvez choisir un pseudonyme différent ici. Ce pseudonyme sera utilisé après le prochain rafraîchissement du contenu.",
+    "intro": "ProtonDB affiche les pseudonymes Steam des contributeurs à côté de leurs rapports. Votre identifiant unique Steam n'est pas transmis dans les données du rapport de publié. Si vous êtes préoccupé par le fait que votre pseudonyme puisse être utilisé pour déduire votre profil Steam, vous pouvez choisir un pseudonyme différent ici. Ce pseudonyme sera utilisé après le prochain rafraîchissement du contenu.",
     "note": "Vos préférences se synchroniseront depuis n'importe où quand vous vous connecterez avec Steam.",
     "questions": {
       "customName": {
@@ -166,21 +165,21 @@
         "prompt": "Langue"
       },
       "performanceMode": {
-        "prompt": "Souhaitez-vous utiliser une version performante du site ?"
+        "prompt": "Souhaitez-vous utiliser une version performante du site ?"
       }
     }
   },
   "profile": {
-    "exploreLibrary": "Vous pouvez explorer votre bibliothèque triée avec les vues suivantes :",
+    "exploreLibrary": "Vous pouvez explorer votre bibliothèque triée avec les vues suivantes :",
     "inYourLibrary": "Dans votre Bibliothèque",
     "libraryTags": {
-      "byHoursPlayed": "Par nombre d’heures jouées",
+      "byHoursPlayed": "Par nombre d'heures jouées",
       "byPlayerCount": "Par nombre de joueurs",
       "byProtonDbRating": "Par évaluation ProtonDB",
       "byReleaseDate": "Par date de publication",
       "bySteamDbScore": "Par score utilisateur SteamDB",
-      "headline": "Les tags suivants sont courants dans votre bibliothèque. Vous pouvez vous lancer avec ceux-ci :",
-      "lackReportsByHoursPlayed": "Rapports insuffisants par nombre d’heures jouées",
+      "headline": "Les tags suivants sont courants dans votre bibliothèque. Vous pouvez vous lancer avec ceux-ci :",
+      "lackReportsByHoursPlayed": "Rapports insuffisants par nombre d'heures jouées",
       "lackReportsByPlayerCount": "Rapports insuffisants par nombre de joueurs",
       "lackReportsBySteamDbScore": "Rapports insuffisants par score utilisateur SteamDB"
     },
@@ -189,31 +188,33 @@
   },
   "reports": {
     "addAReportPrompt": "Faites nous tous savoir comment il tourne en [rédigant un rapport]({{link}})!",
-    "clear": "Effacer",
+    "chromeOsVerifiedStatus": "Status Chromebook Prêt",
     "deckVerifiedStatus": "Status Deck Verifié",
     "displayExcluded": "Afficher les rapports exclus",
     "doYouOwnSteamDeck": "En possédez-vous un? Vous pouvez en [ajouter un]({{link}}) sur votre profile.",
     "filteredOutCount": "{{count}} filtrés",
-    "filteredOutHeadline": "Les {{count}} rapports suivants ne respectent pas vos critères de filtrage : {{filters}}",
+    "filteredOutHeadline": "Les {{count}} rapports suivants ne respectent pas vos critères de filtrage : {{filters}}",
     "haveYouPlayed": "Avez vous joué à ce jeu?",
     "inLibrary": "Ce jeux est dans votre bibliothèque.",
-    "noReportsYetSteamDeck": "Aucun rapport jusqu'a maintenant sir le Steam Deck.",
+    "noReportsYetChromeOs": "Aucun rapport jusqu'à maintenant sur ChromeOS.",
+    "noReportsYetSteamDeck": "Aucun rapport jusqu'à maintenant sur le Steam Deck.",
     "readyToAuthorSteamDeck": "Vous êtes prêt à rédiger des rapports pour le Steam Deck.",
     "superceded": "Il y a un nouveau rapport de ce type du même auteur",
     "timePlayedOnLinux": "Vous avez joué sur Linux durant {{hours}} heures.",
     "tinkerMethods": {
       "customProton": "Proton Personnalisé",
-      "experimental": "Changer à l'experimental",
+      "experimental": "Changer à l'expérimental",
       "launchOptions": "Changer options de lancement",
       "launcher": "Lancer",
-      "older": "Changé à une version antérieuren",
+      "older": "Changé à une version antérieure",
       "other": "Autre"
     },
     "zeroStateMessage": "Pas de rapports",
     "zeroStateMessageWithFilters": "Aucun rapport ne respecte vos filtres"
   },
   "search": {
-    "results": "Résultats",
-    "resultsHeader": "Résultats de recherche pour {{q}}"
+    "headline": "Résultats de recherche pour {{q}}",
+    "pageTitle": "Recherche",
+    "results": "Résultats"
   }
 }
