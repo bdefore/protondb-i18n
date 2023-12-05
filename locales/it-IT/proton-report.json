@@ -343,7 +343,7 @@
       "label": "Dettagli aggiuntivi",
       "placeholder": "A cosa sono servite?"
     },
-    "legend": "Flags d'avvio",
+    "legend": "Flag d'avvio",
     "options": {
       "disableD3d10": {
         "long": "Disabilita D3D10",

@@ -93,7 +93,7 @@
     "gamesNotFound": "Nessun gioco trovato. Assicurati che 'Dettagli del gioco' sia impostato su pubblico nelle tue [impostazioni di Steam]({{link}}).",
     "greetLoggedIn": "Vuoi vedere quanti giochi posso giocare?",
     "lookupMyLibrary": "Carica una libreria",
-    "mostPlayedRatedUnverified": "Unofficially Looking Good Here",
+    "mostPlayedRatedUnverified": "Niente di bello da vedere (non ufficialmente)",
     "mostPlayedRatedUnverifiedExtra": "I seguenti giochi non sono ancora ufficialmente Deck Verified come Verificati o Giocabili, ma secondo i report della community funzionano bene su Linux.",
     "mostPlayedVerified": "Verificati ufficialmente",
     "mostPlayedVerifiedExtra": "Questi sono giochi che possiedi che Valve ha certificato come Deck Verified: con status Verificati o Giocabili",
@@ -188,14 +188,14 @@
       "inWishlist": "In Wishlist",
       "mostBorked": "I Report Più Rotti!",
       "mostPopular": "Più popolari",
-      "percentPositive": "Well Reviewed on Store",
-      "playerCount": "Most Active Players",
-      "popular": "Most Steam Followers",
-      "rank": "Most Popular",
+      "percentPositive": "Recensito positivamente su Store",
+      "playerCount": "Con giocatori piú attivi",
+      "popular": "Con piú Steam Follower",
+      "rank": "Piú Popolare",
       "recentlyImproved": "Migliorati di recente",
-      "recentlyReleased": "Recently Released",
-      "releaseDate": "By Release Date",
-      "userScore": "Well Reviewed",
+      "recentlyReleased": "Recentemente rilasciati",
+      "releaseDate": "Per data di rilascio",
+      "userScore": "Recensito bene",
       "wellRatedHere": "Ben valutati qui"
     },
     "layout": "Layout",
@@ -203,18 +203,18 @@
     "notLoggedIn": "Impossibile caricare la libreria senza uno SteamID. Visita il tuo [Profilo]({{link}}) per aggiungerlo.",
     "poweredBy": "Powered by",
     "sorts": {
-      "dateAdded": "Recently Added",
+      "dateAdded": "Recentemente Aggiunti",
       "fixWanted": "Fix necessario",
-      "heavilyReported": "Recent Report Tally",
+      "heavilyReported": "Conteggio dei report recenti",
       "hoursPlayed": "Ore giocate",
       "mostBorked": "Più rotti",
-      "percentPositive": "Percent Positive",
+      "percentPositive": "Percentuali Positive",
       "playerCount": "Numero di giocatori",
-      "popular": "Popular",
-      "rank": "Most Popular",
+      "popular": "Popolare",
+      "rank": "Piú Popolare",
       "recentlyImproved": "Migliorato di recente",
-      "recentlyReleased": "Recently Released",
-      "releaseDate": "Release Date",
+      "recentlyReleased": "Recentemente Rilasciati",
+      "releaseDate": "Data di Rilascio",
       "userScore": "Punteggio degli utenti",
       "wilsonRating": "Valutazione di ProtonDB"
     },
@@ -222,14 +222,14 @@
     "toggles": {
       "antiCheat": "Anti-Cheat",
       "deckVerified": "Deck Verified",
-      "excludeNative": "Exclude Native",
+      "excludeNative": "Escludi Nativo",
       "includeNative": "Includi Nativo",
       "lackReports": "Report Mancanti",
       "restrictToLibrary": "Libreria",
       "untested": "Report Mancanti",
       "userTags": "Tag degli utenti",
-      "whitelisted": "Whitelisted",
-      "wishlisted": "Wishlisted"
+      "whitelisted": "Verificato Steam Deck",
+      "wishlisted": "Nella lista desideri"
     }
   },
   "filters": {
@@ -244,7 +244,7 @@
         "label": "GPU"
       },
       "persist": {
-        "prompt": "Persist Across Site?"
+        "prompt": "Persistenza nel sito?"
       },
       "query": {
         "label": "Query"
@@ -257,7 +257,7 @@
   "gameDetails": {
     "githubIssueSearch": "Ricerca Github Issue",
     "infoNotFound": "Impossibile ottenere informazioni per l'App ID: {{entry}}. Questo può succedere se il gioco è stato rimosso dallo store.",
-    "minimumRequirements": "Requirement minimi",
+    "minimumRequirements": "Requisiti minimi",
     "nativelySupports": "Supportato Nativamente",
     "notices": {
       "antiCheat": {
@@ -285,16 +285,16 @@
     "headline": "Grazie a Proton e Steam Play, molti giochi di Windows ora funzionano con Linux!",
     "howDoIHelp": {
       "answer": "Prova Linux! Non preoccuparti se non hai esperienza. Ecco una lista di guide per iniziare. E se vuoi aiutare Valve e Proton a migliorare, inviaci report qui su ProtonDB!",
-      "question": "Fantastico! Come posso aiutare?"
+      "question": "Fantastico! Come ti posso aiutare?"
     },
     "letsGetStarted": "Iniziamo.",
     "sampleGames": "Ecco un esempio di alcuni giochi popolari che non sono ancora nella whitelist ma che hanno ricevuto molti report Platino su ProtonDB",
     "search": "Cerca un titolo...",
     "stats": {
-      "atLeastOneRecommends": "recommended by at least one",
-      "atLeastThreeRecommend": "recommended by three or more",
-      "atLeastTwoRecommend": "recommended by two or more",
-      "deckVerified": "verified",
+      "atLeastOneRecommends": "consigliato da almeno uno",
+      "atLeastThreeRecommend": "consigliato da tre o piú",
+      "atLeastTwoRecommend": "consigliato da due o piú",
+      "deckVerified": "verificato",
       "deckVerifiedHeader": "Giochi Deck Verificati",
       "deckVerifiedPlayable": "verificati o giocabili",
       "gamesReported": "Giochi con report",
@@ -370,18 +370,18 @@
     "byCommonDisplayDrivers": "In base ai Driver",
     "byDistro": "In base alla Distro",
     "byGpu": "In base alla GPU",
-    "byProtonVersion": "An base alla versione di Proton",
+    "byProtonVersion": "In base alla versione di Proton",
     "dailyReportsHeadline": "Report giornalieri (Ultimi {{days}} Giorni)",
     "downloadData": "Scarica informazioni",
     "gameRatingDistribution": "Distribuzione dei Rating del gioco",
     "gamesWithNOrMoreReports": "Giochi con N o più report",
     "reportRatingDistributionOverTime": "Distribuzioni dei Rating nel tempo",
-    "whenMeetingMinimumRequirements": "Con requirement minimi soddisfatti"
+    "whenMeetingMinimumRequirements": "Con requisiti minimi soddisfatti"
   },
   "steamAuthor": {
     "hoursInSteam": "{{count}} ore in Steam",
     "hoursOnLinux": "{{time}} on Linux",
-    "hoursOverall": "{{time}} overall",
+    "hoursOverall": "{{time}} in totale",
     "timeWithProton": "{{time}} con Proton"
   },
   "suggestions": {
@@ -394,7 +394,7 @@
     "howToSteamDeck": "Steam Deck: Adding this device can currently only be done from Desktop Mode of a Steam Deck. Since devices now persist across login sessions, you only need to do this once and may author reports from another machine afterwards.",
     "intro": "I report sono più utili e credibili se includono l'hardware e il software su cui il gioco è testato. Per rendere queste informazioni accurate e consistenti, utilizziamo le informazioni di sistema riportate da Steam.",
     "parseFailure": "Parsing fallito. Se sei sicuro di aver copiato le informazioni correttamente, faccelo sapere su Discord",
-    "parseSuccess": "Informazioni di sistema parsate con successo!",
+    "parseSuccess": "Informazioni di sistema analizzate con successo!",
     "pasteInstructions": "Incolla qui le tue informazioni di sistema di Steam",
     "unsupportedHeadline": "Rilevati driver non supportati",
     "unsupportedWarning": "I tuoi driver grafici non soddisfano [i requirement minimi di Proton]({{link}})! Potresti riscontrare crash, rallentamenti o grafica ridotta. Puoi ancora inviare report ma questi mostreranno i tuoi driver in rosso e il report non verrà valutato nell'aggregazione di report per i giochi. Aggiorna i tuoi driver!"
