@@ -11,12 +11,12 @@
     "logInToContribute": "Ověřte svůj účet služby Steam a přispívejte obsah",
     "loggedInAs": "Přihlášn jako {{username}}",
     "notLoggedIn": "Nepřihlášen",
-    "note": "Ve vašem [nastavení soukromí služby Steam]({{link}}) musí být položka 'Údaje na profilu' nastavena na veřejné. Položka 'Údaje o produktech' nemusí být veřejná, ale pokud je, informace o vlastnictví a době hraní budou zveřejněny spolu s vašimi příspěvky.",
+    "note": "Ve vašem [nastavení soukromí služby Steam]({{link}}) musí být položka „Údaje na profilu“ nastavena na veřejné. Položka „Údaje o produktech“ nemusí být veřejná, ale pokud je, informace o vlastnictví a době hraní budou zveřejněny spolu s vašimi příspěvky.",
     "profileUrl": "Adresa URL profilu",
     "signOut": "Odhlásit se",
     "steamId": "ID služby Steam",
     "steamIdIntro": "Místo přihlášení do služby Steam můžete zadat [identifikátor]({{steamIdLink}}) účtu, abyste mohli [prozkoumat jeho knihovnu nebo seznam přání]({{link}}).",
-    "steamLoginIntro": "ProtonDB používá k potvrzení identity přispěvatelů ověřování službou Steam. Přihlášení tímto způsobem zpřístupní některé veřejné informace o vás, ale NEPŘIDĚLÍ nám žádná práva k účtu služby Steam.",
+    "steamLoginIntro": "ProtonDB vyžaduje k potvrzení identity přispěvatelů ověření přes službu Steam. Přihlášení tímto způsobem nám zpřístupní některé veřejné informace o vás, ale NEPŘIDĚLÍ nám žádná práva k účtu služby Steam.",
     "steamSignIn": "Přihlásit se pomocí služby Steam",
     "topBarLink": "Vaše hry ve službě Steam",
     "unlink": "Odpojit účet",
@@ -61,7 +61,7 @@
     "errorLoadingGames": "Chyba při načítání her. Ujistěte se prosím, že jsou na tomto účtu veřejné položky Údaje na profilu a Údaje o produktech!",
     "gameTotal": "{{username}}: {{count}} her",
     "headline": "Knihovna",
-    "note": "Pro načtení knihovny se nemusíte přihlašovat do služby Steam, ale pokud tak učiníte, bude vaše knihovna nalezena automaticky. Nastavení soukromí ve službě Steam pro položky 'Údaje na profilu' a 'Údaje o produktech' musí být veřejné.",
+    "note": "Pro načtení knihovny se nemusíte přihlašovat do služby Steam, ale pokud tak učiníte, bude vaše knihovna nalezena automaticky. Vaše [nastavení soukromí ve službě Steam]({{link}}) pro položky „Údaje na profilu“ a „Údaje o produktech“ musí být veřejné.",
     "refresh": "Obnovit"
   },
   "misc": {
@@ -92,7 +92,7 @@
     "include": "Zahrnout",
     "install": "Instalovat",
     "joinUsPrompt": "Připojte se na náš Discord!",
-    "lastContentRefreshTime": "Poslední obnovení obsahu proběhlo před {{time}}",
+    "lastContentRefreshTime": "Poslední obnovení obsahu proběhlo {{time}}",
     "meetsRequirements": "Splňuje požadavky",
     "moreInfo": "Více informací",
     "multiplayer": "Pro více hráčů",
@@ -166,6 +166,15 @@
       },
       "performanceMode": {
         "prompt": "Chcete raději používat verzi webu pro slabší zařízení?"
+      },
+      "preferredDeviceType": {
+        "options": {
+          "any": "Žádná předvolba",
+          "chromeOs": "ChromeOS",
+          "pc": "PC",
+          "steamDeck": "Steam Deck"
+        },
+        "prompt": "Jaký typ zařízení by měl mít prioritu při zobrazování obsahu?"
       }
     }
   },
@@ -176,6 +185,7 @@
       "byHoursPlayed": "Podle odehraných hodin",
       "byPlayerCount": "Podle počtu hráčů",
       "byProtonDbRating": "Podle hodnocení ProtonDB",
+      "byReleaseDate": "Podle data vydání",
       "bySteamDbScore": "Podle uživatelského skóre SteamDB",
       "headline": "Následující štítky jsou běžné ve vaší knihovně. Můžete začít těmito:",
       "lackReportsByHoursPlayed": "Nedostatek hlášení podle počtu odehraných hodin",
@@ -186,10 +196,20 @@
     "yourContributions": "Vaše příspěvky"
   },
   "reports": {
-    "displayExcluded": "Zobrazit nezahrnutá hlášení",
-    "filteredOutCount": "Vyfiltrováno {{count}}",
-    "filteredOutHeadline": "{{count}} hlášení se neshoduje s vašimi filtry {{filters}}",
-    "superceded": "Existuje novější zpráva tohoto typu od tohoto autora",
+    "addAReportPrompt": "Dejte nám vědět, jak hra běží [odesláním hlášení]({{link}})!",
+    "chromeOsVerifiedStatus": "Stav kompatibility s Chromebooky",
+    "deckVerifiedStatus": "Stav kompatibility s Deckem",
+    "displayExcluded": "Zobrazit vyloučená hlášení",
+    "doYouOwnSteamDeck": "Vlastíte Steam Deck? Můžete [jej přidat]({{link}}) do vašeho profilu.",
+    "filteredOutCount": "{{count}} vyfiltrováno",
+    "filteredOutHeadline": "{{count}} hlášení se neshoduje s vašimi vybranými filtry {{filters}}",
+    "haveYouPlayed": "Hráli jste tuto hru?",
+    "inLibrary": "Tato hra je v knihovně.",
+    "noReportsYetChromeOs": "Zatím žádná hlášení pro ChromeOS.",
+    "noReportsYetSteamDeck": "Zatím žádná hlášení pro Steam Deck.",
+    "readyToAuthorSteamDeck": "Nyní můžete odesílat hlášení na zařízení Steam Deck.",
+    "superceded": "Je dostupné novější hlášení od tohoto autora",
+    "timePlayedOnLinux": "Na systému Linux jste odehráli {{hours}} hodin.",
     "tinkerMethods": {
       "customProton": "Vlastní Proton",
       "experimental": "Přepnutí na experimentální",
@@ -202,7 +222,8 @@
     "zeroStateMessageWithFilters": "S vaším vybraným filtrem se neshodují žádná hlášení"
   },
   "search": {
-    "headline": "Výsledky hledání {{q}}",
+    "headline": "Výsledky vyhledávání dotazu {{q}}",
+    "pageTitle": "Vyhledávání",
     "results": "Výsledky"
   }
 }
