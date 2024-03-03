@@ -208,6 +208,32 @@
     },
     "prompt": "Jak dlouho jste hráli?"
   },
+  "frameRate": {
+    "legend": "FPS",
+    "options": {
+      "10to20": {
+        "long": "Mezi 10 a 20 FPS",
+        "short": "10 až 20"
+      },
+      "20to30": {
+        "long": "Mezi 20 a 30 FPS",
+        "short": "20 až 30"
+      },
+      "30to60": {
+        "long": "Mezi 30 a 60 FPS",
+        "short": "30 až 60"
+      },
+      "gt60": {
+        "long": "60 FPS nebo více",
+        "short": "60 nebo více"
+      },
+      "lt10": {
+        "long": "Pod 10 FPS",
+        "short": "Pod 10"
+      }
+    },
+    "prompt": "Na kolika snímcích za sekundu (FPS) tato hra většinu času běžela?"
+  },
   "graphicalFaults": {
     "legend": "Grafika",
     "options": {
@@ -565,13 +591,14 @@
   "stepHeadlines": {
     "appSelection": "Výběr hry",
     "borked": "Nefunkční!",
+    "chromeOsRelated": "Souvisí se systémem Chrome OS",
     "customizations": "Přizpůsobení",
     "finalNotes": "Verdikt",
     "multiplayer": "Hra více hráčů",
     "preview": "Náhled",
     "setup": "Nastavení",
     "startup": "Instalace a spuštění",
-    "steamDeckRelated": "Hodnocení zařízení Steam Deck",
+    "steamDeckRelated": "Souvisí se zařízením Steam Deck",
     "technical": "Technické podrobnosti",
     "unownedWarning": "Není v knihovně"
   },
