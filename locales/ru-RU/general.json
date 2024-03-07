@@ -166,6 +166,15 @@
       },
       "performanceMode": {
         "prompt": "Хотите запустить более производительную версию сайта?"
+      },
+      "preferredDeviceType": {
+        "options": {
+          "any": "Без предпочтений",
+          "chromeOs": "ChromeOS",
+          "pc": "ПК",
+          "steamDeck": "Steam Deck"
+        },
+        "prompt": "Какое устройство должно быть в приоритете для отображения контета?"
       }
     }
   },
