@@ -71,8 +71,13 @@
         "short": "VR"
       }
     },
+    "chromebookReady": "Připraveno pro Chromebook",
     "decline": "Zpět",
     "gameSorts": {
+      "hoursPlayed": {
+        "long": "Řadit dle: odehraných hodin",
+        "short": "Odehrané hodiny"
+      },
       "playerCount": {
         "long": "Řadit dle: počtu hráčů",
         "short": "Počet hráčů"
@@ -82,13 +87,16 @@
         "short": "Hodnocení"
       }
     },
+    "gamesLimit": "Graf her je omezený na {{cap}} nejpopulárnějších her",
     "gamesNotFound": "Nenalezeny žádné hry. Ujistěte se, že je položka 'Údaje o produktech' nastavena na veřejné ve vašich [nastaveních služby Steam]({{link}}).",
     "greetLoggedIn": "Chcete vidět, kolik her můžu hrát?",
     "lookupMyLibrary": "Načíst knihovnu",
-    "mostPlayedRatedUnverified": "Tady to neoficiálně vypadá dobře",
-    "mostPlayedRatedUnverifiedExtra": "Následující hry zatím nemají oficiálně status Kompatibilita se zařízením Steam Deck jako Plná ani Částečná, ale podle zpráv komunity vypadají dobře pro hraní v Linuxu.",
-    "mostPlayedVerified": "Oficiálně ověřeno",
-    "mostPlayedVerifiedExtra": "U těchto her, které vlastníte, společnost Valve označila status Kompatibilita se zařízením Steam Deck jako Plná nebo Částečná",
+    "mostPlayedUnverified": "Tyto vaše oblíbené hry zatím nemají oficiální status Ověřené nebo Hratelné, ale podle komunitních hlášení by měly být na Linuxu hratelné.",
+    "mostPlayedVerified": "Tyto vaše oblíbené hry mají oficiální status Ověřené nebo Hratelné",
+    "owned": "Vlastněná hra",
+    "playedFor": "Odehráno {{hours}} hodin",
+    "playerCountUnverified": "Následující populární hry zatím nemají oficiální status Ověřené nebo Hratelné, ale podle komunitních hlášení by měly být na Linuxu hratelné.",
+    "playerCountVerified": "Tyto populární hry mají oficiální status Ověřené nebo Hratelné",
     "ratingDefinitions": {
       "?": "Čekající: Vyžaduje více dat",
       "T1": "Nejvyšší úroveň. Většina zpráv je pozitivní.",
@@ -113,6 +121,7 @@
       "verified": "Ověřeno",
       "verifiedandplayable": "Ověřené nebo hratelné"
     },
+    "steamDeckVerified": "Ověřeno na Steam Decku",
     "submit": "Jistě!",
     "tierSystemHeadline": "Systém hodnocení",
     "tierSystems": {
@@ -130,24 +139,33 @@
         "description": "Hodnocení ProtonDB: Jak se hra hraje. Možná budou potřeba úpravy.",
         "long": "Medaile ProtonDB",
         "short": "Medaile"
+      },
+      "protonDbTinker": {
+        "description": "Nové hodnocení ProtonDB: Jak se hra hraje. Možná budou potřeba úpravy.",
+        "long": "Úpravář ProtonDB",
+        "short": "Úpravář"
       }
     },
     "tryYourLibrary": "Vyzkoušejte svou knihovnu",
+    "unverified": "Tady to neoficiálně vypadá dobře",
     "useLibrary": "Použít",
     "userNotFound": "Uživatel nenalezen. Ujistěte se, že jsou položky 'Údaje na profilu' a 'Údaje o produktech' nastaveny na veřejné ve vašem [nastavení služby Steam]({{link}}).",
+    "userScoreUnverified": "Následující dobře hodnocené hry zatím nemají oficiální status Ověřené nebo Hratelné, ale podle komunitních hlášení jsou na Linuxu hratelné.",
+    "userScoreVerified": "Toto jsou dobře hodnocené hry, které mají oficiální status Ověřené nebo Hratelné",
     "using": "Používám",
     "viewSteamCatalog": "Zobrazit katalog služby Steam",
     "yourLibrary": "Vaše knihovna",
     "yourSteamId": "Vaše ID služby Steam"
   },
   "contributorSettings": {
+    "addAChromebook": "Přidat Chromebook",
     "addAPCDevice": "Přidat PC",
     "addASteamDeckDevice": "Přidat Steam Deck",
     "headline": "Nastavení přispěvatele",
     "intro": "Přidejte zařízení pro příspívání vašich hlášení. ProtonDB nyní podporuje ukládání více konfigurací zařízení. Zařízení se dělí na jeden ze dvou typů: PC nebo Steam Deck",
     "intro2": "Některé další podrobnosti:",
     "invalidInfo": "Podrobnosti o zařízení jsou neplatná. Před přispíváním musí být opravena.",
-    "notOnSteamDeck": "Pro přidání Steam Decku se s ním přihlaste v režimu plochy do ProtonDB.",
+    "notOnSteamDeck": "Pro přidání Steam Decku se s ním přihlaste v režimu plochy do ProtonDB. Nejprve odpojte všechna příslušenství a monitory.",
     "otherDetail1": "Zařízení (stejně jako předvolby) budou nyní zachována všude, kde se přihlásíte.",
     "otherDetail2": "Pokud poskytnete jedno zařízení, bude automaticky použito při přidávání hlášení.",
     "otherDetail3": "Pokud poskytnete více než jedno zařízení, budete si moci jedno vybrat podle jeho jména, v kroku 'Nastavení'.",
@@ -174,6 +192,7 @@
       "mostBorked": "Nejvíce hlášení o nefunkčnosti",
       "mostPopular": "Nejpopulárnější",
       "percentPositive": "Dobré hodnocení v obchodě",
+      "playerCount": "Nejvíce aktivních hráčů",
       "popular": "Nejvíce sledujících ve službě Steam",
       "rank": "Nejpopulárnější",
       "recentlyImproved": "Nedávno vylepšeno",
@@ -264,7 +283,7 @@
       "[Návod k přechodu na Linux](https://www.reddit.com/r/linux_gaming/comments/9oqq3w/guide_migrating_to_linux_in_2019/)",
       "[Co je to Vulkan?](https://www.reddit.com/r/linux_gaming/comments/9ritk1/not_sure_i_quite_understand_can_someone_explain/)"
     ],
-    "headline": "Vítejte ve vašem domově pro komunitní hlášení o kompatibilitě her se systémem Linux a zařízením Steam Deck!",
+    "headline": "Vítejte v domově pro komunitní hlášení o kompatibilitě her se systémem Linux a zařízením Steam Deck!",
     "howDoIHelp": {
       "answer": "Dejte Linuxu šanci! Pokud jste noví, nezoufejte. Zde je seznam návodů pro začátek. A pokud chcete pomoci společnosti Valve vylepšovat Proton, sdílejte svá hlášení zde na ProtonDB!",
       "question": "Skvělé! Jak můžu pomoct?"
@@ -277,7 +296,7 @@
       "atLeastThreeRecommend": "doporučených třemi nebo více",
       "atLeastTwoRecommend": "doporučených dvěma nebo více",
       "deckVerified": "ověřených",
-      "deckVerifiedHeader": "her ověřených na Decku",
+      "deckVerifiedHeader": "Hry ověřené na Decku",
       "deckVerifiedPlayable": "ověřených nebo hratelných",
       "gamesReported": "nahlášených her",
       "gamesWithReports": "her s hlášeními",
@@ -339,13 +358,18 @@
     "reports": "Klikněte pro zobrazení hlášení"
   },
   "specs": {
+    "board": "Deska",
+    "channel": "Kanál",
+    "chromeOs": "OS",
+    "chromeVersion": "Chrome",
     "cpu": "CPU",
     "gpu": "GPU",
     "gpuDriver": "Ovladač GPU",
     "kernel": "Jádro",
     "os": "Distribuce",
     "otherSpecs": "Další hardware",
-    "ram": "RAM"
+    "ram": "RAM",
+    "version": "Verze"
   },
   "stats": {
     "analysisInByTheNumbers1": "Analýza podle čísel #1",
@@ -373,10 +397,13 @@
     "headline": "Systémové informace",
     "howTo": "PC: Získávání informací je přímočaré, pokud máte přístup k nastavení služby Steam na počítači, na kterém hrajete své hry. [Přejděte sem pro zjištění jak]({{link}}). Někteří uživatelé hlásili, že museli před pravým kliknutím stisknout Ctrl-A pro vybrání celého textu. Můžete vynechat vše, co začíná slovy „LD Scout Report“, případně bude text odstraněn automaticky.",
     "howToSteamDeck": "Steam Deck: Toto zařízení lze momentálně přidat pouze z režimu plochy zařízení Steam Deck. Jelikož jsou zařízení nyní uchovávána napříč přihlašovacími relacemi, stačí tuto akci provést jednou a poté můžete přidávat hlášení z jiného počítače.",
+    "incorrectDeviceType": "Nesprávný typ zařízení",
+    "incorrectDeviceTypeExplanation": "Poskytnuté systémové informace nejsou kompatibilní s tímto typem zařízení.",
     "intro": "Zprávy jsou užitečnější a důvěryhodnější při uvedení hardware a software, na kterém byla hra testována. Aby byly tyto informace co nejpřesnější a nejkonzistentnější, získáváme systémové informace přímo ze služby Steam.",
     "parseFailure": "Zpracování se nezdařilo. Pokud jste si jisti, že jste vše zkopírovali správně, kontaktujte nás prosím na Discordu",
     "parseSuccess": "Systémové informace byly úspěšně zpracovány!",
     "pasteInstructions": "Sem vložte systémové informace ze služby Steam",
+    "pasteInstructionsChromeOs": "Sem vložte systémové informace z ChromeOS.\n\nV aplikaci Nastavení: O systému ChromeOS -> Další podrobnosti -> Podrobnosti o sestavení (klepněte na ikonu kopírování) -> Vložte obsah sem",
     "unsupportedHeadline": "Detekovány nepodporované ovladače",
     "unsupportedWarning": "Ovladač displeje vašeho systému nesplňuje [aktuální minimální požadavky Protonu]({{link}})! Může docházet k pádům, pomalému výkonu nebo zhoršení grafického zobrazení. Stále můžete odesílat hlášení a vaše příspěvky mají stále hodnotu, ale vaše hlášení budou zobrazovat vaše grafické ovladače červeně a nebudou započítávány do souhrnného hodnocení her. Prosíme, aktualizujte své ovladače!"
   }
