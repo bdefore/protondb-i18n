@@ -5,12 +5,12 @@
     "answerRequiredWhenNotListed": "為選中已列出的任何一項時，該項目必填",
     "back": "上一步",
     "error": "錯誤！",
-    "invalidGeVersion": "錯誤的 GE 版本字串。一定要包含 '{major}.{minor}-ge-{patch}'。例如：'7.2-GE-2'",
+    "invalidGeVersion": "GE 版本字串錯誤。必須包含 (新格式) 'GE-Proton{major}.{minor}-patch' 或 (舊格式) '{major}.{minor}-ge-{patch}'。例如：'GE-Proton7-5'",
     "markdownSupportNotice": "現已支持 Markdown",
     "maxChars": "最多 {{count}} 個字",
     "next": "下一步",
     "submission": {
-      "error": "提交錯誤。請確保您的瀏覽器有呼叫 apis.google.com。目前已知 Brave 和 Privacy Badger 默認阻擋該網址。如果檢查後還是無法提交，請告知我們！",
+      "error": "提交時發生不應出現的錯誤。如果您的網路連線正常，仍無法提交，請告知我們！",
       "note": "請注意新提交的回報會被標記為待定狀態直到下一次内容更新。您可以在 [個人頁面]({{link}}) 查看您提交的回報",
       "success": "已成功提交",
       "thanks": "感謝您對 {{siteName}} 的貢獻"
