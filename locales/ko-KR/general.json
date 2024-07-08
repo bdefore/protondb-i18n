@@ -126,7 +126,7 @@
     "tryAgain": "재시도",
     "unknown": "알 수 없음",
     "unknownError": "알 수 없는 에러",
-    "updated": "{{what}}이/가",
+    "updated": "{{what}}이/가 업데이트되었습니다.",
     "version": "버전"
   },
   "nav": {
