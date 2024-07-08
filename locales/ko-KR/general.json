@@ -1,6 +1,6 @@
 {
   "attribution": {
-    "steamDb": "[{{name}}]({{link}})에 의해 [{{partnerName}}]({{partnerLink}})로 {{subject}} 제공."
+    "steamDb": "{{subject}} [{{partnerName}}]({{partnerLink}})에 의해 제공된 [{{name}}]({{link}}) 데이터를 사용합니다."
   },
   "auth": {
     "forgetMe": "로그인 잊기",
@@ -41,15 +41,15 @@
     "popular": "팔로워 {{context}}명",
     "positiveRating": "긍정적인 리뷰 {{context}}%",
     "protonDbRating": "",
-    "rank": "스팀 {{context}} 등급",
+    "rank": "Steam {{context}} 등급",
     "recentlyImproved": "최신 Proton 버전의 리뷰 {{context}}개",
-    "recentlyReleased": "First batch of {{context}} reports",
+    "recentlyReleased": "첫 리뷰 {{context}}개",
     "releaseDate": "{{context}} 출시",
     "userScore": "긍정적인 리뷰 {{context}}%",
     "wilsonRating": ""
   },
   "footer": {
-    "data": "본 사이트에서는 사이트 데이터와 함께 {{name}}에서 제공된 데이터도 사용합니다",
+    "data": "본 사이트에서는 {{name}}에서 제공된 데이터와",
     "description": "{{name}}는 [@bdefore]({{link}})의 열정을 담은 프로젝트이자 기여자들을 위한 헌신적인 커뮤니티 입니다.",
     "feedbackPrompt": "피드백이 있으신가요? 이곳을 통해 연락해 주세요!",
     "legal": "본 사이트는 Valve Software와 관련이 없습니다. 모든 게임 이미지와 로고는 해당 소유권자의 저작물 입니다."
@@ -188,6 +188,7 @@
   },
   "reports": {
     "addAReportPrompt": "[리뷰를 기여하는 것]({{link}})을 통해 다른 사람들에게 게임이 어떻게 작동되는지를 알릴 수 있습니다.",
+    "chromeOsVerifiedStatus": "Chromebook 호환 여부",
     "deckVerifiedStatus": "Steam Deck 인증 여부",
     "displayExcluded": "제외된 리뷰 표시",
     "doYouOwnSteamDeck": "Steam Deck을 소유하고 계신가요? 프로파일에서 [장치를 추가]({{link}})하실 수 있습니다.",
@@ -195,6 +196,7 @@
     "filteredOutHeadline": "{{count}}개의 리뷰가 설정한 필터 {{filters}}을/를 만족하지 않습니다.",
     "haveYouPlayed": "이 게임을 플레이 해 보셨나요?",
     "inLibrary": "이 게임은 라이브러리에 있습니다.",
+    "noReportsYetChromeOs": "Chromebook에 대한 리뷰 없음.",
     "noReportsYetSteamDeck": "Steam Deck에 대한 리뷰 없음.",
     "readyToAuthorSteamDeck": "Steam Deck에 대한 리뷰를 작성할 수 있습니다.",
     "superceded": "T이 작성자가 더 최근에 작성한 리뷰가 있습니다.",

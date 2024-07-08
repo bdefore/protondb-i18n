@@ -208,6 +208,32 @@
     },
     "prompt": "게임을 얼마 동안 플레이했습니까?"
   },
+  "frameRate": {
+    "legend": "FPS",
+    "options": {
+      "10to20": {
+        "long": "10에서 20 FPS 정도",
+        "short": "10 ~ 20"
+      },
+      "20to30": {
+        "long": "20에서 30 FPS 정도",
+        "short": "20 ~ 30"
+      },
+      "30to60": {
+        "long": "30에서 60 FPS 정도",
+        "short": "30 ~ 60"
+      },
+      "gt60": {
+        "long": "60 FPS 이상",
+        "short": "60 ~"
+      },
+      "lt10": {
+        "long": "10 FPS 미만",
+        "short": "~ 10"
+      }
+    },
+    "prompt": "플레이 중 게임의 프레임 레이트(FPS)는 어느 정도였나요?"
+  },
   "graphicalFaults": {
     "legend": "그래픽",
     "options": {
