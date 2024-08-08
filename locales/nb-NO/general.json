@@ -1,0 +1,127 @@
+{
+  "auth": {
+    "headline": "Steam-autentisering",
+    "loggedInAs": "Logget inn som {{username}}",
+    "steamSignIn": "Logg inn med Steam",
+    "unlink": "Koble fra konto"
+  },
+  "content": {
+    "followingPost": "Neste innlegg",
+    "previousPost": "Forrige innlegg"
+  },
+  "contextualInfo": {
+    "fixWanted": "",
+    "hoursPlayed": "{{context}} timer spilt",
+    "mostBorked": "",
+    "peakPlayers": "{{context}} høyeste antall spillere",
+    "positiveRating": "{{context}}% positive vurderinger",
+    "protonDbRating": "",
+    "recentReportCount": "{{context}} rapporter med de siste to Proton-versjonene"
+  },
+  "footer": {
+    "description": "{{name}} er et prosjekt fra [@bdefore]({{link}}) og et dedikert fellesskap av rapportører",
+    "feedbackPrompt": "Tilbakemelding? Bli med i vår Discord!",
+    "legal": "Denne siden er ikke tilknyttet Valve Software. Alle spillbilder og logoer er eiendom som tilhører sine respektive eiere."
+  },
+  "libraryLoader": {
+    "errorLoadingGames": "Noe gikk galt under innlasting av spill. Forsikre deg om at både profilen og spillinformasjonen for denne kontoen er offentlig!",
+    "gameTotal": "{{count}} spill i ditt bibliotek lastet inn!",
+    "note": "Forsikre deg om at i dine [Steam personverninnstillinger]({{link}}) er både 'Min profil' og 'Spillinformasjon' offentlige. Nylige endringer i Steam har gjort disse private som standard. Dette vil bruke Steam Web API for å hente offentlig informasjon om din konto, inkludert ditt id, profilnavn, og profilbilde. Steam vil vise IP-adressen {{host}} som Steam vil spørre om du stoler på — dette er forventet.",
+    "refresh": "Oppdater"
+  },
+  "misc": {
+    "addYourReport": "Legg til din rapport",
+    "affirmative": "Ja",
+    "areYouSure": "Er du sikker?",
+    "chipset": "Brikkesett",
+    "conjunction": "og",
+    "dismiss": "Lukk",
+    "distro": "Distribusjon",
+    "driver": "Driver",
+    "execute": "Kjør",
+    "feedbackPrompt": "Tilbakemelding? Fortell oss på [Discord]({{link}})",
+    "filter": "Filter",
+    "games": "Spill",
+    "hide": "Skjul {{what}}",
+    "include": "Inkluder",
+    "install": "Installer",
+    "joinUsPrompt": "Bli med i vår Discord!",
+    "lastContentRefreshTime": "Siste innholdsoppdatering var for {{time}} siden",
+    "meetsRequirements": "Oppfyller kravene",
+    "moreInfo": "Mer informasjon",
+    "multiplayer": "Flerspiller",
+    "native": "Native",
+    "negative": "Nei",
+    "notFound": "Ble ikke funnet",
+    "note": "Merk",
+    "overall": "Samlet",
+    "pending": "Venter på publisering",
+    "provisional": "Foreløpige vurderinger",
+    "published": "Publisert",
+    "rated": "Vurdert",
+    "report": "Rapport",
+    "reports": "Rapporter",
+    "save": "Lagre",
+    "saved": "{{what}} lagret",
+    "show": "Vis {{what}}",
+    "showAll": "Vis alle",
+    "showMore": "Vis mer",
+    "tier": "Nivå",
+    "total": "Totalt",
+    "unknown": "Ukjent",
+    "version": "Versjon"
+  },
+  "nav": {
+    "contribute": "Bidra",
+    "explore": "Utforsk",
+    "help": "Hjelp",
+    "news": "Nyheter",
+    "profile": "Profil",
+    "search": "Søk spill...",
+    "stats": "Statistikk"
+  },
+  "pagination": {
+    "next": "Neste side",
+    "previous": "Forrige side",
+    "summary": "Resultater {{from}} til {{to}} av {{total}}"
+  },
+  "preferences": {
+    "headline": "Preferanser",
+    "intro": "ProtonDB viser innsenderens Steam-navn ved siden av rapporter. Ditt unike Steam ID er ikke en del av den publiserte rapportdataen. Hvis du er bekymret for at navnet ditt kan brukes til å finne din Steam-profil, kan du angi et annet navn her på ProtonDB. Ditt Steam-navn vil bli erstattet med dette ved neste innholdsoppdatering.",
+    "questions": {
+      "customName": {
+        "additionalNotes": {
+          "label": "Eget valgt navn"
+        },
+        "options": {
+          "custom": "Et egendefinert navn",
+          "keepSteam": "Mitt Steam-navn ({{steamNickname}})"
+        },
+        "prompt": "Ditt offentlige navn"
+      },
+      "language": {
+        "prompt": "Språk (Eksperimentelt)"
+      }
+    }
+  },
+  "profile": {
+    "exploreLibrary": "Du kan utforske biblioteket ditt sortert med følgende filtre:",
+    "inYourLibrary": "I ditt bibliotek",
+    "libraryTags": {
+      "byHoursPlayed": "Etter timer spilt",
+      "byPlayerCount": "Etter antall spillere",
+      "byProtonDbRating": "Etter ProtonDB-vurdering",
+      "bySteamDbScore": "Etter SteamDB-brukerscore",
+      "headline": "Følgende tagger er vanlige i biblioteket ditt. Du kan dykke inn med disse:",
+      "lackReportsByHoursPlayed": "Manglende rapporter etter dine spilte timer",
+      "lackReportsByPlayerCount": "Manglende rapporter etter antall spillere",
+      "lackReportsBySteamDbScore": "Manglende rapporter etter SteamDB-brukerscore"
+    },
+    "notInYourLibrary": "Ikke i ditt bibliotek",
+    "yourContributions": "Dine bidrag"
+  },
+  "reports": {},
+  "search": {
+    "resultsHeader": "Søkeresultater for {{q}}"
+  }
+}

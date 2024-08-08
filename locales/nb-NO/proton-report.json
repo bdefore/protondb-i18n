@@ -1,0 +1,404 @@
+{
+  "appSelection": {
+    "caution": "Advarsel!",
+    "helperText": "Du kan også lime inn lenker eller et App ID, så vil vi prøve å finne det",
+    "notFound": "Kunne ikke finne spillet med App ID {{query}}. Dette kan skje hvis det enten er feil, eller hvis det har: blitt fjernet fra Steam-butikken, ikke er oppført som et 'spill', eller ikke er tilgjengelig i ditt land.",
+    "placeholder": "Skriv inn navnet på et spill i ditt Steam-bibliotek...",
+    "previousReportsExist": "Du har tidligere rapporter for dette spillet",
+    "runsNativeWarning": "Det valgte spillet har en native Linux-versjon publisert! Sørg for at du ikke uforvarende kjører den native versjonen av spillet. Steam bruker ikke Steam Play for å kjøre dette spillet som standard, men [du kan tvinge Steam til å gjøre det]({{link}})."
+  },
+  "audioFaults": {
+    "legend": "Lyd",
+    "options": {
+      "borked": {
+        "long": "Helt ødelagt",
+        "short": "Ødelagt"
+      },
+      "crackling": {
+        "long": "Knitring",
+        "short": "Knitring"
+      },
+      "lowQuality": {
+        "long": "Merkbar kvalitetsreduksjon",
+        "short": "Lav kvalitet"
+      },
+      "missing": {
+        "long": "Visse lyder mangler",
+        "short": "Mangler"
+      },
+      "other": {
+        "long": "Annet",
+        "short": "Annet"
+      },
+      "outOfSync": {
+        "long": "Mistet synkroniseringen",
+        "short": "Uten synkronisering"
+      }
+    },
+    "prompt": "Opplevde du noen problemer med lyden?"
+  },
+  "borked": {
+    "headline": "Så synd å høre!",
+    "intro": "Din rapport vil bli sendt inn som en ødelagt rapport, men før du gjør det kan det være lurt å besøke vår [spillfeilsøkings-FAQ]({{link}}) side."
+  },
+  "customizationsUsed": {
+    "additionalNotes": {
+      "label": "Ytterligere detaljer",
+      "placeholder": "Forklaring eller lenke til blogginnlegg eller Github-repository"
+    },
+    "legend": "Tilpasninger",
+    "options": {
+      "customPrefix": {
+        "long": "Et skreddersydd Wine-prefiks",
+        "short": "Skreddersydd prefiks"
+      },
+      "customProton": {
+        "long": "En skreddersydd fork av Proton",
+        "short": "Skreddersydd Proton"
+      },
+      "lutris": {
+        "long": "Lutris-installasjonsskript",
+        "short": "Lutris"
+      },
+      "native2Proton": {
+        "long": "Native2Proton",
+        "short": "Native2Proton"
+      },
+      "notListed": {
+        "long": "Ikke oppført",
+        "short": "Ikke oppført"
+      },
+      "protonfixes": {
+        "long": "protonfixes",
+        "short": "protonfixes"
+      },
+      "protontricks": {
+        "long": "protontricks",
+        "short": "protontricks"
+      },
+      "winetricks": {
+        "long": "winetricks",
+        "short": "winetricks"
+      }
+    },
+    "prompt": "Hvilke tilpasninger har du gjort?"
+  },
+  "duration": {
+    "legend": "Hvor lenge?",
+    "options": {
+      "aboutAnHour": {
+        "long": "En time",
+        "short": "En time"
+      },
+      "lessThanAnHour": {
+        "long": "< 1 time",
+        "short": "< 1 time"
+      },
+      "lessThanFifteenMinutes": {
+        "long": "< 15 minutter",
+        "short": "< 15 minutter"
+      },
+      "moreThanTenHours": {
+        "long": "> 10 timer",
+        "short": "> 10 timer"
+      },
+      "severalHours": {
+        "long": "2+ timer",
+        "short": "2+ timer"
+      }
+    },
+    "prompt": "Hvor lenge har du spilt?"
+  },
+  "extra": {
+    "additionalNotes": {
+      "label": "Ytterligere bemerkninger",
+      "placeholder": "Vennligst legg dem til her."
+    },
+    "prompt": "Er det noe du ønsker å legge til som ikke ble dekket av de tidligere spørsmålene?"
+  },
+  "graphicalFaults": {
+    "legend": "Grafikk",
+    "options": {
+      "heavyArtifacts": {
+        "long": "Grove eller hyppige artefakter",
+        "short": "Grove artefakter"
+      },
+      "minorArtifacts": {
+        "long": "Mindre eller sjeldne artefakter",
+        "short": "Mindre artefakter"
+      },
+      "missingTextures": {
+        "long": "Manglende teksturer",
+        "short": "Manglende teksturer"
+      },
+      "other": {
+        "long": "Annet",
+        "short": "Annet"
+      }
+    },
+    "prompt": "La du merke til noen grafiske forringelser?"
+  },
+  "graphicsApiSelection": {
+    "legend": "Grafikk-API",
+    "options": {
+      "d3d": {
+        "long": "Direct3D",
+        "short": "Direct3D"
+      },
+      "ogl": {
+        "long": "OpenGL",
+        "short": "OpenGL"
+      },
+      "unsure": {
+        "long": "Standard for spillet",
+        "short": "Standard"
+      },
+      "vk": {
+        "long": "Vulkan",
+        "short": "Vulkan"
+      }
+    },
+    "prompt": "Hvilken grafikk-API brukte du i spillet?"
+  },
+  "inputFaults": {
+    "legend": "Inndata",
+    "options": {
+      "bounding": {
+        "long": "Deadzone stemte ikke",
+        "short": "Deadzone"
+      },
+      "controllerMapping": {
+        "long": "Kontrollerknappene ble ikke riktig mappet",
+        "short": "Kontrollermapping"
+      },
+      "controllerNotDetected": {
+        "long": "Kontroller ble ikke oppdaget",
+        "short": "Kontrolleroppdagelse"
+      },
+      "controllerNotResponsive": {
+        "long": "Kontroller ble oppdaget, men ga ingen respons",
+        "short": "Ingen respons"
+      },
+      "drifting": {
+        "long": "Aksene drev",
+        "short": "Drifting"
+      },
+      "inaccuracy": {
+        "long": "Unøyaktig inndata",
+        "short": "Unøyaktig inndata"
+      },
+      "lag": {
+        "long": "Inndata var laggete",
+        "short": "Lagging"
+      },
+      "other": {
+        "long": "Annet",
+        "short": "Annet"
+      }
+    },
+    "prompt": "Opplevde du noen problemer med mus, kontroller eller andre inndataenheter?"
+  },
+  "installs": {
+    "legend": "Installasjon",
+    "prompt": "Kunne du installere spillet?"
+  },
+  "isImpactedByAntiCheat": {
+    "legend": "Anti-juks-system",
+    "options": {
+      "battleEye": {
+        "long": "BattlEye",
+        "short": "BattlEye"
+      },
+      "easyAntiCheat": {
+        "long": "Easy Anti Cheat",
+        "short": "EAC"
+      },
+      "other": {
+        "long": "Annet",
+        "short": "Annet"
+      }
+    },
+    "prompt": "Påvirkes spillet av anti-juks-programvare?"
+  },
+  "isMultiplayerImportant": {
+    "prompt": "Er multiplayer en sentral del av dette spillets verdi?"
+  },
+  "launchFlagsUsed": {
+    "additionalNotes": {
+      "label": "Ytterligere detaljer",
+      "placeholder": "Hva ble forbedret ved å gjøre dette?"
+    },
+    "legend": "Startflagg",
+    "options": {
+      "disableD3d10": {
+        "long": "Deaktiver D3D10",
+        "short": "Deaktiver D3D10"
+      },
+      "disableD3d11": {
+        "long": "Deaktiver D3D11",
+        "short": "Deaktiver D3D11"
+      },
+      "disableEsync": {
+        "long": "Deaktiver Esync",
+        "short": "Deaktiver Esync"
+      },
+      "disableFsync": {
+        "long": "Deaktiver Fsync",
+        "short": "Deaktiver Fsync"
+      },
+      "largeAddressAware": {
+        "long": "Large Address Aware",
+        "short": "Large Address Aware"
+      },
+      "noGpu": {
+        "long": "Ingen GPU",
+        "short": "Ingen GPU"
+      },
+      "protonLogging": {
+        "long": "Proton-loggføring",
+        "short": "Loggføring"
+      },
+      "safeMode": {
+        "long": "Sikkerhetsmodus",
+        "short": "Sikkerhetsmodus"
+      }
+    },
+    "prompt": "Hvilke startflagg brukte du?"
+  },
+  "launches": {
+    "legend": "Oppstart",
+    "options": {
+      "crashOnLaunch": {
+        "long": "Krasjet ved oppstart",
+        "short": "Krasjet"
+      },
+      "failedToLaunch": {
+        "long": "Klarte ikke å starte",
+        "short": "Mislyktes"
+      },
+      "other": {
+        "long": "Annet",
+        "short": "Annet"
+      }
+    },
+    "prompt": "Kunne du starte spillet?"
+  },
+  "multiplayer": {
+    "options": {
+      "cooperative": {
+        "long": "Co-op",
+        "short": "Co-op"
+      },
+      "lan": {
+        "long": "LAN",
+        "short": "LAN"
+      },
+      "mmo": {
+        "long": "MMO",
+        "short": "MMO"
+      },
+      "onlineCompetitive": {
+        "long": "Konkurransedyktig online",
+        "short": "Konkurranse"
+      },
+      "splitScreen": {
+        "long": "Splitscreen",
+        "short": "Splitscreen"
+      }
+    },
+    "prompt": "Hvilken type multiplayer-modus testet du?"
+  },
+  "overallRating": {
+    "legend": "Vurdering",
+    "options": {
+      "borked": {
+        "long": "Helt ubrukelig (Borked)",
+        "short": "Ubrukelig"
+      },
+      "bronze": {
+        "long": "Virker med store feil (Bronse)",
+        "short": "Bronse"
+      },
+      "gold": {
+        "long": "Virker med mindre feil (Gull)",
+        "short": "Gull"
+      },
+      "native": {
+        "long": "Native Linux",
+        "short": "Native"
+      },
+      "platinum": {
+        "long": "Virker perfekt uten endringer (Platinum)",
+        "short": "Platinum"
+      },
+      "silver": {
+        "long": "Virker med feil, men spillbart (Sølv)",
+        "short": "Sølv"
+      }
+    },
+    "prompt": "Hvordan vurderer du din opplevelse med spillet?"
+  },
+  "protonVersion": {
+    "legend": "Proton-versjon",
+    "prompt": "Hvilken Proton-versjon brukte du?"
+  },
+  "resolution": {
+    "legend": "Oppløsning",
+    "options": {
+      "1080p": {
+        "long": "1080p",
+        "short": "1080p"
+      },
+      "4k": {
+        "long": "4K",
+        "short": "4K"
+      },
+      "720p": {
+        "long": "720p",
+        "short": "720p"
+      },
+      "other": {
+        "long": "Annet",
+        "short": "Annet"
+      }
+    },
+    "prompt": "Hvilken oppløsning spilte du på?"
+  },
+  "specs": {
+    "gpu": {
+      "label": "GPU-modell"
+    },
+    "gpuDriver": {
+      "label": "GPU-driver"
+    },
+    "kernel": {
+      "label": "Kjernenummer"
+    },
+    "os": {
+      "label": "OS"
+    },
+    "otherSpecs": {
+      "label": "Annen maskinvare",
+      "placeholder": "Andre bemerkelsesverdige maskinvarekomponenter"
+    },
+    "prompt": "Hva er maskinvaren og programvaren din?"
+  },
+  "submit": {
+    "headline": "Du er ferdig!",
+    "submit": "Send inn din rapport"
+  },
+  "vr": {
+    "legend": "VR-spilling",
+    "options": {
+      "performanceIssues": {
+        "long": "Ytelsesproblemer",
+        "short": "Ytelse"
+      },
+      "poorTracking": {
+        "long": "Svak tracking",
+        "short": "Svak tracking"
+      }
+    },
+    "prompt": "Opplevde du noen problemer med VR?"
+  }
+}
