@@ -1,0 +1,173 @@
+{
+  "auth": {
+    "intro": "Ved å logge inn med Steam kan du sende inn rapporter og bruke [utforsk-siden med et biblioteksfilter]({{link}}) for å begrense resultatene til spill du eier."
+  },
+  "breakdown": {
+    "headline": "Populære spill",
+    "popularHeadline": "Vurderinger for de {{count}} mest populære spillene",
+    "topHundred": "Topp hundre",
+    "topTen": "Topp ti",
+    "topThousand": "Topp tusen",
+    "topics": {
+      "allGames": "Alle spill",
+      "indie": "Indie",
+      "localMultiplayer": "Lokal multiplayer",
+      "singlePlayer": "Enkeltspiller",
+      "vr": "VR"
+    },
+    "unavailable": "Utilgjengelige",
+    "unrated": "Uten vurdering",
+    "unreported": "Uten rapporter"
+  },
+  "explore": {
+    "headlines": {
+      "fixWanted": "Ønsker en fiks",
+      "highestRated": "Høyest vurdert på SteamDB",
+      "hoursPlayed": "Timer spilt",
+      "inLibrary": "I ditt bibliotek",
+      "mostBorked": "Mest ødelagte rapporter",
+      "mostPopular": "Mest populære",
+      "recentlyImproved": "Nylig forbedret",
+      "wellRatedHere": "Har god vurdering her"
+    },
+    "layout": "Oppsett",
+    "loadError": "Feil ved lasting av spill!",
+    "notLoggedIn": "Kan ikke laste et bibliotek uten Steam-ID. Besøk din [profil]({{link}}) for å legge til en.",
+    "poweredBy": "Drevet av",
+    "sorts": {
+      "fixWanted": "Ønsker en fiks",
+      "hoursPlayed": "Timer spilt",
+      "mostBorked": "Mest ødelagt",
+      "playerCount": "Antall spillere",
+      "recentlyImproved": "Nylig forbedret",
+      "userScore": "Brukervurdering",
+      "wilsonRating": "ProtonDB-vurdering"
+    },
+    "toggles": {
+      "includeNative": "Inkluder native",
+      "lackReports": "Mangler rapporter",
+      "restrictToLibrary": "Bibliotek",
+      "untested": "Uten rapporter",
+      "userTags": "Brukertagger",
+      "whitelisted": "På hvitelisten"
+    }
+  },
+  "filters": {
+    "questions": {
+      "cpu": {
+        "label": "CPU"
+      },
+      "distro": {
+        "label": "Distribusjon"
+      },
+      "gpu": {
+        "label": "GPU"
+      },
+      "type": {
+        "label": "Type"
+      }
+    }
+  },
+  "gameDetails": {
+    "githubIssueSearch": "GitHub Issue-søk",
+    "infoNotFound": "Kunne ikke hente informasjon for App ID: {{entry}}. Dette kan skje hvis spillet ble fjernet fra butikken.",
+    "minimumRequirements": "Minimumskrav",
+    "nativelySupports": "Støtter native"
+  },
+  "home": {
+    "getStartedLinks": [
+      "[Steams offisielle Steam Play-side](https://store.steampowered.com/steamplay)",
+      "[En guide for å migrere til Linux](https://www.reddit.com/r/linux_gaming/comments/9oqq3w/guide_migrating_to_linux_in_2019/)",
+      "[Hva er Vulkan?](https://www.reddit.com/r/linux_gaming/comments/9ritk1/not_sure_i_quite_understand_can_someone_explain/)"
+    ],
+    "headline": "Med Proton og Steam Play fungerer mange Windows-spill nå på Linux!",
+    "howDoIHelp": {
+      "answer": "Gi Linux en sjanse! Hvis du er ny, ikke bekymre deg. Her er en liste med guider som kan hjelpe deg i gang, og hvis du vil hjelpe Valve og Proton med å forbedre seg, bidra med dine rapporter her på ProtonDB!",
+      "question": "Kult! Hvordan kan jeg hjelpe til?"
+    },
+    "letsGetStarted": "Kom i gang!",
+    "sampleGames": "Her er et utvalg av populære spill som offisielt ikke er på hvitelisten ennå, men som har fått mange Platinarapporter på ProtonDB",
+    "search": "Søk etter spill...",
+    "stats": {
+      "gamesReported": "spill rapportert",
+      "gamesWork": "spill fungerer",
+      "reportsWritten": "rapporter skrevet"
+    },
+    "theImpact": {
+      "answer": "Steam Play støtter nå et begrenset, men voksende antall 'hvitlistede' spill som anses Proton-kompatible og kan spilles på Linux. Basert på ProtonDB-rapporter er det et stort antall ikke-hvitlistede spill, inkludert mange populære titler, som fungerer like bra på Linux som på Windows.",
+      "question": "Innvirkning"
+    },
+    "whatIsProton": {
+      "answer": "Proton er et nytt verktøy utgitt av Valve Software som er integrert med Steam Play for å gjøre det enkelt å spille Windows-spill på Linux med bare et trykk på Spille-knappen i Steam. Under panseret består Proton av mange populære verktøy som Wine og DXVK (med flere) som en gamer ellers måtte installere og vedlikeholde selv. Dette reduserer sterkt byrden for brukere som ønsker å bytte til Linux uten å måtte forstå de underliggende systemene eller miste tilgangen til en stor del av spillbiblioteket sitt. Proton er fortsatt veldig nytt, så støtten er inkonsekvent, men forbedres jevnlig.",
+      "question": "Hva er Proton?"
+    },
+    "whatIsProtonDb": {
+      "answer": "Målet med ProtonDB er å samle inn rapporter fra gamere som tester spill med Proton på Linux og gi samlede vurderinger for hvor godt spill fungerer. ProtonDB tilbyr også et voksende antall justeringsforslag du kan prøve for å få spill til å fungere mens Proton fortsetter sin utvikling. I tillegg kan du på denne siden utforske Steams spillkatalog og bla gjennom et stort antall spill som tidligere var utilgjengelige på Linux.",
+      "question": "Hva er ProtonDB?"
+    },
+    "whyBigDeal": {
+      "answer": "Linux-skrivebordsopplevelsen har forbedret seg enormt de siste årene. Mye av det du kan gjøre på Windows og/eller macOS er mulig på Linux uten å måtte tukle for mye, og tukling kan være morsomt. Mer og mer av det vi gjør i dag gjøres også online, og nettlesere oppfører seg nesten likt på Linux som de gjør i andre operativsystemer. Proton og Steam Play adresserer en betydelig hindring for å bytte til Linux: gaming, et område hvor Linux inntil nylig hadde begrenset kompatibilitet.",
+      "question": "Hvorfor er dette en stor sak?"
+    },
+    "youtubeId": "Co6FePZoNgE"
+  },
+  "medals": {
+    "borked": "Ødelagt",
+    "bronze": "Bronse",
+    "gold": "Gull",
+    "platinum": "Platina",
+    "silver": "Sølv"
+  },
+  "ratingDefinitions": {
+    "explanations": {
+      "borked": "Starter enten ikke eller er av en annen grunn uspillbart",
+      "bronze": "Kan kjøres, men krasjer ofte eller har andre problemer som hindrer at spillet kan spilles komfortabelt",
+      "gold": "Kjører perfekt etter justeringer",
+      "native": "Kjører native på Linux",
+      "pending": "Venter på flere rapporter før vurdering gis",
+      "platinum": "Fungerer perfekt uten justeringer",
+      "silver": "Kjører med mindre problemer, men er generelt spillbart"
+    },
+    "headline": "Vurderingsdefinisjoner"
+  },
+  "specs": {
+    "cpu": "CPU",
+    "gpu": "GPU",
+    "gpuDriver": "GPU-driver",
+    "kernel": "Kjerne",
+    "os": "Distribusjon",
+    "otherSpecs": "Andre spesifikasjoner",
+    "ram": "RAM"
+  },
+  "stats": {
+    "analysisInByTheNumbers1": "Fra analysen i By The Numbers #1",
+    "byCommonDisplayDrivers": "Etter vanligste grafikkdrivere",
+    "byDistro": "Etter distribusjon",
+    "byGpu": "Etter GPU",
+    "byProtonVersion": "Etter Proton-versjon",
+    "dailyReportsHeadline": "Daglige rapporter (Siste {{days}} dager)",
+    "downloadData": "Last ned data",
+    "gameRatingDistribution": "Fordeling av vurderinger i rapporter",
+    "gamesWithNOrMoreReports": "Spill med N eller flere rapporter",
+    "reportRatingDistributionOverTime": "Fordeling av vurderinger i rapporter over tid",
+    "whenMeetingMinimumRequirements": "Når minimumskravene møtes"
+  },
+  "steamAuthor": {
+    "hoursInSteam": "{{count}} timer på Steam",
+    "timeWithProton": "{{time}} med Proton"
+  },
+  "suggestions": {
+    "headline": "Klar for mer?",
+    "intro": "De følgende spillene er valgt basert på timene du har spilt, popularitet, og SteamDB-vurderinger. De mangler alle rapporter, og noen trenger kanskje bare én til for å få en {{siteName}}-vurdering! Du kan laste inn andre forslag eller gå til [mangler rapporter]({{link}}) filteret på Utforsk-siden for enda flere."
+  },
+  "systemInfo": {
+    "headline": "Systeminformasjon",
+    "howTo": "Innsamling av denne informasjonen går raskt hvis du har tilgang til Steams innstillinger på maskinen hvor du spiller spillene dine. [Klikk her for å se hvordan]({{link}}). (Noen brukere rapporterer at de må trykke Ctrl-A for å velge alt før de høyreklikker.)",
+    "intro": "Rapporter er mer nyttige og får høyere troverdighet når maskinvaren og programvaren spillet ble testet på vises. For å holde dette så korrekt og konsekvent som mulig bruker vi systeminformasjonen som rapporteres av Steam.",
+    "parseFailure": "Tolkning mislyktes. Hvis du er sikker på at du kopierte riktig, gi oss beskjed på Discord (fortrinnsvis på engelsk)",
+    "parseSuccess": "Tolkning av systeminformasjon lyktes!",
+    "pasteInstructions": "Lim inn systeminformasjon her",
+    "unsupportedHeadline": "Ikke-støttede drivere oppdaget",
+    "unsupportedWarning": "Grafikkdriveren i systemet ditt møter ikke [Protons nåværende minimumskrav]({{link}})! Du kan oppleve krasj, dårlig ytelse, og/eller grafiske nedgraderinger. Du kan fortsatt sende inn rapporter, og det er fortsatt verdi i bidragene dine, men rapportene dine vil vise grafikkdriverne i rødt og vil ikke telle med i den gjennomsnittlige vurderingen. Oppdater driverne dine!"
+  }
+}
