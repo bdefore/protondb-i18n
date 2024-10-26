@@ -30,23 +30,19 @@
   },
   "contextualInfo": {
     "dateAdded": "Added on {{context}}",
-    "fixWanted": "",
     "followers": "{{context}} Steam followers",
     "heavilyReported": "{{context}} recent reports",
     "hoursPlayed": "{{context}} hours played",
-    "mostBorked": "",
     "peakPlayers": "{{context}} peak players",
     "percentPositive": "{{context}}% positive rating",
     "playerCount": "{{context}} peak players",
     "popular": "{{context}} followers",
     "positiveRating": "{{context}}% positive rating",
-    "protonDbRating": "",
     "rank": "Ranked {{context}} on Steam",
     "recentlyImproved": "{{context}} reports with latest two Proton versions",
     "recentlyReleased": "First batch of {{context}} reports",
     "releaseDate": "Released {{context}}",
-    "userScore": "{{context}}% positive rating",
-    "wilsonRating": ""
+    "userScore": "{{context}}% positive rating"
   },
   "footer": {
     "data": "This site uses data from {{name}} as well as data",
