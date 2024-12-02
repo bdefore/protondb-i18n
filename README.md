@@ -28,8 +28,9 @@ All native speakers are welcome to contribute! Please do not make pull requests 
 - Fork this repo
 - Download your fork
 - In your downloaded directory, install dependencies by running `yarn`
-- If starting a new locale, create the directory named after your language tag within `locales` and copy over files from the `locales/en-US` directory
-- Make your changes/additions
+- Localize
+  - If starting a new locale, create the directory named after your language tag within `locales` and copy over files from the `locales/en-US` directory
+  - Run `yarn run --locale <locale-code>` automatically will be appended the new content in the bottom of all the files
 - Review them visually (see Verify Your Changes below)
 - Run `yarn lint:json` to validate everything is alphabetized and formatted properly
 - Commit, push, and open a pull request!

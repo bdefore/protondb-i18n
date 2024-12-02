@@ -10,6 +10,7 @@
   },
   "scripts": {
     "compare": "node check_keys.js",
+    "update-l10n": "node update.js",
     "lint:json": "npx jsonlint -qsi locales/**/*.json"
   }
 }
