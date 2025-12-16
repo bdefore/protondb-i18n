@@ -5,7 +5,8 @@
     "answerRequiredWhenNotListed": "Se necesita respuesta cuando se elije 'No está en la lista' ",
     "back": "Volver",
     "error": "¡Error!",
-    "markdownSupportNotice": "Ahora Markdown es compatible",
+    "invalidGeVersion": "Cadena de texto de versión de GE inválida. Debe contener (formato nuevo) 'GE-Proton{mayor}.{menor}-parche' o (formato anterior) '{mayor}.{menor}-ge-{parche}'. Ejemplo: 'GE-Proton7-5'",
+    "markdownSupportNotice": "Markdown es compatible",
     "maxChars": "{{count}} carácteres como máximo",
     "next": "Siguiente",
     "submission": {
