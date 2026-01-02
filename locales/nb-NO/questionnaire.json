@@ -4,14 +4,15 @@
     "answerRequired": "Svar kreves",
     "answerRequiredWhenNotListed": "Svar kreves når \"Ikke oppført\" er valgt",
     "back": "Tilbake",
-    "error": "Noe gikk galt (feil)!",
-    "markdownSupportNotice": "Markdown støttes nå",
+    "error": "Noe gikk galt!",
+    "invalidGeVersion": "Ugyldig GE-versjonstreng. Må inneholde (i nytt format) \"GE-Proton{major}.{minor}-patch\" eller (i gammelt format) \"{major}.{minor}-ge-{patch}\". For eksempel: \"GE-Proton7-5\"",
+    "markdownSupportNotice": "Markdown støttes",
     "maxChars": "Maks {{count}} tegn",
     "next": "Neste",
     "submission": {
       "error": "Noe gikk galt under innsendingen. Vi setter pris på om du forteller oss hvordan dette skjedde!",
       "note": "Merk at nye rapporter ikke vil vises umiddelbart i påvente av neste innholdsoppdatering. Du kan se dine bidrag på din [profil]({{link}})",
-      "success": "Sendt inn vellykket",
+      "success": "Innsending lyktes",
       "thanks": "Takk for ditt bidrag til {{siteName}}"
     },
     "submit": "Send inn",

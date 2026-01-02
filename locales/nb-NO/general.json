@@ -59,7 +59,7 @@
   },
   "libraryLoader": {
     "errorLoadingGames": "Noe gikk galt under innlasting av spill. Forsikre deg om at både profilen og spillinformasjonen for denne kontoen er offentlig!",
-    "gameTotal": "{{count}} spill i ditt bibliotek lastet inn!",
+    "gameTotal": "{{username}}: {{count}} spill",
     "headline": "Bibliotek",
     "note": "Du trenger ikke logge inn med Steam for å laste biblioteket ditt, men det vil oppdages automatisk dersom du velger å gjøre det. Forsikre deg om at både 'Min profil' og 'Spillinformasjon' er offentlige i dine [Steam personverninnstillinger]({{link}}).",
     "refresh": "Oppdater"
@@ -207,7 +207,7 @@
     "inLibrary": "Dette spillet er i biblioteket ditt.",
     "noReportsYetChromeOs": "Ingen foreløpige rapporter på ChromeOS.",
     "noReportsYetSteamDeck": "Ingen foreløpige rapporter på Steam Deck.",
-    "readyToAuthorSteamDeck": "You're ready to author Steam Deck reports.",
+    "readyToAuthorSteamDeck": "Alt er klart for å skrive Steam Deck-rapporter.",
     "superceded": "Det finnes en nyere rapport av denne typen fra denne brukeren",
     "timePlayedOnLinux": "Du har spilt på Linux i {{hours}} timer.",
     "tinkerMethods": {
@@ -222,8 +222,8 @@
     "zeroStateMessageWithFilters": "Ingen rapporter samsvarte med valgte filtere"
   },
   "search": {
-    "headline": "Search for {{q}}",
-    "pageTitle": "Search",
-    "results": "Results"
+    "headline": "Søk etter {{q}}",
+    "pageTitle": "Søk",
+    "results": "Resultater"
   }
 }

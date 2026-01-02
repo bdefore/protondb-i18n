@@ -2,7 +2,7 @@
   "appSelection": {
     "caution": "Advarsel!",
     "helperText": "Du kan også lime inn lenker eller et App ID, så vil vi prøve å finne det",
-    "noPlaytime": "Din Steam-konto viser ingen spilletid registrert for dette spillet. Dette kan skje hvis dine [Steam-personverninnstillinger]({{link}}) ikke gjør spillinformasjon offentlig, eller hvis du har valgt å ikke dele spilletid via 'Alltid hold min totale spilletid privat selv om brukere kan se min spillinformasjon'-vekslingen. Din rapport vil fortsatt vise deg som eier. Hvis dette er en feil, gi oss beskjed.",
+    "noPlaytime": "Din Steam-konto viser ingen spilletid registrert for dette spillet. Dette kan skje hvis dine [Steam-personverninnstillinger]({{link}}) ikke gjør spillinformasjon offentlig, eller hvis du har valgt å ikke dele spilletid via 'Hold alltid min totale spilletid privat, selv om brukere kan se spilldetaljene mine.'-vekslingen. Din rapport vil fortsatt vise deg som eier. Hvis dette er en feil, gi oss beskjed.",
     "notFound": "Kunne ikke finne spillet med App ID {{query}}. Dette kan skje hvis det enten er feil, eller hvis det har: blitt fjernet fra Steam-butikken, ikke er oppført som et 'spill', eller ikke er tilgjengelig i ditt land.",
     "notOwner": "Din Steam-konto viser ikke dette spillet som eid av deg og vil ikke vises slik på rapporten din. Dette kan skje hvis dine [Steam-personverninnstillinger]({{link}}) ikke gjør spillinformasjon offentlig. Hvis dette er en feil, gi oss beskjed.",
     "placeholder": "Skriv inn navnet på et spill i ditt Steam-bibliotek...",
@@ -49,7 +49,7 @@
   },
   "borked": {
     "headline": "Så synd å høre!",
-    "intro": "Din rapport vil bli sendt inn som en ødelagt rapport, men før du gjør det kan det være lurt å besøke vår [spillfeilsøkings-FAQ]({{link}}) side."
+    "intro": "Du vil nå sende inn en rapport som beskriver spillet som ødelagt, men før du gjør det kan det være lurt å besøke vår [spillfeilsøkings-FAQ]({{link}}) side."
   },
   "concludingNotes": {
     "label": "Konkluderende tanker",
@@ -57,13 +57,13 @@
   },
   "controlLayout": {
     "additionalNotes": {
-      "label": "Hvilken type fellesskapsoppset?"
+      "label": "Hvilken type fellesskapsoppsett?"
     },
     "legend": "Kontroller-oppsett",
     "options": {
       "community": {
         "long": "Et oppsett laget av fellesskapet",
-        "short": "Fellesskapsoppset"
+        "short": "Fellesskapsoppsett"
       },
       "gamepad": {
         "long": "Gamepad",
@@ -105,30 +105,56 @@
       "label": "Tilpasninger",
       "prompt": "Beskriv endringene du gjorde"
     },
-    "legend": "Tilpasset oppsett"
+    "legend": "Tilpasset oppsett",
+    "options": {
+      "enableGripButtons": {
+        "long": "Aktiverte bakre grepknapper",
+        "short": "Grepknapper"
+      },
+      "gyro": {
+        "long": "Aktiverte gyroskop",
+        "short": "Gyro"
+      },
+      "other": {
+        "long": "Annet",
+        "short": "Annet"
+      },
+      "rightTrackpad": {
+        "long": "Endret oppførsel for høyre berøringsflate",
+        "short": "Høyre berøringsflate"
+      }
+    },
+    "prompt": "Tilpasset du kontrollene ytterligere?"
+  },
+  "customProtonVersion": {
+    "label": "Versjon"
   },
   "customizationsUsed": {
     "additionalNotes": {
       "label": "Ytterligere detaljer",
-      "placeholder": "Forklaring eller lenke til blogginnlegg eller Github-repository"
+      "placeholder": "Forklaring eller lenke til blogginnlegg eller Github-repo"
     },
     "legend": "Tilpasninger",
     "options": {
+      "configChange": {
+        "long": "Endret spillets konfigurasjonsfil(er)",
+        "short": "Endret konfigurasjon"
+      },
       "customPrefix": {
-        "long": "Et skreddersydd Wine-prefiks",
-        "short": "Skreddersydd prefiks"
+        "long": "Et tilpasset Wine-prefiks",
+        "short": "Tilpasset prefiks"
       },
       "customProton": {
-        "long": "En skreddersydd fork av Proton",
-        "short": "Skreddersydd Proton"
+        "long": "Et tilpasset fork av Proton",
+        "short": "Tilpasset Proton"
       },
       "lutris": {
         "long": "Lutris-installasjonsskript",
         "short": "Lutris"
       },
-      "native2Proton": {
-        "long": "Native2Proton",
-        "short": "Native2Proton"
+      "mediaFoundation": {
+        "long": "Media Foundation DLL (mf-install)",
+        "short": "Media Foundation DLL"
       },
       "notListed": {
         "long": "Ikke oppført",
@@ -147,22 +173,13 @@
         "short": "winetricks"
       }
     },
-    "prompt": "Hvilke tilpasninger har du gjort?"
-  },
-  "customProtonVersion": {
-    "additionalNotes": {
-      "label": "Versjon",
-      "placeholder": "Skriv inn versjonsnummeret eller navnet på den tilpassede Proton-forken"
-    },
-    "legend": "Tilpasset Proton",
-    "prompt": "Hvilken tilpasset Proton-fork brukte du?"
+    "prompt": "Bruker du noen ekstra tilpasninger?"
   },
   "device": {
     "legend": "Enhet",
-    "prompt": "Hvilken enhet brukte du til å spille?"
+    "prompt": "Hvilken enhet kjørte du spillet på?"
   },
   "didChangeControlLayout": {
-    "legend": "Endret kontrolloppsett",
     "prompt": "Endret du kontrolloppsettet?"
   },
   "duration": {
@@ -191,41 +208,42 @@
     },
     "prompt": "Hvor lenge har du spilt?"
   },
-  "extra": {
-    "additionalNotes": {
-      "label": "Ytterligere bemerkninger",
-      "placeholder": "Vennligst legg dem til her."
-    },
-    "prompt": "Er det noe du ønsker å legge til som ikke ble dekket av de tidligere spørsmålene?"
-  },
   "frameRate": {
     "legend": "Bildefrekvens",
     "options": {
-      "above60": {
-        "long": "Over 60 FPS",
-        "short": "> 60 FPS"
+      "10to20": {
+        "long": "Mellom 10 og 20 FPS",
+        "short": "10 til 20"
       },
-      "playable": {
-        "long": "Spillbar (30-60 FPS)",
-        "short": "30-60 FPS"
+      "20to30": {
+        "long": "Mellom 20 og 30 FPS",
+        "short": "20 til 30"
       },
-      "unstable": {
-        "long": "Ustabil (< 30 FPS)",
-        "short": "< 30 FPS"
+      "30to60": {
+        "long": "Mellom 30 og 60 FPS",
+        "short": "30 til 60"
+      },
+      "gt60": {
+        "long": "60 FPS eller høyere",
+        "short": "60 eller høyere"
+      },
+      "lt10": {
+        "long": "Under 10 FPS",
+        "short": "Under 10"
       }
     },
-    "prompt": "Hva var bildefrekvensen?"
+    "prompt": "Hvilken bildefrekvens (FPS) hadde spillet mesteparten av tiden?"
   },
   "graphicalFaults": {
     "legend": "Grafikk",
     "options": {
       "heavyArtifacts": {
-        "long": "Grove eller hyppige artefakter",
-        "short": "Grove artefakter"
+        "long": "Grove eller hyppige grafiske feil",
+        "short": "Grove grafikkfeil"
       },
       "minorArtifacts": {
-        "long": "Mindre eller sjeldne artefakter",
-        "short": "Mindre artefakter"
+        "long": "Mindre eller sjeldne grafiske feil",
+        "short": "Mindre grafikkfeil"
       },
       "missingTextures": {
         "long": "Manglende teksturer",
@@ -236,7 +254,7 @@
         "short": "Annet"
       }
     },
-    "prompt": "La du merke til noen grafiske forringelser?"
+    "prompt": "La du merke til noen grafiske problemer?"
   },
   "graphicsApiSelection": {
     "legend": "Grafikk-API",
@@ -250,7 +268,7 @@
         "short": "OpenGL"
       },
       "unsure": {
-        "long": "Standard for spillet",
+        "long": "Hva enn spillet bruker til vanlig",
         "short": "Standard"
       },
       "vk": {
@@ -280,7 +298,7 @@
         "short": "Ingen respons"
       },
       "drifting": {
-        "long": "Aksene drev",
+        "long": "Aksene drev av seg selv",
         "short": "Drifting"
       },
       "inaccuracy": {
@@ -288,7 +306,7 @@
         "short": "Unøyaktig inndata"
       },
       "lag": {
-        "long": "Inndata var laggete",
+        "long": "Inndata var hakkete",
         "short": "Lagging"
       },
       "other": {
@@ -303,7 +321,7 @@
     "prompt": "Kunne du installere spillet?"
   },
   "isImpactedByAntiCheat": {
-    "legend": "Anti-juks-system",
+    "legend": "Anti-Cheat",
     "options": {
       "battleEye": {
         "long": "BattlEye",
@@ -318,10 +336,7 @@
         "short": "Annet"
       }
     },
-    "prompt": "Påvirkes spillet av anti-juks-programvare?"
-  },
-  "isMultiplayerImportant": {
-    "prompt": "Er multiplayer en sentral del av dette spillets verdi?"
+    "prompt": "Påvirkes spillet av anti-cheat-programvare?"
   },
   "launchFlagsUsed": {
     "additionalNotes": {
@@ -331,50 +346,92 @@
     "legend": "Startflagg",
     "options": {
       "disableD3d10": {
-        "long": "Deaktiver D3D10",
+        "long": "Deaktiver D3D10 (PROTON_NO_D3D10)",
         "short": "Deaktiver D3D10"
       },
       "disableD3d11": {
-        "long": "Deaktiver D3D11",
+        "long": "Deaktiver D3D11 (PROTON_NO_D3D11)",
         "short": "Deaktiver D3D11"
       },
       "disableEsync": {
-        "long": "Deaktiver Esync",
+        "long": "Deaktiver Esync (PROTON_NO_ESYNC)",
         "short": "Deaktiver Esync"
       },
       "disableFsync": {
-        "long": "Deaktiver Fsync",
+        "long": "Deaktiver Fsync (PROTON_NO_FSYNC)",
         "short": "Deaktiver Fsync"
       },
+      "enableNvapi": {
+        "long": "Aktiver NVAPI (PROTON_ENABLE_NVAPI)",
+        "short": "Aktiver NVAPI"
+      },
+      "fullscreenIntegerScaling": {
+        "long": "Fullskjerm heltallskalering (WINE_FULLSCREEN_INTEGER_SCALING)",
+        "short": "Fullskjerm heltallskalering"
+      },
+      "gameDrive": {
+        "long": "Sett spillstasjon (PROTON_SET_GAME_DRIVE)",
+        "short": "Sett spillstasjon"
+      },
+      "heapDelayFree": {
+        "long": "Forsinke frigjøring av noe minne (PROTON_HEAP_DELAY_FREE)",
+        "short": "Heap Delay Free"
+      },
+      "hideNvidia": {
+        "long": "Skjul Nvidia GPU (PROTON_HIDE_NVIDIA_GPU)",
+        "short": "Skjul Nvidia GPU"
+      },
       "largeAddressAware": {
-        "long": "Large Address Aware",
+        "long": "Large Address Aware (PROTON_FORCE_LARGE_ADDRESS_AWARE)",
         "short": "Large Address Aware"
       },
-      "noGpu": {
-        "long": "Ingen GPU",
-        "short": "Ingen GPU"
+      "noWriteWatch": {
+        "long": "Deaktiver støtte for overvåkning av minneskriving (PROTON_NO_WRITE_WATCH)",
+        "short": "Ingen \"Write Watch\""
       },
-      "protonLogging": {
-        "long": "Proton-loggføring",
-        "short": "Loggføring"
+      "noXim": {
+        "long": "Deaktiver XIM (PROTON_NO_XIM)",
+        "short": "Ingen XIM"
       },
-      "safeMode": {
-        "long": "Sikkerhetsmodus",
-        "short": "Sikkerhetsmodus"
+      "oldGlString": {
+        "long": "Gammel GL String (PROTON_OLD_GL_STRING)",
+        "short": "Gammel GL String"
+      },
+      "useSeccomp": {
+        "long": "Aktiver Seccomp (PROTON_USE_SECCOMP)",
+        "short": "Aktiver Seccomp"
+      },
+      "useWineD3d11": {
+        "long": "Bruk Wine D3D (PROTON_USE_WINED3D)",
+        "short": "Bruk Wine D3D"
+      },
+      "useWineD9vk": {
+        "long": "Bruk D9VK (PROTON_USE_D9VK)",
+        "short": "Bruk D9VK"
       }
     },
     "prompt": "Hvilke startflagg brukte du?"
   },
+  "launchOptions": {
+    "helperText": "f.eks. PROTON_NO_D3D11=1 %command%",
+    "label": "Startalternativer",
+    "legend": "Startalternativer",
+    "placeholder": "(ingen)",
+    "prompt": "Setter du noen startalternativer?"
+  },
   "launcher": {
+    "additionalNotes": {
+      "label": "Launcher"
+    },
     "legend": "Launcher",
     "options": {
-      "lutris": {
-        "long": "Lutris",
-        "short": "Lutris"
+      "bottles": {
+        "long": "Bottles",
+        "short": "Bottles"
       },
-      "other": {
-        "long": "Annet",
-        "short": "Annet"
+      "notListed": {
+        "long": "Ikke oppført",
+        "short": "Ikke oppført"
       },
       "steam": {
         "long": "Steam",
@@ -383,166 +440,261 @@
     },
     "prompt": "Hvilken launcher brukte du?"
   },
-  "launches": {
-    "legend": "Oppstart",
-    "options": {
-      "crashOnLaunch": {
-        "long": "Krasjet ved oppstart",
-        "short": "Krasjet"
-      },
-      "failedToLaunch": {
-        "long": "Klarte ikke å starte",
-        "short": "Mislyktes"
-      },
-      "other": {
-        "long": "Annet",
-        "short": "Annet"
-      }
-    },
-    "prompt": "Kunne du starte spillet?"
-  },
   "localMultiplayerAppraisal": {
-    "legend": "Lokal multiplayer-vurdering",
-    "options": {
-      "bad": {
-        "long": "Dårlig",
-        "short": "Dårlig"
-      },
-      "good": {
-        "long": "Bra",
-        "short": "Bra"
-      },
-      "ok": {
-        "long": "Ok",
-        "short": "Ok"
-      }
+    "additionalNotes": {
+      "label": "Ytterligere detaljer"
     },
-    "prompt": "Hvordan fungerte lokal multiplayer?"
+    "prompt": "Hvordan fungerte lokal multiplayer? Vennligst evaluer med tanke på lag, problemer med tilkobling eller inndata, osv."
   },
   "localMultiplayerAttempted": {
-    "legend": "Forsøkte lokal multiplayer",
-    "prompt": "Forsøkte du lokal multiplayer?"
+    "prompt": "Forsøkte du lokal multiplayer (offline / couch play)?"
   },
   "localMultiplayerPlayed": {
-    "legend": "Spilte lokal multiplayer",
-    "prompt": "Spilte du lokal multiplayer?"
+    "prompt": "Fikk du lokal multiplayer til å fungere?"
   },
-  "multiplayer": {
+  "multiplayerAppraisal": {
     "options": {
-      "cooperative": {
-        "long": "Co-op",
-        "short": "Co-op"
+      "acceptable": {
+        "long": "Akseptabelt. Moderate problemer, men kan takles.",
+        "short": "Akseptabelt"
       },
-      "lan": {
-        "long": "LAN",
-        "short": "LAN"
+      "awful": {
+        "long": "Forferdelig. Praktisk talt ikke spillbart",
+        "short": "Forferdelig"
       },
-      "mmo": {
-        "long": "MMO",
-        "short": "MMO"
+      "excellent": {
+        "long": "Utmerket. Opplevde ingen problemer.",
+        "short": "Utmerket"
       },
-      "onlineCompetitive": {
-        "long": "Konkurransedyktig online",
-        "short": "Konkurranse"
+      "good": {
+        "long": "Bra. Hadde sjeldne problemer, men er stort sett spillbart.",
+        "short": "Bra"
       },
-      "splitScreen": {
-        "long": "Splitscreen",
-        "short": "Splitscreen"
+      "weak": {
+        "long": "Svakt. Problemene påvirker opplevelsen betydelig",
+        "short": "Svakt"
+      }
+    }
+  },
+  "onlineMultiplayerAppraisal": {
+    "additionalNotes": {
+      "label": "Ytterligere detaljer"
+    },
+    "prompt": "Hvordan vil du vurdere online multiplayer-funksjonaliteten? Vennligst evaluer med tanke på lag, problemer med tilkobling eller inndata, matchmaking-feil, osv."
+  },
+  "onlineMultiplayerAttempted": {
+    "prompt": "Forsøkte du å spille multiplayer online?"
+  },
+  "onlineMultiplayerPlayed": {
+    "prompt": "Klarte du å koble til og spille online multiplayer?"
+  },
+  "opens": {
+    "legend": "Åpner",
+    "prompt": "Klarte du å starte spillet og se hovedmenyen?"
+  },
+  "performanceFaults": {
+    "legend": "Ytelse",
+    "options": {
+      "significantSlowdown": {
+        "long": "Betydelige ytelsesproblemer",
+        "short": "Betydelige ytelsesproblemer"
+      },
+      "slightSlowdown": {
+        "long": "Små ytelsesproblemer",
+        "short": "Små ytelsesproblemer"
       }
     },
-    "prompt": "Hvilken type multiplayer-modus testet du?"
+    "prompt": "Opplevde du uventet treighet gitt din maskinvare?"
   },
-  "overallRating": {
-    "legend": "Vurdering",
-    "options": {
-      "borked": {
-        "long": "Helt ubrukelig (Borked)",
-        "short": "Ubrukelig"
-      },
-      "bronze": {
-        "long": "Virker med store feil (Bronse)",
-        "short": "Bronse"
-      },
-      "gold": {
-        "long": "Virker med mindre feil (Gull)",
-        "short": "Gull"
-      },
-      "native": {
-        "long": "Native Linux",
-        "short": "Native"
-      },
-      "platinum": {
-        "long": "Virker perfekt uten endringer (Platinum)",
-        "short": "Platinum"
-      },
-      "silver": {
-        "long": "Virker med feil, men spillbart (Sølv)",
-        "short": "Sølv"
-      }
-    },
-    "prompt": "Hvordan vurderer du din opplevelse med spillet?"
+  "prerequisites": {
+    "missingProfileInfo": "Profilinformasjon ufullstendig. Mangler: {{context}}",
+    "noValidDevices": "Ingen av enhetene dine har gyldig systeminformasjon",
+    "notLoggedIn": "Ikke logget inn med {{context}}"
+  },
+  "prerequisitesBlock": {
+    "action": "Gå til profil",
+    "context": "Du må logge inn på Steam og oppgi systeminformasjon før innsending.",
+    "headline": "Ikke klar enda."
+  },
+  "preview": {
+    "intro": "Ting å sjekke:",
+    "notes": [
+      "Er systeminformasjonen din oppdatert? Du må gå til profilen din og oppgi Steam-informasjonen din etter en grafikkdriver-oppdatering.",
+      "Har du valgt riktig spill? Noen spill har samme navn som eldre versjoner, f.eks. GRID",
+      "Har du lagt til beskrivelser på riktig sted? For eksempel, skriv notater om grafikkproblemer i den tilsvarende seksjonen heller enn i sluttnotater."
+    ]
+  },
+  "prompts": {
+    "continuingDraft": "Du fortsetter fra et automatisk lagret utkast.",
+    "discardDraftWarning": "Alle svarene dine vil bli permanent slettet.",
+    "startOver": "Start på nytt"
   },
   "protonVersion": {
-    "legend": "Proton-versjon",
+    "additionalNotes": {
+      "label": "Manuell Proton-versjon",
+      "placeholder": "Må være gyldig Proton-versjonsstreng. Eksempler: {{examples}}"
+    },
     "prompt": "Hvilken Proton-versjon brukte du?"
   },
-  "resolution": {
-    "legend": "Oppløsning",
+  "readability": {
+    "legend": "Vanskelig å lese tekst",
+    "prompt": "Var det tekst i spillet som var vanskelig å lese?"
+  },
+  "saveGameFaults": {
+    "legend": "Lagrede spill",
     "options": {
-      "1080p": {
-        "long": "1080p",
-        "short": "1080p"
+      "errorLoading": {
+        "long": "Kunne ikke laste et lagret spill",
+        "short": "Lasting"
       },
-      "4k": {
-        "long": "4K",
-        "short": "4K"
-      },
-      "720p": {
-        "long": "720p",
-        "short": "720p"
+      "errorSaving": {
+        "long": "Kunne ikke lagre",
+        "short": "Lagring"
       },
       "other": {
         "long": "Annet",
         "short": "Annet"
       }
     },
-    "prompt": "Hvilken oppløsning spilte du på?"
+    "prompt": "Opplevde du noen problemer med lagring i spill?"
   },
-  "specs": {
-    "gpu": {
-      "label": "GPU-modell"
-    },
-    "gpuDriver": {
-      "label": "GPU-driver"
-    },
-    "kernel": {
-      "label": "Kjernenummer"
-    },
-    "os": {
-      "label": "OS"
-    },
-    "otherSpecs": {
-      "label": "Annen maskinvare",
-      "placeholder": "Andre bemerkelsesverdige maskinvarekomponenter"
-    },
-    "prompt": "Hva er maskinvaren og programvaren din?"
+  "secondaryLauncher": {
+    "legend": "Problemer med sekundær launcher",
+    "prompt": "Hadde du problemer med et sekundært oppstartsvindu?"
   },
-  "submit": {
-    "headline": "Du er ferdig!",
-    "submit": "Send inn din rapport"
+  "significantBugs": {
+    "legend": "Betydelige feil",
+    "prompt": "Opplevde du noen andre betydelige feil?"
   },
-  "vr": {
-    "legend": "VR-spilling",
+  "stabilityFaults": {
+    "legend": "Ustabilitet",
     "options": {
-      "performanceIssues": {
-        "long": "Ytelsesproblemer",
-        "short": "Ytelse"
+      "frequentCrashes": {
+        "long": "Hyppige krasj",
+        "short": "Hyppig"
       },
-      "poorTracking": {
-        "long": "Svak tracking",
-        "short": "Svak tracking"
+      "notListed": {
+        "long": "Ikke oppført",
+        "short": "Ikke oppført"
+      },
+      "occasionally": {
+        "long": "Sporadiske krasj",
+        "short": "Sporadisk"
       }
     },
-    "prompt": "Opplevde du noen problemer med VR?"
+    "prompt": "Opplevde du noen stabilitetsproblemer?"
+  },
+  "startsPlay": {
+    "legend": "Starter spilling",
+    "prompt": "Klarte du å begynne å spille?"
+  },
+  "stepHeadlines": {
+    "appSelection": "Spillvalg",
+    "borked": "Ødelagt!",
+    "chromeOsRelated": "ChromeOS-relatert",
+    "customizations": "Tilpasninger",
+    "finalNotes": "Vurdering",
+    "multiplayer": "Multiplayer",
+    "preview": "Forhåndsvisning",
+    "setup": "Oppsett",
+    "startup": "Installasjon og oppstart",
+    "steamDeckRelated": "Steam Deck-relatert",
+    "technical": "Tekniske detaljer",
+    "unownedWarning": "Ikke i bibliotek"
+  },
+  "tinkerOverride": {
+    "additionalNotes": {
+      "label": "Beskrivelse av mekking"
+    },
+    "options": {
+      "no": {
+        "long": "Nei - ingen mekking her",
+        "short": "SteamPlay-rapport"
+      },
+      "yes": {
+        "long": "Ja",
+        "short": "Mekkerapport"
+      }
+    },
+    "prompt": "Ser ut som en rapport uten mekking så langt. Har du gjort noen tilpasninger som ville gjøre dette til en mekkerapport? [Mer info]({{link}})"
+  },
+  "triedOob": {
+    "prompt": "Rapporten din vil bli klassifisert som en mekkerapport. Har du forsøkt å spille med Steam og Proton uten noen mekking?"
+  },
+  "variant": {
+    "additionalNotes": {
+      "label": "Hva heter den?"
+    },
+    "legend": "Variant",
+    "options": {
+      "experimental": {
+        "long": "Tvunget eksperimentell",
+        "short": "Eksperimentell"
+      },
+      "ge": {
+        "long": "Glorious Eggroll (GE)",
+        "short": "GE"
+      },
+      "native": {
+        "long": "Native. Ingen Proton.",
+        "short": "native"
+      },
+      "notListed": {
+        "long": "Ikke oppført",
+        "short": "Ikke oppført"
+      },
+      "official": {
+        "long": "Den Steam anbefaler som standard",
+        "short": "Offisiell"
+      },
+      "older": {
+        "long": "Byttet til en eldre versjon",
+        "short": "Eldre"
+      }
+    },
+    "prompt": "Hvilken variant av Proton bruker du?"
+  },
+  "verdict": {
+    "additionalNotes": {
+      "label": "Sammendrag (maks {{count}} tegn)",
+      "placeholder": "Legg til et kort sammendrag. Dette vil være overskriften på rapporten din."
+    },
+    "prompt": "Ville en typisk spiller nyte å spille dette spillet på Linux slik du har spilt det?"
+  },
+  "verdictOob": {
+    "prompt": "Ved å starte direkte fra Steam, ville en typisk spiller nyte å spille dette spillet på Linux selv uten mekking?"
+  },
+  "welcome": {
+    "headline": "Velkommen",
+    "intro": "Takk for interessen din i å utvide ProtonDBs katalog over kompatibilitetsrapporter om Steam Play og Proton! Vennligst ha følgende i tankene før du bidrar",
+    "notes": [
+      "Rapporter publiseres på ProtonDB for å hjelpe deg, Valve og utviklere med å fikse spill. Vennligst hold rapportene dine nøyaktige, fri for støtende språk, og vennligst ikke send inn rapporter kun for å promotere favorittspillet, distroet eller skjermkortet ditt.",
+      "Å sende inn flere rapporter for samme spill oppmuntres! Ettersom du spiller mer eller oppdaterer Proton vil du oppleve nyttige ting. På denne måten skiller ProtonDB seg fra en wiki, siden hver rapport fungerer som et 'øyeblikksbilde' av hvordan spillet fungerte på den datoen med din konfigurasjon.",
+      "Hvis du sender inn flere rapporter, vil bare den nyeste telle mot ProtonDB-vurderingen og bare hvis systeminformasjonen din møter Protons minimumskrav.",
+      "Bidragene dine vil ligge offentlig på ProtonDB og være tilgjengelige i dataeksporter under Open Database-lisensen. Gå [hit]({{link}}) for mer informasjon."
+    ],
+    "outro": "Med det på plass, la oss komme i gang!"
+  },
+  "windowingFaults": {
+    "legend": "Vindusbehandling",
+    "options": {
+      "activatingFullscreen": {
+        "long": "Fullskjerm kunne ikke initieres",
+        "short": "Aktivering av fullskjerm"
+      },
+      "fullNotFull": {
+        "long": "Fullskjerm var ikke heldekkende",
+        "short": "Størrelse"
+      },
+      "other": {
+        "long": "Annet",
+        "short": "Annet"
+      },
+      "switching": {
+        "long": "Kunne ikke bryte ut av fullskjerm på vanlig måte (som med Alt-Tab)",
+        "short": "Bytte"
+      }
+    },
+    "prompt": "Opplevde du noen problemer med vindusbehandling eller fullskjerm?"
   }
 }

@@ -1,7 +1,4 @@
 {
-  "auth": {
-    "intro": "Ved å logge inn med Steam kan du sende inn rapporter og bruke [utforsk-siden med et biblioteksfilter]({{link}}) for å begrense resultatene til spill du eier."
-  },
   "breakdown": {
     "headline": "Populære spill",
     "popularHeadline": "Vurderinger for de {{count}} mest populære spillene",
@@ -96,7 +93,7 @@
     "lookupMyLibrary": "Last inn et bibliotek",
     "mostPlayedUnverified": "Disse spillene du liker er ennå ikke offisielt verifisert eller spillbare, men ifølge fellesskapets rapporter ser de bra ut for spilling på Linux.",
     "mostPlayedVerified": "Dette er dine favorittspill som er sertifisert verifisert eller spillbare",
-    "owned": "Eiet spill",
+    "owned": "Eid spill",
     "playedFor": "Spilt i {{hours}} time(r)",
     "playerCountUnverified": "Følgende populære spill er ennå ikke offisielt verifisert eller spillbare, men ifølge fellesskapets rapporter ser de bra ut for spilling på Linux.",
     "playerCountVerified": "Disse populære spillene er sertifisert verifisert eller spillbare",
@@ -134,25 +131,25 @@
         "short": "Deck-verifisert"
       },
       "protonDbClickPlay": {
-        "description": "ProtonDBs nye vurdering: Hvordan spiller det uten noen justeringer.",
+        "description": "ProtonDBs nye vurdering: Hvordan spilles det uten noe mekking.",
         "long": "ProtonDB Click Play",
         "short": "Click Play"
       },
       "protonDbMedals": {
-        "description": "ProtonDBs vurdering: Hvordan spiller det. Du må kanskje justere.",
+        "description": "ProtonDBs vurdering: Hvordan spilles det. Du må kanskje mekke litt.",
         "long": "ProtonDB-medaljer",
         "short": "Medaljer"
       },
       "protonDbTinker": {
-        "description": "ProtonDBs nye vurdering: Hvordan spiller det. Du må kanskje justere.",
-        "long": "ProtonDB Tinker",
-        "short": "Tinker"
+        "description": "ProtonDBs nye vurdering: Hvordan spilles det. Du må kanskje mekke litt.",
+        "long": "ProtonDB Mekking",
+        "short": "Mekking"
       }
     },
     "tryYourLibrary": "Prøv biblioteket ditt",
     "unverified": "Uoffisielt lovende her",
     "useLibrary": "Bruk",
-    "userNotFound": "Bruker ikke funnet. Forsikre deg om at 'Min profil' og 'Spillinformasjon' er satt til offentlig i dine [Steam-innstillinger]({{link}}).",
+    "userNotFound": "Bruker ble ikke funnet. Forsikre deg om at 'Min profil' og 'Spillinformasjon' er satt til offentlig i dine [Steam-innstillinger]({{link}}).",
     "userScoreUnverified": "Følgende godt anmeldte spill er ennå ikke offisielt verifisert eller spillbare, men ifølge fellesskapets rapporter ser de bra ut for spilling på Linux.",
     "userScoreVerified": "Dette er godt anmeldte spill som er sertifisert verifisert eller spillbare",
     "using": "Bruker",
@@ -168,7 +165,7 @@
     "intro": "Legg til en enhet for å bidra med rapporter. ProtonDB støtter nå lagring av flere enhetskonfigurasjoner. Enheter er delt inn i én av to typer: PC eller Steam Deck",
     "intro2": "Noen flere detaljer:",
     "invalidInfo": "Enhetsdetaljer er ugyldige. Må fikses for å kunne brukes til å bidra.",
-    "notOnSteamDeck": "Logg inn på ProtonDB med en Steam Deck i skrivebordsmodus for å legge den til i profilen din. Koble fra eventuelle periferiutstyr eller skjermer først.",
+    "notOnSteamDeck": "Logg inn på ProtonDB med en Steam Deck i skrivebordsmodus for å legge den til i profilen din. Koble fra eventuelle tilbehør eller skjermer først.",
     "otherDetail1": "Enheter (samt preferanser) blir nå lagret på tvers av hvor du logger inn.",
     "otherDetail2": "Hvis du oppgir én enkelt enhet, vil den automatisk bli brukt under bidragsflyten.",
     "otherDetail3": "Hvis du oppgir mer enn én, vil du bli bedt om å velge én, etter navn, i 'Oppsett'-trinnet.",
@@ -178,13 +175,13 @@
     "yourDevices": "Dine enheter"
   },
   "dashboard": {
-    "description1": "ProtonDBs nye Click Play-vurdering blir fortsatt finjustert. For mer informasjon, se [nyhetsinnlegget]({{link1}}). Titusenvis av forfattere bidrar med rapportene som driver denne visualiseringen. Du kan også! Rapporter er tilgjengelige via ODBL-lisens [i månedlige eksporter]({{link2}}).",
+    "description1": "ProtonDBs nye Click Play-vurdering blir fortsatt finjustert. For mer informasjon, se [nyhetsinnlegget]({{link1}}). Titusenvis av forfattere bidrar med rapportene som driver denne visualiseringen. Du kan også hjelpe! Rapporter er tilgjengelige via ODBL-lisens [i månedlige eksporter]({{link2}}).",
     "description2": "Denne siden ble opprettet av Buck DeFore. Det er et uavhengig fellesskapsprosjekt uten tilknytning til Valve eller Steam. Hvis du setter pris på dette dashbordet, vurder å [støtte meg på Patreon]({{link}}).",
     "headline": "Hvor mange spill fungerer på Linux? På Steam Deck?"
   },
   "explore": {
     "headlines": {
-      "antiCheat": "Bruker anti-juks",
+      "antiCheat": "Bruker Anti-Cheat",
       "dateAdded": "Nylig lagt til",
       "fixWanted": "Ønsker en fiks",
       "heavilyReported": "Mange nylige rapporter",
@@ -192,10 +189,10 @@
       "hoursPlayed": "Timer spilt",
       "inLibrary": "I biblioteket",
       "inWishlist": "På ønskelisten",
-      "mostBorked": "Mest ødelagte rapporter",
+      "mostBorked": "Flest ødelagt-rapporter",
       "mostPopular": "Mest populære",
       "percentPositive": "Godt anmeldt på butikken",
-      "playerCount": "Mest aktive spillere",
+      "playerCount": "Flest aktive spillere",
       "popular": "Flest Steam-følgere",
       "rank": "Mest populære",
       "recentlyImproved": "Nylig forbedret",
@@ -206,7 +203,7 @@
     },
     "layout": "Oppsett",
     "loadError": "Feil ved lasting av spill!",
-    "notLoggedIn": "Kan ikke laste et bibliotek uten Steam-ID. Besøk din [profil]({{link}}) for å legge til en.",
+    "notLoggedIn": "Kan ikke laste et bibliotek uten Steam-ID. Besøk din [profil]({{link}}) for å legge det til.",
     "sorts": {
       "dateAdded": "Nylig lagt til",
       "fixWanted": "Ønsker en fiks",
@@ -225,10 +222,9 @@
     },
     "tagData": "Merkedata",
     "toggles": {
-      "antiCheat": "Anti-juks",
+      "antiCheat": "Anti-Cheat",
       "deckVerified": "Deck-verifisert",
       "excludeNative": "Ekskluder native",
-      "includeNative": "Inkluder native",
       "lackReports": "Mangler rapporter",
       "restrictToLibrary": "Bibliotek",
       "untested": "Uten rapporter",
@@ -289,7 +285,7 @@
     ],
     "headline": "Velkommen til ditt hjem for fellesskapsbaserte Linux- og Steam Deck-spillkompatibilitetsrapporter!",
     "howDoIHelp": {
-      "answer": "Gi Linux en sjanse! Hvis du er ny, ikke bekymre deg. Her er en liste med guider som kan hjelpe deg i gang, og hvis du vil hjelpe Valve og Proton med å forbedre seg, bidra med dine rapporter her på ProtonDB!",
+      "answer": "Gi Linux en sjanse! Ikke la det å være ny skremme deg. Her er en liste med guider som kan hjelpe deg i gang, og hvis du vil hjelpe Valve og Proton med å forbedre seg, bidra med dine rapporter her på ProtonDB!",
       "question": "Kult! Hvordan kan jeg hjelpe til?"
     },
     "letsGetStarted": "Kom i gang!",
@@ -305,7 +301,7 @@
       "gamesReported": "spill rapportert",
       "gamesWithReports": "spill med rapporter",
       "gamesWork": "spill fungerer",
-      "gamesWorkExplanation": "Har minst én tommelen opp eller Platina (legacy) rapport",
+      "gamesWorkExplanation": "Har minst én tommel-opp eller Platina (legacy) rapport",
       "protonDbGamesHeader": "Spill på ProtonDB",
       "reportsWritten": "rapporter skrevet"
     },
@@ -314,7 +310,7 @@
       "question": "Innvirkning"
     },
     "whatIsProton": {
-      "answer": "Proton er et nytt verktøy utgitt av Valve Software som er integrert med Steam Play for å gjøre det enkelt å spille Windows-spill på Linux med bare et trykk på Spille-knappen i Steam. Under panseret består Proton av mange populære verktøy som Wine og DXVK (med flere) som en gamer ellers måtte installere og vedlikeholde selv. Dette reduserer sterkt byrden for brukere som ønsker å bytte til Linux uten å måtte forstå de underliggende systemene eller miste tilgangen til en stor del av spillbiblioteket sitt. Proton er fortsatt veldig nytt, så støtten er inkonsekvent, men forbedres jevnlig.",
+      "answer": "Proton er et verktøy utgitt av Valve Software som er integrert med Steam Play for å gjøre det enkelt å spille Windows-spill på Linux med bare et trykk på Spille-knappen i Steam. Under panseret består Proton av mange populære verktøy som Wine og DXVK (med flere) som en gamer ellers måtte ha installert og vedlikeholdt selv. Dette reduserer sterkt byrden for brukere som ønsker å bytte til Linux uten å måtte forstå de underliggende systemene eller miste tilgangen til en stor del av spillbiblioteket sitt. Proton er fortsatt nokså nytt, så støtten er varierende, men forbedres jevnlig.",
       "question": "Hva er Proton?"
     },
     "whatIsProtonDb": {
@@ -322,8 +318,8 @@
       "question": "Hva er ProtonDB?"
     },
     "whyBigDeal": {
-      "answer": "Linux-skrivebordsopplevelsen har forbedret seg enormt de siste årene. Mye av det du kan gjøre på Windows og/eller macOS er mulig på Linux uten å måtte tukle for mye, og tukling kan være morsomt. Mer og mer av det vi gjør i dag gjøres også online, og nettlesere oppfører seg nesten likt på Linux som de gjør i andre operativsystemer. Proton og Steam Play adresserer en betydelig hindring for å bytte til Linux: gaming, et område hvor Linux inntil nylig hadde begrenset kompatibilitet.",
-      "question": "Hvorfor er dette en stor sak?"
+      "answer": "Linux-skrivebordsopplevelsen har forbedret seg enormt de siste årene. Mye av det du kan gjøre på Windows og/eller macOS er mulig på Linux uten å måtte mekke for mye, og eventuell mekking kan også være morsomt. Mer og mer av det vi gjør i dag gjøres også online, og nettlesere oppfører seg nesten likt på Linux som de gjør i andre operativsystemer. Proton og Steam Play tar hånd om en betydelig hindring for å bytte til Linux: gaming, et område hvor Linux inntil nylig har hatt begrenset kompatibilitet.",
+      "question": "Hvorfor er dette så viktig?"
     },
     "youtubeId": "Co6FePZoNgE"
   },
@@ -336,9 +332,9 @@
   },
   "ratingDefinitions": {
     "categories": {
-      "clickPlay": "Click Play: Uten noen justeringer",
+      "clickPlay": "Click Play: Uten noe mekking",
       "deck": "Hvordan det spiller på Steam Deck",
-      "tinker": "Tinker: Noe montering kreves"
+      "tinker": "Mekking: Noen justeringer kreves"
     },
     "explanations": {
       "borked": "Starter enten ikke eller er av en annen grunn uspillbart",
@@ -352,7 +348,7 @@
     "headline": "Vurderingsdefinisjoner",
     "ratings": {
       "?": "Venter: Trenger mer data",
-      "A": "A-nivå: Svært fint",
+      "A": "A-nivå: Svært bra",
       "B": "B-nivå: Veldig bra, men rom for forbedring",
       "C": "C-nivå: Trenger litt arbeid",
       "D": "D-nivå: Hemmet av problemer",
@@ -362,7 +358,7 @@
     "reports": "Klikk for å se rapporter"
   },
   "specs": {
-    "board": "Kort",
+    "board": "Brett",
     "channel": "Kanal",
     "chromeOs": "OS",
     "chromeVersion": "Chrome",
@@ -389,19 +385,18 @@
     "whenMeetingMinimumRequirements": "Når minimumskravene møtes"
   },
   "steamAuthor": {
-    "hoursInSteam": "{{count}} timer på Steam",
     "hoursOnLinux": "{{time}} på Linux",
     "hoursOverall": "{{time}} totalt",
     "timeWithProton": "{{time}} med Proton"
   },
   "suggestions": {
     "headline": "Klar for mer?",
-    "intro": "De følgende spillene er valgt basert på timene du har spilt, popularitet, og SteamDB-vurderinger. De mangler alle rapporter, og noen trenger kanskje bare én til for å få en {{siteName}}-vurdering! Du kan laste inn andre forslag eller gå til [mangler rapporter]({{link}}) filteret på Utforsk-siden for enda flere."
+    "intro": "De følgende spillene er valgt basert på timene du har spilt, popularitet, og SteamDB-vurderinger. De mangler alle rapporter, og noen trenger kanskje bare én til for å få en {{siteName}}-vurdering! Du kan laste inn andre forslag eller gå til [mangler rapporter]({{link}}) filteret på Utforsk-siden for å se enda flere."
   },
   "systemInfo": {
     "headline": "Systeminformasjon",
-    "howTo": "PC: Innsamling av Steam-informasjon er enkelt hvis du har tilgang til Steams innstillinger på maskinen hvor du spiller spillene dine. [Gå hit for å lære hvordan]({{link}}). Noen brukere har rapportert at de må trykke Ctrl-A for å velge alt før de høyreklikker. Du kan utelate alt som starter med 'LD Scout Report' eller hvis det er oppgitt vil det automatisk fjernes ved lagring.",
-    "howToSteamDeck": "Steam Deck: Legge til denne enheten kan for øyeblikket bare gjøres fra skrivebordsmodus på en Steam Deck. Siden enheter nå vedvarer på tvers av innloggingsøkter, trenger du bare å gjøre dette én gang og kan forfatte rapporter fra en annen maskin etterpå.",
+    "howTo": "PC: Innsamling av Steam-informasjon er enkelt hvis du har tilgang til Steams innstillinger på maskinen hvor du spiller spillene dine. [Gå hit for å lære hvordan]({{link}}). Noen brukere har rapportert at de må trykke Ctrl-A for å velge alt før de høyreklikker. Du kan utelate alt som starter med 'LD Scout Report', som uansett fjernes automatisk dersom det blir oppgitt.",
+    "howToSteamDeck": "Steam Deck: For øyeblikket kan man kun legge til denne enheten via skrivebordsmodus på Steam Deck. Siden enheter nå vedvarer på tvers av innloggingsøkter, trenger du bare å gjøre dette én gang og kan deretter skrive rapporter fra en annen maskin dersom du vil det.",
     "incorrectDeviceType": "Feil enhetstype",
     "incorrectDeviceTypeExplanation": "Systeminformasjonen du har oppgitt er inkompatibel med denne typen enhet.",
     "intro": "Rapporter har mer nytte og gir mer troverdighet ved å vise maskinvaren og programvaren spillet ble testet på. For å holde dette så nøyaktig og konsekvent som mulig, utnytter vi systeminformasjonen som rapporteres av Steam selv.",
@@ -410,6 +405,6 @@
     "pasteInstructions": "Lim inn Steam-systeminformasjon her",
     "pasteInstructionsChromeOs": "Lim inn ChromeOS systeminformasjon her.\n\nI Innstillinger-appen: Om ChromeOS -> Flere detaljer -> Byggdetaljer (trykk på kopiikonet) -> Lim inn her",
     "unsupportedHeadline": "Ikke-støttede drivere oppdaget",
-    "unsupportedWarning": "Grafikkdriveren i systemet ditt møter ikke [Protons nåværende minimumskrav]({{link}})! Du kan oppleve krasj, dårlig ytelse, og/eller grafiske nedgraderinger. Du kan fortsatt sende inn rapporter, og det er fortsatt verdi i bidragene dine, men rapportene dine vil vise grafikkdriverne i rødt og vil ikke telle med i den gjennomsnittlige vurderingen. Oppdater driverne dine!"
+    "unsupportedWarning": "Grafikkdriveren i systemet ditt møter ikke [Protons nåværende minimumskrav]({{link}})! Du kan oppleve krasj, dårlig ytelse, og/eller grafiske nedgraderinger. Du kan fortsatt sende inn rapporter, og det er fortsatt verdi i bidragene dine, men rapportene dine vil vise grafikkdriverne i rødt og vil ikke telle med i den gjennomsnittlige vurderingen. Vennligst oppdater driverne dine!"
   }
 }
