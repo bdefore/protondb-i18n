@@ -19,37 +19,222 @@
     "unrated": "Uten vurdering",
     "unreported": "Uten rapporter"
   },
+  "compatibilitySection": {
+    "aggregateHeadline": "Totalt sett",
+    "chartTypeHeadline": "Kategori",
+    "chartTypes": {
+      "fullSteamCatalog": {
+        "description": "Alle spill på Steam",
+        "long": "Steam-katalogen",
+        "short": "Steam-katalogen"
+      },
+      "indie": {
+        "description": "Spill merket med 'Indie'",
+        "long": "Indie",
+        "short": "Indie"
+      },
+      "library": {
+        "description": "{{username}}s spill",
+        "long": "Personlig bibliotek",
+        "short": "Personlig bibliotek"
+      },
+      "localMultiplayer": {
+        "description": "Spill merket med 'Lokal multiplayer'",
+        "long": "Lokal multiplayer",
+        "short": "Lokal multiplayer"
+      },
+      "minProminence": {
+        "description": "Spill som møter en minimumsterskel for Steam-følgere",
+        "long": "Populære spill",
+        "short": "Populære spill"
+      },
+      "singlePlayer": {
+        "description": "Spill merket med 'Enkeltspiller'",
+        "long": "Enkeltspiller",
+        "short": "Enkeltspiller"
+      },
+      "topHundred": {
+        "description": "Målt etter høyeste antall samtidige spillere",
+        "long": "Topp 100",
+        "short": "Topp 100"
+      },
+      "topTen": {
+        "description": "Målt etter høyeste antall samtidige spillere",
+        "long": "Topp 10",
+        "short": "Topp 10"
+      },
+      "topThousand": {
+        "description": "Målt etter høyeste antall samtidige spillere",
+        "long": "Topp 1000",
+        "short": "Topp 1000"
+      },
+      "vr": {
+        "description": "Spill merket med 'VR'",
+        "long": "VR",
+        "short": "VR"
+      }
+    },
+    "chromebookReady": "Chromebook-klar",
+    "decline": "Gå tilbake",
+    "gameSorts": {
+      "hoursPlayed": {
+        "long": "Sorter etter: Timer spilt",
+        "short": "Timer spilt"
+      },
+      "playerCount": {
+        "long": "Sorter etter: Antall spillere",
+        "short": "Antall spillere"
+      },
+      "rating": {
+        "long": "Sorter etter: Vurdering",
+        "short": "Vurdering"
+      }
+    },
+    "gamesLimit": "Spilldiagrammet er begrenset til de {{cap}} mest populære spillene",
+    "gamesNotFound": "Ingen spill funnet. Forsikre deg om at 'Spillinformasjon' er satt til offentlig i dine [Steam-innstillinger]({{link}}).",
+    "greetLoggedIn": "Vil du se hvor mange spill jeg kan spille?",
+    "lookupMyLibrary": "Last inn et bibliotek",
+    "mostPlayedUnverified": "Disse spillene du liker er ennå ikke offisielt verifisert eller spillbare, men ifølge fellesskapets rapporter ser de bra ut for spilling på Linux.",
+    "mostPlayedVerified": "Dette er dine favorittspill som er sertifisert verifisert eller spillbare",
+    "owned": "Eiet spill",
+    "playedFor": "Spilt i {{hours}} time(r)",
+    "playerCountUnverified": "Følgende populære spill er ennå ikke offisielt verifisert eller spillbare, men ifølge fellesskapets rapporter ser de bra ut for spilling på Linux.",
+    "playerCountVerified": "Disse populære spillene er sertifisert verifisert eller spillbare",
+    "ratingDefinitions": {
+      "?": "Venter: Trenger mer data",
+      "T1": "Høyeste nivå. Entydig positive rapporter.",
+      "T1andT2": "T2 eller bedre",
+      "T1andT2andT3": "T3 eller bedre",
+      "T2": "Nest høyeste nivå. Noen rapporter om problemer, men stort sett bra.",
+      "T3": "Mellomnivå. En blanding av positive og negative.",
+      "T4": "Nest laveste nivå. Negative rapporter generelt.",
+      "T5": "Laveste nivå. Ødelagt!",
+      "borked": "Starter enten ikke eller er kritisk uspillbart",
+      "bronze": "Kjører, men krasjer ofte eller har problemer som hindrer komfortabel spilling",
+      "gold": "Kjører perfekt etter justeringer",
+      "native": "Kjører native på Linux",
+      "pending": "Venter på flere rapporter før vurdering gis",
+      "platinum": "Kjører perfekt uten justeringer",
+      "platinumandgold": "Gull eller bedre",
+      "platinumandgoldandsilver": "Sølv eller bedre",
+      "playable": "Spillbart",
+      "silver": "Kjører med mindre problemer, men er generelt spillbart",
+      "unknown": "Ukjent",
+      "unsupported": "Ikke støttet",
+      "verified": "Verifisert",
+      "verifiedandplayable": "Verifisert eller spillbart"
+    },
+    "steamDeckVerified": "Steam Deck-verifisert",
+    "submit": "Selvfølgelig!",
+    "tierSystemHeadline": "Vurderingssystem",
+    "tierSystems": {
+      "deckVerified": {
+        "description": "Steams offisielle sertifisering for spilling på Steam Deck",
+        "long": "Steam Deck-verifisert",
+        "short": "Deck-verifisert"
+      },
+      "protonDbClickPlay": {
+        "description": "ProtonDBs nye vurdering: Hvordan spiller det uten noen justeringer.",
+        "long": "ProtonDB Click Play",
+        "short": "Click Play"
+      },
+      "protonDbMedals": {
+        "description": "ProtonDBs vurdering: Hvordan spiller det. Du må kanskje justere.",
+        "long": "ProtonDB-medaljer",
+        "short": "Medaljer"
+      },
+      "protonDbTinker": {
+        "description": "ProtonDBs nye vurdering: Hvordan spiller det. Du må kanskje justere.",
+        "long": "ProtonDB Tinker",
+        "short": "Tinker"
+      }
+    },
+    "tryYourLibrary": "Prøv biblioteket ditt",
+    "unverified": "Uoffisielt lovende her",
+    "useLibrary": "Bruk",
+    "userNotFound": "Bruker ikke funnet. Forsikre deg om at 'Min profil' og 'Spillinformasjon' er satt til offentlig i dine [Steam-innstillinger]({{link}}).",
+    "userScoreUnverified": "Følgende godt anmeldte spill er ennå ikke offisielt verifisert eller spillbare, men ifølge fellesskapets rapporter ser de bra ut for spilling på Linux.",
+    "userScoreVerified": "Dette er godt anmeldte spill som er sertifisert verifisert eller spillbare",
+    "using": "Bruker",
+    "viewSteamCatalog": "Vis Steam-katalogen",
+    "yourLibrary": "Ditt bibliotek",
+    "yourSteamId": "Din Steam-ID"
+  },
+  "contributorSettings": {
+    "addAChromebook": "Legg til en Chromebook",
+    "addAPCDevice": "Legg til en PC",
+    "addASteamDeckDevice": "Legg til en Steam Deck",
+    "headline": "Bidragsyterinnstillinger",
+    "intro": "Legg til en enhet for å bidra med rapporter. ProtonDB støtter nå lagring av flere enhetskonfigurasjoner. Enheter er delt inn i én av to typer: PC eller Steam Deck",
+    "intro2": "Noen flere detaljer:",
+    "invalidInfo": "Enhetsdetaljer er ugyldige. Må fikses for å kunne brukes til å bidra.",
+    "notOnSteamDeck": "Logg inn på ProtonDB med en Steam Deck i skrivebordsmodus for å legge den til i profilen din. Koble fra eventuelle periferiutstyr eller skjermer først.",
+    "otherDetail1": "Enheter (samt preferanser) blir nå lagret på tvers av hvor du logger inn.",
+    "otherDetail2": "Hvis du oppgir én enkelt enhet, vil den automatisk bli brukt under bidragsflyten.",
+    "otherDetail3": "Hvis du oppgir mer enn én, vil du bli bedt om å velge én, etter navn, i 'Oppsett'-trinnet.",
+    "otherDetail4": "Endringer i enhetene dine vil ikke være klare før du trykker Lagre.",
+    "otherDetail5": "Kun tolkingen av systeminformasjonen din blir offentliggjort, aldri rådata fra Steam.",
+    "validInfo": "Enhetsdetaljer er gyldige og kan brukes til å bidra.",
+    "yourDevices": "Dine enheter"
+  },
+  "dashboard": {
+    "description1": "ProtonDBs nye Click Play-vurdering blir fortsatt finjustert. For mer informasjon, se [nyhetsinnlegget]({{link1}}). Titusenvis av forfattere bidrar med rapportene som driver denne visualiseringen. Du kan også! Rapporter er tilgjengelige via ODBL-lisens [i månedlige eksporter]({{link2}}).",
+    "description2": "Denne siden ble opprettet av Buck DeFore. Det er et uavhengig fellesskapsprosjekt uten tilknytning til Valve eller Steam. Hvis du setter pris på dette dashbordet, vurder å [støtte meg på Patreon]({{link}}).",
+    "headline": "Hvor mange spill fungerer på Linux? På Steam Deck?"
+  },
   "explore": {
     "headlines": {
+      "antiCheat": "Bruker anti-juks",
+      "dateAdded": "Nylig lagt til",
       "fixWanted": "Ønsker en fiks",
+      "heavilyReported": "Mange nylige rapporter",
       "highestRated": "Høyest vurdert på SteamDB",
       "hoursPlayed": "Timer spilt",
-      "inLibrary": "I ditt bibliotek",
+      "inLibrary": "I biblioteket",
+      "inWishlist": "På ønskelisten",
       "mostBorked": "Mest ødelagte rapporter",
       "mostPopular": "Mest populære",
+      "percentPositive": "Godt anmeldt på butikken",
+      "playerCount": "Mest aktive spillere",
+      "popular": "Flest Steam-følgere",
+      "rank": "Mest populære",
       "recentlyImproved": "Nylig forbedret",
+      "recentlyReleased": "Nylig utgitt",
+      "releaseDate": "Etter utgivelsesdato",
+      "userScore": "Godt anmeldt",
       "wellRatedHere": "Har god vurdering her"
     },
     "layout": "Oppsett",
     "loadError": "Feil ved lasting av spill!",
     "notLoggedIn": "Kan ikke laste et bibliotek uten Steam-ID. Besøk din [profil]({{link}}) for å legge til en.",
-    "poweredBy": "Drevet av",
     "sorts": {
+      "dateAdded": "Nylig lagt til",
       "fixWanted": "Ønsker en fiks",
+      "heavilyReported": "Antall nylige rapporter",
       "hoursPlayed": "Timer spilt",
       "mostBorked": "Mest ødelagt",
+      "percentPositive": "Prosent positive",
       "playerCount": "Antall spillere",
+      "popular": "Populære",
+      "rank": "Mest populære",
       "recentlyImproved": "Nylig forbedret",
+      "recentlyReleased": "Nylig utgitt",
+      "releaseDate": "Utgivelsesdato",
       "userScore": "Brukervurdering",
       "wilsonRating": "ProtonDB-vurdering"
     },
+    "tagData": "Merkedata",
     "toggles": {
+      "antiCheat": "Anti-juks",
+      "deckVerified": "Deck-verifisert",
+      "excludeNative": "Ekskluder native",
       "includeNative": "Inkluder native",
       "lackReports": "Mangler rapporter",
       "restrictToLibrary": "Bibliotek",
       "untested": "Uten rapporter",
       "userTags": "Brukertagger",
-      "whitelisted": "På hvitelisten"
+      "whitelisted": "Deck-verifisert",
+      "wishlisted": "På ønskeliste"
     }
   },
   "filters": {
@@ -63,6 +248,12 @@
       "gpu": {
         "label": "GPU"
       },
+      "persist": {
+        "prompt": "Vedvar på tvers av nettstedet?"
+      },
+      "query": {
+        "label": "Spørring"
+      },
       "type": {
         "label": "Type"
       }
@@ -72,15 +263,31 @@
     "githubIssueSearch": "GitHub Issue-søk",
     "infoNotFound": "Kunne ikke hente informasjon for App ID: {{entry}}. Dette kan skje hvis spillet ble fjernet fra butikken.",
     "minimumRequirements": "Minimumskrav",
-    "nativelySupports": "Støtter native"
+    "nativelySupports": "Støtter native",
+    "notices": {
+      "antiCheat": {
+        "battlEye": {
+          "explanation": "Dette spillet bruker [BattlEye](https://www.battleye.com). BattlEye [kan brukes på Linux](https://twitter.com/TheBattlEye/status/1441477816311291906), men flerspillerfunksjonalitet varierer avhengig av hvordan utvikleren har implementert det."
+        },
+        "eac": {
+          "explanation": "Dette spillet bruker [Easy Anti-Cheat](https://www.easy.ac). EAC har [begrenset støtte for Linux](https://dev.epicgames.com/en-US/news/epic-online-services-launches-anti-cheat-support-for-linux-mac-and-steam-deck), men flerspillerfunksjonalitet varierer avhengig av hvordan utvikleren har implementert det."
+        },
+        "headline": "Flerspillerstøtte"
+      },
+      "nativeDiscrepancy": {
+        "explanation": "Selv om dette spillet har en Linux-native versjon tilgjengelig, lister ikke Steam det som å ha Linux-støtte. Dette kan skje hvis et spill har en uoffisiell, uferdig eller ikke-støttet versjon. Du må kanskje [tvinge Steam til å aktivere Proton for spillet](/help/troubleshooting-faq#how-do-i-run-a-game-with-proton-even-though-it-has-a-native-linux-version) for at det skal kjøre skikkelig.",
+        "headline": "Native-støtte"
+      }
+    }
   },
   "home": {
+    "compatibilityScoresDescription": "Hvordan fungerer dette? Les om det i [nyhetsinnlegget]({{link1}}). Du kan også bruke en større versjon på [den nye dashboard-siden]({{link2}}).",
     "getStartedLinks": [
       "[Steams offisielle Steam Play-side](https://store.steampowered.com/steamplay)",
       "[En guide for å migrere til Linux](https://www.reddit.com/r/linux_gaming/comments/9oqq3w/guide_migrating_to_linux_in_2019/)",
       "[Hva er Vulkan?](https://www.reddit.com/r/linux_gaming/comments/9ritk1/not_sure_i_quite_understand_can_someone_explain/)"
     ],
-    "headline": "Med Proton og Steam Play fungerer mange Windows-spill nå på Linux!",
+    "headline": "Velkommen til ditt hjem for fellesskapsbaserte Linux- og Steam Deck-spillkompatibilitetsrapporter!",
     "howDoIHelp": {
       "answer": "Gi Linux en sjanse! Hvis du er ny, ikke bekymre deg. Her er en liste med guider som kan hjelpe deg i gang, og hvis du vil hjelpe Valve og Proton med å forbedre seg, bidra med dine rapporter her på ProtonDB!",
       "question": "Kult! Hvordan kan jeg hjelpe til?"
@@ -89,8 +296,17 @@
     "sampleGames": "Her er et utvalg av populære spill som offisielt ikke er på hvitelisten ennå, men som har fått mange Platinarapporter på ProtonDB",
     "search": "Søk etter spill...",
     "stats": {
+      "atLeastOneRecommends": "anbefalt av minst én",
+      "atLeastThreeRecommend": "anbefalt av tre eller flere",
+      "atLeastTwoRecommend": "anbefalt av to eller flere",
+      "deckVerified": "verifisert",
+      "deckVerifiedHeader": "Deck-verifiserte spill",
+      "deckVerifiedPlayable": "verifisert eller spillbare",
       "gamesReported": "spill rapportert",
+      "gamesWithReports": "spill med rapporter",
       "gamesWork": "spill fungerer",
+      "gamesWorkExplanation": "Har minst én tommelen opp eller Platina (legacy) rapport",
+      "protonDbGamesHeader": "Spill på ProtonDB",
       "reportsWritten": "rapporter skrevet"
     },
     "theImpact": {
@@ -119,6 +335,11 @@
     "silver": "Sølv"
   },
   "ratingDefinitions": {
+    "categories": {
+      "clickPlay": "Click Play: Uten noen justeringer",
+      "deck": "Hvordan det spiller på Steam Deck",
+      "tinker": "Tinker: Noe montering kreves"
+    },
     "explanations": {
       "borked": "Starter enten ikke eller er av en annen grunn uspillbart",
       "bronze": "Kan kjøres, men krasjer ofte eller har andre problemer som hindrer at spillet kan spilles komfortabelt",
@@ -128,16 +349,31 @@
       "platinum": "Fungerer perfekt uten justeringer",
       "silver": "Kjører med mindre problemer, men er generelt spillbart"
     },
-    "headline": "Vurderingsdefinisjoner"
+    "headline": "Vurderingsdefinisjoner",
+    "ratings": {
+      "?": "Venter: Trenger mer data",
+      "A": "A-nivå: Svært fint",
+      "B": "B-nivå: Veldig bra, men rom for forbedring",
+      "C": "C-nivå: Trenger litt arbeid",
+      "D": "D-nivå: Hemmet av problemer",
+      "F": "F-nivå: Ødelagt!",
+      "S": "S-nivå: Nesten feilfritt"
+    },
+    "reports": "Klikk for å se rapporter"
   },
   "specs": {
+    "board": "Kort",
+    "channel": "Kanal",
+    "chromeOs": "OS",
+    "chromeVersion": "Chrome",
     "cpu": "CPU",
     "gpu": "GPU",
     "gpuDriver": "GPU-driver",
     "kernel": "Kjerne",
     "os": "Distribusjon",
     "otherSpecs": "Andre spesifikasjoner",
-    "ram": "RAM"
+    "ram": "RAM",
+    "version": "Versjon"
   },
   "stats": {
     "analysisInByTheNumbers1": "Fra analysen i By The Numbers #1",
@@ -154,6 +390,8 @@
   },
   "steamAuthor": {
     "hoursInSteam": "{{count}} timer på Steam",
+    "hoursOnLinux": "{{time}} på Linux",
+    "hoursOverall": "{{time}} totalt",
     "timeWithProton": "{{time}} med Proton"
   },
   "suggestions": {
@@ -162,11 +400,15 @@
   },
   "systemInfo": {
     "headline": "Systeminformasjon",
-    "howTo": "Innsamling av denne informasjonen går raskt hvis du har tilgang til Steams innstillinger på maskinen hvor du spiller spillene dine. [Klikk her for å se hvordan]({{link}}). (Noen brukere rapporterer at de må trykke Ctrl-A for å velge alt før de høyreklikker.)",
-    "intro": "Rapporter er mer nyttige og får høyere troverdighet når maskinvaren og programvaren spillet ble testet på vises. For å holde dette så korrekt og konsekvent som mulig bruker vi systeminformasjonen som rapporteres av Steam.",
-    "parseFailure": "Tolkning mislyktes. Hvis du er sikker på at du kopierte riktig, gi oss beskjed på Discord (fortrinnsvis på engelsk)",
+    "howTo": "PC: Innsamling av Steam-informasjon er enkelt hvis du har tilgang til Steams innstillinger på maskinen hvor du spiller spillene dine. [Gå hit for å lære hvordan]({{link}}). Noen brukere har rapportert at de må trykke Ctrl-A for å velge alt før de høyreklikker. Du kan utelate alt som starter med 'LD Scout Report' eller hvis det er oppgitt vil det automatisk fjernes ved lagring.",
+    "howToSteamDeck": "Steam Deck: Legge til denne enheten kan for øyeblikket bare gjøres fra skrivebordsmodus på en Steam Deck. Siden enheter nå vedvarer på tvers av innloggingsøkter, trenger du bare å gjøre dette én gang og kan forfatte rapporter fra en annen maskin etterpå.",
+    "incorrectDeviceType": "Feil enhetstype",
+    "incorrectDeviceTypeExplanation": "Systeminformasjonen du har oppgitt er inkompatibel med denne typen enhet.",
+    "intro": "Rapporter har mer nytte og gir mer troverdighet ved å vise maskinvaren og programvaren spillet ble testet på. For å holde dette så nøyaktig og konsekvent som mulig, utnytter vi systeminformasjonen som rapporteres av Steam selv.",
+    "parseFailure": "Tolkning mislyktes. Hvis du er sikker på at du kopierte riktig, gi oss beskjed på Discord",
     "parseSuccess": "Tolkning av systeminformasjon lyktes!",
-    "pasteInstructions": "Lim inn systeminformasjon her",
+    "pasteInstructions": "Lim inn Steam-systeminformasjon her",
+    "pasteInstructionsChromeOs": "Lim inn ChromeOS systeminformasjon her.\n\nI Innstillinger-appen: Om ChromeOS -> Flere detaljer -> Byggdetaljer (trykk på kopiikonet) -> Lim inn her",
     "unsupportedHeadline": "Ikke-støttede drivere oppdaget",
     "unsupportedWarning": "Grafikkdriveren i systemet ditt møter ikke [Protons nåværende minimumskrav]({{link}})! Du kan oppleve krasj, dårlig ytelse, og/eller grafiske nedgraderinger. Du kan fortsatt sende inn rapporter, og det er fortsatt verdi i bidragene dine, men rapportene dine vil vise grafikkdriverne i rødt og vil ikke telle med i den gjennomsnittlige vurderingen. Oppdater driverne dine!"
   }

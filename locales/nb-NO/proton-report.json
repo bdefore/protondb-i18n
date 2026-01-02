@@ -2,8 +2,11 @@
   "appSelection": {
     "caution": "Advarsel!",
     "helperText": "Du kan også lime inn lenker eller et App ID, så vil vi prøve å finne det",
+    "noPlaytime": "Din Steam-konto viser ingen spilletid registrert for dette spillet. Dette kan skje hvis dine [Steam-personverninnstillinger]({{link}}) ikke gjør spillinformasjon offentlig, eller hvis du har valgt å ikke dele spilletid via 'Alltid hold min totale spilletid privat selv om brukere kan se min spillinformasjon'-vekslingen. Din rapport vil fortsatt vise deg som eier. Hvis dette er en feil, gi oss beskjed.",
     "notFound": "Kunne ikke finne spillet med App ID {{query}}. Dette kan skje hvis det enten er feil, eller hvis det har: blitt fjernet fra Steam-butikken, ikke er oppført som et 'spill', eller ikke er tilgjengelig i ditt land.",
+    "notOwner": "Din Steam-konto viser ikke dette spillet som eid av deg og vil ikke vises slik på rapporten din. Dette kan skje hvis dine [Steam-personverninnstillinger]({{link}}) ikke gjør spillinformasjon offentlig. Hvis dette er en feil, gi oss beskjed.",
     "placeholder": "Skriv inn navnet på et spill i ditt Steam-bibliotek...",
+    "playedNatively": "Kjørte du spillet native uten å bruke Proton?",
     "previousReportsExist": "Du har tidligere rapporter for dette spillet",
     "runsNativeWarning": "Det valgte spillet har en native Linux-versjon publisert! Sørg for at du ikke uforvarende kjører den native versjonen av spillet. Steam bruker ikke Steam Play for å kjøre dette spillet som standard, men [du kan tvinge Steam til å gjøre det]({{link}})."
   },
@@ -37,9 +40,72 @@
     },
     "prompt": "Opplevde du noen problemer med lyden?"
   },
+  "authoringLanguage": {
+    "prompt": "Hvilket språk vil du skrive denne rapporten på?"
+  },
+  "batteryPerformance": {
+    "legend": "Batteriytelse",
+    "prompt": "Gjorde du noen endringer for å forbedre batteriytelsen?"
+  },
   "borked": {
     "headline": "Så synd å høre!",
     "intro": "Din rapport vil bli sendt inn som en ødelagt rapport, men før du gjør det kan det være lurt å besøke vår [spillfeilsøkings-FAQ]({{link}}) side."
+  },
+  "concludingNotes": {
+    "label": "Konkluderende tanker",
+    "prompt": "Er det noe du ønsker å legge til som ikke ble dekket av de tidligere spørsmålene?"
+  },
+  "controlLayout": {
+    "additionalNotes": {
+      "label": "Hvilken type fellesskapsoppset?"
+    },
+    "legend": "Kontroller-oppsett",
+    "options": {
+      "community": {
+        "long": "Et oppsett laget av fellesskapet",
+        "short": "Fellesskapsoppset"
+      },
+      "gamepad": {
+        "long": "Gamepad",
+        "short": "Gamepad"
+      },
+      "gamepadWithGyro": {
+        "long": "Gamepad med gyroskop",
+        "short": "Gamepad med gyro"
+      },
+      "gamepadWithJoystick": {
+        "long": "Gamepad med pekerstyring i form av Joystick",
+        "short": "Gamepad med Joystick-pekerstyring"
+      },
+      "gamepadWithMouseTrackpad": {
+        "long": "Gamepad med pekerstyring i form av berøringsflate",
+        "short": "Gamepad med berøringsflate"
+      },
+      "keyboardAndMouse": {
+        "long": "Tastatur (WASD) og mus",
+        "short": "Tastatur og mus"
+      },
+      "mouseOnly": {
+        "long": "Bare mus",
+        "short": "Bare mus"
+      },
+      "official": {
+        "long": "Det offisielle oppsettet",
+        "short": "offisielt"
+      },
+      "touchscreenMouseEmulation": {
+        "long": "Mus emulert via touch-skjerm",
+        "short": "Mus emulert via touch-skjerm"
+      }
+    },
+    "prompt": "Hvilket kontrolloppsett brukte du?"
+  },
+  "controlLayoutCustomization": {
+    "additionalNotes": {
+      "label": "Tilpasninger",
+      "prompt": "Beskriv endringene du gjorde"
+    },
+    "legend": "Tilpasset oppsett"
   },
   "customizationsUsed": {
     "additionalNotes": {
@@ -83,6 +149,22 @@
     },
     "prompt": "Hvilke tilpasninger har du gjort?"
   },
+  "customProtonVersion": {
+    "additionalNotes": {
+      "label": "Versjon",
+      "placeholder": "Skriv inn versjonsnummeret eller navnet på den tilpassede Proton-forken"
+    },
+    "legend": "Tilpasset Proton",
+    "prompt": "Hvilken tilpasset Proton-fork brukte du?"
+  },
+  "device": {
+    "legend": "Enhet",
+    "prompt": "Hvilken enhet brukte du til å spille?"
+  },
+  "didChangeControlLayout": {
+    "legend": "Endret kontrolloppsett",
+    "prompt": "Endret du kontrolloppsettet?"
+  },
   "duration": {
     "legend": "Hvor lenge?",
     "options": {
@@ -115,6 +197,24 @@
       "placeholder": "Vennligst legg dem til her."
     },
     "prompt": "Er det noe du ønsker å legge til som ikke ble dekket av de tidligere spørsmålene?"
+  },
+  "frameRate": {
+    "legend": "Bildefrekvens",
+    "options": {
+      "above60": {
+        "long": "Over 60 FPS",
+        "short": "> 60 FPS"
+      },
+      "playable": {
+        "long": "Spillbar (30-60 FPS)",
+        "short": "30-60 FPS"
+      },
+      "unstable": {
+        "long": "Ustabil (< 30 FPS)",
+        "short": "< 30 FPS"
+      }
+    },
+    "prompt": "Hva var bildefrekvensen?"
   },
   "graphicalFaults": {
     "legend": "Grafikk",
@@ -265,6 +365,24 @@
     },
     "prompt": "Hvilke startflagg brukte du?"
   },
+  "launcher": {
+    "legend": "Launcher",
+    "options": {
+      "lutris": {
+        "long": "Lutris",
+        "short": "Lutris"
+      },
+      "other": {
+        "long": "Annet",
+        "short": "Annet"
+      },
+      "steam": {
+        "long": "Steam",
+        "short": "Steam"
+      }
+    },
+    "prompt": "Hvilken launcher brukte du?"
+  },
   "launches": {
     "legend": "Oppstart",
     "options": {
@@ -282,6 +400,32 @@
       }
     },
     "prompt": "Kunne du starte spillet?"
+  },
+  "localMultiplayerAppraisal": {
+    "legend": "Lokal multiplayer-vurdering",
+    "options": {
+      "bad": {
+        "long": "Dårlig",
+        "short": "Dårlig"
+      },
+      "good": {
+        "long": "Bra",
+        "short": "Bra"
+      },
+      "ok": {
+        "long": "Ok",
+        "short": "Ok"
+      }
+    },
+    "prompt": "Hvordan fungerte lokal multiplayer?"
+  },
+  "localMultiplayerAttempted": {
+    "legend": "Forsøkte lokal multiplayer",
+    "prompt": "Forsøkte du lokal multiplayer?"
+  },
+  "localMultiplayerPlayed": {
+    "legend": "Spilte lokal multiplayer",
+    "prompt": "Spilte du lokal multiplayer?"
   },
   "multiplayer": {
     "options": {
