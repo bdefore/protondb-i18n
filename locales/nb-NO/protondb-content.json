@@ -92,7 +92,7 @@
     "greetLoggedIn": "Vil du se hvor mange spill jeg kan spille?",
     "lookupMyLibrary": "Last inn et bibliotek",
     "mostPlayedUnverified": "Disse spillene du liker er ennå ikke offisielt verifisert eller spillbare, men ifølge fellesskapets rapporter ser de bra ut for spilling på Linux.",
-    "mostPlayedVerified": "Dette er dine favorittspill som er sertifisert verifisert eller spillbare",
+    "mostPlayedVerified": "Dette er dine favorittspill som er verifisert eller spillbare",
     "owned": "Eid spill",
     "playedFor": "Spilt i {{hours}} time(r)",
     "playerCountUnverified": "Følgende populære spill er ennå ikke offisielt verifisert eller spillbare, men ifølge fellesskapets rapporter ser de bra ut for spilling på Linux.",
@@ -147,7 +147,7 @@
       }
     },
     "tryYourLibrary": "Prøv biblioteket ditt",
-    "unverified": "Uoffisielt lovende her",
+    "unverified": "Uoffisielt lovende spill",
     "useLibrary": "Bruk",
     "userNotFound": "Bruker ble ikke funnet. Forsikre deg om at 'Min profil' og 'Spillinformasjon' er satt til offentlig i dine [Steam-innstillinger]({{link}}).",
     "userScoreUnverified": "Følgende godt anmeldte spill er ennå ikke offisielt verifisert eller spillbare, men ifølge fellesskapets rapporter ser de bra ut for spilling på Linux.",
@@ -177,7 +177,7 @@
   "dashboard": {
     "description1": "ProtonDBs nye Click Play-vurdering blir fortsatt finjustert. For mer informasjon, se [nyhetsinnlegget]({{link1}}). Titusenvis av forfattere bidrar med rapportene som driver denne visualiseringen. Du kan også hjelpe! Rapporter er tilgjengelige via ODBL-lisens [i månedlige eksporter]({{link2}}).",
     "description2": "Denne siden ble opprettet av Buck DeFore. Det er et uavhengig fellesskapsprosjekt uten tilknytning til Valve eller Steam. Hvis du setter pris på dette dashbordet, vurder å [støtte meg på Patreon]({{link}}).",
-    "headline": "Hvor mange spill fungerer på Linux? På Steam Deck?"
+    "headline": "Hvor mange spill fungerer på Linux? Og på Steam Deck?"
   },
   "explore": {
     "headlines": {
@@ -248,7 +248,7 @@
         "prompt": "Vedvar på tvers av nettstedet?"
       },
       "query": {
-        "label": "Spørring"
+        "label": "Søk"
       },
       "type": {
         "label": "Type"
@@ -283,13 +283,13 @@
       "[En guide for å migrere til Linux](https://www.reddit.com/r/linux_gaming/comments/9oqq3w/guide_migrating_to_linux_in_2019/)",
       "[Hva er Vulkan?](https://www.reddit.com/r/linux_gaming/comments/9ritk1/not_sure_i_quite_understand_can_someone_explain/)"
     ],
-    "headline": "Velkommen til ditt hjem for fellesskapsbaserte Linux- og Steam Deck-spillkompatibilitetsrapporter!",
+    "headline": "Velkommen til ditt hjem for fellesskapets erfaringer med spillkompatibilitet på Linux og Steam Deck!",
     "howDoIHelp": {
       "answer": "Gi Linux en sjanse! Ikke la det å være ny skremme deg. Her er en liste med guider som kan hjelpe deg i gang, og hvis du vil hjelpe Valve og Proton med å forbedre seg, bidra med dine rapporter her på ProtonDB!",
       "question": "Kult! Hvordan kan jeg hjelpe til?"
     },
     "letsGetStarted": "Kom i gang!",
-    "sampleGames": "Her er et utvalg av populære spill som offisielt ikke er på hvitelisten ennå, men som har fått mange Platinarapporter på ProtonDB",
+    "sampleGames": "Her er et utvalg populære spill som offisielt ikke er på hvitelisten ennå, men som har fått mange Platinarapporter på ProtonDB",
     "search": "Søk etter spill...",
     "stats": {
       "atLeastOneRecommends": "anbefalt av minst én",

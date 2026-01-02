@@ -1,5 +1,5 @@
 {
-  "genericFollowUpPrompt": "Hvilken type problem?",
+  "genericFollowUpPrompt": "Hva slags problem?",
   "misc": {
     "answerRequired": "Svar kreves",
     "answerRequiredWhenNotListed": "Svar kreves når \"Ikke oppført\" er valgt",

@@ -165,7 +165,7 @@
         "prompt": "Språk"
       },
       "performanceMode": {
-        "prompt": "Vil du foretrekke en ytelsesvennlig versjon av nettsiden?"
+        "prompt": "Foretrekker du en ytelsesvennlig versjon av nettsiden?"
       },
       "preferredDeviceType": {
         "options": {
