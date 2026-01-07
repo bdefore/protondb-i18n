@@ -644,7 +644,7 @@
         "short": "Not Listed"
       },
       "official": {
-        "long": "The one Steam recommends by default",
+        "long": "Latest stable version",
         "short": "Official"
       },
       "older": {
