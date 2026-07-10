@@ -2,8 +2,11 @@
   "appSelection": {
     "caution": "Varning!",
     "helperText": "Du kan också klistra in länkar eller ett App ID och vi kommer försöka hitta det",
+    "noPlaytime": "Ditt Steamkonto visar ingen registrerad speltid för detta spel. Detta kan hända om dina [Steam sekretessinställningar]({{link}}) inte gör spelinformation offentlig, eller om du valt att inte dela speltid via reglaget 'Always keep my total playtime private even if users can see my game details'. Din rapport kommer fortfarande visa dig som ägare. Om detta är ett fel, vänligen låt oss veta.",
     "notFound": "Kunde inte hitta spel med App ID {{query}}. Detta kan hända antingen om det är inkorrekt eller om det har: blivit borttaget från Steambutiken, inte listas som ett 'spel', eller om det inte är tillgängligt i ditt land.",
+    "notOwner": "Ditt Steamkonto listar inte detta spel som ägt av dig och kommer inte visa det så på din rapport. Detta kan hända om dina [Steam sekretessinställningar]({{link}}) inte gör spelinformation offentlig. Om detta är ett fel, vänligen låt oss veta.",
     "placeholder": "Skriv in namnet på ett spel i ditt Steambibliotek...",
+    "playedNatively": "Körde du spelet native utan att använda Proton?",
     "previousReportsExist": "Du har tidigare rapporter för detta spel",
     "runsNativeWarning": "Det valda spelet har en native Linux version publicerad! Se till att du inte oavsiktligt kört native versionen av spelet. Steam använder inte Steam Play för att köra det här spelet som standard, men [du kan tvinga Steam att göra det]({{link}})."
   },
@@ -37,9 +40,94 @@
     },
     "prompt": "Upplevde du några problem med ljudet?"
   },
+  "authoringLanguage": {
+    "prompt": "Vilket språk kommer du skriva denna rapport på?"
+  },
+  "batteryPerformance": {
+    "legend": "Batteriprestanda",
+    "prompt": "Gjorde du några ändringar för att förbättra batteriprestandan?"
+  },
   "borked": {
     "headline": "Tråkigt att höra!",
     "intro": "Din rapport kommer skickas in som en kaputt rapport, men innan du gör det kanske du vill besöka vår [spelfelsöknings FAQ]({{link}}) sida."
+  },
+  "concludingNotes": {
+    "label": "Slutnoteringar",
+    "prompt": "Lägg till här något extra som du skulle vilja avsluta med i slutet av din rapport."
+  },
+  "controlLayout": {
+    "additionalNotes": {
+      "label": "Vilken community-version?"
+    },
+    "legend": "Kontrollayout",
+    "options": {
+      "community": {
+        "long": "En community-layout",
+        "short": "Community-layout"
+      },
+      "gamepad": {
+        "long": "Handkontroll",
+        "short": "Handkontroll"
+      },
+      "gamepadWithGyro": {
+        "long": "Handkontroll med Gyro",
+        "short": "Handkontroll med Gyro"
+      },
+      "gamepadWithJoystick": {
+        "long": "Handkontroll med joystick-styrplatta",
+        "short": "Handkontroll med joystick-styrplatta"
+      },
+      "gamepadWithMouseTrackpad": {
+        "long": "Handkontroll med mus-styrplatta",
+        "short": "Handkontroll med mus-styrplatta"
+      },
+      "keyboardAndMouse": {
+        "long": "Tangentbord (WASD) och mus",
+        "short": "Tangentbord och mus"
+      },
+      "mouseOnly": {
+        "long": "Endast mus",
+        "short": "Endast mus"
+      },
+      "official": {
+        "long": "Den officiella layouten",
+        "short": "officiell"
+      },
+      "touchscreenMouseEmulation": {
+        "long": "Pekskärms-musemulering",
+        "short": "Pekskärms-musemulering"
+      }
+    },
+    "prompt": "Vilken kontrollayout spelade du med?"
+  },
+  "controlLayoutCustomization": {
+    "additionalNotes": {
+      "label": "Anpassningar",
+      "prompt": "Beskriv dina ändringar"
+    },
+    "legend": "Anpassning av kontrollayout",
+    "options": {
+      "enableGripButtons": {
+        "long": "Aktiverade greppknappar på baksidan",
+        "short": "Greppknappar"
+      },
+      "gyro": {
+        "long": "Aktiverade Gyro",
+        "short": "Gyro"
+      },
+      "other": {
+        "long": "Annat",
+        "short": "Annat"
+      },
+      "rightTrackpad": {
+        "long": "Ändrade beteende för höger styrplatta",
+        "short": "Höger styrplatta"
+      }
+    },
+    "prompt": "Anpassade du kontrollerna ytterligare?"
+  },
+  "customProtonVersion": {
+    "label": "Version"
   },
   "customizationsUsed": {
     "additionalNotes": {
@@ -48,6 +136,10 @@
     },
     "legend": "Anpassningar",
     "options": {
+      "configChange": {
+        "long": "Ändrade spelets konfigurationsfil(er)",
+        "short": "Ändrade konfiguration"
+      },
       "customPrefix": {
         "long": "Ett skräddarsytt Wine-prefix",
         "short": "Skräddarsytt prefix"
@@ -59,6 +151,10 @@
       "lutris": {
         "long": "Lutris installationsskript",
         "short": "Lutris"
+      },
+      "mediaFoundation": {
+        "long": "Media Foundation DLL (mf-install)",
+        "short": "Media Foundation DLL"
       },
       "native2Proton": {
         "long": "Native2Proton",
@@ -82,6 +178,13 @@
       }
     },
     "prompt": "Vilka anpassningar har du gjort?"
+  },
+  "device": {
+    "legend": "Enhet",
+    "prompt": "Vilken av dina enheter spelar du på?"
+  },
+  "didChangeControlLayout": {
+    "prompt": "Ändrade du standardkontrollayouten?"
   },
   "duration": {
     "legend": "Hur länge?",
@@ -115,6 +218,32 @@
       "placeholder": "Vänligen lägg till dem här."
     },
     "prompt": "Finns det något du skulle vilja tillägga som inte täcktes av de tidigare frågorna?"
+  },
+  "frameRate": {
+    "legend": "FPS",
+    "options": {
+      "10to20": {
+        "long": "Mellan 10 och 20 FPS",
+        "short": "10 till 20"
+      },
+      "20to30": {
+        "long": "Mellan 20 och 30 FPS",
+        "short": "20 till 30"
+      },
+      "30to60": {
+        "long": "Mellan 30 och 60 FPS",
+        "short": "30 till 60"
+      },
+      "gt60": {
+        "long": "60 FPS eller högre",
+        "short": "60 eller högre"
+      },
+      "lt10": {
+        "long": "Under 10 FPS",
+        "short": "Under 10"
+      }
+    },
+    "prompt": "Hur många bilder per sekund (FPS) körde spelet i för det mesta?"
   },
   "graphicalFaults": {
     "legend": "Grafik",
@@ -246,13 +375,45 @@
         "long": "Inaktivera Fsync",
         "short": "Inaktivera Fsync"
       },
+      "enableNvapi": {
+        "long": "Aktivera NVAPI (PROTON_ENABLE_NVAPI)",
+        "short": "Aktivera NVAPI"
+      },
+      "fullscreenIntegerScaling": {
+        "long": "Fullscreen Integer Scaling (WINE_FULLSCREEN_INTEGER_SCALING)",
+        "short": "Fullscreen Integer Scaling"
+      },
+      "gameDrive": {
+        "long": "Ställ in Game Drive (PROTON_SET_GAME_DRIVE)",
+        "short": "Ställ in Game Drive"
+      },
+      "heapDelayFree": {
+        "long": "Fördröj frigörning av visst minne (PROTON_HEAP_DELAY_FREE)",
+        "short": "Heap Delay Free"
+      },
+      "hideNvidia": {
+        "long": "Dölj Nvidia GPU (PROTON_HIDE_NVIDIA_GPU)",
+        "short": "Dölj Nvidia GPU"
+      },
       "largeAddressAware": {
         "long": "Large Address Aware",
         "short": "Large Address Aware"
       },
+      "noWriteWatch": {
+        "long": "Inaktivera stöd för minnesskrivningsbevakning (PROTON_NO_WRITE_WATCH)",
+        "short": "No Write Watch"
+      },
+      "noXim": {
+        "long": "No XIM (PROTON_NO_XIM)",
+        "short": "No XIM"
+      },
       "oldGlString": {
         "long": "Gammal GL String",
         "short": "Gammal GL String"
+      },
+      "useSeccomp": {
+        "long": "Aktivera Seccomp (PROTON_USE_SECCOMP)",
+        "short": "Aktivera Seccomp"
       },
       "useWineD3d11": {
         "long": "Använd Wine D3D",
@@ -265,12 +426,23 @@
     },
     "prompt": "Använde du någon av dessa Proton startflaggor?"
   },
+  "launchOptions": {
+    "helperText": "t.ex. PROTON_NO_D3D11=1 %command%",
+    "label": "Startalternativ",
+    "legend": "Startalternativ",
+    "placeholder": "(inga)",
+    "prompt": "Ställer du in några startalternativ?"
+  },
   "launcher": {
     "additionalNotes": {
       "label": "Launcher"
     },
     "legend": "Launcher",
     "options": {
+      "bottles": {
+        "long": "Bottles",
+        "short": "Bottles"
+      },
       "gamehub": {
         "long": "Gamehub",
         "short": "Gamehub"
@@ -291,6 +463,9 @@
     "prompt": "Varifrån startade du spelet?"
   },
   "localMultiplayerAppraisal": {
+    "additionalNotes": {
+      "label": "Ytterligare detaljer"
+    },
     "prompt": "Hur skulle du betygsätta den lokala multiplayerfunktionaliteten? Utvärdera lagg, anslutning, inmatningsproblem, osv."
   },
   "localMultiplayerAttempted": {
@@ -324,6 +499,9 @@
     }
   },
   "onlineMultiplayerAppraisal": {
+    "additionalNotes": {
+      "label": "Ytterligare detaljer"
+    },
     "prompt": "Hur skulle du betygsätta online multiplayer funktionaliteten? Utvärdera lagg, Please evaulate for lag, anslutning, inmatningsproblem, matchmaking, osv."
   },
   "onlineMultiplayerAttempted": {
@@ -350,9 +528,15 @@
     },
     "prompt": "Upplevde du någon oväntad prestandaförlust med din hårdvara i åtanke?"
   },
+  "prerequisites": {
+    "missingProfileInfo": "Profilinformation ofullständig. Saknas: {{context}}",
+    "noValidDevices": "Ingen av dina enheter har giltig systeminformation",
+    "notLoggedIn": "Inte inloggad med {{context}}"
+  },
   "prerequisitesBlock": {
     "action": "Gå till din profil",
-    "context": "Du behöver logga in med din Steam och lämna din systeminformation innan du kan börja lämna in rapporter!"
+    "context": "Du behöver logga in med din Steam och lämna din systeminformation innan du kan börja lämna in rapporter!",
+    "headline": "Inte redo än!"
   },
   "preview": {
     "intro": "Saker att verifiera:",
@@ -374,6 +558,10 @@
     },
     "prompt": "Vilken version av Proton använder du?"
   },
+  "readability": {
+    "legend": "Svårläst text",
+    "prompt": "Fanns det text i spelet som var svår att läsa?"
+  },
   "saveGameFaults": {
     "legend": "Sparfiler",
     "options": {
@@ -391,6 +579,10 @@
       }
     },
     "prompt": "Upplevde du några problem med sparfiler?"
+  },
+  "secondaryLauncher": {
+    "legend": "Problem med sekundär launcher",
+    "prompt": "Hade du några problem på grund av ett sekundärt startfönster?"
   },
   "significantBugs": {
     "legend": "Markanta buggar",
@@ -421,6 +613,7 @@
   "stepHeadlines": {
     "appSelection": "Val av spel",
     "borked": "Kaputt!",
+    "chromeOsRelated": "ChromeOS-relaterat",
     "customizations": "Anpassningar",
     "finalNotes": "Omdöme",
     "gameplay": "Andra potentiella problem",
@@ -430,8 +623,29 @@
     "setup": "Setup",
     "stability": "Stabilitet",
     "startup": "Installation och upstart",
+    "steamDeckRelated": "Steam Deck-relaterat",
+    "technical": "Tekniska detaljer",
     "tinkerCheck": "Reporttyp",
     "unownedWarning": "Inte i ditt bibiliotek"
+  },
+  "tinkerOverride": {
+    "additionalNotes": {
+      "label": "Beskrivning av justeringar"
+    },
+    "options": {
+      "no": {
+        "long": "Nej - inga justeringar här",
+        "short": "SteamPlay-rapport"
+      },
+      "yes": {
+        "long": "Ja",
+        "short": "Tinker-rapport"
+      }
+    },
+    "prompt": "Ser ut som en rapport utan justeringar hittills. Har du gjort några anpassningar som skulle motivera att detta är en Tinker-rapport? [Mer info]({{link}})"
+  },
+  "triedOob": {
+    "prompt": "Din rapport kommer klassificeras som en tinker-rapport. Har du testat att spela med Steam och Proton utan några justeringar?"
   },
   "type": {
     "intro": [
@@ -452,12 +666,48 @@
     },
     "prompt": "Vilken typ av rapport vill du skriva?"
   },
+  "variant": {
+    "additionalNotes": {
+      "label": "Vad heter den?"
+    },
+    "legend": "Variant",
+    "options": {
+      "experimental": {
+        "long": "Tvingad Experimental",
+        "short": "Experimental"
+      },
+      "ge": {
+        "long": "Glorious Eggroll (GE)",
+        "short": "GE"
+      },
+      "native": {
+        "long": "Native. Ingen Proton.",
+        "short": "native"
+      },
+      "notListed": {
+        "long": "Inte listad",
+        "short": "Inte listad"
+      },
+      "official": {
+        "long": "Den som Steam rekommenderar som standard",
+        "short": "Officiell"
+      },
+      "older": {
+        "long": "Bytte till en äldre version",
+        "short": "Äldre"
+      }
+    },
+    "prompt": "Vilken variant av Proton använder du?"
+  },
   "verdict": {
     "additionalNotes": {
       "label": "Sammanfattning (max {{count}} tecken)",
       "placeholder": "Lägg till en kort sammanfattning. Detta kommer vara din rapports rubrik."
     },
     "prompt": "Skulle en genomsnittlig gamer ha en bra upplevelse med detta spel på Linux i Proton?"
+  },
+  "verdictOob": {
+    "prompt": "Om man startar direkt från Steam, skulle en typisk gamer tycka om att spela detta spel på Linux även utan justeringar?"
   },
   "welcome": {
     "headline": "Välkommen",
