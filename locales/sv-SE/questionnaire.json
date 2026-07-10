@@ -5,6 +5,7 @@
     "answerRequiredWhenNotListed": "Svar krävs när \"Inte listat\" är valt",
     "back": "Tillbaka",
     "error": "Något fick fel (error)!",
+    "invalidGeVersion": "Ogiltig GE-versionssträng. Måste innehålla (nyare format) 'GE-Proton{major}.{minor}-patch' eller (äldre format) '{major}.{minor}-ge-{patch}'. Exempel: 'GE-Proton7-5'",
     "markdownSupportNotice": "Markdown stöds nu",
     "maxChars": "Max {{count}} tecken",
     "next": "Nästa",
