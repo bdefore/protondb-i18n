@@ -2,10 +2,13 @@
   "appSelection": {
     "caution": "Увага!",
     "helperText": "Ви також можете вставити посилання чи ID додатку і ми спробуємо знайти його.",
+    "noPlaytime": "Ваш обліковий запис Steam не показує ігрового часу для цієї гри. Це може статися, якщо у ваших [налаштуваннях приватності Steam]({{link}}) інформація про ігри не є відкритою або якщо ви вирішили не ділитися ігровим часом за допомогою перемикача 'Завжди приховувати мій загальний ігровий час, навіть якщо користувачі можуть бачити інформацію про мої ігри'. У звіті вас усе одно буде вказано як власника. Якщо це помилка, будь ласка, повідомте нам.",
     "notFound": "Гру з ID {{query}} не знайдено. Це може статися якщо ID неточний або якщо гру: знято з крамниці Steam, не подано як 'гру' в списку, або вона недоступна у Вашій країні.",
+    "notOwner": "Ваш обліковий запис Steam не показує, що ця гра належить вам, тому у звіті це не буде відображено. Це може статися, якщо у ваших [налаштуваннях приватності Steam]({{link}}) інформація про ігри не є відкритою. Якщо це помилка, будь ласка, повідомте нам.",
     "placeholder": "Введіть назву гри у вашій бібліотеці Steam...",
+    "playedNatively": "Ви запускали гру нативно, без Proton?",
     "previousReportsExist": "Ви вже подавали попередні звіти про цю гру",
-    "runsNativeWarning": "Вибрана гра опублікувала нативну версію для Linux! Будь ласка, переконайтеся, що Ви ненароком не запустили цю гру нативно. Steam не використовує Steam Play зазвичай, проте [Ви можете примусити його так зробити]({{link}})."
+    "runsNativeWarning": "Вибрана гра опублікувала нативну версію для Linux! Будь ласка, переконайтеся, що Ви ненароком не запустили цю гру нативно. Steam за замовчуванням не використовує Proton для запуску цієї гри, проте [Ви можете примусити його так зробити]({{link}})."
   },
   "audioFaults": {
     "legend": "Звук",
@@ -37,9 +40,94 @@
     },
     "prompt": "Ви спостерігали будь-які проблеми зі звуком?"
   },
+  "authoringLanguage": {
+    "prompt": "Якою мовою ви писатимете цей звіт?"
+  },
+  "batteryPerformance": {
+    "legend": "Робота від батареї",
+    "prompt": "Чи вносили ви зміни, щоб покращити роботу від батареї?"
+  },
   "borked": {
     "headline": "Ех, а жаль!",
     "intro": "Ви тепер продовжите заповнення звіту про Зламану гру, але перед тим як Ви це зробите, можливо Ви бажаєте переглянути нашу [FAQ щодо усунення несправностей]({{link}})"
+  },
+  "concludingNotes": {
+    "label": "Заключні нотатки",
+    "prompt": "Додайте тут усе, чим ви хотіли б завершити свій звіт."
+  },
+  "controlLayout": {
+    "additionalNotes": {
+      "label": "Яка версія від спільноти?"
+    },
+    "legend": "Розкладка керування",
+    "options": {
+      "community": {
+        "long": "Розкладка від спільноти",
+        "short": "Розкладка спільноти"
+      },
+      "gamepad": {
+        "long": "Ґеймпад",
+        "short": "Ґеймпад"
+      },
+      "gamepadWithGyro": {
+        "long": "Ґеймпад з гіроскопом",
+        "short": "Ґеймпад з гіроскопом"
+      },
+      "gamepadWithJoystick": {
+        "long": "Ґеймпад, трекпад як джойстик",
+        "short": "Ґеймпад, трекпад як джойстик"
+      },
+      "gamepadWithMouseTrackpad": {
+        "long": "Ґеймпад, трекпад як миша",
+        "short": "Ґеймпад, трекпад як миша"
+      },
+      "keyboardAndMouse": {
+        "long": "Клавіатура (WASD) і миша",
+        "short": "Клавіатура і миша"
+      },
+      "mouseOnly": {
+        "long": "Лише миша",
+        "short": "Лише миша"
+      },
+      "official": {
+        "long": "Офіційна розкладка",
+        "short": "офіційна"
+      },
+      "touchscreenMouseEmulation": {
+        "long": "Емуляція миші сенсорним екраном",
+        "short": "Емуляція миші сенсорним екраном"
+      }
+    },
+    "prompt": "З якою розкладкою керування ви грали?"
+  },
+  "controlLayoutCustomization": {
+    "additionalNotes": {
+      "label": "Зміни",
+      "prompt": "Опишіть ваші зміни"
+    },
+    "legend": "Зміни розкладки керування",
+    "options": {
+      "enableGripButtons": {
+        "long": "Увімкнено задні кнопки хвату",
+        "short": "Кнопки хвату"
+      },
+      "gyro": {
+        "long": "Увімкнено гіроскоп",
+        "short": "Гіроскоп"
+      },
+      "other": {
+        "long": "Інше",
+        "short": "Інше"
+      },
+      "rightTrackpad": {
+        "long": "Змінено поведінку правого трекпада",
+        "short": "Правий трекпад"
+      }
+    },
+    "prompt": "Чи змінювали ви керування додатково?"
+  },
+  "customProtonVersion": {
+    "label": "Версія"
   },
   "customizationsUsed": {
     "additionalNotes": {
@@ -48,6 +136,10 @@
     },
     "legend": "Налаштування",
     "options": {
+      "configChange": {
+        "long": "Змінено файл(и) конфігурації гри",
+        "short": "Змінено конфігурацію"
+      },
       "customPrefix": {
         "long": "Модифікований префікс Wine",
         "short": "Модифікований префікс"
@@ -60,13 +152,13 @@
         "long": "Інсталяційний скрипт Lutris",
         "short": "Lutris"
       },
-      "native2Proton": {
-        "long": "Native2Proton",
-        "short": "Native2Proton"
+      "mediaFoundation": {
+        "long": "Media Foundation DLL (mf-install)",
+        "short": "Media Foundation DLL"
       },
       "notListed": {
-        "long": "Не Вказано",
-        "short": "Не Вказано"
+        "long": "Щось інше",
+        "short": "Щось інше"
       },
       "protonfixes": {
         "long": "protonfixes",
@@ -81,7 +173,14 @@
         "short": "winetricks"
       }
     },
-    "prompt": "Котрі зміни Ви ввели?"
+    "prompt": "Чи використовуєте Ви якийсь із цих поширених способів налаштування?"
+  },
+  "device": {
+    "legend": "Пристрій",
+    "prompt": "На якому з ваших пристроїв ви граєте?"
+  },
+  "didChangeControlLayout": {
+    "prompt": "Чи змінювали ви стандартну розкладку керування?"
   },
   "duration": {
     "legend": "Тривалість",
@@ -109,12 +208,31 @@
     },
     "prompt": "Скільки часу Ви грали в гру?"
   },
-  "extra": {
-    "additionalNotes": {
-      "label": "Додаткові Нотатки",
-      "placeholder": "Будь ласка, додайте їх тут."
+  "frameRate": {
+    "legend": "FPS",
+    "options": {
+      "10to20": {
+        "long": "Від 10 до 20 FPS",
+        "short": "Від 10 до 20"
+      },
+      "20to30": {
+        "long": "Від 20 до 30 FPS",
+        "short": "Від 20 до 30"
+      },
+      "30to60": {
+        "long": "Від 30 до 60 FPS",
+        "short": "Від 30 до 60"
+      },
+      "gt60": {
+        "long": "60 FPS або більше",
+        "short": "60 або більше"
+      },
+      "lt10": {
+        "long": "Менше 10 FPS",
+        "short": "Менше 10"
+      }
     },
-    "prompt": "Ви хочете щось додати, що не було висвітлено в попередніх питаннях?"
+    "prompt": "З якою частотою кадрів (FPS) здебільшого працювала гра?"
   },
   "graphicalFaults": {
     "legend": "Графіка",
@@ -203,7 +321,7 @@
     "prompt": "Вам вдалося встановити гру?"
   },
   "isImpactedByAntiCheat": {
-    "legend": "Анти-Чіт",
+    "legend": "Античіт",
     "options": {
       "battleEye": {
         "long": "BattlEye",
@@ -218,10 +336,7 @@
         "short": "Інше"
       }
     },
-    "prompt": "Чи впливають на гру програми анти-чіт?"
-  },
-  "isMultiplayerImportant": {
-    "prompt": "Чи є мультиплеєр важливою частиною цієї гри?"
+    "prompt": "Чи впливає на гру античіт?"
   },
   "launchFlagsUsed": {
     "additionalNotes": {
@@ -246,13 +361,45 @@
         "long": "Вимкнули Fsync (PROTON_NO_FSYNC)",
         "short": "Вимкнули Fsync"
       },
+      "enableNvapi": {
+        "long": "Увімкнули NVAPI (PROTON_ENABLE_NVAPI)",
+        "short": "Увімкнули NVAPI"
+      },
+      "fullscreenIntegerScaling": {
+        "long": "Цілочисельне масштабування в повноекранному режимі (WINE_FULLSCREEN_INTEGER_SCALING)",
+        "short": "Цілочисельне масштабування"
+      },
+      "gameDrive": {
+        "long": "Встановили ігровий диск (PROTON_SET_GAME_DRIVE)",
+        "short": "Встановили ігровий диск"
+      },
+      "heapDelayFree": {
+        "long": "Відкладене звільнення частини пам'яті (PROTON_HEAP_DELAY_FREE)",
+        "short": "Heap Delay Free"
+      },
+      "hideNvidia": {
+        "long": "Приховали GPU Nvidia (PROTON_HIDE_NVIDIA_GPU)",
+        "short": "Приховали GPU Nvidia"
+      },
       "largeAddressAware": {
         "long": "Large Address Aware (PROTON_FORCE_LARGE_ADDRESS_AWARE)",
         "short": "Large Address Aware"
       },
+      "noWriteWatch": {
+        "long": "Вимкнули відстеження запису в пам'ять (PROTON_NO_WRITE_WATCH)",
+        "short": "No Write Watch"
+      },
+      "noXim": {
+        "long": "Без XIM (PROTON_NO_XIM)",
+        "short": "Без XIM"
+      },
       "oldGlString": {
         "long": "Старий GL String (PROTON_OLD_GL_STRING)",
         "short": "Старий GL String"
+      },
+      "useSeccomp": {
+        "long": "Увімкнули Seccomp (PROTON_USE_SECCOMP)",
+        "short": "Увімкнули Seccomp"
       },
       "useWineD3d11": {
         "long": "Використали Wine D3D (PROTON_USE_WINED3D)",
@@ -265,19 +412,22 @@
     },
     "prompt": "Чи використовували ви будь-який із параметрів запуску Proton?"
   },
+  "launchOptions": {
+    "helperText": "наприклад, PROTON_NO_D3D11=1 %command%",
+    "label": "Параметри запуску",
+    "legend": "Параметри запуску",
+    "placeholder": "(немає)",
+    "prompt": "Чи задаєте ви параметри запуску?"
+  },
   "launcher": {
     "additionalNotes": {
-      "label": "Launcher"
+      "label": "Лаунчер"
     },
-    "legend": "Launcher",
+    "legend": "Лаунчер",
     "options": {
-      "gamehub": {
-        "long": "Gamehub",
-        "short": "Gamehub"
-      },
-      "lutris": {
-        "long": "Lutris",
-        "short": "Lutris"
+      "bottles": {
+        "long": "Bottles",
+        "short": "Bottles"
       },
       "notListed": {
         "long": "Не Вказано",
@@ -291,6 +441,9 @@
     "prompt": "Як Ви запускаєте гру?"
   },
   "localMultiplayerAppraisal": {
+    "additionalNotes": {
+      "label": "Подальші деталі"
+    },
     "prompt": "Як би Ви оцінили здатність гри до локальних мультиплеєрів? Оцініть, будь ласка, затримку, зв’язок або проблеми з введенням тощо."
   },
   "localMultiplayerAttempted": {
@@ -324,6 +477,9 @@
     }
   },
   "onlineMultiplayerAppraisal": {
+    "additionalNotes": {
+      "label": "Подальші деталі"
+    },
     "prompt": "Як би ви оцінили функціонал мультиплеєру по Інтернету? Будь ласка, оцініть проблеми затримки, підключення або введення даних, проблеми створення матчів тощо."
   },
   "onlineMultiplayerAttempted": {
@@ -351,8 +507,8 @@
     "prompt": "Чи відчували Ви несподіване сповільнення враховуючи Ваше обладнання?"
   },
   "prerequisites": {
-    "invalidOrMissingSystemInfo": "Інформація про систему відсутня або недійсна",
     "missingProfileInfo": "Інформація про профіль неповна. Відсутнє: {{context}}",
+    "noValidDevices": "Жоден з ваших пристроїв не має коректної системної інформації",
     "notLoggedIn": "Не увійшли в систему через {{context}}"
   },
   "prerequisitesBlock": {
@@ -378,7 +534,11 @@
       "label": "Власна версія Proton",
       "placeholder": "Рядок версії Proton повинен бути вірним. Приклади: {{examples}}"
     },
-    "prompt": "Яку версію Proton Ви використовуєте"
+    "prompt": "Яку версію Ви використовуєте?"
+  },
+  "readability": {
+    "legend": "Важкочитаний текст",
+    "prompt": "Чи був у грі текст, який було важко прочитати?"
   },
   "saveGameFaults": {
     "legend": "Запис Гри",
@@ -398,12 +558,16 @@
     },
     "prompt": "У Вас виникли проблеми із збереженням ігор?"
   },
+  "secondaryLauncher": {
+    "legend": "Проблема з додатковим лаунчером",
+    "prompt": "Чи виникали у вас проблеми через додаткове вікно запуску?"
+  },
   "significantBugs": {
     "legend": "Значні Помилки",
     "prompt": "Чи замітили Ви будь-які інші значні помилки?"
   },
   "stabilityFaults": {
-    "legend": "Стабільність",
+    "legend": "Нестабільність",
     "options": {
       "frequentCrashes": {
         "long": "Часті збої",
@@ -427,43 +591,78 @@
   "stepHeadlines": {
     "appSelection": "Вибір Гри",
     "borked": "Зламано!",
+    "chromeOsRelated": "Щодо ChromeOS",
     "customizations": "Зміни",
     "finalNotes": "Вирок",
-    "gameplay": "Інші Можливі Проблеми",
-    "graphics": "Графіка та Швидкодія",
     "multiplayer": "Мультиплеєр",
     "preview": "Попередній перегляд",
     "setup": "Встановлення",
-    "stability": "Стабільність",
     "startup": "Встановлення та Запуск",
-    "tinkerCheck": "Тип Звіту",
+    "steamDeckRelated": "Щодо Steam Deck",
+    "technical": "Технічні деталі",
     "unownedWarning": "Не в Бібліотеці"
   },
-  "type": {
-    "intro": [
-      "ProtonDB тепер розділяє звіти на два типи: Steam Play і Майстер.",
-      "Використовуйте звіт типу Steam Play, щоб висвітлити досвід гри без будь-яких змін. Встановіть, натисніть Старт, і розпочніть гру.",
-      "Використовуйте звіт типу Майстер, якщо Ви зробили зміни або налаштування щоб розпочати гру.",
-      "Детальніше про відмінності див. [цей блог-пост]{{link}}."
-    ],
+  "tinkerOverride": {
+    "additionalNotes": {
+      "label": "Опис змін"
+    },
     "options": {
-      "steamPlay": {
-        "long": "Звіт SteamPlay",
+      "no": {
+        "long": "Ні, жодних змін",
         "short": "Звіт SteamPlay"
       },
-      "tinker": {
-        "long": "Звіт Майстер",
+      "yes": {
+        "long": "Так",
         "short": "Звіт Майстер"
       }
     },
-    "prompt": "Звіт котрого типу Ви пишете?"
+    "prompt": "Поки що це схоже на звіт без змін. Чи вносили ви зміни, через які це має бути звіт Майстер? [Детальніше]({{link}})"
+  },
+  "triedOob": {
+    "prompt": "Ваш звіт буде класифіковано як звіт Майстер. Чи пробували ви грати через Steam і Proton без жодних змін?"
+  },
+  "variant": {
+    "additionalNotes": {
+      "label": "Як вона називається?"
+    },
+    "legend": "Варіант",
+    "options": {
+      "experimental": {
+        "long": "Примусово експериментальна",
+        "short": "Експериментальна"
+      },
+      "ge": {
+        "long": "Glorious Eggroll (GE)",
+        "short": "GE"
+      },
+      "native": {
+        "long": "Нативно. Без Proton.",
+        "short": "нативно"
+      },
+      "notListed": {
+        "long": "Немає в списку",
+        "short": "Немає в списку"
+      },
+      "official": {
+        "long": "Та, яку Steam рекомендує за замовчуванням",
+        "short": "Офіційна"
+      },
+      "older": {
+        "long": "Перейшли на старішу версію",
+        "short": "Старіша"
+      }
+    },
+    "prompt": "Який варіант Proton ви використовуєте?"
   },
   "verdict": {
     "additionalNotes": {
       "label": "Підсумок (максимум {{count}} знаків)",
       "placeholder": "Додайте короткий підсумок. Це буде заголовок вашого звіту."
     },
-    "prompt": "Чи мав би типовий гравець приємний досвід з цією грою на Linux використовуючи Proton?"
+    "prompt": "Чи сподобалося б типовому гравцеві грати в цю гру на Linux так, як грали Ви?"
+  },
+  "verdictOob": {
+    "prompt": "Якщо запускати гру просто зі Steam, чи сподобалося б типовому гравцеві грати в неї на Linux навіть без жодних змін?"
   },
   "welcome": {
     "headline": "Ласкаво Просимо",

@@ -1,34 +1,67 @@
 {
+  "attribution": {
+    "steamDb": "{{subject}} надано [{{name}}]({{link}}) через [{{partnerName}}]({{partnerLink}})."
+  },
   "auth": {
+    "forgetMe": "Забути мене",
     "genericSignIn": "Увійти",
-    "headline": "Автентифікація Steam",
+    "headline": "Обліковий запис Steam",
+    "identifierExample": "Приклади:\n - [{{profileExample}}](#)\n - {{steamIdExample}}",
+    "identifierOptions": "Steam ID або URL профілю",
+    "logInToContribute": "Підтвердіть свій обліковий запис Steam, щоб робити внески",
     "loggedInAs": "Ви увійшли як {{username}}",
-    "notLoggedIn": "Не Увійшли в Систему",
+    "notLoggedIn": "Вхід не виконано",
+    "note": "У ваших [налаштуваннях приватності Steam]({{link}}) параметр 'Мій профіль' має бути публічним. Параметр 'Інформація про ігри' не обов'язково робити публічним, але якщо він відкритий, дані про володіння грою та ігровий час надсилатимуться разом з вашими внесками.",
+    "profileUrl": "URL профілю",
+    "signOut": "Вийти",
+    "steamId": "Steam ID",
+    "steamIdIntro": "Замість входу через Steam ви можете вказати [ідентифікатор]({{steamIdLink}}) облікового запису, щоб [переглянути його бібліотеку або список бажаного]({{link}}).",
+    "steamLoginIntro": "ProtonDB вимагає автентифікації через Steam, щоб підтвердити особу дописувачів. Такий вхід надає доступ до деякої публічної інформації про вас, але НЕ надає жодних привілеїв щодо вашого облікового запису Steam.",
     "steamSignIn": "Увійти за допомогою Steam",
-    "unlink": "Від'єднати обліковий запис"
+    "topBarLink": "Ваші ігри Steam",
+    "unlink": "Від'єднати обліковий запис",
+    "unverified": "Не підтверджено",
+    "vanityName": "Публічне ім'я",
+    "verifiedAs": "Верифіковано як {{username}}"
   },
   "content": {
     "followingPost": "Наступний Допис",
     "previousPost": "Попередній Допис"
   },
   "contextualInfo": {
+    "dateAdded": "Додано {{context}}",
     "fixWanted": "",
+    "followers": "Підписників у Steam: {{context}}",
+    "heavilyReported": "Нещодавніх звітів: {{context}}",
     "hoursPlayed": "{{context}} годин зіграно",
     "mostBorked": "",
     "peakPlayers": "{{context}} гравців в час пік",
+    "percentPositive": "{{context}}% позитивних рецензій",
+    "playerCount": "Пік гравців: {{context}}",
+    "popular": "Підписників: {{context}}",
     "positiveRating": "{{context}}% позитивний рейтинг",
     "protonDbRating": "",
-    "recentReportCount": "{{context}} звітів з двома останніми версіями Proton"
+    "rank": "Позиція в Steam: {{context}}",
+    "recentlyImproved": "Звітів з двома останніми версіями Proton: {{context}}",
+    "recentlyReleased": "Перша партія звітів: {{context}}",
+    "releaseDate": "Дата виходу: {{context}}",
+    "userScore": "{{context}}% позитивних рецензій",
+    "wilsonRating": ""
   },
   "footer": {
+    "data": "Цей сайт використовує дані з {{name}}, а також дані",
     "description": "{{name}} є проектом любові від [@bdefore]({{link}}) і є відданою спільнотою звітувальників.",
-    "feedbackPrompt": "Маєте відгук? Приєднуйтесь до нас на Discord!",
+    "feedbackPrompt": "Маєте відгук? Поспілкуйтеся з нами!",
     "legal": "Цей сайт не пов’язаний з Valve Software. Усі ігрові зображення та логотипи є власністю відповідних правовласників."
+  },
+  "games": {
+    "zeroStateMessage": "Ігор не знайдено"
   },
   "libraryLoader": {
     "errorLoadingGames": "Помилка завантаження ігор. Будь ласка, переконайтеся, що дані профілю та гри є загальнодоступними для цього акаунта!",
-    "gameTotal": "Завантажено {{count}} ігор в бібліотеці!",
-    "note": "Переконайтесь, що в межах [Налаштування конфіденційності Steam]({{link}}) ваші  поля 'Мій профіль' та 'Інформація про ігри' встановлені як відкриті для всіх. Останні зміни в Steam зробили ці приватні за замовчуванням. Це використовує веб-API Steam для отримання публічної інформації про ваш обліковий запис, включаючи ваш ідентифікатор, ім’я профілю та аватар.",
+    "gameTotal": "{{username}} — ігор: {{count}}",
+    "headline": "Бібліотека",
+    "note": "Щоб завантажити бібліотеку, входити через Steam не обов'язково, але якщо ви це зробите, її буде знайдено автоматично. У ваших [налаштуваннях приватності Steam]({{link}}) параметри 'Мій профіль' та 'Інформація про ігри' мають бути відкритими.",
     "refresh": "Оновити"
   },
   "misc": {
@@ -38,7 +71,11 @@
     "areYouSure": "Ви впевнені?",
     "cancel": "Відмінити",
     "chipset": "Чіпсет",
+    "clear": "Очистити",
     "conjunction": "та",
+    "delete": "Видалити",
+    "device": "Пристрій",
+    "devices": "Пристрої",
     "discard": "Скинути",
     "dismiss": "Закрити",
     "distro": "Дистрибутив",
@@ -47,18 +84,22 @@
     "feedbackPrompt": "Маєте відгук? Повідомте нам на [Discord]({{link}})",
     "filter": "Фільтр",
     "filteringSettings": "Параметри Фільтру",
+    "forget": "Забути",
     "games": "Ігри",
     "hide": "Приховати {{what}}",
+    "hour": "год.",
+    "hours": "год.",
     "include": "Долучити",
     "install": "Встановити",
     "joinUsPrompt": "Приєднуйтеся до нас на Discord!",
-    "lastContentRefreshTime": "Останнє оновлення вмісту {{time}} тому",
+    "lastContentRefreshTime": "Останнє оновлення вмісту: {{time}}",
     "meetsRequirements": "Задовольняє Потреби",
     "moreInfo": "Більше Інформації",
     "multiplayer": "Мультиплеєр",
     "native": "Нативні",
     "negative": "Ні",
     "notFound": "Не Знайдено",
+    "notRecommended": "Не рекомендовано",
     "note": "Примітка",
     "overall": "Загалом",
     "pending": "Очікується",
@@ -66,22 +107,31 @@
     "provisional": "Провізійно",
     "published": "Опубліковано",
     "rated": "Оцінено",
+    "recommended": "Рекомендовано",
     "report": "Звіт",
     "reports": "Звіти",
     "reset": "Скинути",
+    "revert": "Повернути",
     "save": "Зберегти",
     "saved": "{{what}} Збережено",
     "show": "Показати {{what}}",
     "showAll": "Показати Всі",
     "showMore": "Показати Більше",
     "skip": "Пропустити",
+    "sortBy": "Сортувати за",
+    "switchTo": "Перемкнути на {{thing}}",
     "tier": "Рівень",
+    "tinker": "майстер",
     "total": "Всього",
+    "tryAgain": "Спробувати знову",
     "unknown": "Невідомо",
+    "unknownError": "Невідома помилка",
+    "updated": "{{what}} оновлено",
     "version": "Версія"
   },
   "nav": {
     "contribute": "Долучитися",
+    "dashboard": "Дашборд",
     "explore": "Оглянути",
     "help": "Допомога",
     "news": "Новини",
@@ -91,12 +141,15 @@
   },
   "pagination": {
     "next": "Наступна сторінка",
+    "nextShort": "Далі",
     "previous": "Попередня сторінка",
+    "previousShort": "Назад",
     "summary": "Результати {{from}} до {{to}} із {{total}}"
   },
   "preferences": {
     "headline": "Налаштування",
     "intro": "ProtonDB відображає псевдонім Steam відправника поруч із звітами. Ваш унікальний ідентифікатор Steam не передається серед даних, опублікованих у звіті. Якщо Ви стурбовані, що ваш псевдонім може бути використаний для вирахунку вашого Steam-профілю, Ви можете вибрати інший псевдонім тут, і його буде використано після наступного оновлення вмісту.",
+    "note": "Ваші налаштування синхронізуватимуться всюди, де ви входите через Steam.",
     "questions": {
       "customName": {
         "additionalNotes": {
@@ -113,16 +166,26 @@
       },
       "performanceMode": {
         "prompt": "Ви б хотіли запустити версію сайту, котра більш привітна для швидкодії?"
+      },
+      "preferredDeviceType": {
+        "options": {
+          "any": "Без переваги",
+          "chromeOs": "ChromeOS",
+          "pc": "ПК",
+          "steamDeck": "Steam Deck"
+        },
+        "prompt": "Якому типу пристроїв надавати перевагу під час відображення вмісту?"
       }
     }
   },
   "profile": {
-    "exploreLibrary": "Ви можете розглядати свою бібліотеку, відсортовану за наступними поданнями:",
+    "exploreLibrary": "Тепер, коли вашу бібліотеку завантажено, ви можете переглядати її, відсортовану за такими поданнями:",
     "inYourLibrary": "У Вашій бібліотеці",
     "libraryTags": {
       "byHoursPlayed": "За годинами в ігрі",
       "byPlayerCount": "За кількостями гравців",
       "byProtonDbRating": "За рейтингом ProtonDB",
+      "byReleaseDate": "За датою виходу",
       "bySteamDbScore": "За оцінкою користувачів SteamDB",
       "headline": "Наступні теги поширені у Вашій бібліотеці. Ви можете зануритися у пошук використовуючи їх:",
       "lackReportsByHoursPlayed": "Нестача Звітів за вашими годинами в ігрі",
@@ -133,14 +196,34 @@
     "yourContributions": "Ваші Внески"
   },
   "reports": {
-    "clear": "Очистити",
+    "addAReportPrompt": "Розкажіть усім, як вона працює, [додавши звіт]({{link}})!",
+    "chromeOsVerifiedStatus": "Статус «Готово для Chromebook»",
+    "deckVerifiedStatus": "Статус сумісності зі Steam Deck",
+    "displayExcluded": "Показати виключені звіти",
+    "doYouOwnSteamDeck": "Маєте такий пристрій? Ви можете [додати його]({{link}}) у своєму профілі.",
     "filteredOutCount": "{{count}} відфільтровано",
-    "filteredOutHeadline": "Наведені нижче {{count}} звіти не відповідають Вашим критеріям фільтрування {{filters}}",
+    "filteredOutHeadline": "Звітів, що не відповідають вашим критеріям фільтрування {{filters}}: {{count}}",
+    "haveYouPlayed": "Ви грали в цю гру?",
+    "inLibrary": "Ця гра є в бібліотеці.",
+    "noReportsYetChromeOs": "Ще немає звітів для ChromeOS.",
+    "noReportsYetSteamDeck": "Ще немає звітів для Steam Deck.",
+    "readyToAuthorSteamDeck": "Ви можете писати звіти для Steam Deck.",
     "superceded": "Існує новіший звіт цього типу від цього автора",
+    "timePlayedOnLinux": "Ваш ігровий час на Linux: {{hours}} год.",
+    "tinkerMethods": {
+      "customProton": "Модифікований Proton",
+      "experimental": "Перехід на експериментальну версію",
+      "launchOptions": "Налаштування параметрів запуску",
+      "launcher": "Лаунчер",
+      "older": "Перехід на старішу версію",
+      "other": "Інше"
+    },
     "zeroStateMessage": "Немає звітів",
     "zeroStateMessageWithFilters": "Жоден звіт не відповідає Вашим застосованим фільтрам"
   },
   "search": {
-    "resultsHeader": "Результати пошуку для {{q}}"
+    "headline": "Пошук: {{q}}",
+    "pageTitle": "Пошук",
+    "results": "Результати"
   }
 }
