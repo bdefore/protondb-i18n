@@ -1,7 +1,4 @@
 {
-  "auth": {
-    "intro": "Вхід за допомогою Steam дозволяє надсилати звіти та використовувати [Огляд сторінки з фільтром бібліотеки]({{link}}), щоб обмежити результати до власних ігор."
-  },
   "breakdown": {
     "headline": "Популярні Ігри",
     "popularHeadline": "Рейтинг для {{count}} найбільш популярних",
@@ -207,7 +204,6 @@
     "layout": "Макет",
     "loadError": "Помилка завантаження ігор!",
     "notLoggedIn": "Неможливо завантажити бібліотеку без ідентифікатора Steam. Відвідайте свій [Профіль]({{link}}) щоб додати його.",
-    "poweredBy": "Працює завдяки",
     "sorts": {
       "dateAdded": "Нещодавно додані",
       "fixWanted": "Потребує Виправлення",
@@ -229,7 +225,6 @@
       "antiCheat": "Анти-чіт",
       "deckVerified": "Перевірено для Deck",
       "excludeNative": "Виключити нативні",
-      "includeNative": "Долучити Нативні",
       "lackReports": "Потрібні Звіти",
       "restrictToLibrary": "Бібліотека",
       "untested": "Потрібні Звіти",
@@ -390,7 +385,6 @@
     "whenMeetingMinimumRequirements": "За Дотриманням Мінімальних Вимог"
   },
   "steamAuthor": {
-    "hoursInSteam": "{{count}} годин в Steam",
     "hoursOnLinux": "{{time}} на Linux",
     "hoursOverall": "{{time}} загалом",
     "timeWithProton": "{{time}} з Proton"

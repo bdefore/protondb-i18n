@@ -156,10 +156,6 @@
         "long": "Media Foundation DLL (mf-install)",
         "short": "Media Foundation DLL"
       },
-      "native2Proton": {
-        "long": "Native2Proton",
-        "short": "Native2Proton"
-      },
       "notListed": {
         "long": "Щось інше",
         "short": "Щось інше"
@@ -211,13 +207,6 @@
       }
     },
     "prompt": "Скільки часу Ви грали в гру?"
-  },
-  "extra": {
-    "additionalNotes": {
-      "label": "Додаткові Нотатки",
-      "placeholder": "Будь ласка, додайте їх тут."
-    },
-    "prompt": "Ви хочете щось додати, що не було висвітлено в попередніх питаннях?"
   },
   "frameRate": {
     "legend": "FPS",
@@ -349,9 +338,6 @@
     },
     "prompt": "Чи впливають на гру програми анти-чіт?"
   },
-  "isMultiplayerImportant": {
-    "prompt": "Чи є мультиплеєр важливою частиною цієї гри?"
-  },
   "launchFlagsUsed": {
     "additionalNotes": {
       "label": "Подальші Деталі",
@@ -443,14 +429,6 @@
         "long": "Bottles",
         "short": "Bottles"
       },
-      "gamehub": {
-        "long": "Gamehub",
-        "short": "Gamehub"
-      },
-      "lutris": {
-        "long": "Lutris",
-        "short": "Lutris"
-      },
       "notListed": {
         "long": "Не Вказано",
         "short": "Не Вказано"
@@ -529,7 +507,6 @@
     "prompt": "Чи відчували Ви несподіване сповільнення враховуючи Ваше обладнання?"
   },
   "prerequisites": {
-    "invalidOrMissingSystemInfo": "Інформація про систему відсутня або недійсна",
     "missingProfileInfo": "Інформація про профіль неповна. Відсутнє: {{context}}",
     "noValidDevices": "Жоден з ваших пристроїв не має коректної системної інформації",
     "notLoggedIn": "Не увійшли в систему через {{context}}"
@@ -617,16 +594,12 @@
     "chromeOsRelated": "Щодо ChromeOS",
     "customizations": "Зміни",
     "finalNotes": "Вирок",
-    "gameplay": "Інші Можливі Проблеми",
-    "graphics": "Графіка та Швидкодія",
     "multiplayer": "Мультиплеєр",
     "preview": "Попередній перегляд",
     "setup": "Встановлення",
-    "stability": "Стабільність",
     "startup": "Встановлення та Запуск",
     "steamDeckRelated": "Щодо Steam Deck",
     "technical": "Технічні деталі",
-    "tinkerCheck": "Тип Звіту",
     "unownedWarning": "Не в Бібліотеці"
   },
   "tinkerOverride": {
@@ -647,25 +620,6 @@
   },
   "triedOob": {
     "prompt": "Ваш звіт буде класифіковано як звіт Майстер. Чи пробували ви грати через Steam і Proton без жодних змін?"
-  },
-  "type": {
-    "intro": [
-      "ProtonDB тепер розділяє звіти на два типи: Steam Play і Майстер.",
-      "Використовуйте звіт типу Steam Play, щоб висвітлити досвід гри без будь-яких змін. Встановіть, натисніть Старт, і розпочніть гру.",
-      "Використовуйте звіт типу Майстер, якщо Ви зробили зміни або налаштування щоб розпочати гру.",
-      "Детальніше про відмінності див. [цей блог-пост]{{link}}."
-    ],
-    "options": {
-      "steamPlay": {
-        "long": "Звіт SteamPlay",
-        "short": "Звіт SteamPlay"
-      },
-      "tinker": {
-        "long": "Звіт Майстер",
-        "short": "Звіт Майстер"
-      }
-    },
-    "prompt": "Звіт котрого типу Ви пишете?"
   },
   "variant": {
     "additionalNotes": {

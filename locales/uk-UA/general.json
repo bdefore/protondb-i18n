@@ -42,7 +42,6 @@
     "positiveRating": "{{context}}% позитивний рейтинг",
     "protonDbRating": "",
     "rank": "Позиція в Steam: {{context}}",
-    "recentReportCount": "{{context}} звітів з двома останніми версіями Proton",
     "recentlyImproved": "Звітів з двома останніми версіями Proton: {{context}}",
     "recentlyReleased": "Перша партія звітів: {{context}}",
     "releaseDate": "Дата виходу: {{context}}",
@@ -199,7 +198,6 @@
   "reports": {
     "addAReportPrompt": "Розкажіть усім, як вона працює, [додавши звіт]({{link}})!",
     "chromeOsVerifiedStatus": "Статус «Готово для Chromebook»",
-    "clear": "Очистити",
     "deckVerifiedStatus": "Статус перевірки для Steam Deck",
     "displayExcluded": "Показати виключені звіти",
     "doYouOwnSteamDeck": "Маєте такий пристрій? Ви можете [додати його]({{link}}) у своєму профілі.",
@@ -226,7 +224,6 @@
   "search": {
     "headline": "Пошук: {{q}}",
     "pageTitle": "Пошук",
-    "results": "Результати",
-    "resultsHeader": "Результати пошуку для {{q}}"
+    "results": "Результати"
   }
 }
