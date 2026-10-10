@@ -56,7 +56,7 @@ As ProtonDB continues development, new text will be added that may need translat
 
 - German (de-DE): [@NoXPhasma](https://github.com/NoXPhasma) and [@VoxelCubes](https://github.com/VoxelCubes)
 - Polish (pl-PL): [@kacperski1](https://github.com/kacperski1)
-- Ukrainian (uk-UA): [@iodream](https://github.com/iodream)
+- Ukrainian (uk-UA): [@iodream](https://github.com/iodream) and [@Avinamor](https://github.com/Avinamor)
 - Bulgarian (bg-BG): [@mialy](https://github.com/mialy)
 - Greek (el-GR): [@xnick](https://github.com/xnick)
 - Swedish (sv-SE): [@newbytee](https://github.com/newbytee)
